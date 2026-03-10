@@ -3,33 +3,33 @@
 **Status:** Decidido  
 **Data:** *(preencher)*  
 **Decisor(es):** *(preencher)*  
-**Contexto de decisão:** Pendência de classificação no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) — atribuir a kkkk9q `kkkkcb` ao kkkkg0 (kkkk56) ou tratá-la como fluxo kkkk7r acionado por evento.
+**Contexto de decisão:** Pendência de classificação no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) — atribuir a kkkk9q `kkkkcb` ao kkkkg0 (kkkk56) ou tratá-la como kkkkvr kkkk7r acionado por kkkkx9.
 
 ---
 
 ## Contexto
 
-Durante a decomposição do kkkkhk monolítico da kkkkfj em kkkk0n, surgiu a dúvida sobre onde classificar a kkkk9q `kkkkcb`.
+Durante a kkkkgv do kkkkhk kkkkg4 da kkkkfj em kkkk0n, surgiu a dúvida sobre onde classificar a kkkk9q `kkkkcb`.
 
 As opções consideradas foram:
 
 - kkkkdx o kkkktr como parte do **kkkkg0 — kkkk56**
-- tratar o cadastro como **fluxo kkkk7r acionado por evento**, independente da etapa ativa da kkkkgq
+- tratar o cadastro como **kkkkvr kkkk7r acionado por kkkkx9**, independente da etapa ativa da kkkkgq
 
 ---
 
-## Problema arquitetural
+## Problema kkkkfu
 
-Durante a decomposição do kkkkhk monolítico surgiram dúvidas sobre a responsabilidade do kkkktr:
+Durante a kkkkgv do kkkkhk kkkkg4 surgiram dúvidas sobre a kkkkyr do kkkktr:
 
 - pertence à etapa de **kkkk56 (kkkkg0)**?
-- ou é um **fluxo kkkk7r acionado por evento**?
+- ou é um **kkkkvr kkkk7r acionado por kkkkx9**?
 
 Essa classificação impacta:
 
-- a distribuição de responsabilidades entre processos kkkkhk
-- o acoplamento entre validações e integrações regulatórias
-- a fidelidade ao desenho do kkkkhk monolítico
+- a distribuição de kkkkwp entre kkkkpa kkkkhk
+- o kkkkyk entre kkkkwd e kkkkgc regulatórias
+- a fidelidade ao desenho do kkkkhk kkkkg4
 
 ---
 
@@ -37,85 +37,85 @@ Essa classificação impacta:
 
 A kkkkuc/kkkkud nº 4.753/2019 exige que instituições financeiras realizem procedimentos de **kkkk05** durante o kkkk55 de kkkkp3, incluindo avaliação de kkkkub.
 
-O kkkktr presente no kkkkhk parece representar o **registro ou comunicação desse kkkk55 de qualificação** junto a kkkk50 internos ou regulatórios.
+O kkkktr presente no kkkkhk parece representar o **registro ou kkkku0 desse kkkk55 de qualificação** junto a kkkk50 internos ou regulatórios.
 
 A norma não define explicitamente um "kkkkei", mas exige que o banco mantenha mecanismos de classificação de kkkkli do kkkk1x antes da abertura da kkkklh.
 
 ---
 
-## Evidência no kkkkhk monolítico
+## Evidência no kkkkhk kkkkg4
 
 O kkkktr aparece no kkkkhk como:
 
-- subprocesso **"kkkkkk"**
-- configurado como **event subprocess (`kkkkoy`)**
+- kkkkfl **"kkkkkk"**
+- configurado como **kkkkja kkkkhg (`kkkkoy`)**
 - disparado pela variável `kkkkbg`
 
-**Fluxo de kkkk5k:**
+**kkkkvq de kkkk5k:**
 
-`kkkkb0` → `kkkk1b` → (seta `kkkkbg`) → event subprocess inicia kkkkei
+`kkkkb0` → `kkkk1b` → (seta `kkkkbg`) → kkkkja kkkkhg inicia kkkkei
 
-**Fluxo interno do subprocesso:**
+**kkkkvq interno do kkkkfl:**
 
-start event → `kkkkcb` (kkkkc9, kkkk91 `kkkk0m`) → `kkkk0b` → end (com kkkkaa em erro, até 3 tentativas).
+start kkkkja → `kkkkcb` (kkkkc9, kkkk91 `kkkk0m`) → `kkkk0b` → end (com kkkkaa em erro, até 3 tentativas).
 
-A kkkks7 da kkkklh **não aguarda** o kkkkdy do cadastro: não há join nem kkkk7v que exija o término do subprocesso para seguir para `kkkkel` ou `kkkkc7`. A kkkkml `kkkkbe` (kkkkg0) é operação distinta.
+A kkkks7 da kkkklh **não aguarda** o kkkkdy do cadastro: não há join nem kkkk7v que exija o término do kkkkfl para seguir para `kkkkel` ou `kkkkc7`. A kkkkml `kkkkbe` (kkkkg0) é operação distinta.
 
 ---
 
-## Interpretação arquitetural
+## Interpretação kkkkfu
 
 - O kkkk5k ocorre **após `kkkkb0`**, na região de configuração/kkkkss, **fora** da etapa de kkkk56 (kkkkg0).
-- O cadastro é **assíncrono e não bloqueante**, executando em paralelo ao fluxo principal.
-- O cadastro **não pertence a uma fase sequencial da kkkkgq**, sendo acionado por evento e executado em paralelo ao fluxo principal.
+- O cadastro é **assíncrono e não bloqueante**, executando em paralelo ao kkkkvr principal.
+- O cadastro **não pertence a uma fase sequencial da kkkkgq**, sendo acionado por kkkkx9 e executado em paralelo ao kkkkvr principal.
 
-Conclusão: tratar como **fluxo kkkk7r acionado por evento** reflete o desenho atual do kkkkhk monolítico.
+Conclusão: tratar como **kkkkvr kkkk7r acionado por kkkkx9** reflete o desenho atual do kkkkhk kkkkg4.
 
 ---
 
 ## Decisão
 
-A kkkk9q `kkkkcb` será tratada como **fluxo kkkk7r acionado por evento**, implementado como **event subprocess**, e não como parte fixa do kkkkg0.
+A kkkk9q `kkkkcb` será tratada como **kkkkvr kkkk7r acionado por kkkkx9**, implementado como **kkkkja kkkkhg**, e não como parte fixa do kkkkg0.
 
 **Motivos:**
 
-1. No kkkkhk monolítico o cadastro é modelado como **event subprocess (`kkkkoy`)**.
+1. No kkkkhk kkkkg4 o cadastro é modelado como **kkkkja kkkkhg (`kkkkoy`)**.
 2. O kkkk5k ocorre **após `kkkkb0`**, fora da etapa de kkkkth.
-3. O fluxo é **assíncrono e não bloqueante**, executando em paralelo ao fluxo principal.
+3. O kkkkvr é **assíncrono e não bloqueante**, executando em paralelo ao kkkkvr principal.
 4. A kkkks7 da kkkklh **não depende do resultado do kkkkei**.
 
-**Exceção:** Se o kkkkag definir que o kkkkei **só** deve ocorrer na etapa de kkkk56 (ex.: após kkkks4), mover kkkk5k e subprocesso para o kkkkg0 e documentar a mudança.
+**Exceção:** Se o kkkkag definir que o kkkkei **só** deve ocorrer na etapa de kkkk56 (ex.: após kkkks4), mover kkkk5k e kkkkfl para o kkkkg0 e documentar a mudança.
 
-### Princípio arquitetural aplicado
+### Princípio kkkkfu aplicado
 
-Integrações regulatórias assíncronas devem ser modeladas como **kkkk66 acionados por evento**, evitando acoplamento com etapas sequenciais da kkkkgq.
+kkkkwi regulatórias assíncronas devem ser modeladas como **kkkk66 acionados por kkkkx9**, evitando kkkkyk com etapas sequenciais da kkkkgq.
 
 ---
 
-## Estratégia de refatoração
+## Estratégia de kkkkx2
 
-Durante a decomposição do kkkkhk monolítico:
+Durante a kkkkgv do kkkkhk kkkkg4:
 
 - o kkkk5k `kkkkbg` continua sendo realizado após `kkkkb0`
-- o kkkkei será executado por um **event subprocess no kkkke4**
+- o kkkkei será executado por um **kkkkja kkkkhg no kkkke4**
 
-**Fluxo resultante:**
+**kkkkvq resultante:**
 
 1. `kkkkb0` executa
-2. evento seta `kkkkbg`
-3. kkkke4 escuta o evento
-4. subprocesso "kkkkb4" é disparado
+2. kkkkx9 seta `kkkkbg`
+3. kkkke4 escuta o kkkkx9
+4. kkkkfl "kkkkb4" é disparado
 5. external kkkk9q `kkkkcb` executa integração kkkkhx
 
 ---
 
-## Fluxo arquitetural resultante
+## kkkkvq kkkkfu resultante
 
 ```mermaid
 flowchart LR
   A[kkkkb0]
-  B[Evento<br>kkkkbg]
-  C[Event Subprocess<br>kkkkb4]
+  B[kkkkyc<br>kkkkbg]
+  C[Event kkkkl0<br>kkkkb4]
   D[kkkkcb<br>kkkkc9]
   E[kkkk0b]
 
@@ -125,7 +125,7 @@ flowchart LR
   D --> E
 ```
 
-O fluxo principal da kkkkgq continua sua execução normalmente, sem depender do término do kkkkei.
+O kkkkvr principal da kkkkgq continua sua execução normalmente, sem depender do término do kkkkei.
 
 ---
 
@@ -135,12 +135,12 @@ O fluxo principal da kkkkgq continua sua execução normalmente, sem depender do
 
 Essa alternativa exigiria:
 
-- mover o kkkk5k do evento para dentro do kkkkg0
+- mover o kkkk5k do kkkkx9 para dentro do kkkkg0
 - alterar o momento em que o cadastro é executado
 
-Essa mudança **não preservaria o comportamento atual do kkkkhk monolítico**, onde o cadastro é disparado após o direcionador da kkkk3l.
+Essa mudança **não preservaria o comportamento atual do kkkkhk kkkkg4**, onde o cadastro é disparado após o kkkkxg da kkkk3l.
 
-Nesta fase da decomposição, o critério decisivo adotado foi **fidelidade ao desenho existente**: reduzir kkkkli de regressão funcional e manter o momento do cadastro (após direcionador) já validado em produção. A decomposição pode ser usada no futuro para redesenhar fluxos se o kkkkag exigir; até lá, preservar o comportamento do kkkk51 evita mudança de contrato e reteste desnecessários. Por esse motivo a alternativa foi descartada.
+Nesta fase da kkkkgv, o critério decisivo adotado foi **fidelidade ao desenho existente**: reduzir kkkkli de regressão funcional e manter o momento do cadastro (após kkkkxg) já validado em produção. A kkkkgv pode ser usada no futuro para redesenhar fluxos se o kkkkag exigir; até lá, preservar o comportamento do kkkk51 evita mudança de kkkkvn e reteste desnecessários. Por esse motivo a alternativa foi descartada.
 
 ---
 
@@ -148,18 +148,18 @@ Nesta fase da decomposição, o critério decisivo adotado foi **fidelidade ao d
 
 ### kkkkfn
 
-- preserva o comportamento do kkkkhk monolítico
-- evita acoplamento com kkkkg0
-- mantém arquitetura orientada a eventos
+- preserva o comportamento do kkkkhk kkkkg4
+- evita kkkkyk com kkkkg0
+- mantém kkkksk orientada a eventos
 
 ### Trade-offs
 
-- lógica kkkk0f fica fora do fluxo sequencial principal
-- leitura do kkkk55 exige entender kkkk66 acionados por evento
+- lógica kkkk0f fica fora do kkkkvr sequencial principal
+- leitura do kkkk55 exige entender kkkk66 acionados por kkkkx9
 
 ### Riscos
 
-Se no futuro a kkkks7 da kkkklh depender do kkkkei, o fluxo precisará ser revisado para incluir sincronização com esse subprocesso.
+Se no futuro a kkkks7 da kkkklh depender do kkkkei, o kkkkvr precisará ser revisado para incluir sincronização com esse kkkkfl.
 
 ---
 
@@ -167,6 +167,6 @@ Se no futuro a kkkks7 da kkkklh depender do kkkkei, o fluxo precisará ser revis
 
 | Documento | Uso |
 | ----------- | ----- |
-| `kkkkk6` | Subprocesso kkkkdg; kkkk5k kkkk1b após kkkkb0 |
+| `kkkkk6` | kkkkyf kkkkdg; kkkk5k kkkk1b após kkkkb0 |
 | [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Pendências de classificação |
 | [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | Bloco kkkkip kkkkg0; menção a "kkkkdg" como kkkkg0 ou kkkk7r |
