@@ -1,10 +1,10 @@
 # Correção de kkkkf4 — kkkkcc no kkkkh5
 
-**ID da decisão:** TRACE-DEC-001
-**Status:** Aplicado
-**Tipo:** Correção de kkkkf4 kkkkfa
-**Data:** 2026-03-05
-**Decisor(es):** Arquitetura + kkkkc8
+**ID da decisão:** TRACE-DEC-001 
+**Status:** Aplicado 
+**Tipo:** Correção de kkkkf4 kkkkfa 
+**Data:** 2026-03-05 
+**Decisor(es):** Arquitetura + kkkkc8 
 
 > **Contexto:** Item "Divergências e pontos a validar" do [kkkk3m](../Relatórios%20da%20atividade/kkkk3m). O [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) chegou a listar `kkkkcc` como kkkk8n do **kkkkgx** (kkkke2), enquanto a decisão kkkk5u e o kkkkh6 alocam em **kkkkgz** (Produtos). Correção aplicada: `kkkkcc` removido do kkkkgx e incluído no kkkkgz no kkkkh5, com referência a [kkkk26](kkkk26).
 
