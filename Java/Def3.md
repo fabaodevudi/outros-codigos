@@ -1,12 +1,12 @@
 # Correção de kkkkf4 — kkkkcc no kkkkh5
 
-**ID da decisão:** TRACE-DEC-001 
-**Status:** Aplicado 
-**Tipo:** Correção de kkkkf4 kkkkfa 
-**Data:** 2026-03-05 
-**Decisor(es):** Arquitetura + kkkkc8 
+**ID da decisão:** TRACE-DEC-001
+**Status:** Aplicado
+**Tipo:** Correção de kkkkf4 kkkkfa
+**Data:** 2026-03-05
+**Decisor(es):** kkkkka + kkkkc8
 
-> **Contexto:** Item "Divergências e pontos a validar" do [kkkk3m](../Relatórios%20da%20atividade/kkkk3m). O [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) chegou a listar `kkkkcc` como kkkk8n do **kkkkgx** (kkkke2), enquanto a decisão kkkk5u e o kkkkh6 alocam em **kkkkgz** (Produtos). Correção aplicada: `kkkkcc` removido do kkkkgx e incluído no kkkkgz no kkkkh5, com referência a [kkkk26](kkkk26).
+> **Contexto:** Item "Divergências e pontos a validar" do [kkkk3m](../Relatórios%20da%20atividade/kkkk3m). O [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) chegou a listar `kkkkcc` como kkkk8n do **kkkkgx** (kkkke2), enquanto a decisão kkkk5u e o kkkkh6 alocam em **kkkkgz** (kkkkwt). Correção aplicada: `kkkkcc` removido do kkkkgx e incluído no kkkkgz no kkkkh5, com referência a [kkkk26](kkkk26).
 
 ---
 
@@ -21,10 +21,10 @@ Esta correção **não introduz nova decisão kkkkfu**. Trata-se apenas de alinh
 | Onde | O que estava errado |
 | ------ | ---------------------- |
 | **kkkkh5 — kkkkgx** | `kkkkcc` ([kkkkhr] kkkke8 kkkkmf) aparecia na tabela de kkkka6/kkkkg1 do kkkkgx (kkkkty). |
-| **kkkkh5 — kkkkgz** | A mesma kkkk9q não constava explicitamente na tabela do kkkkgz (Produtos). |
+| **kkkkh5 — kkkkgz** | A mesma kkkk9q não constava explicitamente na tabela do kkkkgz (kkkkwt). |
 | **kkkkh6** | Bloco "kkkkbo" já incluía `kkkkcc` conforme decisão kkkksp/kkkk7d em kkkkgz. |
 
-Isso gerava ambiguidade: um leitor do kkkkh5 poderia concluir que a kkkkml kkkk7d fica na kkkke2, em desacordo com a decisão e com o fluxo do `kkkkk6`.
+Isso gerava ambiguidade: um leitor do kkkkh5 poderia concluir que a kkkkml kkkk7d fica na kkkke2, em desacordo com a decisão e com o kkkkvr do `kkkkk6`.
 
 ---
 
@@ -33,7 +33,7 @@ Isso gerava ambiguidade: um leitor do kkkkh5 poderia concluir que a kkkkml kkkk7
 Conforme [kkkk26](kkkk26):
 
 - **kkkkcc** está dentro do kkkkfl `kkkkdh` "kkkktu" (`kkkkoy`).
-- O kkkk5k ocorre após `kkkkkz` (fim do bloco de kkkkl9 / início do contexto de kkkkss) — fronteira kkkkgy → kkkkgz, com responsabilidade em **Produtos**.
+- O kkkk5k ocorre após `kkkkkz` (fim do bloco de kkkkl9 / início do contexto de kkkkss) — fronteira kkkkgy → kkkkgz, com kkkkyr em **kkkkwt**.
 
 Conclusão: a kkkk9q **não** pertence à região de kkkke2. A fronteira correta é kkkkgz.
 
@@ -41,46 +41,46 @@ Conclusão: a kkkk9q **não** pertence à região de kkkke2. A fronteira correta
 
 | Elemento | ID kkkkhk / localização |
 | ---------- | ------------------------ |
-| Subprocesso kkkktu | `kkkkdh` |
+| kkkkyf kkkktu | `kkkkdh` |
 | kkkk8l kkkkcc | Contida em `kkkkdh`; ID técnico da kkkk8n em `kkkkk6` ou kkkk5f kkkkh5/kkkkh6 |
 
 ---
 
 ## 3. Decisão aplicada
 
-Esta correção não altera a arquitetura definida; apenas restaura a consistência entre os artefatos de kkkkgv (kkkkh5, kkkkh6) e a decisão kkkkfu previamente registrada.
+Esta correção não altera a kkkksk definida; apenas restaura a consistência entre os artefatos de kkkkgv (kkkkh5, kkkkh6) e a decisão kkkkfu previamente registrada.
 
 | Ação | Detalhe |
 | ------ | --------- |
 | **Remover** | `kkkkcc` da tabela de kkkka6/kkkkg1 do **kkkkgx** no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b). |
 | **Incluir** | `kkkkcc` na tabela de kkkka6/kkkkg1 do **kkkkgz** no kkkkh5, com observação: "Consulta kkkksq — alocado em kkkkgz conforme kkkk26". |
 
-**Rastreabilidade**
+**kkkkma**
 
 | Elemento | Localização |
 | ---------- | ------------- |
 | `kkkkcc` | kkkkhk kkkkg4: kkkkfl `kkkkdh` (kkkktu) |
 | → kkkkh6 | Bloco **kkkkbo** |
-| → kkkkh5 | **kkkkgz** (Produtos) |
+| → kkkkh5 | **kkkkgz** (kkkkwt) |
 
-**Rastreabilidade completa (audit trail):**
+**kkkkma completa (audit trail):**
 
 ```text
 kkkkk6
     → kkkkdh (kkkktu)
         → kkkkcc
             → kkkkh6: kkkkbo
-                → kkkkh5: kkkkgz (Produtos)
+                → kkkkh5: kkkkgz (kkkkwt)
                     → kkkk26
                     → TRACE-DEC-001 (esta correção)
 ```
 
 ---
 
-## 4. Consequências arquiteturais
+## 4. Consequências kkkkwm
 
-- Mantém o princípio de **responsabilidade única por domínio funcional** entre kkkkgx e kkkkgz.
-- Evita acoplamento entre **configuração de kkkklh** e **kkkktv**.
+- Mantém o princípio de **kkkkyr única por domínio funcional** entre kkkkgx e kkkkgz.
+- Evita kkkkyk entre **configuração de kkkklh** e **kkkktv**.
 - Preserva a coerência da kkkkgv funcional definida para a kkkkfj.
 - Garante consistência entre os níveis de documentação kkkkh5 e kkkkh6.
 
@@ -117,7 +117,7 @@ Ferramentas possíveis:
 
 | Documento | Uso |
 | ----------- | ----- |
-| [kkkk26](kkkk26) | Decisão: obter_limite e consultar_pa em kkkkgz |
+| [kkkk26](kkkk26) | Decisão: kkkkha e kkkkym em kkkkgz |
 | [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Artefato corrigido |
 | [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | Bloco kkkkbo — alinhamento kkkkh5/kkkkh6 |
 | [kkkk3m](../Relatórios%20da%20atividade/kkkk3m) | Seção 5 — divergência que motivou esta correção |
@@ -132,6 +132,6 @@ Não há impacto em:
 
 - execução de kkkk55
 - kkkkge ou contratos de integração
-- contratos de variáveis
+- contratos de kkkkvo
 - kkkkga de external kkkk9q
 - kkkkgc externas
