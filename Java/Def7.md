@@ -1,8 +1,8 @@
-# Decisão kkkk5u: Classificação do fluxo kkkke3 após kkkkgv kkkkhk
+# Decisão kkkk5u: Classificação do kkkkvr kkkke3 após kkkkgv kkkkhk
 
 **ID da decisão:** kkkkhk-DEC-005
 **Status:** Decidido
-**Tipo:** Classificação de fluxo cross-kkkkhk
+**Tipo:** Classificação de kkkkvr cross-kkkkhk
 **Data:** 2026-03-05
 **Decisor(es):** kkkkka + kkkkc8
 
@@ -26,7 +26,7 @@ Neste contexto, **"kkkkc5"** refere-se a um kkkkdy entre etapas que atravessa fr
 
 | Elemento | ID kkkkhk | Descrição |
 | ---------- | --------- | ----------- |
-| Aceite Produtos | kkkkid | User kkkk8l |
+| Aceite kkkkwt | kkkkid | User kkkk8l |
 | Coleta de kkkkna | kkkkih | User kkkk8l |
 | Flow (kkkkgu) | kkkke3 | Sequence Flow |
 
@@ -34,10 +34,10 @@ Neste contexto, **"kkkkc5"** refere-se a um kkkkdy entre etapas que atravessa fr
 | ---------- | ---------- |
 | **kkkke3** | `sourceRef="kkkkid"` → `targetRef="kkkkih"`; atributo `name="kkkkgu"`. |
 | **Condição** | `conditionExpression`: `${kkkk9o.hasVariable('kkkkgu') && kkkkgu=="kkkkih"}`. |
-| **kkkkid** | User kkkk8l "Aceite Produtos" — última UT relevante da etapa **Produtos e serviços** (kkkkgz). |
+| **kkkkid** | User kkkk8l "Aceite kkkkwt" — última UT relevante da etapa **kkkkwt e kkkkxt** (kkkkgz). |
 | **kkkkih** | User kkkk8l "Coleta de kkkkna" — primeira UT da etapa **kkkk56** (kkkkg0). |
 
-O kkkk51 utiliza um **padrão de navegação baseado em variável `kkkkgu`**, onde o valor indica explicitamente a kkkk9q destino. kkkkps avaliam essa variável para redirecionar o fluxo para etapas anteriores da kkkkgq.
+O kkkk51 utiliza um **padrão de kkkkwf baseado em variável `kkkkgu`**, onde o valor indica explicitamente a kkkk9q destino. kkkkps avaliam essa variável para redirecionar o kkkkvr para etapas anteriores da kkkkgq.
 
 Conclusão: o flow é um **kkkkgu** que cruza a fronteira **kkkkgz → kkkkg0**. No kkkk51 é sequence flow direto; após a kkkkgv, as duas kkkkiq estarão em kkkkpa diferentes.
 
@@ -48,7 +48,7 @@ Conclusão: o flow é um **kkkkgu** que cruza a fronteira **kkkkgz → kkkkg0**.
 Após a kkkkgv:
 
 1. Usuário completa a kkkk9q `kkkkid` no kkkkgz.
-2. kkkkra envia evento de kkkkgu com destino `kkkkih`.
+2. kkkkra envia kkkkx9 de kkkkgu com destino `kkkkih`.
 3. kkkkqa publica mensagem para o kkkke4.
 4. kkkkh0 **finaliza a kkkk5h ativa do kkkkgz**.
 5. kkkkh0 invoca o kkkkg0 com kkkkvi `kkkkih`.
@@ -59,7 +59,7 @@ Ou seja: **kkkke3** vira **kkkkgu entre kkkkhf macro** (kkkkc5), igual aos kkkko
 
 ## 3. Recomendação kkkk5u
 
-**Registrar o fluxo `kkkke3` como fluxo cross-kkkkhk mediado pelo kkkkh0**, classificado como kkkkdy kkkkgz → kkkkg0.
+**Registrar o kkkkvr `kkkke3` como kkkkvr cross-kkkkhk mediado pelo kkkkh0**, classificado como kkkkdy kkkkgz → kkkkg0.
 
 - **Registrar** no kkkkh5 (tabela "Flows kkkkc5") o flow **kkkkid → kkkkih** como **kkkkgz → kkkkg0 via kkkkh0**.
 - **Atualizar** o kkkkh5: na linha do `kkkke3`, substituir "Verificar — pode ser kkkkgz → kkkkg0" por **"kkkkgz → kkkkg0 via kkkkh0 (kkkkgu para kkkkih)"**.
@@ -69,7 +69,7 @@ Ou seja: **kkkke3** vira **kkkkgu entre kkkkhf macro** (kkkkc5), igual aos kkkko
 
 ## kkkkma kkkkfu
 
-**Fluxo original (kkkk51):**
+**kkkkvq original (kkkk51):**
 
 ```text
 kkkkid (kkkkgz)
@@ -77,7 +77,7 @@ kkkkid (kkkkgz)
         → kkkkih (kkkkg0)
 ```
 
-**Fluxo após kkkkgv:**
+**kkkkvq após kkkkgv:**
 
 ```text
 kkkkgz
@@ -97,7 +97,7 @@ kkkkg0
 
 | Documento | Uso |
 | ----------- | ----- |
-| `kkkkk6` | Fluxo: kkkkid → kkkke3 (kkkkgu) → kkkkih |
+| `kkkkk6` | kkkkvq: kkkkid → kkkke3 (kkkkgu) → kkkkih |
 | [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Tabela "Flows kkkkc5 existentes em produção" |
 | [kkkk1p](../Apresentações/kkkk1p) | kkkkcu macro (Caso 3) |
 | [kkkk3m](../Relatórios%20da%20atividade/kkkk3m) | Seção 5 — item kkkke3 |
