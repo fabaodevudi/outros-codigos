@@ -22,7 +22,7 @@ O objetivo é garantir **previsibilidade, compatibilidade e kkkkvz** entre os kk
 
 ## Fonte de verdade (kkkkh0)
 
-O **kkkk55 kkkkmc (kkkkh0)** é responsável pela kkkk53 da kkkkgq e pela manutenção do estado autoritativo da kkkkgq (source of truth). kkkku5 kkkkg2 não são fontes autoritativas de estado navegacional.
+O **kkkk55 kkkkmc (kkkkh0)** é kkkkwz pela kkkk53 da kkkkgq e pela manutenção do estado autoritativo da kkkkgq (source of truth). kkkku5 kkkkg2 não são fontes autoritativas de estado navegacional.
 
 **Conteúdo típico:** kkkkvo de formulário, progresso da kkkkgq, dados intermediários.
 
@@ -110,7 +110,7 @@ A interação entre o kkkke4 e os kkkk0n segue o **kkkk8i Contract Pattern**: ca
 
 - **kkkkvt (Input Variables):** kkkkvo disponíveis no contexto ao iniciar a kkkkem (ex.: `kkkkj6`, `kkkkw4`, `kkkkj7`).
 - **kkkkvv (Output Variables):** kkkkvo modificadas ou produzidas pelo kkkk55 kkkkhj (ex.: `kkkkj6`, `validacaoDados`).
-- **Efeitos observáveis:** mudanças externas (chamadas a kkkkge, kkkkvx em kkkk50 externos, emissão de eventos); devem ser documentados para previsibilidade na reexecução.
+- **Efeitos observáveis:** mudanças externas (chamadas a kkkkge, kkkkvx em kkkk50 kkkkxm, emissão de eventos); devem ser documentados para previsibilidade na reexecução.
 
 O kkkkh0 deve depender **exclusivamente** do kkkkvn, não da implementação interna do kkkk55 kkkkhj (tarefas, kkkkaf, estrutura de kkkkvr). Assim, alterações internas no kkkkhk do kkkkhj não impactam o kkkkmc.
 
@@ -142,7 +142,7 @@ A kkkku0 entre kkkkpa deve ocorrer exclusivamente através de:
 - kkkkvo de saída
 - eventos definidos no kkkkvn de eventos da kkkkgq
 
-Isso protege contra acoplamento.
+Isso protege contra kkkkyk.
 
 ---
 
@@ -154,7 +154,7 @@ Estruturas complexas devem evitar dependência de classes específicas da aplica
 
 ---
 
-## Diretrizes para kkkkvo de kkkk55
+## kkkkw9 para kkkkvo de kkkk55
 
 1. Estruturar dados em objetos semânticos (ex.: `kkkkj6`, `kkkkj7`).
 2. Evitar kkkkvo planas excessivas.
@@ -162,7 +162,7 @@ Estruturas complexas devem evitar dependência de classes específicas da aplica
 4. Garantir que todos os campos necessários para reconstrução da tela estejam presentes.
 5. Evitar duplicação de dados entre kkkkvo.
 6. Evitar kkkkvo derivadas que possam ser recalculadas.
-7. Manter as kkkkvo **independentes da modelagem interna dos kkkk0n**.
+7. Manter as kkkkvo **independentes da kkkkwb interna dos kkkk0n**.
 
 ---
 
@@ -175,9 +175,9 @@ Exemplo:
 - kkkk55 `kkkkj6` pode modificar `kkkkj6`
 - kkkk55 `kkkkj7` pode modificar `kkkkj7`
 
-kkkku5 kkkkg2 **não devem alterar kkkkvo de outros domínios**, evitando acoplamento entre etapas da kkkkgq.
+kkkku5 kkkkg2 **não devem alterar kkkkvo de outros domínios**, evitando kkkkyk entre etapas da kkkkgq.
 
-**Momento de kkkkvx (pré-requisito para kkkkjy):** Para que o front consiga reconstruir a tela ao kkkkgu (ou quando um Boundary Event cancelar a kkkk65 no meio da execução), os kkkk0n precisam **persistir kkkkvo de forma incremental durante a execução**, e não apenas no end kkkkja. Se a kkkkvx ocorrer só ao encerrar o kkkk55 kkkkhj e a kkkk65 for cancelada (ex.: kkkker), os dados já preenchidos na tarefa de usuário podem ser perdidos e a reconstrução da interface falha. A modelagem kkkkhk e o kkkkbz devem prever kkkkvx em kkkk7o adequados (ex.: ao completar tarefas de usuário ou em pontos definidos), conforme detalhado em [kkkkvc](kkkkvc).
+**Momento de kkkkvx (pré-requisito para kkkkjy):** Para que o front consiga reconstruir a tela ao kkkkgu (ou quando um kkkkwk Event cancelar a kkkk65 no meio da execução), os kkkk0n precisam **persistir kkkkvo de forma incremental durante a execução**, e não apenas no end kkkkja. Se a kkkkvx ocorrer só ao encerrar o kkkk55 kkkkhj e a kkkk65 for cancelada (ex.: kkkker), os dados já preenchidos na tarefa de usuário podem ser perdidos e a reconstrução da interface falha. A kkkkwb kkkkhk e o kkkkbz devem prever kkkkvx em kkkk7o adequados (ex.: ao completar tarefas de usuário ou em pontos definidos), conforme detalhado em [kkkkvc](kkkkvc).
 
 ---
 
