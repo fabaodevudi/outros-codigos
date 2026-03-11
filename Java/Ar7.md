@@ -2,7 +2,7 @@
 
 kkkkw9 para desenho e kkkkwb dos kkkk0n da kkkkfj, em kkkks2 com o modelo **sem estado próprio (kkkkjy)** definido no kkkk7p [kkkk5z](../kkkk7p/kkkk5z).
 
-Este kkkkta define **regras de kkkkwb kkkkhk** que garantem consistência kkkkfu entre o kkkk55 kkkkmc (kkkkh0) e os kkkk0n.
+Este kkkkta define **kkkkx5 de kkkkwb kkkkhk** que garantem consistência kkkkfu entre o kkkk55 kkkkmc (kkkkh0) e os kkkk0n.
 
 ---
 
@@ -43,7 +43,7 @@ Um kkkk55 kkkkhj pode conter:
 - kkkkwc de dados de uma etapa
 - kkkkwd relacionadas à etapa
 - kkkkgc necessárias à etapa
-- regras de kkkkag específicas da etapa
+- kkkkx5 de kkkkag específicas da etapa
 
 Um kkkk55 kkkkhj não deve:
 
@@ -79,15 +79,15 @@ Isso evita que um kkkk55 kkkkhj se torne um mini kkkk51 e dificulte manutenção
 kkkku5 kkkkg2 devem preferencialmente utilizar:
 
 - **kkkkpp** para kkkkwc de dados do usuário
-- **kkkkpq** para kkkkgc com kkkk50 externos
-- **Business Rule Tasks (kkkkht)** para regras de decisão
+- **kkkkpq** para kkkkgc com kkkk50 kkkkxm
+- **Business Rule Tasks (kkkkht)** para kkkkx5 de decisão
 
 Evitar:
 
 - kkkkpr complexas
 - lógica de kkkkag extensa dentro do kkkkhk
 
-A lógica de kkkkag complexa deve ser delegada a serviços ou kkkkht, mantendo o kkkkhk legível e governável.
+A lógica de kkkkag complexa deve ser delegada a kkkkxt ou kkkkht, mantendo o kkkkhk legível e governável.
 
 ---
 
@@ -95,7 +95,7 @@ A lógica de kkkkag complexa deve ser delegada a serviços ou kkkkht, mantendo o
 
 Neste contexto, **sem estado próprio** significa que:
 
-- O kkkk55 kkkkhj **não é responsável por manter estado navegacional**.
+- O kkkk55 kkkkhj **não é kkkkwz por manter estado navegacional**.
 - O **estado da kkkkgq é mantido no kkkke4**.
 - O kkkk55 kkkkhj **pode ser reiniciado a qualquer momento** sem perda de dados relevantes.
 
@@ -165,7 +165,7 @@ Os seguintes kkkkwn kkkkwm devem ser evitados:
 
 ### kkkku5 kkkkg2 stateful
 
-kkkku5 que dependem de estado navegacional persistido no engine geram forte acoplamento entre tarefas e kkkkvr de kkkkwf.
+kkkku5 que dependem de estado navegacional persistido no engine geram forte kkkkyk entre tarefas e kkkkvr de kkkkwf.
 
 Isso dificulta evolução da kkkkgq e aumenta o kkkkli de inconsistência.
 
