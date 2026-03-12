@@ -3,6 +3,7 @@
 Documento único que reúne **refinamento**, **kkkksk kkkkho/kkkkgm**, **dúvidas de implementação** e **kkkkwp front/kkkkz2** da iniciativa **kkkkzo kkkk6k** na kkkkgq kkkksg (kkkkho). Inclui narrativa para quem não assistiu ao refinamento, kkkk5w do kkkkvr (hoje vs múltiplo) e kkkky4 em aberto.
 
 **Fonte da verdade do kkkkvr:** `kkkkk6` (regra do kkkky7).  
+**Fontes deste kkkkta:** apenas originais (REFINAMENTO_MULTIPLO_DETALHADO, ARQUITETURA_CO8_MULTIPLO_NPC_CAMUNDA, DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC, RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC).
 
 ---
 
@@ -39,7 +40,7 @@ Hoje, na kkkkp3 (kkkkfj / kkkkve), o **kkkkgw** é vendido na **plataforma legad
     - Resultado: entrega previsível e menor kkkkli de regressão, pois as mudanças ficam concentradas no novo ramo e em poucas agências (lista kkkkzz).
 
   - **Deixar claro quem faz o quê (front, kkkkhp, kkkkho/kkkkgm)**  
-    Evitar fila de squads no mesmo kkkkhp (kkkkhp Info com alteração pequena pode ir antes; kkkkhp kkkkwt concentra as mudanças); definir quem alimenta o C8 com kkkkss/kkkksp para a tela de kkkkth do kkkk1x; quem faz o depara de benefícios (kkkkhp) e quem persiste kkkkvo no kkkk55 (kkkkho). Com kkkkwp explícitas, o rollout depois do kkkkzz tende a ser só ampliar agências e relaxar restrições (ex.: mais de um kkkky1), sem rediscutir kkkksk.
+    Evitar fila de squads no mesmo kkkkhp (kkkkhp Info com alteração pequena pode ir antes; kkkkhp kkkkwt concentra as mudanças); definir quem alimenta o kkkkho com kkkkss/kkkksp para a tela de kkkkth do kkkk1x; quem faz o depara de benefícios (kkkkhp) e quem persiste kkkkvo no kkkk55 (kkkkho). Com kkkkwp explícitas, o rollout depois do kkkkzz tende a ser só ampliar agências e relaxar restrições (ex.: mais de um kkkky1), sem rediscutir kkkksk.
 
 ### O que foi kkkkz8 em alto nível?
 
@@ -223,7 +224,7 @@ sequenceDiagram
 7. **Formalização** → nova API: id_intencao, kkkksp, id_plano, data kkkkyv 10, etc.
 8. Daí em diante: oneração, criação de kkkklh/kkkkgw, kkkkth e vínculo do kkkkia (fora da squad).
 
-**C8:** kkkkvo de kkkkss/kkkksp vindas do kkkkxg devem ser **persistidas no C8** para o kkkkhp da tela de kkkkth de kkkksx consumir.
+**C8 (repositório de kkkk3l/kkkkvo):** kkkkvo de kkkkss/kkkksp vindas do kkkkxg devem estar **persistidas no C8** para o kkkkhp da tela de kkkkth de kkkksx consumir (o **kkkkho** é quem grava essas kkkkvo no C8).
 
 ---
 
@@ -251,9 +252,9 @@ As lacunas abaixo estão ordenadas para serem levadas ao próximo refinamento (k
 4. **kkkk56 do kkkkia** e **formalização** serão **service kkkkiq** (kkkkaq no kkkkho) ou **external kkkkiq** (kkkk92 no kkkku2)?
 5. Se external: quais os **nomes dos topics** e quem implementa os kkkkga (squad kkkkho, kkkkhp, outro)?
 
-**Variáveis e C8**
+**Variáveis e kkkkho**
 
-6. **Onde e como** as kkkkvo de kkkkss/kkkksp do kkkkxg são persistidas no **C8** (nova service kkkk9q, extensão do kkkkaq de kkkk3l, outro)?
+6. **Onde e como** as kkkkvo de kkkkss/kkkksp do kkkkxg são persistidas no **kkkkho** (nova service kkkk9q, extensão do kkkkaq de kkkk3l, outro)?
 7. Lista **canônica de kkkkvo** do ramo kkkk6k (ex.: id_intencao_multiplo_npc, id_plano_multiplo_npc, response_formalizacao_multiplo_npc, flags de kkkkia) e quais são gravadas em kkkk3l (metadata_schemaless / dados_proposta)?
 
 **kkkky9 e kkkkxg**
@@ -275,7 +276,7 @@ As lacunas abaixo estão ordenadas para serem levadas ao próximo refinamento (k
 **kkkkhr / limites**
 
 15. Endpoint da kkkkhr para kkkkhv (e eventualmente kkkkgw) permanece o mesmo ou haverá rota nova até **junho**? Atualização do kkkkis (1.0 → novo) **dentro** da demanda do múltiplo ou em demanda separada?
-16. Onde a **sobrescrita** de kkkksp (kkkkxg sobre kkkkhr para kkkkgw) é feita: script kkkkhk, kkkk92, ou kkkkhp ao alimentar o C8?
+16. Onde a **sobrescrita** de kkkksp (kkkkxg sobre kkkkhr para kkkkgw) é feita: script kkkkhk, kkkk92, ou kkkkhp ao alimentar o kkkkho?
 
 **Rollout**
 
@@ -293,7 +294,7 @@ As lacunas abaixo estão ordenadas para serem levadas ao próximo refinamento (k
 | 1 | Ordem do ramo: terceiro ramo do kkkk7v vs kkkk7v exclusivo vs dentro do Vinculo kkkk64 | Divergência de implementação e teste |
 | 2 | Formalização em **paralelo** vs **kkkkxc** a kkkkn5 | Desenho do kkkkvr e kkkkx6 entre tarefas |
 | 3 | kkkk56 kkkkia e formalização: **service** vs **external** kkkk9q; nomes de topics e dono dos kkkkga | kkkkvm de integração e deploy |
-| 4 | Onde e como persistir kkkkss/kkkksp no **C8**; lista canônica de kkkkvo do ramo kkkk6k | Tela de kkkkth do kkkk1x sem dados ou inconsistência |
+| 4 | Onde e como persistir kkkkss/kkkksp no **kkkkho**; lista canônica de kkkkvo do ramo kkkk6k | Tela de kkkkth do kkkk1x sem dados ou inconsistência |
 | 5 | Valor exato de **kkkk45** e **sub_fluxo_direcionador**; kkkkmk do kkkkxg ao formato com `\|` | kkkke6 não reconhece kkkkzz ou rejeita request |
 | 6 | Em falha na **kkkkth do kkkkia**: kkkk3z ou cair para kkkkvr sem kkkkia | Comportamento de erro indefinido |
 | 7 | **kkkkvm da API** de kkkkth do kkkkia (endpoint, kkkkmn, códigos, kkkkaa) | Integração frágil ou retrabalho |
@@ -309,14 +310,14 @@ As lacunas abaixo estão ordenadas para serem levadas ao próximo refinamento (k
 |---|------------------|-----------------|
 | 1 | **Componente novo** vs reaproveitamento com kkkkz0 para o modelo múltiplo (kkkky6 + kkkky1 + benefícios) | Componente legado com +1000 linhas e manutenção difícil |
 | 2 | kkkkvm de payloads (kkkkxg, kkkkss, kkkkth kkkkia, formalização) com kkkkhp/kkkkqa | Retrabalho ou transformações pesadas no MFE |
-| 3 | Reconstrução da tela ao **kkkkgu** na kkkkgq a partir das kkkkvo de kkkk55/C8 | Estado inconsistente ou tela em branco |
+| 3 | Reconstrução da tela ao **kkkkgu** na kkkkgq a partir das kkkkvo de kkkk55/kkkkho | Estado inconsistente ou tela em branco |
 
 ### 7.3. Back (kkkkhp e kkkkgc)
 
 | # | Ponto em aberto | kkkk5n / impacto |
 |---|------------------|-----------------|
 | 1 | **Depara benefícios:** benefício novo do kkkkxg não cadastrado no kkkkz7 — não exibir no kkkkzp; governança no rollout | Benefício não aparece ou necessidade de kkkkmr extra ao kkkkau de planos |
-| 2 | Quem **alimenta o C8** com kkkkss/kkkksp (kkkkho vs kkkkhp) e kkkkvn de escrita | kkkkhp da tela de kkkkth lê C8 e pode ficar sem dado |
+| 2 | Quem **alimenta o kkkkho** com kkkkss/kkkksp (kkkkho vs kkkkhp) e kkkkvn de escrita | kkkkhp da tela de kkkkth lê kkkkho e pode ficar sem dado |
 | 3 | **kkkk56 do kkkkia:** kkkk53 no kkkkhp vs kkkkmr direta do kkkkgm; documentação do kkkkvn com formalização | Duplicação ou kkkkvn incompleto |
 | 4 | **Formalização:** kkkk53 (kkkkhp chama API) vs kkkk92 kkkkgm chama API; alinhamento de campos de personalização com kkkkau de formalização | Dupla kkkkyr ou campo rejeitado |
 | 5 | **kkkkhr/kkkkis:** alinhamento com FE e kkkkxi sobre esforço e cronograma (junho) | Atraso na entrega ou escopo não previsto |
@@ -340,8 +341,8 @@ As lacunas abaixo estão ordenadas para serem levadas ao próximo refinamento (k
 | **Produto/kkkklz** | kkkkzs, Pan, Mari | kkkkxe de exibição e copy; alinhamento formalização/kkkkxg (personalização); priorização kkkkyy |
 | **QA** | kkkkzr / qualidade | Testes ponta a ponta; cenários de volta e de erro (kkkkia, kkkkxg) |
 | **kkkkhp Info** | Time kkkkhp | Campos adicionais para múltiplo kkkk6k; compatibilidade com MFE atual; entregar antes do kkkkhp kkkkwt quando possível |
-| **kkkkhp kkkkwt** | Time kkkkhp | kkkke6 (kkkk7f, XP6); depara benefícios (kkkkz7); lista kkkkzz; limites (kkkkxg sobrescreve kkkkhr para kkkkgw); kkkkth kkkkia; formalização; alinhamento C8 com kkkkho |
-| **kkkkqa/kkkkho** | Time kkkkho | Ramo kkkkhk múltiplo kkkk6k; kkkkvx kkkkss/kkkksp no C8; kkkkga ou delegates (kkkkth kkkkia, formalização); sub_fluxo_direcionador; alinhamento kkkkhr/kkkkis |
+| **kkkkhp kkkkwt** | Time kkkkhp | kkkke6 (kkkk7f, XP6); depara benefícios (kkkkz7); lista kkkkzz; limites (kkkkxg sobrescreve kkkkhr para kkkkgw); kkkkth kkkkia; formalização; alinhamento de kkkkvo no kkkkho |
+| **kkkkqa/kkkkho** | Time kkkkho | Ramo kkkkhk múltiplo kkkk6k; kkkkvx kkkkss/kkkksp no kkkkho; kkkkga ou delegates (kkkkth kkkkia, formalização); sub_fluxo_direcionador; alinhamento kkkkhr/kkkkis |
 | **Líder iniciativa** | Pedro | Contratos, cronograma, alinhamento kkkkxg/formalização/kkkkhr |
 | **PM kkkkve** | kkkk8f | Escopo kkkkzp estável; priorização e riscos |
 
@@ -352,9 +353,23 @@ As lacunas abaixo estão ordenadas para serem levadas ao próximo refinamento (k
 | Área | Próximo passo | kkkkwy sugerido |
 |------|----------------|----------------------|
 | **kkkke6** | Formato final de sub_fluxo (ex.: pipe para kkkkzz kkkkh7 + múltiplo kkkk6k); cadastro um kkkky6/um kkkky1 por kkkkxr (kkkkzq) para kkkkzp | Pedro / kkkkhp kkkkwt |
-| **kkkkhk/kkkkho** | Detalhar ramo múltiplo kkkk6k após kkkkn7 (kkkk7v kkkkzz → kkkkth kkkkia → formalização → atualização kkkk3l); persistir kkkkss/kkkksp no C8 | kkkkqa/kkkkho |
+| **kkkkhk/kkkkho** | Detalhar ramo múltiplo kkkk6k após kkkkn7 (kkkk7v kkkkzz → kkkkth kkkkia → formalização → atualização kkkk3l); persistir kkkkss/kkkksp no kkkkho | kkkkqa/kkkkho |
 | **kkkkhr/kkkks8** | Confirmar endpoint kkkkhv (e kkkkgw), prazo junho, demanda múltiplo vs separada; alinhar FE e kkkkxi | Pedro / kkkkqa |
 | **MFE/front** | Decidir componente novo vs kkkkz0; kkkkvn de payloads com kkkkhp | Time de kkkkra |
 | **Formalização/kkkkia** | kkkkav campos de personalização (kkkklh para kkkkg2 vs menor); documentar kkkkvn da API de kkkkth do kkkkia | Pedro / kkkkhp kkkkwt |
 | **kkkkzn** | Fechar lacunas do § 6.2 (perguntas 1–18) e kkkky4 em aberto do § 7 | Time kkkkho/kkkkgm + Pedro |
 
+---
+
+## Referências
+
+| Documento | Uso |
+|-----------|-----|
+| `kkkkk6` | Fonte única da verdade do kkkkvr (nós, kkkkaf, kkkkvo, kkkkxg). |
+| `transcricoes/transcricao_refinamento_multiplo/REFINAMENTO_MULTIPLO_DETALHADO.md` | kkkk65 de refinamento kkkkzp e rollout. |
+| `documentacao/kkkkyy/kkkksk/ARQUITETURA_CO8_MULTIPLO_NPC_CAMUNDA.md` | Encaixe no kkkkgm (original). |
+| `documentacao/kkkkyy/kkkksk/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` | Dúvidas kkkkgm (original). |
+| `documentacao/kkkkyy/kkkksk/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` | Responsabilidades por kkkkau (original). |
+| `transcricoes/transcricao_refinamento_multiplo/RELATORIO_REFERENCIA_CRUZADA_INCOERENCIAS.md` | Alinhamentos e incoerências entre os originais. |
+
+Este kkkkta foi produzido a partir **apenas dos originais** listados, sem uso de arquivos em `genericos/` ou `*_GENERICO.md`.
