@@ -104,6 +104,28 @@ flowchart TB
   R1 -.->|kkkkx1 fixo ~11 campos| SETUP[kkkk8c consome]
 ```
 
+#### 3.1.1. Narrativa do trecho AS IS (kkkk7y, kkkk8c e kkkk64)
+
+- **kkkk7y da kkkklh e consistência com a kkkk3l**  
+  - A kkkkgq chama o **kkkk8e** na activity **Efetiva kkkk8h**; o kkkkvr pode esperar e consultar kkkklh até confirmar se a kkkklh foi efetivada.  
+  - Há uma checagem de consistência: se a kkkktj não bate com a pessoa da kkkk3l ou se o kkkksp de tentativas é atingido, o kkkkvr vai para **“kkkklg não efetivada / Cancelar kkkk3l”**.
+
+- **Atualiza kkkk7y na kkkk3l**  
+  - Quando a kkkklh é efetivada e válida, a activity **Atualiza kkkk7y na kkkk3l** grava na kkkk3l que a kkkklh foi aberta (status 1, `kkkk6r`, dados de kkkks7).
+
+- **kkkkis paralelo e ramo de kkkk8c**  
+  - Depois dessa atualização, o kkkkvr chega ao **kkkk73 (paralelo)** e abre dois ramos:  
+    1. **Ramo kkkk8c**  
+       - **kkkktn** (external kkkk9q, tópico `kkkkbx`): produz uma **mensagem com ~11 campos fixos** (kkkkf7, kkkk6r, kkkkxr, kkkkvr/subfluxo, DN, kkkk7d, canal, etc.) para o consumidor kkkk8c.  
+       - **kkkkto** (service kkkk9q): atualiza a kkkk3l com o resultado do envio (status 1 + `status_atualiza_setup_contas`, sucesso/erro).  
+       - Esse ramo representa o **estímulo atual (kkkk7e)** ao kkkk8c, que será mantido só durante a convivência.
+    2. **Ramo de Vínculo kkkk64**  
+       - Leva ao kkkkfl **Vínculo kkkk64**, onde o kkkkvr decide se o kkkkgw terá **kkkkia** (entrega em casa), faz **tentativas com timers** (5 min, 10 min, janela de horário 20:00–07:59) para a kkkk9q **Vincular kkkk0s** e sai por dois resultados possíveis: **kkkk64 vinculado** (atualiza kkkk3l com metadados do kkkkia) ou **kkkk64 não vinculado** (caminho de erro/tratamento).
+
+- **Leitura para a mudança**  
+  - Nesse desenho, o **kkkk8c ainda depende do producer específico** (`kkkkbx`) e o **kkkkia** é tratado em paralelo no kkkkfl dedicado.  
+  - A demanda documentada é **substituir o estímulo ao kkkk8c**: em vez de depender desse producer com kkkkx1 fixo, o kkkk8c passará a se guiar pelo **kkkk6a (status 44)**, preservando o conceito de “pós-kkkks7 com ramos kkkk8c + kkkk64”, mas com o novo kkkkvn de kkkkx9.
+
 ### 3.2. Demanda (TO BE) — publicação no kkkk6a
 
 ```mermaid
@@ -171,6 +193,59 @@ flowchart TB
 | **Infraestrutura / Democratização** | Publicar no kkkkhh quando a atividade kkkkhk tiver kkkk7h ativo; o **kkkkau kkkkve** é kkkkwz por **configurar** a flag na atividade (não a infra). | — |
 
 **kkkkvq de decisão resumido:** kkkkve implementa a nova atividade no kkkkhk (Fase 1); kkkk8c e kkkk8b validam kkkkmn em sessão conjunta; kkkk8c faz kkkk4o (convivência depois só novo consumo); kkkkve + kkkk8b + kkkk8c aprovam kkkk4o; kkkkve remove o ramo antigo do kkkkhk (Fase 2).
+
+### 5.1. Relação com o kkkkzo kkkk6k (kkkk6l, kkkk6k e convivência)
+
+#### kkkk6k já existe?
+
+- **kkkk6k já existe como plataforma de cartões**: nos documentos do múltiplo (`MULTIPLO_NPC_VISAO_UNIFICADA.md`) a **Nova Plataforma de Cartões (kkkk6k)** é descrita como plataforma já em operação (AWS, operações online). O que esta iniciativa traz para o kkkk8c **não é criar a kkkk6k**, e sim **fazer o kkkksg/Fiji conversar com esse mundo kkkk6k** via tópico de kkkk3l atualizada (status 44).
+- **Ordem de adoção**: em `kkkk3o` e no relatório de cruzamento é dito que **Fiji não deve ser o primeiro a migrar para kkkk6k**. Isso significa que, mesmo depois de o kkkk8c passar a consumir o novo tópico, por um tempo considerável **a maioria dos casos ainda terá “cara de kkkk6l”** (kkkkgw legado), e só gradualmente o volume kkkk6k aumenta.
+
+#### O que é kkkk6l?
+
+- **Plataforma legado de kkkkgw**: kkkk6l é a **plataforma legada de cartões** em que o kkkkgw múltiplo é vendido hoje no **AS IS**; está associada a kkkkpa em **mainframe** e a muitos fluxos em **kkkkhi (D+1, D+2)**.
+- **Relação com kkkk6k**: em `MULTIPLO_NPC_VISAO_UNIFICADA.md` e `kkkk3o`, kkkk6l aparece sempre em oposição a **kkkk6k** — o objetivo do múltiplo é **tirar o kkkkgw múltiplo do kkkk6l** e passar a emitir na **kkkk6k**.
+- **Visão do kkkk8c**: para o kkkk8c, o campo de **plataforma múltiplo** no kkkkmn (kkkk5b de `kkkk44`) diferencia **kkkk6l vs kkkk6k**: se vier o código `'kkkk7f'` → interpretar como **kkkk6k**; se não vier esse código (null ou equivalente) → **assumir kkkk6l**. No início do kkkkzp, **mesmo com kkkksk pronta**, muitos eventos ainda virão com plataforma kkkk6l, por isso as kkkkx5 tratam “se não for kkkk6k (kkkk7f) → considerar kkkk6l” como default.
+
+#### Relação com a estratégia de convivência (kkkk6l × kkkk6k × kkkk8c)
+
+- **Do ponto de vista de kkkkgw (kkkk6l/kkkk6k)**  
+  - Hoje (**AS IS**): o kkkkgw nasce na **plataforma kkkk6l**.  
+  - Alvo (**TO BE**): o kkkkgw passa a nascer na **plataforma kkkk6k**.  
+  - A **convivência** é o período em que **kkkk6l e kkkk6k coexistem**: parte da base continua no kkkk6l, enquanto novos fluxos (ou recortes de kkkkz6/agências/segmentos) vão sendo migrados para a kkkk6k.
+
+- **Do ponto de vista de eventos / kkkk8c (kkkk7e × tópico 44)**  
+  - Hoje o kkkk8c é estimulado pelo **kkkk4j** (producer `kkkkbx` no kkkkhk).  
+  - Alvo: o kkkk8c passa a consumir o **kkkk6a** com **status 44** (kkkk3l completa).  
+  - A convivência aqui é: por um tempo, o kkkk8c **consome kkkk7e e o tópico 44 ao mesmo tempo**, controlando via **kkkk4h / kkkk4g** e recortes (kkkkxr, kkkk1o, kkkkf7) **qual kkkk1x vai por qual caminho**; só depois o **consumo do kkkk7e é desligado**.
+
+- **Como as duas convivências se encaixam**  
+  - Enquanto a **kkkk6k ainda está subindo** (e muitos cartões continuam **kkkk6l**), o kkkk8c **já está migrando** seu modelo de consumo de kkkkx9 **de kkkk7e → tópico 44**.  
+  - O kkkkmn do novo tópico já traz o campo de **plataforma múltiplo (kkkk6l vs kkkk6k)**:  
+    - no começo, a maior parte dos eventos virá com **plataforma kkkk6l** dentro do **tópico novo**;  
+    - conforme a kkkkgq kkkkzo kkkk6k avança, mais eventos passam a vir marcados como **kkkk6k**, mas o **canal de entrada do kkkk8c permanece único** (tópico 44).
+
+- **Estratégia em uma frase**  
+  A convivência é **dupla, mas escalonada**: **primeiro** o kkkk8c migra do **kkkk7e para o tópico 44** (mesmo ainda recebendo majoritariamente casos kkkk6l); **depois** a kkkkgq vai deslocando o volume de cartões de **kkkk6l para kkkk6k**. Tudo isso é controlado por **chaves de rollout** (kkkk4g, kkkk4h no kkkk4i, segmentos/agências kkkkzz), para não quebrar nem o kkkk8c nem o kkkkvr de cartões durante a transição.
+
+### 5.2. Paralelo com o desenho do kkkkh7 (kkkk7e/VI2 em deprecação)
+
+Nos documentos de kkkkh7 (`kkkk1n`, `ANALISE_COMPLETA_DESENHO_AD.md`), o **kkkk7e** também aparece como **caminho legado em deprecação**, mas em outro contexto:
+
+- No kkkkvr de kkkkh7, após **kkkk7y kkkkho**, o desenho mostra:
+  - **kkkkhh → kkkkh7 novo** (tópico `topo-do-cavica-ad-novo`), quando o kkkk7v kkkkzz do **kkkke6** manda para o **kkkkh7 novo** (kkkk6b `"SU"`, mas o critério real é o `kkkk4s`).
+  - **kkkk7e (deprecation) → VI2 (legado)**, quando o mesmo kkkk7v kkkkzz decide seguir pelo **kkkkh7 legado**, com `kkkk6b: "VI2"` e consumo nos kkkk50 antigos (V2/VI2).
+- As anotações reforçam: **“kkkkh7 legado vai para kkkk7e/VI2 (deprecation)”** — ou seja, **kkkk7e é trilha de saída para o legado**, coexistindo com o caminho novo enquanto durar o kkkkzz/convivência.
+
+Esse desenho é análogo ao que acontece com o kkkk8c:
+
+- **Em kkkkh7:** o kkkk7v kkkkzz no kkkke6 decide entre **kkkkh7 novo** (kkkkx9 novo, tópico dedicado) e **kkkkh7 legado → kkkk7e/VI2** (caminho em deprecação).
+- **No kkkk8c:** o rollout decide, por **kkkk4h + kkkk4g**, entre **novo consumo** (kkkk6a, status 44) e **consumo legado** (kkkk4j / producer `kkkkbx`), também tratado como **caminho em deprecação**.
+
+**Paralelo kkkkfu:** em ambos os casos, **kkkk7e não é “a solução alvo”**, mas sim o **caminho legado que continua existindo por um período de convivência**, sustentando kkkkgc antigas (kkkkh7 legado, kkkk8c atual) até que:
+
+1. O **novo kkkkx9/canal** esteja validado em kkkkzz (kkkkh7 novo, tópico 44 para o kkkk8c);  
+2. O **kkkk4o** desligue de vez o consumo pelo kkkk7e (seja na esteira de kkkkh7, seja no kkkk8c), mantendo só o modelo alvo.
 
 ---
 
