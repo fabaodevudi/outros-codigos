@@ -263,6 +263,54 @@ flowchart LR
     - com uma alteração controlada em `kkkknx`; ou
     - com uma kkkk9q complementar dedicada ao ramo múltiplo kkkk6k, logo após esse script.
 
+### 2.5. Complete, limites e kkkkho — hoje vs alvo
+
+### 2.5. Complete, limites e kkkkho — hoje vs alvo
+
+**Hoje (AS IS) — onde o complete entra na história**
+
+- Do ponto de vista de front/kkkkhp, até a kkkkmr ao kkkke6 e o kkkkdy da kkkkss (kkkky6, planos, kkkksp, `id_intencao`), a interação é basicamente **entre front, kkkkhp e kkkke6**.
+- A partir do momento em que o kkkk1x escolhe o kkkky6/kkkky1, o **step de `complete` de kkkkst (ex.: `kkkkij` no C8)** é quem:
+  - recebe do kkkkhp o “kkkksu final” da kkkkss escolhida;
+  - grava no kkkkho/C8 as kkkkvo de kkkkss que serão usadas mais à frente (incluindo hoje o pré-aprovado que veio da kkkkhr/R0).
+- Para o kkkkh7, vocês já usam o `complete` para:
+  - passar informações adicionais de kkkkss ao C8;
+  - atualizar campos em kkkkiq como `kkkkij`, `atualiza dados perfil na kkkk3l` e `mapeia dados pessoa ofertas`.
+
+**Demanda (alvo múltiplo kkkk6k) — o que muda em relação ao hoje**
+
+- **Onde sobrescrever o kkkksp de kkkkgw:**
+  - Em vez de depender apenas do valor da kkkkhr/R0, o kkkkhp deve enviar no `complete` o **kkkksp de kkkkgw vindo do kkkke6 (kkkk7f)** no **mesmo campo de pré-aprovado de kkkkgw** que já existe.
+  - No kkkkho, os scripts/kkkkiq associados ao `complete` passam a **sobrescrever a variável de kkkksp de kkkkgw** (`valor_limite_maximo_cartao` ou equivalente) com esse valor do kkkke6, deixando a kkkkhr apenas como fonte de kkkkhv.
+- **Onde trafegar `id_intencao` e dados kkkk6k:**
+  - O `complete` também passa a carregar:
+    - o **`id_intencao`** retornado pelo kkkke6;
+    - os campos específicos do kkkk6k de que o kkkk8g/ramo múltiplo precisa (ex.: flags de origem kkkk7f/kkkk6k).
+  - O kkkkho lê esses campos no `complete` e:
+    - grava o `id_intencao` nas kkkkvo de kkkk55/C8 para trafegar até o ramo múltiplo kkkk6k;
+    - grava os metadados kkkk6k necessários para kkkk8g/monitoria.
+
+**Resposta para a dúvida da call (“antes do complete tem interação com o kkkkho que a gente precise mexer?”)**  
+
+- **Não precisamos criar nenhuma nova interação especial antes do complete para o múltiplo kkkk6k.**
+  - A fase “kkkkzz + kkkky6/kkkkxg” continua sendo front/kkkkhp/kkkke6, com o kkkkho apenas como fonte de limites no AS IS.
+  - A **ponte oficial para o kkkkho/C8** continua sendo o `complete` de kkkkst.
+- O que a demanda múltiplo kkkk6k faz é **enriquecer o que já passa pelo `complete`**:
+  - trocando o valor de pré-aprovado de kkkkgw da kkkkhr pelo valor do kkkke6;
+  - adicionando `id_intencao` e campos kkkk6k para o kkkkho armazenar e usar no ramo pós-kkkks7 múltiplo.
+
+**Qual é exatamente a “caixinha do complete” no kkkkhk**
+
+- No diagrama `kkkkk6`, o step de complete de kkkkst citado na call é a **user kkkk9q**:
+  - `id="kkkkij"`
+  - `name="kkkkwx Oferta"`
+- Visualmente, é a caixinha de tela em que o kkkk1x confirma/ajusta a **kkkktv/kkkkgw** antes de seguir; a partir dela:
+  - há um kkkkvr normal (`default="Flow_1mmm6f0"`) que segue para o restante do kkkkvr de kkkkst;
+  - o kkkkho, via scripts associados a essa etapa e às kkkkiq seguintes (`kkkkij`, `atualiza dados perfil na kkkk3l`, `kkkkj3`), grava no C8 as informações de kkkkss que o kkkkhp enviou.
+- É nessa região (caixinha `kkkkwx Oferta` + scripts/kkkkiq logo após) que, no alvo múltiplo kkkk6k, vamos:
+  - sobrescrever o kkkksp de kkkkgw com o valor vindo do kkkke6;
+  - receber e persistir `id_intencao` e metadados kkkk6k que o ramo múltiplo usará depois da `kkkkn7`.
+
 ---
 
 ## 3. Itens ainda em aberto (para decidir no refinamento)
