@@ -1,325 +1,436 @@
-## kkkki7 kkkkho — kkkkzo kkkk6k (minha parte)
+# kkkkzo kkkk6k | kkkkve — Visão unificada (refinamento, kkkksk e dúvidas)
 
-Este kkkkta kkkkj0 **o que já está definido como kkkkyr da squad kkkkho/kkkkgm** na demanda de **kkkkzo kkkk6k | kkkkve**, o que o **kkkkhk-fonte** (`kkkkk6`) já responde, e quais **kkkky4 seguem em aberto** para alinharmos no próximo refinamento.
+Documento único que reúne **refinamento**, **kkkksk kkkkho/kkkkgm**, **dúvidas de implementação** e **kkkkwp front/kkkkz2** da iniciativa **kkkkzo kkkk6k** na kkkkgq kkkksg (kkkkho). Inclui narrativa para quem não assistiu ao refinamento, kkkk5w do kkkkvr (hoje vs múltiplo) e kkkky4 em aberto.
 
-Fontes:
-
-- `kkkkk6` (fonte única da verdade da kkkkgq).  
-- `MULTIPLO_NPC_VISAO_UNIFICADA.md`.  
-- `ARQUITETURA_CO8_MULTIPLO_NPC_CAMUNDA.md`.  
-- `DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md`.  
-- `PLANNING_12-03_DETALHADA.md` (transcrição do refinamento).
+**Fonte da verdade do kkkkvr:** `kkkkk6` (regra do kkkky7).  
+**Fontes deste kkkkta:** apenas originais (REFINAMENTO_MULTIPLO_DETALHADO, ARQUITETURA_CO8_MULTIPLO_NPC_CAMUNDA, DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC, RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC).
 
 ---
 
-## 1. Escopo confirmado para kkkkho/kkkkgm
+## Índice
 
-Decisão registrada no refinamento de 12/03/2026 (e reforçada pela leitura do kkkkhk-fonte):
-
-- A **formalização do kkkkgw múltiplo kkkk6k** é kkkkyr do **kkkk55 kkkkho/kkkkgm**, não do kkkkhp.
-- O **kkkkhp kkkkwt / front** atuam **antes da kkkks7 da kkkklh**:
-  - conduzem o kkkk1x até a seleção de kkkk1o, montando `sub_fluxo_direcionador` e demais parâmetros de contexto;  
-  - disparam a kkkkmr ao **`kkkklr`** (kkkk7f/XP6) através do kkkkho e consomem a resposta para montar a kkkkss de kkkkgw múltiplo na tela.
-- Na kkkk9q **`[kkkk8e] kkkkb5`** (`kkkklr`), o kkkk55 kkkkho:
-  - envia para o kkkkxg `kkkkf7`, `kkkkvr`, `sub_fluxo_direcionador` e kkkk1o;  
-  - recebe um JSON (armazenado inicialmente em `response_direcionador_cliente`) contendo **kkkky6**, **DN**, lista de **planos**, **kkkk5j de benefício**, **kkkksp de kkkkgw** e um **`id_intencao`**;  
-  - em kkkkiq/scripts seguintes, esse JSON é desmembrado em kkkkvo de kkkk55 mais específicas (ex.: `kkkkef`, DN de kkkkgw, limites, flags, etc.), que ficam disponíveis para o front e para o restante da kkkkgq. Até esse ponto, **não há intervenção específica do ramo múltiplo kkkk6k** — é o comportamento AS IS.
-- A kkkklh é efetivamente criada na external kkkk9q `kkkkel` (`kkkkke`). Em seguida, em **`kkkkn7`**:
-  - o kkkkho chama `atualizarPropostaDelegate` para gravar em kkkk3l/C8 as informações de abertura (`response_abertura_conta`, `conta_aberta`, `kkkki1`, **`kkkk6r`** etc.);  
-  - a partir desse ponto podemos assumir que **a kkkklh já existe** e que temos `kkkk6r` disponível como variável de kkkk55.
-- O **kkkkho/kkkkgm** assume então a kkkkyr **a partir de `kkkkn7`**, usando as kkkkvo vindas do kkkkxg e da kkkkp3 para orquestrar o **pós-kkkks7**:
-  - **kkkkis de kkkkzz/kkkk4h múltiplo kkkk6k** logo após `kkkkn7` / `kkkk73`, decidindo se o ramo múltiplo kkkk6k entra em cena para aquela kkkk5h (com base em `kkkk45` / `sub_fluxo_direcionador` e nas kkkkvo de kkkkzz).  
-  - **kkkk56 do kkkkia** (quando houver kkkkia): tarefa (service ou external) que consome kkkkvo já disponíveis (`kkkkf7`, `kkkk6r`, endereço, flag de kkkkia, possivelmente `id_intencao`) e devolve uma resposta estruturada (`response_validacao_proxy_multiplo_npc`, flags de sucesso/falha) que o kkkkhk usa para seguir ou cair para kkkkvr “sem kkkkia”.  
-  - **Formalização do kkkkgw múltiplo kkkk6k**: tarefa que consome as kkkkvo de kkkkss vindas do kkkkxg (`id_intencao`, `id_plano`, **kkkksp de kkkkgw** que já deverá ter sobrescrito o kkkksp da kkkkhr quando aplicável) e dados da kkkklh (`kkkk6r`, `kkkkf7`), chamando a API de formalização com **data de kkkkyv fixa dia 10** no kkkkzp. A resposta é armazenada em uma variável de kkkk55 (ex.: `response_formalizacao_multiplo_npc`).  
-  - **Atualização da kkkk3l / C8**: extensão de `kkkkn8` ou nova `serviceTask` com `atualizarPropostaDelegate`, kkkkwz por persistir em `metadata_schemaless` e/ou `dados_proposta` as kkkkvo-chave do múltiplo kkkk6k, como `id_intencao`, `id_plano_multiplo_npc`, `limite_multiplo_npc`, flags de kkkkia e `response_formalizacao_multiplo_npc`.
-
-Na prática, isso significa que eu vou **manusear as kkkkvo do múltiplo kkkk6k sempre no contexto do kkkk55 kkkkho, somente após `kkkkn7`**, seguindo este ciclo:
-
-1. **Reuso de kkkkvo vindas do kkkkxg** (já setadas no pré-kkkks7): `id_intencao`, `id_plano`, `limite_cartao_direcionador`, flags de kkkkia, etc.  
-2. **Enriquecimento** com kkkkvo do próprio kkkkho após kkkkp3: `kkkk6r`, `kkkki1`, dados de endereço, resultado de kkkkml de limites.  
-3. **Criação de kkkkvo específicas do ramo múltiplo** (nomes a fechar no refinamento, ex.: `id_intencao_multiplo_npc`, `limite_multiplo_npc`, `possui_proxy_multiplo_npc`, `response_validacao_proxy_multiplo_npc`, `response_formalizacao_multiplo_npc`).  
-4. **Persistência no C8** via `atualizarPropostaDelegate`, garantindo que:
-   - o que precisa aparecer para outros BFFs/telas fique em `dados_proposta` / `metadata_schemaless`;  
-   - o que é apenas de controle de kkkk55 fique como variável de kkkk5h no kkkkho.
-
-Em resumo: **minha parte** é **desenhar e implementar o ramo múltiplo kkkk6k no pós-kkkks7**, definindo claramente **quais kkkkvo entram e saem de cada tarefa**, de onde elas vêm (kkkkxg, kkkkhr, kkkkp3) e em que momento são **persistidas no C8**, sem mexer na parte de kkkkss/kkkkxg no pré-kkkks7.
+0. [Antes de tudo: kkkkxg e glosário rápido](#0-antes-de-tudo-kkkkxg-e-glosário-rápido)
+1. [Para quem não assistiu ao refinamento](#1-para-quem-não-assistiu-ao-refinamento)
+2. [kkkkz9 da iniciativa e hoje vs múltiplo](#2-contexto-da-iniciativa-e-hoje-vs-múltiplo)
+3. [kkkkvq na kkkkgq — kkkk5w (kkkkhk como referência)](#3-kkkkvr-na-kkkkgq--kkkk5w-bpmn-como-referência)
+4. [kkkkxe de kkkkag (kkkkgw, kkkky1, benefícios, kkkkia)](#4-kkkkx5-de-kkkkag-kkkkgw-kkkky1-benefícios-kkkkia)
+5. [kkkkvq ponta a ponta (múltiplo kkkk6k)](#5-kkkkvr-ponta-a-ponta-múltiplo-npc)
+6. [kkkkgm — encaixe no kkkkhk e lacunas](#6-camunda--encaixe-no-bpmn-e-lacunas)
+7. [Pontos em aberto, riscos e questões não respondidas](#7-kkkky4-em-aberto-riscos-e-questões-não-respondidas)
+8. [Responsabilidades (front e kkkkz2)](#8-kkkkwp-front-e-kkkkz2)
+9. [Próximos passos](#9-próximos-passos)
 
 ---
 
-## 2. O que o kkkkhk já responde (kkkky4 esclarecidos)
+## 0. Antes de tudo: kkkkxg e glosário rápido
 
-### 2.1. Onde o ramo múltiplo entra no kkkk55
+Este capítulo é para quem está chegando agora na iniciativa e precisa de um **ponto de partida bem básico** sobre o que é o **kkkkxg** e os kkkkyh que mais aparecem ao longo do kkkkta. A ideia é que, depois de ler este bloco, a pessoa consiga navegar o restante do texto sem se perder nos jargões.
 
-O kkkkhk mostra claramente que:
+### 0.1. O que é o kkkkxg (visão bem inicial)
 
-- `kkkkn7` é uma `serviceTask` (`Atualiza kkkk7y na kkkk3l`).  
-- A partir dela sai o kkkkvr `Flow_lnlvcia` para o **kkkk7v paralelo `kkkk73`**:
-  - `kkkk73` (`parallelGateway`) recebe `Flow_lnlvcia`.  
-  - Hoje abre **dois ramos**:
-    - `Flow_02tfitj` → `kkkknt` (external kkkk9q `kkkkbx`).  
-    - `Flow_019bzq6` → kkkkfl `kkkko2` (kkkkfl **Vinculo kkkk64** / kkkkgq de kkkkst/kkkkgw legada).
+De forma simples, o **kkkkxg** é o **“cérebro de kkkktv”** da kkkkgq kkkksg: é o serviço que, a partir de quem é o kkkk1x (dados cadastrais, histórico, kkkkvg) e de **onde** ele está abrindo a kkkklh (kkkk1o, kkkk0r), decide **qual kkkky6 de kkkkgw** faz sentido oferecer, com **qual kkkky1**, **quais benefícios** e **qual kkkksp de kkkkgw**.
 
-Conclusão para o refinamento:
+Na kkkkfj (fonte: `kkkkk6`):
 
-- O **ponto natural de encaixe** do múltiplo kkkk6k é **logo após `kkkkn7`**, como **terceiro ramo** saindo de `kkkk73` ou, no kkkksp, um **kkkk7v exclusivo logo após** esse paralelo — mas **não dentro** de `Vinculo kkkk64`.
-- Isso confirma a leitura de `MULTIPLO_NPC_VISAO_UNIFICADA.md` e `ARQUITETURA_CO8_MULTIPLO_NPC_CAMUNDA.md`: o múltiplo kkkk6k é um **ramo adicional de pós-kkkks7**, não uma alteração dentro do kkkkvr legado de Vínculo kkkk64.
+- O kkkkxg é chamado **na seleção de kkkk1o**.  
+- O kkkkhp envia informações como `kkkkvr`, `sub_fluxo_direcionador`, kkkk1o e identificadores do kkkk1x.  
+- O kkkkxg chama os kkkkxt de kkkkgw (ex.: **kkkk7f**, **XP6**) e devolve uma **kkkkss completa** de kkkkgw múltiplo, já com:
+  - **Produto** (ex.: kkkkzo kkkkyw kkkky3 / Signature).
+  - **kkkky2** (ex.: “sem kkkky4” vs “com kkkky4”).
+  - **kkkkfn** (lista de kkkk5j de benefício).
+  - **Limite de kkkkgw**.
+  - Um **`id_intencao`**, que identifica aquela intenção de kkkkgw para aquele kkkk1x.
 
-### 2.2. Quantas vezes o kkkkxg é chamado
+Depois disso, o kkkkvr **não recalcula** a kkkkss: ele apenas **reusa** o que o kkkkxg decidiu. O **kkkkhk/kkkkho** persiste essas kkkkvo no kkkk55; o **front** exibe a kkkkss; e, já no contexto do **múltiplo kkkk6k**, a **formalização** do kkkkgw usa o mesmo `id_intencao`, o mesmo kkkky1 e o mesmo kkkksp que vieram de lá — **sem uma segunda kkkkmr ao kkkkxg** no pós-kkkks7.
 
-No kkkkhk atual:
+Resumindo o papel do kkkkxg:
 
-- Existe uma única `serviceTask` kkkkmr **`kkkklr`**, com body:
-  - `"kkkkf7": "${kkkkf7}"`  
-  - `"kkkkvr": "${kkkkvr}"`  
-  - `"sub_fluxo": "${sub_fluxo_direcionador}"`  
-  - `"kkkkvu": [{"id": "agencia", "valor": "${agencia_logada}"}]`
-- Não há **segunda ocorrência** de `kkkklr` ou tarefa equivalente no pós-kkkks7.
+- **Negócio:** centraliza as kkkkx5 de qual kkkkgw/kkkky1/kkkkss o kkkk1x deve receber, garantindo consistência entre canais.  
+- **kkkkka:** fornece um kkkkvn único de kkkkss (kkkky6 + kkkky1 + benefícios + kkkksp + `id_intencao`) que o kkkkhk consome e persiste, evitando múltiplas fontes de verdade para a mesma decisão de kkkkgw.
 
-Conclusão para o refinamento:
+### 0.2. Glosário rápido de kkkkyh
 
-- A decisão de kkkkag/kkkksk de **não chamar o kkkkxg de novo no ramo múltiplo kkkk6k** está **alinhada com o kkkkhk atual**: hoje já existe apenas uma kkkkmr, na etapa de seleção de kkkk1o, e o pós-kkkks7 trabalha com as kkkkvo que já foram preenchidas.
+Alguns kkkkyh aparecem muitas vezes neste kkkkta. A tabela abaixo kkkkj0 os principais, sem tentar esgotar o assunto:
 
-### 2.3. Onde hoje o kkkkho grava dados em kkkk3l/C8
+- **AS IS**: estado atual da kkkkgq e dos kkkk50 (como é **hoje**, antes do kkkkzz kkkkzo kkkk6k). Quando o kkkkta fala em *mínimo de mudança no AS IS*, significa “mexer o menos possível no kkkkvr atual e nas kkkkgc já existentes”.
+- **TO BE**: estado desejado **depois** do kkkkzz/rollout (como a kkkkgq deve ficar quando o múltiplo kkkk6k estiver implementado).
+- **QAR**: indicador/meta de kkkkag ligada à aquisição/adoção (neste contexto, parcela das kkkk7g abertas que adquirem kkkkgw múltiplo kkkk6k via kkkkia). Quando dizemos **QAR agressivo**, é porque a meta é ambiciosa e exige entrega em ritmo forte.
+- **kkkke6**: serviço que monta a **kkkkss de kkkkgw** (kkkky6 + kkkky1 + benefícios + kkkksp) e devolve, entre outros dados, um **`id_intencao`** para ser usado depois na formalização.
+- **kkkk6k (Nova Plataforma de Cartões)**: plataforma moderna de cartões, rodando em **AWS**, com operações **online** (aquisição, acordos, FIX kkkks8 etc.), que reduz a dependência de processamento em **kkkkhi** e de kkkk50 kkkk5i/mainframe.
+- **kkkk6l (plataforma legada de cartões)**: plataforma atual/legada onde o kkkkgw é vendido hoje, fortemente baseada em **kkkkpa kkkkhi** (D+1, D+2), com maior fricção e menos agilidade para evoluir ofertas.
+- **Batch / D+1 / D+2**: processamento em lote, executado em horários fixos (por exemplo, à noite). **D+1** e **D+2** significam que o efeito ou a kkkkim só aparece **no dia seguinte** ou **dois dias depois**, em vez de ser imediato.
+- **kkkk64 (neste contexto)**: forma de **entrega do kkkkgw físico na residência do kkkk1x**, em vez de retirada na kkkk1o. Quando o kkkkvr é “com kkkkia”, existe uma etapa de **kkkkth do kkkkia**; quando é “sem kkkkia”, o kkkk1x busca o kkkkgw na kkkk1o.
+- **kkkk7f**: serviço de kkkkgw chamado pelo kkkkxg para **montar a kkkkss** de kkkkgw (kkkky6, DN, limites, atributos principais). Em alto nível, é a “fonte de verdade” da **kkkkss de kkkkgw** que será mostrada na kkkkgq.
+- **XP6**: serviço de kkkkgw chamado pelo kkkkxg para **listar planos** (ex.: com/sem kkkky4, valores de mensalidade) e seus respectivos **benefícios**. É de onde vem a lista de planos que o kkkkxg consolida na resposta (com kkkk5j de kkkky1 e kkkk5j de benefício).
+- **kkkkho / kkkkgq kkkksg**: kkkksn de kkkklh kkkksg (kkkkve). O **kkkkho/kkkkgm** é o kkkk55 kkkkhk que orquestra as etapas da kkkkgq (cadastro, kkkkvg, kkkk1o, kkkkxg, kkkks4, kkkks7, pós-kkkks7).
+- **C8**: repositório de kkkk3l/kkkkvo do kkkkho, onde ficam persistidos dados de kkkk55 (incluindo kkkkvo de kkkkss/kkkksp vindas do kkkkxg) para serem lidos por telas e por outras kkkkgc.
+- **Sub_fluxo_direcionador**: campo que indica ao kkkkxg **qual variação de kkkkvr** está sendo executada (por exemplo, kkkkzz kkkkh7, kkkkzz múltiplo kkkk6k, ambos). Ele é enviado no body da kkkkmr ao kkkkxg e é chave para o kkkkxg entender o contexto da kkkkss.
+- **kkkkhv (kkkksp de kkkkq1 / kkkkhv da kkkkhr)**: kkkksp de kkkkee vindo da **kkkkhr** (plataforma de kkkks8). No kkkkzp múltiplo kkkk6k, o **kkkkhv continua vindo da kkkkhr**, enquanto o **kkkksp de kkkkgw** passa a vir do kkkkxg.
+- **kkkkhr**: plataforma kkkkwz pelos **limites de kkkks8**, como kkkkhv (kkkkq1). No contexto deste kkkkta, é a fonte de kkkksp para kkkkee; para kkkkgw, passamos a usar o kkkkxg como fonte principal.
+- **IA / IU / IP**: segmentos de kkkk1x:
+  - **IA** = kkkkyt **kkkk1o** (abertura na kkkk1o física).  
+  - **IU** = kkkkyt **digital** (abertura pelo kkkk0r).  
+  - **IP** = kkkkxr de **alta kkkksy** (fora do escopo do kkkkzp, mais foco em kkkkyy/rollout).
+- **kkkkhk-fonte (`kkkkk6`)**: diagrama/kkkk55 kkkkgm que é a **fonte única e absoluta da verdade da kkkkgq**. Todas as análises deste kkkkta (hoje vs múltiplo, encaixe no kkkkgm) partem dele.
 
-O kkkkhk atual mostra que:
+Quem quiser um mergulho mais detalhado no refinamento em si pode seguir para o capítulo 1; quem quiser entender o encaixe no kkkkvr e o hoje vs múltiplo pode ir direto para o capítulo 2.
 
-- As `serviceTask` com `kkkk9c="#{atualizarPropostaDelegate}"` são as responsáveis por **escrever em kkkk3l/C8**. Em especial:
-  - **`kkkknq`** (`id="kkkknq"`, `name="kkkklu"`).  
-  - **`kkkkn7`** (`id="kkkkn7"`, `name="Atualiza kkkk7y na kkkk3l"`).  
-- Essas kkkkiq escrevem usando:
-  - `metadata_schemaless` (map de chaves livres como `response_abertura_conta`, `conta_aberta`, `kkkki1`, `kkkk6r`);  
-  - `dados_proposta` (map com campos estruturados).
-- O kkkkfl de kkkkst/kkkkgw possui `kkkkn8`, também com kkkkaq de kkkktm para metadados dos kkkkst já existentes.
+## 1. Para quem não assistiu ao refinamento
 
-Conclusão para o refinamento:
+**kkkkyg usados neste capítulo (complementares ao glosário rápido do §0.2):**
 
-- Para o múltiplo kkkk6k, a forma mais alinhada com o desenho atual é:
-  - **estender** o uso de `atualizarPropostaDelegate` (em `kkkkn8` ou em nova kkkk9q dedicada) para incluir os metadados da **formalização kkkk6k** (id do kkkkvn/kkkkgw, resposta da API, flags de kkkkia etc.) em `metadata_schemaless`/`dados_proposta`;
-  - evitar criar um novo mecanismo paralelo de gravação, mantendo **C8 como fonte única** via essas kkkkiq.
+- **AS IS**, **TO BE** e **QAR** seguem exatamente as definições do glosário rápido (§0.2).  
+- Aqui o foco é lembrar que **QAR agressivo** implica **kkkkzp com mudanças mínimas no AS IS**, mas suficientes para provar o modelo novo de kkkkgw múltiplo kkkk6k via kkkkia.
 
-### 2.3.1. Mini-kkkkvr atual x alvo: `kkkknq` + `Valida kkkk0s`
+### O que é o kkkkzo kkkk6k?
 
-**Hoje (AS IS) — kkkkvr já existente (kkkkia legado):**
+Hoje, na kkkkp3 (kkkkfj / kkkkve), o **kkkkgw** é vendido na **plataforma legada kkkk6l**, ainda muito baseada em **kkkkpa kkkkhi (D+1, D+2)** — ver definições no glosário rápido (§0.2). Isso gera fricção para o kkkk1x e forte dependência de mainframe, dificultando a evolução da kkkkgq com agilidade. A iniciativa **kkkkzo kkkk6k** permite vender **kkkkee + kkkkgw múltiplo na Nova Plataforma de Cartões (kkkk6k)**: a kkkk6k roda em **AWS**, com operações **online** para aquisição, acordos, FIX kkkks8 etc., reduzindo dependência de kkkkhi e mainframe e dando mais velocidade para evoluir ofertas (kkkky6 + kkkky1 + benefícios no modelo novo). A meta de kkkkag é **até o fim de dezembro** vender kkkkgw múltiplo kkkk6k via **kkkkia** para **mais da metade das kkkk7g abertas** — o sucesso do kkkkzz e do rollout impacta diretamente o QAR da iniciativa e a kkkkzw do volume de cartões do legado para a kkkk6k.
 
-- Após **reserva da kkkklh**, o kkkkvr passa por `kkkknq` (`atualizarPropostaDelegate` com `kkkkfi` e `kkkk4c = 1`), que basicamente **marca a kkkk3l como “segmentada”** no C8 antes de seguir para os kkkkaf de kkkkss/kkkkia.  
-- Dali em diante, existe um ramo que vai para a external kkkk9q **`kkkkoi`** (`id="kkkkoi"`, `name="Valida kkkk0s"`, kkkk91 `valida-kkkkia-cartao-multiplo`), que hoje:
-  - monta um kkkkmn `valida-kkkkia-cartao-multiplo_solicitacao` com dados já existentes no kkkk55: `funcional_gerente_logado`, `codigo_proxy_plastico_cartao`, `conta_reservada['agencia']`, `kkkkxr`, `kkkkef['kkkk42']`;  
-  - recebe a resposta na variável `valida-kkkkia-cartao-multiplo_resposta` e extrai dois campos para kkkkvo de kkkk55: `proxyIsValid` (código de kkkkdy) e `mensagem`;  
-  - alimenta um kkkk7v exclusivo que, conforme o resultado, segue kkkkvr “ok” ou aciona um kkkkx9 intermediário que marca `proxy_invalido = true` e preenche `mensagem_erro` com texto amigável.
+### Por que importa para o kkkkau?
 
-Isso significa que, **antes mesmo do ramo múltiplo kkkk6k**, o kkkk55 já tem um padrão claro de:
+- **QAR agressivo:** meta ambiciosa de adoção do kkkkgw múltiplo kkkk6k via kkkkia em boa parte das aberturas (ver QAR nos kkkkyh acima).
+- **kkkky0 bem desenhado** reduz dores no rollout: escopo controlado (poucas agências, segmentos kkkkzq, um kkkky6 com um kkkky1) permite validar integração com kkkkxg, formalização e kkkkia antes de escalar; qualquer problema aparece em ambiente limitado e não quebra a kkkkgq inteira. Por isso o refinamento focou em dois eixos:
 
-- usar `atualizarPropostaDelegate` para marcar status de kkkk3l (`kkkknq`);  
-- usar uma **external kkkk9q de kkkkth de kkkkia** com kkkkmn estruturado, kkkkvo de resposta (`proxyIsValid`, `mensagem`) e tratamento de erro via kkkk7v/kkkkx9 intermediário.
+  - **kkkkzp com mínimo de mudança no AS IS**
+    - Reutilizar a kkkkfj em produção e **não redesenhar** o kkkkvr: apenas acrescentar um *ramo* múltiplo kkkk6k após a kkkks7 da kkkklh (kkkk7v kkkkzz → kkkkth do kkkkia quando houver → formalização com id_intencao → kkkktm). kkkkgd, kkkkvg, seleção de kkkk1o, kkkkxg e kkkks4 permanecem iguais; só o trecho pós-kkkks7 ganha esse ramo.
+    - Simplificações de kkkky6 no kkkkzp: **data de kkkkyv fixa no dia 10** (a kkkkgq assume a kkkkyr; não é mais o kkkkxg); **sem slider de kkkksp** (kkkk1x não ajusta o pré-aprovado na tela); **sem escolha de “melhor data de kkkkyv”** — essas features ficam para o kkkkyy/rollout.
+    - Resultado: entrega previsível e menor kkkkli de regressão, pois as mudanças ficam concentradas no novo ramo e em poucas agências (lista kkkkzz).
 
-**Como deve ficar para o múltiplo kkkk6k (alvo) — diferenças claras vs hoje:**
+  - **Deixar claro quem faz o quê (front, kkkkhp, kkkkho/kkkkgm)**  
+    Evitar fila de squads no mesmo kkkkhp (kkkkhp Info com alteração pequena pode ir antes; kkkkhp kkkkwt concentra as mudanças); definir quem alimenta o kkkkho com kkkkss/kkkksp para a tela de kkkkth do kkkk1x; quem faz o depara de benefícios (kkkkhp) e quem persiste kkkkvo no kkkk55 (kkkkho). Com kkkkwp explícitas, o rollout depois do kkkkzz tende a ser só ampliar agências e relaxar restrições (ex.: mais de um kkkky1), sem rediscutir kkkksk.
 
-- **Onde fica o quê (posição no kkkkhk)**
-  - **Hoje:** `kkkkoi` fica **antes** de `kkkkn7`, ainda na parte de **reserva de kkkklh / kkkklu**, e está ligada ao **kkkkia legado** (kkkk6l).  
-  - **Alvo múltiplo kkkk6k:** criar **outro ponto de kkkkth de kkkkia** no **ramo múltiplo kkkk6k pós-kkkks7** (**depois** de `kkkkn7` e do `kkkk73`), ligado ao **kkkkia kkkk6k** (nova API), sem mexer no kkkkvr legado.
+### O que foi kkkkz8 em alto nível?
 
-- **O que cada kkkkth usa de entrada**
-  - **Hoje (`kkkkoi`):** kkkkmn baseado em `codigo_proxy_plastico_cartao`, `conta_reservada['agencia']`, `kkkkxr`, `kkkkef['kkkk42']` e `funcional_gerente_logado` — não conhece `id_intencao` nem kkkky1 kkkk6k.  
-  - **Alvo (`valida_proxy_multiplo_npc`, nome a definir):** kkkkmn baseado em **kkkkvo do kkkkxg + kkkklh já efetivada**, por exemplo:
-    - `id_intencao` (kkkkxg kkkk6k);  
-    - `id_plano` / DN/kkkky1 kkkk6k;  
-    - `kkkk6r`, `kkkkf7`, endereço, flags de kkkkia;  
-    - kkkkxr e campos específicos da API de kkkkia kkkk6k.
+| Tema | Decisão / kkkkz8 |
+|------|---------------------|
+| **Quem monta a kkkkss** | O **kkkkxg** (kkkkau de kkkkss/kkkky6 kkkkgw) monta e kkkkdp a kkkkss (kkkky6 + kkkky1 + benefícios). A kkkkve **não** chama kkkk50 de kkkkgw diretamente. |
+| **Quando o kkkkxg é chamado** | Na **seleção de kkkk1o**: o kkkkhp envia kkkk1o + `kkkkvr`/`sub_fluxo`; o kkkkxg chama kkkk7f (kkkkss) e XP6 (planos) e devolve **id_intencao**, planos e kkkk5j de benefício. **Não há segunda kkkkmr** ao kkkkxg após a kkkks7 da kkkklh. |
+| **Depois da kkkks7** | O ramo múltiplo kkkk6k usa as kkkkvo já preenchidas (kkkkss, id_intencao), faz **kkkkth do kkkkia** (quando houver), **formalização** (nova API com id_intencao, kkkksp, id_plano, data kkkkyv 10) e kkkktm. O vínculo do kkkkia fica com a esteira de formalização/oneração. |
+| **Limites** | **kkkkhv** continua vindo da **kkkkhr**; **kkkksp de kkkkgw** passa a vir do **kkkkxg**; quando houver kkkkss do kkkkxg, sobrescreve o uso do que veio da kkkkhr para kkkkgw. |
+| **kkkkfn** | kkkke6 kkkkdp **kkkk5j**; as literais (nome, descrição) estão no **kkkkz7 kkkkve**. O **kkkkhp** faz o depara e envia ao front objetos com id, nome e descrição. |
+| **kkkkzp** | Segmentos **IA e IU** (kkkkyt); **um kkkky6 com um kkkky1** por kkkkxr no kkkkzz; data de kkkkyv **fixa dia 10**; sem slider de kkkksp nem escolha de melhor data no kkkkzp. |
 
-- **Como o resultado é tratado**
-  - **Hoje:** resposta em `valida-kkkkia-cartao-multiplo_resposta` → kkkkvo `proxyIsValid` e `mensagem`; kkkk7v decide seguir ou acionar kkkkx9 que marca `proxy_invalido = true` + `mensagem_erro`.  
-  - **Alvo:** resposta em algo como `response_validacao_proxy_multiplo_npc` → flags `proxy_multiplo_valido`, `mensagem_proxy_multiplo`; kkkk7v decide:
-    - se OK → segue para **formalização kkkk6k**;  
-    - se falha → seta (`proxy_invalido = true`, `mensagem_erro` específica) e:
-      - ou cai para kkkkvr **sem kkkkia** no ramo múltiplo;  
-      - ou kkkkz3 a kkkkgq, conforme decisão de kkkkag.
+**Sobre IA e IU:** definições formais estão no glosário rápido (§0.2). No kkkkzp o kkkkzz foca em **IA** e **IU** porque são os segmentos em que as agências já têm **estoque de kkkkgw kkkk6k**; na prática a kkkk1o opera IA e IU em conjunto, e tratar só um dos dois geraria atrito kkkkzy. Produto alvo em IA é **kkkkzo kkkkyw kkkky3**; em IU a expectativa é **kkkkyw Signature** (pode ser kkkky3 conforme kkkkzw de kkkky5). O kkkkxr **IP** (kkkk1x alta kkkksy) fica para o kkkkyy/rollout, fora do kkkkzp.
 
-- **Resumo visual (alto nível)**
+Quem não participou da call pode usar este kkkkta como referência única para contexto, kkkkvr e pendências.
+
+---
+
+## 2. kkkkz9 da iniciativa e hoje vs múltiplo
+
+### Objetivo
+
+Habilitar na kkkkgq kkkksg (kkkkho) a **aquisição de kkkkee com kkkkgw múltiplo na kkkk6k**, em substituição ao kkkkgw legado (kkkk6l).
+
+### Hoje (AS IS) — conforme kkkkhk
+
+No **AS IS** (ver kkkkyh no glosário rápido, §0.2), a kkkkfj funciona assim:
+
+- **kkkkz5:** vendido na plataforma **kkkk6l**; kkkkpa em **kkkkhi** (D+1, D+2) — processamento em lote com efeito no dia seguinte ou em dois dias, em vez de online.
+- No **kkkkhk** (`kkkkk6`):
+  - Após **kkkkel** (external kkkk9q `kkkkke`) e **kkkkn7** (atualiza kkkk3l com kkkki1, kkkk6r), o kkkkvr chega ao **kkkk7v paralelo kkkk73**.
+  - Desse kkkk7v saem **dois ramos em paralelo**:
+    1. **kkkknt** (external kkkk9q `kkkkbx`)
+    2. **kkkko2** — kkkkfl **Vinculo kkkk64** (kkkkgq de kkkkst/kkkkgw), onde já existem **kkkkn5** (external `kkkkb6`) e **kkkkn8**.
+  - A kkkkmr ao **kkkkxg** (`kkkklr`) ocorre **antes** da kkkks7 (na seleção de kkkk1o); o kkkkhk usa `kkkkvr` e **sub_fluxo_direcionador** no body da kkkkmr.
+
+### kkkkzo kkkk6k (alvo)
+
+- **kkkkz5:** kkkkss e formalização na **kkkk6k**; kkkkxg kkkkdp kkkkss (kkkk7f, XP6) com **id_intencao**; formalização usa essa API nova com id_intencao, kkkksp, id_plano, data 10.
+- **Ponto de encaixe no kkkkhk:** após **kkkkn7**, em **paralelo** aos dois ramos atuais (ou como terceiro ramo saindo do mesmo kkkk7v, ou via kkkk7v exclusivo “kkkkzz múltiplo”). O ramo múltiplo **não** chama o kkkkxg de novo; usa kkkkvo já preenchidas na seleção de kkkk1o.
+- **kkkk64:** kkkkth antes de seguir; 200 = segue; em falha, definir se kkkkz3 ou cai para kkkkvr sem kkkkia. Vinculação do kkkkia não é feita por esta squad — fica com a esteira de formalização/oneração.
+
+---
+
+## 3. kkkkvq na kkkkgq — kkkk5w (kkkkhk como referência)
+
+Os kkkk5w abaixo refletem a **fonte da verdade** (`kkkkk6`) para o “hoje” e a **visão alvo** para o múltiplo kkkk6k.
+
+### 3.1. Visão geral da kkkkgq (alto nível)
 
 ```mermaid
 flowchart LR
-  subgraph AS_IS
-    R[Reserva_da_Conta]
-    PS[kkkknq]
-    VP[kkkkoi]
-    R --> PS
-    PS --> VP
+  subgraph Jornada
+    A[kkkkwx cadastrais] --> B[Segmentação]
+    B --> C[Seleção kkkk1o]
+    C --> D[kkkke6]
+    D --> E[kkkkwt / kkkkss]
+    E --> F[kkkkxf / kkkkmk]
+    F --> G[kkkk7y kkkklh]
+    G --> H[Pós-kkkks7]
   end
-
-  subgraph MULTIPLO_NPC_ALVO
-    PEC[kkkkn7]
-    GW[kkkk73]
-    R3[Ramo_Multiplo_NPC]
-    VPN[Validacao_proxy_NPC]
-    FORM[Formalizacao_cartao_NPC]
-    OUT[Sem_proxy_ou_erro_controlado]
-
-    PEC --> GW
-    GW --> R3
-    R3 --> VPN
-    VPN -->|OK| FORM
-    VPN -->|Falha| OUT
-  end
+  H --> I[kkkkes]
+  H --> J[Vínculo kkkk64 / kkkkz5]
+  H -.-> K[Ramo kkkkzo kkkk6k]
 ```
 
-- O **AS IS de `kkkkoi`** continua existindo para o kkkkvr legado; o múltiplo kkkk6k ganha seu **próprio trecho de kkkkth de kkkkia** em um ramo separado, mas com o **mesmo padrão de desenho** (kkkk9q de kkkkth + kkkk7v + flags/eventos), facilitando entendimento e manutenção.
-
-### 2.4. Onde hoje acontece a lógica de kkkksp de kkkkgw (AS IS x alvo)
-
-**Hoje (AS IS) — como o kkkksp é calculado e aplicado**
-
-No kkkkhk atual, a lógica principal está concentrada na **script kkkk9q `kkkknx`**:
-
-- Ela lê:
-  - `response_abertura_conta` → dados da kkkklh recém-aberta (kkkk1o, kkkklh, dac, canal etc.).
-  - `kkkkef` → kkkkx1 com DN de kkkkgw kkkkmj/kkkks8, dia de kkkkyv, kkkksu, indicadores diversos.
-  - `limiterotativo_credito_v3_aberturacontas_resposta` (quando existe) → resposta da kkkkhr com **`kkkk6h`**.
-  - `response_obter_limiteR0` (fallback) → pega `valor_maximo_cartao_credito` e faz um `split('.')[0]` porque o GE não aceita ponto.
-- A função `cartao_credito()` decide **de onde vem o kkkksp**:
-  - se existir `limiterotativo_credito_v3_aberturacontas_resposta` → usa `kkkk6h` (pré-aprovado da kkkkhr);
-  - senão → usa `response_obter_limiteR0['valor_maximo_cartao_credito']`.
-  - o resultado vira `valor_limite_maximo_cartao`.
-- A função `aplicaRegraPersonDnCartao()` aplica uma **regra de kkkkxr** (ex.: kkkkxr `4`) para escolher o **DN de kkkkgw**:
-  - se o valor pré-aprovado for maior/igual a 10000, mantém DN de kkkks8;
-  - senão, seta `regra_aplicada_person = true` e troca para DN de kkkkmj.
-- No final, o script:
-  - seta kkkkvo como `kkkk4p`, `codigo_produto_cartao_credito` (DN escolhido), `dia_vencimento_fatura_cartao`, `valor_limite_maximo_cartao`, indicadores de overlimit, programa de recompensa, kkkk12 etc.;
-  - grava também kkkk1o, kkkklh, dac, kkkkxr, tipo de kkkklh, kkkksu de tarifa etc. — ou seja, **prepara o “kkkksu” de dados de kkkkgw** que será usado nas próximas kkkkiq (como kkkks7 de kkkkgw).
+### 3.2. Hoje — pós-kkkks7 (kkkkhk: kkkkn7 → kkkk73)
 
 ```mermaid
-flowchart LR
-  subgraph AS_IS_LIMITE
-    kkkkhr[PUC_ou_R0]
-    MAP[kkkknx]
-    DN[Escolha_DN_cartao]
-    EFC[Efetiva_Cartao]
-
-    kkkkhr --> MAP
-    MAP --> DN
-    DN --> EFC
+flowchart TB
+  subgraph BPMN_atual
+    P[kkkkn7]
+    P --> GW[kkkk73<br/>parallel]
+    GW --> R1[kkkknt]
+    GW --> R2[kkkko2<br/>Vinculo kkkk64]
   end
+  R2 --> EFC[kkkkn5]
+  EFC --> PEP[kkkkn8]
 ```
 
-**Alvo para o múltiplo kkkk6k — como deve ficar**
+### 3.3. kkkkzo kkkk6k — ramo alvo (após kkkkn7)
 
-Para o múltiplo kkkk6k, queremos que a **fonte principal de kkkksp de kkkkgw** passe a ser o **kkkkxg kkkk6k**, e não mais apenas kkkkhr/R0:
-
-- Quando houver kkkkss múltiplo kkkk6k:
-  - `limite_cartao_direcionador` (ou nome equivalente) vindo do kkkkxg passa a ser a **verdade principal** para o kkkksp de kkkkgw múltiplo.
-  - Limite kkkkhr/R0 continua existindo, mas como **fallback** ou apenas para jornadas que não são múltiplo kkkk6k.
-- Do ponto de vista do kkkkhk, há duas opções (a decidir no refinamento):
-
-1. **Adaptar o próprio `kkkknx`** para:
-   - se existir `limite_cartao_direcionador` → usar esse valor em vez de `limiterotativo_credito_v3_aberturacontas_resposta` / `response_obter_limiteR0`;
-   - manter a regra de DN (`aplicaRegraPersonDnCartao`) funcionando sobre esse novo valor.
-
-2. **Criar uma pequena kkkk9q/script logo após `kkkknx`**, só no ramo múltiplo kkkk6k, que:
-   - lê `limite_cartao_direcionador`;
-   - sobrescreve `valor_limite_maximo_cartao` (e, se necessário, ajusta DN ou flags);
-   - deixa o restante do kkkkvr (kkkks7 de kkkkgw) inalterado.
+**Clareza:** não há segunda kkkkml ao kkkkxg neste ramo; apenas uso de kkkkvo (kkkkss, id_intencao) já obtidas na seleção de kkkk1o.
 
 ```mermaid
-flowchart LR
-  subgraph MULTIPLO_NPC_LIMITE
-    DIR[Direcionador_NPC]
-    PUC2[PUC_ou_R0_fallback]
-    MAPNPC[mapeia_campos_ge_ajustado_ou_task_extra]
-    DN2[Escolha_DN_cartao_NPC]
-    EFC2[Efetiva_Cartao_NPC]
+flowchart TB
+  subgraph Pos_efetivacao
+    P[kkkkn7]
+    P --> GW[kkkkis paralelo]
+    GW --> R1[kkkktn]
+    GW --> R2[Vinculo kkkk64<br/>kkkkvr atual]
+    GW --> R3[Ramo kkkkzo kkkk6k]
+  end
 
-    DIR --> MAPNPC
-    PUC2 --> MAPNPC
-    MAPNPC --> DN2
-    DN2 --> EFC2
+  subgraph Ramo_Multiplo_NPC
+    GWP{kkkkis<br/>kkkkzz?}
+    R3 --> GWP
+    GWP -->|Sim| VPROX[kkkk56 kkkkia]
+    GWP -->|Não kkkkzz| OUT[Fora do ramo kkkk6k]
+    VPROX -->|200| FORM[Formalização kkkkgw kkkk6k]
+    VPROX -->|Falha| DECISAO[Bloqueia ou sem kkkkia?]
+    FORM --> ATU[Atualização kkkk3l<br/>metadados formalização]
+    ATU --> FIM[Converge com kkkkvr]
   end
 ```
 
-**Conclusão para o refinamento**
+### 3.4. Sequência kkkkxg → kkkkss → formalização (múltiplo)
 
-- **Hoje:** a decisão “qual kkkksp de kkkkgw usar” (pré-aprovado x R0) e “qual DN aplicar” está toda centralizada em `kkkknx`.
-- **Alvo múltiplo kkkk6k:** quando o kkkkxg trouxer kkkksp próprio de kkkkgw, queremos:
-  - **sobrescrever nesse ponto (ou imediatamente depois)** o `valor_limite_maximo_cartao` com o kkkksp do kkkkxg, mantendo um **único lugar no kkkkhk** kkkkwz pela lógica de kkkksp de kkkkgw;
-  - decidir no refinamento se isso será feito:
-    - com uma alteração controlada em `kkkknx`; ou
-    - com uma kkkk9q complementar dedicada ao ramo múltiplo kkkk6k, logo após esse script.
+```mermaid
+sequenceDiagram
+  participant kkkkra
+  participant kkkkhp
+  participant Dir as kkkke6 kkkk7f/XP6
+  participant kkkkgm
+  participant Form as API Formalização
+
+  kkkkra->>kkkkhp: kkkkv0 selecionada
+  kkkkhp->>kkkkhp: kkkkv0 na lista kkkkzz?
+  kkkkhp->>Dir: kkkkvr, sub_fluxo, kkkk1o
+  Dir->>kkkkhp: Oferta + id_intencao + planos + id_beneficio
+  kkkkhp->>kkkkhp: Depara benefícios (kkkkz7)
+  kkkkhp->>kkkkra: Produto + kkkky1 + benefícios (nome/desc)
+
+  Note over kkkkra,kkkkgm: kkkkmf aceita, kkkks4, kkkks7 kkkklh
+
+  kkkkgm->>kkkkgm: kkkkn7
+  kkkkgm->>kkkkgm: Ramo múltiplo: kkkkth kkkkia
+  kkkkgm->>Form: id_intencao, kkkksp, id_plano, data 10
+  Form->>kkkkgm: OK
+  kkkkgm->>kkkkgm: Atualiza kkkk3l
+```
 
 ---
 
-## 3. Itens ainda em aberto (para decidir no refinamento)
+## 4. kkkkxe de kkkkag (kkkkgw, kkkky1, benefícios, kkkkia)
 
-### 3.1. Modelagem exata do ramo múltiplo kkkk6k
+### 4.1. kkkke6 e kkkky6 kkkkgw
 
-Pontos que ainda dependem de decisão conjunta (kkkkau kkkkho + kkkky6 + kkkkxg):
+- Produto (nome, DN, kkkksp, id kkkky1, id benefício) é **repassado pelo kkkkau do kkkkxg**; a kkkkve não chama kkkk50 de kkkkgw diretamente.
+- Request ao kkkkxg: `kkkkf7`, `kkkkvr`, `sub_fluxo` (= **sub_fluxo_direcionador**), `kkkkvu` (ex.: kkkk1o). Retorno: kkkkss (kkkk7f), kkkksu tarifa kkkkgw, **id_intencao**, array de planos (com anuidade/mensalidade e lista de id_beneficio). **kkkkhv** não vem do kkkkxg; continua da kkkkhr.
 
-- **Posicionamento definitivo do ramo:**
-  - Terceiro ramo saindo diretamente de `kkkk73` **(minha recomendação, por clareza)**;  
-  - ou uso de um kkkk7v exclusivo logo após `kkkkn7` para isolar kkkkzz múltiplo kkkk6k.
-- **Ordem detalhada das tarefas no ramo kkkk6k:**
-  - kkkk7v kkkkzz / condição de múltiplo kkkk6k;  
-  - kkkkth do kkkkia (quando houver kkkkia);  
-  - formalização do kkkkgw kkkk6k;  
-  - kkkktm / gravação no C8;  
-  - tratamento de erro (kkkkaa, boundary events, fallback para “sem kkkkia”).
-- **Tipo de tarefa para kkkkth de kkkkia e formalização:**
-  - `serviceTask` (kkkkaq dentro do kkkkho) vs `externalTask` (kkkk92 dedicado em kkkku2), incluindo nomes de topics caso seja external.
+### 4.2. kkkky2 e benefícios na kkkk6k
 
-### 3.2. kkkkvm de kkkkvo do ramo kkkk6k
+- Todo kkkkgw nasce com **kkkky1** (kkkk3l de valor + benefícios). kkkke6 envia **lista de planos** e **lista de benefícios** por kkkky1.
+- **Mensalidade:** tratada como mensalidade (pode ser 0). Ex.: IA — kkkky3; kkkky1 “sem kkkky4” (gratuito) e “com kkkky4” (R$ 25/mês).
+- **kkkkzp:** um kkkky6 com **um kkkky1** por kkkkxr (kkkkzq); confirmar com kkkkxg se retornarão apenas um kkkky1.
 
-A partir do kkkkhk atual, sabemos **onde** kkkkvo são lidas/escritas, mas ainda precisamos **fechar o kkkkvn** para o múltiplo kkkk6k:
+### 4.3. kkkkfn, kkkkz7 e depara
 
-- Lista canônica de kkkkvo de kkkk55 do ramo kkkk6k, por exemplo:
-  - `id_intencao_multiplo_npc` (provavelmente reaproveitando `id_intencao` do kkkkxg);  
-  - `id_plano_multiplo_npc`;  
-  - `limite_multiplo_npc` (kkkksp de kkkkgw vindo do kkkkxg);  
-  - `possui_proxy_multiplo_npc` / flags de kkkkia;  
-  - `response_validacao_proxy_multiplo_npc`;  
-  - `response_formalizacao_multiplo_npc`.
-- Quais dessas kkkkvo entram em:
-  - `metadata_schemaless`;  
-  - `dados_proposta`;  
-  - apenas contexto de kkkk55 (sem persistir em kkkk3l).
+- kkkkfn configurados no **kkkkz7 kkkkve**. kkkke6 envia **id_beneficio**; **kkkkhp** faz depara (kkkk5j → nome + descrição no kkkkz7) e kkkkdp ao front objetos com id, nome, descrição. kkkkra só exibe (ex.: “Saiba mais”).
+- **kkkk5n kkkkzp:** se o kkkkxg enviar benefício não cadastrado no kkkkz7, **não exibimos** esse benefício.
 
-Sugestão para o refinamento: sair com uma **tabela de kkkkvo** (nome, tipo, quem lê, quem escreve, se vai para C8/kkkk3l) para evitar divergência entre kkkkhk e kkkku2.
+### 4.4. kkkky0 e sub_fluxo
 
-### 3.3. kkkk64: comportamento de erro e fallback
+- Lista de **agências kkkkzz** no kkkkz7/Portal Manager; kkkkhp verifica e envia ao kkkkxg com indicativo de kkkkzz (**sub_fluxo**).
+- Para conviver **kkkkzz kkkkh7** e **kkkkzz múltiplo kkkk6k**: sugerido compor **sub_fluxo** com pipe (ex.: `piloto_ad|piloto_multiplo_npc`); **validar com o kkkkau do kkkkxg**.
 
-Do ponto de vista do kkkkhk, ainda falta decidir:
+### 4.5. kkkk64 e formalização
 
-- Em falha na **kkkkth do kkkkia** (5xx, timeout):
-  - o kkkk55 **kkkkz3** a kkkkgq (erro visível para o kkkk1x);  
-  - ou **cai para kkkkvr sem kkkkia** (mantém kkkkp3/kkkkgw, mas sem entrega em casa).
-- Como isso será modelado:
-  - boundary kkkkja de erro na kkkk9q de kkkkth;  
-  - kkkkvr alternativo saindo do kkkk7v após a kkkk9q;  
-  - kkkkvo de marcação (ex.: `proxy_validado = false`, `caiu_sem_proxy = true`).
+Definição completa de **kkkkia** está no glosário rápido (§0.2); aqui o foco são as **kkkkx5 de uso no kkkkvr**. A meta de kkkkag do múltiplo kkkk6k é vender kkkkgw via kkkkia para a maior parte das aberturas (QAR). No kkkkvr, **quem tem kkkkia** passa por uma etapa de **kkkkth do kkkkia** (checar se o endereço/condições permitem envio) antes de seguir; **quem não tem kkkkia** segue reto, sem essa kkkkth. Depois da formalização, a **vinculação do kkkkia** (associar o kkkkgw ao endereço de entrega, acionar envio) fica com a **esteira de formalização/oneração/criação de kkkklh**, não com esta squad.
 
-### 3.4. Formalização: erros e metadados
+- **kkkk56 do kkkkia:** nova kkkkmr (endpoint de kkkkth); **200** = segue; em falha (ex.: 5xx), definir se o kkkkvr **kkkkz3** a kkkkgq ou **cai para kkkkvr sem kkkkia** (kkkk1x seguiria sem entrega em casa). kkkkvm da API (kkkkmn, códigos de erro, kkkkaa) ainda a documentar com o kkkkau de formalização.
+- **Formalização:** nova API após kkkks7; obrigatório **id_intencao**; kkkksp, id_plano, **data de kkkkyv = 10** (fixa no kkkkzp); kkkkf7, kkkk6r, etc. **Vinculação do kkkkia** não é feita por esta squad — esteira de formalização/oneração faz depois.
 
-Ainda em aberto:
+### 4.6. Outras kkkkx5 (SPI, sem kkkksp, personalização)
 
-- Comportamento em falha da **API de formalização**:
-  - kkkkaa automático (com timer);  
-  - boundary kkkkja + fila para tratamento manual;  
-  - apenas gravação em kkkk3l com status para correção posterior.
-- Quais campos de **personalização de kkkkgw** (ex.: kkkklh para kkkkg2 vs menoridade) precisam ser enviados, e como isso aparece no kkkkhk (kkkkvo obrigatórias vs opcionais).
+- **SPI (Servidor Público/folha):** no kkkkzp, IA sem distinção SPI; IU com mensalidade e isenção por regra de kkkkxr (ex.: 12 meses). No kkkkyy, consumir isenção do kkkkxg.
+- **Sem kkkksp aprovado:** mesmo comportamento do AS IS — só kkkkmj disponível para desbloquear; cobrança do kkkky1 quando houver kkkks8 alocado e desbloqueio do lado kkkks8.
+- **Personalização do kkkkgw:** hoje na kkkkve existe **kkkklh de menoridade**; formalização pode referir-se a “kkkklh para kkkkg2”. Alinhar com o kkkkau de formalização qual campo usar.
 
 ---
 
-## 4. kkkklg de pauta rápida para refinamento
+## 5. kkkkvq ponta a ponta (múltiplo kkkk6k)
 
-Sugestão de ordem para usar este kkkkta no refinamento:
+1. **kkkkwx do kkkk1x** → kkkkml **kkkkhr** (limites). No kkkkzz: **só kkkkhv** da kkkkhr; kkkksp de kkkkgw virá do kkkkxg.
+2. **Tela de kkkk1o** → front envia kkkk1o; kkkkhp verifica se está na **lista kkkkzz**; se estiver, envia ao **kkkkxg** com subfluxo.
+3. **kkkke6** → kkkk7f + XP6 planos; kkkkdp kkkkss com kkkky6, DN, kkkksp, **id_intencao**, planos e **id_beneficio**.
+4. **kkkkhp** → depara kkkk5j de benefício com kkkkz7; kkkkdp ao front kkkky6 + kkkky1(s) + benefícios (id, nome, descrição).
+5. **Tela de kkkkgw** → exibe um kkkkgw com um kkkky1 (kkkkzp); se houver kkkkia, **kkkkth do kkkkia**; se 200, segue.
+6. **kkkkxf / kkkkmk** → kkkks7 da kkkklh.
+7. **Formalização** → nova API: id_intencao, kkkksp, id_plano, data kkkkyv 10, etc.
+8. Daí em diante: oneração, criação de kkkklh/kkkkgw, kkkkth e vínculo do kkkkia (fora da squad).
 
-1. **Reafirmar escopo** (Seção 1): kkkkho kkkkwz pelo ramo múltiplo kkkk6k no pós-kkkks7, kkkkhp só pré-kkkks7.  
-2. **kkkkav leitura do kkkkhk** (Seção 2):
-   - ponto de encaixe após `kkkkn7` / `kkkk73`;  
-   - existência de um único `kkkklr`;  
-   - uso de `atualizarPropostaDelegate` / C8 hoje;  
-   - posição atual da lógica de limites.  
-3. **Fechar decisões pendentes** (Seção 3):
-   - forma exata do ramo múltiplo kkkk6k (desenho no diagrama);  
-   - tipo de tarefa (service vs external) para kkkkth de kkkkia e formalização;  
-   - kkkkbz do ramo kkkk6k (tabela final);  
-   - comportamento em erro (kkkkia e formalização).
+**C8 (repositório de kkkk3l/kkkkvo):** kkkkvo de kkkkss/kkkksp vindas do kkkkxg devem estar **persistidas no C8** para o kkkkhp da tela de kkkkth de kkkksx consumir (o **kkkkho** é quem grava essas kkkkvo no C8).
 
-Com isso, saímos do refinamento com um **desenho fechado do ramo múltiplo kkkk6k no kkkkhk** e um **checklist claro de implementação** para a parte de kkkkho/kkkkgm.
+---
 
+## 6. kkkkgm — encaixe no kkkkhk e lacunas
+
+### 6.1. Onde encaixar (fonte: kkkkhk)
+
+- **Ponto natural:** após **kkkkn7**, em paralelo ao que já existe (kkkk7v **kkkk73** hoje dispara **kkkknt** e **kkkko2** — Vinculo kkkk64). O ramo múltiplo kkkk6k pode ser **terceiro ramo** do mesmo kkkk7v ou **novo kkkk7v** “kkkkzz múltiplo” logo após kkkkn7.
+- **Identificação:** kkkkhk já define `kkkkvr = 'kkkksg'`, `kkkk45` (default `kkkkve`) e **kkkkzv** (ex.: `PHYGITAL` ou `PHYGITAL-` + kkkk45). Para o kkkkzz múltiplo, usar valor como `kkkkve-kkkky0-MultiploNPC` e refletir em **sub_fluxo_direcionador** (com possibilidade de composição com `|`).
+- **kkkke6:** a tarefa **kkkklr** usa **sub_fluxo_direcionador** no body; esse valor deve ser populado **antes** da kkkkmr (ex.: na seleção de kkkk1o). **Não há segunda kkkkmr** ao kkkkxg no ramo pós-kkkks7.
+- **Formalização:** nova tarefa (service ou external) em **paralelo** ou **em kkkkxc** após **kkkkn5** (decisão em aberto — ver lacunas). **kkkkn8** deve ser revista para carregar metadados da formalização kkkk6k.
+
+### 6.2. Lacunas — perguntas para o próximo refinamento (em ordem)
+
+As lacunas abaixo estão ordenadas para serem levadas ao próximo refinamento (kkkkgm / kkkkho).
+
+**Modelagem do ramo**
+
+1. O ramo múltiplo kkkk6k entra **como terceiro ramo** saindo do kkkk73, **como kkkk7v exclusivo** antes dele, ou **dentro** do kkkkfl Vinculo kkkk64 (kkkko2)?
+2. Ordem exata no ramo kkkk6k: kkkk7v kkkkzz → kkkkth kkkkia → formalização → kkkktm? (Confirmar que **não** há nova kkkkmr ao kkkkxg nesse ramo.)
+3. A **formalização** múltiplo kkkk6k deve ser modelada em **paralelo** a `kkkkn5` ou **em kkkkxc** (formalização só depois de kkkkn5)?
+
+**Tipo de tarefa**
+
+4. **kkkk56 do kkkkia** e **formalização** serão **service kkkkiq** (kkkkaq no kkkkho) ou **external kkkkiq** (kkkk92 no kkkku2)?
+5. Se external: quais os **nomes dos topics** e quem implementa os kkkkga (squad kkkkho, kkkkhp, outro)?
+
+**Variáveis e kkkkho**
+
+6. **Onde e como** as kkkkvo de kkkkss/kkkksp do kkkkxg são persistidas no **kkkkho** (nova service kkkk9q, extensão do kkkkaq de kkkk3l, outro)?
+7. Lista **canônica de kkkkvo** do ramo kkkk6k (ex.: id_intencao_multiplo_npc, id_plano_multiplo_npc, response_formalizacao_multiplo_npc, flags de kkkkia) e quais são gravadas em kkkk3l (metadata_schemaless / dados_proposta)?
+
+**kkkky9 e kkkkxg**
+
+8. **Valor exato** de `kkkk45` e `sub_fluxo_direcionador` para o kkkkzz múltiplo kkkk6k?
+9. O kkkkxg **confirma** que aceita `sub_fluxo` composto com `|` (ex.: piloto_ad|piloto_multiplo_npc)?
+10. Em **qual tarefa ou script** do kkkkhk `sub_fluxo_direcionador` deve ser populado para o múltiplo kkkk6k?
+
+**kkkk64**
+
+11. Em falha na **kkkkth do kkkkia** (ex.: 5xx): o kkkkvr **kkkkz3** ou **cai para kkkkvr sem kkkkia**?
+12. **kkkkvm da API** de kkkkth do kkkkia: endpoint, kkkkmn, 200 e códigos de erro; kkkkaa, kkkkhk error, mensagem ao usuário.
+
+**Formalização**
+
+13. **Campos de personalização** (kkkklh para kkkkg2 vs kkkklh de menoridade): a API de formalização exige algo específico? Alinhar com kkkkau de formalização.
+14. Em **falha na formalização** (timeout, 4xx/5xx): retentativa automática, kkkkhk error ou apenas registro em kkkk3l para correção manual?
+
+**kkkkhr / limites**
+
+15. Endpoint da kkkkhr para kkkkhv (e eventualmente kkkkgw) permanece o mesmo ou haverá rota nova até **junho**? Atualização do kkkkis (1.0 → novo) **dentro** da demanda do múltiplo ou em demanda separada?
+16. Onde a **sobrescrita** de kkkksp (kkkkxg sobre kkkkhr para kkkkgw) é feita: script kkkkhk, kkkk92, ou kkkkhp ao alimentar o kkkkho?
+
+**Rollout**
+
+17. O kkkkgm precisa **replicar** a verificação “kkkk1o na lista kkkkzz” ou apenas confiar no sub_fluxo_direcionador vindo do kkkkhp?
+18. **Feature-toggle** do ramo múltiplo kkkk6k: variável de kkkk55, configuração no engine ou kkkkar/regra externa?
+
+---
+
+## 7. Pontos em aberto, riscos e questões não respondidas
+
+### 7.1. kkkkgm / kkkkho
+
+| # | Ponto em aberto | kkkk5n / impacto |
+|---|------------------|-----------------|
+| 1 | Ordem do ramo: terceiro ramo do kkkk7v vs kkkk7v exclusivo vs dentro do Vinculo kkkk64 | Divergência de implementação e teste |
+| 2 | Formalização em **paralelo** vs **kkkkxc** a kkkkn5 | Desenho do kkkkvr e kkkkx6 entre tarefas |
+| 3 | kkkk56 kkkkia e formalização: **service** vs **external** kkkk9q; nomes de topics e dono dos kkkkga | kkkkvm de integração e deploy |
+| 4 | Onde e como persistir kkkkss/kkkksp no **kkkkho**; lista canônica de kkkkvo do ramo kkkk6k | Tela de kkkkth do kkkk1x sem dados ou inconsistência |
+| 5 | Valor exato de **kkkk45** e **sub_fluxo_direcionador**; kkkkmk do kkkkxg ao formato com `\|` | kkkke6 não reconhece kkkkzz ou rejeita request |
+| 6 | Em falha na **kkkkth do kkkkia**: kkkk3z ou cair para kkkkvr sem kkkkia | Comportamento de erro indefinido |
+| 7 | **kkkkvm da API** de kkkkth do kkkkia (endpoint, kkkkmn, códigos, kkkkaa) | Integração frágil ou retrabalho |
+| 8 | Campos de **personalização** (kkkklh para kkkkg2 vs menor) na API de formalização | Rejeição ou dado faltando na formalização |
+| 9 | Tratamento de **falha na formalização** (kkkkaa, kkkkhk error, registro manual) | kkkku5 travados ou perda de rastreio |
+| 10 | **kkkkhr/kkkkis:** mesmo endpoint ou rota nova até junho; atualização dentro ou fora da demanda múltiplo | Atraso ou escopo duplicado |
+| 11 | Onde fazer **sobrescrita** kkkksp kkkkxg sobre kkkkhr (kkkkhk vs kkkk92 vs kkkkhp) | Dado errado na tela ou na kkkk3l |
+| 12 | Verificação “kkkk1o kkkkzz” no kkkkgm vs só no kkkkhp; **kkkk4h** do ramo múltiplo | Duplicação de regra ou dificuldade para desligar kkkkzz |
+
+### 7.2. kkkkra
+
+| # | Ponto em aberto | kkkk5n / impacto |
+|---|------------------|-----------------|
+| 1 | **Componente novo** vs reaproveitamento com kkkkz0 para o modelo múltiplo (kkkky6 + kkkky1 + benefícios) | Componente legado com +1000 linhas e manutenção difícil |
+| 2 | kkkkvm de payloads (kkkkxg, kkkkss, kkkkth kkkkia, formalização) com kkkkhp/kkkkqa | Retrabalho ou transformações pesadas no MFE |
+| 3 | Reconstrução da tela ao **kkkkgu** na kkkkgq a partir das kkkkvo de kkkk55/kkkkho | Estado inconsistente ou tela em branco |
+
+### 7.3. Back (kkkkhp e kkkkgc)
+
+| # | Ponto em aberto | kkkk5n / impacto |
+|---|------------------|-----------------|
+| 1 | **Depara benefícios:** benefício novo do kkkkxg não cadastrado no kkkkz7 — não exibir no kkkkzp; governança no rollout | Benefício não aparece ou necessidade de kkkkmr extra ao kkkkau de planos |
+| 2 | Quem **alimenta o kkkkho** com kkkkss/kkkksp (kkkkho vs kkkkhp) e kkkkvn de escrita | kkkkhp da tela de kkkkth lê kkkkho e pode ficar sem dado |
+| 3 | **kkkk56 do kkkkia:** kkkk53 no kkkkhp vs kkkkmr direta do kkkkgm; documentação do kkkkvn com formalização | Duplicação ou kkkkvn incompleto |
+| 4 | **Formalização:** kkkk53 (kkkkhp chama API) vs kkkk92 kkkkgm chama API; alinhamento de campos de personalização com kkkkau de formalização | Dupla kkkkyr ou campo rejeitado |
+| 5 | **kkkkhr/kkkkis:** alinhamento com FE e kkkkxi sobre esforço e cronograma (junho) | Atraso na entrega ou escopo não previsto |
+
+### 7.4. Dúvida da equipe na planning (formalização kkkk6k: kkkkhp vs kkkkgm)
+
+Na planning de 12/03/2026 (documentada em `PLANNING_12-03_DETALHADA.md`), a equipe trouxe explicitamente a dúvida **“essa história de formalização do kkkkgw múltiplo kkkk6k é kkkkhp ou é kkkkgm/kkkkho?”**. A partir da leitura do kkkkhk-fonte (`kkkkk6`) e do encaixe descrito neste kkkkta (§3 e §6), a decisão registrada foi: **a formalização do kkkkgw múltiplo kkkk6k é kkkkyr do kkkk55 kkkkho/kkkkgm**, pois ocorre **após** `kkkkn7`, dentro do ramo de pós-kkkks7 controlado pelo kkkkho; o kkkkhp atua apenas **antes da kkkks7**, na kkkkmr ao kkkke6 kkkk6k (história do Igor), e não deve orquestrar a formalização nem a kkkkxc kkkkia → formalização → kkkktm. Esta dúvida resolvida explica por que as histórias de kkkkia/formalização aparecem aqui como kkkkgc de kkkkz2-end, mas com **kkkk53 principal ancorada no kkkkhk** e sob kkkkyr da squad kkkkho.
+
+### 7.5. Riscos gerais
+
+| kkkk5n | Mitigação sugerida |
+|-------|--------------------|
+| Componente front inchado com exceções só para múltiplo | Avaliar kkkkz0/kkkkvr novo em vez de estender o legado |
+| kkkkhr/kkkkis até junho e decisão “dentro vs fora” da demanda múltiplo | Definir cedo com FE e kkkkxi; registrar em backlog |
+| Benefício novo não cadastrado no kkkkz7 | kkkkzp: não exibir; rollout: governança de cadastro no kkkkz7 |
+| Segundo refinamento sem fechar decisões de modelo (paralelo vs kkkkxc, service vs external) | Usar a lista de lacunas (§ 6.2) como pauta obrigatória |
+
+---
+
+## 8. Responsabilidades (front e kkkkz2)
+
+| Camada | kkkkwy | Entregas principais |
+|--------|-------------|----------------------|
+| **kkkkra** | MFE Produtos_Cartão | kkkkvq de tela múltiplo (kkkk1o → kkkkss → kkkkgw → kkkkia → kkkkmk); kkkkz0/kkkkvr novo para modelo kkkk6k; exibição de benefícios; tratamento de erro de kkkkia; reconstrução ao kkkkgu |
+| **Produto/kkkklz** | kkkkzs, Pan, Mari | kkkkxe de exibição e copy; alinhamento formalização/kkkkxg (personalização); priorização kkkkyy |
+| **QA** | kkkkzr / qualidade | Testes ponta a ponta; cenários de volta e de erro (kkkkia, kkkkxg) |
+| **kkkkhp Info** | Time kkkkhp | Campos adicionais para múltiplo kkkk6k; compatibilidade com MFE atual; entregar antes do kkkkhp kkkkwt quando possível |
+| **kkkkhp kkkkwt** | Time kkkkhp | kkkke6 (kkkk7f, XP6); depara benefícios (kkkkz7); lista kkkkzz; limites (kkkkxg sobrescreve kkkkhr para kkkkgw); kkkkth kkkkia; formalização; alinhamento de kkkkvo no kkkkho |
+| **kkkkqa/kkkkho** | Time kkkkho | Ramo kkkkhk múltiplo kkkk6k; kkkkvx kkkkss/kkkksp no kkkkho; kkkkga ou delegates (kkkkth kkkkia, formalização); sub_fluxo_direcionador; alinhamento kkkkhr/kkkkis |
+| **Líder iniciativa** | Pedro | Contratos, cronograma, alinhamento kkkkxg/formalização/kkkkhr |
+| **PM kkkkve** | kkkk8f | Escopo kkkkzp estável; priorização e riscos |
+
+---
+
+## 9. Próximos passos
+
+| Área | Próximo passo | kkkkwy sugerido |
+|------|----------------|----------------------|
+| **kkkke6** | Definir formato final de `sub_fluxo` para kkkkzz múltiplo kkkk6k (nomes distintos para kkkkh7, kkkk6k e kkkkh7+kkkk6k; sem uso de pipe) e garantir cadastro de um kkkky6/um kkkky1 por kkkkxr (kkkkzq) para o kkkkzp | Pedro / kkkkhp kkkkwt |
+| **kkkkhk/kkkkho** | Detalhar ramo múltiplo kkkk6k após kkkkn7 (kkkk7v kkkkzz → kkkkth kkkkia → formalização → atualização kkkk3l); persistir kkkkss/kkkksp no kkkkho; alinhar com Dan kkkkwz pela kkkkth de kkkkia/rota de formalização | kkkkqa/kkkkho |
+| **kkkkhr/kkkks8** | Confirmar endpoint kkkkhv (e kkkkgw), prazo junho, demanda múltiplo vs separada; alinhar FE e kkkkxi | Pedro / kkkkqa |
+| **MFE/front** | Decidir componente novo vs kkkkz0; kkkkvn de payloads com kkkkhp | Time de kkkkra |
+| **Formalização/kkkkia** | kkkkav campos de personalização (kkkklh para kkkkg2 vs menor); documentar kkkkvn da API de kkkkth do kkkkia | Pedro / kkkkhp kkkkwt |
+| **kkkkzn** | Fechar lacunas do § 6.2 (perguntas 1–18) e kkkky4 em aberto do § 7 | Time kkkkho/kkkkgm + Pedro |
+
+---
+
+## Referências
+
+| Documento | Uso |
+|-----------|-----|
+| `kkkkk6` | Fonte única da verdade do kkkkvr (nós, kkkkaf, kkkkvo, kkkkxg). |
+| `transcricoes/transcricao_refinamento_multiplo/REFINAMENTO_MULTIPLO_DETALHADO.md` | kkkk65 de refinamento kkkkzp e rollout. |
+| `documentacao/kkkkyy/kkkksk/ARQUITETURA_CO8_MULTIPLO_NPC_CAMUNDA.md` | Encaixe no kkkkgm (original). |
+| `documentacao/kkkkyy/kkkksk/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` | Dúvidas kkkkgm (original). |
+| `documentacao/kkkkyy/kkkksk/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` | Responsabilidades por kkkkau (original). |
+| `transcricoes/transcricao_refinamento_multiplo/RELATORIO_REFERENCIA_CRUZADA_INCOERENCIAS.md` | Alinhamentos e incoerências entre os originais. |
+
+Este kkkkta foi produzido a partir **apenas dos originais** listados, sem uso de arquivos em `genericos/` ou `*_GENERICO.md`.
