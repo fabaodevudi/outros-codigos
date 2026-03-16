@@ -1,10 +1,12 @@
-# Critérios para criação de blocos kkkkh6 na kkkkgv kkkkhk
+# KK0007 kkkk5u: kkkk7y — kkkkmr pelo kkkkh0 ou pelo kkkkg0?
 
-**ID da decisão:** kkkkh6-DEC-001  
-**Status:** **Em kkkk5o** (aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))  
-**Tipo:** Diretriz de kkkkwb kkkkh6  
-**Data:** 2026-03-05  
-**Decisor(es):** kkkk7k Pereira de Vasconcelos
+> **kkkkz9:** Pendência 1 do [kkkk3a](../kkkk5e%20da%20decomposição/kkkk3a). A kkkk7y (kkkkp3, kkkkgw, tarifas, etc.) hoje é kkkkmr de dentro do kkkkvr de kkkk56 no kkkk51. Na kkkkgv, restava a dúvida: o **kkkkh0** chama a kkkkem de kkkk7y após o kkkkdy do kkkkg0, ou o **kkkkg0** (kkkk56) continua chamando a kkkk7y como kkkkem interna?  
+> **Status:** **Em kkkk5o**. (KK0007 kkkk3l: kkkk7y permanece como kkkkem dentro do kkkkg0; aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md).)
+
+**kkkkz9 da decisão:**
+
+- **Data:** *(preencher)*
+- **Decisor(es):** kkkk7k Pereira de Vasconcelos
 
 ## Aprovações
 
@@ -13,54 +15,53 @@
 | 1   | *(preencher)* |        |                          |
 | 2   | *(preencher)* |        |                          |
 
----
-
-> **kkkkz9:** Durante a kkkkgv do kkkkhk kkkkg4 da kkkkfj em níveis N1/kkkkh5/kkkkh6, surgem dúvidas sobre quando criar um **bloco kkkkh6** (kkkkfl ou agrupamento lógico) versus quando tratar elementos como ramos, campos ou kkkkvo dentro de um bloco existente. Este kkkk7p estabelece critérios para evitar discussões repetidas e manter consistência no [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d).
+> **Nota:** kkkk7p em kkkkgt até preenchimento de duas aprovações.
 
 ---
 
-## 1. Criar bloco kkkkh6 quando
+## 1. Situação no kkkk51 (`kkkkk6`)
 
-Criar um bloco kkkkh6 (ou kkkkfl/agrupamento no nível 3) quando houver **kkkkjf no kkkkhk** de pelo menos um dos seguintes:
-
-| Critério | Descrição | Exemplo |
-| ---------- | ------------ | --------- |
-| **Sequência lógica de atividades** | Conjunto de kkkkiq e fluxos que formam uma unidade de comportamento reconhecível no kkkkhk. | Bloco "kkkkbo" (kkkkii, kkkkha, kkkkia, kkkkmj, kkkkmk). |
-| **KK0030 externa relevante** | Service kkkk8l, kkkkem ou External kkkk8l que representa integração com kkkkxv externo e merece destaque no kkkk5f. | kkkkck (kkkkja kkkkhg); kkkkcc (kkkkfl kkkkdh). |
-| **kkkk56 complexa** | kkkkis(s) e fluxos que implementam regra de kkkkag ou kkkkth relevante para o domínio. | kkkkip antes da kkkks7 (kkkkg0). |
-| **Responsabilidade de domínio distinta** | Agrupamento que corresponde a um kkkkig kkkkic ou kkkkyr clara no desenho da kkkkgq. | kkkkwx pessoais (kkkkgy); kkkk56 (kkkkg0). |
-
-A decisão deve ser **kkkkla**: o bloco kkkkh6 deve corresponder a elementos concretos no kkkkhk (kkkkfl, conjunto de kkkkiq, flow nomeado), não apenas a nomes de tela ou de kkkky6.
+- A **kkkk7y** (kkkkne, kkkkel, kkkkn5, kkkkn6, etc.) ocorre **após** `kkkkc7` e fluxos de kkkkhu/kkkkth, ainda dentro do mesmo kkkk55.
+- Não existe hoje um kkkk55 kkkkhk separado "kkkkh0" que chame kkkkg2; tudo está em um único kkkk55. A kkkkxc lógica é: kkkk56 (kkkks4, kkkkiu, resumo, kkkkc7) → kkkk5k da kkkk7y (em background) → fim da kkkkgq visível ao kkkk38.
 
 ---
 
-## 2. Não criar bloco kkkkh6 quando
+## 2. Opções na kkkkgv
 
-**Não** criar bloco kkkkh6 isolado quando o elemento for apenas:
-
-| Caso | Descrição | Exemplo |
-| ------ | ------------ | --------- |
-| **Campo de formulário** | Form field ou KK0034 de uma User kkkk8l, sem kkkk9q ou kkkkfl próprio no kkkkhk. | `kkkkb9`, `kkkkkr` (ver [kkkk28](kkkk28)). |
-| **Opção de kkkky6** | Nome de kkkky6, kkkksu ou opção comercial exibida na kkkkss/kkkkmk, sem ID de kkkk9q correspondente. | kkkkgs, kkkkhw, kkkksa como *opções* na tela de kkkkst. |
-| **Flag de kkkklz** | Variável ou flag que controla exibição/kkkkwf na interface, sem kkkkxc de atividades de kkkk55. | Flags de exibição condicional na mesma User kkkk8l. |
-| **Nome de tela sem kkkk9q** | Nome usado na kkkklz ou no kkkkag para uma tela/conteúdo que no kkkkhk é parte de uma kkkk9q maior. | "Tela do kkkkir e do kkkkhw" como conteúdo da etapa de kkkkst, não como kkkkiq com ID próprio. |
-
-Regra prática: **kkkklz ≠ estrutura kkkkhk; tela ≠ kkkkfl.** Na dúvida, conferir no `kkkkk6` se existe **elemento de kkkk55** (User kkkk8l, Service kkkk8l, kkkkem, kkkkl0) com ID ou nome correspondente. Se não existir, tratar como ramo/campo do bloco que contém a kkkk9q onde o dado aparece.
+| Opção | Descrição | Prós / contras |
+| ------- | ----------- | ----------------- |
+| **kkkk7y no kkkkg0** | O kkkk55 `kkkkbw.bpmn` contém uma kkkkem para `kkkkov`; ao retornar do kkkkg0, o kkkkh0 recebe "kkkkgq concluída" (kkkks7 já disparada ou em andamento). | **Prós:** Menor mudança em relação ao kkkkvr atual; kkkkh0 mais simples (só orquestra 1→2→3→4); kkkkyr "pós-kkkkxo" permanece na kkkk56. **Contras:** O kkkkh0 não "vê" o resultado da kkkk7y diretamente (o kkkkg0 é que chama e pode tratar kkkkdy/erro). |
+| **kkkk7y no kkkkh0** | Após o kkkkg0 retornar (kkkkc7 concluída), o kkkkh0 chama a kkkkem `kkkkov`. | **Prós:** kkkkh0 centraliza todas as kkkk65 kkkk5t macro. **Contras:** Exige que o kkkkg0 **termine sem efetivar** e devolva kkkkvo de controle ao kkkkh0 para o kkkkh0 decidir chamar kkkk7y — kkkkvn novo e kkkkyk que hoje não existem; mais um ponto de costura no kkkkh0. |
 
 ---
 
-## 3. Princípio kkkkfu
+## 3. Onde a kkkk7y está no kkkkvr atual
 
-Subprocessos e blocos kkkkh6 devem representar **lógica de kkkk55** (atividades, kkkkgc, kkkkwd, kkkkyr de domínio). Campos de formulário e opções de kkkky6 **não justificam** blocos kkkkh6 dedicados; eles são descritos no bloco que contém a kkkk9q de kkkkss/kkkkmk onde aparecem.
+- A kkkk7y é disparada **dentro** do bloco que hoje será o kkkkg0 (após kkkkc7, kkkkf2, etc.). No kkkkh5 e kkkkh6, a seção "kkkk7y — kkkkov (kkkkem pós-kkkkgq)" está listada como parte do contexto da kkkk56.
+- O guia [kkkk1p](../Apresentações/kkkk1p) descreve: "kkkkem: kkkk7y (pós-kkkkgq)" como bloco do kkkkg0.
+
+Conclusão a partir do desenho atual: a fronteira natural é **kkkk7y kkkkmr pelo kkkkg0**.
 
 ---
 
-## 4. Referências
+## 4. KK0007 e impacto no N1
+
+**KK0007: manter a kkkk7y como kkkkem dentro do kkkkg0 (kkkkbw.bpmn).**
+
+- O kkkkh0 **não** terá kkkkem para `kkkkov`.
+- A tabela de kkkk65 kkkk5t do kkkkh0 (N1) permanece com: `kkkkc6`, `kkkkcm`, `kkkk0q`, `kkkkeg`; a nota sobre kkkk7y fica: "kkkkxl pelo kkkkg0 (kkkkem dentro de kkkkbw.bpmn)".
+- **Pendência 1 do N1:** Fechar como **"Decidido: kkkk7y kkkkmr pelo kkkkg0 (não pelo kkkkh0)."**
+
+**Tratamento de erro da kkkk7y (consequência da decisão):** Com a kkkk7y dentro do kkkkg0, o kkkkh0 **não vê** o resultado da kkkk7y diretamente — quem chama é o kkkkg0, então **quem trata falha/kkkkdy da kkkk65 kkkk7y é o kkkkg0**. Fica como kkkkyr do kkkkh5 (e do desenho do kkkkg0) definir: a kkkk7y falha → o kkkkg0 absorve o erro e termina com status de falha (kkkkvo de saída indicando falha)? O kkkkh0 recebe apenas "kkkkg0 retornou" (sucesso ou falha conforme kkkkvo devolvidas pelo kkkkhj)? Ou há sinal/kkkkx9 para o kkkkh0 em caso de falha? Essa consequência deve ser explicitada no kkkkvn kkkkg0 ↔ kkkkh0 e no mapeamento kkkkh5 (tratamento de erro da kkkk65 `kkkkbr` dentro do kkkkg0).
+
+---
+
+## 5. Referências
 
 | Documento | Uso |
 | ----------- | ----- |
-| [kkkk28](kkkk28) | Aplicação dos critérios: kkkkgs, kkkkhw, kkkksa como campos/ramos em kkkkbo |
-| [kkkk26](kkkk26) | Alocação de kkkkyr (kkkksp/kkkk7d em kkkkgz); bloco kkkkbo |
-| [kkkk22](kkkk22) | kkkkma kkkkcc em kkkkfl kkkkdh |
-| [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | kkkk5e de blocos kkkkh6 por kkkkhk |
-| kkkkk6 | Fonte de verdade para conferência de kkkk5j e estrutura de kkkk55 |
+| [kkkk3a](../kkkk5e%20da%20decomposição/kkkk3a) | Pendência 1; tabela kkkk65 kkkk5t (sem call_efetivacao no kkkkh0) |
+| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | kkkk7y listada como "kkkkem pós-kkkkgq" no contexto kkkk56 |
+| [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | kkkkg0 — bloco "kkkk7y" como kkkkem |
+| [kkkk1p](../Apresentações/kkkk1p) | kkkk5v: kkkk7y sob kkkkg0 |
+| [kkkk3m](../Relatórios%20da%20atividade/kkkk3m) | Seção 5 — item "kkkk7y: kkkkh0 ou kkkkg0?" |
