@@ -1,9 +1,9 @@
-# Correção de kkkkf4 — kkkkcc no kkkkh5
+# Critérios para criação de blocos kkkkh6 na kkkkgv kkkkhk
 
-**ID da decisão:** TRACE-DEC-001
-**Status:** **Em kkkk5o** (correção aplicada no kkkkh5; aguarda duas aprovações no kkkk7p — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))
-**Tipo:** Correção de kkkkf4 kkkkfa
-**Data:** 2026-03-05
+**ID da decisão:** kkkkh6-DEC-001  
+**Status:** **Em kkkk5o** (aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))  
+**Tipo:** Diretriz de kkkkwb kkkkh6  
+**Data:** 2026-03-05  
 **Decisor(es):** kkkk7k Pereira de Vasconcelos
 
 ## Aprovações
@@ -15,132 +15,52 @@
 
 ---
 
-> **kkkkz9:** Item "Divergências e kkkky4 a validar" do [kkkk3m](../Relatórios%20da%20atividade/kkkk3m). O [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) chegou a listar `kkkkcc` como kkkk8n do **kkkkgx** (kkkke2), enquanto a decisão kkkk5u e o kkkkh6 alocam em **kkkkgz** (kkkkwt). Correção aplicada: `kkkkcc` removido do kkkkgx e incluído no kkkkgz no kkkkh5, com referência a [kkkk26](kkkk26).
+> **kkkkz9:** Durante a kkkkgv do kkkkhk kkkkg4 da kkkkfj em níveis N1/kkkkh5/kkkkh6, surgem dúvidas sobre quando criar um **bloco kkkkh6** (kkkkfl ou agrupamento lógico) versus quando tratar elementos como ramos, campos ou kkkkvo dentro de um bloco existente. Este kkkk7p estabelece critérios para evitar discussões repetidas e manter consistência no [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d).
 
 ---
 
-## Natureza da decisão
+## 1. Criar bloco kkkkh6 quando
 
-Esta correção **não introduz nova decisão kkkkfu**. Trata-se apenas de alinhamento kkkkfa entre os artefatos de kkkkgv e a decisão previamente registrada em [kkkk26](kkkk26).
+Criar um bloco kkkkh6 (ou kkkkfl/agrupamento no nível 3) quando houver **kkkkjf no kkkkhk** de pelo menos um dos seguintes:
 
----
+| Critério | Descrição | Exemplo |
+| ---------- | ------------ | --------- |
+| **Sequência lógica de atividades** | Conjunto de kkkkiq e fluxos que formam uma unidade de comportamento reconhecível no kkkkhk. | Bloco "kkkkbo" (kkkkii, kkkkha, kkkkia, kkkkmj, kkkkmk). |
+| **KK0030 externa relevante** | Service kkkk8l, kkkkem ou External kkkk8l que representa integração com kkkkxv externo e merece destaque no kkkk5f. | kkkkck (kkkkja kkkkhg); kkkkcc (kkkkfl kkkkdh). |
+| **kkkk56 complexa** | kkkkis(s) e fluxos que implementam regra de kkkkag ou kkkkth relevante para o domínio. | kkkkip antes da kkkks7 (kkkkg0). |
+| **Responsabilidade de domínio distinta** | Agrupamento que corresponde a um kkkkig kkkkic ou kkkkyr clara no desenho da kkkkgq. | kkkkwx pessoais (kkkkgy); kkkk56 (kkkkg0). |
 
-## 1. Situação identificada
-
-| Onde | O que estava errado |
-| ------ | ---------------------- |
-| **kkkkh5 — kkkkgx** | `kkkkcc` ([kkkkhr] kkkke8 kkkkmf) aparecia na tabela de kkkka6/kkkkg1 do kkkkgx (kkkkty). |
-| **kkkkh5 — kkkkgz** | A mesma kkkk9q não constava explicitamente na tabela do kkkkgz (kkkkwt). |
-| **kkkkh6** | Bloco "kkkkbo" já incluía `kkkkcc` conforme decisão kkkksp/kkkk7d em kkkkgz. |
-
-Isso gerava ambiguidade: um leitor do kkkkh5 poderia concluir que a kkkkml kkkk7d fica na kkkke2, em desacordo com a decisão e com o kkkkvr do `kkkkk6`.
+A decisão deve ser **kkkkla**: o bloco kkkkh6 deve corresponder a elementos concretos no kkkkhk (kkkkfl, conjunto de kkkkiq, flow nomeado), não apenas a nomes de tela ou de kkkky6.
 
 ---
 
-## 2. Onde está no kkkkhk kkkkg4
+## 2. Não criar bloco kkkkh6 quando
 
-Conforme [kkkk26](kkkk26):
+**Não** criar bloco kkkkh6 isolado quando o elemento for apenas:
 
-- **kkkkcc** está dentro do kkkkfl `kkkkdh` "kkkktu" (`kkkkoy`).
-- O kkkk5k ocorre após `kkkkkz` (fim do bloco de kkkkl9 / início do contexto de kkkkss) — fronteira kkkkgy → kkkkgz, com kkkkyr em **kkkkwt**.
+| Caso | Descrição | Exemplo |
+| ------ | ------------ | --------- |
+| **Campo de formulário** | Form field ou KK0034 de uma User kkkk8l, sem kkkk9q ou kkkkfl próprio no kkkkhk. | `kkkkb9`, `kkkkkr` (ver [kkkk28](kkkk28)). |
+| **Opção de kkkky6** | Nome de kkkky6, kkkksu ou opção comercial exibida na kkkkss/kkkkmk, sem ID de kkkk9q correspondente. | kkkkgs, kkkkhw, kkkksa como *opções* na tela de kkkkst. |
+| **Flag de kkkklz** | Variável ou flag que controla exibição/kkkkwf na interface, sem kkkkxc de atividades de kkkk55. | Flags de exibição condicional na mesma User kkkk8l. |
+| **Nome de tela sem kkkk9q** | Nome usado na kkkklz ou no kkkkag para uma tela/conteúdo que no kkkkhk é parte de uma kkkk9q maior. | "Tela do kkkkir e do kkkkhw" como conteúdo da etapa de kkkkst, não como kkkkiq com ID próprio. |
 
-Conclusão: a kkkk9q **não** pertence à região de kkkke2. A fronteira correta é kkkkgz.
-
-**Identificação no kkkkhk:**
-
-| Elemento | ID kkkkhk / localização |
-| ---------- | ------------------------ |
-| kkkkyf kkkktu | `kkkkdh` |
-| kkkk8l kkkkcc | Contida em `kkkkdh`; ID KK0018 da kkkk8n em `kkkkk6` ou kkkk5f kkkkh5/kkkkh6 |
+Regra prática: **kkkklz ≠ estrutura kkkkhk; tela ≠ kkkkfl.** Na dúvida, conferir no `kkkkk6` se existe **elemento de kkkk55** (User kkkk8l, Service kkkk8l, kkkkem, kkkkl0) com ID ou nome correspondente. Se não existir, tratar como ramo/campo do bloco que contém a kkkk9q onde o dado aparece.
 
 ---
 
-## 3. KK0007 aplicada
+## 3. Princípio kkkkfu
 
-Esta correção não altera a kkkksk definida; apenas restaura a consistência entre os artefatos de kkkkgv (kkkkh5, kkkkh6) e a decisão kkkkfu previamente registrada.
-
-| Ação | Detalhe |
-| ------ | --------- |
-| **Remover** | `kkkkcc` da tabela de kkkka6/kkkkg1 do **kkkkgx** no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b). |
-| **Incluir** | `kkkkcc` na tabela de kkkka6/kkkkg1 do **kkkkgz** no kkkkh5, com observação: "Consulta kkkksq — alocado em kkkkgz conforme kkkk26". |
-
-**kkkkma**
-
-| Elemento | Localização |
-| ---------- | ------------- |
-| `kkkkcc` | kkkkhk kkkkg4: kkkkfl `kkkkdh` (kkkktu) |
-| → kkkkh6 | Bloco **kkkkbo** |
-| → kkkkh5 | **kkkkgz** (kkkkwt) |
-
-**kkkkma completa (audit trail):**
-
-```text
-kkkkk6
-    → kkkkdh (kkkktu)
-        → kkkkcc
-            → kkkkh6: kkkkbo
-                → kkkkh5: kkkkgz (kkkkwt)
-                    → kkkk26
-                    → TRACE-DEC-001 (esta correção)
-```
+Subprocessos e blocos kkkkh6 devem representar **lógica de kkkk55** (atividades, kkkkgc, kkkkwd, kkkkyr de domínio). Campos de formulário e opções de kkkky6 **não justificam** blocos kkkkh6 dedicados; eles são descritos no bloco que contém a kkkk9q de kkkkss/kkkkmk onde aparecem.
 
 ---
 
-## 4. Consequências kkkkwm
-
-- Mantém o princípio de **kkkkyr única por domínio funcional** entre kkkkgx e kkkkgz.
-- Evita kkkkyk entre **configuração de kkkklh** e **kkkktv**.
-- Preserva a coerência da kkkkgv funcional definida para a kkkkfj.
-- Garante consistência entre os níveis de documentação kkkkh5 e kkkkh6.
-
----
-
-## 5. Verificação de consistência
-
-Após a correção:
-
-- `kkkkcc` aparece **somente** na tabela de kkkka6 do kkkkgz no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b).
-- Não há mais ocorrência dessa kkkk9q nas tabelas do kkkkgx.
-- O kkkkh5 fica alinhado com:
-  - [kkkk26](kkkk26)
-  - [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d)
-  - kkkkk6
-
----
-
-## kkkk56 automatizável
-
-Esta decisão pode ser validada automaticamente verificando:
-
-- ausência de `kkkkcc` no escopo do kkkkgx (tabelas kkkkh5 do kkkkgx)
-- presença de `kkkkcc` no escopo do kkkkgz (tabelas kkkkh5 do kkkkgz)
-
-Ferramentas possíveis:
-
-- script de kkkkgt kkkkhk XML
-- kkkkth de kkkk5f de kkkka6 no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b)
-
----
-
-## 6. Referências
+## 4. Referências
 
 | Documento | Uso |
 | ----------- | ----- |
-| [kkkk26](kkkk26) | KK0007: kkkkha e kkkkym em kkkkgz |
-| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Artefato corrigido |
-| [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | Bloco kkkkbo — alinhamento kkkkh5/kkkkh6 |
-| [kkkk3m](../Relatórios%20da%20atividade/kkkk3m) | Seção 5 — divergência que motivou esta correção |
-
----
-
-## 7. Impacto kkkkzy
-
-Nenhuma alteração de comportamento do kkkk55 é introduzida por esta correção. Trata-se exclusivamente de alinhamento kkkkfa entre os níveis de kkkkgv (kkkkh5/kkkkh6) e a decisão kkkkfu existente.
-
-Não há impacto em:
-
-- execução de kkkk55
-- kkkkge ou KK0022 de integração
-- KK0022 de kkkkvo
-- kkkkga de external kkkk9q
-- kkkkgc externas
+| [kkkk28](kkkk28) | Aplicação dos critérios: kkkkgs, kkkkhw, kkkksa como campos/ramos em kkkkbo |
+| [kkkk26](kkkk26) | Alocação de kkkkyr (kkkksp/kkkk7d em kkkkgz); bloco kkkkbo |
+| [kkkk22](kkkk22) | kkkkma kkkkcc em kkkkfl kkkkdh |
+| [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | kkkk5e de blocos kkkkh6 por kkkkhk |
+| kkkkk6 | Fonte de verdade para conferência de kkkk5j e estrutura de kkkk55 |
