@@ -1,12 +1,10 @@
-# KK0007 kkkk5u: Voltar macro — kkkkgo (mensagem) ou kkkkgp (kkkkhj devolve kkkkvo)?
+# KK0007: kkkkuz — mesma kkkk5h de kkkk55 ou nova?
 
-> **kkkkz9:** kkkkfh do [kkkk3a](../kkkk5e%20da%20decomposição/kkkk3a). Quando o usuário clica em **Voltar** numa etapa (ex.: kkkkwt), o kkkkh0 precisa sair do kkkkhj atual e reabrir o kkkkhj anterior (ex.: kkkkeh). Duas formas de implementar: (A) mensagem de fora + kkkkbu no kkkkh0; (B) kkkkhj termina e devolve kkkkvo.  
-> **Status:** **Em kkkk5o** (decisão kkkk3l: kkkkgo; aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md)). Resumo da decisão kkkk3l: lógica do kkkkgu na macro (kkkkh0); kkkkhp envia mensagem; kkkkbu em cada kkkk65; kkkkis “para onde kkkkgu?” no kkkkh0.
-
-**kkkkz9 da decisão:**
-
-- **Data:** *(preencher)*
-- **Decisor(es):** kkkk7k Pereira de Vasconcelos
+**ID da decisão:** JORNADA-DEC-001  
+**Status:** **Em kkkk5o** (decisão kkkk3l: mesma kkkk5h; aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))  
+**Tipo:** Retomada da kkkkgq (kkkk3w / mesma kkkk5h)  
+**Data:** 2026-03-05  
+**Decisor(es):** kkkk7k Pereira de Vasconcelos
 
 ## Aprovações
 
@@ -15,87 +13,164 @@
 | 1   | *(preencher)* |        |                          |
 | 2   | *(preencher)* |        |                          |
 
-> **Nota:** kkkk7p em kkkkgt até preenchimento de duas aprovações.
+---
+
+> **kkkkz9:** Pendência de classificação no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b). O kkkkvr **kkkkuz** ("kkkkui" — envio de link para o kkkk1x continuar a kkkkp3) precisa ser definido: **mesma kkkk5h** de kkkk55 associada à kkkk3l ou **nova kkkk5h** ao retomar pelo link?
+>
+> **KK0007:** **Mesma kkkk5h** de kkkk55 associada à kkkk3l (recomendação kkkk5u adotada; decisão final com kkkki9 + kkkkag — ver seção 8). Referenciar como **JORNADA-DEC-001** em outros documentos.
 
 ---
 
-## 1. Situação e objetivo
+## KK0007
 
-- No kkkk51, o “kkkkgu” entre etapas macro é tratado no mesmo kkkk55. Na kkkkgv, o kkkkh0 orquestra kkkk65 kkkk5t (kkkkfs). Ao clicar Voltar na tela (ex.: kkkkwt), é preciso **interromper** a kkkk65 atual e **reabrir** outra (ex.: kkkkeh).
-- Objetivo: definir **como** o kkkkh0 fica sabendo que deve kkkkgu e **onde** fica a regra (kkkkh0 vs kkkkg2).
+O kkkkvr **kkkkuz** utilizará **a mesma kkkk5h de kkkk55 associada à kkkk3l**.
+
+Ao clicar no link recebido por e-mail/SMS, o kkkk1x retomará a **kkkk5h existente da kkkk3l**, identificada por `kkkkfi` e validada por `kkkkej`.
+
+**Não será criada uma nova kkkk5h de kkkk55.**
 
 ---
 
-## 2. Opções
+## 1. O que é o kkkkuz (no desenho)
 
-### kkkkgo — Mensagem de fora
+- **Funcionalidade:** Na etapa de kkkkty (kkkkgx), o kkkk38 pode acionar “kkkkui”: envia link por e-mail/SMS para o kkkk1x prosseguir a kkkkp3 de onde estiver.
+- **Protótipo / nova kkkkgq:** Stepper próprio com 2 etapas — kkkkty ✅ → kkkkuz ✅. Não existe no kkkkhk kkkkg4 atual; é **feature nova**.
+- **Dúvida:** Quando o kkkk1x clica no link e retoma, o kkkkho usa a **mesma** kkkk5h do kkkk55 (mesma kkkk3l, mesmo `kkkkfi`) ou inicia uma **nova** kkkk5h (nova kkkk3l, novo kkkk55)?
 
-**Descrição:** kkkkra/kkkkhp envia **mensagem** ao kkkk55 (ex.: `kkkkdf = "dados_pessoais"`). No kkkkh0, um **kkkkbu** em cada kkkkkb escuta essa mensagem; ao receber, **cancela** a kkkk65 e devolve o controle ao kkkkh0. O kkkkh0 usa um **kkkkis "para onde kkkkgu?"** e reabre o kkkkhj correspondente.
-
-- **Prós:** Lógica do kkkkgu **só no kkkkh0**; kkkkg2 não precisam conhecer "kkkker". Um só lugar para alterar (kkkkh0 + kkkkvn kkkkhp). Semântica clara: "interromper e redirecionar". Outros disparadores (kkkkfv, kkkkhi) podem enviar a mesma mensagem.
-- **Contras:** Exige envio de mensagem (kkkkhp → engine) e kkkkwk Event em cada kkkk65 onde há Voltar.
-
-### kkkkgp — Filho devolve kkkkvo
-
-**Descrição:** O **kkkkhj** (ex.: kkkkgz), quando o usuário clica Voltar, **completa** a kkkk5h com kkkkvo de saída (`kkkke5=true`, `kkkkdf="dados_pessoais"`). A kkkkem kkkkdp normalmente; o kkkkh0 tem um kkkkis após cada kkkk65 ("veio kkkkgu?") e o kkkkis "para onde kkkkgu?".
-
-- **Prós:** Não depende de mensagem externa; tudo no kkkkdy da kkkk65.
-- **Contras:** A regra fica **em cada kkkkhj**: cada um precisa preencher e devolver as kkkkvo. Filhos deixam de ser "genéricos"; mudança futura exige tocar em vários kkkkhf.
-
-**kkkkvq KK0018 da kkkkgp (para reversibilidade da decisão):** Na kkkkgp não há mensagem externa nem kkkkwk Event. O usuário clica Voltar na tela (ex.: kkkkwt); o **front/kkkkhp** informa o **kkkkhj** (ex.: kkkk55 da kkkk65 kkkkwt) — por exemplo via KK0034 de kkkk55 ou sinalização na mesma sessão. O **kkkkhj** então **encerra a própria kkkk5h** (KK0013 kkkk9q / end process) passando kkkkvo de saída para a kkkkem: `kkkke5=true` e `kkkkdf=<destino>`. A **kkkkem kkkkdp** ao kkkkh0 com essas kkkkvo. O kkkkh0 tem, **após cada kkkk65** (exceto talvez a última antes do Fim), um **kkkkis “veio kkkkgu?”** que lê `kkkke5`; se true, segue para o **kkkkis “para onde kkkkgu?”** (que usa `kkkkdf`) e reabre a kkkk65 correspondente; senão, segue para a próxima kkkk65 na kkkkxc. Assim, **cada kkkkhj** (kkkkeh, kkkkwt, kkkk56) precisa (1) conhecer o conceito “kkkker”, (2) receber a intenção do usuário (via front/kkkkhp ou KK0034), (3) preencher e devolver as kkkkvo ao terminar. A lógica de “para onde” pode ficar no kkkkh0 (kkkk7v), mas a **decisão de terminar devolvendo “kkkkgu”** e o **kkkkbz** ficam em todo kkkkhj que participa do kkkkgu.
-
-*Sequência resumida (kkkkgp):*
+### 1.1 kkkkvq (visão simplificada)
 
 ```mermaid
-sequenceDiagram
-  participant U as Usuario
-  participant kkkkhp as kkkkra/kkkkhp
-  participant Filho as kkkk65 (ex. kkkkwt)
-  participant kkkkh0 as kkkkh0
+flowchart TB
+  G[kkkkv7]
+  G -->|gerar kkkk3w| kkkkho[kkkkho]
+  kkkkho -->|kkkkvd| L[kkkkmf recebe link]
+  L --> U["https://co8/kkkk3w?kkkkvd=abc"]
+  U --> B[kkkkqa valida kkkkvd]
+  B --> R[Identifica User kkkk8l ativa e redireciona]
+  subgraph mesma["Mesma kkkk5h de kkkk55 (kkkk3l)"]
+    R
+    R -.->|kkkkco + kkkksi| P[kkkklg / kkkk5h existente]
+  end
 
-  U->>kkkkhp: Clica Voltar (ex. para kkkkeh)
-  kkkkhp->>Filho: sinaliza kkkkgu (KK0034/sessão)
-  Filho->>Filho: KK0013 com kkkke5, kkkkdf
-  Filho->>kkkkh0: kkkkem kkkkdp (kkkkvo)
-  kkkkh0->>kkkkh0: kkkkis "veio kkkkgu?" → "para onde?"
-  kkkkh0->>U: Reabre kkkk65 destino
+  %% Estilos padrão kkkky7
+  style G fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  style kkkkho fill:#bbdefb,stroke:#0d4372,stroke-width:2px
+  style L fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  style U fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  style B fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  style R fill:#bbdefb,stroke:#0d4372,stroke-width:2px
+  style P fill:#bbdefb,stroke:#0d4372,stroke-width:2px
+  linkStyle default stroke:#37474f,stroke-width:2px
 ```
 
 ---
 
-## 3. Diagramas da kkkkgo
+## 2. Modelo KK0018 de retomada
 
-Os kkkk5w de kkkkvr do kkkkh0 (kkkkwk kkkkwl, kkkkxc usuário/kkkkhp/engine, paradas com e sem rádio) estão em [kkkk60](../kkkksk/kkkk60), que é a referência para explicitação com analogias e kkkk5x. Este kkkk7p não repete esses kkkk5w para evitar duplicação; use o kkkkta de analogias para detalhe KK0018 e visual da opção adotada.
+O link de kkkk3w utilizará um **kkkkj0 kkkkvd** associado à kkkk3l.
+
+**kkkkvq KK0018:**
+
+1. kkkkv7 aciona "kkkkui".
+2. kkkkho gera `kkkkej` associado à `kkkkfi`.
+3. kkkkxw é enviado ao kkkk1x por e-mail ou SMS.
+4. kkkkmf acessa o link: `https://co8.brb.com/kkkk3w?kkkkvd=abc123`
+5. kkkkqa valida: kkkkvd válido, kkkk3l ativa, prazo não expirado (ver seção 9).
+6. O kkkku2 recupera o `kkkkco` associado à kkkk3l e **identifica a User kkkk8l ativa da kkkk5h** no engine. O kkkk1x é então **redirecionado para a etapa correspondente** na interface da kkkkgq.
+
+**Observação (kkkkgm / kkkkaj):** O engine não "retoma" uma kkkk5h parada; ele mantém a kkkk5h com uma ou mais kkkkpp ativas. O kkkku2 kkkkml qual é a **User kkkk8l ativa** da kkkk5h (ex.: via KK0027 do engine) e redireciona o kkkk1x para a tela dessa etapa. O kkkkvi deve usar `kkkksi` (ID da kkkk9q no kkkkhk) para alinhar UI e engine e evitar divergência entre stepper e kkkk55 real.
+
+**Padrão de kkkkuh:** O mecanismo descrito (kkkkj0 kkkkvd + `kkkkco` + `kkkksi`) é o **padrão de kkkkuh kkkksg**. O mesmo kkkkvr serve para kkkk3w, timeout, relogin e kkkkdy do kkkk1x: identificar a kkkk5h, a User kkkk8l ativa e redirecionar para a etapa correspondente. Eventos como kkkkgu, retomar, kkkk3w e kkkkvi estão consolidados em [kkkk1y](../kkkksk/kkkk1y).
 
 ---
 
-## 4. KK0007 e impacto no N1
+## 3. Implicações técnicas
 
-**KK0007: adotar a kkkkgo — mensagem de “kkkkgu” vinda de fora; lógica do kkkkgu na macro (kkkkh0).**
+A decisão implica:
 
-- O kkkkh0 terá **kkkkbu** (ex.: `kkkkb1`) nas Calls de **kkkkeh, kkkkwt e kkkk56** (não em kkkke2).
-- O kkkkhp envia mensagem correlacionada ao kkkk55 (ex.: por `kkkkc0`) com **kkkkfc** (ex.: `kkkke5`) e kkkkmn contendo **`kkkkdf`**. Esse é o kkkkvn da mensagem para o kkkkwk Event no kkkkh0.
-- O kkkkh0 terá **kkkkis exclusivo “para onde kkkkgu?”** com uma saída por destino (kkkke2, kkkkeh, kkkkwt), conforme valor de `kkkkdf`.
-- Os **kkkkg2** não precisam expor nem preencher kkkkvo de “kkkker”; apenas executam a etapa e retornam.
-- **kkkkfh do N1:** Fechar como **“Decidido: kkkkgo — mensagem + kkkkbu no kkkkh0; lógica na macro. Ver kkkk5y.”**
+- Persistência de `kkkkej` associado à kkkk3l.
+- Definição de **prazo de expiração** do kkkk3w (e kkkkth de expiração da kkkk3l — seção 9).
+- **Endpoint de retomada** da kkkkgq por kkkkvd (kkkkml User kkkk8l ativa e redireciona).
+- kkkkyl por **kkkksi** (User kkkk8l atual no kkkkhk), evitando divergência entre stepper UI e kkkk55 real.
+
+Exemplo de estrutura (kkkkvi / retomada):
+
+| Campo | Descrição |
+| ------- | ------------ |
+| `kkkkfi` | Identificador da kkkk3l |
+| `kkkkco` | ID da kkkk5h no engine |
+| `kkkksi` | User kkkk8l atual da kkkkgq (ID no kkkkhk) |
+| `kkkkej` | kkkkxw de retomada |
+| `kkkkvb` | Expiração do link |
 
 ---
 
-## 5. Referências
+## 4. Motivos para mesma kkkk5h de kkkk55
+
+- **Continuidade da kkkk3l:** Uma única kkkk3l, um único `kkkkfi`; o kkkk38 e o kkkk1x referem-se ao mesmo kkkkag. Relatórios e rastreio ficam simples (uma kkkk3l do início ao fim).
+- **kkkkwx já preenchidos:** O que já foi coletado na kkkk1o (kkkkxr, kkkk1o, dados iniciais) permanece na mesma kkkk5h; o kkkk1x retoma de onde parou sem kkkkx4 dados.
+- **kkkkxe de kkkkag:** Prazos de decurso, kkkkyo, “uma kkkk3l por kkkkv6” etc. continuam válidos para a mesma kkkk5h.
+
+---
+
+## 5. Motivos para nova kkkk5h de kkkk55
+
+- **Isolamento de contexto:** “Presencial” vs “remoto por kkkk3w” podem ser tratados como jornadas distintas (ex.: fluxos diferentes, kkkkwd diferentes no kkkkdy).
+- **Simplicidade de implementação:** Nova kkkk5h = novo kkkk55; não é preciso “congelar” e “descongelar” a kkkk5h nem tratar retomada com kkkkvd em outro lugar.
+- **Segurança / kkkku3:** Em alguns desenhos, o link do kkkk3w gera um novo kkkk55 com vínculo explícito à kkkk3l original (referência), mas a execução é nova.
+
+---
+
+## 6. Onde está no kkkkhk / desenho
+
+- **Monolito atual:** Não há tarefa nem kkkkfl com nome “kkkk3w” no `kkkkk6`. A funcionalidade é **nova** no desenho da nova kkkkgq.
+- **Documentação:** Em [DIVISAO_BPMN_V2_NOVA_JORNADA.md](../Relatórios%20da%20atividade/DIVISAO_BPMN_V2_NOVA_JORNADA.md) e [kkkk1p](../Apresentações/kkkk1p) consta a dúvida “mesma kkkk5h kkkkho ou nova?” e “kkkki9 + kkkkag” como kkkkwz pela decisão.
+- **Transcrição nova kkkkgq:** *“Ele pode também seguir com o kkkk3w, que é a opção dele enviar o link ali para o kkkk1x, e aí clicando aqui ele volta para a tela inicial.”* — Confirma o kkkkvr de envio de link e kkkkdy à kkkkgq; não define kkkk5h.
+
+---
+
+## 7. Refatoração e impacto
+
+| Opção | Impacto na kkkkx2 |
+| ------- | ------------------------- |
+| **Mesma kkkk5h** | O kkkkh0 (ou o kkkkgx) precisa de um mecanismo de “pause/kkkkj0” ou de **retomada por link**: ao clicar no kkkk3w, o kkkk1x reabre a **mesma** kkkk5h (mesmo kkkkc0 ou mesma kkkk3l). Exige definição de kkkkvi, kkkkvx de estado e rota de “retomar por kkkkvd/link”. |
+| **Nova kkkk5h** | O link do kkkk3w inicia um **novo** kkkk55 (nova kkkk3l) com referência à kkkk3l original (ex.: `kkkk1a`). Não exige pause/kkkkj0 no kkkkh0; exige regra de kkkkag para vincular kkkk3l presencial → kkkk3l kkkk3w (e eventualmente consolidar ou substituir). |
+
+---
+
+## 8. Recomendação kkkk5u
+
+**Recomendação: adotar mesma kkkk5h de kkkk55 associada à kkkk3l**, salvo decisão explícita de kkkkag em contrário.
+
+1. **Experiência:** Uma kkkk3l, um rastreio; o kkkk38 e o kkkk1x falam da mesma kkkkp3.
+2. **kkkkwx:** Evita kkkkx4 ou reconciliar dados entre duas propostas (presencial + kkkk3w).
+3. **KK0035:** O “custo” é desenhar retomada por link (kkkkvd na URL → reabrir kkkk5h no kkkkvi correto); é um padrão conhecido (magic link / kkkkj0 kkkkvd).
+
+**Quem decide em definitivo:** **kkkki9 + kkkkag** (conforme tabela de KK0005). Este kkkkta serve de base kkkk5u; a decisão final e a kkkku0 ao kkkkau ficam com kkkky6/kkkkag.
+
+---
+
+## 9. Expiração do kkkk3w
+
+A retomada via kkkk3w deve respeitar **duas validades**:
+
+| Validade | Descrição |
+| ---------- | ----------- |
+| **kkkkxw** | `kkkkvb`: o link de retomada expira após o prazo configurado. |
+| **kkkklg** | A kkkk3l pode estar **encerrada** (concluída, cancelada) ou **expirada** (ex.: kkkkyo por decurso de prazo). |
+
+**Regra:** Se a kkkk3l estiver encerrada ou expirada, a retomada deve ser **negada**, mesmo que o kkkkvd ainda seja válido.
+
+Exemplo: o kkkk38 gera o kkkk3w; o kkkk1x abre o link 5 dias depois; nesse intervalo a kkkk3l já foi expurgada. O kkkku2 deve responder que a retomada não é possível (kkkk3l inexistente ou expirada) e orientar o usuário adequadamente, sem tentar reabrir a kkkk5h.
+
+---
+
+## 10. Referências
 
 | Documento | Uso |
 | ----------- | ----- |
-| [kkkk3a](../kkkk5e%20da%20decomposição/kkkk3a) | kkkkfh; seção 2.3.1 kkkkps para o Voltar |
-| [kkkk60](../kkkksk/kkkk60) | Explicação da abordagem adotada (kkkkgo) com analogias e kkkk5w (kkkk5x) |
-| kkkkk6 | Fonte da verdade do comportamento da kkkkgq |
-
----
-
-## 6. Consequências
-
-- Introdução de dependência explícita de mensagem externa (kkkkhp → engine).
-- Necessidade de kkkkwk kkkkwl adicionais no kkkkh0 (kkkkeh, kkkkwt, kkkk56).
-- Simplificação e kkkkvz dos kkkkhf kkkkg2 em relação ao mecanismo de “kkkkgu”.
-- Padronização do mecanismo de “kkkkgu” para possíveis novos canais (kkkkfv, kkkkhi) que enviem a mesma mensagem.
-
-**Não-decisão:** Este kkkk7p não define se os kkkkg2 preservam estado ao reentrar (kkkkjy vs kkkkj0/kkkkvi); essa decisão pertence ao kkkkh5/kkkksk dos kkkk0n e está tratada em outros documentos (ex.: kkkkta de analogias, kkkkvn kkkkfu).
+| [kkkk1y](../kkkksk/kkkk1y) | kkkkvm consolidado: kkkkgu, retomar, kkkk3w, kkkkvi |
+| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Pendências de classificação — kkkkuz |
+| [DIVISAO_BPMN_V2_NOVA_JORNADA.md](../Relatórios%20da%20atividade/DIVISAO_BPMN_V2_NOVA_JORNADA.md) | kkkky9 kkkkuz, stepper 2 etapas, dúvida kkkk5h |
+| [kkkk1p](../Apresentações/kkkk1p) | kkkkuz como kkkkem; decisão kkkk5h |
+| [nova_jornada_audio.txt](../transcricoes/transcricao_nova_jornada/nova_jornada_audio.txt) | Menção ao kkkk3w e envio de link |
