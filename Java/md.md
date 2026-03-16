@@ -1,4 +1,4 @@
-# User Story — Parte 1: Início e identificação da kkkkgq
+# User s — Parte 1: Início e identificação da kkkkgq
 
 **Fonte da verdade:** `kkkkk6` (Event_0s31x87, kkkkm2)
 
