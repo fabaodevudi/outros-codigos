@@ -1,8 +1,10 @@
-# kkkk7p — Classificação da kkkk9q `kkkkcb`
+# Correção de kkkkf4 — kkkkcc no kkkkh5
 
-**Status:** **Em kkkk5o** (aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))  
-**Data:** *(preencher)*  
-**Decisor(es):** kkkk7k Pereira de Vasconcelos  
+**ID da decisão:** TRACE-DEC-001
+**Status:** **Em kkkk5o** (correção aplicada no kkkkh5; aguarda duas aprovações no kkkk7p — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))
+**Tipo:** Correção de kkkkf4 kkkkfa
+**Data:** 2026-03-05
+**Decisor(es):** kkkk7k Pereira de Vasconcelos
 
 ## Aprovações
 
@@ -13,178 +15,132 @@
 
 ---
 
-**kkkkz9 de decisão:** Pendência de classificação no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) — atribuir a kkkk9q `kkkkcb` ao kkkkg0 (kkkk56) ou tratá-la como kkkkvr kkkk7r acionado por kkkkx9.
+> **kkkkz9:** Item "Divergências e kkkky4 a validar" do [kkkk3m](../Relatórios%20da%20atividade/kkkk3m). O [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) chegou a listar `kkkkcc` como kkkk8n do **kkkkgx** (kkkke2), enquanto a decisão kkkk5u e o kkkkh6 alocam em **kkkkgz** (kkkkwt). Correção aplicada: `kkkkcc` removido do kkkkgx e incluído no kkkkgz no kkkkh5, com referência a [kkkk26](kkkk26).
 
 ---
 
-## kkkkz9
+## Natureza da decisão
 
-Durante a kkkkgv do kkkkhk kkkkg4 da kkkkfj em kkkk0n, surgiu a dúvida sobre onde classificar a kkkk9q `kkkkcb`.
-
-As opções consideradas foram:
-
-- kkkkdx o kkkktr como parte do **kkkkg0 — kkkk56**
-- tratar o cadastro como **kkkkvr kkkk7r acionado por kkkkx9**, independente da etapa ativa da kkkkgq
+Esta correção **não introduz nova decisão kkkkfu**. Trata-se apenas de alinhamento kkkkfa entre os artefatos de kkkkgv e a decisão previamente registrada em [kkkk26](kkkk26).
 
 ---
 
-## Problema kkkkfu
+## 1. Situação identificada
 
-Durante a kkkkgv do kkkkhk kkkkg4 surgiram dúvidas sobre a kkkkyr do kkkktr:
+| Onde | O que estava errado |
+| ------ | ---------------------- |
+| **kkkkh5 — kkkkgx** | `kkkkcc` ([kkkkhr] kkkke8 kkkkmf) aparecia na tabela de kkkka6/kkkkg1 do kkkkgx (kkkkty). |
+| **kkkkh5 — kkkkgz** | A mesma kkkk9q não constava explicitamente na tabela do kkkkgz (kkkkwt). |
+| **kkkkh6** | Bloco "kkkkbo" já incluía `kkkkcc` conforme decisão kkkksp/kkkk7d em kkkkgz. |
 
-- pertence à etapa de **kkkk56 (kkkkg0)**?
-- ou é um **kkkkvr kkkk7r acionado por kkkkx9**?
-
-Essa classificação impacta:
-
-- a distribuição de kkkkwp entre kkkkpa kkkkhk
-- o kkkkyk entre kkkkwd e kkkkgc regulatórias
-- a fidelidade ao desenho do kkkkhk kkkkg4
+Isso gerava ambiguidade: um leitor do kkkkh5 poderia concluir que a kkkkml kkkk7d fica na kkkke2, em desacordo com a decisão e com o kkkkvr do `kkkkk6`.
 
 ---
 
-## Regulamentação kkkk0f (contexto)
+## 2. Onde está no kkkkhk kkkkg4
 
-A kkkkuc/kkkkud nº 4.753/2019 exige que instituições financeiras realizem procedimentos de **kkkk05** durante o kkkk55 de kkkkp3, incluindo avaliação de kkkkub.
+Conforme [kkkk26](kkkk26):
 
-O kkkktr presente no kkkkhk parece representar o **registro ou kkkku0 desse kkkk55 de qualificação** junto a kkkk50 internos ou regulatórios.
+- **kkkkcc** está dentro do kkkkfl `kkkkdh` "kkkktu" (`kkkkoy`).
+- O kkkk5k ocorre após `kkkkkz` (fim do bloco de kkkkl9 / início do contexto de kkkkss) — fronteira kkkkgy → kkkkgz, com kkkkyr em **kkkkwt**.
 
-A norma não define explicitamente um "kkkkei", mas exige que o banco mantenha mecanismos de classificação de kkkkli do kkkk1x antes da abertura da kkkklh.
+Conclusão: a kkkk9q **não** pertence à região de kkkke2. A fronteira correta é kkkkgz.
 
----
+**Identificação no kkkkhk:**
 
-## Evidência no kkkkhk kkkkg4
-
-O kkkktr aparece no kkkkhk como:
-
-- kkkkfl **"kkkkkk"**
-- configurado como **kkkkja kkkkhg (`kkkkoy`)**
-- disparado pela KK0034 `kkkkbg`
-
-**kkkkvq de kkkk5k:**
-
-`kkkkb0` → `kkkk1b` → (seta `kkkkbg`) → kkkkja kkkkhg inicia kkkkei
-
-**kkkkvq interno do kkkkfl:**
-
-start kkkkja → `kkkkcb` (kkkkc9, kkkk91 `kkkk0m`) → `kkkk0b` → end (com kkkkaa em erro, até 3 tentativas).
-
-A kkkks7 da kkkklh **não aguarda** o kkkkdy do cadastro: não há join nem kkkk7v que exija o término do kkkkfl para seguir para `kkkkel` ou `kkkkc7`. A kkkkml `kkkkbe` (kkkkg0) é operação distinta.
+| Elemento | ID kkkkhk / localização |
+| ---------- | ------------------------ |
+| kkkkyf kkkktu | `kkkkdh` |
+| kkkk8l kkkkcc | Contida em `kkkkdh`; ID KK0018 da kkkk8n em `kkkkk6` ou kkkk5f kkkkh5/kkkkh6 |
 
 ---
 
-## Interpretação kkkkfu
+## 3. KK0007 aplicada
 
-- O kkkk5k ocorre **após `kkkkb0`**, na região de configuração/kkkkss, **fora** da etapa de kkkk56 (kkkkg0).
-- O cadastro é **assíncrono e não bloqueante**, executando em paralelo ao kkkkvr principal.
-- O cadastro **não pertence a uma fase sequencial da kkkkgq**, sendo acionado por kkkkx9 e executado em paralelo ao kkkkvr principal.
+Esta correção não altera a kkkksk definida; apenas restaura a consistência entre os artefatos de kkkkgv (kkkkh5, kkkkh6) e a decisão kkkkfu previamente registrada.
 
-Conclusão: tratar como **kkkkvr kkkk7r acionado por kkkkx9** reflete o desenho atual do kkkkhk kkkkg4.
+| Ação | Detalhe |
+| ------ | --------- |
+| **Remover** | `kkkkcc` da tabela de kkkka6/kkkkg1 do **kkkkgx** no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b). |
+| **Incluir** | `kkkkcc` na tabela de kkkka6/kkkkg1 do **kkkkgz** no kkkkh5, com observação: "Consulta kkkksq — alocado em kkkkgz conforme kkkk26". |
 
----
+**kkkkma**
 
-## KK0007
+| Elemento | Localização |
+| ---------- | ------------- |
+| `kkkkcc` | kkkkhk kkkkg4: kkkkfl `kkkkdh` (kkkktu) |
+| → kkkkh6 | Bloco **kkkkbo** |
+| → kkkkh5 | **kkkkgz** (kkkkwt) |
 
-A kkkk9q `kkkkcb` será tratada como **kkkkvr kkkk7r acionado por kkkkx9**, implementado como **kkkkja kkkkhg**, e não como parte fixa do kkkkg0.
+**kkkkma completa (audit trail):**
 
-**Motivos:**
-
-1. No kkkkhk kkkkg4 o cadastro é modelado como **kkkkja kkkkhg (`kkkkoy`)**.
-2. O kkkk5k ocorre **após `kkkkb0`**, fora da etapa de kkkkth.
-3. O kkkkvr é **assíncrono e não bloqueante**, executando em paralelo ao kkkkvr principal.
-4. A kkkks7 da kkkklh **não depende do resultado do kkkkei**.
-
-**Exceção:** Se o kkkkag definir que o kkkkei **só** deve ocorrer na etapa de kkkk56 (ex.: após kkkks4), mover kkkk5k e kkkkfl para o kkkkg0 e documentar a mudança.
-
-### Princípio kkkkfu aplicado
-
-kkkkwi regulatórias assíncronas devem ser modeladas como **kkkk66 acionados por kkkkx9**, evitando kkkkyk com etapas sequenciais da kkkkgq.
-
----
-
-## Estratégia de kkkkx2
-
-Durante a kkkkgv do kkkkhk kkkkg4:
-
-- o kkkk5k `kkkkbg` continua sendo realizado após `kkkkb0`
-- o kkkkei será executado por um **kkkkja kkkkhg no kkkke4**
-
-**kkkkvq resultante:**
-
-1. `kkkkb0` executa
-2. kkkkx9 seta `kkkkbg`
-3. kkkke4 escuta o kkkkx9
-4. kkkkfl "kkkkb4" é disparado
-5. external kkkk9q `kkkkcb` executa integração kkkkhx
-
----
-
-## kkkkvq kkkkfu resultante
-
-```mermaid
-flowchart LR
-  A[kkkkb0]
-  B[kkkkyc<br>kkkkbg]
-  C[Event kkkkl0<br>kkkkb4]
-  D[kkkkcb<br>kkkkc9]
-  E[kkkk0b]
-
-  A --> B
-  B --> C
-  C --> D
-  D --> E
-
-  %% Estilos padrão kkkky7
-  style A fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-  style B fill:#d4edda,stroke:#2e7d32,stroke-width:2px
-  style C fill:#bbdefb,stroke:#0d4372,stroke-width:2px
-  style D fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-  style E fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-  linkStyle default stroke:#37474f,stroke-width:2px
+```text
+kkkkk6
+    → kkkkdh (kkkktu)
+        → kkkkcc
+            → kkkkh6: kkkkbo
+                → kkkkh5: kkkkgz (kkkkwt)
+                    → kkkk26
+                    → TRACE-DEC-001 (esta correção)
 ```
 
-O kkkkvr principal da kkkkgq continua sua execução normalmente, sem depender do término do kkkkei.
+---
+
+## 4. Consequências kkkkwm
+
+- Mantém o princípio de **kkkkyr única por domínio funcional** entre kkkkgx e kkkkgz.
+- Evita kkkkyk entre **configuração de kkkklh** e **kkkktv**.
+- Preserva a coerência da kkkkgv funcional definida para a kkkkfj.
+- Garante consistência entre os níveis de documentação kkkkh5 e kkkkh6.
 
 ---
 
-## Alternativa considerada e descartada
+## 5. Verificação de consistência
 
-### Mover kkkkei para kkkkg0
+Após a correção:
 
-Essa alternativa exigiria:
-
-- mover o kkkk5k do kkkkx9 para dentro do kkkkg0
-- alterar o momento em que o cadastro é executado
-
-Essa mudança **não preservaria o comportamento atual do kkkkhk kkkkg4**, onde o cadastro é disparado após o kkkkxg da kkkk3l.
-
-Nesta fase da kkkkgv, o critério decisivo adotado foi **fidelidade ao desenho existente**: reduzir kkkkli de regressão funcional e manter o momento do cadastro (após kkkkxg) já validado em produção. A kkkkgv pode ser usada no futuro para redesenhar fluxos se o kkkkag exigir; até lá, preservar o comportamento do kkkk51 evita mudança de kkkkvn e reteste desnecessários. Por esse motivo a alternativa foi descartada.
+- `kkkkcc` aparece **somente** na tabela de kkkka6 do kkkkgz no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b).
+- Não há mais ocorrência dessa kkkk9q nas tabelas do kkkkgx.
+- O kkkkh5 fica alinhado com:
+  - [kkkk26](kkkk26)
+  - [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d)
+  - kkkkk6
 
 ---
 
-## Consequências
+## kkkk56 automatizável
 
-### kkkkfn
+Esta decisão pode ser validada automaticamente verificando:
 
-- preserva o comportamento do kkkkhk kkkkg4
-- evita kkkkyk com kkkkg0
-- mantém kkkksk orientada a eventos
+- ausência de `kkkkcc` no escopo do kkkkgx (tabelas kkkkh5 do kkkkgx)
+- presença de `kkkkcc` no escopo do kkkkgz (tabelas kkkkh5 do kkkkgz)
 
-### Trade-offs
+Ferramentas possíveis:
 
-- lógica kkkk0f fica fora do kkkkvr sequencial principal
-- leitura do kkkk55 exige entender kkkk66 acionados por kkkkx9
-
-### Riscos
-
-Se no futuro a kkkks7 da kkkklh depender do kkkkei, o kkkkvr precisará ser revisado para incluir sincronização com esse kkkkfl.
+- script de kkkkgt kkkkhk XML
+- kkkkth de kkkk5f de kkkka6 no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b)
 
 ---
 
-## Referências
+## 6. Referências
 
 | Documento | Uso |
 | ----------- | ----- |
-| `kkkkk6` | kkkkyf kkkkdg; kkkk5k kkkk1b após kkkkb0 |
-| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Pendências de classificação |
-| [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | Bloco kkkkip kkkkg0; menção a "kkkkdg" como kkkkg0 ou kkkk7r |
+| [kkkk26](kkkk26) | KK0007: kkkkha e kkkkym em kkkkgz |
+| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Artefato corrigido |
+| [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | Bloco kkkkbo — alinhamento kkkkh5/kkkkh6 |
+| [kkkk3m](../Relatórios%20da%20atividade/kkkk3m) | Seção 5 — divergência que motivou esta correção |
+
+---
+
+## 7. Impacto kkkkzy
+
+Nenhuma alteração de comportamento do kkkk55 é introduzida por esta correção. Trata-se exclusivamente de alinhamento kkkkfa entre os níveis de kkkkgv (kkkkh5/kkkkh6) e a decisão kkkkfu existente.
+
+Não há impacto em:
+
+- execução de kkkk55
+- kkkkge ou KK0022 de integração
+- KK0022 de kkkkvo
+- kkkkga de external kkkk9q
+- kkkkgc externas
