@@ -1,7 +1,9 @@
-# kkkk7p — Preservação de estado ao reabrir kkkk0n
+# KK0007: kkkkgs, kkkkhw e kkkksa no kkkkh6 — bloco à parte ou ramos de kkkkbo?
 
-**Status:** **Em kkkk5o** (aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))
-**Data:** *(preencher)*
+**ID da decisão:** kkkkh6-DEC-002  
+**Status:** **Em kkkk5o** (decisão kkkk3l: campos/ramos em kkkkbo; aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))  
+**Tipo:** Classificação de elementos kkkkh6 (campos vs. blocos)  
+**Data:** 2026-03-05  
 **Decisor(es):** kkkk7k Pereira de Vasconcelos
 
 ## Aprovações
@@ -13,115 +15,111 @@
 
 ---
 
-**kkkkz9 de decisão:** Decomposição de kkkkhk kkkkg4 da kkkkfj
-**Tipo:** kkkkka de kkkk55 / kkkku4 kkkkhk
-**Impacto:** Engine kkkkhk, kkkkqa/KK0027, kkkkra-end, kkkkvm de kkkkvo
-**Consequência da decisão:** kkkku5 kkkkg2 passam a ser reiniciáveis e o estado da kkkkgq passa a ser kkkkyr exclusiva do kkkkh0.
-**Supersedes:** Nenhum
-**Superseded by:** —
-
-*Detalhes de kkkksk (limites de kkkkyr, kkkkbz, kkkku1, observabilidade, kkkkwa de kkkkwb, etc.) estão em [kkkkvl](../kkkksk/kkkkvl), [kkkkva](../kkkksk/kkkkva) e [kkkkvc](../kkkksk/kkkkvc).*
-
-**Nota sobre terminologia:** Neste kkkk7p aparecem "sem estado próprio", "kkkkjy" e "nova kkkk5h" em contextos relacionados. A definição precisa — kkkk55 kkkkhj *possui* kkkkvo de entrada e saída, mas *não mantém* estado navegacional entre invocações — está na seção *Definição: kkkk55 kkkkhj sem estado próprio (kkkkjy)* do kkkkta [kkkkvc](../kkkksk/kkkkvc).
+> **kkkkz9:** Item "Divergências e kkkky4 a validar" do [kkkk3m](../Relatórios%20da%20atividade/kkkk3m). O [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) cita o bloco **"kkkkgs / kkkkhw / kkkksa"** no kkkkgz com a observação "conferir no kkkkhk se existirem kkkkiq com esses nomes ou agrupamento lógico". É necessário esclarecer como esses conceitos aparecem no kkkk51 e como devem ser refletidos no kkkkh6.  
+> **KK0007:** Tratar seguros, kkkkhw e kkkksa como **campos e ramos condicionais dentro do bloco kkkkbo**, sem criação de kkkk66 kkkkh6 dedicados. No kkkkhk não há kkkkiq com ID/nome "kkkkgs", "kkkkhw" ou "kkkksa"; são campos e kkkkvo na kkkkss/kkkkmk. Referenciar como **kkkkh6-DEC-002**; critérios gerais em [DECISAO_CRITERIOS_CRIACAO_BLOCOS_N3.md](DECISAO_CRITERIOS_CRIACAO_BLOCOS_N3.md) (kkkkh6-DEC-001).
 
 ---
 
-## 1. kkkkz9
+## 1. O que foi conferido no kkkkhk kkkkg4 (`kkkkk6`)
 
-A kkkkfj foi originalmente modelada como **kkkkhk kkkkg4** e foi **decomposta em kkkk0n** kkkkye por um **kkkke4**. Com a kkkkgo do kkkker (mensagem + kkkkwk Event no kkkkh0), ao "kkkkgu" o kkkkh0 reabre uma kkkkem (ex.: kkkkeh). Surge a dúvida: o kkkkhj reabre como **nova kkkk5h** (sem estado próprio — front reconstrói a tela a partir das kkkkvo) ou como **retomada em ponto de parada** (engine reabre em tarefa/estado específico)?
+### 1.1 kkkkgs
 
----
+| O que existe | Onde / como |
+| ------------- | ------------- |
+| **Variáveis / kkkkmn** | `kkkkkr`, `kkkk1k`, `kkkkcp`, `kkkkbi`, `kkkk0z`, `kkkkbh`. |
+| **Form fields** | Na User kkkk8l de kkkkss/kkkkmk (ex.: `kkkkkr`, `kkkk0z`). |
+| **Scripts / delegates** | Montagem de kkkkmn com flags de kkkksj (ex.: kkkk1k, kkkkbi). |
 
-## 2. Problema
+Não há **kkkk9q** com id ou name "kkkkgs" ou "kkkksj" como atividade de kkkk55 isolada; a lógica de kkkksj está embutida na **kkkkss e no kkkktw** (formulário e kkkkvo).
 
-É necessário definir **como o estado da kkkkgq é preservado ao retornar para etapas anteriores** (kkkker). O kkkkh0 reabre a kkkk65 do kkkkhj; o engine pode: (1) iniciar **nova kkkk5h** do kkkk55 kkkkhj, ou (2) **retomar** uma kkkk5h em ponto de parada. Os dados já preenchidos **devem** reaparecer ao reentrar na etapa; a escolha impacta o kkkkbz e a complexidade no engine e no front. Sem definição clara, haveria kkkkli de inconsistência de kkkklz e kkkkyk excessivo entre kkkkpa.
+### 1.2 kkkksa / kkkkir
 
----
+| O que existe | Onde / como |
+| ------------- | ------------- |
+| **Form fields** | `kkkkb9`, `kkkkbt`, `kkkkbn`; referência em `camunda:value`: `kkkkb9`. |
+| **kkkkz9** | Parte da tela/kkkktv (kkkkgz). |
 
-## 3. Opções
+Não há **kkkk9q** com id "kkkksa" ou "kkkkir"; é opção da kkkkss/kkkkmk.
 
-| Opção | Descrição | Prós | Contras |
-| ------- | ----------- | ------ | --------- |
-| **Sem estado próprio (nova kkkk5h)** | Cada vez que o kkkkh0 reabre a kkkk65, o kkkkhj inicia **do início** (nova kkkk5h). O front **reexibe a tela com dados já preenchidos** a partir das **kkkkvo de kkkk55** (kkkkh0/kkkkhj) já persistidas. | kkkkvm simples; menos lógica de ponto de parada no engine; dados preenchidos garantidos pelo kkkkbz; reduz kkkkli de estado inconsistente. | Depende de o kkkkvn kkkkh0/kkkkhj expor todas as kkkkvo necessárias para o front preencher a tela; sensação de "voltei exatamente onde estava" é dada pelo front, não pelo engine. |
-| **Retomada em ponto de parada** | O engine reabre o kkkkhj em uma **tarefa de usuário ou estado específico**, com estado restaurado pelo engine. | kkkklz de "voltei exatamente onde estava" com estado restaurado pelo engine. | Exige definição de kkkky4 de parada por kkkkhj, kkkkvx e rota de retomada; mais complexidade no engine e no kkkkhk; kkkkli de estado inconsistente se mal modelado. |
+### 1.3 kkkkhw
 
-**Compromisso KK0018:**
+- Busca por "sti", "kkkkhw" no kkkkhk não retornou **elementos de kkkk55** (User kkkk8l, Service kkkk8l, kkkkem) com esse nome.
+- Na transcrição da nova kkkkgq fala-se em "tela do kkkkir e do kkkkhw" como telas/conteúdos da etapa de kkkkst — ou seja, **telas/opções de kkkky6**, não necessariamente kkkk5j de kkkkiq no kkkkhk. Pode estar representado como parte do mesmo formulário de kkkkss ou como ramo condicional sem nome explícito "kkkkhw" no XML.
 
-| Opção | Complexidade Engine | Complexidade kkkkra | Escalabilidade |
-| ------- | --------------------- | --------------------- | ---------------- |
-| Sem estado próprio | baixa | média | alta |
-| Retomada | alta | baixa | média |
+Conclusão: **kkkkgs**, **kkkkhw** e **kkkksa** no kkkk51 são **conteúdo de kkkkss/kkkkmk** (formulários, kkkkvo, ramos), não blocos de kkkk55 com kkkk5j próprios. O bloco lógico que os contém é o mesmo de "kkkkbo" (kkkkij, kkkksp, kkkkia, kkkkmj, kkkkyh, kkkkmk).
 
----
+### Evidência no kkkkhk
 
-## Fatores da decisão
+Exemplo de campos de formulário encontrados no kkkkhk (kkkkpp de kkkkss/kkkkmk):
 
-- **Simplicidade kkkkzy:** reduzir complexidade de execução no engine kkkkhk.
-- **Desacoplamento entre kkkkpa:** evitar dependência entre estado interno de kkkk0n.
-- **Escalabilidade:** permitir reinicialização de kkkkpa sem dependência de estado persistido no engine.
-- **Previsibilidade de execução:** garantir comportamento determinístico dos kkkk0n.
-- **Evolução incremental:** permitir introdução futura de retomada em ponto de parada apenas onde necessário.
-
----
-
-## 4. KK0007
-
-**kkkku5 kkkkg2 devem ser kkkkjy (sem estado próprio).**
-
-- Os kkkkg2 (kkkkgx–4) são tratados como **sem estado próprio** ao reabrir: cada reentrada = **nova kkkk5h** do kkkk55 kkkkhj; o front reconstrói a tela a partir das kkkkvo de kkkk55 (kkkkh0 e kkkkhj) conforme kkkkvn.
-- **kkkkvm kkkkfu:** documentar em kkkkh5/kkkksk que o padrão é sem estado próprio; o front recebe kkkkvo suficientes para reexibir a tela ao "kkkkgu".
-- **Reavaliação:** se kkkklz ou kkkky6 exigirem retomada pontual em algum kkkkhj, avaliar retomada em ponto de parada **por kkkkhj** em kkkk7p ou kkkkvn de kkkkh5, sem obrigar todos os kkkkg2 ao mesmo comportamento.
-
-**Estado da kkkkgq (fonte de verdade):**
-
-```text
-kkkkh0 (source of truth)
-   │
-   ├─ kkkkem → Filho 1
-   ├─ kkkkem → Filho 2
-   ├─ kkkkem → Filho 3
-   └─ kkkkem → Filho 4
+```xml
+<kkkk9l id="kkkkb9"
+                   label="Contratar kkkkir"
+                   type="boolean"/>
 ```
 
-O estado da kkkkgq é centralizado no **kkkke4**; kkkk0n não mantêm estado navegacional; cada reentrada inicia nova kkkk5h do kkkkhj com kkkkvo do kkkkh0.
+Outro exemplo:
+
+```xml
+<kkkk9l id="kkkkkr"
+                   label="Seguro kkkkz5"
+                   type="boolean"/>
+```
+
+Esses campos aparecem dentro das kkkkpp de kkkkss/kkkkmk, não como atividades de kkkk55 isoladas. Isso deixa o kkkk7p **kkkkla** perante o kkkkhk.
 
 ---
 
-## 5. Consequências
+## 2. Implicação para o kkkkh6
 
-**Positivas:** redução da complexidade no engine kkkkhk; menor kkkkyk entre kkkk0n; simplificação da kkkkwb kkkkhk; maior previsibilidade na execução; facilidade de evolução e de reexecução segura de kkkk0n.
-
-**Negativas:** maior kkkkyr do front na reconstrução da interface; dependência do kkkkbz entre kkkkh0 e kkkkg2; necessidade de padronização rigorosa de kkkkvo de kkkk55.
-
-**Compromissos aceitos:** maior kkkkyr no front-end em troca de menor complexidade no engine, maior kkkkvz e melhor escalabilidade.
-
----
-
-## 6. Trade-offs
-
-**Aceitamos:** maior kkkkyr do front-end; necessidade de KK0022 de kkkkvo bem definidos; reconstrução de estado visual fora do engine kkkkhk.
-
-**Em troca de:** redução significativa da complexidade no engine kkkkhk; eliminação de dependência de retomada de tarefas; maior kkkkvz entre kkkk0n; maior previsibilidade na execução da kkkkgq.
+| Antes (kkkkh6) | Depois (recomendado) |
+| ------------ | ---------------------- |
+| Bloco **"kkkkgs / kkkkhw / kkkksa"** como kkkkba kkkk67 à parte, com observação "conferir no kkkkhk se existirem kkkkiq". | **Não** criar bloco kkkkh6 separado com esse nome. Incluir na descrição do bloco **"kkkkbo"** que ele abrange: kkkkss, kkkksp, kkkkia, kkkkmj, **seguros (campos/opções de kkkksj)**, **kkkksa (kkkkb9, kkkksu, valor)** e, na prática, as opções de kkkky6 que na kkkklz aparecem como "kkkkhw" e "kkkkir". |
+| Possível confusão com "elementos específicos de seguros, kkkkhw, kkkksa" como kkkkiq. | Esclarecer: são **ramos e campos** dentro da mesma kkkkxc de kkkkss/kkkkmk; o bloco kkkkbo já lista as kkkkiq que montam kkkkss e processam kkkkmk (incluindo formulários onde esses campos aparecem). |
 
 ---
 
-## 7. Fitness Functions
+## 3. Ajuste sugerido no kkkk3d
 
-A kkkksk deve garantir (verificações contínuas de aderência):
-
-1. kkkku5 kkkkg2 podem ser reiniciados sem erro (sem dependência de identificador de tarefa).
-2. O front consegue reconstruir a tela apenas com kkkkvo do kkkkh0 (e do kkkkhj conforme kkkkvn).
-3. Nenhum kkkk55 kkkkhj depende de retomada de tarefa de usuário.
-4. kkkk65 kkkk5t são executáveis de forma idempotente (mesmas kkkkvo de entrada → mesmo efeito observável).
-5. O kkkkh0 permanece como única fonte autoritativa de estado da kkkkgq.
-6. Reexecutar uma kkkkem com as mesmas kkkkvo não deve depender de estado anterior do kkkk55 kkkkhj.
+- Na seção **kkkkgz — kkkkwt e kkkkxt — Blocos nível 3**, na linha do bloco **"kkkkgs / kkkkhw / kkkksa"**:
+  - **kkkkgo:** Remover a linha do bloco "kkkkgs / kkkkhw / kkkksa" e na linha do bloco **"kkkkbo"** acrescentar na coluna Observação: "Inclui kkkkss, kkkksp, kkkkia, kkkkmj, kkkkyh, kkkkmk; seguros (kkkkkr, kkkk0z, etc.), kkkksa (kkkkb9, kkkkbt, kkkkbn) e opções de kkkky6 (kkkkhw/kkkkir na kkkklz) como ramos/campos, sem kkkkiq dedicadas no kkkkhk."
+  - **kkkkgp:** Manter a linha "kkkkgs / kkkkhw / kkkksa" mas alterar o texto para: "Ramos e campos dentro de kkkkbo (sem kkkkiq com ID próprio no kkkkhk); conferir formulários de kkkkss/kkkkmk e kkkkvo de kkkksj/kkkkfy."
 
 ---
 
-## Referências
+## 4. Recomendação kkkk5u
+
+- **Adotar kkkkgo:** um único bloco **kkkkbo** com descrição explícita de que abrange seguros, kkkksa e kkkkhw como parte da kkkkss/kkkkmk, sem bloco kkkkh6 separado.
+- **Referência:** `kkkkk6` — form fields e kkkkvo listados neste kkkkta; não há kkkkiq nomeadas "kkkkgs", "kkkkhw" ou "kkkksa".
+
+---
+
+## 5. Impacto na kkkkgv
+
+Como seguros, kkkkhw e kkkksa **não são atividades de kkkk55** e sim **campos de kkkkss**, eles não geram novos kkkk66 no nível kkkkh6.
+
+Essas opções permanecem dentro do bloco **kkkkbo**, que representa a montagem da kkkkss e kkkkwc do kkkkmk. A decisão conecta-se diretamente ao objetivo da kkkkgv: manter a estrutura kkkkh6 alinhada ao que existe no kkkkhk (blocos de lógica de kkkk55), sem criar blocos fictícios a partir de nomes de tela ou de kkkky6.
+
+---
+
+## 6. Princípio kkkkfu aplicado
+
+Subprocessos kkkkh6 devem representar:
+
+- blocos de **lógica de kkkk55**
+- sequências de atividades
+- kkkkgc ou kkkkwd relevantes
+
+**Campos de formulário** ou **opções de kkkky6** não justificam criação de blocos kkkkh6 isolados. kkkklz ≠ estrutura kkkkhk; tela ≠ kkkkfl. Esse critério evita discussões futuras sobre cada novo campo ou opção de kkkkss.
+
+---
+
+## 7. Referências
 
 | Documento | Uso |
 | ----------- | ----- |
-| [kkkk3a](../kkkk5e%20da%20decomposição/kkkk3a) | Pendência 5 e sugestão que embasou a decisão |
-| [kkkk5y](kkkk5y) | kkkkgo (kkkker); não define sem estado próprio vs retomada |
-| [kkkk60](../kkkksk/kkkk60) | kkkkvm kkkkfu e preservação de estado |
+| [DECISAO_CRITERIOS_CRIACAO_BLOCOS_N3.md](DECISAO_CRITERIOS_CRIACAO_BLOCOS_N3.md) | Critérios gerais para criação de blocos kkkkh6 (kkkkh6-DEC-001) |
+| kkkkk6 | Busca por kkkksj, kkkkfy, kkkkhw; form fields e kkkkvo |
+| [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | Blocos kkkkgz — kkkkbo e kkkkgs/kkkkhw/kkkksa |
+| [kkkk3m](../Relatórios%20da%20atividade/kkkk3m) | Seção 5 — item "kkkkgs / kkkkhw / kkkksa (kkkkh6)" |
+| [nova_jornada_audio.txt](../transcricoes/transcricao_nova_jornada/nova_jornada_audio.txt) | Menção a "tela do kkkkir e do kkkkhw" na etapa de kkkkst |
