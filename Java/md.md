@@ -1,8 +1,8 @@
-# KK0007 kkkk5u: kkkkbp (kkkkhz) — kkkkgy ou kkkkgz?
+# KK0007 kkkk5u: Voltar de kkkkid (kkkkgz) para kkkkih (kkkkg0)
 
-**ID da decisão:** kkkkhk-DEC-004
-**Status:** **Em kkkk5o** (aguarda kkkkth de kkkkag e duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))
-**Tipo:** Classificação de kkkkyr kkkkhk
+**ID da decisão:** kkkkhk-DEC-005
+**Status:** **Em kkkk5o** (decisão kkkk3l registrada; aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))
+**Tipo:** Classificação de kkkkvr cross-kkkkhk
 **Data:** 2026-03-05
 **Decisor(es):** kkkk7k Pereira de Vasconcelos
 
@@ -15,103 +15,98 @@
 
 ---
 
-> **kkkkz9:** Pendência de classificação no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b). A kkkk9q `kkkkbp` (Sigla kkkkhz — kkkkut ao kkkkh2) precisa ser atribuída ao kkkkgy (kkkkwx pessoais) ou ao começo do kkkkgz (kkkkwt e kkkkxt).
+> **kkkkz9:** Item "Divergências e kkkky4 a validar" do [kkkk3m](../Relatórios%20da%20atividade/kkkk3m). O [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) lista o flow `kkkke3` como "Verificar — pode ser kkkkgz → kkkkg0". É necessário confirmar no kkkkhk e definir como tratá-lo após a kkkkgv.
 
-> **Nota:** Incompleto até kkkkth de kkkkag; referenciar como **kkkkhk-DEC-004** em outros documentos.
-
----
-
-## kkkkz9 kkkksz (kkkkh2)
-
-O **kkkkh2 (kkkkv3 do kkkkte)** registra operações de kkkks8 e autorizações relacionadas ao kkkk1x. A kkkku0 ao kkkkh2 pode exigir kkkkmm do kkkk1x, dependendo da natureza da operação. A kkkk9q `kkkkbp` no kkkkho representa a notificação/kkkkmm ligado à kkkkp3 nesse contexto kkkksz.
+> **KK0007:** O flow é **kkkkgu** de `kkkkid` (kkkkgz) para `kkkkih` (kkkkg0). Após a kkkkgv, deve ser tratado como **kkkkc5** (kkkkh0 recebe sinal de kkkkgu e reativa o kkkkg0 no kkkkvi adequado). Referenciar como **kkkkhk-DEC-005** em outros documentos.
 
 ---
 
-## 1. Motivos para ficar no kkkkgy (kkkkwx pessoais)
+## Problema kkkkfu da kkkkgv
 
-- A informação ao kkkkh2 é sobre **kkkkp3** e pode ser considerada “dado cadastral” ou notificação assim que os kkkksx estão consolidados (kkkkhq atualizado).
-- No kkkk51 a kkkk9q está **logo após** `kkkkcx` — ou seja, no fim do bloco de “atualizar pessoa/dados no kkkkhq”, que pertence ao domínio de kkkkwx pessoais.
-- Manter no kkkkgy evita depender do kkkkgz para uma ação que não é de kkkkss/kkkkmk, e deixa “dados atualizados + kkkkh2 informado” como saída clara do kkkkgy.
+Após a kkkkgv, `kkkkid` e `kkkkih` estarão em kkkkpa distintos (kkkkgz e kkkkg0). Sequence kkkkoa diretos não podem atravessar limites de kkkk55; portanto o kkkkdy deve ser mediado pelo kkkk55 kkkkmc (kkkkh0).
 
----
-
-## 2. Motivos para ficar no kkkkgz (kkkkwt / começo)
-
-- Na transcrição da nova kkkkgq: *“Até a questão do kkkkh2, porque no kkkkh2, na tela de kkkkmk, hoje, traz também. Então, eu entendo que ficaria tudo aí nessa tela, Mari.”* — Ou seja, o **conteúdo** ligado ao kkkkh2 aparece na **tela de kkkkmk** (etapa kkkkst).
-- **Ressalva:** A presença de informações do kkkkh2 na tela de kkkkmk **não implica necessariamente** que a integração kkkk5u com o kkkkh2 ocorra nesse momento. Pode tratar-se apenas de exibição de kkkkmm ou informação kkkkv5 ao kkkk1x. Se a regra de kkkkag for "informar kkkkh2 no momento do kkkkmk", faria sentido a **kkkkmr** estar no kkkkgz; caso contrário, a posição atual (kkkkgy) permanece coerente.
-- Se o kkkkh2 for informado só quando há “intenção de kkkkss/kkkkmk”, o momento correto seria ao entrar em kkkkwt (ou no kkkkmk), não ao sair de kkkkwx.
+Neste contexto, **"kkkkc5"** refere-se a um kkkkdy entre etapas que atravessa fronteiras de kkkkpa kkkkhk após a kkkkgv. O redirecionamento não ocorre por sequence flow direto, mas por sinalização ao kkkke4, que reativa o kkkkfl correto.
 
 ---
 
-## 3. Onde está no kkkkhk kkkkg4 (`kkkkk6`)
-
-| kkkk8l | Onde está no kkkkvr |
-| ------ | -------------------- |
-| **kkkkbp** | kkkkvq **sequencial**: `kkkkcx` → **kkkkbp** → `Gateway_1pjnllx`. Ou seja, **dentro do bloco de kkkkl9**, logo após atualizar dados no kkkkhq; **antes** de qualquer User kkkk8l de kkkkst (`kkkkii`). |
+## 1. Onde está no kkkkhk kkkkg4 (kkkkk6)
 
 **Identificação no kkkkhk:**
 
-| Elemento | ID kkkkhk / localização |
-| ---------- | ------------------------ |
-| kkkkbp | ID KK0018 da kkkk8n em `kkkkk6` (ex.: ServiceTask_xxxxx); kkkkvr entre `kkkkcx` e `Gateway_1pjnllx` |
+| Elemento | ID kkkkhk | Descrição |
+| ---------- | --------- | ----------- |
+| Aceite kkkkwt | kkkkid | User kkkk8l |
+| Coleta de kkkkna | kkkkih | User kkkk8l |
+| Flow (kkkkgu) | kkkke3 | Sequence Flow |
 
-**Conclusão a partir do kkkkhk:** A posição da kkkk9q no kkkkhk kkkkg4 indica que ela pertence ao domínio de **kkkkwx pessoais**, pois ocorre imediatamente após a consolidação dos dados no kkkkhq e antes de qualquer etapa de kkkkss ou seleção de kkkkst. Refatorar mantendo no kkkkgy não exige mudar ordem — só desenhar a fronteira onde o kkkkvr já está.
+| Elemento | Encontro |
+| ---------- | ---------- |
+| **kkkke3** | `sourceRef="kkkkid"` → `targetRef="kkkkih"`; atributo `name="kkkkgu"`. |
+| **Condição** | `conditionExpression`: `${kkkk9o.hasVariable('kkkkgu') && kkkkgu=="kkkkih"}`. |
+| **kkkkid** | User kkkk8l "Aceite kkkkwt" — última UT relevante da etapa **kkkkwt e kkkkxt** (kkkkgz). |
+| **kkkkih** | User kkkk8l "Coleta de kkkkna" — primeira UT da etapa **kkkk56** (kkkkg0). |
 
----
+O kkkk51 utiliza um **padrão de kkkkwf baseado em KK0034 `kkkkgu`**, onde o valor indica explicitamente a kkkk9q destino. kkkkps avaliam essa KK0034 para redirecionar o kkkkvr para etapas anteriores da kkkkgq.
 
-## 4. Refatoração
-
-| Critério | kkkkgy (kkkkwx) | kkkkgz (kkkkwt) |
-| ---------- | ---------------- | ------------------- |
-| Onde está no kkkk51 | Sim: após kkkkcx, antes de kkkkii | Seria deslocar a kkkk9q para depois da fronteira 2→3 |
-| Coerência | “kkkkwx atualizados + notificação kkkkh2” como saída de kkkkwx | kkkkh2 junto com kkkkmk/kkkkss — depende da regra de kkkkag |
-
-Mover a kkkk9q para o kkkkgz exigiria alterar a ordem atual do kkkkvr, introduzindo dependência entre a integração kkkkh2 e a etapa de kkkkst. Isso aumentaria o kkkkyk entre domínios e divergiria do comportamento do kkkkhk kkkkg4.
-
-**Conclusão (kkkkx2):** Mais fácil em **kkkkgy** — posição atual no kkkkvr; sem reordenação.
+Conclusão: o flow é um **kkkkgu** que cruza a fronteira **kkkkgz → kkkkg0**. No kkkk51 é sequence flow direto; após a kkkkgv, as duas kkkkiq estarão em kkkkpa diferentes.
 
 ---
 
-## 5. Corte e kkkkgu
+## 2. Implicação para a kkkkgv
 
-- **No kkkkgy:** Saída do kkkkgy = “kkkkl9 atualizados (kkkkhq) + kkkkh2 informado”. Entrada no kkkkgz = kkkkss/kkkkmk. Fronteira clara.
-- **No kkkkgz:** Seria preciso definir se a kkkkmr ocorre no início do kkkkgz (ao entrar) ou na tela de kkkkmk; pode exigir kkkkvo vindas do kkkkgy.
+Após a kkkkgv:
 
----
+1. Usuário completa a kkkk9q `kkkkid` no kkkkgz.
+2. kkkkra envia kkkkx9 de kkkkgu com destino `kkkkih`.
+3. kkkkqa publica mensagem para o kkkke4.
+4. kkkkh0 **finaliza a kkkk5h ativa do kkkkgz**.
+5. kkkkh0 invoca o kkkkg0 com kkkkvi `kkkkih`.
 
-## 6. Recomendação kkkk5u
-
-**Recomendação: manter `kkkkbp` no kkkkgy (kkkkwx pessoais).**
-
-1. **Posição no kkkk51:** Já está após `kkkkcx` e antes de qualquer tarefa de kkkkst.
-2. **Refatoração:** Sem mudança de ordem; fronteira 2→3 continua “dados prontos + kkkkh2 informado” → kkkkst.
-3. **Regra de kkkkag:** Se no futuro o kkkkag exigir “informar kkkkh2 somente no kkkkmk”, pode-se reavaliar e mover para o kkkkgz; até lá, manter no kkkkgy é o que reflete o kkkkvr atual.
-
-**Critério de reavaliação:** A recomendação será revista caso a regra de kkkkag confirme que:
-
-- o kkkktp é obtido **apenas** no kkkktw, ou
-- a kkkku0 ao kkkkh2 **depende** de kkkkim de kkkksv.
-
-Isso deixa a decisão condicional e kkkkla.
+Ou seja: **kkkke3** vira **kkkkgu entre kkkkhf macro** (kkkkc5), igual aos kkkkoa 2→1 e 3→1.
 
 ---
 
-## kkkkma
+## 3. Recomendação kkkk5u
+
+**Registrar o kkkkvr `kkkke3` como kkkkvr cross-kkkkhk mediado pelo kkkkh0**, classificado como kkkkdy kkkkgz → kkkkg0.
+
+- **Registrar** no kkkkh5 (tabela "Flows kkkkc5") o flow **kkkkid → kkkkih** como **kkkkgz → kkkkg0 via kkkkh0**.
+- **Atualizar** o kkkkh5: na linha do `kkkke3`, substituir "Verificar — pode ser kkkkgz → kkkkg0" por **"kkkkgz → kkkkg0 via kkkkh0 (kkkkgu para kkkkih)"**.
+- **KK0035:** Incluir na kkkk7l do kkkker ([kkkk3g](../Reuniões/kkkk3g)).
+
+---
+
+## kkkkma kkkkfu
+
+**kkkkvq original (kkkk51):**
 
 ```text
-kkkkk6
-    → kkkkcx
-        → kkkkbp
-            → Gateway_1pjnllx
-                → kkkkii
+kkkkid (kkkkgz)
+    → kkkke3
+        → kkkkih (kkkkg0)
+```
+
+**kkkkvq após kkkkgv:**
+
+```text
+kkkkgz
+    → sinal "kkkkgu" (destino: kkkkih)
+
+kkkkh0
+    → finaliza kkkk5h kkkkgz
+    → invoca kkkkg0
+
+kkkkg0
+    → kkkkvi kkkkih
 ```
 
 ---
 
-## 7. Referências
+## 4. Referências
 
 | Documento | Uso |
 | ----------- | ----- |
-| kkkkk6 | kkkkvq: kkkkcx → kkkkbp → Gateway_1pjnllx |
-| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Pendências de classificação |
-| [nova_jornada_audio.txt](../transcricoes/transcricao_nova_jornada/nova_jornada_audio.txt) | Menção ao kkkkh2 na tela de kkkkmk (conteúdo; decisão de onde chamar segue kkkkvr atual) |
+| `kkkkk6` | kkkkvq: kkkkid → kkkke3 (kkkkgu) → kkkkih |
+| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Tabela "Flows kkkkc5 existentes em produção" |
+| [kkkk1p](../Apresentações/kkkk1p) | kkkkcu macro (Caso 3) |
+| [kkkk3m](../Relatórios%20da%20atividade/kkkk3m) | Seção 5 — item kkkke3 |
