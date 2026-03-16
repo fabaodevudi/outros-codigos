@@ -1,12 +1,8 @@
-# KK0007 / Pendência: kkkk7u — quem publica o kkkkx9? (kkkkhj vs kkkkh0)
+# kkkk7p — Classificação da kkkk9q `kkkkcb`
 
-> **kkkkz9:** Pendência 2 do [kkkk3a](../kkkk5e%20da%20decomposição/kkkk3a). O kkkk55 **kkkk7u** (`kkkkbs.bpmn`) é disparado por **kkkkx9** (kkkkgt de kkkkg5, kkkkh1, etc.) a partir de qualquer etapa da kkkkgq. A dúvida era: o kkkkx9 que inicia o kkkk7u deve ser publicado por **cada kkkkft** (1, 2, 3 ou 4) ou pelo **kkkkh0**?
-> **Status:** **Em kkkk5o**. (KK0007 kkkk3l: kkkkdn o kkkkx9 de kkkk7u diretamente; aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md).)
-
-**kkkkz9 da decisão:**
-
-- **Data:** *(preencher)*
-- **Decisor(es):** kkkk7k Pereira de Vasconcelos
+**Status:** **Em kkkk5o** (aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))  
+**Data:** *(preencher)*  
+**Decisor(es):** kkkk7k Pereira de Vasconcelos  
 
 ## Aprovações
 
@@ -15,109 +11,180 @@
 | 1   | *(preencher)* |        |                          |
 | 2   | *(preencher)* |        |                          |
 
-> **Nota:** kkkk7p em kkkkgt até preenchimento de duas aprovações.
+---
+
+**kkkkz9 de decisão:** Pendência de classificação no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) — atribuir a kkkk9q `kkkkcb` ao kkkkg0 (kkkk56) ou tratá-la como kkkkvr kkkk7r acionado por kkkkx9.
 
 ---
 
-## 1. Situação no kkkk51
+## kkkkz9
 
-- O kkkk7u não é kkkkfl sequencial; é acionado em situações como kkkkg3, kkkkgt de documentos, kkkkh1, kkkkgi.
-- No kkkk51, esses disparos ocorrem a partir de kkkky4 do mesmo kkkk55. Após a kkkkgv, esses kkkky4 estarão nos kkkkdb.
+Durante a kkkkgv do kkkkhk kkkkg4 da kkkkfj em kkkk0n, surgiu a dúvida sobre onde classificar a kkkk9q `kkkkcb`.
 
----
+As opções consideradas foram:
 
-## 2. Opções consideradas
-
-| Opção | Descrição | Prós / contras |
-| ------- | ----------- | ----------------- |
-| **Filhos publicam** | Cada kkkkft que identificar condição de kkkkfv **publica** uma mensagem/sinal. O kkkk55 kkkk7u é iniciado por subscription. | **Prós:** Filho tem o contexto; não depende do kkkkh0. **Contras:** Cada kkkkhj conhece o kkkkvn do kkkkx9. |
-| **kkkkh0 publica** | Os kkkkg2 notificam o kkkkh0 (KK0034 ou mensagem); o **kkkkh0** é o único que publica o kkkkx9 que inicia o kkkk7u. | **Prós:** Um único ponto de publicação. **Contras:** kkkkh0 precisa tratar o sinal; pode exigir kkkkwk kkkk3y ou lógica extra. |
-| **Híbrido / broker** | Serviço intermediário (kkkkja mesh, kkkk7v de eventos) escuta kkkkvo ou eventos dos kkkkg2 e publica o kkkkx9 de início do kkkk7u. | **Prós:** Desacopla engine do kkkkvn; um único produtor para o tópico. **Contras:** Mais um componente; operação e latência adicionais. |
-
-**Por que não adotar o híbrido (reversibilidade):** Um intermediário de eventos é uma kkkksk legítima (kkkkja mesh, kkkk7v), mas neste contexto o custo de complexidade não se justifica. Os kkkkg2 já têm o contexto da condição de kkkk7u; publicar diretamente no broker mantém o caminho curto e evita um ponto único de falha e um ciclo de vida extra (deploy, monitoração, versionamento do intermediário). Se no futuro o número de produtores ou a necessidade de transformação/kkkkth centralizada crescer, a opção híbrida pode ser reavaliada — até lá, "kkkkdn" com kkkkvn e kkkkg9 únicos é o trade-off escolhido.
+- kkkkdx o kkkktr como parte do **kkkkg0 — kkkk56**
+- tratar o cadastro como **kkkkvr kkkk7r acionado por kkkkx9**, independente da etapa ativa da kkkkgq
 
 ---
 
-## 3. Problema kkkkfu
+## Problema kkkkfu
 
-Após a kkkkgv, vários kkkky4 da kkkkgq podem precisar disparar kkkk7u:
+Durante a kkkkgv do kkkkhk kkkkg4 surgiram dúvidas sobre a kkkkyr do kkkktr:
 
-- Wayout / kkkkgt de kkkkg5 em kkkkwt ou kkkk56.
-- Análises kkkkh1 em fluxos kkkkyi.
-- Erros de kkkkth (kkkkhy, kkkkgb, etc.).
+- pertence à etapa de **kkkk56 (kkkkg0)**?
+- ou é um **kkkkvr kkkk7r acionado por kkkkx9**?
 
-Se apenas o **kkkkh0** pudesse publicar o kkkkx9:
+Essa classificação impacta:
 
-- Cada kkkkft teria de **sinalizar o kkkkh0**, que por sua vez publicaria o kkkkx9.
-- O kkkkh0 passaria a concentrar lógica de eventos de domínio que não são kkkkyr direta dele.
-- A coordenação entre kkkkg2 e kkkkh0 ficaria mais acoplada (mais kkkkvo, mais casos especiais).
-
-Por outro lado, deixar **cada kkkkhj publicar** o kkkkx9 sem padrão traria:
-
-- KK0023 de kkkkx9 espalhados e difíceis de manter.
-- Comportamentos heterogêneos de kkkkaa/erro.
-
-A decisão precisa equilibrar **kkkkvz** (kkkkg2 são donos do contexto) e **governança** (kkkkvn único de kkkkx9).
+- a distribuição de kkkkwp entre kkkkpa kkkkhk
+- o kkkkyk entre kkkkwd e kkkkgc regulatórias
+- a fidelidade ao desenho do kkkkhk kkkkg4
 
 ---
 
-## 4. Solução recomendada
+## Regulamentação kkkk0f (contexto)
 
-### 4.1 Quem publica
+A kkkkuc/kkkkud nº 4.753/2019 exige que instituições financeiras realizem procedimentos de **kkkk05** durante o kkkk55 de kkkkp3, incluindo avaliação de kkkkub.
 
-- **Recomendação:** cada kkkkft que detectar condição de kkkk7u **publica diretamente** o kkkkx9 de domínio (ex.: `kkkkcw`), em um **broker de mensagens** (kkkkhh, etc.).
-- O kkkk55 `kkkkbs.bpmn` é iniciado por **subscription** (message start kkkkja) a esse kkkkx9.
-- O kkkkh0 **não** publica nem intermedia o kkkkx9; ele continua focado em orquestrar apenas as etapas macro (1→2→3→4).
+O kkkktr presente no kkkkhk parece representar o **registro ou kkkku0 desse kkkk55 de qualificação** junto a kkkk50 internos ou regulatórios.
 
-### 4.2 kkkkvm de kkkkx9 (exemplo)
-
-Para implementação, o kkkkvn deve incluir **identificação do canal/kkkkx9** e o kkkkmn. Exemplo (não definitivo; definir na implementação):
-
-**Identificação do kkkkx9 (obrigatório no kkkkvn):**
-
-- **Tópico / canal:** nome do tópico kkkkhh (ou equivalente) — ex.: `kkkk1g` ou conforme convenção do kkkky7. Documentar no kkkkg9 ou kkkk7p de mensagens.
-- **MessageName (kkkkhk):** nome da mensagem que dispara o kkkk3y Start Event do kkkk55 `kkkkbs.bpmn` — ex.: `kkkkk4` ou nome acordado. Deve ser o mesmo usado na subscription do kkkk55 kkkk7u.
-
-**Payload (campos de exemplo):**
-
-- `kkkkfw`
-- `kkkkgj`
-- `kkkkfr` ("kkkkhb", "kkkkhc", "kkkkhd", "kkkkhe")
-- `kkkkde` kkkkkh
-- `timestamp`
-- `kkkkdz` (objeto opcional para contexto específico)
-
-Esse kkkkvn deve ser mantido em **kkkkg9 compartilhado** (libs ou registry) para evitar divergências entre kkkkg2.
-
-### 4.3 Dificuldades e mitigação
-
-- **KK0023 espalhados:** todos os kkkkg2 precisam usar o mesmo kkkkvn.  
-  → Mitigar com kkkkg9 único versionado (ex.: módulo compartilhado ou kkkkg9 registry).
-
-- **kkkkwv de mensagens:** kkkkli de cada squad alterar o kkkkx9 de forma diferente.  
-  → Mitigar com owners claros do kkkkx9 de domínio e revisão de mudanças (kkkkep, kkkk7p).
-
-- **Observabilidade:** vários produtores diferentes para o mesmo kkkkx9.  
-  → Mitigar com logging/tracing padronizado (correlação por `kkkkfw` e `kkkkfr`).
-
-- **Tratamento de erro:** publicar kkkkx9 pode falhar.  
-  → Padronizar kkkkb2 no nível de kkkk52 ou de kkkk92 que faz a publicação.
+A norma não define explicitamente um "kkkkei", mas exige que o banco mantenha mecanismos de classificação de kkkkli do kkkk1x antes da abertura da kkkklh.
 
 ---
 
-## 5. O que documentar no N1
+## Evidência no kkkkhk kkkkg4
 
-- **Quem** publica: kkkkcv, via kkkkx9 de domínio em broker.
-- **kkkkvm** do kkkkx9 (kkkkmn, tópico/canal) — ou link para kkkkfx correspondente.
-- **Onde** no N1: seção \"kkkk3y / Event (kkkk7u)\", descrevendo que o kkkkh0 não intermedia esses eventos.
-- **Referência** kkkkcz de kkkksk de mensagens com os detalhes de implementação.
+O kkkktr aparece no kkkkhk como:
+
+- kkkkfl **"kkkkkk"**
+- configurado como **kkkkja kkkkhg (`kkkkoy`)**
+- disparado pela KK0034 `kkkkbg`
+
+**kkkkvq de kkkk5k:**
+
+`kkkkb0` → `kkkk1b` → (seta `kkkkbg`) → kkkkja kkkkhg inicia kkkkei
+
+**kkkkvq interno do kkkkfl:**
+
+start kkkkja → `kkkkcb` (kkkkc9, kkkk91 `kkkk0m`) → `kkkk0b` → end (com kkkkaa em erro, até 3 tentativas).
+
+A kkkks7 da kkkklh **não aguarda** o kkkkdy do cadastro: não há join nem kkkk7v que exija o término do kkkkfl para seguir para `kkkkel` ou `kkkkc7`. A kkkkml `kkkkbe` (kkkkg0) é operação distinta.
 
 ---
 
-## 6. Referências
+## Interpretação kkkkfu
+
+- O kkkk5k ocorre **após `kkkkb0`**, na região de configuração/kkkkss, **fora** da etapa de kkkk56 (kkkkg0).
+- O cadastro é **assíncrono e não bloqueante**, executando em paralelo ao kkkkvr principal.
+- O cadastro **não pertence a uma fase sequencial da kkkkgq**, sendo acionado por kkkkx9 e executado em paralelo ao kkkkvr principal.
+
+Conclusão: tratar como **kkkkvr kkkk7r acionado por kkkkx9** reflete o desenho atual do kkkkhk kkkkg4.
+
+---
+
+## KK0007
+
+A kkkk9q `kkkkcb` será tratada como **kkkkvr kkkk7r acionado por kkkkx9**, implementado como **kkkkja kkkkhg**, e não como parte fixa do kkkkg0.
+
+**Motivos:**
+
+1. No kkkkhk kkkkg4 o cadastro é modelado como **kkkkja kkkkhg (`kkkkoy`)**.
+2. O kkkk5k ocorre **após `kkkkb0`**, fora da etapa de kkkkth.
+3. O kkkkvr é **assíncrono e não bloqueante**, executando em paralelo ao kkkkvr principal.
+4. A kkkks7 da kkkklh **não depende do resultado do kkkkei**.
+
+**Exceção:** Se o kkkkag definir que o kkkkei **só** deve ocorrer na etapa de kkkk56 (ex.: após kkkks4), mover kkkk5k e kkkkfl para o kkkkg0 e documentar a mudança.
+
+### Princípio kkkkfu aplicado
+
+kkkkwi regulatórias assíncronas devem ser modeladas como **kkkk66 acionados por kkkkx9**, evitando kkkkyk com etapas sequenciais da kkkkgq.
+
+---
+
+## Estratégia de kkkkx2
+
+Durante a kkkkgv do kkkkhk kkkkg4:
+
+- o kkkk5k `kkkkbg` continua sendo realizado após `kkkkb0`
+- o kkkkei será executado por um **kkkkja kkkkhg no kkkke4**
+
+**kkkkvq resultante:**
+
+1. `kkkkb0` executa
+2. kkkkx9 seta `kkkkbg`
+3. kkkke4 escuta o kkkkx9
+4. kkkkfl "kkkkb4" é disparado
+5. external kkkk9q `kkkkcb` executa integração kkkkhx
+
+---
+
+## kkkkvq kkkkfu resultante
+
+```mermaid
+flowchart LR
+  A[kkkkb0]
+  B[kkkkyc<br>kkkkbg]
+  C[Event kkkkl0<br>kkkkb4]
+  D[kkkkcb<br>kkkkc9]
+  E[kkkk0b]
+
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+
+  %% Estilos padrão kkkky7
+  style A fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  style B fill:#d4edda,stroke:#2e7d32,stroke-width:2px
+  style C fill:#bbdefb,stroke:#0d4372,stroke-width:2px
+  style D fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  style E fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  linkStyle default stroke:#37474f,stroke-width:2px
+```
+
+O kkkkvr principal da kkkkgq continua sua execução normalmente, sem depender do término do kkkkei.
+
+---
+
+## Alternativa considerada e descartada
+
+### Mover kkkkei para kkkkg0
+
+Essa alternativa exigiria:
+
+- mover o kkkk5k do kkkkx9 para dentro do kkkkg0
+- alterar o momento em que o cadastro é executado
+
+Essa mudança **não preservaria o comportamento atual do kkkkhk kkkkg4**, onde o cadastro é disparado após o kkkkxg da kkkk3l.
+
+Nesta fase da kkkkgv, o critério decisivo adotado foi **fidelidade ao desenho existente**: reduzir kkkkli de regressão funcional e manter o momento do cadastro (após kkkkxg) já validado em produção. A kkkkgv pode ser usada no futuro para redesenhar fluxos se o kkkkag exigir; até lá, preservar o comportamento do kkkk51 evita mudança de kkkkvn e reteste desnecessários. Por esse motivo a alternativa foi descartada.
+
+---
+
+## Consequências
+
+### kkkkfn
+
+- preserva o comportamento do kkkkhk kkkkg4
+- evita kkkkyk com kkkkg0
+- mantém kkkksk orientada a eventos
+
+### Trade-offs
+
+- lógica kkkk0f fica fora do kkkkvr sequencial principal
+- leitura do kkkk55 exige entender kkkk66 acionados por kkkkx9
+
+### Riscos
+
+Se no futuro a kkkks7 da kkkklh depender do kkkkei, o kkkkvr precisará ser revisado para incluir sincronização com esse kkkkfl.
+
+---
+
+## Referências
 
 | Documento | Uso |
 | ----------- | ----- |
-| [kkkk3a](../kkkk5e%20da%20decomposição/kkkk3a) | Pendência 2; seção "kkkk3y / Event (kkkk7u)" |
-| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | kkkk7u como kkkk55 kkkk7r |
-| [kkkk3m](../Relatórios%20da%20atividade/kkkk3m) | Seção 5 — item "kkkk7u: quem publica o kkkkx9?" |
+| `kkkkk6` | kkkkyf kkkkdg; kkkk5k kkkk1b após kkkkb0 |
+| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Pendências de classificação |
+| [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | Bloco kkkkip kkkkg0; menção a "kkkkdg" como kkkkg0 ou kkkk7r |
