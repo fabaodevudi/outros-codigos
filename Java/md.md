@@ -1,10 +1,10 @@
-# User s — Parte 1: Início e identificação da kkkkgq
+# User Story — Parte 1: Início e identificação da kkkkgq
 
 **Fonte da verdade:** `kkkkk6` (Event_0s31x87, kkkkm2)
 
 ---
 
-**Obs. (especulativo):** Quem inicia a kkkk5h e quais kkkkvo vêm no start não estão no kkkkhk; o script apenas preserva `kkkk45` se já existir. Ver [FLUXO_01_tecnico](FLUXO_01_tecnico.md) §0.
+**Obs. (especulativo):** Quem inicia a kkkk5h e quais kkkkvo vêm no start não estão no kkkkhk; o script apenas preserva `kkkk45` se já existir. Ver [kkkkza](kkkkza.md) §0.
 
 ---
 
@@ -27,14 +27,14 @@
 - [ ] **CA3 – Canal (kkkk45)**  
   Se quem iniciou a kkkkgq já informou o canal (kkkk45), esse valor é mantido. Caso contrário, o kkkkxv assume “kkkkve” como padrão.
 
-- [ ] **CA4 – Dispositivo “laranjinha”**  
-  Quando o canal for “laranjinha”, o kkkkxv grava também o tipo de dispositivo como “laranjinha”. Nos outros canais, o tipo de dispositivo não é definido nesta etapa.
+- [ ] **CA4 – Dispositivo “kkkkz2”**  
+  Quando o canal for “kkkkz2”, o kkkkxv grava também o tipo de kkkkz3 como “kkkkz2”. Nos outros canais, o tipo de kkkkz3 não é definido nesta etapa.
 
 - [ ] **CA5 – Próximo passo**  
   Ao terminar essa etapa, o kkkkvr segue direto para a decisão “kkkklq” (kkkk7v `kkkkpb`), sem outros caminhos nesta parte.
 
 - [ ] **CA6 – Base para identificador da kkkkgq**  
-  O canal (kkkk45) definido aqui será usado mais à frente para montar o identificador da kkkkgq (ex.: PHYGITAL ou PHYGITAL-{canal}). Quem inicia a kkkk5h pode enviar o canal para customizar.
+  O canal (kkkk45) definido aqui será usado mais à frente para montar o identificador da kkkkgq (ex.: kkkkz4 ou kkkkz4-{canal}). Quem inicia a kkkk5h pode enviar o canal para customizar.
 
 ---
 
@@ -52,20 +52,20 @@
 
 | ID script | Regra resumida |
 | ----------- | ---------------- |
-| `kkkkm2` | Atribui `tempo_decurso_usuario` (PT20M), `tempo_decurso_sistemico` (P22D), `kkkkvr` (kkkksg), `codigo_unidade_negocio`; mantém ou define `kkkk45` (default kkkkve); define `tipo_device` quando `kkkk45` = laranjinha. |
+| `kkkkm2` | Atribui `kkkkz8` (PT20M), `kkkkz5` (P22D), `kkkkvr` (kkkksg), `kkkkz6`; mantém ou define `kkkk45` (default kkkkve); define `kkkkz7` quando `kkkk45` = kkkkz2. |
 
-Ver [FLUXO_01_tecnico](FLUXO_01_tecnico.md).
+Ver [kkkkza](kkkkza.md).
 
 ### Payload e kkkkvo
 
 | Variável | Valor / regra | Observação |
 | ---------- | --------------- | ------------ |
-| `tempo_decurso_usuario` | PT20M | kkkk63 por inatividade. |
-| `tempo_decurso_sistemico` | P22D | kkkk63 sistêmico. |
+| `kkkkz8` | PT20M | kkkk63 por inatividade. |
+| `kkkkz5` | P22D | kkkk63 sistêmico. |
 | `kkkkvr` | kkkksg | Identificação do kkkkvr. |
 | `kkkk45` | Mantido ou kkkkve | Canal; opcional do caller na KK0027 de start. |
-| `codigo_unidade_negocio` | 514017224 | Fixo no script. |
-| `tipo_device` | laranjinha (condicional) | Apenas se `kkkk45` = laranjinha. |
+| `kkkkz6` | 514017224 | Fixo no script. |
+| `kkkkz7` | kkkkz2 (condicional) | Apenas se `kkkk45` = kkkkz2. |
 
 Nenhum kkkkmn de kkkkaq.
 
@@ -85,13 +85,13 @@ Nenhum kkkkmn de kkkkaq.
 | Parte | Papel | kkkk59 / observação |
 | ------- | -------- | ------------------------- |
 | 5 | Destino (saída) | kkkkis “kkkklq” (`kkkkpb`), kkkkvg/kkkkxg; definição de `kkkkzv` ocorre mais adiante (mapeamento kkkkhu). |
-| 16 | Uso posterior | kkkkxe de kkkkyo utilizam `tempo_decurso_usuario` e `tempo_decurso_sistemico`. |
+| 16 | Uso posterior | kkkkxe de kkkkyo utilizam `kkkkz8` e `kkkkz5`. |
 
 ---
 
 ## Referência kkkkhk
 
 - `Event_0s31x87` — start kkkkja  
-- `kkkkm2` — script Groovy (kkkkvo listadas no FLUXO_01)  
+- `kkkkm2` — script kkkkz9 (kkkkvo listadas no FLUXO_01)  
 - `Flow_17vlh7m`, `Flow_116t3w8` — sequence kkkkoa  
 - Próximo elemento: `kkkkpb` (Parte 5)
