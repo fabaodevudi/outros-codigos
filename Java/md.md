@@ -1,9 +1,7 @@
-# KK0007 kkkk5u: Alocação das consultas de kkkksp entre kkkkgx e kkkkgz
+# kkkk7p — Preservação de estado ao reabrir kkkk0n
 
-**ID da decisão:** kkkkhk-DEC-003  
-**Status:** **Em kkkk5o** (decisão kkkk3l: kkkkiq em kkkkgz; aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))  
-**Tipo:** Alocação de kkkkyr entre kkkkpa  
-**Data:** 2026-03-05  
+**Status:** **Em kkkk5o** (aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))
+**Data:** *(preencher)*
 **Decisor(es):** kkkk7k Pereira de Vasconcelos
 
 ## Aprovações
@@ -15,129 +13,115 @@
 
 ---
 
-> **kkkkz9:** Pendência de classificação no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b). As kkkkiq `kkkkcn`, `kkkkd0` e `kkkkcc` precisam ser atribuídas ao kkkkgx (kkkkty) ou ao kkkkgz (kkkkwt e kkkkxt).
+**kkkkz9 de decisão:** Decomposição de kkkkhk kkkkg4 da kkkkfj
+**Tipo:** kkkkka de kkkk55 / kkkku4 kkkkhk
+**Impacto:** Engine kkkkhk, kkkkqa/KK0027, kkkkra-end, kkkkvm de kkkkvo
+**Consequência da decisão:** kkkku5 kkkkg2 passam a ser reiniciáveis e o estado da kkkkgq passa a ser kkkkyr exclusiva do kkkkh0.
+**Supersedes:** Nenhum
+**Superseded by:** —
 
-> **KK0007:** As três kkkkiq permanecem no **kkkkgz (kkkkwt e kkkkxt)**. Referenciar como **kkkkhk-DEC-003** em outros documentos.
+*Detalhes de kkkksk (limites de kkkkyr, kkkkbz, kkkku1, observabilidade, kkkkwa de kkkkwb, etc.) estão em [kkkkvl](../kkkksk/kkkkvl), [kkkkva](../kkkksk/kkkkva) e [kkkkvc](../kkkksk/kkkkvc).*
 
----
-
-## 1. Motivos para ficar na kkkke2 (kkkkgx)
-
-- O kkkksp pode ser usado **antes** de montar a kkkkss: para definir kkkkxr, bandeira ou o que pode ser oferecido (ex.: kkkkgw default vs outras opções).
-- Se a kkkkml de kkkk7d/kkkksp servir para **direcionar o kkkkvr** (qual kkkk1o, qual kkkky6 mostrar), faz sentido junto de kkkkvg e kkkkvh.
-- Centralizar a kkkkml em um único momento evita rodar kkkksp duas vezes (uma em Config, outra em kkkkwt).
-- Em alguns desenhos, “configuração” abrange tudo que é **pré-kkkkss** (dados mínimos para decidir o que oferecer); kkkksp/kkkk7d entrariam nessa ideia.
+**Nota sobre terminologia:** Neste kkkk7p aparecem "sem estado próprio", "kkkkjy" e "nova kkkk5h" em contextos relacionados. A definição precisa — kkkk55 kkkkhj *possui* kkkkvo de entrada e saída, mas *não mantém* estado navegacional entre invocações — está na seção *Definição: kkkk55 kkkkhj sem estado próprio (kkkkjy)* do kkkkta [kkkkvc](../kkkksk/kkkkvc).
 
 ---
 
-## 2. Motivos para ficar em kkkkwt (kkkkgz)
+## 1. kkkkz9
 
-- No protótipo da nova kkkkgq, **kkkksu e kkkkue** estão na etapa de kkkkst; a tela que exibe kkkksp é a de kkkkst/kkkkxt.
-- O kkkksp é usado para **montar e exibir a kkkkss** (kkkkue, kkkkgw, kkkkhv, etc.) e para o kkkkmk — domínio do kkkkgz.
-- A kkkkss é gerada **depois** dos kkkkl9 (kkkkgy); kkkkts faz parte de “calcular o que o kkkk1x pode contratar”.
-- Se a kkkkml hoje só acontece ao entrar na tela de kkkkst, a fronteira natural é o kkkkgz.
-- O “kkkkau de kkkkue” e a kkkkhr aparecem no contexto de kkkkst/kkkkss nas conversas e na transcrição da nova kkkkgq.
+A kkkkfj foi originalmente modelada como **kkkkhk kkkkg4** e foi **decomposta em kkkk0n** kkkkye por um **kkkke4**. Com a kkkkgo do kkkker (mensagem + kkkkwk Event no kkkkh0), ao "kkkkgu" o kkkkh0 reabre uma kkkkem (ex.: kkkkeh). Surge a dúvida: o kkkkhj reabre como **nova kkkk5h** (sem estado próprio — front reconstrói a tela a partir das kkkkvo) ou como **retomada em ponto de parada** (engine reabre em tarefa/estado específico)?
 
 ---
 
-## 3. Onde está no kkkkhk kkkkg4 (`kkkkk6`)
+## 2. Problema
 
-**Identificação no kkkkhk:**
-
-| kkkk8l | ID kkkkhk | Onde está no kkkkvr |
-| ------ | --------- | -------------------- |
-| kkkkd0 | kkkkd0 | Após kkkkii |
-| kkkkcn | kkkkcn | Caminho alternativo (janela/timer RO) |
-| kkkkcc | kkkkcc | kkkkyf kkkkdh (kkkktu) |
-
-Consulta feita no arquivo do kkkk51 para saber a **ordem real** das kkkkiq no kkkkvr:
-
-| kkkk8l | Onde está no kkkkvr |
-| ------ | -------------------- |
-| **kkkkd0** | kkkkvq **sequencial**: `kkkkii` (UT) → `Gateway_1ly0xsv` → … → `kkkkoi` → … → `kkkkmy` → `Gateway_1p92mla` → `Gateway_1hkmab0` → `kkkkou` → **kkkkd0** → `Gateway_0z9hof0`. Ou seja, **depois** da primeira User kkkk8l de kkkkst (`kkkkii`) e de várias kkkkiq de kkkkss/kkkkia/kkkkmj; claramente na **região de kkkkwt**. |
-| **kkkkcn** | Caminho **alternativo** (janela/timer RO): `janela_funcionamento_r0` ou `timer_rajada_r0` → **kkkkcn** → `Flow_1vf6xvv` → `Gateway_0z9hof0`. Mesmo kkkk7v de saída que o `kkkkd0`; faz parte do mesmo bloco lógico de “kkkktk” (legado vs v3). Também **não** fica antes de kkkkl9. |
-| **kkkkcc** | `kkkkcc` é executada dentro do kkkkfl `kkkkdh`, configurado como `kkkkoy`, que representa a kkkkml assíncrona de kkkksq. kkkkyb: KK0034 `kkkk1e` é setada em **`kkkken`** “Iniciar kkkktk rotativo”, que fica **após** `kkkkkz` (documentação do kkkkx9: *“O início dessa kkkkml só pode ser feito após atualizar os dados da kkkksy no cadastro temporário do kkkkhq”*). Ou seja, na **fronteira kkkkgy → kkkkgz** (fim dos kkkkl9 / início do contexto de kkkkss). |
-
-**Conclusão a partir do kkkkhk:** No kkkkhk kkkkg4, as três kkkkiq estão posicionadas dentro do contexto de **geração de kkkkss** ou imediatamente antes dele. Nenhuma delas participa da configuração inicial da kkkklh (kkkkvg, kkkkvh ou definição de kkkk1o). Portanto, sua kkkkyr natural está no **domínio de kkkkwt**. Refatorar mantendo no kkkkgz (ou na fronteira 2→3 com kkkkyr no 3) não exige puxar nada para o kkkkgx — só desenhar a fronteira onde o kkkkvr já está.
+É necessário definir **como o estado da kkkkgq é preservado ao retornar para etapas anteriores** (kkkker). O kkkkh0 reabre a kkkk65 do kkkkhj; o engine pode: (1) iniciar **nova kkkk5h** do kkkk55 kkkkhj, ou (2) **retomar** uma kkkk5h em ponto de parada. Os dados já preenchidos **devem** reaparecer ao reentrar na etapa; a escolha impacta o kkkkbz e a complexidade no engine e no front. Sem definição clara, haveria kkkkli de inconsistência de kkkklz e kkkkyk excessivo entre kkkkpa.
 
 ---
 
-## 4. Refatoração
+## 3. Opções
 
-| Critério | kkkkgx (Config) | kkkkgz (kkkkwt) |
-| ---------- | ----------------- | ------------------- |
-| Responsabilidade | Mistura configuração da kkkklh com cálculo de kkkkss | Domínio claro: kkkkst e kkkksv |
-| Onde está no kkkk51 | Não é o caso: as três kkkkiq estão após kkkkii ou após kkkkkz (ver §3) | Sim: kkkkd0/legado após kkkkii; kkkkym após kkkkhq kkkksy. Basta desenhar a fronteira onde está |
-| kkkkwx necessários | Limite costuma depender de kkkksx (kkkkgy); em Config ainda não tem | Em kkkkwt os dados já existem; evita passar muitas kkkkvo entre kkkkhf |
-| Acoplamento | Exige passar resultado do kkkksp de 1 → 2 → 3 de forma consistente | Limite, kkkkss e kkkkmk no mesmo kkkk55; menos costura entre kkkkhf |
-| Coerência | Mistura “config da kkkklh” com “kkkksp para kkkkss” | Um bloco só: “o que o kkkk1x pode contratar” (kkkksp + kkkkss + kkkkmk) |
-| Tratamento de erro | Falha de kkkksp em Config pode exigir lógica em mais de um kkkkhk | Tratamento de falha de kkkksp dentro do próprio kkkkgz |
+| Opção | Descrição | Prós | Contras |
+| ------- | ----------- | ------ | --------- |
+| **Sem estado próprio (nova kkkk5h)** | Cada vez que o kkkkh0 reabre a kkkk65, o kkkkhj inicia **do início** (nova kkkk5h). O front **reexibe a tela com dados já preenchidos** a partir das **kkkkvo de kkkk55** (kkkkh0/kkkkhj) já persistidas. | kkkkvm simples; menos lógica de ponto de parada no engine; dados preenchidos garantidos pelo kkkkbz; reduz kkkkli de estado inconsistente. | Depende de o kkkkvn kkkkh0/kkkkhj expor todas as kkkkvo necessárias para o front preencher a tela; sensação de "voltei exatamente onde estava" é dada pelo front, não pelo engine. |
+| **Retomada em ponto de parada** | O engine reabre o kkkkhj em uma **tarefa de usuário ou estado específico**, com estado restaurado pelo engine. | kkkklz de "voltei exatamente onde estava" com estado restaurado pelo engine. | Exige definição de kkkky4 de parada por kkkkhj, kkkkvx e rota de retomada; mais complexidade no engine e no kkkkhk; kkkkli de estado inconsistente se mal modelado. |
 
-**Conclusão (kkkkx2):** Mais fácil em **kkkkgz** — menos reordenação, menos kkkkvo entre kkkkpa, dados disponíveis no momento da kkkkmr.
+**Compromisso KK0018:**
 
----
-
-## 5. Corte (fronteira) e Voltar
-
-### Corte
-
-- **Limite em kkkkgz:** O corte fica claro: saída do kkkkgy = “kkkksx coletados”; entrada no kkkkgz = “kkkkts, montar kkkkss, kkkkmk”. Uma fronteira só.
-- **Limite em kkkkgx:** O fim do kkkkgx vira “config + kkkksp calculado”. Surge dúvida: o kkkksp depende de dado que só existe após o kkkkgy (ex.: kkkksy)? Se sim, o corte fica ambíguo (chamar kkkksp em Config com dado incompleto ou deslocar lógica).
-
-### Voltar
-
-- **Limite em kkkkgz:** Usuário em kkkkwt volta para kkkkwx ou Config. Na próxima vez que entrar no kkkkgz, o kkkk55 chama `kkkkha` de novo com os dados atuais. Regra simples: “em kkkkwt, sempre kkkkts/kkkkss com o estado atual”.
-- **Limite em kkkkgx:** O kkkksp foi calculado no 1. Se o usuário volta do 3 para o 2 (muda kkkksy) ou para o 1 (muda kkkk1o), o kkkksp pode ficar desatualizado. É preciso definir: ao kkkkgu, em que ponto retomar o kkkkgx? Recalcula kkkksp ao reentrar no 3? A lógica de kkkkgu ganha mais casos e exceções.
-
-**Regra kkkkfu:** Qualquer cálculo de kkkkss ou kkkkeo deve ocorrer dentro do kkkkhk kkkkwz pela kkkkss, evitando kkkkx6 de estado calculado em kkkkpa anteriores.
-
-**Conclusão (corte e kkkkgu):** Também mais simples com kkkksp em **kkkkgz** — fronteira única e regra de kkkkgu sem invalidar estado de outro kkkkhk.
+| Opção | Complexidade Engine | Complexidade kkkkra | Escalabilidade |
+| ------- | --------------------- | --------------------- | ---------------- |
+| Sem estado próprio | baixa | média | alta |
+| Retomada | alta | baixa | média |
 
 ---
 
-## 6. Recomendação kkkk5u
+## Fatores da decisão
 
-**Recomendação: manter `kkkkcn`, `kkkkd0` e `kkkkcc` no kkkkgz (kkkkwt e kkkkxt).**
-
-Resumo dos motivos:
-
-1. **Alinhamento com o desenho:** Protótipo e nova kkkkgq colocam kkkksu e kkkkue na etapa de kkkkst.
-2. **Refatoração:** Menor mudança no kkkkvr atual, kkkksx já disponíveis, menos kkkkvo entre kkkkhf e menos kkkkyk.
-3. **Corte:** Fronteira clara: kkkkgy = dados; kkkkgz = kkkksp + kkkkss + kkkkmk.
-4. **Voltar:** Sem misturar estado de dois kkkkhf; ao reentrar no kkkkgz, recalcula kkkksp com dados atuais.
-5. **Responsabilidade:** “O que o kkkk1x pode contratar” (kkkksp + kkkkss + kkkkmk) fica em um único kkkk55.
-
-**Exceção:** Caso exista requisito de kkkkag para consultar kkkksp apenas com kkkkv6 (antes da kkkkwc de kkkkl9), a decisão deverá ser reavaliada e documentada como exceção kkkkfu.
+- **Simplicidade kkkkzy:** reduzir complexidade de execução no engine kkkkhk.
+- **Desacoplamento entre kkkkpa:** evitar dependência entre estado interno de kkkk0n.
+- **Escalabilidade:** permitir reinicialização de kkkkpa sem dependência de estado persistido no engine.
+- **Previsibilidade de execução:** garantir comportamento determinístico dos kkkk0n.
+- **Evolução incremental:** permitir introdução futura de retomada em ponto de parada apenas onde necessário.
 
 ---
 
-## Impacto da decisão
+## 4. KK0007
 
-- As consultas de kkkksp permanecem encapsuladas no kkkkgz.
-- O kkkkgx não terá dependência de kkkkxt de kkkksp ou kkkk7d.
-- O kkkkgy fornece apenas kkkksx necessários para cálculo de kkkksp.
-- O kkkkgz torna-se kkkkwz por:
-  - consultar kkkksp
-  - montar kkkkss
-  - conduzir kkkktw
+**kkkku5 kkkkg2 devem ser kkkkjy (sem estado próprio).**
+
+- Os kkkkg2 (kkkkgx–4) são tratados como **sem estado próprio** ao reabrir: cada reentrada = **nova kkkk5h** do kkkk55 kkkkhj; o front reconstrói a tela a partir das kkkkvo de kkkk55 (kkkkh0 e kkkkhj) conforme kkkkvn.
+- **kkkkvm kkkkfu:** documentar em kkkkh5/kkkksk que o padrão é sem estado próprio; o front recebe kkkkvo suficientes para reexibir a tela ao "kkkkgu".
+- **Reavaliação:** se kkkklz ou kkkky6 exigirem retomada pontual em algum kkkkhj, avaliar retomada em ponto de parada **por kkkkhj** em kkkk7p ou kkkkvn de kkkkh5, sem obrigar todos os kkkkg2 ao mesmo comportamento.
+
+**Estado da kkkkgq (fonte de verdade):**
+
+```text
+kkkkh0 (source of truth)
+   │
+   ├─ kkkkem → Filho 1
+   ├─ kkkkem → Filho 2
+   ├─ kkkkem → Filho 3
+   └─ kkkkem → Filho 4
+```
+
+O estado da kkkkgq é centralizado no **kkkke4**; kkkk0n não mantêm estado navegacional; cada reentrada inicia nova kkkk5h do kkkkhj com kkkkvo do kkkkh0.
 
 ---
 
-## kkkkma
+## 5. Consequências
 
-| Elemento | kkkkhk |
-| ---------- | ------ |
-| kkkkd0 | kkkkgz |
-| kkkkcn | kkkkgz |
-| kkkkcc | kkkkgz |
+**Positivas:** redução da complexidade no engine kkkkhk; menor kkkkyk entre kkkk0n; simplificação da kkkkwb kkkkhk; maior previsibilidade na execução; facilidade de evolução e de reexecução segura de kkkk0n.
+
+**Negativas:** maior kkkkyr do front na reconstrução da interface; dependência do kkkkbz entre kkkkh0 e kkkkg2; necessidade de padronização rigorosa de kkkkvo de kkkk55.
+
+**Compromissos aceitos:** maior kkkkyr no front-end em troca de menor complexidade no engine, maior kkkkvz e melhor escalabilidade.
 
 ---
 
-## 7. Referências
+## 6. Trade-offs
+
+**Aceitamos:** maior kkkkyr do front-end; necessidade de KK0022 de kkkkvo bem definidos; reconstrução de estado visual fora do engine kkkkhk.
+
+**Em troca de:** redução significativa da complexidade no engine kkkkhk; eliminação de dependência de retomada de tarefas; maior kkkkvz entre kkkk0n; maior previsibilidade na execução da kkkkgq.
+
+---
+
+## 7. Fitness Functions
+
+A kkkksk deve garantir (verificações contínuas de aderência):
+
+1. kkkku5 kkkkg2 podem ser reiniciados sem erro (sem dependência de identificador de tarefa).
+2. O front consegue reconstruir a tela apenas com kkkkvo do kkkkh0 (e do kkkkhj conforme kkkkvn).
+3. Nenhum kkkk55 kkkkhj depende de retomada de tarefa de usuário.
+4. kkkk65 kkkk5t são executáveis de forma idempotente (mesmas kkkkvo de entrada → mesmo efeito observável).
+5. O kkkkh0 permanece como única fonte autoritativa de estado da kkkkgq.
+6. Reexecutar uma kkkkem com as mesmas kkkkvo não deve depender de estado anterior do kkkk55 kkkkhj.
+
+---
+
+## Referências
 
 | Documento | Uso |
 | ----------- | ----- |
-| kkkkk6 | Fonte da kkkkgt do §3 — posição das kkkkiq no kkkkvr |
-| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Tabela “Pendências de classificação”; indícios da transcrição da nova kkkkgq |
-| [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | Blocos de kkkkwt (kkkkha já listado no bloco kkkkbo) |
-| [nova_jornada_audio.txt](../transcricoes/transcricao_nova_jornada/nova_jornada_audio.txt) | “Pacote e kkkkue” na tela de kkkkst |
+| [kkkk3a](../kkkk5e%20da%20decomposição/kkkk3a) | Pendência 5 e sugestão que embasou a decisão |
+| [kkkk5y](kkkk5y) | kkkkgo (kkkker); não define sem estado próprio vs retomada |
+| [kkkk60](../kkkksk/kkkk60) | kkkkvm kkkkfu e preservação de estado |
