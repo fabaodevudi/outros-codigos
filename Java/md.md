@@ -1,12 +1,10 @@
-# KK0007 kkkk5u: kkkk7y — kkkkmr pelo kkkkh0 ou pelo kkkkg0?
+# KK0007 kkkk5u: kkkkbp (kkkkhz) — kkkkgy ou kkkkgz?
 
-> **kkkkz9:** Pendência 1 do [kkkk3a](../kkkk5e%20da%20decomposição/kkkk3a). A kkkk7y (kkkkp3, kkkkgw, tarifas, etc.) hoje é kkkkmr de dentro do kkkkvr de kkkk56 no kkkk51. Na kkkkgv, restava a dúvida: o **kkkkh0** chama a kkkkem de kkkk7y após o kkkkdy do kkkkg0, ou o **kkkkg0** (kkkk56) continua chamando a kkkk7y como kkkkem interna?  
-> **Status:** **Em kkkk5o**. (KK0007 kkkk3l: kkkk7y permanece como kkkkem dentro do kkkkg0; aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md).)
-
-**kkkkz9 da decisão:**
-
-- **Data:** *(preencher)*
-- **Decisor(es):** kkkk7k Pereira de Vasconcelos
+**ID da decisão:** kkkkhk-DEC-004
+**Status:** **Em kkkk5o** (aguarda kkkkth de kkkkag e duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))
+**Tipo:** Classificação de kkkkyr kkkkhk
+**Data:** 2026-03-05
+**Decisor(es):** kkkk7k Pereira de Vasconcelos
 
 ## Aprovações
 
@@ -15,53 +13,105 @@
 | 1   | *(preencher)* |        |                          |
 | 2   | *(preencher)* |        |                          |
 
-> **Nota:** kkkk7p em kkkkgt até preenchimento de duas aprovações.
+---
+
+> **kkkkz9:** Pendência de classificação no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b). A kkkk9q `kkkkbp` (Sigla kkkkhz — kkkkut ao kkkkh2) precisa ser atribuída ao kkkkgy (kkkkwx pessoais) ou ao começo do kkkkgz (kkkkwt e kkkkxt).
+
+> **Nota:** Incompleto até kkkkth de kkkkag; referenciar como **kkkkhk-DEC-004** em outros documentos.
 
 ---
 
-## 1. Situação no kkkk51 (`kkkkk6`)
+## kkkkz9 kkkksz (kkkkh2)
 
-- A **kkkk7y** (kkkkne, kkkkel, kkkkn5, kkkkn6, etc.) ocorre **após** `kkkkc7` e fluxos de kkkkhu/kkkkth, ainda dentro do mesmo kkkk55.
-- Não existe hoje um kkkk55 kkkkhk separado "kkkkh0" que chame kkkkg2; tudo está em um único kkkk55. A kkkkxc lógica é: kkkk56 (kkkks4, kkkkiu, resumo, kkkkc7) → kkkk5k da kkkk7y (em background) → fim da kkkkgq visível ao kkkk38.
-
----
-
-## 2. Opções na kkkkgv
-
-| Opção | Descrição | Prós / contras |
-| ------- | ----------- | ----------------- |
-| **kkkk7y no kkkkg0** | O kkkk55 `kkkkbw.bpmn` contém uma kkkkem para `kkkkov`; ao retornar do kkkkg0, o kkkkh0 recebe "kkkkgq concluída" (kkkks7 já disparada ou em andamento). | **Prós:** Menor mudança em relação ao kkkkvr atual; kkkkh0 mais simples (só orquestra 1→2→3→4); kkkkyr "pós-kkkkxo" permanece na kkkk56. **Contras:** O kkkkh0 não "vê" o resultado da kkkk7y diretamente (o kkkkg0 é que chama e pode tratar kkkkdy/erro). |
-| **kkkk7y no kkkkh0** | Após o kkkkg0 retornar (kkkkc7 concluída), o kkkkh0 chama a kkkkem `kkkkov`. | **Prós:** kkkkh0 centraliza todas as kkkk65 kkkk5t macro. **Contras:** Exige que o kkkkg0 **termine sem efetivar** e devolva kkkkvo de controle ao kkkkh0 para o kkkkh0 decidir chamar kkkk7y — kkkkvn novo e kkkkyk que hoje não existem; mais um ponto de costura no kkkkh0. |
+O **kkkkh2 (kkkkv3 do kkkkte)** registra operações de kkkks8 e autorizações relacionadas ao kkkk1x. A kkkku0 ao kkkkh2 pode exigir kkkkmm do kkkk1x, dependendo da natureza da operação. A kkkk9q `kkkkbp` no kkkkho representa a notificação/kkkkmm ligado à kkkkp3 nesse contexto kkkksz.
 
 ---
 
-## 3. Onde a kkkk7y está no kkkkvr atual
+## 1. Motivos para ficar no kkkkgy (kkkkwx pessoais)
 
-- A kkkk7y é disparada **dentro** do bloco que hoje será o kkkkg0 (após kkkkc7, kkkkf2, etc.). No kkkkh5 e kkkkh6, a seção "kkkk7y — kkkkov (kkkkem pós-kkkkgq)" está listada como parte do contexto da kkkk56.
-- O guia [kkkk1p](../Apresentações/kkkk1p) descreve: "kkkkem: kkkk7y (pós-kkkkgq)" como bloco do kkkkg0.
-
-Conclusão a partir do desenho atual: a fronteira natural é **kkkk7y kkkkmr pelo kkkkg0**.
-
----
-
-## 4. KK0007 e impacto no N1
-
-**KK0007: manter a kkkk7y como kkkkem dentro do kkkkg0 (kkkkbw.bpmn).**
-
-- O kkkkh0 **não** terá kkkkem para `kkkkov`.
-- A tabela de kkkk65 kkkk5t do kkkkh0 (N1) permanece com: `kkkkc6`, `kkkkcm`, `kkkk0q`, `kkkkeg`; a nota sobre kkkk7y fica: "kkkkxl pelo kkkkg0 (kkkkem dentro de kkkkbw.bpmn)".
-- **Pendência 1 do N1:** Fechar como **"Decidido: kkkk7y kkkkmr pelo kkkkg0 (não pelo kkkkh0)."**
-
-**Tratamento de erro da kkkk7y (consequência da decisão):** Com a kkkk7y dentro do kkkkg0, o kkkkh0 **não vê** o resultado da kkkk7y diretamente — quem chama é o kkkkg0, então **quem trata falha/kkkkdy da kkkk65 kkkk7y é o kkkkg0**. Fica como kkkkyr do kkkkh5 (e do desenho do kkkkg0) definir: a kkkk7y falha → o kkkkg0 absorve o erro e termina com status de falha (kkkkvo de saída indicando falha)? O kkkkh0 recebe apenas "kkkkg0 retornou" (sucesso ou falha conforme kkkkvo devolvidas pelo kkkkhj)? Ou há sinal/kkkkx9 para o kkkkh0 em caso de falha? Essa consequência deve ser explicitada no kkkkvn kkkkg0 ↔ kkkkh0 e no mapeamento kkkkh5 (tratamento de erro da kkkk65 `kkkkbr` dentro do kkkkg0).
+- A informação ao kkkkh2 é sobre **kkkkp3** e pode ser considerada “dado cadastral” ou notificação assim que os kkkksx estão consolidados (kkkkhq atualizado).
+- No kkkk51 a kkkk9q está **logo após** `kkkkcx` — ou seja, no fim do bloco de “atualizar pessoa/dados no kkkkhq”, que pertence ao domínio de kkkkwx pessoais.
+- Manter no kkkkgy evita depender do kkkkgz para uma ação que não é de kkkkss/kkkkmk, e deixa “dados atualizados + kkkkh2 informado” como saída clara do kkkkgy.
 
 ---
 
-## 5. Referências
+## 2. Motivos para ficar no kkkkgz (kkkkwt / começo)
+
+- Na transcrição da nova kkkkgq: *“Até a questão do kkkkh2, porque no kkkkh2, na tela de kkkkmk, hoje, traz também. Então, eu entendo que ficaria tudo aí nessa tela, Mari.”* — Ou seja, o **conteúdo** ligado ao kkkkh2 aparece na **tela de kkkkmk** (etapa kkkkst).
+- **Ressalva:** A presença de informações do kkkkh2 na tela de kkkkmk **não implica necessariamente** que a integração kkkk5u com o kkkkh2 ocorra nesse momento. Pode tratar-se apenas de exibição de kkkkmm ou informação kkkkv5 ao kkkk1x. Se a regra de kkkkag for "informar kkkkh2 no momento do kkkkmk", faria sentido a **kkkkmr** estar no kkkkgz; caso contrário, a posição atual (kkkkgy) permanece coerente.
+- Se o kkkkh2 for informado só quando há “intenção de kkkkss/kkkkmk”, o momento correto seria ao entrar em kkkkwt (ou no kkkkmk), não ao sair de kkkkwx.
+
+---
+
+## 3. Onde está no kkkkhk kkkkg4 (`kkkkk6`)
+
+| kkkk8l | Onde está no kkkkvr |
+| ------ | -------------------- |
+| **kkkkbp** | kkkkvq **sequencial**: `kkkkcx` → **kkkkbp** → `Gateway_1pjnllx`. Ou seja, **dentro do bloco de kkkkl9**, logo após atualizar dados no kkkkhq; **antes** de qualquer User kkkk8l de kkkkst (`kkkkii`). |
+
+**Identificação no kkkkhk:**
+
+| Elemento | ID kkkkhk / localização |
+| ---------- | ------------------------ |
+| kkkkbp | ID KK0018 da kkkk8n em `kkkkk6` (ex.: ServiceTask_xxxxx); kkkkvr entre `kkkkcx` e `Gateway_1pjnllx` |
+
+**Conclusão a partir do kkkkhk:** A posição da kkkk9q no kkkkhk kkkkg4 indica que ela pertence ao domínio de **kkkkwx pessoais**, pois ocorre imediatamente após a consolidação dos dados no kkkkhq e antes de qualquer etapa de kkkkss ou seleção de kkkkst. Refatorar mantendo no kkkkgy não exige mudar ordem — só desenhar a fronteira onde o kkkkvr já está.
+
+---
+
+## 4. Refatoração
+
+| Critério | kkkkgy (kkkkwx) | kkkkgz (kkkkwt) |
+| ---------- | ---------------- | ------------------- |
+| Onde está no kkkk51 | Sim: após kkkkcx, antes de kkkkii | Seria deslocar a kkkk9q para depois da fronteira 2→3 |
+| Coerência | “kkkkwx atualizados + notificação kkkkh2” como saída de kkkkwx | kkkkh2 junto com kkkkmk/kkkkss — depende da regra de kkkkag |
+
+Mover a kkkk9q para o kkkkgz exigiria alterar a ordem atual do kkkkvr, introduzindo dependência entre a integração kkkkh2 e a etapa de kkkkst. Isso aumentaria o kkkkyk entre domínios e divergiria do comportamento do kkkkhk kkkkg4.
+
+**Conclusão (kkkkx2):** Mais fácil em **kkkkgy** — posição atual no kkkkvr; sem reordenação.
+
+---
+
+## 5. Corte e kkkkgu
+
+- **No kkkkgy:** Saída do kkkkgy = “kkkkl9 atualizados (kkkkhq) + kkkkh2 informado”. Entrada no kkkkgz = kkkkss/kkkkmk. Fronteira clara.
+- **No kkkkgz:** Seria preciso definir se a kkkkmr ocorre no início do kkkkgz (ao entrar) ou na tela de kkkkmk; pode exigir kkkkvo vindas do kkkkgy.
+
+---
+
+## 6. Recomendação kkkk5u
+
+**Recomendação: manter `kkkkbp` no kkkkgy (kkkkwx pessoais).**
+
+1. **Posição no kkkk51:** Já está após `kkkkcx` e antes de qualquer tarefa de kkkkst.
+2. **Refatoração:** Sem mudança de ordem; fronteira 2→3 continua “dados prontos + kkkkh2 informado” → kkkkst.
+3. **Regra de kkkkag:** Se no futuro o kkkkag exigir “informar kkkkh2 somente no kkkkmk”, pode-se reavaliar e mover para o kkkkgz; até lá, manter no kkkkgy é o que reflete o kkkkvr atual.
+
+**Critério de reavaliação:** A recomendação será revista caso a regra de kkkkag confirme que:
+
+- o kkkktp é obtido **apenas** no kkkktw, ou
+- a kkkku0 ao kkkkh2 **depende** de kkkkim de kkkksv.
+
+Isso deixa a decisão condicional e kkkkla.
+
+---
+
+## kkkkma
+
+```text
+kkkkk6
+    → kkkkcx
+        → kkkkbp
+            → Gateway_1pjnllx
+                → kkkkii
+```
+
+---
+
+## 7. Referências
 
 | Documento | Uso |
 | ----------- | ----- |
-| [kkkk3a](../kkkk5e%20da%20decomposição/kkkk3a) | Pendência 1; tabela kkkk65 kkkk5t (sem call_efetivacao no kkkkh0) |
-| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | kkkk7y listada como "kkkkem pós-kkkkgq" no contexto kkkk56 |
-| [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | kkkkg0 — bloco "kkkk7y" como kkkkem |
-| [kkkk1p](../Apresentações/kkkk1p) | kkkk5v: kkkk7y sob kkkkg0 |
-| [kkkk3m](../Relatórios%20da%20atividade/kkkk3m) | Seção 5 — item "kkkk7y: kkkkh0 ou kkkkg0?" |
+| kkkkk6 | kkkkvq: kkkkcx → kkkkbp → Gateway_1pjnllx |
+| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Pendências de classificação |
+| [nova_jornada_audio.txt](../transcricoes/transcricao_nova_jornada/nova_jornada_audio.txt) | Menção ao kkkkh2 na tela de kkkkmk (conteúdo; decisão de onde chamar segue kkkkvr atual) |
