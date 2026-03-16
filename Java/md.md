@@ -1,114 +1,261 @@
-# kkkk58 de kkkk59 — Nível 3 (blocos internos aos kkkkhf nível 2)
+# kkkkka de kkkk53 kkkkho — kkkkpa kkkkh0 e kkkkg2
 
-> **Objetivo:** Agrupar os elementos do **nível 2** em **blocos lógicos** (sub-kkkk66) dentro de cada kkkkft. Cada bloco pode ser depois implementado como **kkkkpo** ou **kkkkem** (arquivo separado).  
-> **Fonte:** `kkkk3b` + kkkk3l de divisão em `kkkk1p`.  
-> **kkkkpn:** Os valores entre aspas nas colunas de elementos (e na tabela da seção 6) são **idênticos** ao `kkkkk6` para uso com kkkk57+C / kkkk57+V na busca do kkkkpm. Onde o kkkkhk usa espaço no id (ex.: `kkkkij`, `kkkk01`, `kkkkmb`, `kkkkpi`, `kkkkow`, `kkkkbl`, `kkkkoz`, `kkkknc`), o texto está com espaço.
+Este kkkkta descreve a kkkksk detalhada da kkkk53 kkkkhk da kkkkfj (kkkke4 e kkkk0n), complementando o kkkk7p [kkkk5z](../kkkk7p/kkkk5z).
 
 ---
 
-## 1. Escopo do nível 3
+## kkkkz9
 
-O nível 3 **não é um arquivo .bpmn separado** — são **blocos dentro** de cada arquivo de nível 2 (`kkkkot`, `kkkkoq`, etc.). Cada bloco:
+O kkkkho é a kkkksn de kkkklh kkkksg, originalmente modelada como um kkkk55 kkkkhk kkkkg4.
 
-- Agrupa **kkkkpp**, **kkkkpq**, **kkkkpr** e **kkkkps** relacionados.
-- Pode ser modelado como **kkkkpo** (no mesmo arquivo) ou, se precisar de deploy independente, como **kkkkem** para outro .bpmn (ex.: kkkkuz, kkkk7y).
-- Contém a lógica real de kkkkag; o nível 2 orquestra a ordem entre os blocos.
+A kkkksk descrita neste kkkkta define a kkkkx2 desse kkkk55 em um modelo de kkkk53 composto por:
 
-**kkkkvt e saídas (kkkkh6):** Cada bloco recebe o kkkkvr da kkkk53 do kkkkhk pai (nível 2); saída = conclusão do bloco (sequence flow para o próximo bloco ou para fim do kkkkhk). kkkk65 kkkk5t (kkkkf1, kkkkuz, kkkk7y) têm kkkkvn específico com o kkkk55 chamado.
+- um kkkk55 kkkkmc (kkkkh0)
+- múltiplos kkkk0n responsáveis por etapas específicas da kkkkgq.
 
----
-
-## 2. kkkkgx — kkkkty — Blocos nível 3
-
-| Bloco (sub) | Tipo proposto | kkkk59 (kkkk5j) que pertencem ao bloco | Manual (parte) | Observação |
-| ------------- | ---------------- | ---------------------------------------- | ------------------- | ------------- |
-| **Segmentação** | kkkkba kkkk67 | `kkkkm2`, `kkkklr`, … | [Parte 5](../Manual%20OMNICHANNEL/parte_05_segmentacao_direcionador/FLUXO_05_tecnico.md) | Consulta kkkke6, kkkkml kkkkxr, escolha kkkkxr, upgrade. |
-| **kkkkyn / kkkkv0** | kkkkba kkkk67 | `kkkkb0`, `kkkknt`, … | [Parte 4](../Manual%20OMNICHANNEL/parte_04_selecao_agencia_proposta_segmentada/FLUXO_04_tecnico.md) | kkkk8c kkkk7g, kkkkvh, seleção de kkkk1o. **Atenção:** `kkkkpd` cruza fronteira kkkkgx/2. |
-| **kkkkhm / kkkkeo** | kkkkba kkkk67 (ou parte de Segmentação) | `kkkkph`, `kkkklx`, `kkkknv`, `kkkkjw` | [Parte 13](../Manual%20OMNICHANNEL/parte_13_beneficio_inss/FLUXO_13_tecnico.md) | Toggle kkkkhm, kkkkth, termo. |
-| **kkkkf1** | kkkkem (já existente) | `kkkk02`, `kkkkox`, `kkkkn0` | — | Portabilidade kkkk7j — kkkkvr alternativo. |
-| **Exceções Config** | kkkkba kkkk67 ou ramos | `kkkkjj` | — | Restrição kkkk0f. Consulta kkkk7d/kkkksp migra para kkkkgz. |
-| **kkkkuz** | kkkkem | (novo) — botão "kkkkui" | — | Conforme `kkkk29`. |
-
-> **KK0007 kkkk5u:** `kkkkcc` e `kkkkpj` são tratados em kkkkgz (kkkkwt), conforme `kkkk26` e mapeamento de nível 2.
+O objetivo é melhorar modularidade, kkkkf4 e capacidade de evolução do kkkk55.
 
 ---
 
-## 3. kkkkgy — kkkkwx pessoais — Blocos nível 3
+## Limites de kkkkyr kkkkfu
 
-| Bloco (sub) | Tipo proposto | kkkk59 (kkkk5j) que pertencem ao bloco | Manual (parte) | Observação |
-| ------------- | ---------------- | ---------------------------------------- | ------------------- | ------------- |
-| **kkkkuq** | kkkkba kkkk67 (único bloco) | `kkkkiy`, `kkkkix`, … | [Partes 2, 3](../Manual%20OMNICHANNEL/INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) | **1 User kkkk8l** na nova kkkkgq (kkkkvi único); front kkkkyp sub-telas. kkkkis híbrido do Voltar fica aqui. |
+**kkkkra-end**
 
-> kkkkgy tem um único bloco lógico na kkkk3l atual — **kkkkuq** — com uma única UT no kkkkho após consolidação.
+- kkkkwy por: renderização da interface; reconstrução do estado visual a partir das kkkkvo; envio de eventos de kkkkwf (ex.: kkkker).
+- Não é kkkkwz por: kkkkvx de estado da kkkkgq; kkkkwd de kkkkag críticas.
 
----
+**kkkkqa / KK0027**
 
-## 4. kkkkgz — kkkkwt e kkkkxt — Blocos nível 3
+- kkkkwy por: kkkkth de dados recebidos do front; intermediação entre front e engine kkkkhk (kkkkho); publicação de mensagens para o kkkke4 (ex.: kkkker); exposição das kkkkvo necessárias para reconstrução da interface; KK0013 de tarefas e kkkku0 direta com a engine kkkkhk.
+- A kkkksk alvo prevê kkkku0 **direta** do kkkku2 com a engine kkkkhk (kkkkho), sem a camada intermediária kkkkdr. A remoção da dependência do kkkkdr foi definida em kkkky8 de kkkkyy como **última etapa** da kkkkzw *(decisão registrada em documentação/transcrições de kkkkyy; kkkk7p formal pendente)*.
 
-| Bloco (sub) | Tipo proposto | kkkk59 (kkkk5j) que pertencem ao bloco | Manual (parte) | Observação |
-| ------------- | ---------------- | ---------------------------------------- | ------------------- | ------------- |
-| **kkkkbo** | kkkkba kkkk67 | `kkkkij`, `kkkkm7`, `kkkkcc`, … | [Partes 7, 8](../Manual%20OMNICHANNEL/parte_07_limites_oferta_mapeamento_ge/FLUXO_07_tecnico.md), [Parte 8](../Manual%20OMNICHANNEL/parte_08_produtos_aceite_termos/FLUXO_08_tecnico.md) | Oferta, kkkksp, kkkkia, kkkkmj, kkkkyh, kkkkl6, kkkkmk. |
-| **kkkkgs / kkkkhw / kkkksa** | Ramos e campos (não bloco à parte) | Campos e kkkkvo na kkkkss/kkkkmk. Incluídos no bloco kkkkbo. | — | Ver `kkkk28`. |
-| **kkkkey** | Ramo condicional | `kkkkjw` | [Parte 13](../Manual%20OMNICHANNEL/parte_13_beneficio_inss/FLUXO_13_tecnico.md) | Se kkkkhm ativo; ramo em kkkkbo. |
+**Engine kkkkhk**
 
-> **Decidido:** `kkkkcc` em kkkkgz (kkkkbo) — ver `kkkk26` e tabela de KK0005 do kkkkh5.  
-> **Subprocessos no kkkk51:** `kkkko2` (Vinculo kkkk64), `kkkkdh` (kkkktu) — já são subs no atual; podem virar um único bloco “kkkkbo” com esses fluxos dentro.
+- kkkkwy por: execução dos kkkkpa; kkkkvx de kkkkvo; kkkk53 da kkkkgq.
+- Não é kkkkwz por: reconstrução de estado de interface; controle de kkkkwf da UI.
 
 ---
 
-## 5. kkkkg0 — kkkk56 — Blocos nível 3
+## kkkkz9 kkkkfu (resumo)
 
-| Bloco (sub) | Tipo proposto | kkkk59 (kkkk5j) que pertencem ao bloco | Manual (parte) | Observação |
-| ------------- | ---------------- | ---------------------------------------- | ------------------- | ------------- |
-| **kkkkxf** | kkkkba kkkk67 | `kkkkie`, `kkkkbl`, `kkkkpc`, … | [Parte 9](../Manual%20OMNICHANNEL/parte_09_biometria_coleta_senha/FLUXO_09_tecnico.md) | QR/WhatsApp/SMS, kkkkgt de kkkksr, recusa/kkkkg3. |
-| **kkkkur** | kkkkba kkkk67 | `kkkkm9`, `kkkkih`, `kkkk17`, `kkkkc7`, … | [Parte 9](../Manual%20OMNICHANNEL/parte_09_biometria_coleta_senha/FLUXO_09_tecnico.md), [Parte 10](../Manual%20OMNICHANNEL/parte_10_validacao_pre_efetivacao_liberacao/FLUXO_10_tecnico.md) | kkkkna, resumo, kkkkxo; kkkkgb pós-kkkkxo. |
-| **kkkkus** | kkkkba kkkk67 | `kkkkbe`, `kkkkd6`, `kkkk10`, … | [Parte 15](../Manual%20OMNICHANNEL/parte_15_pac_envios_finalizacao/FLUXO_15_tecnico.md) | Geração de kkkkhu, kkkks7 kkkkh3, envio kkkkhu por e-mail. |
-| **kkkk7y** | kkkkem | kkkkxl para `kkkkov` | [Parte 11](../Manual%20OMNICHANNEL/parte_11_efetivacao_conta/FLUXO_11_tecnico.md) | Pós-kkkkgq; disparado após `kkkkc7` (ou após kkkkhu/envio). |
+- **kkkkvs kkkkmc (kkkkh0):** kkkkwz pela kkkk53 da kkkkgq e pela manutenção do estado autoritativo da kkkkgq (source of truth).
+- **kkkku5 kkkkg2 (kkkkgx–4):** etapas específicas; cada reentrada = nova kkkk5h; sem estado navegacional próprio.
+- **kkkkwh de vida:** kkkkh0 inicia kkkkem → kkkkhj recebe kkkkvo de entrada → executa lógica kkkkhk → kkkkdp kkkkvo de saída → encerra. Em reentrada, kkkkh0 inicia **nova kkkk5h** do kkkkhj; estado permanece no kkkkh0.
 
-> **Subprocessos no kkkk51 (kkkkja-driven):** Vários são `kkkkoy` (ex.: kkkk62 kkkk64 kkkk61, kkkk63, kkkkb4) — podem permanecer como eventos anexados ao kkkk55 de kkkk56 ou ao kkkkh0; não precisam ser “blocos” de nível 3 obrigatórios.
+**Visão de kkkksk:**
 
----
+```mermaid
+flowchart LR
+  FRONT["kkkkra-end"]
+  KK0027["kkkkqa / KK0027"]
+  ENGINE["kkkkhk Engine"]
 
-## 6. Subprocessos existentes no kkkk51 (referência)
+  kkkkh0["kkkkvs kkkkh0<br/>(Source of Truth)"]
+  FILHO["kkkkvs Filho<br/>(Execução Stateless)"]
 
-Para conferência — estes são **kkkk66 que já existem** no `kkkkk6`; na kkkkgv, cada um será realocado para o kkkkft correspondente ou tratado como kkkkx9 kkkk7r.
+  FRONT -->|"HTTP / UI events"| KK0027
+  KK0027 -->|"commands / correlation"| ENGINE
 
-| ID no kkkk51 | Nome | Linhas (ref.) | Destino proposto |
-| ---------------- | ------ | ---------------- | ------------------ |
-| `kkkko1` | — | 520–640 | **Destino: Pendente — inspeção necessária.** Conteúdo ainda não inspecionado; não assumir bloco sem validar no kkkkhk. |
-| `kkkko3` | — | 1095–1207 | Contém kkkk65 kkkkhy kkkkg5 — kkkk7r |
-| `kkkko4` | Envio de e-mail reset kkkk3l | 1474–1524 | kkkkyc — pode ficar no kkkkhk onde kkkk3l é resetada |
-| `kkkko9` | Tratamento erro desfazimento reserva | 2072–2081 | kkkkyc |
-| `kkkkpk` | kkkk5s kkkkh1 | 2206–2224 | kkkk7u / kkkk7r |
-| `kkkko8` | Finalização cancelamento kkkk3l | 2999–3004 | kkkkyc |
-| `kkkko5` | kkkk63 por abandono | 3029–3064 | kkkkyc |
-| `kkkko7` | kkkk62 kkkk64 kkkk61 | 3079–3110 | kkkkgz (kkkkwt) ou kkkkx9 |
-| `kkkkdg` | kkkkkk | 4143–4222 | kkkkvs kkkk7r kkkk0f, conforme `kkkk21` |
-| `kkkko2` | Vinculo kkkk64 | 5800–5814 | kkkkgz — kkkkbo |
-| `kkkkdh` | kkkktu | 6106–6174 | kkkkgz — kkkkbo |
+  ENGINE -.->|"executes"| kkkkh0
+  kkkkh0 -->|"kkkkem"| FILHO
+  FILHO -->|"output variables"| kkkkh0
 
----
+  ENGINE -->|"query state"| KK0027
+  KK0027 -->|"view model"| FRONT
 
-## 7. kkkk7t de conclusão nível 3
-
-- [ ] **kkkkgx:** Conferir se todos os elementos do MAPEAMENTO nível 2 (kkkkgx) estão atribuídos a um bloco (Segmentação, kkkkyn, kkkkhm, kkkkf1, Exceções, kkkkuz).
-- [ ] **kkkkgy:** Único bloco kkkkuq — confirmar lista de elementos e kkkk7v híbrido.
-- [ ] **kkkkgz:** Definir se “kkkkgs / kkkkhw / kkkksa” é sub à parte ou ramos dentro de kkkkbo; conferir se todos os elementos de kkkksp/kkkk7d (`kkkkcc`, `kkkkpj`) estão corretamente alocados em kkkkbo.
-- [ ] **kkkkg0:** Conferir subdivisão kkkkxf / kkkkur / kkkkus; definir em qual bloco fica a kkkkmr à kkkk7y e como ela conversa com o kkkk55 kkkk7r de kkkkff.
-- [ ] **Eventos (triggeredByEvent):** Listar quais permanecem em qual kkkkhk e quais viram eventos globais (kkkkh0 ou mensagem).
-- [ ] **kkkkav com kkkkau:** Rafa / Fabrício revisam o agrupamento antes de desenhar os .bpmn.
-
-### Nota kkkk5u (rodapé)
-
-Este mapeamento de nível 3 já incorpora as recomendações técnicas formalizadas em `kkkk26`, `kkkk24`, `kkkk21` e `kkkk29`, sempre tomando `kkkkk6` como referência de comportamento ao distribuir blocos entre os kkkkhf de nível 2.
+  %% Estilos padrão kkkky7
+  style FRONT fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  style KK0027 fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  style ENGINE fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  style kkkkh0 fill:#bbdefb,stroke:#0d4372,stroke-width:2px
+  style FILHO fill:#bbdefb,stroke:#0d4372,stroke-width:2px
+  linkStyle default stroke:#37474f,stroke-width:2px
+```
 
 ---
 
-## 8. Referências
+## Modelo de execução das kkkk65 kkkk5t
 
-| Documento | Uso |
-| ----------- | ----- |
-| `kkkk3b` | Fonte dos kkkk5j por kkkkhk |
-| `kkkk3a` | O que o kkkkh0 orquestra |
-| `kkkk1p` | kkkk5v dos 3 níveis e blocos propostos |
-| `kkkk39` | Metodologia e checklist nível 2 |
+As kkkk65 kkkk5t executadas pelo kkkke4 seguem o modelo de **execução isolada e descartável**:
+
+- cada execução cria **nova kkkk5h do kkkk55 kkkkhj**
+- o kkkk55 kkkkhj recebe **kkkkvo de entrada do kkkkh0**
+- executa sua lógica kkkkhk
+- kkkkdp **kkkkvo de saída**
+- encerra a kkkk5h
+
+kkkku5 kkkkg2 **não mantêm estado navegacional persistente** entre execuções.
+
+Qualquer reentrada em uma etapa da kkkkgq resulta em **nova execução da kkkkem**, com os dados reconstruídos a partir das kkkkvo mantidas pelo kkkke4.
+
+---
+
+## Correlação de instâncias
+
+A kkkku0 entre front-end, kkkku2 e engine kkkkhk utiliza uma **chave de correlação única da kkkkgq**, normalmente representada pela *business key* da kkkk5h do kkkke4.
+
+Essa chave permite:
+
+- correlacionar mensagens externas (ex.: kkkker)
+- identificar a kkkk5h correta da kkkkgq
+- rastrear execuções de kkkk0n
+
+kkkku5 kkkkg2 devem herdar a mesma chave de correlação para garantir kkkkf4 completa da execução.
+
+---
+
+## Idempotência
+
+kkkk65 kkkk5t devem ser tratadas como **operações idempotentes em relação às kkkkvo de entrada**: reiniciar um kkkk55 kkkkhj com o mesmo conjunto de kkkkvo não deve produzir efeitos colaterais indesejados. kkkku5 kkkkg2 que executam kkkkgc externas devem garantir kkkku1 (chaves de kkkku1, verificação prévia, ou delegação ao kkkkxv externo). Operações externas devem ser idempotentes ou protegidas por mecanismos de deduplicação.
+
+---
+
+## Observabilidade da execução
+
+- O kkkke4 deve registrar eventos de início e término de cada kkkkem.
+- O kkkku2 deve registrar mensagens de kkkker.
+- Logs devem permitir reconstrução da kkkkxc de execução da kkkkgq para kkkkgt de incidentes e kkkku3.
+
+---
+
+## Tolerância a falhas
+
+A kkkksk foi projetada para tolerar falhas em diferentes camadas:
+
+**Falhas da engine kkkkhk**
+
+Caso ocorra reinício da engine ou indisponibilidade temporária, o estado da kkkkgq permanece persistido nas kkkkvo do kkkke4, permitindo retomada segura da execução.
+
+**Falhas de kkkk55 kkkkhj**
+
+- O kkkkh0 mantém o estado da kkkkgq.
+- Um kkkk55 kkkkhj pode ser reiniciado sem perda de consistência.
+
+**Falhas de kkkku0 front → kkkku2**
+
+- O kkkku2 pode repetir operações com segurança se a kkkkmr for idempotente.
+
+**Falhas em kkkkgc externas**
+
+- kkkku5 kkkkg2 devem aplicar estratégias de kkkkaa, fallback ou kkkkqp conforme necessário.
+
+---
+
+## Histórico e kkkku3
+
+Instâncias anteriores de kkkk0n devem permanecer disponíveis no histórico da engine kkkkhk para kkkku3 (reconstruir kkkkxc real da kkkkgq, identificar reentradas). O histórico **não** deve ser utilizado como fonte de verdade do estado da kkkkgq — essa é o kkkkh0.
+
+---
+
+## Expiração de kkkkgq
+
+Instâncias do kkkke4 devem possuir política de expiração ou timeout **configurável**. Após período de inatividade, a kkkkgq pode ser encerrada ou marcada como expirada, evitando crescimento indefinido de instâncias na engine kkkkhk.
+
+---
+
+## Modelo de kkkkuh
+
+A kkkkuh pode ocorrer por:
+
+- kkkker
+- retomada por kkkk3w
+- reentrada em etapa anterior
+
+O kkkke4 é kkkkwz por:
+
+- determinar o kkkkvi da kkkkgq
+- iniciar nova kkkk5h do kkkk55 kkkkhj correspondente
+- fornecer as kkkkvo necessárias para reconstrução da interface.
+
+A retomada nunca depende do estado interno de kkkk0n.
+
+---
+
+## Princípios kkkkwm
+
+A kkkksk da kkkk53 kkkkho segue os seguintes princípios:
+
+- kkkku4 centralizada no kkkke4
+- kkkku5 kkkkg2 kkkkjy e descartáveis
+- Estado da kkkkgq mantido exclusivamente no kkkkh0
+- KK0023 explícitos entre kkkkpa
+- Reexecução segura das etapas da kkkkgq
+- Separação entre kkkkwf da UI e execução kkkkhk
+
+---
+
+## Invariantes kkkkwm
+
+As seguintes propriedades devem permanecer verdadeiras independentemente de evolução da kkkksk:
+
+1. O kkkke4 é a **fonte autoritativa do estado da kkkkgq**.
+2. kkkku5 kkkkg2 não devem persistir estado navegacional entre execuções.
+3. kkkku5 kkkkg2 devem ser **reiniciáveis sem perda de consistência**.
+4. A reconstrução da interface deve ser possível apenas com as kkkkvo armazenadas no kkkkh0.
+5. kkkk65 kkkk5t devem ser idempotentes em relação às kkkkvo de entrada.
+6. A kkkkwf da interface não deve alterar diretamente o kkkkvr kkkkhk.
+
+---
+
+## Garantias kkkkwm
+
+A kkkksk garante:
+
+- execução determinística dos kkkk0n
+- kkkkf4 completa da kkkkgq
+- reexecução segura de kkkk65 kkkk5t
+- kkkkvz entre kkkkwf da UI e execução kkkkhk
+
+---
+
+## Trade-offs kkkkwm
+
+A kkkksk privilegia simplicidade e previsibilidade na execução dos kkkkpa kkkkhk.
+
+**kkkkyu**
+
+- kkkk0n simples e reiniciáveis
+- separação clara entre kkkk53 e execução de etapas
+- alta kkkkf4 da kkkkgq
+- kkkkvz entre kkkkwf da UI e kkkkvr kkkkhk
+
+**Desvantagens**
+
+- múltiplas instâncias de kkkk0n podem ser geradas em reentradas
+- maior dependência da kkkkwb correta do kkkke4
+
+---
+
+## Evolução da kkkksk
+
+Novas etapas da kkkkgq devem ser implementadas preferencialmente como:
+
+- novos kkkk0n
+- novos blocos kkkkh6 dentro de kkkkpa existentes
+- novas kkkkgc encapsuladas em kkkkpq
+
+Alterações estruturais na kkkk53 devem ser registradas como kkkk7p.
+
+---
+
+## Artefatos de descoberta e kkkkx2
+
+| Artefato | Uso |
+| ---------- | ----- |
+| [kkkku6](kkkku6) | Quem é kkkkwz por cada parte do kkkk55 (kkkkxb) |
+| [kkkku7](kkkku7) | Quem orquestra, quem executa, kkkku0, retentativas |
+| [kkkk1v](kkkk1v) | Chamadas externas do kkkkhk (tarefa → serviço) |
+| [kkkku8](kkkku8) | kkkkya da kkkkgv (kkkkh0 e kkkkg2) |
+| [kkkku9](kkkku9) | kkkk5e de tarefas por kkkkhk |
+| [kkkkua](kkkkua) | Estados da kkkk3l (retomada, expiração) |
+| [kkkk1u](kkkk1u) | Sistemas que o kkkkhk chama (visão por kkkkxv) |
+| [kkkkuw](kkkkuw) | User journeys (kkkk3w, kkkkgu, retomada) |
+
+---
+
+## Referências
+
+- [kkkk7p — Preservação de estado ao reabrir kkkk0n](../kkkk7p/kkkk5z)
+- [kkkkva](kkkkva)
+- [kkkk1y](kkkk1y) — eventos kkkkgu, retomar, kkkk3w, kkkkvi
+- [kkkkvc](kkkkvc)
