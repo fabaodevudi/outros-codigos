@@ -1,176 +1,87 @@
-# KK0007: kkkkuz — mesma kkkk5h de kkkk55 ou nova?
+# Padrão de kkkk7p — kkkki5 kkkkho
 
-**ID da decisão:** JORNADA-DEC-001  
-**Status:** **Em kkkk5o** (decisão kkkk3l: mesma kkkk5h; aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))  
-**Tipo:** Retomada da kkkkgq (kkkk3w / mesma kkkk5h)  
-**Data:** 2026-03-05  
-**Decisor(es):** kkkk7k Pereira de Vasconcelos
+**Objetivo:** Padronizar os kkkkwu (Architecture Decision Records) do kkkkyy: kkkkyh em **português**, **status** únicos e **duas aprovações** obrigatórias antes de considerar uma decisão fechada.
 
+**Escopo:** Todos os arquivos `DECISAO_*.md` nesta pasta (fora de `out/`). **Não usar `out/` como referência.**
+
+---
+
+## 1. Status (somente estes, em português)
+
+| Status | Significado |
+|--------|-------------|
+| **Em kkkk5o** | Documento em elaboração ou em revisão; decisão ainda não aprovada. **Estado inicial de todo kkkk7p.** |
+| **Aguardando decisão** | kkkkz9 e opções descritos; aguardando kkkky8 ou kkkkth de kkkkag/kkkksk. |
+| **Decidido** | KK0007 tomada e **registradas as duas aprovações** (ver §3). Pode ser referenciada em outros documentos. |
+| **Substituído** | KK0007 foi substituída por outro kkkk7p ou por mudança de desenho; indicar qual kkkkta a substitui. |
+| **Obsoleto** | Não se aplica mais (ex.: escopo cancelado); manter apenas para histórico. |
+
+**Regra:** Usar **apenas** um dos valores acima. Evitar kkkkyh em inglês (ex.: Proposed, Accepted, Applied) — traduzir para o status correspondente em português.
+
+---
+
+## 2. Estado inicial dos kkkkwu existentes
+
+Todos os kkkkwu atuais devem ser tratados como **Em kkkk5o** até que:
+
+1. O status seja explicitamente atualizado no kkkkta, e  
+2. A seção **Aprovações** (§3) esteja preenchida com **duas pessoas** aprovadoras.
+
+Ou seja: mesmo que o texto descreva uma decisão já tomada, o **status oficial** do kkkkta é **Em kkkk5o** até o preenchimento das duas aprovações. Depois disso, o status pode ser alterado para **Decidido** (ou **Aguardando decisão**, se ainda faltar kkkkth de kkkkag).
+
+---
+
+## 3. Duas aprovações obrigatórias
+
+Para que um kkkk7p seja considerado **Decidido**, é obrigatório registrar **duas aprovações** no próprio kkkkta.
+
+### 3.1 Seção obrigatória no kkkk7p
+
+Incluir no kkkk7p (por exemplo após o bloco de kkkkz9/KK0007) a seção:
+
+```markdown
 ## Aprovações
 
 | #   | Aprovador     | Data   | Observação (opcional)   |
 |-----|---------------|--------|--------------------------|
-| 1   | *(preencher)* |        |                          |
-| 2   | *(preencher)* |        |                          |
-
----
-
-> **kkkkz9:** Pendência de classificação no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b). O kkkkvr **kkkkuz** ("kkkkui" — envio de link para o kkkk1x continuar a kkkkp3) precisa ser definido: **mesma kkkk5h** de kkkk55 associada à kkkk3l ou **nova kkkk5h** ao retomar pelo link?
->
-> **KK0007:** **Mesma kkkk5h** de kkkk55 associada à kkkk3l (recomendação kkkk5u adotada; decisão final com kkkki9 + kkkkag — ver seção 8). Referenciar como **JORNADA-DEC-001** em outros documentos.
-
----
-
-## KK0007
-
-O kkkkvr **kkkkuz** utilizará **a mesma kkkk5h de kkkk55 associada à kkkk3l**.
-
-Ao clicar no link recebido por e-mail/SMS, o kkkk1x retomará a **kkkk5h existente da kkkk3l**, identificada por `kkkkfi` e validada por `kkkkej`.
-
-**Não será criada uma nova kkkk5h de kkkk55.**
-
----
-
-## 1. O que é o kkkkuz (no desenho)
-
-- **Funcionalidade:** Na etapa de kkkkty (kkkkgx), o kkkk38 pode acionar “kkkkui”: envia link por e-mail/SMS para o kkkk1x prosseguir a kkkkp3 de onde estiver.
-- **Protótipo / nova kkkkgq:** Stepper próprio com 2 etapas — kkkkty ✅ → kkkkuz ✅. Não existe no kkkkhk kkkkg4 atual; é **feature nova**.
-- **Dúvida:** Quando o kkkk1x clica no link e retoma, o kkkkho usa a **mesma** kkkk5h do kkkk55 (mesma kkkk3l, mesmo `kkkkfi`) ou inicia uma **nova** kkkk5h (nova kkkk3l, novo kkkk55)?
-
-### 1.1 kkkkvq (visão simplificada)
-
-```mermaid
-flowchart TB
-  G[kkkkv7]
-  G -->|gerar kkkk3w| kkkkho[kkkkho]
-  kkkkho -->|kkkkvd| L[kkkkmf recebe link]
-  L --> U["https://co8/kkkk3w?kkkkvd=abc"]
-  U --> B[kkkkqa valida kkkkvd]
-  B --> R[Identifica User kkkk8l ativa e redireciona]
-  subgraph mesma["Mesma kkkk5h de kkkk55 (kkkk3l)"]
-    R
-    R -.->|kkkkco + kkkksi| P[kkkklg / kkkk5h existente]
-  end
-
-  %% Estilos padrão kkkky7
-  style G fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-  style kkkkho fill:#bbdefb,stroke:#0d4372,stroke-width:2px
-  style L fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-  style U fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-  style B fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-  style R fill:#bbdefb,stroke:#0d4372,stroke-width:2px
-  style P fill:#bbdefb,stroke:#0d4372,stroke-width:2px
-  linkStyle default stroke:#37474f,stroke-width:2px
+| 1   | *(nome ou papel)* | *(data)* | |
+| 2   | *(nome ou papel)* | *(data)* | |
 ```
 
----
+- **Aprovador:** nome da pessoa ou papel (ex.: Arquiteto kkkkho, Tech Lead).
+- **Data:** data em que aprovou (formato livre, ex.: 2026-03-14).
+- Com **menos de duas linhas** preenchidas, o status do kkkk7p deve permanecer **Em kkkk5o** ou **Aguardando decisão**.
 
-## 2. Modelo KK0018 de retomada
+### 3.2 Sugestões de kkkkvr
 
-O link de kkkk3w utilizará um **kkkkj0 kkkkvd** associado à kkkk3l.
-
-**kkkkvq KK0018:**
-
-1. kkkkv7 aciona "kkkkui".
-2. kkkkho gera `kkkkej` associado à `kkkkfi`.
-3. kkkkxw é enviado ao kkkk1x por e-mail ou SMS.
-4. kkkkmf acessa o link: `https://co8.brb.com/kkkk3w?kkkkvd=abc123`
-5. kkkkqa valida: kkkkvd válido, kkkk3l ativa, prazo não expirado (ver seção 9).
-6. O kkkku2 recupera o `kkkkco` associado à kkkk3l e **identifica a User kkkk8l ativa da kkkk5h** no engine. O kkkk1x é então **redirecionado para a etapa correspondente** na interface da kkkkgq.
-
-**Observação (kkkkgm / kkkkaj):** O engine não "retoma" uma kkkk5h parada; ele mantém a kkkk5h com uma ou mais kkkkpp ativas. O kkkku2 kkkkml qual é a **User kkkk8l ativa** da kkkk5h (ex.: via KK0027 do engine) e redireciona o kkkk1x para a tela dessa etapa. O kkkkvi deve usar `kkkksi` (ID da kkkk9q no kkkkhk) para alinhar UI e engine e evitar divergência entre stepper e kkkk55 real.
-
-**Padrão de kkkkuh:** O mecanismo descrito (kkkkj0 kkkkvd + `kkkkco` + `kkkksi`) é o **padrão de kkkkuh kkkksg**. O mesmo kkkkvr serve para kkkk3w, timeout, relogin e kkkkdy do kkkk1x: identificar a kkkk5h, a User kkkk8l ativa e redirecionar para a etapa correspondente. Eventos como kkkkgu, retomar, kkkk3w e kkkkvi estão consolidados em [kkkk1y](../kkkksk/kkkk1y).
+1. Autor redige o kkkk7p e deixa status **Em kkkk5o**.
+2. Primeira revisão: uma pessoa preenche a linha 1 da tabela de Aprovações → status pode ir para **Aguardando decisão** se faltar kkkkth externa, ou seguir para segunda aprovação.
+3. Segunda aprovação: outra pessoa preenche a linha 2 → status pode ser atualizado para **Decidido** (se a decisão estiver fechada).
+4. Para KK0003 que dependem de kkkkag: manter **Aguardando decisão** até a kkkkth; depois, as duas aprovações (ex.: kkkksk + kkkkag) e status **Decidido**.
 
 ---
 
-## 3. Implicações técnicas
+## 4. Estrutura sugerida do kkkk7p (template)
 
-A decisão implica:
-
-- Persistência de `kkkkej` associado à kkkk3l.
-- Definição de **prazo de expiração** do kkkk3w (e kkkkth de expiração da kkkk3l — seção 9).
-- **Endpoint de retomada** da kkkkgq por kkkkvd (kkkkml User kkkk8l ativa e redireciona).
-- kkkkyl por **kkkksi** (User kkkk8l atual no kkkkhk), evitando divergência entre stepper UI e kkkk55 real.
-
-Exemplo de estrutura (kkkkvi / retomada):
-
-| Campo | Descrição |
-| ------- | ------------ |
-| `kkkkfi` | Identificador da kkkk3l |
-| `kkkkco` | ID da kkkk5h no engine |
-| `kkkksi` | User kkkk8l atual da kkkkgq (ID no kkkkhk) |
-| `kkkkej` | kkkkxw de retomada |
-| `kkkkvb` | Expiração do link |
+1. **Título** — frase clara da decisão (em português).
+2. **Status** — um dos valores do §1 (ex.: `**Status:** Em kkkk5o`).
+3. **kkkkz9** — por que a decisão é necessária; referência a MAPEAMENTO_*, kkkkhk ou relatório.
+4. **KK0007** — o que foi decidido (ou kkkk3l, se ainda Em kkkk5o / Aguardando decisão).
+5. **Opções consideradas** — tabela ou lista (opcional mas recomendado).
+6. **Consequências** — impacto no N1/kkkkh5/kkkkh6, KK0022, outros kkkkwu.
+7. **Aprovações** — tabela com duas linhas preenchidas quando for o caso (§3).
+8. **Referências** — links para MAPEAMENTO_*, kkkkhk, outros DECISAO_*.md.
 
 ---
 
-## 4. Motivos para mesma kkkk5h de kkkk55
+## 5. Resumo das kkkkx5
 
-- **Continuidade da kkkk3l:** Uma única kkkk3l, um único `kkkkfi`; o kkkk38 e o kkkk1x referem-se ao mesmo kkkkag. Relatórios e rastreio ficam simples (uma kkkk3l do início ao fim).
-- **kkkkwx já preenchidos:** O que já foi coletado na kkkk1o (kkkkxr, kkkk1o, dados iniciais) permanece na mesma kkkk5h; o kkkk1x retoma de onde parou sem kkkkx4 dados.
-- **kkkkxe de kkkkag:** Prazos de decurso, kkkkyo, “uma kkkk3l por kkkkv6” etc. continuam válidos para a mesma kkkk5h.
-
----
-
-## 5. Motivos para nova kkkk5h de kkkk55
-
-- **Isolamento de contexto:** “Presencial” vs “remoto por kkkk3w” podem ser tratados como jornadas distintas (ex.: fluxos diferentes, kkkkwd diferentes no kkkkdy).
-- **Simplicidade de implementação:** Nova kkkk5h = novo kkkk55; não é preciso “congelar” e “descongelar” a kkkk5h nem tratar retomada com kkkkvd em outro lugar.
-- **Segurança / kkkku3:** Em alguns desenhos, o link do kkkk3w gera um novo kkkk55 com vínculo explícito à kkkk3l original (referência), mas a execução é nova.
+- **kkkkyg em português:** status e rótulos somente em PT.
+- **Status padronizados:** Em kkkk5o | Aguardando decisão | Decidido | Substituído | Obsoleto.
+- **Estado inicial:** todo kkkk7p começa ou é reclassificado como **Em kkkk5o** até ter duas aprovações.
+- **Duas aprovações:** obrigatório para status **Decidido**; usar a seção **Aprovações** com tabela de duas linhas.
+- **Fonte da verdade do kkkkvr:** `kkkkk6` (raiz do repositório).
 
 ---
 
-## 6. Onde está no kkkkhk / desenho
-
-- **Monolito atual:** Não há tarefa nem kkkkfl com nome “kkkk3w” no `kkkkk6`. A funcionalidade é **nova** no desenho da nova kkkkgq.
-- **Documentação:** Em [DIVISAO_BPMN_V2_NOVA_JORNADA.md](../Relatórios%20da%20atividade/DIVISAO_BPMN_V2_NOVA_JORNADA.md) e [kkkk1p](../Apresentações/kkkk1p) consta a dúvida “mesma kkkk5h kkkkho ou nova?” e “kkkki9 + kkkkag” como kkkkwz pela decisão.
-- **Transcrição nova kkkkgq:** *“Ele pode também seguir com o kkkk3w, que é a opção dele enviar o link ali para o kkkk1x, e aí clicando aqui ele volta para a tela inicial.”* — Confirma o kkkkvr de envio de link e kkkkdy à kkkkgq; não define kkkk5h.
-
----
-
-## 7. Refatoração e impacto
-
-| Opção | Impacto na kkkkx2 |
-| ------- | ------------------------- |
-| **Mesma kkkk5h** | O kkkkh0 (ou o kkkkgx) precisa de um mecanismo de “pause/kkkkj0” ou de **retomada por link**: ao clicar no kkkk3w, o kkkk1x reabre a **mesma** kkkk5h (mesmo kkkkc0 ou mesma kkkk3l). Exige definição de kkkkvi, kkkkvx de estado e rota de “retomar por kkkkvd/link”. |
-| **Nova kkkk5h** | O link do kkkk3w inicia um **novo** kkkk55 (nova kkkk3l) com referência à kkkk3l original (ex.: `kkkk1a`). Não exige pause/kkkkj0 no kkkkh0; exige regra de kkkkag para vincular kkkk3l presencial → kkkk3l kkkk3w (e eventualmente consolidar ou substituir). |
-
----
-
-## 8. Recomendação kkkk5u
-
-**Recomendação: adotar mesma kkkk5h de kkkk55 associada à kkkk3l**, salvo decisão explícita de kkkkag em contrário.
-
-1. **Experiência:** Uma kkkk3l, um rastreio; o kkkk38 e o kkkk1x falam da mesma kkkkp3.
-2. **kkkkwx:** Evita kkkkx4 ou reconciliar dados entre duas propostas (presencial + kkkk3w).
-3. **KK0035:** O “custo” é desenhar retomada por link (kkkkvd na URL → reabrir kkkk5h no kkkkvi correto); é um padrão conhecido (magic link / kkkkj0 kkkkvd).
-
-**Quem decide em definitivo:** **kkkki9 + kkkkag** (conforme tabela de KK0005). Este kkkkta serve de base kkkk5u; a decisão final e a kkkku0 ao kkkkau ficam com kkkky6/kkkkag.
-
----
-
-## 9. Expiração do kkkk3w
-
-A retomada via kkkk3w deve respeitar **duas validades**:
-
-| Validade | Descrição |
-| ---------- | ----------- |
-| **kkkkxw** | `kkkkvb`: o link de retomada expira após o prazo configurado. |
-| **kkkklg** | A kkkk3l pode estar **encerrada** (concluída, cancelada) ou **expirada** (ex.: kkkkyo por decurso de prazo). |
-
-**Regra:** Se a kkkk3l estiver encerrada ou expirada, a retomada deve ser **negada**, mesmo que o kkkkvd ainda seja válido.
-
-Exemplo: o kkkk38 gera o kkkk3w; o kkkk1x abre o link 5 dias depois; nesse intervalo a kkkk3l já foi expurgada. O kkkku2 deve responder que a retomada não é possível (kkkk3l inexistente ou expirada) e orientar o usuário adequadamente, sem tentar reabrir a kkkk5h.
-
----
-
-## 10. Referências
-
-| Documento | Uso |
-| ----------- | ----- |
-| [kkkk1y](../kkkksk/kkkk1y) | kkkkvm consolidado: kkkkgu, retomar, kkkk3w, kkkkvi |
-| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Pendências de classificação — kkkkuz |
-| [DIVISAO_BPMN_V2_NOVA_JORNADA.md](../Relatórios%20da%20atividade/DIVISAO_BPMN_V2_NOVA_JORNADA.md) | kkkky9 kkkkuz, stepper 2 etapas, dúvida kkkk5h |
-| [kkkk1p](../Apresentações/kkkk1p) | kkkkuz como kkkkem; decisão kkkk5h |
-| [nova_jornada_audio.txt](../transcricoes/transcricao_nova_jornada/nova_jornada_audio.txt) | Menção ao kkkk3w e envio de link |
+*Documento de padronização — kkkkyy kkkkho. Atualizar este arquivo quando houver mudança de regra (ex.: novo status, critério de aprovação).*
