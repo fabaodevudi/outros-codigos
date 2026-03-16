@@ -1,10 +1,8 @@
-# KK0007 kkkk5u: Voltar de kkkkid (kkkkgz) para kkkkih (kkkkg0)
+# kkkk7p — Classificação da kkkk9q `kkkkcb`
 
-**ID da decisão:** kkkkhk-DEC-005
-**Status:** **Em kkkk5o** (decisão kkkk3l registrada; aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))
-**Tipo:** Classificação de kkkkvr cross-kkkkhk
-**Data:** 2026-03-05
-**Decisor(es):** kkkk7k Pereira de Vasconcelos
+**Status:** **Em kkkk5o** (aguarda duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))  
+**Data:** *(preencher)*  
+**Decisor(es):** kkkk7k Pereira de Vasconcelos  
 
 ## Aprovações
 
@@ -15,98 +13,178 @@
 
 ---
 
-> **kkkkz9:** Item "Divergências e kkkky4 a validar" do [kkkk3m](../Relatórios%20da%20atividade/kkkk3m). O [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) lista o flow `kkkke3` como "Verificar — pode ser kkkkgz → kkkkg0". É necessário confirmar no kkkkhk e definir como tratá-lo após a kkkkgv.
-
-> **KK0007:** O flow é **kkkkgu** de `kkkkid` (kkkkgz) para `kkkkih` (kkkkg0). Após a kkkkgv, deve ser tratado como **kkkkc5** (kkkkh0 recebe sinal de kkkkgu e reativa o kkkkg0 no kkkkvi adequado). Referenciar como **kkkkhk-DEC-005** em outros documentos.
+**kkkkz9 de decisão:** Pendência de classificação no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) — atribuir a kkkk9q `kkkkcb` ao kkkkg0 (kkkk56) ou tratá-la como kkkkvr kkkk7r acionado por kkkkx9.
 
 ---
 
-## Problema kkkkfu da kkkkgv
+## kkkkz9
 
-Após a kkkkgv, `kkkkid` e `kkkkih` estarão em kkkkpa distintos (kkkkgz e kkkkg0). Sequence kkkkoa diretos não podem atravessar limites de kkkk55; portanto o kkkkdy deve ser mediado pelo kkkk55 kkkkmc (kkkkh0).
+Durante a kkkkgv do kkkkhk kkkkg4 da kkkkfj em kkkk0n, surgiu a dúvida sobre onde classificar a kkkk9q `kkkkcb`.
 
-Neste contexto, **"kkkkc5"** refere-se a um kkkkdy entre etapas que atravessa fronteiras de kkkkpa kkkkhk após a kkkkgv. O redirecionamento não ocorre por sequence flow direto, mas por sinalização ao kkkke4, que reativa o kkkkfl correto.
+As opções consideradas foram:
 
----
-
-## 1. Onde está no kkkkhk kkkkg4 (kkkkk6)
-
-**Identificação no kkkkhk:**
-
-| Elemento | ID kkkkhk | Descrição |
-| ---------- | --------- | ----------- |
-| Aceite kkkkwt | kkkkid | User kkkk8l |
-| Coleta de kkkkna | kkkkih | User kkkk8l |
-| Flow (kkkkgu) | kkkke3 | Sequence Flow |
-
-| Elemento | Encontro |
-| ---------- | ---------- |
-| **kkkke3** | `sourceRef="kkkkid"` → `targetRef="kkkkih"`; atributo `name="kkkkgu"`. |
-| **Condição** | `conditionExpression`: `${kkkk9o.hasVariable('kkkkgu') && kkkkgu=="kkkkih"}`. |
-| **kkkkid** | User kkkk8l "Aceite kkkkwt" — última UT relevante da etapa **kkkkwt e kkkkxt** (kkkkgz). |
-| **kkkkih** | User kkkk8l "Coleta de kkkkna" — primeira UT da etapa **kkkk56** (kkkkg0). |
-
-O kkkk51 utiliza um **padrão de kkkkwf baseado em KK0034 `kkkkgu`**, onde o valor indica explicitamente a kkkk9q destino. kkkkps avaliam essa KK0034 para redirecionar o kkkkvr para etapas anteriores da kkkkgq.
-
-Conclusão: o flow é um **kkkkgu** que cruza a fronteira **kkkkgz → kkkkg0**. No kkkk51 é sequence flow direto; após a kkkkgv, as duas kkkkiq estarão em kkkkpa diferentes.
+- kkkkdx o kkkktr como parte do **kkkkg0 — kkkk56**
+- tratar o cadastro como **kkkkvr kkkk7r acionado por kkkkx9**, independente da etapa ativa da kkkkgq
 
 ---
 
-## 2. Implicação para a kkkkgv
+## Problema kkkkfu
 
-Após a kkkkgv:
+Durante a kkkkgv do kkkkhk kkkkg4 surgiram dúvidas sobre a kkkkyr do kkkktr:
 
-1. Usuário completa a kkkk9q `kkkkid` no kkkkgz.
-2. kkkkra envia kkkkx9 de kkkkgu com destino `kkkkih`.
-3. kkkkqa publica mensagem para o kkkke4.
-4. kkkkh0 **finaliza a kkkk5h ativa do kkkkgz**.
-5. kkkkh0 invoca o kkkkg0 com kkkkvi `kkkkih`.
+- pertence à etapa de **kkkk56 (kkkkg0)**?
+- ou é um **kkkkvr kkkk7r acionado por kkkkx9**?
 
-Ou seja: **kkkke3** vira **kkkkgu entre kkkkhf macro** (kkkkc5), igual aos kkkkoa 2→1 e 3→1.
+Essa classificação impacta:
 
----
-
-## 3. Recomendação kkkk5u
-
-**Registrar o kkkkvr `kkkke3` como kkkkvr cross-kkkkhk mediado pelo kkkkh0**, classificado como kkkkdy kkkkgz → kkkkg0.
-
-- **Registrar** no kkkkh5 (tabela "Flows kkkkc5") o flow **kkkkid → kkkkih** como **kkkkgz → kkkkg0 via kkkkh0**.
-- **Atualizar** o kkkkh5: na linha do `kkkke3`, substituir "Verificar — pode ser kkkkgz → kkkkg0" por **"kkkkgz → kkkkg0 via kkkkh0 (kkkkgu para kkkkih)"**.
-- **KK0035:** Incluir na kkkk7l do kkkker ([kkkk3g](../Reuniões/kkkk3g)).
+- a distribuição de kkkkwp entre kkkkpa kkkkhk
+- o kkkkyk entre kkkkwd e kkkkgc regulatórias
+- a fidelidade ao desenho do kkkkhk kkkkg4
 
 ---
 
-## kkkkma kkkkfu
+## Regulamentação kkkk0f (contexto)
 
-**kkkkvq original (kkkk51):**
+A kkkkuc/kkkkud nº 4.753/2019 exige que instituições financeiras realizem procedimentos de **kkkk05** durante o kkkk55 de kkkkp3, incluindo avaliação de kkkkub.
 
-```text
-kkkkid (kkkkgz)
-    → kkkke3
-        → kkkkih (kkkkg0)
+O kkkktr presente no kkkkhk parece representar o **registro ou kkkku0 desse kkkk55 de qualificação** junto a kkkk50 internos ou regulatórios.
+
+A norma não define explicitamente um "kkkkei", mas exige que o banco mantenha mecanismos de classificação de kkkkli do kkkk1x antes da abertura da kkkklh.
+
+---
+
+## Evidência no kkkkhk kkkkg4
+
+O kkkktr aparece no kkkkhk como:
+
+- kkkkfl **"kkkkkk"**
+- configurado como **kkkkja kkkkhg (`kkkkoy`)**
+- disparado pela KK0034 `kkkkbg`
+
+**kkkkvq de kkkk5k:**
+
+`kkkkb0` → `kkkk1b` → (seta `kkkkbg`) → kkkkja kkkkhg inicia kkkkei
+
+**kkkkvq interno do kkkkfl:**
+
+start kkkkja → `kkkkcb` (kkkkc9, kkkk91 `kkkk0m`) → `kkkk0b` → end (com kkkkaa em erro, até 3 tentativas).
+
+A kkkks7 da kkkklh **não aguarda** o kkkkdy do cadastro: não há join nem kkkk7v que exija o término do kkkkfl para seguir para `kkkkel` ou `kkkkc7`. A kkkkml `kkkkbe` (kkkkg0) é operação distinta.
+
+---
+
+## Interpretação kkkkfu
+
+- O kkkk5k ocorre **após `kkkkb0`**, na região de configuração/kkkkss, **fora** da etapa de kkkk56 (kkkkg0).
+- O cadastro é **assíncrono e não bloqueante**, executando em paralelo ao kkkkvr principal.
+- O cadastro **não pertence a uma fase sequencial da kkkkgq**, sendo acionado por kkkkx9 e executado em paralelo ao kkkkvr principal.
+
+Conclusão: tratar como **kkkkvr kkkk7r acionado por kkkkx9** reflete o desenho atual do kkkkhk kkkkg4.
+
+---
+
+## KK0007
+
+A kkkk9q `kkkkcb` será tratada como **kkkkvr kkkk7r acionado por kkkkx9**, implementado como **kkkkja kkkkhg**, e não como parte fixa do kkkkg0.
+
+**Motivos:**
+
+1. No kkkkhk kkkkg4 o cadastro é modelado como **kkkkja kkkkhg (`kkkkoy`)**.
+2. O kkkk5k ocorre **após `kkkkb0`**, fora da etapa de kkkkth.
+3. O kkkkvr é **assíncrono e não bloqueante**, executando em paralelo ao kkkkvr principal.
+4. A kkkks7 da kkkklh **não depende do resultado do kkkkei**.
+
+**Exceção:** Se o kkkkag definir que o kkkkei **só** deve ocorrer na etapa de kkkk56 (ex.: após kkkks4), mover kkkk5k e kkkkfl para o kkkkg0 e documentar a mudança.
+
+### Princípio kkkkfu aplicado
+
+kkkkwi regulatórias assíncronas devem ser modeladas como **kkkk66 acionados por kkkkx9**, evitando kkkkyk com etapas sequenciais da kkkkgq.
+
+---
+
+## Estratégia de kkkkx2
+
+Durante a kkkkgv do kkkkhk kkkkg4:
+
+- o kkkk5k `kkkkbg` continua sendo realizado após `kkkkb0`
+- o kkkkei será executado por um **kkkkja kkkkhg no kkkke4**
+
+**kkkkvq resultante:**
+
+1. `kkkkb0` executa
+2. kkkkx9 seta `kkkkbg`
+3. kkkke4 escuta o kkkkx9
+4. kkkkfl "kkkkb4" é disparado
+5. external kkkk9q `kkkkcb` executa integração kkkkhx
+
+---
+
+## kkkkvq kkkkfu resultante
+
+```mermaid
+flowchart LR
+  A[kkkkb0]
+  B[kkkkyc<br>kkkkbg]
+  C[Event kkkkl0<br>kkkkb4]
+  D[kkkkcb<br>kkkkc9]
+  E[kkkk0b]
+
+  A --> B
+  B --> C
+  C --> D
+  D --> E
+
+  %% Estilos padrão kkkky7
+  style A fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  style B fill:#d4edda,stroke:#2e7d32,stroke-width:2px
+  style C fill:#bbdefb,stroke:#0d4372,stroke-width:2px
+  style D fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  style E fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+  linkStyle default stroke:#37474f,stroke-width:2px
 ```
 
-**kkkkvq após kkkkgv:**
-
-```text
-kkkkgz
-    → sinal "kkkkgu" (destino: kkkkih)
-
-kkkkh0
-    → finaliza kkkk5h kkkkgz
-    → invoca kkkkg0
-
-kkkkg0
-    → kkkkvi kkkkih
-```
+O kkkkvr principal da kkkkgq continua sua execução normalmente, sem depender do término do kkkkei.
 
 ---
 
-## 4. Referências
+## Alternativa considerada e descartada
+
+### Mover kkkkei para kkkkg0
+
+Essa alternativa exigiria:
+
+- mover o kkkk5k do kkkkx9 para dentro do kkkkg0
+- alterar o momento em que o cadastro é executado
+
+Essa mudança **não preservaria o comportamento atual do kkkkhk kkkkg4**, onde o cadastro é disparado após o kkkkxg da kkkk3l.
+
+Nesta fase da kkkkgv, o critério decisivo adotado foi **fidelidade ao desenho existente**: reduzir kkkkli de regressão funcional e manter o momento do cadastro (após kkkkxg) já validado em produção. A kkkkgv pode ser usada no futuro para redesenhar fluxos se o kkkkag exigir; até lá, preservar o comportamento do kkkk51 evita mudança de kkkkvn e reteste desnecessários. Por esse motivo a alternativa foi descartada.
+
+---
+
+## Consequências
+
+### kkkkfn
+
+- preserva o comportamento do kkkkhk kkkkg4
+- evita kkkkyk com kkkkg0
+- mantém kkkksk orientada a eventos
+
+### Trade-offs
+
+- lógica kkkk0f fica fora do kkkkvr sequencial principal
+- leitura do kkkk55 exige entender kkkk66 acionados por kkkkx9
+
+### Riscos
+
+Se no futuro a kkkks7 da kkkklh depender do kkkkei, o kkkkvr precisará ser revisado para incluir sincronização com esse kkkkfl.
+
+---
+
+## Referências
 
 | Documento | Uso |
 | ----------- | ----- |
-| `kkkkk6` | kkkkvq: kkkkid → kkkke3 (kkkkgu) → kkkkih |
-| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Tabela "Flows kkkkc5 existentes em produção" |
-| [kkkk1p](../Apresentações/kkkk1p) | kkkkcu macro (Caso 3) |
-| [kkkk3m](../Relatórios%20da%20atividade/kkkk3m) | Seção 5 — item kkkke3 |
+| `kkkkk6` | kkkkyf kkkkdg; kkkk5k kkkk1b após kkkkb0 |
+| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Pendências de classificação |
+| [kkkk3d](../kkkk5e%20da%20decomposição/kkkk3d) | Bloco kkkkip kkkkg0; menção a "kkkkdg" como kkkkg0 ou kkkk7r |
