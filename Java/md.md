@@ -58,5 +58,5 @@ flowchart LR
 
 ## 5. Pontos de atenção
 
-- O **identificador da kkkkgq** (ex.: PHYGITAL, PHYGITAL-Laranjinha) **não** é definido nesta parte; é calculado mais à frente no kkkkvr, a partir do canal (subfluxo).
+- O **identificador da kkkkgq** (ex.: XXX, XXX-XXX) **não** é definido nesta parte; é calculado mais à frente no kkkkvr, a partir do canal (subfluxo).
 - Para detalhes técnicos (kkkk5j dos elementos, kkkkvo exatas, referências no kkkkhk), use o **FLUXO_01_tecnico.md**.
