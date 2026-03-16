@@ -1,10 +1,10 @@
-# KK0007 kkkk5u: kkkkbp (kkkkhz) — kkkkgy ou kkkkgz?
+# Decisão técnica: envia_consentimento_scr (MD7) — BPMN 2 ou BPMN 3?
 
-**ID da decisão:** kkkkhk-DEC-004
-**Status:** **Em kkkk5o** (aguarda kkkkth de kkkkag e duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))
-**Tipo:** Classificação de kkkkyr kkkkhk
+**ID da decisão:** BPMN-DEC-004
+**Status:** **Em Análise** (aguarda validação de negócio e duas aprovações — ver [PADRAO_ADR_VISIONING.md](PADRAO_ADR_VISIONING.md))
+**Tipo:** Classificação de responsabilidade BPMN
 **Data:** 2026-03-05
-**Decisor(es):** kkkk7k Pereira de Vasconcelos
+**Decisor(es):** Fábio Pereira de Vasconcelos
 
 ## Aprovações
 
@@ -15,95 +15,95 @@
 
 ---
 
-> **kkkkz9:** Pendência de classificação no [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b). A kkkk9q `kkkkbp` (Sigla kkkkhz — kkkkut ao kkkkh2) precisa ser atribuída ao kkkkgy (kkkkwx pessoais) ou ao começo do kkkkgz (kkkkwt e kkkkxt).
+> **Contexto:** Pendência de classificação no [MAPEAMENTO_ELEMENTOS_NIVEL2.md](../Inventário%20da%20decomposição/MAPEAMENTO_ELEMENTOS_NIVEL2.md). A task `envia_consentimento_scr` (Sigla MD7 — Informa Abertura de Conta ao SCR) precisa ser atribuída ao BPMN 2 (Dados pessoais) ou ao começo do BPMN 3 (Produtos e serviços).
 
-> **Nota:** Incompleto até kkkkth de kkkkag; referenciar como **kkkkhk-DEC-004** em outros documentos.
-
----
-
-## kkkkz9 kkkksz (kkkkh2)
-
-O **kkkkh2 (kkkkv3 do kkkkte)** registra operações de kkkks8 e autorizações relacionadas ao kkkk1x. A kkkku0 ao kkkkh2 pode exigir kkkkmm do kkkk1x, dependendo da natureza da operação. A kkkk9q `kkkkbp` no kkkkho representa a notificação/kkkkmm ligado à kkkkp3 nesse contexto kkkksz.
+> **Nota:** Incompleto até validação de negócio; referenciar como **BPMN-DEC-004** em outros documentos.
 
 ---
 
-## 1. Motivos para ficar no kkkkgy (kkkkwx pessoais)
+## Contexto regulatório (SCR)
 
-- A informação ao kkkkh2 é sobre **kkkkp3** e pode ser considerada “dado cadastral” ou notificação assim que os kkkksx estão consolidados (kkkkhq atualizado).
-- No kkkk51 a kkkk9q está **logo após** `kkkkcx` — ou seja, no fim do bloco de “atualizar pessoa/dados no kkkkhq”, que pertence ao domínio de kkkkwx pessoais.
-- Manter no kkkkgy evita depender do kkkkgz para uma ação que não é de kkkkss/kkkkmk, e deixa “dados atualizados + kkkkh2 informado” como saída clara do kkkkgy.
+O **SCR (Sistema de Informações de Crédito do Banco Central)** registra operações de crédito e autorizações relacionadas ao cliente. A comunicação ao SCR pode exigir consentimento do cliente, dependendo da natureza da operação. A task `envia_consentimento_scr` no CO8 representa a notificação/consentimento ligado à abertura de conta nesse contexto regulatório.
 
 ---
 
-## 2. Motivos para ficar no kkkkgz (kkkkwt / começo)
+## 1. Motivos para ficar no BPMN 2 (Dados pessoais)
 
-- Na transcrição da nova kkkkgq: *“Até a questão do kkkkh2, porque no kkkkh2, na tela de kkkkmk, hoje, traz também. Então, eu entendo que ficaria tudo aí nessa tela, Mari.”* — Ou seja, o **conteúdo** ligado ao kkkkh2 aparece na **tela de kkkkmk** (etapa kkkkst).
-- **Ressalva:** A presença de informações do kkkkh2 na tela de kkkkmk **não implica necessariamente** que a integração kkkk5u com o kkkkh2 ocorra nesse momento. Pode tratar-se apenas de exibição de kkkkmm ou informação kkkkv5 ao kkkk1x. Se a regra de kkkkag for "informar kkkkh2 no momento do kkkkmk", faria sentido a **kkkkmr** estar no kkkkgz; caso contrário, a posição atual (kkkkgy) permanece coerente.
-- Se o kkkkh2 for informado só quando há “intenção de kkkkss/kkkkmk”, o momento correto seria ao entrar em kkkkwt (ou no kkkkmk), não ao sair de kkkkwx.
+- A informação ao SCR é sobre **abertura de conta** e pode ser considerada “dado cadastral” ou notificação assim que os dados do cliente estão consolidados (EQ3 atualizado).
+- No monolito a task está **logo após** `atualiza_dados_eq3` — ou seja, no fim do bloco de “atualizar pessoa/dados no EQ3”, que pertence ao domínio de Dados pessoais.
+- Manter no BPMN 2 evita depender do BPMN 3 para uma ação que não é de oferta/aceite, e deixa “dados atualizados + SCR informado” como saída clara do BPMN 2.
 
 ---
 
-## 3. Onde está no kkkkhk kkkkg4 (`kkkkk6`)
+## 2. Motivos para ficar no BPMN 3 (Produtos / começo)
 
-| kkkk8l | Onde está no kkkkvr |
+- Na transcrição da nova jornada: *“Até a questão do SCR, porque no SCR, na tela de aceite, hoje, traz também. Então, eu entendo que ficaria tudo aí nessa tela, Mari.”* — Ou seja, o **conteúdo** ligado ao SCR aparece na **tela de aceite** (etapa produtos).
+- **Ressalva:** A presença de informações do SCR na tela de aceite **não implica necessariamente** que a integração técnica com o SCR ocorra nesse momento. Pode tratar-se apenas de exibição de consentimento ou informação regulatória ao cliente. Se a regra de negócio for "informar SCR no momento do aceite", faria sentido a **chamada** estar no BPMN 3; caso contrário, a posição atual (BPMN 2) permanece coerente.
+- Se o SCR for informado só quando há “intenção de oferta/aceite”, o momento correto seria ao entrar em Produtos (ou no aceite), não ao sair de Dados.
+
+---
+
+## 3. Onde está no BPMN monolítico (`omnichannel_completo.bpmn`)
+
+| Task | Onde está no fluxo |
 | ------ | -------------------- |
-| **kkkkbp** | kkkkvq **sequencial**: `kkkkcx` → **kkkkbp** → `Gateway_1pjnllx`. Ou seja, **dentro do bloco de kkkkl9**, logo após atualizar dados no kkkkhq; **antes** de qualquer User kkkk8l de kkkkst (`kkkkii`). |
+| **envia_consentimento_scr** | Fluxo **sequencial**: `atualiza_dados_eq3` → **envia_consentimento_scr** → `Gateway_1pjnllx`. Ou seja, **dentro do bloco de dados pessoais**, logo após atualizar dados no EQ3; **antes** de qualquer User Task de produtos (`dados_oferta`). |
 
-**Identificação no kkkkhk:**
+**Identificação no BPMN:**
 
-| Elemento | ID kkkkhk / localização |
+| Elemento | ID BPMN / localização |
 | ---------- | ------------------------ |
-| kkkkbp | ID KK0018 da kkkk8n em `kkkkk6` (ex.: ServiceTask_xxxxx); kkkkvr entre `kkkkcx` e `Gateway_1pjnllx` |
+| envia_consentimento_scr | ID técnico da ServiceTask em `omnichannel_completo.bpmn` (ex.: ServiceTask_xxxxx); fluxo entre `atualiza_dados_eq3` e `Gateway_1pjnllx` |
 
-**Conclusão a partir do kkkkhk:** A posição da kkkk9q no kkkkhk kkkkg4 indica que ela pertence ao domínio de **kkkkwx pessoais**, pois ocorre imediatamente após a consolidação dos dados no kkkkhq e antes de qualquer etapa de kkkkss ou seleção de kkkkst. Refatorar mantendo no kkkkgy não exige mudar ordem — só desenhar a fronteira onde o kkkkvr já está.
+**Conclusão a partir do BPMN:** A posição da task no BPMN monolítico indica que ela pertence ao domínio de **Dados pessoais**, pois ocorre imediatamente após a consolidação dos dados no EQ3 e antes de qualquer etapa de oferta ou seleção de produtos. Refatorar mantendo no BPMN 2 não exige mudar ordem — só desenhar a fronteira onde o fluxo já está.
 
 ---
 
 ## 4. Refatoração
 
-| Critério | kkkkgy (kkkkwx) | kkkkgz (kkkkwt) |
+| Critério | BPMN 2 (Dados) | BPMN 3 (Produtos) |
 | ---------- | ---------------- | ------------------- |
-| Onde está no kkkk51 | Sim: após kkkkcx, antes de kkkkii | Seria deslocar a kkkk9q para depois da fronteira 2→3 |
-| Coerência | “kkkkwx atualizados + notificação kkkkh2” como saída de kkkkwx | kkkkh2 junto com kkkkmk/kkkkss — depende da regra de kkkkag |
+| Onde está no monolito | Sim: após atualiza_dados_eq3, antes de dados_oferta | Seria deslocar a task para depois da fronteira 2→3 |
+| Coerência | “Dados atualizados + notificação SCR” como saída de Dados | SCR junto com aceite/oferta — depende da regra de negócio |
 
-Mover a kkkk9q para o kkkkgz exigiria alterar a ordem atual do kkkkvr, introduzindo dependência entre a integração kkkkh2 e a etapa de kkkkst. Isso aumentaria o kkkkyk entre domínios e divergiria do comportamento do kkkkhk kkkkg4.
+Mover a task para o BPMN 3 exigiria alterar a ordem atual do fluxo, introduzindo dependência entre a integração SCR e a etapa de produtos. Isso aumentaria o acoplamento entre domínios e divergiria do comportamento do BPMN monolítico.
 
-**Conclusão (kkkkx2):** Mais fácil em **kkkkgy** — posição atual no kkkkvr; sem reordenação.
-
----
-
-## 5. Corte e kkkkgu
-
-- **No kkkkgy:** Saída do kkkkgy = “kkkkl9 atualizados (kkkkhq) + kkkkh2 informado”. Entrada no kkkkgz = kkkkss/kkkkmk. Fronteira clara.
-- **No kkkkgz:** Seria preciso definir se a kkkkmr ocorre no início do kkkkgz (ao entrar) ou na tela de kkkkmk; pode exigir kkkkvo vindas do kkkkgy.
+**Conclusão (refatoração):** Mais fácil em **BPMN 2** — posição atual no fluxo; sem reordenação.
 
 ---
 
-## 6. Recomendação kkkk5u
+## 5. Corte e voltar
 
-**Recomendação: manter `kkkkbp` no kkkkgy (kkkkwx pessoais).**
-
-1. **Posição no kkkk51:** Já está após `kkkkcx` e antes de qualquer tarefa de kkkkst.
-2. **Refatoração:** Sem mudança de ordem; fronteira 2→3 continua “dados prontos + kkkkh2 informado” → kkkkst.
-3. **Regra de kkkkag:** Se no futuro o kkkkag exigir “informar kkkkh2 somente no kkkkmk”, pode-se reavaliar e mover para o kkkkgz; até lá, manter no kkkkgy é o que reflete o kkkkvr atual.
-
-**Critério de reavaliação:** A recomendação será revista caso a regra de kkkkag confirme que:
-
-- o kkkktp é obtido **apenas** no kkkktw, ou
-- a kkkku0 ao kkkkh2 **depende** de kkkkim de kkkksv.
-
-Isso deixa a decisão condicional e kkkkla.
+- **No BPMN 2:** Saída do BPMN 2 = “dados pessoais atualizados (EQ3) + SCR informado”. Entrada no BPMN 3 = oferta/aceite. Fronteira clara.
+- **No BPMN 3:** Seria preciso definir se a chamada ocorre no início do BPMN 3 (ao entrar) ou na tela de aceite; pode exigir variáveis vindas do BPMN 2.
 
 ---
 
-## kkkkma
+## 6. Recomendação técnica
+
+**Recomendação: manter `envia_consentimento_scr` no BPMN 2 (Dados pessoais).**
+
+1. **Posição no monolito:** Já está após `atualiza_dados_eq3` e antes de qualquer tarefa de produtos.
+2. **Refatoração:** Sem mudança de ordem; fronteira 2→3 continua “dados prontos + SCR informado” → produtos.
+3. **Regra de negócio:** Se no futuro o negócio exigir “informar SCR somente no aceite”, pode-se reavaliar e mover para o BPMN 3; até lá, manter no BPMN 2 é o que reflete o fluxo atual.
+
+**Critério de reavaliação:** A recomendação será revista caso a regra de negócio confirme que:
+
+- o consentimento SCR é obtido **apenas** no aceite de produtos, ou
+- a comunicação ao SCR **depende** de confirmação de contratação.
+
+Isso deixa a decisão condicional e auditável.
+
+---
+
+## Rastreabilidade
 
 ```text
-kkkkk6
-    → kkkkcx
-        → kkkkbp
+omnichannel_completo.bpmn
+    → atualiza_dados_eq3
+        → envia_consentimento_scr
             → Gateway_1pjnllx
-                → kkkkii
+                → dados_oferta
 ```
 
 ---
@@ -112,6 +112,6 @@ kkkkk6
 
 | Documento | Uso |
 | ----------- | ----- |
-| kkkkk6 | kkkkvq: kkkkcx → kkkkbp → Gateway_1pjnllx |
-| [kkkk3b](../kkkk5e%20da%20decomposição/kkkk3b) | Pendências de classificação |
-| [nova_jornada_audio.txt](../transcricoes/transcricao_nova_jornada/nova_jornada_audio.txt) | Menção ao kkkkh2 na tela de kkkkmk (conteúdo; decisão de onde chamar segue kkkkvr atual) |
+| omnichannel_completo.bpmn | Fluxo: atualiza_dados_eq3 → envia_consentimento_scr → Gateway_1pjnllx |
+| [MAPEAMENTO_ELEMENTOS_NIVEL2.md](../Inventário%20da%20decomposição/MAPEAMENTO_ELEMENTOS_NIVEL2.md) | Pendências de classificação |
+| [nova_jornada_audio.txt](../transcricoes/transcricao_nova_jornada/nova_jornada_audio.txt) | Menção ao SCR na tela de aceite (conteúdo; decisão de onde chamar segue fluxo atual) |
