@@ -75,17 +75,20 @@ def dnCartaoDebito   = KK0615.KK0728("dn_cartao_debito")
 def dnCartaoNpc      = KK0615.KK0728("dn_cartao_npc")
 def dataEvento       = KK0615.KK0728("KK0437") ?: new Date().toString()
 
+def descricaoDetalheProduto = KK0615.KK0728("KK0483") ?: KK0615.KK0728("KK1254")
+
 def payloadSetup = [
-  KK0290  : KK0753,
-  KK0291 : numeroUnicoConta,
-  KK0293               : "KK0002",
-  KK0483    : KK0615.KK0728("KK0483"),
-  KK0292            : origemProduto,
-  valor_limite_pa              : valorLimitePa,
-  KK0484     : "KK0949",
-  KK0482     : subFluxoAtual,
-  dn                           : dnCartaoCredito ?: dnCartaoDebito ?: dnCartaoNpc,
-  KK0432             : dataEvento
+  KK0747                  : KK0754,
+  KK0290   : KK0753,
+  KK0291  : numeroUnicoConta,
+  KK0293                : "KK0002",
+  KK0483     : descricaoDetalheProduto,
+  KK0292             : origemProduto,
+  valor_limite_pa               : valorLimitePa,
+  KK0484      : "KK0949",
+  KK0482      : subFluxoAtual,
+  dn                            : dnCartaoCredito ?: dnCartaoDebito ?: dnCartaoNpc,
+  KK0432              : dataEvento
 ]
 
 def jsonBuilder = new JsonBuilder()
@@ -103,7 +106,7 @@ KK0615.KK1288("proposta_completa_setup", jsonString)
 >   - **KK0244 / DN**: `KK0518` (KK1465) ou `KK0944` (KK0921), mais `KK0972` / `KK0292` (`'KK1475'` = KK0921, `null` = KK1465).
 >   - **KK0981 (Possui Adiantamento)**: campos numéricos de KK0823 de KK0981 (`KK1414` ou similar) para derivar `KK0765` (maior que zero = tem KK0981).
 >   - **Campos de data/hora**: `KK0431` + `KK0737` (para montar `KK0432`).
-> - Se alguma informação do bloco de KK1423 digitais (`customer_session_id`, `session_id`, IPs, `user_agent`) não existir no seu KK0651, você pode **remover ou tornar opcional** esse trecho do KK1223; os itens obrigatórios são os identificadores, KK0346, DN, plataforma múltiplo (KK1465/KK0921), KK0981, `KK1309` 44 e os campos de KK0797 (`KK0484` / `KK0482`).***
+> - Se alguma informação do bloco de KK1423 digitais (`customer_session_id`, `session_id`, IPs, `user_agent`) não existir no seu KK0651, você pode **remover ou tornar opcional** esse trecho do KK1223; os itens obrigatórios são os identificadores, KK0346, DN, plataforma múltiplo (KK1465/KK0921), KK0981, `KK1309` 44 e os campos de KK0797 (`KK0484` / `KK0482`).
 
 ---
 
