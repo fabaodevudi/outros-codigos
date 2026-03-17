@@ -111,7 +111,21 @@ public class DesconsolidarGenericosMd {
     private static void writeBlock(Path outRoot, String name, String content) throws IOException {
         // Normaliza separadores de diretório para o sistema atual
         String safe = name.replace("\\", File.separator).replace("/", File.separator);
-        Path outFile = outRoot.resolve(safe).normalize();
+
+        // Remove o sufixo _GENERICO dos arquivos de saída
+        int sepIdx = safe.lastIndexOf(File.separatorChar);
+        String dirPart = sepIdx >= 0 ? safe.substring(0, sepIdx) : "";
+        String filePart = sepIdx >= 0 ? safe.substring(sepIdx + 1) : safe;
+
+        if (filePart.endsWith("_GENERICO.md")) {
+            filePart = filePart.substring(0, filePart.length() - "_GENERICO.md".length()) + ".md";
+        }
+
+        String normalizedPath = dirPart.isEmpty()
+                ? filePart
+                : dirPart + File.separator + filePart;
+
+        Path outFile = outRoot.resolve(normalizedPath).normalize();
         Files.createDirectories(outFile.getParent());
         Files.write(outFile, content.getBytes(StandardCharsets.UTF_8));
         System.out.println(outRoot.getParent().relativize(outFile));
