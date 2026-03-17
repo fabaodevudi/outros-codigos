@@ -1,19 +1,19 @@
 [GLOSSARIO_GENERICO.md]
 XXXXX
-# Glossário — Manual kkkkho KK0106
+# Glossário — Manual KK0282 KK0950
 
-**Objetivo:** kkkkyg únicos de kkkkag usados no manual; a **KK0199 da squad** é o Manual.  
+**Objetivo:** KK1350 únicos de KK0911 usados no manual; a **KK1139 da squad** é o Manual.  
 **Referência:** RELATORIO_PLANOS_E_MELHORIAS.md §3.4 — R6.
 
 ---
 
-## kkkk8h para kkkkg2 / menoridade
+## KK0345 para KK0640 / menoridade
 
-- **kkkk8h para kkkkg2:** Modalidade em que o titular abre kkkklh para dependentes (kkkkg2); pode haver kkkkss de kkkkgw associado.
-- **kkkk8h de menoridade:** kkkkvm/KK0012 específica quando o beneficiário é menor; a KK0027 de KK0012 pode exigir campos ou KK0046 diferenciado.
-- **Uso no manual:** Partes que tratam kkkkss, KK0012 e pós-kkkks7 (ex.: KK0188 7, 8, 12); alinhar com kkkkau de KK0012 os campos de personalização do kkkkgw (ver KK0025 §6.1 em documentacao/KK0105/interno/).
+- **KK0345 para KK0640:** Modalidade em que o titular abre KK0346 para dependentes (KK0640); pode haver KK0936 de KK0245 associado.
+- **KK0345 de menoridade:** KK0371/KK0657 específica quando o beneficiário é menor; a KK0072 de KK0657 pode exigir campos ou KK0651 diferenciado.
+- **Uso no manual:** Partes que tratam KK0936, KK0657 e pós-KK0544 (ex.: KK1000 7, 8, 12); alinhar com KK1354 de KK0657 os campos de personalização do KK0245 (ver KK0526 §6.1 em documentacao/KK0898/interno/).
 
-*Entrada única conforme kkkky1; ampliar conforme novas dúvidas fechadas.*
+*Entrada única conforme KK1026; ampliar conforme novas dúvidas fechadas.*
 
 KK0104
 
@@ -21,72 +21,72 @@ $$$$$
 
 [INDICE_E_PLANEJAMENTO_MANUAL_CO8_GENERICO.md]
 XXXXX
-# Manual kkkkho — Índice e planejamento (engenharia reversa com o kkkkhk)
+# Manual KK0282 — Índice e planejamento (engenharia reversa com o KK0172)
 
-**Objetivo:** Construir um **manual kkkkfa** do kkkkho por engenharia reversa a partir do `kkkkk6`: identificar e agrupar KK0181 que pertencem à **mesma kkkkxc lógica e/ou semântica**, documentar cada parte em detalhe e produzir a **user story correspondente**. Este arquivo é o **índice e o planejamento** para executar o trabalho **por partes**.
+**Objetivo:** Construir um **manual KK0520** do KK0282 por engenharia reversa a partir do `KK0953`: identificar e agrupar KK0552 que pertencem à **mesma KK1272 lógica e/ou semântica**, documentar cada parte em detalhe e produzir a **user story correspondente**. Este arquivo é o **índice e o planejamento** para executar o trabalho **por partes**.
 
-**KK0184:** `kkkkk6` (raiz do repositório).  
-**Regra do kkkky7:** kkkkhk é a fonte única e absoluta da verdade da kkkkgq; erros de parse ou sujeiras de XML não alteram o comportamento de KK0199.
+**KK0655:** `KK0953` (raiz do repositório).  
+**Regra do KK1084:** KK0172 é a fonte única e absoluta da verdade da KK0797; erros de parse ou sujeiras de XML não alteram o comportamento de KK1139.
 
 ---
 
 ## 1. Princípio do manual
 
-- **Cada parte** = um agrupamento de KK0181 do KK0046 (kkkkiq, kkkkaf, kkkk66, eventos) que formam uma **unidade lógica/semântica** reconhecível (ex.: “kkkkwc de dados de contato”, “kkkkvg e kkkkxg”, “kkkks7 da kkkklh”).
+- **Cada parte** = um agrupamento de KK0552 do KK0651 (KK1335, KK0712, KK1326, eventos) que formam uma **unidade lógica/semântica** reconhecível (ex.: “KK0297 de dados de contato”, “KK1251 e KK0497”, “KK0544 da KK0346”).
 - **Para cada parte:**  
-  1. **Documentar o KK0046 em detalhes** — kkkkvu, saídas, condições, kkkkvo relevantes, kkkkgc (external kkkkiq, delegates), exceções e ramos de erro.  
-  2. **Criar a user story correspondente** — critérios de kkkkmk ancorados no comportamento do kkkkhk, para que KK0136 e documentação evoluam juntas.
+  1. **Documentar o KK0651 em detalhes** — KK0578, saídas, condições, KK1423 relevantes, KK0785 (external KK1335, delegates), exceções e ramos de erro.  
+  2. **Criar a user story correspondente** — critérios de KK0009 ancorados no comportamento do KK0172, para que KK0759 e documentação evoluam juntas.
 
-- O agrupamento segue **kkkkxc de execução** no kkkkhk e **kkkkyr de domínio** (alinhado à kkkkgv kkkkh5/kkkkh6 do kkkkyy quando fizer sentido, sem obrigar o manual a seguir a mesma fronteira de arquivos .bpmn).
+- O agrupamento segue **KK1272 de execução** no KK0172 e **KK1167 de domínio** (alinhado à KK0471 KK0903/KK0904 do KK1439 quando fizer sentido, sem obrigar o manual a seguir a mesma fronteira de arquivos .bpmn).
 
 ---
 
-## 2. Partes propostas (ordem do KK0046)
+## 2. Partes propostas (ordem do KK0651)
 
-As partes abaixo foram identificadas a partir do kkkkhk e do kkkk5f kkkkh5/kkkkh6 existente em `documentacao/kkkkyy/kkkk5e da kkkkgv/`. Cada linha é uma **parte** do manual; a ordem reflete o KK0046 geral da kkkkgq (não implica que todas as partes sejam estritamente sequenciais — há ramos e eventos paralelos).
+As partes abaixo foram identificadas a partir do KK0172 e do KK0790 KK0903/KK0904 existente em `documentacao/KK1439/KK0789 da KK0471/`. Cada linha é uma **parte** do manual; a ordem reflete o KK0651 geral da KK0797 (não implica que todas as partes sejam estritamente sequenciais — há ramos e eventos paralelos).
 
-| # | KK0188 (nome sugerido) | Sequência lógica / semântica | kkkk59 kkkkhk principais (kkkk5j) — KK0199 | Produto esperado |
+| # | KK1000 (nome sugerido) | Sequência lógica / semântica | KK0551 KK0172 principais (KK0755) — KK1139 | Produto esperado |
 | --- | ------------------------ | ------------------------------ | ------------------------------------------------ | ------------------ |
-| **1** | Início e identificação da kkkkgq | Inicialização de kkkkvo de KK0046, sub_fluxo, KK0048 | Scripts iniciais, start kkkkja, definição de `KK0046`, `KK0047` | Doc: KK0046 de inicialização; kkkkvo setadas. US: critérios de início da kkkk5h. **✅ [Guia](parte_01_inicio_identificacao_jornada/FLUXO_01_guia.md) \ | [Técnico](parte_01_inicio_identificacao_jornada/KK0045.md) \ | [USER STORY](parte_01_inicio_identificacao_jornada/USER_STORY_01_inicio_identificacao_jornada.md)** |
-| **2** | kkkkgd inicial / dados de contato | KK0182 KK0158, KK0151, data nascimento, KK0159 (antes de KK0168/kkkksy) | `kkkkix`, `kkkkiw`, `kkkkjs`, `kkkkiz` | Doc: kkkkxc e campos; KK0125. US: kkkkwc de contato e dados iniciais. **✅ [Guia](parte_02_cadastro_inicial_dados_contato/FLUXO_02_guia.md) \ | [Técnico](parte_02_cadastro_inicial_dados_contato/FLUXO_02_tecnico.md) \ | [USER STORY](parte_02_cadastro_inicial_dados_contato/USER_STORY_02_cadastro_inicial_dados_contato.md)** |
-| **3** | kkkkwx pessoais (nome, KK0168, kkkksy) | Nome, KK0168, kkkksy; KK0160 no KK0162 → KK0159 ou kkkk1o | `kkkkiy`, `kkkkjt`, `kkkki0`, `kkkkpd`, KK0204 para `kkkkiz` ou `kkkkjg` | “KK0160 KK0162”. US: KK0176 única ou **✅ [Guia](parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_guia.md) \ | [Técnico](parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_tecnico.md) \ | [USER STORY](parte_03_dados_pessoais_nome_endereco_renda/USER_STORY_03_dados_pessoais_nome_endereco_renda.md)** |
-| **4** | Seleção de kkkk1o e kkkklu | Escolha de kkkk1o; marcação de kkkk3l como segmentada (status 1) | `kkkkjg`, `kkkknq` | **✅ [Guia](parte_04_selecao_agencia_proposta_segmentada/FLUXO_04_guia.md) \ | [Técnico](parte_04_selecao_agencia_proposta_segmentada/FLUXO_04_tecnico.md) \ | [USER STORY](parte_04_selecao_agencia_proposta_segmentada/USER_STORY_04_selecao_agencia_proposta_segmentada.md)** |
-| **5** | Segmentação e kkkkxg | Consulta kkkkxg (com/sem kkkk1o), atualização de kkkk1x, kkkkml kkkkxr, escolha kkkkxr, upgrade, kkkkxg na kkkk3l | `kkkklr`, `kkkkls`, `kkkkno`, `kkkkpb`, `KK0049`, `kkkknq`, `kkkkjb`, `kkkknz`, `kkkkb0`, exceções (não elegível, kkkklv) | **✅ [Guia](parte_05_segmentacao_direcionador/FLUXO_05_guia.md) \ | [Técnico](parte_05_segmentacao_direcionador/FLUXO_05_tecnico.md) \ | [USER STORY](parte_05_segmentacao_direcionador/USER_STORY_05_segmentacao_direcionador.md)** |
-| **6** | kkkk7u / kkkkg3 / kkkkgt de documentos | Wayout, upgrade, kkkkgt EZ8, kkkkhy kkkkg5, aprovação/recusa kkkkfv | `kkkkax`, `kkkkji`, `kkkko1`, `KK0114`, `kkkkpt`, etc. | **✅ [Guia](parte_06_backoffice_wayout_analise_documentos/FLUXO_06_guia.md) \ | [Técnico](parte_06_backoffice_wayout_analise_documentos/FLUXO_06_tecnico.md) \ | [USER STORY](parte_06_backoffice_wayout_analise_documentos/USER_STORY_06_backoffice_wayout_analise_documentos.md)** |
-| **7** | Limites, kkkkss e mapeamento GE | Obtenção de kkkksp (R0/V3), kkkknx, kkkkij, atualização de perfil/kkkkss na kkkk3l | `kkkkcn`, `kkkknx`, `kkkkij`, `kkkkpi`, `KK0096`, etc. | **✅ [Guia](parte_07_limites_oferta_mapeamento_ge/FLUXO_07_guia.md) \ | [Técnico](parte_07_limites_oferta_mapeamento_ge/FLUXO_07_tecnico.md) \ | [USER STORY](parte_07_limites_oferta_mapeamento_ge/USER_STORY_07_limites_oferta_mapeamento_ge.md)** |
-| **8** | kkkkwt, kkkkmk e kkkkyh | Aceite kkkkst, kkkkyh, consentimentos (kkkkh2, kkkkmj), kkkkl6 | `kkkkid`, `kkkkmz`, `KK0096`, `kkkkif`, `kkkkmy`, `kkkkib`, KK0204 de kkkkgu (ex.: para `KK0064`) | “kkkkgu”. US: **✅ [Guia](parte_08_produtos_aceite_termos/FLUXO_08_guia.md) \ | [Técnico](parte_08_produtos_aceite_termos/FLUXO_08_tecnico.md) \ | [USER STORY](parte_08_produtos_aceite_termos/USER_STORY_08_produtos_aceite_termos.md)** |
-| **9** | kkkkxf e kkkkwc de kkkkiu | kkkkxf, kkkkgt de kkkksr, kkkkiu, kkkkuo | `KK0060`, `kkkkpc`, `KK0064`, `KK0065`, `kkkkm9` | **✅ [Guia](parte_09_biometria_coleta_senha/FLUXO_09_guia.md) \ | [Técnico](parte_09_biometria_coleta_senha/FLUXO_09_tecnico.md) \ | [USER STORY](parte_09_biometria_coleta_senha/USER_STORY_09_biometria_coleta_senha.md)** |
-| **10** | kkkk56 pré-kkkks7 e kkkkxo | Consulta kkkklh, consistência KK0068, kkkk0x, kkkkgb | `consulta_conta`, `kkkk72`, `kkkkc7`, `kkkkn3` | **✅ [Guia](parte_10_validacao_pre_efetivacao_liberacao/FLUXO_10_guia.md) \ | [Técnico](parte_10_validacao_pre_efetivacao_liberacao/FLUXO_10_tecnico.md) \ | [USER STORY](parte_10_validacao_pre_efetivacao_liberacao/USER_STORY_10_validacao_pre_efetivacao_liberacao.md)** |
-| **11** | kkkk7y da kkkklh | Script kkkks7, kkkkmr kkkk8e, mensagem kkkktj, atualização kkkkhq, kkkk3l efetiva kkkklh | `kkkkne`, `kkkkel`, `KK0126`, `KK0107`, `kkkkcx`, `kkkkn7` | **✅ [Guia](parte_11_efetivacao_conta/FLUXO_11_guia.md) \ | [Técnico](parte_11_efetivacao_conta/FLUXO_11_tecnico.md) \ | [USER STORY](parte_11_efetivacao_conta/USER_STORY_11_efetivacao_conta.md)** |
-| **12** | Pós-kkkks7: kkkk8c e Vínculo kkkk64 | kkkkis paralelo pós kkkkn7; kkkkes; kkkkfl Vínculo kkkk64 | `KK0090`, `KK0069`, `KK0091`, `KK0071`, `KK0073`, `KK0074` | **✅ [Guia](parte_12_pos_efetivacao_setup_vinculo_proxy/FLUXO_12_guia.md) \ | [Técnico](parte_12_pos_efetivacao_setup_vinculo_proxy/FLUXO_12_tecnico.md) \ | [USER STORY](parte_12_pos_efetivacao_setup_vinculo_proxy/USER_STORY_12_pos_efetivacao_setup_vinculo_proxy.md)** |
-| **13** | Benefício kkkkhm | Termo, kkkkth e kkkks7 kkkkhm | `Gateway_19hcmx2`, `Gateway_16nr563`, `KK0075`, `KK0076`, `KK0078`, `KK0079` | **✅ [Guia](parte_13_beneficio_inss/FLUXO_13_guia.md) \ | [Técnico](parte_13_beneficio_inss/FLUXO_13_tecnico.md) \ | [USER STORY](parte_13_beneficio_inss/USER_STORY_13_beneficio_inss.md)** |
-| **14** | kkkkh1 e Mesa kkkkh1 | kkkk5o kkkkh1 (AQ4), kkkkli baixo/alto/médio, mesa kkkkh1 | `kkkkpk`, `KK0080`, `kkkkaz`, `kkkkld`, `KK0083` | **✅ [Guia](parte_14_pld_mesa_pld/FLUXO_14_guia.md) \ | [Técnico](parte_14_pld_mesa_pld/FLUXO_14_tecnico.md) \ | [USER STORY](parte_14_pld_mesa_pld/USER_STORY_14_pld_mesa_pld.md)** |
-| **15** | kkkkhu, envios e finalização | Geração kkkkhu (kkkkzq, IP), kkkks7 conteúdo kkkkh3/selfie, envio kkkkhu KK0151 | `KK0084`, `KK0085`, `KK0086`, `KK0089`, `kkkkdt` | **✅ [Guia](parte_15_pac_envios_finalizacao/FLUXO_15_guia.md) \ | [Técnico](parte_15_pac_envios_finalizacao/FLUXO_15_tecnico.md) \ | [USER STORY](parte_15_pac_envios_finalizacao/USER_STORY_15_pac_envios_finalizacao.md)** |
-| **16** | Eventos kkkkyi e exceções | kkkk63, reset kkkk3l, cancelamento, bloqueio kkkkia, cadastro kkkkff, tratamento erro reserva | `kkkko5` (kkkk63), `kkkko8` (Cancelamento), `kkkko7` (kkkk62 kkkk64), `kkkko4` (Reset), `kkkkdg` (kkkk0f), etc. | **✅ [Guia](parte_16_eventos_transversais_excecoes/FLUXO_16_guia.md) \ | [Técnico](parte_16_eventos_transversais_excecoes/FLUXO_16_tecnico.md) \ | [USER STORY](parte_16_eventos_transversais_excecoes/USER_STORY_16_eventos_transversais_excecoes.md)** |
+| **1** | Início e identificação da KK0797 | Inicialização de KK1423 de KK0651, sub_fluxo, KK0750 | Scripts iniciais, start KK0604, definição de `KK0651`, `KK1312` | Doc: KK0651 de inicialização; KK1423 setadas. US: critérios de início da KK0780. **✅ [Guia](parte_01_inicio_identificacao_jornada/FLUXO_01_guia.md) \ | [Técnico](parte_01_inicio_identificacao_jornada/KK0652.md) \ | [USER STORY](parte_01_inicio_identificacao_jornada/USER_STORY_01_inicio_identificacao_jornada.md)** |
+| **2** | KK0196 inicial / dados de contato | KK0298 KK1339, KK0530, data nascimento, KK0912 (antes de KK0570/KK1155) | `KK0421`, `KK0413`, `KK0411`, `KK0416` | Doc: KK1272 e campos; KK0602. US: KK0297 de contato e dados iniciais. **✅ [Guia](parte_02_cadastro_inicial_dados_contato/FLUXO_02_guia.md) \ | [Técnico](parte_02_cadastro_inicial_dados_contato/FLUXO_02_tecnico.md) \ | [USER STORY](parte_02_cadastro_inicial_dados_contato/USER_STORY_02_cadastro_inicial_dados_contato.md)** |
+| **3** | KK0399 pessoais (nome, KK0570, KK1155) | Nome, KK0570, KK1155; KK1164 no KK0624 → KK0912 ou KK0046 | `KK0417`, `KK0414`, `KK0420`, `KK0686`, KK0654 para `KK0416` ou `KK1262` | “KK1164 KK0624”. US: KK1338 única ou **✅ [Guia](parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_guia.md) \ | [Técnico](parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_tecnico.md) \ | [USER STORY](parte_03_dados_pessoais_nome_endereco_renda/USER_STORY_03_dados_pessoais_nome_endereco_renda.md)** |
+| **4** | Seleção de KK0046 e KK1098 | Escolha de KK0046; marcação de KK1086 como segmentada (status 1) | `KK1262`, `KK1116` | **✅ [Guia](parte_04_selecao_agencia_proposta_segmentada/FLUXO_04_guia.md) \ | [Técnico](parte_04_selecao_agencia_proposta_segmentada/FLUXO_04_tecnico.md) \ | [USER STORY](parte_04_selecao_agencia_proposta_segmentada/USER_STORY_04_selecao_agencia_proposta_segmentada.md)** |
+| **5** | Segmentação e KK0497 | Consulta KK0497 (com/sem KK0046), atualização de KK0273, KK0330 KK1254, escolha KK1254, upgrade, KK0497 na KK1086 | `KK0500`, `KK0502`, `KK0111`, `KK0674`, `KK0339`, `KK1116`, `KK0596`, `KK0597`, `KK0503`, exceções (não elegível, KK1255) | **✅ [Guia](parte_05_segmentacao_direcionador/FLUXO_05_guia.md) \ | [Técnico](parte_05_segmentacao_direcionador/FLUXO_05_tecnico.md) \ | [USER STORY](parte_05_segmentacao_direcionador/USER_STORY_05_segmentacao_direcionador.md)** |
+| **6** | KK0134 / KK1467 / KK0065 de documentos | Wayout, upgrade, KK0065 EZ8, KK0082 KK0661, aprovação/recusa KK0135 | `KK0675`, `KK0053`, `KK0019`, `KK0054`, `KK1316`, etc. | **✅ [Guia](parte_06_backoffice_wayout_analise_documentos/FLUXO_06_guia.md) \ | [Técnico](parte_06_backoffice_wayout_analise_documentos/FLUXO_06_tecnico.md) \ | [USER STORY](parte_06_backoffice_wayout_analise_documentos/USER_STORY_06_backoffice_wayout_analise_documentos.md)** |
+| **7** | Limites, KK0936 e mapeamento GE | Obtenção de KK0823 (R0/V3), KK0856, KK0406, atualização de perfil/KK0936 na KK1086 | `KK0934`, `KK0856`, `KK0406`, `KK1097`, `KK1240`, etc. | **✅ [Guia](parte_07_limites_oferta_mapeamento_ge/FLUXO_07_guia.md) \ | [Técnico](parte_07_limites_oferta_mapeamento_ge/FLUXO_07_tecnico.md) \ | [USER STORY](parte_07_limites_oferta_mapeamento_ge/USER_STORY_07_limites_oferta_mapeamento_ge.md)** |
+| **8** | KK1078, KK0009 e KK1351 | Aceite KK1079, KK1351, consentimentos (KK1219, KK0528), KK0470 | `KK0016`, `KK0103`, `KK1240`, `KK1349`, `KK0015`, `KK0412`, KK0654 de KK1451 (ex.: para `KK0301`) | “KK1451”. US: **✅ [Guia](parte_08_produtos_aceite_termos/FLUXO_08_guia.md) \ | [Técnico](parte_08_produtos_aceite_termos/FLUXO_08_tecnico.md) \ | [USER STORY](parte_08_produtos_aceite_termos/USER_STORY_08_produtos_aceite_termos.md)** |
+| **9** | KK0148 e KK0297 de KK1267 | KK0148, KK0065 de KK1216, KK1267, KK1183 | `KK0409`, `KK0677`, `KK0301`, `KK1184`, `KK0114` | **✅ [Guia](parte_09_biometria_coleta_senha/FLUXO_09_guia.md) \ | [Técnico](parte_09_biometria_coleta_senha/FLUXO_09_tecnico.md) \ | [USER STORY](parte_09_biometria_coleta_senha/USER_STORY_09_biometria_coleta_senha.md)** |
+| **10** | KK1405 pré-KK0544 e KK0821 | Consulta KK0346, consistência KK0746, KK1095, KK0145 | `consulta_conta`, `KK0683`, `KK1110`, `KK0105` | **✅ [Guia](parte_10_validacao_pre_efetivacao_liberacao/FLUXO_10_guia.md) \ | [Técnico](parte_10_validacao_pre_efetivacao_liberacao/FLUXO_10_tecnico.md) \ | [USER STORY](parte_10_validacao_pre_efetivacao_liberacao/USER_STORY_10_validacao_pre_efetivacao_liberacao.md)** |
+| **11** | KK0543 da KK0346 | Script KK0544, KK0259 KK0255, mensagem KK0350, atualização KK0586, KK1086 efetiva KK0346 | `KK1235`, `KK0534`, `KK0873`, `KK1233`, `KK0101`, `KK1104` | **✅ [Guia](parte_11_efetivacao_conta/FLUXO_11_guia.md) \ | [Técnico](parte_11_efetivacao_conta/FLUXO_11_tecnico.md) \ | [USER STORY](parte_11_efetivacao_conta/USER_STORY_11_efetivacao_conta.md)** |
+| **12** | Pós-KK0544: KK1282 e Vínculo KK1123 | KK0668 paralelo pós KK1104; KK1284; KK1324 Vínculo KK1123 | `KK0690`, `KK1076`, `KK0020`, `KK1398`, `KK0533`, `KK1105` | **✅ [Guia](parte_12_pos_efetivacao_setup_vinculo_proxy/FLUXO_12_guia.md) \ | [Técnico](parte_12_pos_efetivacao_setup_vinculo_proxy/FLUXO_12_tecnico.md) \ | [USER STORY](parte_12_pos_efetivacao_setup_vinculo_proxy/USER_STORY_12_pos_efetivacao_setup_vinculo_proxy.md)** |
+| **13** | Benefício KK0776 | Termo, KK1406 e KK0544 KK0776 | `Gateway_19hcmx2`, `Gateway_16nr563`, `KK1348`, `KK1401`, `KK0538`, `KK0104` | **✅ [Guia](parte_13_beneficio_inss/FLUXO_13_guia.md) \ | [Técnico](parte_13_beneficio_inss/FLUXO_13_tecnico.md) \ | [USER STORY](parte_13_beneficio_inss/USER_STORY_13_beneficio_inss.md)** |
+| **14** | KK1029 e Mesa KK1029 | KK0064 KK1029 (AQ4), KK1201 baixo/alto/médio, mesa KK1029 | `KK0031`, `KK0209`, `KK0696`, `KK0695`, `KK0866` | **✅ [Guia](parte_14_pld_mesa_pld/FLUXO_14_guia.md) \ | [Técnico](parte_14_pld_mesa_pld/FLUXO_14_tecnico.md) \ | [USER STORY](parte_14_pld_mesa_pld/USER_STORY_14_pld_mesa_pld.md)** |
+| **15** | KK0982, envios e finalização | Geração KK0982 (KK0740, IP), KK0544 conteúdo KK0490/selfie, envio KK0982 KK0530 | `KK0718`, `KK0719`, `KK0542`, `KK0892`, `KK0583` | **✅ [Guia](parte_15_pac_envios_finalizacao/FLUXO_15_guia.md) \ | [Técnico](parte_15_pac_envios_finalizacao/FLUXO_15_tecnico.md) \ | [USER STORY](parte_15_pac_envios_finalizacao/USER_STORY_15_pac_envios_finalizacao.md)** |
+| **16** | Eventos KK1371 e exceções | KK0620, reset KK1086, cancelamento, bloqueio KK1124, cadastro KK1202, tratamento erro reserva | `KK0024` (KK0620), `KK0028` (Cancelamento), `KK0027` (KK0159 KK1123), `KK0022` (Reset), `KK0025` (KK0129), etc. | **✅ [Guia](parte_16_eventos_transversais_excecoes/FLUXO_16_guia.md) \ | [Técnico](parte_16_eventos_transversais_excecoes/FLUXO_16_tecnico.md) \ | [USER STORY](parte_16_eventos_transversais_excecoes/USER_STORY_16_eventos_transversais_excecoes.md)** |
 
 ---
 
 ## 3. Como usar este índice
 
-- **Fonte dos kkkk5j:** Os KK0181 listados na coluna “kkkk59 kkkkhk principais” devem ser conferidos no `kkkkk6` (busca por id ou name). Os inventários em `documentacao/kkkkyy/kkkk5e da kkkkgv/` (kkkk3b, kkkk3d) servem de apoio e podem conter kkkk5j adicionais ou nomenclaturas com espaço (ex.: `kkkkij`).
-- **Prioridade:** Pode-se começar por partes que tenham demanda imediata (ex.: **5** Segmentação/kkkke6, **11** kkkk7y, **12** kkkk8c e Vínculo kkkk64) ou seguir a ordem 1 → 16 para um manual completo.
-- **Produto por parte:** Em `documentacao/Manual KK0106/` pode existir uma subpasta por parte (ex.: `parte_05_segmentacao_direcionador/`) contendo **três arquivos**:
-  - `FLUXO_<PARTE>_guia.md` — guia narrativo do KK0046 (para KK0140, KK0142, KK0143; kkkk5w em kkkk5x).
-  - `FLUXO_<PARTE>_tecnico.md` — documentação kkkk5u: KK0181 kkkkhk (kkkk5j), sequence kkkkoa, kkkkvo, KK0180, referências.
-  - `USER_STORY_<PARTE>.md` — user story com critérios de kkkkmk derivados do kkkkhk.
+- **Fonte dos KK0755:** Os KK0552 listados na coluna “KK0551 KK0172 principais” devem ser conferidos no `KK0953` (busca por id ou name). Os inventários em `documentacao/KK1439/KK0789 da KK0471/` (KK0848, KK0852) servem de apoio e podem conter KK0755 adicionais ou nomenclaturas com espaço (ex.: `KK0406`).
+- **Prioridade:** Pode-se começar por partes que tenham demanda imediata (ex.: **5** Segmentação/KK0496, **11** KK0543, **12** KK1282 e Vínculo KK1123) ou seguir a ordem 1 → 16 para um manual completo.
+- **Produto por parte:** Em `documentacao/Manual KK0950/` pode existir uma subpasta por parte (ex.: `parte_05_segmentacao_direcionador/`) contendo **três arquivos**:
+  - `FLUXO_<PARTE>_guia.md` — guia narrativo do KK0651 (para KK0726, KK1131, KK1031; KK0493 em KK0865).
+  - `FLUXO_<PARTE>_tecnico.md` — documentação KK1377: KK0552 KK0172 (KK0755), sequence KK0649, KK1423, KK0167, referências.
+  - `USER_STORY_<PARTE>.md` — user story com critérios de KK0009 derivados do KK0172.
 
 ---
 
-## 4. kkkk7t de execução (por parte)
+## 4. KK0262 de execução (por parte)
 
 Para **cada parte**:
 
-- [ ] Abrir o kkkkhk e localizar todos os KK0181 (kkkkiq, kkkkaf, kkkk66, eventos) da parte.
-- [ ] Mapear **sequence kkkkoa** de entrada e saída da parte (de onde vem, para onde vai).
-- [ ] Listar **kkkkvo de kkkk55** lidas/escritas (incluindo input/output de kkkkiq).
-- [ ] Documentar **condições de kkkk7v** e **ramos de erro** (KK0180, mensagens).
-- [ ] Redigir **FLUXO_<PARTE>_guia.md** (narrativa para KK0140/KK0142/KK0143) e **FLUXO_<PARTE>_tecnico.md** (KK0181 kkkkhk, kkkkoa, kkkkvo).
-- [ ] Redigir **USER_STORY_<PARTE>.md** com critérios de kkkkmk auditáveis no kkkkhk.
+- [ ] Abrir o KK0172 e localizar todos os KK0552 (KK1335, KK0712, KK1326, eventos) da parte.
+- [ ] Mapear **sequence KK0649** de entrada e saída da parte (de onde vem, para onde vai).
+- [ ] Listar **KK1423 de KK1069** lidas/escritas (incluindo input/output de KK1335).
+- [ ] Documentar **condições de KK0669** e **ramos de erro** (KK0167, mensagens).
+- [ ] Redigir **FLUXO_<PARTE>_guia.md** (narrativa para KK0726/KK1131/KK1031) e **FLUXO_<PARTE>_tecnico.md** (KK0552 KK0172, KK0649, KK1423).
+- [ ] Redigir **USER_STORY_<PARTE>.md** com critérios de KK0009 auditáveis no KK0172.
 - [ ] Atualizar este índice (ex.: marcar parte concluída, link para os arquivos).
 
 **Partes 1 a 16:** ✅ concluídas — ver links na tabela §2 (cada parte com Guia, Técnico e USER STORY).
@@ -97,214 +97,214 @@ Para **cada parte**:
 
 | Recurso | Uso |
 | --------- | ----- |
-| `kkkkk6` (raiz) | Fonte única da verdade; toda descrição e US devem ser auditáveis nele. |
-| [KK0025 (KK0105)](../KK0105/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md) | Dúvidas abertas/fechadas do kkkkzz kkkkzo kkkk6k; ver também [kkkk7p KK0105](../KK0105/interno/kkkk7p/README_ADR_MULTIPLO_NPC.md). |
-| [KK0026 (KK0105)](../KK0105/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md) | Ownership front/kkkkz2 e kkkkhp x kkkkgm. |
-| [GLOSSARIO.md](./GLOSSARIO.md) | kkkkyg do manual (kkkklh para kkkkg2 / menoridade). |
-| [INDICE_SCRIPTS.md](./INDICE_SCRIPTS.md) | Script kkkkiq do kkkkhk por parte (id, nome, link para FLUXO_*_tecnico). |
-| [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](./REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md) | Onde KK0105, kkkkes e Manual se tocam; §6 descreve o cruzamento com §4 kkkkvt e saídas (Partes 5, 7, 8, 12); §7 kkkki5. |
-| [REFERENCIA_CRUZADA_VISIONING_MANUAL.md](../kkkkyy/REFERENCIA_CRUZADA_VISIONING_MANUAL.md) | Onde o kkkkyy toca o Manual (inventários N1/kkkkh5/kkkkh6, kkkk7p, kkkksk) e onde o Manual KK0200 o kkkkyy; kkkkwf bidirecional. |
-| `documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b` | kkkk5e de tarefas por kkkkhk (kkkkh5). |
-| `documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3d` | Blocos lógicos (kkkkh6) — alinhar nomes de “parte” quando fizer sentido. |
-| `documentacao/kkkkyy/kkkksk/INDEX_ARQUITETURA_CO8.md` | Visão geral kkkkh0 e kkkkg2; kkkkwu e KK0022. |
-| `documentacao/kkkkes/`, `documentacao/KK0105/` | Documentação já existente de demandas que tocam em kkkk8c e kkkkzo kkkk6k (pós-kkkks7). |
+| `KK0953` (raiz) | Fonte única da verdade; toda descrição e US devem ser auditáveis nele. |
+| [KK0526 (KK0898)](../KK0898/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md) | Dúvidas abertas/fechadas do KK1020 KK0902 KK0921; ver também [KK0040 KK0898](../KK0898/interno/KK0040/README_ADR_MULTIPLO_NPC.md). |
+| [KK1169 (KK0898)](../KK0898/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md) | Ownership front/KK0130 e KK0144 x KK0217. |
+| [GLOSSARIO.md](./GLOSSARIO.md) | KK1350 do manual (KK0346 para KK0640 / menoridade). |
+| [INDICE_SCRIPTS.md](./INDICE_SCRIPTS.md) | Script KK1335 do KK0172 por parte (id, nome, link para FLUXO_*_tecnico). |
+| [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](./REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md) | Onde KK0898, KK1284 e Manual se tocam; §6 descreve o cruzamento com §4 KK0577 e saídas (Partes 5, 7, 8, 12); §7 KK1438. |
+| [REFERENCIA_CRUZADA_VISIONING_MANUAL.md](../KK1439/REFERENCIA_CRUZADA_VISIONING_MANUAL.md) | Onde o KK1439 toca o Manual (inventários N1/KK0903/KK0904, KK0040, KK0084) e onde o Manual KK1138 o KK1439; KK0910 bidirecional. |
+| `documentacao/KK1439/KK0789 da KK0471/KK0848` | KK0789 de tarefas por KK0172 (KK0903). |
+| `documentacao/KK1439/KK0789 da KK0471/KK0852` | Blocos lógicos (KK0904) — alinhar nomes de “parte” quando fizer sentido. |
+| `documentacao/KK1439/KK0084/INDEX_ARQUITETURA_CO8.md` | Visão geral KK0995 e KK0640; KK0041 e KK0378. |
+| `documentacao/KK1284/`, `documentacao/KK0898/` | Documentação já existente de demandas que tocam em KK1282 e KK0902 KK0921 (pós-KK0544). |
 
 ---
 
 ## 6. Resumo
 
-- **16 partes** cobrindo do início da kkkkgq até eventos kkkkyi.
-- **Cada parte:** documentação detalhada do KK0046 + user story correspondente.
+- **16 partes** cobrindo do início da KK0797 até eventos KK1371.
+- **Cada parte:** documentação detalhada do KK0651 + user story correspondente.
 - **Execução por partes:** escolher uma parte, seguir o checklist §4, criar os arquivos na pasta do manual e atualizar este índice.
-- **kkkkhk** permanece a **fonte da verdade**; o manual e as user stories são **derivados** dele (engenharia reversa).
+- **KK0172** permanece a **fonte da verdade**; o manual e as user stories são **derivados** dele (engenharia reversa).
 
 $$$$$
 
 [INDICE_SCRIPTS_GENERICO.md]
 XXXXX
-# Índice de KK0028 (kkkkhk — Manual kkkkho)
+# Índice de KK1245 (KK0172 — Manual KK0282)
 
-**Objetivo:** Listar todo KK0148 kkkk9q do kkkkhk com id, parte do manual, nome e link para documentação.  
-**Fonte:** `kkkkk6`. **Referência:** [PLANO_ENRIQUECIMENTO_REGRAS_NEGOCIO_PSEUDOCODIGO.md](../planos_e_todos/PLANO_ENRIQUECIMENTO_REGRAS_NEGOCIO_PSEUDOCODIGO.md).
+**Objetivo:** Listar todo KK1223 KK1332 do KK0172 com id, parte do manual, nome e link para documentação.  
+**Fonte:** `KK0953`. **Referência:** [PLANO_ENRIQUECIMENTO_REGRAS_NEGOCIO_PSEUDOCODIGO.md](../planos_e_todos/PLANO_ENRIQUECIMENTO_REGRAS_NEGOCIO_PSEUDOCODIGO.md).
 
 ---
 
-## 1. Tabela de KK0028 (link para KK0018)
+## 1. Tabela de KK1245 (link para KK1378)
 
-| KK0188 | ID do KK0148 | Nome (kkkkhk) | Link |
+| KK1000 | ID do KK1223 | Nome (KK0172) | Link |
 | ------- | ---------------- | ------------- | ------ |
-| 1 | kkkkm2 | kkkklt | [KK0045](parte_01_inicio_identificacao_jornada/KK0045.md) (§4 kkkkxe de kkkkag, §5 Pseudo-KK0021) |
-| 2 | KK0107, kkkkny, KK0201, KK0202 | Script Atualiza kkkkhq / kkkkvo kkkkhq (titular e representante) | [FLUXO_02_tecnico](parte_02_cadastro_inicial_dados_contato/FLUXO_02_tecnico.md) (§4 kkkkxe de kkkkag, §5 Pseudo-KK0021) |
-| 5 | kkkkno, kkkkm3, KK0109, KK0110 | kkkkln / Consulta kkkki3 / Elegibilidade (titular e representante) | [FLUXO_05_tecnico](parte_05_segmentacao_direcionador/FLUXO_05_tecnico.md) (§4 kkkkxe de kkkkag, §5 Pseudo-KK0021) |
-| 6 | KK0104, KK0108 | Monta objetos de kkkkgt / KK0154 motivo recusa | [FLUXO_06_tecnico](parte_06_backoffice_wayout_analise_documentos/FLUXO_06_tecnico.md) (§4 kkkkxe de kkkkag, §5 Pseudo-KK0021) |
-| 7 | kkkknx, KK0096, kkkkou | mapeio campos GE / Mapeia kkkkwx Oferta / KK0129 Limite | [FLUXO_07_tecnico](parte_07_limites_oferta_mapeamento_ge/FLUXO_07_tecnico.md) (§4 kkkkxe de kkkkag, §5 Pseudo-KK0021) |
-| 8 | KK0096, kkkkmw, kkkkmx, kkkkns, Activity_097rtf7 | Mapeia Oferta / kkkkml kkkkmj / kkkkmk kkkkmm / kkkkyn | [FLUXO_08_tecnico](parte_08_produtos_aceite_termos/FLUXO_08_tecnico.md) (§4 kkkkxe de kkkkag, §5 Pseudo-KK0021) |
-| 10 | Activity_0uurkex, Activity_15q9p5w | Script monta kkkkmn kkkkgb / Tratativa kkkkgb | [FLUXO_10_tecnico](parte_10_validacao_pre_efetivacao_liberacao/FLUXO_10_tecnico.md) (§4 kkkkxe de kkkkag, §5 Pseudo-KK0021) |
-| 11 | kkkkne, KK0107, kkkkm1 | kkkknl / Atualiza kkkkhq / Gerar KK0148 pessoa | [FLUXO_11_tecnico](parte_11_efetivacao_conta/FLUXO_11_tecnico.md) (§4 kkkkxe de kkkkag, §5 Pseudo-KK0021) |
-| 13 | KK0077 | Agrupar dados kkkkhm | [FLUXO_13_tecnico](parte_13_beneficio_inss/FLUXO_13_tecnico.md) (§4 kkkkxe de kkkkag, §5 Pseudo-KK0021) |
-| 15 | KK0087, KK0088, KK0089 | kkkkl3 / Montar kkkkvn KK0154 | [FLUXO_15_tecnico](parte_15_pac_envios_finalizacao/FLUXO_15_tecnico.md) (§4 kkkkxe de kkkkag, §5 Pseudo-KK0021) |
-| 16 | KK0111, KK0112 | Script monta kkkkmn kkkk0f | [FLUXO_16_tecnico](parte_16_eventos_transversais_excecoes/FLUXO_16_tecnico.md) (§4 kkkkxe de kkkkag, §5 Pseudo-KK0021) |
+| 1 | KK1232 | KK0092 | [KK0652](parte_01_inicio_identificacao_jornada/KK0652.md) (§4 KK1145 de KK0911, §5 Pseudo-KK0398) |
+| 2 | KK1233, KK1243, KK1244, KK1234 | Script Atualiza KK0586 / KK1423 KK0586 (titular e representante) | [FLUXO_02_tecnico](parte_02_cadastro_inicial_dados_contato/FLUXO_02_tecnico.md) (§4 KK1145 de KK0911, §5 Pseudo-KK0398) |
+| 5 | KK0111, KK1222, KK1236, KK1237 | KK0109 / Consulta KK1253 / Elegibilidade (titular e representante) | [FLUXO_05_tecnico](parte_05_segmentacao_direcionador/FLUXO_05_tecnico.md) (§4 KK1145 de KK0911, §5 Pseudo-KK0398) |
+| 6 | KK0893, KK1238 | Monta objetos de KK0065 / KK0556 motivo recusa | [FLUXO_06_tecnico](parte_06_backoffice_wayout_analise_documentos/FLUXO_06_tecnico.md) (§4 KK1145 de KK0911, §5 Pseudo-KK0398) |
+| 7 | KK0856, KK1240, KK0894 | mapeio campos GE / Mapeia KK0399 Oferta / KK1002 Limite | [FLUXO_07_tecnico](parte_07_limites_oferta_mapeamento_ge/FLUXO_07_tecnico.md) (§4 KK1145 de KK0911, §5 Pseudo-KK0398) |
+| 8 | KK1240, KK1248, KK1231, KK0030, Activity_097rtf7 | Mapeia Oferta / KK0330 KK0528 / KK0009 KK0324 / KK0561 | [FLUXO_08_tecnico](parte_08_produtos_aceite_termos/FLUXO_08_tecnico.md) (§4 KK1145 de KK0911, §5 Pseudo-KK0398) |
+| 10 | Activity_0uurkex, Activity_15q9p5w | Script monta KK1001 KK0145 / Tratativa KK0145 | [FLUXO_10_tecnico](parte_10_validacao_pre_efetivacao_liberacao/FLUXO_10_tecnico.md) (§4 KK1145 de KK0911, §5 Pseudo-KK0398) |
+| 11 | KK1235, KK1233, KK0714 | KK1227 / Atualiza KK0586 / Gerar KK1223 pessoa | [FLUXO_11_tecnico](parte_11_efetivacao_conta/FLUXO_11_tecnico.md) (§4 KK1145 de KK0911, §5 Pseudo-KK0398) |
+| 13 | KK0044 | Agrupar dados KK0776 | [FLUXO_13_tecnico](parte_13_beneficio_inss/FLUXO_13_tecnico.md) (§4 KK1145 de KK0911, §5 Pseudo-KK0398) |
+| 15 | KK0854, KK0855, KK0892 | KK0853 / Montar KK0372 KK0556 | [FLUXO_15_tecnico](parte_15_pac_envios_finalizacao/FLUXO_15_tecnico.md) (§4 KK1145 de KK0911, §5 Pseudo-KK0398) |
+| 16 | KK1241, KK1242 | Script monta KK1001 KK0129 | [FLUXO_16_tecnico](parte_16_eventos_transversais_excecoes/FLUXO_16_tecnico.md) (§4 KK1145 de KK0911, §5 Pseudo-KK0398) |
 
-Partes sem KK0148 kkkk9q no escopo principal: 3, 4, 9, 12, 14.
+Partes sem KK1223 KK1332 no escopo principal: 3, 4, 9, 12, 14.
 
 ---
 
-## 2. kkkk5e consolidado de kkkkx5 por KK0148 (KK0199)
+## 2. KK0789 consolidado de KK1146 por KK1223 (KK1139)
 
-Regra em uma linha por KK0148; detalhe em cada FLUXO_*_tecnico (§4 e §5).
+Regra em uma linha por KK1223; detalhe em cada FLUXO_*_tecnico (§4 e §5).
 
-| KK0188 | ID do KK0148 | Regra em uma linha |
+| KK1000 | ID do KK1223 | Regra em uma linha |
 | ------- | ---------------- | --------------------- |
-| 1 | kkkkm2 | Atribui KK0046, tempos de kkkkyo (PT20M KK0173, P22D sistêmico), KK0041; KK0047: manter se informado no start, senão 'kkkkve'; KK0042 = 'KK0037' só se KK0047 == 'KK0037'. |
-| 2 | KK0107, kkkkny, KK0201, KK0202 | Atualiza kkkkhq/kkkkhq representante com dados de contato, KK0168 e kkkksy; kkkkvo conforme KK0203 do kkkkhk. |
-| 5 | kkkkno, kkkkm3, KK0109, KK0110 | Atualizar kkkk1x; kkkkml kkkkxr; verificação de kkkkeo (titular e representante, KK0044). Conferir KK0203 no kkkkhk. |
-| 6 | KK0104, KK0108 | Monta objetos para kkkkgt EZ8 (KK0123); KK0148 de KK0151 motivo recusa. |
-| 7 | kkkknx, KK0096, kkkkou | Mapeia campos para GE (kkkksp, kkkkgw, kkkkyv); mapeia kkkkij na kkkk3l; monta kkkkmn para kkkkts V3. |
-| 8 | KK0096, kkkkmw, kkkkmx | Mapeia kkkkss; kkkkml kkkkmj; kkkkmk kkkkmm listagem kkkkmj. |
-| 10 | Activity_0uurkex, Activity_15q9p5w | kkkkmo kkkkgb; tratativa kkkkgb (kkkkth pré-kkkks7). |
-| 11 | kkkkne, KK0107, kkkkm1 | Prepara e efetiva kkkklh; atualiza kkkkhq pós-kkkks7; gera KK0148 para atualizar pessoa (KK0116, KK0117). |
-| 13 | KK0077 | Agrupa dados para kkkktz (KK0044). |
-| 15 | KK0087, KK0088, KK0089 | Mapeia kkkkvn kkkkhu (kkkkzq e IP); monta kkkkvn para envio por KK0151; define KK0048. |
-| 16 | KK0111, KK0112 | kkkkmo para cadastro kkkkff (titular e representante). |
+| 1 | KK1232 | Atribui KK0651, tempos de KK0621 (PT20M KK1392, P22D sistêmico), KK0296; KK1312: manter se informado no start, senão 'KK1017'; KK1357 = 'KK0811' só se KK1312 == 'KK0811'. |
+| 2 | KK1233, KK1243, KK1244, KK1234 | Atualiza KK0586/KK0586 representante com dados de contato, KK0570 e KK1155; KK1423 conforme KK0775 do KK0172. |
+| 5 | KK0111, KK1222, KK1236, KK1237 | Atualizar KK0273; KK0330 KK1254; verificação de KK0550 (titular e representante, KK0732). Conferir KK0775 no KK0172. |
+| 6 | KK0893, KK1238 | Monta objetos para KK0065 EZ8 (KK0524); KK1223 de KK0530 motivo recusa. |
+| 7 | KK0856, KK1240, KK0894 | Mapeia campos para GE (KK0823, KK0245, KK1425); mapeia KK0406 na KK1086; monta KK1001 para KK0929 V3. |
+| 8 | KK1240, KK1248, KK1231 | Mapeia KK0936; KK0330 KK0528; KK0009 KK0324 listagem KK0528. |
+| 10 | Activity_0uurkex, Activity_15q9p5w | KK0891 KK0145; tratativa KK0145 (KK1406 pré-KK0544). |
+| 11 | KK1235, KK1233, KK0714 | Prepara e efetiva KK0346; atualiza KK0586 pós-KK0544; gera KK1223 para atualizar pessoa (KK0205, KK0289). |
+| 13 | KK0044 | Agrupa dados para KK0142 (KK0732). |
+| 15 | KK0854, KK0855, KK0892 | Mapeia KK0372 KK0982 (KK0740 e IP); monta KK0372 para envio por KK0530; define KK0750. |
+| 16 | KK1241, KK1242 | KK0891 para cadastro KK1202 (titular e representante). |
 
 $$$$$
 
 [POLITICA_CORES_MANUAL_GENERICO.md]
 XXXXX
-# Política de cores — Manual KK0106 (kkkk5w kkkk5x)
+# Política de cores — Manual KK0950 (KK0493 KK0865)
 
-**Objetivo:** Paleta única, amigável e acessível para todos os kkkk5w dos `FLUXO_*_tecnico.md`. Referência de conteúdo: [TODO_APRIMORAMENTO_DIAGRAMAS_MANUAL.md](out/TODO_APRIMORAMENTO_DIAGRAMAS_MANUAL.md) e [DIAGRAM_STYLE_GUIDE.md](../kkkkyy/DIAGRAM_STYLE_GUIDE.md).
-
----
-
-## 1. KK0205 padrão (texto nos documentos)
-
-> **KK0206** = início; **KK0207** = user kkkk9q / etapa; **KK0208** = service/KK0148; **âmbar** = kkkk7v; **KK0209** = fim ou erro; KK0210 tracejada = KK0046 "kkkkgu".
-
-**Uso:** Esta é a legenda única para kkkk5w kkkk5x no Manual e no kkkki5. O [DIAGRAM_STYLE_GUIDE.md](../kkkkyy/DIAGRAM_STYLE_GUIDE.md) do kkkki5 repete o mesmo texto para manter consistência.
+**Objetivo:** Paleta única, amigável e acessível para todos os KK0493 dos `FLUXO_*_tecnico.md`. Referência de conteúdo: [TODO_APRIMORAMENTO_DIAGRAMAS_MANUAL.md](out/TODO_APRIMORAMENTO_DIAGRAMAS_MANUAL.md) e [DIAGRAM_STYLE_GUIDE.md](../KK1439/DIAGRAM_STYLE_GUIDE.md).
 
 ---
 
-## 2. Paleta oficial (kkkk5x `style fill` / `stroke`)
+## 1. KK0816 padrão (texto nos documentos)
+
+> **KK1426** = início; **KK0127** = user KK1332 / etapa; **KK0269** = service/KK1223; **âmbar** = KK0669; **KK1430** = fim ou erro; KK1281 tracejada = KK0651 "KK1451".
+
+**Uso:** Esta é a legenda única para KK0493 KK0865 no Manual e no KK1438. O [DIAGRAM_STYLE_GUIDE.md](../KK1439/DIAGRAM_STYLE_GUIDE.md) do KK1438 repete o mesmo texto para manter consistência.
+
+---
+
+## 2. Paleta oficial (KK0865 `style fill` / `stroke`)
 
 | Uso | Fill | Stroke | Observação |
 |-----|------|--------|------------|
-| **Início** (start, kkkkx9) | `#c8e6c9` | `#2e7d32` | KK0206 suave; bom contraste em tema claro/escuro. |
-| **User kkkk9q / entrada de parte** | `#bbdefb` | `#1565c0` | Azul claro; destaque sem ser forte. |
-| **Service / KK0148** | `#eceff1` | `#546e7a` | Cinza neutro; não compete com kkkkiq. |
-| **kkkkis / decisão** | `#fff8e1` | `#e65100` | Âmbar suave; decisão visível sem amarelo forte. |
-| **Fim / erro / exceção** | `#ffcdd2` | `#c62828` | Vermelho suave; fim de KK0046 ou ramo de erro. |
+| **Início** (start, KK0610) | `#c8e6c9` | `#2e7d32` | KK1426 suave; bom contraste em tema claro/escuro. |
+| **User KK1332 / entrada de parte** | `#bbdefb` | `#1565c0` | Azul claro; destaque sem ser forte. |
+| **Service / KK1223** | `#eceff1` | `#546e7a` | Cinza neutro; não compete com KK1335. |
+| **KK0668 / decisão** | `#fff8e1` | `#e65100` | Âmbar suave; decisão visível sem amarelo forte. |
+| **Fim / erro / exceção** | `#ffcdd2` | `#c62828` | Vermelho suave; fim de KK0651 ou ramo de erro. |
 | **Sucesso / OK** (ex.: aprovado, concluído) | `#c8e6c9` | `#2e7d32` | Mesmo verde do início. |
 
-Use `stroke-width:2px` em início, kkkk7v e fim para consistência.
+Use `stroke-width:2px` em início, KK0669 e fim para consistência.
 
 ---
 
-## 3. Convenção por tipo de elemento kkkkhk
+## 3. Convenção por tipo de elemento KK0172
 
-Além dos flowcharts, os **kkkk5w de kkkkxc (sequenceDiagram)** devem usar caixas brancas com bordas azuis e texto escuro, via tema base do kkkk5x (ver `guia_mermaid_final_corrigido.md` §5.1).
+Além dos flowcharts, os **KK0493 de KK1272 (sequenceDiagram)** devem usar caixas brancas com bordas azuis e texto escuro, via tema base do KK0865 (ver `guia_mermaid_final_corrigido.md` §5.1).
 
 | Elemento | Cor | Fill | Stroke |
 |----------|-----|------|--------|
-| kkkkyc início / start | KK0206 | `#c8e6c9` | `#2e7d32` |
-| User kkkk9q | Azul | `#bbdefb` | `#1565c0` |
-| kkkkem / etapa (entrada de parte) | Azul | `#bbdefb` | `#1565c0` |
-| Service kkkk9q / KK0148 | Cinza | `#eceff1` | `#546e7a` |
-| kkkkis | Âmbar | `#fff8e1` | `#e65100` |
-| Fim / erro / exceção / kkkkyo | Vermelho | `#ffcdd2` | `#c62828` |
+| KK0609 início / start | KK1426 | `#c8e6c9` | `#2e7d32` |
+| User KK1332 | Azul | `#bbdefb` | `#1565c0` |
+| KK0208 / etapa (entrada de parte) | Azul | `#bbdefb` | `#1565c0` |
+| Service KK1332 / KK1223 | Cinza | `#eceff1` | `#546e7a` |
+| KK0668 | Âmbar | `#fff8e1` | `#e65100` |
+| Fim / erro / exceção / KK0621 | Vermelho | `#ffcdd2` | `#c62828` |
 
 ---
 
 ## 4. Referências
 
-- **Aprimoramento kkkk5w:** [out/TODO_APRIMORAMENTO_DIAGRAMAS_MANUAL.md](out/TODO_APRIMORAMENTO_DIAGRAMAS_MANUAL.md)
-- **KK0192 kkkkyy:** [documentacao/kkkkyy/DIAGRAM_STYLE_GUIDE.md](../kkkkyy/DIAGRAM_STYLE_GUIDE.md)
-- **Modelo de KK0046:** [parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_tecnico.md](parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_tecnico.md) §2.5
+- **Aprimoramento KK0493:** [out/TODO_APRIMORAMENTO_DIAGRAMAS_MANUAL.md](out/TODO_APRIMORAMENTO_DIAGRAMAS_MANUAL.md)
+- **KK0991 KK1439:** [documentacao/KK1439/DIAGRAM_STYLE_GUIDE.md](../KK1439/DIAGRAM_STYLE_GUIDE.md)
+- **Modelo de KK0651:** [parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_tecnico.md](parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_tecnico.md) §2.5
 
 $$$$$
 
 [README_MANUAL_OMNICHANNEL_GENERICO.md]
 XXXXX
-# Manual KK0106 — kkkkho
+# Manual KK0950 — KK0282
 
-Manual kkkkfa do kkkkho construído por **engenharia reversa** a partir do kkkkhk da kkkkgq kkkksg.
+Manual KK0520 do KK0282 construído por **engenharia reversa** a partir do KK0172 da KK0797 KK0949.
 
-## KK0184
+## KK0655
 
-- **kkkkhk:** `kkkkk6` (raiz do repositório).
+- **KK0172:** `KK0953` (raiz do repositório).
 
 ## Conteúdo
 
-- **[INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](./INDICE_E_PLANEJAMENTO_MANUAL_CO8.md)** — Índice das partes do manual, KK0181 kkkkhk por parte e kkkky1 de trabalho (documentar KK0046 + user story por parte). Use este arquivo para executar o manual **por partes**.
-- **[RELATORIO_PLANOS_E_MELHORIAS.md](./RELATORIO_PLANOS_E_MELHORIAS.md)** — KK0001 com: mapeamento de partes que têm KK0148; kkkky1 para documentar kkkkx5 de kkkkag e pseudo-KK0021; kkkky1 para aplicar o modelo de kkkk5w do FLUXO_03 a todas as partes; melhorias gerais e sugestões.
-- **[POLITICA_CORES_MANUAL.md](./POLITICA_CORES_MANUAL.md)** — Paleta e convenção de cores dos kkkk5w kkkk5x (início, user kkkk9q, kkkk7v, fim/erro, service).
-- **[GLOSSARIO.md](./GLOSSARIO.md)** — Glossário de kkkkyh do manual (ex.: kkkklh para kkkkg2 / menoridade).
-- **[INDICE_SCRIPTS.md](./INDICE_SCRIPTS.md)** — Índice de KK0148 kkkkiq do kkkkhk por parte (id, nome, link para FLUXO_*_tecnico).
-- **Controle de entrega e KK0005:** [PLANO_ENTREGA_PRIMEIRA_VERSAO.md](../planos_e_todos/PLANO_ENTREGA_PRIMEIRA_VERSAO.md) (critérios v1, o que falta, melhorias pós-v1); [CHECAGEM_GERAL_PLANOS_E_TODOS.md](../planos_e_todos/CHECAGEM_GERAL_PLANOS_E_TODOS.md) (status geral).
-- **To-do e aprimoramentos:** [TODO_POS_REVIEW_MANUAL.md](../planos_e_todos/TODO_POS_REVIEW_MANUAL.md) (pós-review); [TODO_INTERNO_APRIMORAMENTOS_LOTE.md](../planos_e_todos/TODO_INTERNO_APRIMORAMENTOS_LOTE.md) (controle em lote); [TODO_INTERNO_PENDENCIAS_REVIEW_100.md](../planos_e_todos/TODO_INTERNO_PENDENCIAS_REVIEW_100.md) (zerar KK0005 do review — qualidade 100%).
-- **Demandas relacionadas:** [KK0025 (KK0105)](../KK0105/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md), [KK0026 (KK0105)](../KK0105/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md); [kkkkes](../kkkk8c%20Contas/).
+- **[INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](./INDICE_E_PLANEJAMENTO_MANUAL_CO8.md)** — Índice das partes do manual, KK0552 KK0172 por parte e KK1026 de trabalho (documentar KK0651 + user story por parte). Use este arquivo para executar o manual **por partes**.
+- **[RELATORIO_PLANOS_E_MELHORIAS.md](./RELATORIO_PLANOS_E_MELHORIAS.md)** — KK1154 com: mapeamento de partes que têm KK1223; KK1026 para documentar KK1146 de KK0911 e pseudo-KK0398; KK1026 para aplicar o modelo de KK0493 do FLUXO_03 a todas as partes; melhorias gerais e sugestões.
+- **[POLITICA_CORES_MANUAL.md](./POLITICA_CORES_MANUAL.md)** — Paleta e convenção de cores dos KK0493 KK0865 (início, user KK1332, KK0669, fim/erro, service).
+- **[GLOSSARIO.md](./GLOSSARIO.md)** — Glossário de KK1351 do manual (ex.: KK0346 para KK0640 / menoridade).
+- **[INDICE_SCRIPTS.md](./INDICE_SCRIPTS.md)** — Índice de KK1223 KK1335 do KK0172 por parte (id, nome, link para FLUXO_*_tecnico).
+- **Controle de entrega e KK1007:** [PLANO_ENTREGA_PRIMEIRA_VERSAO.md](../planos_e_todos/PLANO_ENTREGA_PRIMEIRA_VERSAO.md) (critérios v1, o que falta, melhorias pós-v1); [CHECAGEM_GERAL_PLANOS_E_TODOS.md](../planos_e_todos/CHECAGEM_GERAL_PLANOS_E_TODOS.md) (status geral).
+- **To-do e aprimoramentos:** [TODO_POS_REVIEW_MANUAL.md](../planos_e_todos/TODO_POS_REVIEW_MANUAL.md) (pós-review); [TODO_INTERNO_APRIMORAMENTOS_LOTE.md](../planos_e_todos/TODO_INTERNO_APRIMORAMENTOS_LOTE.md) (controle em lote); [TODO_INTERNO_PENDENCIAS_REVIEW_100.md](../planos_e_todos/TODO_INTERNO_PENDENCIAS_REVIEW_100.md) (zerar KK1007 do review — qualidade 100%).
+- **Demandas relacionadas:** [KK0526 (KK0898)](../KK0898/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md), [KK1169 (KK0898)](../KK0898/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md); [KK1284](../KK1282%20Contas/).
 
 ## Objetivo
 
-Para cada **parte** (agrupamento lógico/semântico do KK0046):
+Para cada **parte** (agrupamento lógico/semântico do KK0651):
 
-1. **Documentar o KK0046 em detalhes** (kkkkvu, saídas, condições, kkkkvo, kkkkgc).
-2. **Criar a user story correspondente** (critérios de kkkkmk ancorados no kkkkhk).
+1. **Documentar o KK0651 em detalhes** (KK0578, saídas, condições, KK1423, KK0785).
+2. **Criar a user story correspondente** (critérios de KK0009 ancorados no KK0172).
 
 A execução é incremental: escolha uma parte no índice, siga o checklist e crie os arquivos (ex.: `parte_XX_nome/FLUXO_*.md` e `USER_STORY_*.md`).
 
-## Ao alterar o kkkkhk
+## Ao alterar o KK0172
 
-Ao alterar o `kkkkk6`:
+Ao alterar o `KK0953`:
 
-1. **Identificar a parte impactada** — Consultar [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](./INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0181 kkkkhk por parte).
-2. **Atualizar o FLUXO_*_tecnico** da parte: KK0181 kkkkhk (tabelas), sequence kkkkoa, KK0145 kkkk5x (se houver), kkkkvo.
-3. **kkkkdq** o FLUXO_*_guia e a USER_STORY_* da mesma parte (critérios de kkkkmk e descrição devem continuar auditáveis no kkkkhk).
-4. **Se a alteração envolver KK0148 kkkk9q:** atualizar pseudo-KK0021 ou kkkkx5 de kkkkag no KK0018 (e [INDICE_SCRIPTS.md](./INDICE_SCRIPTS.md) se o id/nome mudar).
+1. **Identificar a parte impactada** — Consultar [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](./INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0552 KK0172 por parte).
+2. **Atualizar o FLUXO_*_tecnico** da parte: KK0552 KK0172 (tabelas), sequence KK0649, KK0492 KK0865 (se houver), KK1423.
+3. **KK1196** o FLUXO_*_guia e a USER_STORY_* da mesma parte (critérios de KK0009 e descrição devem continuar auditáveis no KK0172).
+4. **Se a alteração envolver KK1223 KK1332:** atualizar pseudo-KK0398 ou KK1146 de KK0911 no KK1378 (e [INDICE_SCRIPTS.md](./INDICE_SCRIPTS.md) se o id/nome mudar).
 
 $$$$$
 
 [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL_GENERICO.md]
 XXXXX
-# Referência cruzada — KK0105 × kkkkes × Manual kkkkho
+# Referência cruzada — KK0898 × KK1284 × Manual KK0282
 
-**Objetivo:** Explicitar onde cada demanda (KK0105 kkkk6k, kkkkes) toca o Manual kkkkho e onde o Manual KK0200 kkkk8c/KK0105, evitando contradições.
+**Objetivo:** Explicitar onde cada demanda (KK0898 KK0921, KK1284) toca o Manual KK0282 e onde o Manual KK1138 KK1282/KK0898, evitando contradições.
 
-**Regra:** kkkkhk é a fonte única da verdade; o ramo kkkk6k é **terceiro ramo** pós-kkkks7 (não "dentro" do Vínculo kkkk64).
+**Regra:** KK0172 é a fonte única da verdade; o ramo KK0921 é **terceiro ramo** pós-KK0544 (não "dentro" do Vínculo KK1123).
 
 ---
 
-## 1. KK0105 (kkkkzz kkkkzo kkkk6k)
+## 1. KK0898 (KK1020 KK0902 KK0921)
 
 | Recurso | Conteúdo | Toque no Manual |
 | --------- | ---------- | ------------------ |
-| `documentacao/KK0105/KK0024.md` | Visão unificada do kkkkzz | KK0188 5 (kkkkxg), KK0188 7 (limites/kkkkss), KK0188 8 (kkkkmk), **KK0188 12** (pós-kkkks7: ramo kkkk6k após KK0090) |
-| `documentacao/KK0105/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` | Dúvidas abertas/fechadas | Decisões impactam FLUXO_12_tecnico quando o ramo kkkk6k for desenhado no kkkkhk |
-| `documentacao/KK0105/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` | Ownership front/kkkkz2, kkkkhp x kkkkgm | Manual não descreve kkkkxb; INDICE e README linkam para este doc |
-| `documentacao/KK0105/interno/kkkk7p/`, `DUVIDAS_REFINAMENTO_*` | kkkkwu e KK0002 | Sugestões e KK0003 para ramo kkkk6k; alinhar Manual KK0188 12 com decisão "terceiro ramo" |
+| `documentacao/KK0898/KK0899.md` | Visão unificada do KK1020 | KK1000 5 (KK0497), KK1000 7 (limites/KK0936), KK1000 8 (KK0009), **KK1000 12** (pós-KK0544: ramo KK0921 após KK0690) |
+| `documentacao/KK0898/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` | Dúvidas abertas/fechadas | Decisões impactam FLUXO_12_tecnico quando o ramo KK0921 for desenhado no KK0172 |
+| `documentacao/KK0898/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` | Ownership front/KK0130, KK0144 x KK0217 | Manual não descreve KK0980; INDICE e README linkam para este doc |
+| `documentacao/KK0898/interno/KK0040/`, `DUVIDAS_REFINAMENTO_*` | KK0041 e KK1142 | Sugestões e KK0467 para ramo KK0921; alinhar Manual KK1000 12 com decisão "terceiro ramo" |
 
-**Foco:** kkkky0 kkkkzo kkkk6k, ramo pós-kkkks7 (kkkk7v kkkkzz → kkkkth kkkkia → KK0012 → atualização kkkk3l).
+**Foco:** KK1019 KK0902 KK0921, ramo pós-KK0544 (KK0669 KK1020 → KK1406 KK1124 → KK0657 → atualização KK1086).
 
 ---
 
-## 2. kkkkes
+## 2. KK1284
 
 | Recurso | Conteúdo | Toque no Manual |
 | --------- | ---------- | ------------------ |
-| `documentacao/kkkkes/SETUP_CONTAS_*` | Visão e detalhes kkkkes | **KK0188 12**: `KK0069`, `KK0070`; KK0046 em paralelo ao Vínculo kkkk64 |
-| — | Producer e kkkktm | kkkk59 no kkkkhk na mesma região que KK0188 12 (KK0090, ramos paralelos) |
+| `documentacao/KK1284/SETUP_CONTAS_*` | Visão e detalhes KK1284 | **KK1000 12**: `KK1076`, `KK0106`; KK0651 em paralelo ao Vínculo KK1123 |
+| — | Producer e KK0120 | KK0551 no KK0172 na mesma região que KK1000 12 (KK0690, ramos paralelos) |
 
-**Foco:** Producer kkkkes, kkkktm pós-kkkks7; compartilha com o Manual a **KK0188 12** (pós-kkkks7).
+**Foco:** Producer KK1284, KK0120 pós-KK0544; compartilha com o Manual a **KK1000 12** (pós-KK0544).
 
 ---
 
-## 3. Manual kkkkho
+## 3. Manual KK0282
 
-| Recurso | Conteúdo | Referência a KK0105/kkkk8c |
+| Recurso | Conteúdo | Referência a KK0898/KK1282 |
 | --------- | ---------- | ---------------------------- |
-| `documentacao/Manual KK0106/INDICE_E_PLANEJAMENTO_MANUAL_CO8.md` | Índice das 16 partes, KK0181 kkkkhk | §5 Referências cruzadas: links para DUVIDAS, KK0026, kkkk8c/KK0105, [este doc](REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md) |
-| `documentacao/Manual KK0106/parte_12_*/FLUXO_12_*.md` | Pós-kkkks7, kkkk8c e Vínculo kkkk64 | KK0188 12 descreve o kkkkhk atual; ramo kkkk6k será **novo ramo** do KK0090 (não dentro de KK0091) |
-| `documentacao/Manual KK0106/GLOSSARIO.md` | kkkkyg (kkkklh para kkkkg2 / menoridade) | Alinhado com DUVIDAS §6.1 e KK0012 |
+| `documentacao/Manual KK0950/INDICE_E_PLANEJAMENTO_MANUAL_CO8.md` | Índice das 16 partes, KK0552 KK0172 | §5 Referências cruzadas: links para DUVIDAS, KK1169, KK1282/KK0898, [este doc](REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md) |
+| `documentacao/Manual KK0950/parte_12_*/FLUXO_12_*.md` | Pós-KK0544, KK1282 e Vínculo KK1123 | KK1000 12 descreve o KK0172 atual; ramo KK0921 será **novo ramo** do KK0690 (não dentro de KK0020) |
+| `documentacao/Manual KK0950/GLOSSARIO.md` | KK1350 (KK0346 para KK0640 / menoridade) | Alinhado com DUVIDAS §6.1 e KK0657 |
 
 ---
 
@@ -312,172 +312,172 @@ XXXXX
 
 | Demanda | Partes do Manual impactadas | Observação |
 | --------- | ----------------------------- | ------------ |
-| **KK0105 kkkk6k** | 5 (kkkkxg), 7 (limites/kkkkss), 8 (kkkkmk), **12** (ramo pós-kkkks7) | Ramo kkkk6k = terceiro ramo; não confundir com "dentro do Vínculo kkkk64" |
-| **kkkkes** | **12** (KK0069, KK0070) | Um dos ramos paralelos pós KK0090 |
-| **Manual** | 1–16 | Referencia KK0105/kkkk8c no INDICE §5 e no README |
+| **KK0898 KK0921** | 5 (KK0497), 7 (limites/KK0936), 8 (KK0009), **12** (ramo pós-KK0544) | Ramo KK0921 = terceiro ramo; não confundir com "dentro do Vínculo KK1123" |
+| **KK1284** | **12** (KK1076, KK0106) | Um dos ramos paralelos pós KK0690 |
+| **Manual** | 1–16 | Referencia KK0898/KK1282 no INDICE §5 e no README |
 
 ---
 
 ## 5. Consistência
 
-- **Ramo kkkk6k:** Documentação KK0105 e Manual devem descrever o ramo kkkk6k como **terceiro ramo** saindo do KK0090 (em paralelo a kkkk8c e Vínculo kkkk64), não como KK0137 dentro do Vínculo kkkk64.
-- **KK0188 12:** Ao expandir FLUXO_12_tecnico para o ramo kkkk6k, usar os kkkk5j e nomes definidos no kkkkhk após a kkkkwb e as KK0003 em DUVIDAS/kkkk7p.
+- **Ramo KK0921:** Documentação KK0898 e Manual devem descrever o ramo KK0921 como **terceiro ramo** saindo do KK0690 (em paralelo a KK1282 e Vínculo KK1123), não como KK1315 dentro do Vínculo KK1123.
+- **KK1000 12:** Ao expandir FLUXO_12_tecnico para o ramo KK0921, usar os KK0755 e nomes definidos no KK0172 após a KK0883 e as KK0467 em DUVIDAS/KK0040.
 
 ---
 
-## 6. Manual aprimorado (§4 kkkkvt e saídas) × KK0105
+## 6. Manual aprimorado (§4 KK0577 e saídas) × KK0898
 
-Todos os `FLUXO_*_tecnico.md` possuem **§4 kkkkvt e saídas da parte** com KK0145 de contexto (kkkk5x) e tabelas kkkkvt/kkkkvv. As **partes impactadas pelo KK0105** incluem KK0199 explícita ao kkkkzz kkkkzo kkkk6k nessa seção:
+Todos os `FLUXO_*_tecnico.md` possuem **§4 KK0577 e saídas da parte** com KK0492 de contexto (KK0865) e tabelas KK0577/KK1213. As **partes impactadas pelo KK0898** incluem KK1139 explícita ao KK1020 KK0902 KK0921 nessa seção:
 
-| KK0188 | Onde está a KK0199 ao KK0105 |
+| KK1000 | Onde está a KK1139 ao KK0898 |
 | ------- | ----------------------------------- |
-| **5** (Segmentação e kkkkxg) | §4 — bloco "Relação com kkkkzo kkkk6k": kkkkxg kkkkdp kkkkss com KK0052; kkkkvo reutilizadas no ramo pós-kkkks7 (KK0188 12). Links para REFERENCIA_CRUZADA e KK0024. |
-| **7** (Limites e kkkkss GE) | §4 — bloco "Relação com kkkkzo kkkk6k": kkkksp de kkkkgw do kkkkxg; kkkkss/mapeamento GE alimentam ramo pós-kkkks7. Link para REFERENCIA_CRUZADA. |
-| **8** (kkkkwt, kkkkmk e kkkkyh) | §4 — bloco "Relação com kkkkzo kkkk6k": kkkkmk consome kkkkss do kkkkxg; kkkkvo persistem para KK0012 no ramo kkkkzo kkkk6k (KK0188 12). Link para REFERENCIA_CRUZADA. |
-| **12** (kkkk8c e Vínculo kkkk64) | §4 — KK0145 com **terceiro ramo "Ramo kkkkzo kkkk6k"** (KK0210 tracejada "a kkkkdx"); tabela kkkkvv com linha dedicada ao ramo kkkkzo kkkk6k; nota com links para KK0105/ e REFERENCIA_CRUZADA. |
+| **5** (Segmentação e KK0497) | §4 — bloco "Relação com KK0902 KK0921": KK0497 KK1186 KK0936 com KK0745; KK1423 reutilizadas no ramo pós-KK0544 (KK1000 12). Links para REFERENCIA_CRUZADA e KK0899. |
+| **7** (Limites e KK0936 GE) | §4 — bloco "Relação com KK0902 KK0921": KK0823 de KK0245 do KK0497; KK0936/mapeamento GE alimentam ramo pós-KK0544. Link para REFERENCIA_CRUZADA. |
+| **8** (KK1078, KK0009 e KK1351) | §4 — bloco "Relação com KK0902 KK0921": KK0009 consome KK0936 do KK0497; KK1423 persistem para KK0657 no ramo KK0902 KK0921 (KK1000 12). Link para REFERENCIA_CRUZADA. |
+| **12** (KK1282 e Vínculo KK1123) | §4 — KK0492 com **terceiro ramo "Ramo KK0902 KK0921"** (KK1281 tracejada "a KK0884"); tabela KK1213 com linha dedicada ao ramo KK0902 KK0921; nota com links para KK0898/ e REFERENCIA_CRUZADA. |
 
-**Benefício:** Quem lê o manual KK0018 nas partes 5, 7, 8 e 12 encontra, na mesma seção de kkkkvu/saídas, o vínculo com o kkkkzz kkkkzo kkkk6k e os documentos de KK0199 (REFERENCIA_CRUZADA, KK0024, pasta KK0105/).
+**Benefício:** Quem lê o manual KK1378 nas partes 5, 7, 8 e 12 encontra, na mesma seção de KK0578/saídas, o vínculo com o KK1020 KK0902 KK0921 e os documentos de KK1139 (REFERENCIA_CRUZADA, KK0899, pasta KK0898/).
 
 ---
 
-## 7. kkkki5 (kkkkgv kkkkhk) × Manual
+## 7. KK1438 (KK0471 KK0172) × Manual
 
-Os **inventários kkkkh5/kkkkh6** e **kkkkwu** do kkkkyy (`documentacao/kkkkyy/kkkk5e da kkkkgv/`, `documentacao/kkkkyy/kkkk7p/`) referem-se ao mesmo kkkkhk que o Manual documenta por partes. O **ramo kkkkzo kkkk6k** (KK0188 12) será o terceiro ramo saindo do KK0090; a documentação de kkkkgv (kkkkh0 + kkkkgx–4, blocos kkkkh6) está em `documentacao/kkkkyy/`.
+Os **inventários KK0903/KK0904** e **KK0041** do KK1439 (`documentacao/KK1439/KK0789 da KK0471/`, `documentacao/KK1439/KK0040/`) referem-se ao mesmo KK0172 que o Manual documenta por partes. O **ramo KK0902 KK0921** (KK1000 12) será o terceiro ramo saindo do KK0690; a documentação de KK0471 (KK0995 + KK0173–4, blocos KK0904) está em `documentacao/KK1439/`.
 
-**Cruzamento explícito kkkki5 ↔ Manual:** [REFERENCIA_CRUZADA_VISIONING_MANUAL.md](../kkkkyy/REFERENCIA_CRUZADA_VISIONING_MANUAL.md) — tabelas “Onde o kkkkyy toca o Manual” e “Onde o Manual KK0200 kkkkyy”; uso para kkkkwf bidirecional.
+**Cruzamento explícito KK1438 ↔ Manual:** [REFERENCIA_CRUZADA_VISIONING_MANUAL.md](../KK1439/REFERENCIA_CRUZADA_VISIONING_MANUAL.md) — tabelas “Onde o KK1439 toca o Manual” e “Onde o Manual KK1138 KK1439”; uso para KK0910 bidirecional.
 
 $$$$$
 
 [RELATORIO_PLANOS_E_MELHORIAS_GENERICO.md]
 XXXXX
-# KK0001 — Planos e melhorias do Manual KK0106
+# KK1154 — Planos e melhorias do Manual KK0950
 
 **Data:** 2025-03-14  
-**KK0183:** kkkk58 de KK0028, kkkky1 de documentação de kkkkx5/pseudo-KK0021, kkkky1 de kkkk5w (modelo FLUXO_03), melhorias gerais e **kkkky1 de melhoria como remédio às dores da equipe** (kkkkgm, kkkkho, kkkkvo, kkkkxb, botão kkkkgu, capacidade).
+**KK0598:** KK0844 de KK1245, KK1026 de documentação de KK1146/pseudo-KK0398, KK1026 de KK0493 (modelo FLUXO_03), melhorias gerais e **KK1026 de melhoria como remédio às dores da equipe** (KK0217, KK0282, KK1423, KK0980, botão KK1451, capacidade).
 
-**KK0184:** `kkkkk6` e documentação em `documentacao/Manual KK0106/`.
+**KK0655:** `KK0953` e documentação em `documentacao/Manual KK0950/`.
 
 ---
 
-## 1. kkkk58 de partes com KK0148 e kkkky1 de documentação
+## 1. KK0844 de partes com KK1223 e KK1026 de documentação
 
-### 1.1 Partes que possuem KK0148 kkkkiq (kkkkhk)
+### 1.1 Partes que possuem KK1223 KK1335 (KK0172)
 
-Script kkkkiq identificados no `kkkkk6` e sua associação às partes do manual:
+Script KK1335 identificados no `KK0953` e sua associação às partes do manual:
 
-| KK0188 | Nome da parte | Scripts / lógica automatizada | Observação |
+| KK1000 | Nome da parte | Scripts / lógica automatizada | Observação |
 | ------- | ---------------- | -------------------------------- | ------------ |
-| **1** | Início e identificação | `kkkkm2` (KK0044) | Única KK0148 da parte; define KK0046, tempos, KK0047, KK0042. |
-| **2** | kkkkgd inicial / dados de contato | `KK0107` (a jusante); `script_atualiza_eq3_titular_representante`, `kkkkny`, `KK0201`, `KK0202` (kkkkvu em kkkkjt) | Vários KK0028 de atualização kkkkhq tocados pelo KK0046 de contato/nome/KK0168. |
-| **5** | Segmentação e kkkkxg | `kkkkno`, `kkkkm6`, `atualizar_representante` (KK0044); `kkkkm3`; `KK0109`, `KK0110` | Delegates/KK0028 de atualização de kkkk1x e kkkkeo. |
-| **6** | kkkk7u / kkkkg3 / kkkkgt | `KK0104` (KK0044); `KK0108` | Montagem de objeto para kkkkgt e tratamento de recusa. |
-| **7** | Limites, kkkkss e mapeamento GE | `kkkknx` (JavaScript); `KK0096` (KK0044); `kkkkou` | kkkk58 para GE e kkkkmn de kkkksp. |
-| **8** | kkkkwt, kkkkmk e kkkkyh | `KK0096`, `kkkkmw`, `kkkkmx`; `kkkkns` (kkkk58 kkkkyn), `Activity_097rtf7` (Mapeia kkkkwx kkkkg7 Ofertas) | Scripts de kkkkss, kkkkmj e kkkkmm. |
-| **10** | kkkk56 pré-kkkks7 | `Activity_0uurkex` (Script monta kkkkmn kkkkgb), `Activity_15q9p5w` (Tratativa responde biocatch) | KK0030 kkkkgb. |
-| **11** | kkkk7y da kkkklh | `kkkkne`, `KK0107`, `kkkkm1` (KK0044) | Preparação kkkks7, atualização kkkkhq e geração de KK0148. |
-| **13** | Benefício kkkkhm | `KK0077` (KK0044) | Agrupamento de dados para kkkks7 kkkkhm. |
-| **15** | kkkkhu, envios e finalização | `KK0087`, `KK0088`, `KK0089` (KK0044) | kkkk58 de kkkkvn kkkkhu e montagem de KK0151. |
-| **16** | Eventos kkkkyi e exceções | `KK0111`, `KK0112` (KK0044) | KK0129 cadastro kkkkff. |
+| **1** | Início e identificação | `KK1232` (KK0732) | Única KK1223 da parte; define KK0651, tempos, KK1312, KK1357. |
+| **2** | KK0196 inicial / dados de contato | `KK1233` (a jusante); `script_atualiza_eq3_titular_representante`, `KK1243`, `KK1244`, `KK1234` (KK0578 em KK0414) | Vários KK1245 de atualização KK0586 tocados pelo KK0651 de contato/nome/KK0570. |
+| **5** | Segmentação e KK0497 | `KK0111`, `KK0112`, `atualizar_representante` (KK0732); `KK1222`; `KK1236`, `KK1237` | Delegates/KK1245 de atualização de KK0273 e KK0550. |
+| **6** | KK0134 / KK1467 / KK0065 | `KK0893` (KK0732); `KK1238` | Montagem de objeto para KK0065 e tratamento de recusa. |
+| **7** | Limites, KK0936 e mapeamento GE | `KK0856` (JavaScript); `KK1240` (KK0732); `KK0894` | KK0844 para GE e KK1001 de KK0823. |
+| **8** | KK1078, KK0009 e KK1351 | `KK1240`, `KK1248`, `KK1231`; `KK0030` (KK0844 KK0561), `Activity_097rtf7` (Mapeia KK0399 KK1013 Ofertas) | Scripts de KK0936, KK0528 e KK0324. |
+| **10** | KK1405 pré-KK0544 | `Activity_0uurkex` (Script monta KK1001 KK0145), `Activity_15q9p5w` (Tratativa responde biocatch) | KK0782 KK0145. |
+| **11** | KK0543 da KK0346 | `KK1235`, `KK1233`, `KK0714` (KK0732) | Preparação KK0544, atualização KK0586 e geração de KK1223. |
+| **13** | Benefício KK0776 | `KK0044` (KK0732) | Agrupamento de dados para KK0544 KK0776. |
+| **15** | KK0982, envios e finalização | `KK0854`, `KK0855`, `KK0892` (KK0732) | KK0844 de KK0372 KK0982 e montagem de KK0530. |
+| **16** | Eventos KK1371 e exceções | `KK1241`, `KK1242` (KK0732) | KK1002 cadastro KK1202. |
 
-**Partes sem KK0148 kkkk9q no escopo principal:** 3 (kkkkl9), 4 (seleção kkkk1o), 9 (kkkks4/kkkkiu), 12 (kkkk8g/vínculo kkkkia), 14 (kkkkh1/Mesa kkkkh1). Podem ter service kkkkiq ou call activities com lógica relevante.
+**Partes sem KK1223 KK1332 no escopo principal:** 3 (KK0408), 4 (seleção KK0046), 9 (KK0149/KK1267), 12 (KK1283/vínculo KK1124), 14 (KK1029/Mesa KK1029). Podem ter service KK1335 ou call activities com lógica relevante.
 
 ---
 
-### 1.2 kkkky2: documentar kkkkx5 de kkkkag
+### 1.2 KK1025: documentar KK1146 de KK0911
 
-| Fase | Ação | kkkkwy sugerido | Entregável |
+| Fase | Ação | KK1174 sugerido | Entregável |
 | ------ | ------ | ---------------------- | ------------ |
-| 1 | **kkkk5e de kkkkx5 por KK0148** | Dev/BA | Por cada KK0148 listado em §1.1: tabela (parte, id KK0148, nome, kkkkvo lidas/escritas, regra em uma linha). |
-| 2 | **Documento de kkkkx5 de kkkkag (RN)** | BA/KK0143 | Um arquivo por parte com KK0028 (ex.: `parte_01_REGRAS_NEGOCIO.md`) com: pré-condições, pós-condições, kkkkx5 explícitas (ex.: “KK0047: se informado no start, manter; senão 'kkkkve'”), exceções. |
-| 3 | **kkkk5p com kkkkhk** | KK0142/Dev | Garantir que cada RN é kkkkla no kkkkhk (KK0203, condições de kkkk7v, nome da kkkk9q). |
-| 4 | **Manutenção** | Time | Atualizar RN quando o kkkkhk ou o KK0021 do KK0148 mudar. |
+| 1 | **KK0789 de KK1146 por KK1223** | Dev/BA | Por cada KK1223 listado em §1.1: tabela (parte, id KK1223, nome, KK1423 lidas/escritas, regra em uma linha). |
+| 2 | **Documento de KK1146 de KK0911 (RN)** | BA/KK1031 | Um arquivo por parte com KK1245 (ex.: `parte_01_REGRAS_NEGOCIO.md`) com: pré-condições, pós-condições, KK1146 explícitas (ex.: “KK1312: se informado no start, manter; senão 'KK1017'”), exceções. |
+| 3 | **KK1197 com KK0172** | KK1131/Dev | Garantir que cada RN é KK0123 no KK0172 (KK0775, condições de KK0669, nome da KK1332). |
+| 4 | **Manutenção** | Time | Atualizar RN quando o KK0172 ou o KK0398 do KK1223 mudar. |
 
-**Prioridade sugerida:** Partes 1, 7, 11 (alto impacto em kkkkvo e integração); depois 2, 5, 8; por fim 6, 10, 13, 15, 16.
+**Prioridade sugerida:** Partes 1, 7, 11 (alto impacto em KK1423 e integração); depois 2, 5, 8; por fim 6, 10, 13, 15, 16.
 
 ---
 
-### 1.3 kkkky2: documentar com pseudo-KK0021
+### 1.3 KK1025: documentar com pseudo-KK0398
 
 | Fase | Ação | Entregável |
 | ------ | ------ | ------------ |
-| 1 | **Template de pseudo-KK0021** | Criar `documentacao/Manual KK0106/_template_PSEUDOCODIGO_SCRIPT.md` com: nome do KK0148, objetivo, kkkkvo de entrada/saída, pseudo-KK0021 em português/estilo estruturado (KK0223/KK0224, ENQUANTO, atribuições). |
-| 2 | **Pseudo-KK0021 por KK0148 (por parte)** | Para cada parte com KK0148 (§1.1): adicionar em `FLUXO_<N>_tecnico.md` uma seção “Pseudo-KK0021 (KK0199)” ou criar `parte_<N>_pseudocodigo.md` com um bloco por KK0148: objetivo, kkkkvu/saídas, passos em pseudo-KK0021. |
-| 3 | **Ordem de preenchimento** | KK0188 1 (`kkkkm2`) → KK0188 11 (kkkks7 e kkkkhq) → KK0188 7 (kkkknx, KK0096) → demais conforme prioridade de kkkkag. |
+| 1 | **Template de pseudo-KK0398** | Criar `documentacao/Manual KK0950/_template_PSEUDOCODIGO_SCRIPT.md` com: nome do KK1223, objetivo, KK1423 de entrada/saída, pseudo-KK0398 em português/estilo estruturado (KK1249/KK0579, ENQUANTO, atribuições). |
+| 2 | **Pseudo-KK0398 por KK1223 (por parte)** | Para cada parte com KK1223 (§1.1): adicionar em `FLUXO_<N>_tecnico.md` uma seção “Pseudo-KK0398 (KK1139)” ou criar `parte_<N>_pseudocodigo.md` com um bloco por KK1223: objetivo, KK0578/saídas, passos em pseudo-KK0398. |
+| 3 | **Ordem de preenchimento** | KK1000 1 (`KK1232`) → KK1000 11 (KK0544 e KK0586) → KK1000 7 (KK0856, KK1240) → demais conforme prioridade de KK0911. |
 
-**Exemplo de estrutura de pseudo-KK0021 (KK0188 1):**
+**Exemplo de estrutura de pseudo-KK0398 (KK1000 1):**
 
 ```text
-KK0216 kkkkm2
-Objetivo: Inicializar kkkkvo de KK0046 e tempos de kkkkyo ao iniciar a kkkk5h.
+KK1224 KK1232
+Objetivo: Inicializar KK1423 de KK0651 e tempos de KK0621 ao iniciar a KK0780.
 
-Entrada (opcional): KK0047 (se enviado no start).
-Saída: KK0046, KK0043, KK0040, KK0041, KK0047, KK0042 (condicional).
+Entrada (opcional): KK1312 (se enviado no start).
+Saída: KK0651, KK1344, KK1343, KK0296, KK1312, KK1357 (condicional).
 
-KK0217:
-  ATRIBUIR KK0046 = "kkkksg"
-  ATRIBUIR KK0043 = "PT20M"
-  ATRIBUIR KK0040 = "P22D"
-  ATRIBUIR KK0041 = "514017224"
-  KK0223 KK0047 já existe E não é vazio KK0224
-    MANTER KK0047
-  KK0221
-    ATRIBUIR KK0047 = "kkkkve"
-  KK0223 KK0047 == "KK0037" KK0224
-    ATRIBUIR KK0042 = "KK0037"
+KK1129:
+  ATRIBUIR KK0651 = "KK0949"
+  ATRIBUIR KK1344 = "PT20M"
+  ATRIBUIR KK1343 = "P22D"
+  ATRIBUIR KK0296 = "514017224"
+  KK1249 KK1312 já existe E não é vazio KK0579
+    MANTER KK1312
+  KK1269
+    ATRIBUIR KK1312 = "KK1017"
+  KK1249 KK1312 == "KK0811" KK0579
+    ATRIBUIR KK1357 = "KK0811"
 ```
 
 ---
 
-## 2. kkkky2: aplicar o modelo de kkkk5w do FLUXO_03 a todas as partes
+## 2. KK1025: aplicar o modelo de KK0493 do FLUXO_03 a todas as partes
 
-### 2.1 Modelo de KK0199 (FLUXO_03_tecnico)
+### 2.1 Modelo de KK1139 (FLUXO_03_tecnico)
 
 O **FLUXO_03_tecnico.md** contém:
 
-1. **§2.5 kkkk5v kkkkhk (visão da parte)**  
-   - **kkkkvq principal (continuar) e saídas:** um KK0145 kkkk5x (flowchart LR) com: kkkkx9 de início (círculo verde), user kkkkiq em retângulos arredondados (KK0207), kkkk7v em losango (amarelo), saídas para tarefas/eventos de fim (círculos vermelhos). Estilo “modeler”.  
-   - **kkkkwk events (timer → kkkkyo):** segundo KK0145 com user kkkkiq, eventos de timer (⏱) e KK0046 para “kkkk63”.  
-   - **Fluxos “kkkkgu”:** terceiro KK0145 com subgrafos por parte (KK0188 2, 3, 4), setas tracejadas com rótulo “kkkkgu” e tabela De/Para/Flow.
+1. **§2.5 KK0491 KK0172 (visão da parte)**  
+   - **KK0650 principal (continuar) e saídas:** um KK0492 KK0865 (flowchart LR) com: KK0610 de início (círculo verde), user KK1335 em retângulos arredondados (KK0127), KK0669 em losango (amarelo), saídas para tarefas/eventos de fim (círculos vermelhos). Estilo “modeler”.  
+   - **KK0165 events (timer → KK0621):** segundo KK0492 com user KK1335, eventos de timer (⏱) e KK0651 para “KK0620”.  
+   - **Fluxos “KK1451”:** terceiro KK0492 com subgrafos por parte (KK1000 2, 3, 4), setas tracejadas com rótulo “KK1451” e tabela De/Para/Flow.
 
-2. **Estrutura de seções:** §1 Objetivo, §2 kkkk59 kkkkhk (2.1 User kkkkiq, 2.2 kkkkis, 2.3 Sequence kkkkoa, 2.4 kkkkwk events, 2.5 Diagramas), §3 Variáveis, §4 kkkkvt e saídas, §5 Referências.
+2. **Estrutura de seções:** §1 Objetivo, §2 KK0551 KK0172 (2.1 User KK1335, 2.2 KK0668, 2.3 Sequence KK0649, 2.4 KK0165 events, 2.5 Diagramas), §3 Variáveis, §4 KK0577 e saídas, §5 Referências.
 
 ### 2.2 Estado atual dos FLUXO_*_tecnico
 
-| KK0188 | Tem KK0145 kkkk5x? | Tipo | Observação |
+| KK1000 | Tem KK0492 KK0865? | Tipo | Observação |
 | ------- | ------------------------ | ------ | ------------ |
-| 1 | Sim | 1 KK0145 resumido | Não segue o padrão 03 (sem KK0196, sem kkkkgu). |
-| 2 | Sim | 1 KK0145 resumido | kkkkvq principal + KK0199 a KK0107; sem KK0145 de kkkkgu dedicado. |
-| 3 | Sim | 3 kkkk5w (principal, KK0196, kkkkgu) | **Modelo de KK0199.** |
-| 4–16 | Não (ou não verificado) | — | FLUXO_04 a FLUXO_16 sem seção “kkkk5v kkkkhk” no padrão do 03. |
+| 1 | Sim | 1 KK0492 resumido | Não segue o padrão 03 (sem KK0166, sem KK1451). |
+| 2 | Sim | 1 KK0492 resumido | KK0650 principal + KK1139 a KK1233; sem KK0492 de KK1451 dedicado. |
+| 3 | Sim | 3 KK0493 (principal, KK0166, KK1451) | **Modelo de KK1139.** |
+| 4–16 | Não (ou não verificado) | — | FLUXO_04 a FLUXO_16 sem seção “KK0491 KK0172” no padrão do 03. |
 
-### 2.3 kkkky2 de aplicação do modelo (por parte)
+### 2.3 KK1025 de aplicação do modelo (por parte)
 
-| # | KK0188 | Ação | Conteúdo do KK0145 principal | kkkkwk / KK0194 |
+| # | KK1000 | Ação | Conteúdo do KK0492 principal | KK0165 / KK1452 |
 | --- | ------- | ------ | ------------------------------- | ------------------- |
-| 1 | Início e identificação | Atualizar §4 existente para padrão 2.5; cores kkkkhk | Start → kkkkm2 → kkkkis “kkkklq” | N/A (sem KK0196); sem kkkkgu. |
-| 2 | kkkkgd inicial / dados de contato | Adicionar §2.5 (ou equivalente) com 3 kkkk5w | KK0152 → KK0157 → Data nascimento; ramo KK0159 e kkkk7v KK0160 KK0162 | kkkkwk: timer nas 4 user kkkkiq → kkkk63. KK0194: tabela + KK0145 (KK0154↔nome, KK0158↔KK0154, data nasc↔KK0158, KK0159→KK0168). |
-| 4 | Seleção de kkkk1o e kkkklu | Adicionar seção kkkk5v kkkkhk | kkkkjg → kkkknq → convergência | Timer em kkkkjg; kkkkgu: kkkkjg → kkkkjt. |
-| 5 | Segmentação e kkkkxg | Adicionar seção kkkk5v kkkkhk | kkkkis “kkkklq” → kkkkxg (com/sem kkkk1o) → kkkkno → KK0049 → kkkkjb/upgrade → kkkkb0 | Sem KK0196 no escopo; ramos de exceção (não elegível, kkkklv) em um KK0145 opcional. |
-| 6 | kkkk7u / kkkkg3 / kkkkgt | Adicionar seção kkkk5v kkkkhk | kkkkis kkkkg3/upgrade → kkkkoe ou KK0046 normal; kkkkgt EZ8/kkkkhy; kkkk7v aprovar/recusar | Sem kkkkgu de KK0173; ramos de erro/recusa podem ser segundo KK0145. |
-| 7 | Limites, kkkkss e mapeamento GE | Adicionar seção kkkk5v kkkkhk | kkkkha → kkkknx → kkkkij → kkkkpi / atualizar | Sem KK0196/kkkkgu típico. |
-| 8 | kkkkwt, kkkkmk e kkkkyh | Adicionar seção kkkk5v kkkkhk | kkkkid → kkkkif → kkkkmy → kkkkib | KK0194 (ex.: para KK0064): KK0145 ou tabela. |
-| 9 | kkkkxf e kkkkwc de kkkkiu | Adicionar seção kkkk5v kkkkhk | KK0060 → kkkkis (aprovado/recusado/não elegível) → KK0064 → KK0065 | Ramos de recusa/não elegível como segundo KK0145. |
-| 10 | kkkk56 pré-kkkks7 e kkkkxo | Adicionar seção kkkk5v kkkkhk | consulta_conta → kkkkis → kkkkc7 ou não efetivada | Erros (tentativa excedida) em ramo. |
-| 11 | kkkk7y da kkkklh | Adicionar seção kkkk5v kkkkhk | kkkkne → kkkkel → KK0126 / KK0107 → kkkkn7 | Sem KK0196/kkkkgu. |
-| 12 | Pós-kkkks7, kkkk8g e vínculo kkkkia | Adicionar seção kkkk5v kkkkhk | Ramos paralelos: kkkk8g kkkk7g, vínculo kkkkia, KK0073, KK0074 | Sem KK0196/kkkkgu. |
-| 13 | Benefício kkkkhm | Adicionar seção kkkk5v kkkkhk | KK0075 → KK0076 → KK0078 → KK0079 | Sem KK0196/kkkkgu. |
-| 14 | kkkkh1 e Mesa kkkkh1 | Adicionar seção kkkk5v kkkkhk | KK0080 → kkkkaf kkkkli → KK0083 | Ramos de kkkkli. |
-| 15 | kkkkhu, envios e finalização | Adicionar seção kkkk5v kkkkhk | KK0084 / KK0085 → KK0086 → KK0089 → kkkkdt | Sem KK0196/kkkkgu. |
-| 16 | Eventos kkkkyi e exceções | Adicionar seção kkkk5v kkkkhk | kkkk63, Cancelamento, Bloq kkkk64, Reset, kkkk0f (atividades/eventos) | Um KK0145 por tipo de kkkkx9 ou um consolidado. |
+| 1 | Início e identificação | Atualizar §4 existente para padrão 2.5; cores KK0172 | Start → KK1232 → KK0668 “KK1341” | N/A (sem KK0166); sem KK1451. |
+| 2 | KK0196 inicial / dados de contato | Adicionar §2.5 (ou equivalente) com 3 KK0493 | KK0531 → KK1340 → Data nascimento; ramo KK0912 e KK0669 KK1164 KK0624 | KK0165: timer nas 4 user KK1335 → KK0620. KK1452: tabela + KK0492 (KK0556↔nome, KK1339↔KK0556, data nasc↔KK1339, KK0912→KK0570). |
+| 4 | Seleção de KK0046 e KK1098 | Adicionar seção KK0491 KK0172 | KK1262 → KK1116 → convergência | Timer em KK1262; KK1451: KK1262 → KK0414. |
+| 5 | Segmentação e KK0497 | Adicionar seção KK0491 KK0172 | KK0668 “KK1341” → KK0497 (com/sem KK0046) → KK0111 → KK0339 → KK0596/upgrade → KK0503 | Sem KK0166 no escopo; ramos de exceção (não elegível, KK1255) em um KK0492 opcional. |
+| 6 | KK0134 / KK1467 / KK0065 | Adicionar seção KK0491 KK0172 | KK0668 KK1467/upgrade → KK1121 ou KK0651 normal; KK0065 EZ8/KK0082; KK0669 aprovar/recusar | Sem KK1451 de KK1392; ramos de erro/recusa podem ser segundo KK0492. |
+| 7 | Limites, KK0936 e mapeamento GE | Adicionar seção KK0491 KK0172 | KK0932 → KK0856 → KK0406 → KK1097 / atualizar | Sem KK0166/KK1451 típico. |
+| 8 | KK1078, KK0009 e KK1351 | Adicionar seção KK0491 KK0172 | KK0016 → KK1349 → KK0015 → KK0412 | KK1452 (ex.: para KK0301): KK0492 ou tabela. |
+| 9 | KK0148 e KK0297 de KK1267 | Adicionar seção KK0491 KK0172 | KK0409 → KK0668 (aprovado/recusado/não elegível) → KK0301 → KK1184 | Ramos de recusa/não elegível como segundo KK0492. |
+| 10 | KK1405 pré-KK0544 e KK0821 | Adicionar seção KK0491 KK0172 | consulta_conta → KK0668 → KK1110 ou não efetivada | Erros (tentativa excedida) em ramo. |
+| 11 | KK0543 da KK0346 | Adicionar seção KK0491 KK0172 | KK1235 → KK0534 → KK0873 / KK1233 → KK1104 | Sem KK0166/KK1451. |
+| 12 | Pós-KK0544, KK1283 e vínculo KK1124 | Adicionar seção KK0491 KK0172 | Ramos paralelos: KK1283 KK0360, vínculo KK1124, KK0533, KK1105 | Sem KK0166/KK1451. |
+| 13 | Benefício KK0776 | Adicionar seção KK0491 KK0172 | KK1348 → KK1401 → KK0538 → KK0104 | Sem KK0166/KK1451. |
+| 14 | KK1029 e Mesa KK1029 | Adicionar seção KK0491 KK0172 | KK0209 → KK0712 KK1201 → KK0866 | Ramos de KK1201. |
+| 15 | KK0982, envios e finalização | Adicionar seção KK0491 KK0172 | KK0718 / KK0719 → KK0542 → KK0892 → KK0583 | Sem KK0166/KK1451. |
+| 16 | Eventos KK1371 e exceções | Adicionar seção KK0491 KK0172 | KK0620, Cancelamento, Bloq KK1123, Reset, KK0129 (atividades/eventos) | Um KK0492 por tipo de KK0610 ou um consolidado. |
 
-### 2.4 kkkk7t por parte (kkkk5w)
+### 2.4 KK0262 por parte (KK0493)
 
-- [ ] Inserir seção **“2.x kkkk5v kkkkhk (visão da parte)”** (ou “kkkk5v resumido” alinhado ao §2.5 do 03).  
-- [ ] **kkkk5v 1 – kkkkvq principal:** kkkk5x flowchart LR, cores (verde início, KK0207 kkkkiq, amarelo kkkk7v, KK0209 fim), kkkkiq em forma estádio `([...])` quando fizer sentido.  
-- [ ] **kkkk5v 2 – kkkkwk events:** somente se a parte tiver KK0180 de timer (Partes 2, 3, 4).  
-- [ ] **kkkk5v 3 – KK0194:** somente se a parte tiver KK0204 “kkkkgu” (Partes 2, 3, 4, 8).  
-- [ ] **Tabela De/Para/Flow** para kkkkgu quando aplicável.  
-- [ ] Referência ao kkkkhk na legenda (kkkk5j dos KK0181).
+- [ ] Inserir seção **“2.x KK0491 KK0172 (visão da parte)”** (ou “KK0491 resumido” alinhado ao §2.5 do 03).  
+- [ ] **KK0491 1 – KK0650 principal:** KK0865 flowchart LR, cores (verde início, KK0127 KK1335, amarelo KK0669, KK1430 fim), KK1335 em forma estádio `([...])` quando fizer sentido.  
+- [ ] **KK0491 2 – KK0165 events:** somente se a parte tiver KK0167 de timer (Partes 2, 3, 4).  
+- [ ] **KK0491 3 – KK1452:** somente se a parte tiver KK0654 “KK1451” (Partes 2, 3, 4, 8).  
+- [ ] **Tabela De/Para/Flow** para KK1451 quando aplicável.  
+- [ ] Referência ao KK0172 na legenda (KK0755 dos KK0552).
 
 ---
 
@@ -487,94 +487,94 @@ O **FLUXO_03_tecnico.md** contém:
 
 | Melhoria | Descrição | Prioridade |
 | ---------- | ----------- | ------------ |
-| **Padronizar estrutura dos FLUXO_*_tecnico** | Estrutura mínima: 1. Objetivo, 2. kkkk59 kkkkhk (tabelas por tipo), 3. Variáveis de kkkk55, 4. kkkkvt e saídas, 5. Diagramas (quando aplicável), 6. Referências. **Quando a parte tiver KK0148 kkkkiq:** incluir §4 kkkkxe de kkkkag (KK0199) e §5 Pseudo-KK0021 (KK0199) (renumerar seguintes). Partes 1 e 2 já possuem; demais partes com KK0148 conforme PLANO_ENRIQUECIMENTO_REGRAS_NEGOCIO_PSEUDOCODIGO. | Alta |
-| **Índice de KK0028 no manual** | Criar `documentacao/Manual KK0106/INDICE_SCRIPTS.md` listando todo KK0148 kkkk9q do kkkkhk, id, parte, nome e link para FLUXO_*_tecnico ou pseudo-KK0021. | Média |
-| **Convenção de nomes** | Usar sempre “KK0188 N” e nomes de arquivo consistentes (FLUXO_NN_guia.md, FLUXO_NN_tecnico.md, USER_STORY_NN_*.md). | Baixa |
+| **Padronizar estrutura dos FLUXO_*_tecnico** | Estrutura mínima: 1. Objetivo, 2. KK0551 KK0172 (tabelas por tipo), 3. Variáveis de KK1069, 4. KK0577 e saídas, 5. Diagramas (quando aplicável), 6. Referências. **Quando a parte tiver KK1223 KK1335:** incluir §4 KK1145 de KK0911 (KK1139) e §5 Pseudo-KK0398 (KK1139) (renumerar seguintes). Partes 1 e 2 já possuem; demais partes com KK1223 conforme PLANO_ENRIQUECIMENTO_REGRAS_NEGOCIO_PSEUDOCODIGO. | Alta |
+| **Índice de KK1245 no manual** | Criar `documentacao/Manual KK0950/INDICE_SCRIPTS.md` listando todo KK1223 KK1332 do KK0172, id, parte, nome e link para FLUXO_*_tecnico ou pseudo-KK0398. | Média |
+| **Convenção de nomes** | Usar sempre “KK1000 N” e nomes de arquivo consistentes (FLUXO_NN_guia.md, FLUXO_NN_tecnico.md, USER_STORY_NN_*.md). | Baixa |
 
 ### 3.2 Conteúdo
 
 | Melhoria | Descrição | Prioridade |
 | ---------- | ----------- | ------------ |
-| **Condições de kkkk7v em tabela** | Em cada FLUXO_*_tecnico, tabela “Condições de kkkk7v” com: id do kkkk7v, nome, expressão (ex.: `${KK0122 == false}`) e ramo (SIM/Não/KK0195). Partes 2, 3, 4, 5, 6, 9, 10 têm kkkkaf relevantes. | Alta |
-| **Variáveis: leitura/escrita** | Para cada parte, tabela “Variáveis: onde são lidas/escritas” (kkkk9q id, KK0034, leitura/escrita). Ajuda KK0142 e suporte. | Média |
-| **KK0183 fora da parte** | Manter em cada USER_STORY e, quando útil, no KK0018, a seção “KK0183 fora desta US / desta parte” para evitar dúvida de fronteira. | Média |
-| **Links cruzados** | No índice (INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) ou no README do manual: links para “KK0188 anterior / próxima” em cada parte. | Baixa |
+| **Condições de KK0669 em tabela** | Em cada FLUXO_*_tecnico, tabela “Condições de KK0669” com: id do KK0669, nome, expressão (ex.: `${KK0468 == false}`) e ramo (SIM/Não/KK0472). Partes 2, 3, 4, 5, 6, 9, 10 têm KK0712 relevantes. | Alta |
+| **Variáveis: leitura/escrita** | Para cada parte, tabela “Variáveis: onde são lidas/escritas” (KK1332 id, KK1424, leitura/escrita). Ajuda KK1131 e suporte. | Média |
+| **KK0598 fora da parte** | Manter em cada USER_STORY e, quando útil, no KK1378, a seção “KK0598 fora desta US / desta parte” para evitar dúvida de fronteira. | Média |
+| **Links cruzados** | No índice (INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) ou no README do manual: links para “KK1000 anterior / próxima” em cada parte. | Baixa |
 
 ### 3.3 Guias e User Stories
 
 | Melhoria | Descrição | Prioridade |
 | ---------- | ----------- | ------------ |
-| **Guias sem kkkk5j** | Já aplicado nas guias (linguagem natural). kkkkdq partes 10–16 para garantir que não restem kkkk5j KK0178 no texto. | Média |
-| **Critérios de kkkkmk rastreáveis** | Em cada USER_STORY, manter na seção “Referência kkkkhk” os kkkk5j (kkkkiq, kkkkoa, kkkkaf) para kkkkf4, mesmo que os critérios estejam em linguagem natural. | Já feito |
-| **kkkk5v na guia** | Cada FLUXO_*_guia já tem KK0145 kkkk5x de visão geral; garantir que o KK0145 da guia não use kkkk5j (apenas nomes amigáveis). | Já feito |
+| **Guias sem KK0755** | Já aplicado nas guias (linguagem natural). KK1196 partes 10–16 para garantir que não restem KK0755 KK1379 no texto. | Média |
+| **Critérios de KK0009 rastreáveis** | Em cada USER_STORY, manter na seção “Referência KK0172” os KK0755 (KK1335, KK0649, KK0712) para KK1133, mesmo que os critérios estejam em linguagem natural. | Já feito |
+| **KK0491 na guia** | Cada FLUXO_*_guia já tem KK0492 KK0865 de visão geral; garantir que o KK0492 da guia não use KK0755 (apenas nomes amigáveis). | Já feito |
 
-### 3.4 kkkkvs e manutenção
+### 3.4 KK1068 e manutenção
 
 | Melhoria | Descrição | Prioridade |
 | ---------- | ----------- | ------------ |
-| **Atualização quando o kkkkhk mudar** | kkkk7t no índice ou no README: “Ao alterar o kkkkhk: atualizar FLUXO_*_tecnico da parte impactada; revisar USER_STORY e guia; atualizar pseudo-KK0021/kkkkx5 se houver KK0148.” | Alta |
-| **Versão do kkkkhk** | No kkkk7s do manual ou do índice: indicar versão/commit ou data do kkkkhk usado como KK0199 (ex.: “Referência: kkkkk6 @ commit xxx”). | Média |
-| **Glossário** | Criar `documentacao/Manual KK0106/GLOSSARIO.md` com: KK0125, KK0043, KK0122, kkkkgu, kkkk4c, etc. | Baixa |
+| **Atualização quando o KK0172 mudar** | KK0262 no índice ou no README: “Ao alterar o KK0172: atualizar FLUXO_*_tecnico da parte impactada; revisar USER_STORY e guia; atualizar pseudo-KK0398/KK1146 se houver KK1223.” | Alta |
+| **Versão do KK0172** | No KK0190 do manual ou do índice: indicar versão/commit ou data do KK0172 usado como KK1139 (ex.: “Referência: KK0953 @ commit xxx”). | Média |
+| **Glossário** | Criar `documentacao/Manual KK0950/GLOSSARIO.md` com: KK0602, KK1344, KK0468, KK1451, KK1309, etc. | Baixa |
 
 ---
 
-## 4. Documentação de completes e kkkkvo
+## 4. Documentação de completes e KK1423
 
-Sugestão de **onde** e **como** documentar os outcomes de KK0190 das kkkkiq (**completes**) e as **kkkkvo de kkkk55**, para facilitar KK0136, testes e suporte.
+Sugestão de **onde** e **como** documentar os outcomes de KK0314 das KK1335 (**completes**) e as **KK1423 de KK1069**, para facilitar KK0759, testes e suporte.
 
 ### 4.1 Por que documentar
 
-- **KK0149:** Deixar explícito, por kkkk9q, qual é o "KK0013" padrão (ex.: continuar) e quais são os alternativos (ex.: kkkkgu para X). Evita dúvida sobre qual flow é tomado em cada ação do KK0173 e facilita KK0142 e front (botões/links).
-- **Variáveis:** Uma única fonte de verdade por parte (e, se desejado, consolidada) sobre quem escreve e quem lê cada KK0034, e em quais condições (kkkkaf). Ajuda debug, kkkkx5 de kkkkag e impacto de mudanças no kkkkhk.
+- **KK0309:** Deixar explícito, por KK1332, qual é o "KK0308" padrão (ex.: continuar) e quais são os alternativos (ex.: KK1451 para X). Evita dúvida sobre qual flow é tomado em cada ação do KK1392 e facilita KK1131 e front (botões/links).
+- **Variáveis:** Uma única fonte de verdade por parte (e, se desejado, consolidada) sobre quem escreve e quem lê cada KK1424, e em quais condições (KK0712). Ajuda debug, KK1146 de KK0911 e impacto de mudanças no KK0172.
 
-### 4.2 KK0149 — kkkk3l de documentação
+### 4.2 KK0309 — KK1086 de documentação
 
-**O que é:** Para cada **user kkkk9q** (e, se útil, service/KK0148 kkkk9q), registrar: o **KK0013 padrão** (atributo `KK0195` no kkkkhk): flow ID e target; os **completes condicionais**: condição (ex.: `kkkkgu == "kkkki0"`), flow ID e target.
+**O que é:** Para cada **user KK1332** (e, se útil, service/KK1223 KK1332), registrar: o **KK0308 padrão** (atributo `KK0472` no KK0172): flow ID e target; os **completes condicionais**: condição (ex.: `KK1451 == "KK0420"`), flow ID e target.
 
-**Onde:** Em cada `FLUXO_<N>_tecnico.md`, numa seção **"2.x KK0149 (KK0189 da KK0190)"** ou dentro de "Sequence kkkkoa", em tabela.
+**Onde:** Em cada `FLUXO_<N>_tecnico.md`, numa seção **"2.x KK0309 (KK1181 da KK0314)"** ou dentro de "Sequence KK0649", em tabela.
 
 **Formato sugerido (por parte):**
 
-| kkkk8l ID | Tipo de KK0013 | Condição (se houver) | Flow | Target |
+| KK1331 ID | Tipo de KK0308 | Condição (se houver) | Flow | Target |
 | --------- | ------------------- | ---------------------- | ------ | -------- |
-| kkkkjt | KK0192 (continuar) | — | Flow_0yp7fzn | kkkki0 |
-| kkkkjt | KK0194 | kkkkgu == "kkkki0" | Flow_0kl8vnv | kkkki0 |
-| kkkki0 | KK0192 (continuar) | — | Flow_0qen913 | kkkkpd |
-| kkkki0 | KK0194 | kkkkgu == "kkkkjs" | Flow_0v81015 | kkkkjs |
+| KK0414 | KK0991 (continuar) | — | Flow_0yp7fzn | KK0420 |
+| KK0414 | KK1452 | KK1451 == "KK0420" | Flow_0kl8vnv | KK0420 |
+| KK0420 | KK0991 (continuar) | — | Flow_0qen913 | KK0686 |
+| KK0420 | KK1452 | KK1451 == "KK0411" | Flow_0v81015 | KK0411 |
 
-Em uma tabela se vê todos os "completes" da parte; fácil cruzar com o kkkkhk (KK0195 + outgoing kkkkoa com condition).
+Em uma tabela se vê todos os "completes" da parte; fácil cruzar com o KK0172 (KK0472 + outgoing KK0649 com condition).
 
-### 4.3 Variáveis — kkkk3l de documentação
+### 4.3 Variáveis — KK1086 de documentação
 
-**O que é:** Para cada **KK0034 de kkkk55** usada na parte: **Escrita** em qual(is) elemento(s) (kkkk9q/KK0148) e via quê (outputParameter, formData submit). **Leitura** em qual(is) elemento(s) (kkkk7v, KK0148, inputParameter). **Condição** em que a KK0034 aparece (ex.: `${KK0122 == false}`). **Valor/origem** (KK0195, fixo no KK0148 ou start/caller), quando relevante.
+**O que é:** Para cada **KK1424 de KK1069** usada na parte: **Escrita** em qual(is) elemento(s) (KK1332/KK1223) e via quê (outputParameter, formData submit). **Leitura** em qual(is) elemento(s) (KK0669, KK1223, inputParameter). **Condição** em que a KK1424 aparece (ex.: `${KK0468 == false}`). **Valor/origem** (KK0472, fixo no KK1223 ou start/caller), quando relevante.
 
-**Onde:** Em cada `FLUXO_<N>_tecnico.md`, na seção **"3. Variáveis de kkkk55"** (expandir a existente) ou **"2.y Variáveis (leitura/escrita/condição)"**.
+**Onde:** Em cada `FLUXO_<N>_tecnico.md`, na seção **"3. Variáveis de KK1069"** (expandir a existente) ou **"2.y Variáveis (leitura/escrita/condição)"**.
 
 **Formato sugerido (por parte):**
 
 | Variável | Escrita por (elemento) | Lida por (elemento) | Usada em condição | Observação |
 | ---------- | ------------------------ | --------------------- | ------------------- | ------------ |
-| KK0125 | kkkkiy, kkkkjt, kkkki0 (outputParameter) | — | — | Valor = id da kkkk9q concluída. |
-| KK0122 | kkkkjt (formData) | kkkkpd | KK0122 == false → kkkkjg | Preenchida na KK0176 de KK0168. |
-| kkkkgu | Todas as user kkkkiq (formData) | — | Vários kkkkoa (kkkkgu == "kkkki0", etc.) | Define o target do KK0013 "kkkkgu". |
-| KK0043 | KK0188 1 (KK0148) | kkkkwk events (timer) | — | Só leitura nesta parte. |
+| KK0602 | KK0417, KK0414, KK0420 (outputParameter) | — | — | Valor = id da KK1332 concluída. |
+| KK0468 | KK0414 (formData) | KK0686 | KK0468 == false → KK1262 | Preenchida na KK1338 de KK0570. |
+| KK1451 | Todas as user KK1335 (formData) | — | Vários KK0649 (KK1451 == "KK0420", etc.) | Define o target do KK0308 "KK1451". |
+| KK1344 | KK1000 1 (KK1223) | KK0165 events (timer) | — | Só leitura nesta parte. |
 
-KK0035 e KK0142 passam a saber de onde vem e para onde vai cada KK0034; mudanças no kkkkhk têm impacto claro.
+KK0758 e KK1131 passam a saber de onde vem e para onde vai cada KK1424; mudanças no KK0172 têm impacto claro.
 
 ### 4.4 Onde encaixar no FLUXO_*_tecnico
 
-- Após §2.3 Sequence kkkkoa: **2.4 KK0149** (tabela por kkkk9q: padrão + condicionais). Manter kkkkwk events e Diagramas (renumeração 2.5, 2.6 se necessário).
-- §3 Variáveis de kkkk55: ampliar para a **tabela KK0034 × escrita × leitura × condição** (formato acima).
+- Após §2.3 Sequence KK0649: **2.4 KK0309** (tabela por KK1332: padrão + condicionais). Manter KK0165 events e Diagramas (renumeração 2.5, 2.6 se necessário).
+- §3 Variáveis de KK1069: ampliar para a **tabela KK1424 × escrita × leitura × condição** (formato acima).
 
-Partes sem user kkkk9q com "kkkkgu": tabela de completes só com "kkkk8l | Default flow | Target". Partes sem kkkkvo relevantes: uma linha "Nenhuma KK0034 específica desta parte".
+Partes sem user KK1332 com "KK1451": tabela de completes só com "KK1331 | Default flow | Target". Partes sem KK1423 relevantes: uma linha "Nenhuma KK1424 específica desta parte".
 
 ### 4.5 Visão consolidada (opcional)
 
 - **Arquivo:** `VARIAVEIS_E_COMPLETES_REFERENCIA.md` no manual (ou em `out/` se for só backup).
-- **Conteúdo:** Tabelas consolidadas (todas as partes): kkkkvo (nome, parte, escrita por, lida por, condição) e completes (parte, kkkk9q, tipo, condição, flow, target). Útil para kkkkml sem abrir parte por parte.
-- **Manutenção:** kkkkdq quando o kkkkhk mudar; FLUXO_*_tecnico continua fonte por parte.
+- **Conteúdo:** Tabelas consolidadas (todas as partes): KK1423 (nome, parte, escrita por, lida por, condição) e completes (parte, KK1332, tipo, condição, flow, target). Útil para KK0330 sem abrir parte por parte.
+- **Manutenção:** KK1196 quando o KK0172 mudar; FLUXO_*_tecnico continua fonte por parte.
 
-**Resumo:** Documentar **completes** (tabela por kkkk9q: padrão + condicionais) e **kkkkvo** (tabela: escrita/leitura/condição) em cada FLUXO_*_tecnico deixa o comportamento explícito e kkkkla; visão consolidada é opcional.
+**Resumo:** Documentar **completes** (tabela por KK1332: padrão + condicionais) e **KK1423** (tabela: escrita/leitura/condição) em cada FLUXO_*_tecnico deixa o comportamento explícito e KK0123; visão consolidada é opcional.
 
 ---
 
@@ -582,358 +582,358 @@ Partes sem user kkkk9q com "kkkkgu": tabela de completes só com "kkkk8l | Defau
 
 | Item | Resumo |
 | ------ | -------- |
-| **Scripts** | 10 partes possuem KK0148 kkkkiq (1, 2, 5, 6, 7, 8, 10, 11, 13, 15, 16). Partes 1, 7 e 11 são prioritárias para kkkkx5 e pseudo-KK0021. |
-| **kkkkxe de kkkkag** | kkkky2 em 4 fases: kkkk5f → kkkkta de RN por parte → revisão com kkkkhk → manutenção. |
-| **Pseudo-KK0021** | Template + seção (ou arquivo) por parte com KK0148; ordem sugerida: 1 → 11 → 7 → demais. |
-| **Diagramas (modelo FLUXO_03)** | Aplicar a todas as partes: (1) KK0145 principal kkkkhk-style, (2) KK0180 se houver timer, (3) KK0145 “kkkkgu” e tabela De/Para/Flow se houver kkkkgu. Partes 1 e 2 precisam de ajuste; partes 4–16 precisam de nova seção de kkkk5w. |
-| **KK0149 e kkkkvo** | Documentar em cada FLUXO_*_tecnico: tabela de completes (por kkkk9q: padrão + condicionais) e tabela de kkkkvo (escrita/leitura/condição). Opcional: arquivo consolidado de KK0199. |
-| **Melhorias gerais** | Padronizar estrutura dos KK0178; tabelas de condições de kkkk7v e kkkkvo; índice de KK0028; procedimento de atualização quando o kkkkhk mudar; opcional: versão do kkkkhk e glossário. |
-| **kkkky2 como remédio às dores (§8)** | kkkk58 dor → remédio (kkkkwb, kkkkvo/kkkkho, kkkkxb, kkkkia/KK0012, botão kkkkgu, capacidade kkkkho, etc.); 6 itens novos (kkkk7p, tabela de integração, lista kkkkvo ramo kkkk6k, onboarding, kkkkvn/erro, glossário). Usar lacunas §7.2 no KK0002 e atualizar docs ao fechar KK0003. |
+| **Scripts** | 10 partes possuem KK1223 KK1335 (1, 2, 5, 6, 7, 8, 10, 11, 13, 15, 16). Partes 1, 7 e 11 são prioritárias para KK1146 e pseudo-KK0398. |
+| **KK1145 de KK0911** | KK1025 em 4 fases: KK0790 → KK0521 de RN por parte → revisão com KK0172 → manutenção. |
+| **Pseudo-KK0398** | Template + seção (ou arquivo) por parte com KK1223; ordem sugerida: 1 → 11 → 7 → demais. |
+| **Diagramas (modelo FLUXO_03)** | Aplicar a todas as partes: (1) KK0492 principal KK0172-style, (2) KK0167 se houver timer, (3) KK0492 “KK1451” e tabela De/Para/Flow se houver KK1451. Partes 1 e 2 precisam de ajuste; partes 4–16 precisam de nova seção de KK0493. |
+| **KK0309 e KK1423** | Documentar em cada FLUXO_*_tecnico: tabela de completes (por KK1332: padrão + condicionais) e tabela de KK1423 (escrita/leitura/condição). Opcional: arquivo consolidado de KK1139. |
+| **Melhorias gerais** | Padronizar estrutura dos KK1379; tabelas de condições de KK0669 e KK1423; índice de KK1245; procedimento de atualização quando o KK0172 mudar; opcional: versão do KK0172 e glossário. |
+| **KK1025 como remédio às dores (§8)** | KK0844 dor → remédio (KK0883, KK1423/KK0282, KK0980, KK1124/KK0657, botão KK1451, capacidade KK0282, etc.); 6 itens novos (KK0040, tabela de integração, lista KK1423 ramo KK0921, onboarding, KK0372/erro, glossário). Usar lacunas §7.2 no KK1142 e atualizar docs ao fechar KK0467. |
 
 ---
 
 ## 6. Referências
 
-- **KK0184:** `kkkkk6` (raiz do repositório).  
-- **Índice do manual:** `documentacao/Manual KK0106/INDICE_E_PLANEJAMENTO_MANUAL_CO8.md`.  
-- **Modelo de kkkk5w:** `documentacao/Manual KK0106/parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_tecnico.md` (§2.5).  
-- **Regra do kkkky7:** kkkkhk é a fonte única e absoluta da verdade da kkkkgq (`.cursor/rules/OMNICHANNEL_FONTE_VERDADE.mdc`).
+- **KK0655:** `KK0953` (raiz do repositório).  
+- **Índice do manual:** `documentacao/Manual KK0950/INDICE_E_PLANEJAMENTO_MANUAL_CO8.md`.  
+- **Modelo de KK0493:** `documentacao/Manual KK0950/parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_tecnico.md` (§2.5).  
+- **Regra do KK1084:** KK0172 é a fonte única e absoluta da verdade da KK0797 (`.cursor/rules/OMNICHANNEL_FONTE_VERDADE.mdc`).
 
 ---
 
-## 7. Dores da equipe nos refinamentos — kkkkgm e KK0046
+## 7. Dores da equipe nos refinamentos — KK0217 e KK0651
 
-kkkk5p das **transcrições de refinamentos** e documentos derivados (dúvidas, KK0199 cruzada, conversas) para mapear **kkkkwn de dúvidas, perguntas e questionamentos sobre o kkkkgm** e documentar no relatório. **Nota:** O **kkkkyy** é um **kkkky7 à parte**, focado apenas na **kkkkgv do kkkkhk**; **não** está totalmente integrado à equipe da daily. A documentação de KK0199 da squad e os remédios (R1–R6) ficam em **Manual KK0106**, **KK0105** e **camunda** — não confundir com o kkkkyy.
+KK1197 das **transcrições de refinamentos** e documentos derivados (dúvidas, KK1139 cruzada, conversas) para mapear **KK0992 de dúvidas, perguntas e questionamentos sobre o KK0217** e documentar no relatório. **Nota:** O **KK1439** é um **KK1084 à parte**, focado apenas na **KK0471 do KK0172**; **não** está totalmente integrado à equipe da daily. A documentação de KK1139 da squad e os remédios (R1–R6) ficam em **Manual KK0950**, **KK0898** e **camunda** — não confundir com o KK1439.
 
 **Fontes consultadas:**
 
-- `documentacao/KK0105/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md`
+- `documentacao/KK0898/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md`
 - `transcricoes/transcricao_refinamento_multiplo/RELATORIO_REFERENCIA_CRUZADA_INCOERENCIAS.md`
 - `transcricoes/transcricao_refinamento_multiplo/REFINAMENTO_MULTIPLO_DETALHADO.md` (e brutos)
-- `transcricoes/transcricao_conversa_marcela/TRANSCRICAO_DETALHADA_CONVERSA_MARCELA.md` (KK0148 e kkkkvo no kkkkgm)
-- `transcricoes/transcricao_visioning_quebra_bpmn/` (5 vs 6 kkkkhk, kkkkzw kkkkgm, dúvidas de desenho)
-- `transcricoes/transcricao_visioning8/` (Cockpit, kkkkvo, reprocessamento em lote)
-- `transcricoes/transcricao_planning_12-03/` (kkkkxb KK0012 kkkkhp x kkkkgm)
-- `transcricoes/transcricao_daily_13-03/`, `transcricao_daily_04-02-2025` (dúvidas de KK0136 e kkkkh7)
+- `transcricoes/transcricao_conversa_marcela/TRANSCRICAO_DETALHADA_CONVERSA_MARCELA.md` (KK1223 e KK1423 no KK0217)
+- `transcricoes/transcricao_visioning_quebra_bpmn/` (5 vs 6 KK0172, KK0880 KK0217, dúvidas de desenho)
+- `transcricoes/transcricao_visioning8/` (Cockpit, KK1423, reprocessamento em lote)
+- `transcricoes/transcricao_planning_12-03/` (KK0980 KK0657 KK0144 x KK0217)
+- `transcricoes/transcricao_daily_13-03/`, `transcricao_daily_04-02-2025` (dúvidas de KK0759 e KK0034)
 - **Transcrições .txt (originais):** `transcricoes/transcricao_refinamento_multiplo/refinamento_multiplo_bruto.txt`, `refinamento_multiplo_parte_2_bruto.txt`; `transcricoes/transcricao_2026-03-13_15-03-15/2026-03-13 15-03-15.txt`; `transcricoes/transcricao_visioning_quebra_bpmn/visioning_quebra_bpmn_bruto.txt`; `transcricoes/transcricao_planning_12-03/plannig.txt` e `transcricoes/2026-03-12 16-10-17.txt`; `transcricoes/transcricao_daily_12-03/daily 12-03.txt`; `transcricoes/visioning_camunda_audio.txt`; `transcricoes/transcricao_camunda/camunda.txt`
 
 ---
 
 ### 7.1 Padrões de dores identificados
 
-| KK0192 | Descrição | Onde aparece |
+| KK0991 | Descrição | Onde aparece |
 | -------- | ----------- | -------------- |
-| **Modelagem do ramo no kkkkhk** | Dúvida recorrente sobre **onde** o novo ramo (ex.: múltiplo kkkk6k) entra: antes/depois de determinado kkkk7v, como terceiro ramo do paralelo ou dentro de um kkkkfl. Ordem exata das tarefas (kkkkml kkkkxg já feita ou nova kkkkmr?). | DUVIDAS §1; RELATORIO_REFERENCIA_CRUZADA (incoerência “kkkkml kkkkxg” pós-kkkks7). |
-| **Paralelo vs kkkkxc** | KK0011 (e outras atividades) em **paralelo** a `KK0073` ou **em kkkkxc**? KK0007 de desenho em aberto; kkkkli de implementações divergentes. | DUVIDAS 1.3 (fechado em 13/03 para ramo kkkk6k); RELATORIO_REFERENCIA_CRUZADA §2.2. |
-| **Service kkkk9q vs external kkkk9q** | kkkk56 do kkkkia, KK0012 do kkkkgw etc. como **service kkkk9q (kkkkaq)** ou **external kkkk9q (kkkk92)**? Impacta onde roda a lógica, topics e kkkkvn. Nomes dos topics e dono dos kkkkga. | DUVIDAS §2. |
-| **Variáveis e kkkkvx (kkkkho)** | Onde e como kkkkvo de kkkkss/kkkksp (kkkkxg) são **persistidas no kkkkho** para outro kkkkhp consumir? Lista canônica de kkkkvo do ramo; quais vão para kkkk3l (metadata_schemaless). Variável criada só no KK0148 **sem kkkk9x** não existe no kkkkgm. | DUVIDAS §3; transcrição conversa Marcela (§4 KK0148 e kkkkvo). |
-| **Ownership kkkkhp x kkkkgm** | “A história de KK0012 fica no kkkkhp ou no kkkkgm?” — dúvida explícita na planning 12/03; resposta registrada: kkkk53 da KK0012 é kkkkho/kkkkgm; kkkkhp mantém pré-kkkks7 (kkkkxg, adaptação de payloads). | DUVIDAS 6.3; PLANNING_12-03. |
-| **kkkky9 e kkkkxg** | Valor exato de `KK0047` / `KK0008` para o kkkkzz; suporte a valor composto (ex.: pipe); em **qual tarefa/KK0148** do kkkkhk o valor é populado. | DUVIDAS §4. |
-| **kkkk64 e KK0012** | Em falha na kkkkth do kkkkia: **kkkkz3** kkkkgq ou **cai para KK0046 sem kkkkia**? kkkkvm da KK0027 (endpoint, kkkkmn, 200 e erros). Falha na KK0012: kkkkaa, kkkkhk error ou registro para Cockpit. Campos de personalização do kkkkgw (kkkklh para kkkkg2 vs menoridade). | DUVIDAS §5, §6. |
-| **kkkkhr / limites e integração** | kkkkhv e kkkksp: kkkkhr vs kkkkxg; **sobrescrita** no kkkkhk (KK0148, kkkk92 ou kkkkhp)? Endpoint kkkkhr atualizado até junho; demanda múltiplo vs demanda separada. | DUVIDAS §7; RELATORIO_REFERENCIA_CRUZADA. |
-| **Rollout e kkkk4h** | Lista de agências kkkkzz: kkkkgm replica verificação (kkkk7v com condição) ou confia em `KK0008` vindo do front/kkkkhp? Feature-toggle do ramo: KK0034 de kkkk55, configuração do engine ou regra externa. | DUVIDAS §8. |
-| **5 vs 6 kkkkhk e kkkkzw** | Dúvida de desenho: “5 ou 6 kkkkhk”; pós-kkkkgq em nível 2; **primeiro no kkkkgm e depois migrar** ou já desenhar para Step Function. kkkkgm 8 e Java 11 (não prioridade imediata). | kkkki5 quebra kkkkhk. |
-| **Cockpit e reprocessamento** | Ver todas as kkkkvo no kkkkgm; alterar kkkkvo e reprocessar (kkkk4n); em produção desativado. Reprocessamento em lote: KK0148 análogo ao que se faz no kkkkgm. | kkkki5 8. |
-| **External kkkk9q: dono e alternativa** | kkkk56 do kkkkia é **external kkkk9q**; dúvida: "fazer kkkkmr direto por caixinha sem criar external kkkk9q?"; **quem é dono** (NC2 ou kkkkho); questionamento se a equipe tem **autorização para mexer** nessas external kkkkiq; "menos custoso criar external kkkk9q nova ou mexer na existente". | Transcrição 2026-03-13 15-03-15 (.txt). |
-| **Botão kkkkgu no kkkkho** | Funcionamento: Condicional Flow "KK0194" com chave tarefa da KK0176 anterior. **Casos que quebram:** ex. kkkkij com várias "telhinhas" — não dá para construir kkkkgu para "selecionar kkkk1o". Alinhamento **kkkkhp e front** necessário: qual KK0176 e qual chave tarefa kkkkgu; kkkkli de KK0013 já preenchido ao kkkkgu. | visioning_camunda_audio.txt. |
-| **Capacidade e difusão kkkkho** | "kkkkho oficialmente só tem eu [e agora você]"; conhecimento aprendido "no dia a dia"; "todo mundo vai aprender camunda e todo mundo vai mexer no kkkkho" — kkkkli de gargalo e necessidade de documentação/clareza. | camunda.txt; 2026-03-13 15-03-15.txt. |
+| **Modelagem do ramo no KK0172** | Dúvida recorrente sobre **onde** o novo ramo (ex.: múltiplo KK0921) entra: antes/depois de determinado KK0669, como terceiro ramo do paralelo ou dentro de um KK1324. Ordem exata das tarefas (KK0330 KK0497 já feita ou nova KK0259?). | DUVIDAS §1; RELATORIO_REFERENCIA_CRUZADA (incoerência “KK0330 KK0497” pós-KK0544). |
+| **Paralelo vs KK1272** | KK0656 (e outras atividades) em **paralelo** a `KK0533` ou **em KK1272**? KK0466 de desenho em aberto; KK1201 de implementações divergentes. | DUVIDAS 1.3 (fechado em 13/03 para ramo KK0921); RELATORIO_REFERENCIA_CRUZADA §2.2. |
+| **Service KK1332 vs external KK1332** | KK1405 do KK1124, KK0657 do KK0245 etc. como **service KK1332 (KK0473)** ou **external KK1332 (KK1468)**? Impacta onde roda a lógica, topics e KK0372. Nomes dos topics e dono dos KK1472. | DUVIDAS §2. |
+| **Variáveis e KK1012 (KK0282)** | Onde e como KK1423 de KK0936/KK0823 (KK0497) são **persistidas no KK0282** para outro KK0144 consumir? Lista canônica de KK1423 do ramo; quais vão para KK1086 (metadata_schemaless). Variável criada só no KK1223 **sem KK1288** não existe no KK0217. | DUVIDAS §3; transcrição conversa Marcela (§4 KK1223 e KK1423). |
+| **Ownership KK0144 x KK0217** | “A história de KK0657 fica no KK0144 ou no KK0217?” — dúvida explícita na planning 12/03; resposta registrada: KK0978 da KK0657 é KK0282/KK0217; KK0144 mantém pré-KK0544 (KK0497, adaptação de payloads). | DUVIDAS 6.3; PLANNING_12-03. |
+| **KK1314 e KK0497** | Valor exato de `KK1312` / `KK1313` para o KK1020; suporte a valor composto (ex.: pipe); em **qual tarefa/KK1223** do KK0172 o valor é populado. | DUVIDAS §4. |
+| **KK1123 e KK0657** | Em falha na KK1406 do KK1124: **KK0158** KK0797 ou **cai para KK0651 sem KK1124**? KK0371 da KK0072 (endpoint, KK1001, 200 e erros). Falha na KK0657: KK1190, KK0172 error ou registro para Cockpit. Campos de personalização do KK0245 (KK0346 para KK0640 vs menoridade). | DUVIDAS §5, §6. |
+| **KK1130 / limites e integração** | KK0831 e KK0823: KK1130 vs KK0497; **sobrescrita** no KK0172 (KK1223, KK1468 ou KK0144)? Endpoint KK1130 atualizado até junho; demanda múltiplo vs demanda separada. | DUVIDAS §7; RELATORIO_REFERENCIA_CRUZADA. |
+| **Rollout e KK0633** | Lista de agências KK1020: KK0217 replica verificação (KK0669 com condição) ou confia em `KK1313` vindo do front/KK0144? Feature-toggle do ramo: KK1424 de KK1069, configuração do engine ou regra externa. | DUVIDAS §8. |
+| **5 vs 6 KK0172 e KK0880** | Dúvida de desenho: “5 ou 6 KK0172”; pós-KK0797 em nível 2; **primeiro no KK0217 e depois migrar** ou já desenhar para Step Function. KK0217 8 e Java 11 (não prioridade imediata). | KK1438 quebra KK0172. |
+| **Cockpit e reprocessamento** | Ver todas as KK1423 no KK0217; alterar KK1423 e reprocessar (KK0736); em produção desativado. Reprocessamento em lote: KK1223 análogo ao que se faz no KK0217. | KK1438 8. |
+| **External KK1332: dono e alternativa** | KK1405 do KK1124 é **external KK1332**; dúvida: "fazer KK0259 direto por caixinha sem criar external KK1332?"; **quem é dono** (NC2 ou KK0282); questionamento se a equipe tem **autorização para mexer** nessas external KK1335; "menos custoso criar external KK1332 nova ou mexer na existente". | Transcrição 2026-03-13 15-03-15 (.txt). |
+| **Botão KK1451 no KK0282** | Funcionamento: Condicional Flow "KK1452" com chave tarefa da KK1338 anterior. **Casos que quebram:** ex. KK0406 com várias "telhinhas" — não dá para construir KK1451 para "selecionar KK0046". Alinhamento **KK0144 e front** necessário: qual KK1338 e qual chave tarefa KK1451; KK1201 de KK0308 já preenchido ao KK1451. | visioning_camunda_audio.txt. |
+| **Capacidade e difusão KK0282** | "KK0282 oficialmente só tem eu [e agora você]"; conhecimento aprendido "no dia a dia"; "todo mundo vai aprender camunda e todo mundo vai mexer no KK0282" — KK1201 de gargalo e necessidade de documentação/clareza. | camunda.txt; 2026-03-13 15-03-15.txt. |
 
 ---
 
-### 7.2 Lacunas e perguntas para o próximo KK0002 (kkkkgm)
+### 7.2 Lacunas e perguntas para o próximo KK1142 (KK0217)
 
-Ordem sugerida para levar ao próximo KK0002 (base: DUVIDAS + RELATORIO_REFERENCIA_CRUZADA):
+Ordem sugerida para levar ao próximo KK1142 (base: DUVIDAS + RELATORIO_REFERENCIA_CRUZADA):
 
-1. **Modelagem:** O ramo múltiplo kkkk6k entra como terceiro ramo do kkkk7v paralelo ou por kkkk7v exclusivo antes do atual? Ordem exata das tarefas no ramo (kkkk7v kkkkzz → kkkkth kkkkia → KK0012 → atualização kkkk3l) está fechada?
-2. **Consulta kkkkxg:** Confirmar em voz alta que **não há segunda kkkkmr** ao kkkkxg no ramo pós-kkkks7; o ramo só usa kkkkvo já preenchidas na seleção de kkkk1o. Unificar redação nos docs.
-3. **Tipo de tarefa:** kkkk56 do kkkkia e KK0012 serão **service kkkkiq** (kkkkaq) ou **external kkkkiq**? Se external: nomes dos topics e quem implementa os kkkkga.
-4. **Variáveis e kkkkho:** Onde e como as kkkkvo de kkkkss/kkkksp do kkkkxg são persistidas no **kkkkho** (nova service kkkk9q, extensão do kkkkaq, outro)? Lista canônica de kkkkvo do ramo kkkk6k e kkkkx5 de escrita em kkkk3l.
-5. **kkkky9:** Valor exato de `KK0047` / `KK0008` para o kkkkzz múltiplo kkkk6k; kkkkxg aceita valor composto com `|`? Em qual tarefa/KK0148 do kkkkhk esses valores são setados?
-6. **kkkk64:** Em falha na kkkkth do kkkkia: kkkkz3 a kkkkgq ou cai para KK0046 sem kkkkia? Documentar kkkkvn da KK0027 (endpoint, kkkkmn, 200 e códigos de erro).
-7. **KK0011:** Em falha na kkkkmr (timeout, 4xx/5xx): retentativa automática, kkkkhk error ou registro em kkkk3l para Cockpit? Campos de personalização do kkkkgw (kkkklh para kkkkg2 vs menoridade) alinhados com o kkkkau de KK0012?
-8. **kkkkhr/limites:** Onde a sobrescrita (kkkksp kkkkxg sobre kkkkhr para kkkkgw) é feita: KK0148 no kkkkhk, kkkk92 ou kkkkhp ao alimentar kkkkho? Prazo e demanda (múltiplo vs separada) para atualização do endpoint kkkkhr.
-9. **Rollout:** Lista de agências kkkkzz — kkkkgm replica a verificação (kkkk7v com condição) ou confia no valor vindo do kkkkhp? Feature-toggle do ramo: KK0034 de kkkk55, engine ou externa?
-10. **Lacunas de kkkkag:** SPI/mensalidade no kkkkzp e comportamento quando **não há kkkksp aprovado** — impactam kkkkgm/kkkkhp? Incluir em DUVIDAS ou KK0026.
+1. **Modelagem:** O ramo múltiplo KK0921 entra como terceiro ramo do KK0669 paralelo ou por KK0669 exclusivo antes do atual? Ordem exata das tarefas no ramo (KK0669 KK1020 → KK1406 KK1124 → KK0657 → atualização KK1086) está fechada?
+2. **Consulta KK0497:** Confirmar em voz alta que **não há segunda KK0259** ao KK0497 no ramo pós-KK0544; o ramo só usa KK1423 já preenchidas na seleção de KK0046. Unificar redação nos docs.
+3. **Tipo de tarefa:** KK1405 do KK1124 e KK0657 serão **service KK1335** (KK0473) ou **external KK1335**? Se external: nomes dos topics e quem implementa os KK1472.
+4. **Variáveis e KK0282:** Onde e como as KK1423 de KK0936/KK0823 do KK0497 são persistidas no **KK0282** (nova service KK1332, extensão do KK0473, outro)? Lista canônica de KK1423 do ramo KK0921 e KK1146 de escrita em KK1086.
+5. **KK1314:** Valor exato de `KK1312` / `KK1313` para o KK1020 múltiplo KK0921; KK0497 aceita valor composto com `|`? Em qual tarefa/KK1223 do KK0172 esses valores são setados?
+6. **KK1123:** Em falha na KK1406 do KK1124: KK0158 a KK0797 ou cai para KK0651 sem KK1124? Documentar KK0372 da KK0072 (endpoint, KK1001, 200 e códigos de erro).
+7. **KK0656:** Em falha na KK0259 (timeout, 4xx/5xx): retentativa automática, KK0172 error ou registro em KK1086 para Cockpit? Campos de personalização do KK0245 (KK0346 para KK0640 vs menoridade) alinhados com o KK1354 de KK0657?
+8. **KK1130/limites:** Onde a sobrescrita (KK0823 KK0497 sobre KK1130 para KK0245) é feita: KK1223 no KK0172, KK1468 ou KK0144 ao alimentar KK0282? Prazo e demanda (múltiplo vs separada) para atualização do endpoint KK1130.
+9. **Rollout:** Lista de agências KK1020 — KK0217 replica a verificação (KK0669 com condição) ou confia no valor vindo do KK0144? Feature-toggle do ramo: KK1424 de KK1069, engine ou externa?
+10. **Lacunas de KK0911:** SPI/mensalidade no KK0900 e comportamento quando **não há KK0823 aprovado** — impactam KK0217/KK0144? Incluir em DUVIDAS ou KK1169.
 
 ---
 
-### 7.3 Pontos em aberto, KK0006 e questões não respondidas
+### 7.3 Pontos em aberto, KK1206 e questões não respondidas
 
-| Área | Ponto em aberto / kkkkli | Fonte |
+| Área | Ponto em aberto / KK1201 | Fonte |
 | ------ | ------------------------- | -------- |
-| **kkkkgm** | KK0007 paralelo vs kkkkxc (KK0012 e outras atividades) em outros ramos ainda pode reaparecer; documentar em kkkk7p quando fechado. | RELATORIO_REFERENCIA_CRUZADA |
-| **kkkkgm** | kkkk5j/nomes de tarefas kkkkhk (ex.: KK0090, KK0091) não estão em DUVIDAS/KK0026; kkkkli de KK0136 sem KK0199 explícita ao kkkkhk. | RELATORIO_REFERENCIA_CRUZADA §3 |
-| **kkkkgm** | Variável criada só no KK0148 sem `kkkk9x` não existe no contexto do kkkkgm — padrão de dúvida de KK0136 (onde setar, onde ler). | Conversa Marcela |
-| **kkkkra** | Componente novo vs reaproveitamento com kkkkz0; consumo do kkkkz7 para benefícios (kkkkhp faz depara). | DUVIDAS §9; REFINAMENTO |
-| **Back/kkkkhp** | Depara benefícios (kkkk5j → nome/descrição no kkkkz7); garantir que kkkkvo de kkkksp/kkkkss sejam persistidas no kkkkho para o outro kkkkhp consumir. | DUVIDAS §3, §9 |
-| **Geral** | Nomenclatura “kkkklh para kkkkg2” vs “kkkklh de menoridade” — tratar como mesmo contexto e documentar em um único lugar. | RELATORIO_REFERENCIA_CRUZADA §2.3 |
+| **KK0217** | KK0466 paralelo vs KK1272 (KK0657 e outras atividades) em outros ramos ainda pode reaparecer; documentar em KK0040 quando fechado. | RELATORIO_REFERENCIA_CRUZADA |
+| **KK0217** | KK0755/nomes de tarefas KK0172 (ex.: KK0690, KK0020) não estão em DUVIDAS/KK1169; KK1201 de KK0759 sem KK1139 explícita ao KK0172. | RELATORIO_REFERENCIA_CRUZADA §3 |
+| **KK0217** | Variável criada só no KK1223 sem `KK1288` não existe no contexto do KK0217 — padrão de dúvida de KK0759 (onde setar, onde ler). | Conversa Marcela |
+| **KK0666** | Componente novo vs reaproveitamento com KK0037; consumo do KK0280 para benefícios (KK0144 faz depara). | DUVIDAS §9; REFINAMENTO |
+| **Back/KK0144** | Depara benefícios (KK0755 → nome/descrição no KK0280); garantir que KK1423 de KK0823/KK0936 sejam persistidas no KK0282 para o outro KK0144 consumir. | DUVIDAS §3, §9 |
+| **Geral** | Nomenclatura “KK0346 para KK0640” vs “KK0346 de menoridade” — tratar como mesmo contexto e documentar em um único lugar. | RELATORIO_REFERENCIA_CRUZADA §2.3 |
 
 ---
 
 ### 7.4 Resumo
 
-- **Padrões de dor:** 14 categorias mapeadas (kkkkwb do ramo, paralelo vs kkkkxc, service vs external, kkkkvo/kkkkho, kkkkxb kkkkhp x kkkkgm, KK0137/kkkkxg, kkkkia, KK0012, kkkkhr/limites, rollout/kkkk4h, 5 vs 6 kkkkhk/kkkkzw, Cockpit/reprocessamento, external kkkk9q dono/alternativa, botão kkkkgu kkkkho, capacidade e difusão kkkkho).
-- **Lacunas para próximo KK0002:** 10 blocos de perguntas sugeridos em ordem (kkkkwb, kkkkml kkkkxg, tipo de tarefa, kkkkvo/kkkkho, KK0137, kkkkia, KK0012, kkkkhr, rollout, kkkkag).
-- **Pontos em aberto:** 6 itens (kkkkgm: decisão paralelo/kkkkxc, kkkk5j kkkkhk nos docs, kkkk9x; kkkkra: kkkkz0/kkkkz7; Back: kkkkho e depara; Geral: nomenclatura kkkklh kkkkg2/menor).
+- **Padrões de dor:** 14 categorias mapeadas (KK0883 do ramo, paralelo vs KK1272, service vs external, KK1423/KK0282, KK0980 KK0144 x KK0217, KK1315/KK0497, KK1124, KK0657, KK1130/limites, rollout/KK0633, 5 vs 6 KK0172/KK0880, Cockpit/reprocessamento, external KK1332 dono/alternativa, botão KK1451 KK0282, capacidade e difusão KK0282).
+- **Lacunas para próximo KK1142:** 10 blocos de perguntas sugeridos em ordem (KK0883, KK0330 KK0497, tipo de tarefa, KK1423/KK0282, KK1315, KK1124, KK0657, KK1130, rollout, KK0911).
+- **Pontos em aberto:** 6 itens (KK0217: decisão paralelo/KK1272, KK0755 KK0172 nos docs, KK1288; KK0666: KK0037/KK0280; Back: KK0282 e depara; Geral: nomenclatura KK0346 KK0640/menor).
 
-kkkk5m de KK0199 para evoluir as dúvidas: `documentacao/KK0105/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` e `documentacao/KK0105/KK0024.md`.
+KK0522 de KK1139 para evoluir as dúvidas: `documentacao/KK0898/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` e `documentacao/KK0898/KK0899.md`.
 
 ---
 
 ### 7.5 Evidências nos .txt de transcrições
 
-Varredura nos **arquivos .txt originais** das transcrições (não só nos .md derivados) trouxe as seguintes evidências de dores e dúvidas sobre kkkkgm e KK0046:
+Varredura nos **arquivos .txt originais** das transcrições (não só nos .md derivados) trouxe as seguintes evidências de dores e dúvidas sobre KK0217 e KK0651:
 
 | Arquivo .txt | Evidências relevantes |
 | -------------- | ------------------------ |
-| **2026-03-13 15-03-15.txt** | Dúvida onde kkkkho salva "cidade nova"; KK0034 ao chamar external kkkk9q; inserir KK0034 "ideia e intenção" no kkkkho; "atualizaria a KK0034 do kkkkqs"; kkkkth do kkkkia — "essa caixinha é external kkkk9q"; "não sei se essa kkkkth do kkkkia onde ela fica"; "quem está kkkkwz dessa external kkkk9q, NC2 ou kkkkho"; "questionamento se a gente tem autorização pode mexer nessas external"; "fazer kkkkmr direto por caixinha sem precisar criar external kkkk9q?"; external kkkk9q também faz kkkks7 da kkkklh com kkkkia; "sopa de kkkkvo"; kkkkhk vai entender; utilizar KK0034 global ou criar KK0034 nova; "Não ficou claro para mim"; kkkkaq/onde fica a lógica que salva; "todo mundo vai aprender camunda e todo mundo vai mexer no kkkkho". |
-| **visioning_camunda_audio.txt** | Botão kkkkgu: Condicional Flow "KK0194" com chave tarefa da KK0176 anterior; "tem casos que funcionam e tem casos que não funcionam"; kkkkij com várias "telhinhas" — não dá para construir kkkkgu para selecionar kkkk1o; alinhamento kkkkhp e front para qual KK0176 e qual chave tarefa kkkkgu; KK0013 já manda informações — ao kkkkgu pode dar conflito (já preenchido); "eu teria que dar uma aprofundada". |
-| **refinamento_multiplo_parte_2_bruto.txt** | Dúvida "como a gente vai passar o KK0046 do múltiplo junto com a DNA"; repasse do KK0046 (kkkkhr, kkkkxg kkkk7f, ID intenção, kkkkth kkkkia, KK0012 nova endpoint, data kkkkyv 10); sugestão KK0137 como lista/string para o kkkkxg. |
-| **refinamento_multiplo_bruto.txt** | kkkkz9 kkkkzp, mínimo de esforço, KK0046 ASIS; kkkkx5 por kkkkxr; reforça necessidade de kkkkx5 bem setadas. |
-| **plannig.txt / 2026-03-12 16-10-17.txt** | "Como funciona o kkkkho e o que precisa ser mexido"; KK0034 menor no sub KK0046; "ficou um pouco na dúvida de como é"; kkkkhp kkkks7 ou se ela é no kkkkgm; "no kkkkgm tá". |
-| **daily 12-03.txt** | "Com o que a gente tava aqui em dúvida"; kkkkhk; "dessa external kkkk9q". |
-| **visioning_quebra_bpmn_bruto.txt** | 5 vs 6 kkkkhk; "kkkkgu, KK0034, comportamento do botão no kkkkgm"; "deixar primeiro no kkkkgm, depois migrar?"; kkkkgm 8, Java 11. |
-| **camunda.txt** | kkkkwq kkkkho: "kkkkho oficialmente só tem eu [e agora você]"; conhecimento "zero" aprendido "no dia a dia"; "coisa mais nichada a partir do camunda aqui, kkkkho". |
+| **2026-03-13 15-03-15.txt** | Dúvida onde KK0282 salva "cidade nova"; KK1424 ao chamar external KK1332; inserir KK1424 "ideia e intenção" no KK0282; "atualizaria a KK1424 do KK0826"; KK1406 do KK1124 — "essa caixinha é external KK1332"; "não sei se essa KK1406 do KK1124 onde ela fica"; "quem está KK1175 dessa external KK1332, NC2 ou KK0282"; "questionamento se a gente tem autorização pode mexer nessas external"; "fazer KK0259 direto por caixinha sem precisar criar external KK1332?"; external KK1332 também faz KK0544 da KK0346 com KK1124; "sopa de KK1423"; KK0172 vai entender; utilizar KK1424 global ou criar KK1424 nova; "Não ficou claro para mim"; KK0473/onde fica a lógica que salva; "todo mundo vai aprender camunda e todo mundo vai mexer no KK0282". |
+| **visioning_camunda_audio.txt** | Botão KK1451: Condicional Flow "KK1452" com chave tarefa da KK1338 anterior; "tem casos que funcionam e tem casos que não funcionam"; KK0406 com várias "telhinhas" — não dá para construir KK1451 para selecionar KK0046; alinhamento KK0144 e front para qual KK1338 e qual chave tarefa KK1451; KK0308 já manda informações — ao KK1451 pode dar conflito (já preenchido); "eu teria que dar uma aprofundada". |
+| **refinamento_multiplo_parte_2_bruto.txt** | Dúvida "como a gente vai passar o KK0651 do múltiplo junto com a DNA"; repasse do KK0651 (KK1130, KK0497 KK1475, ID intenção, KK1406 KK1124, KK0657 nova endpoint, data KK1425 10); sugestão KK1315 como lista/string para o KK0497. |
+| **refinamento_multiplo_bruto.txt** | KK0362 KK0900, mínimo de esforço, KK0651 ASIS; KK1146 por KK1254; reforça necessidade de KK1146 bem setadas. |
+| **plannig.txt / 2026-03-12 16-10-17.txt** | "Como funciona o KK0282 e o que precisa ser mexido"; KK1424 menor no sub KK0651; "ficou um pouco na dúvida de como é"; KK0144 KK0544 ou se ela é no KK0217; "no KK0217 tá". |
+| **daily 12-03.txt** | "Com o que a gente tava aqui em dúvida"; KK0172; "dessa external KK1332". |
+| **visioning_quebra_bpmn_bruto.txt** | 5 vs 6 KK0172; "KK1451, KK1424, comportamento do botão no KK0217"; "deixar primeiro no KK0217, depois migrar?"; KK0217 8, Java 11. |
+| **camunda.txt** | KK0963 KK0282: "KK0282 oficialmente só tem eu [e agora você]"; conhecimento "zero" aprendido "no dia a dia"; "coisa mais nichada a partir do camunda aqui, KK0282". |
 
-**Conclusão:** Os .txt confirmam e detalham os kkkkwn já listados em 7.1 (kkkkvo/sopa, external kkkk9q, dono NC2 vs kkkkho, botão kkkkgu, kkkkhp x kkkkgm, KK0137) e acrescentam frases literais de dúvida ("Não ficou claro", "Eu não entendi", "não sei onde fica", "quem está kkkkwz") e o tema de capacidade/difusão (poucos donos do kkkkho, "todo mundo vai aprender camunda"). Usar estes trechos em refinamentos ou em DUVIDAS quando for formalizar perguntas.
+**Conclusão:** Os .txt confirmam e detalham os KK0992 já listados em 7.1 (KK1423/sopa, external KK1332, dono NC2 vs KK0282, botão KK1451, KK0144 x KK0217, KK1315) e acrescentam frases literais de dúvida ("Não ficou claro", "Eu não entendi", "não sei onde fica", "quem está KK1175") e o tema de capacidade/difusão (poucos donos do KK0282, "todo mundo vai aprender camunda"). Usar estes trechos em refinamentos ou em DUVIDAS quando for formalizar perguntas.
 
 ---
 
-### 7.6 C8 → kkkkho: substituição e ambiguidades
+### 7.6 C8 → KK0282: substituição e ambiguidades
 
-**Regra aplicada:** C8 nas transcrições e documentos é **erro de transcrição**; o correto é **kkkkho** (kkkkau/kkkkxv da kkkkgq kkkksg). Foi feita substituição **C8 → kkkkho** em todos os arquivos de documentação e transcrições (.md, .txt, .tsv, .srt, .vtt, .json), exceto onde indicado abaixo.
+**Regra aplicada:** C8 nas transcrições e documentos é **erro de transcrição**; o correto é **KK0282** (KK1354/KK1292 da KK0797 KK0949). Foi feita substituição **C8 → KK0282** em todos os arquivos de documentação e transcrições (.md, .txt, .tsv, .srt, .vtt, .json), exceto onde indicado abaixo.
 
-**Onde NÃO foi substituído (C8 = kkkkgm 8, kkkky6):**
+**Onde NÃO foi substituído (C8 = KK0217 8, KK1077):**
 
 | Local | Texto | Motivo |
 | ------- | -------- | -------- |
-| `documentacao/camunda/README_CAMUNDA.md` | "kkkkzw **C7/C8**", "ANALISE_MIGRACAO_**C7_C8**_VS_MELHORIAS.md" | C7 = kkkkgm 7, C8 = kkkkgm 8 (versões do kkkky6). Mantido de propósito. |
-| Demais menções a "**kkkkgm 8**" (por extenso) | Ex.: "kkkkgm 8 e Java 11", "não migrar para kkkkgm 8" | Referem-se ao kkkky6; não foram alteradas. |
+| `documentacao/camunda/README_CAMUNDA.md` | "KK0880 **C7/C8**", "ANALISE_MIGRACAO_**C7_C8**_VS_MELHORIAS.md" | C7 = KK0217 7, C8 = KK0217 8 (versões do KK1077). Mantido de propósito. |
+| Demais menções a "**KK0217 8**" (por extenso) | Ex.: "KK0217 8 e Java 11", "não migrar para KK0217 8" | Referem-se ao KK1077; não foram alteradas. |
 
 **Onde pode ter havido interpretação ambígua:**
 
-| kkkkz9 | kkkk5n de ambiguidade | KK0007 |
+| KK0362 | KK1200 de ambiguidade | KK0466 |
 | ---------- | ---------------------- | -------- |
-| Frases do tipo "no C8" / "do C8" / "no kkkkho" em transcrições de áudio | Transcrição pode ter ouvido "C8" quando o falante disse "kkkkho" (céu-oito); em contexto de kkkkau/kkkkxv, sempre tratado como kkkkho. | Substituído por kkkkho. |
-| "kkkkau do C8", "pessoal do C8", "kkkkhk do C8" | Mesmo caso: sigla do kkkkau/kkkkxv = kkkkho. | Substituído por kkkkho. |
-| kkkk5m que definiam "**C8**" como repositório de kkkk3l/kkkkvo (ex.: KK0024) | C8 ali era usado como abreviatura do kkkkxv que persiste kkkk3l (kkkkho); padronizar evita confusão com kkkkgm 8. | Substituído por kkkkho. |
-| kkkk2y: "caixinha no kkkkgm (C8)" | Parêntese explicava "no kkkkgm, no C8" — C8 era transcrição de kkkkho (onde fica a caixinha). | Substituído para "(kkkkho)". |
+| Frases do tipo "no C8" / "do C8" / "no KK0282" em transcrições de áudio | Transcrição pode ter ouvido "C8" quando o falante disse "KK0282" (céu-oito); em contexto de KK1354/KK1292, sempre tratado como KK0282. | Substituído por KK0282. |
+| "KK1354 do C8", "pessoal do C8", "KK0172 do C8" | Mesmo caso: sigla do KK1354/KK1292 = KK0282. | Substituído por KK0282. |
+| KK0522 que definiam "**C8**" como repositório de KK1086/KK1423 (ex.: KK0899) | C8 ali era usado como abreviatura do KK1292 que persiste KK1086 (KK0282); padronizar evita confusão com KK0217 8. | Substituído por KK0282. |
+| KK1286: "caixinha no KK0217 (C8)" | Parêntese explicava "no KK0217, no C8" — C8 era transcrição de KK0282 (onde fica a caixinha). | Substituído para "(KK0282)". |
 | Pasta `_x7k2/` (documentos genéricos/anonimizados) | Contêm "C8" em textos genéricos; não foram alterados nesta passagem (podem ser tratados em pipeline próprio). | Não alterado. |
 
-**Resumo:** Todas as ocorrências de C8 que se referem ao **kkkkau/kkkkxv/kkkkfj** foram corrigidas para kkkkho. Permaneceram apenas "C7/C8" e nomes de arquivo de kkkkgt de kkkkzw kkkkgm 7 → kkkkgm 8.
+**Resumo:** Todas as ocorrências de C8 que se referem ao **KK1354/KK1292/KK0798** foram corrigidas para KK0282. Permaneceram apenas "C7/C8" e nomes de arquivo de KK0065 de KK0880 KK0217 7 → KK0217 8.
 
 ---
 
-## 8. kkkky2 de melhoria como remédio às dores da equipe
+## 8. KK1025 de melhoria como remédio às dores da equipe
 
-Os planos das seções 1–4 (kkkkx5, pseudo-KK0021, kkkk5w, completes e kkkkvo) e as melhorias da seção 3 **reduzem** várias dores mapeadas na seção 7. Esta seção explicita **dor → remédio** e acrescenta **itens de kkkky1** onde uma dor ainda não está coberta.
+Os planos das seções 1–4 (KK1146, pseudo-KK0398, KK0493, completes e KK1423) e as melhorias da seção 3 **reduzem** várias dores mapeadas na seção 7. Esta seção explicita **dor → remédio** e acrescenta **itens de KK1026** onde uma dor ainda não está coberta.
 
-### 8.1 kkkk58 dor → remédio
+### 8.1 KK0844 dor → remédio
 
-| Dor (§7.1 / §7.3) | Remédio no kkkky1 | Onde está / ação |
+| Dor (§7.1 / §7.3) | Remédio no KK1026 | Onde está / ação |
 | ------------------- | ------------------- | ------------------- |
-| **Modelagem do ramo no kkkkhk** — onde entra o ramo, ordem das tarefas | Diagramas por parte + tabela de kkkkxc; decisão registrada em doc | **§2** Aplicar modelo FLUXO_03 (KK0145 principal com kkkkaf e kkkkiq). **Novo:** Registrar em kkkk7p ou em DUVIDAS §1 a decisão “ramo kkkk6k: kkkk7v X, ordem das kkkkiq” após KK0002. |
-| **Paralelo vs kkkkxc** (KK0012, etc.) | KK0007 explícita e documentada | **Novo:** Manter em DUVIDAS 1.3 a decisão fechada (13/03); para outros ramos, documentar em kkkk7p quando fechado (§7.3). |
-| **Service kkkk9q vs external kkkk9q** — tipo, topics, dono | Tabela de kkkkgc + kkkkxb | **§3** Melhorias (estrutura, kkkkvo). **Novo:** Criar **tabela “Tasks de integração”** (kkkk9q/tópico, tipo kkkkaq vs external, dono NC2/kkkkho) em DUVIDAS ou em `documentacao/KK0105/interno/KK0026`; preencher após KK0002. |
-| **Variáveis e kkkkvx no kkkkho** — onde setar, lista canônica, kkkk9x | Tabela kkkkvo por parte + regra explícita | **§4** Variáveis (escrita/leitura/condição) em cada FLUXO_*_tecnico. **§1.2** kkkkxe de kkkkag. **Novo:** Incluir no manual (ou em DUVIDAS §3) **lista canônica de kkkkvo do ramo kkkk6k** e regra: “KK0034 usada no kkkk55 deve ser setada com kkkk9x (não só no KK0148)”. |
-| **Ownership kkkkhp x kkkkgm** | KK0007 única e visível | Já fechado na planning 12/03. **Novo:** Garantir uma linha em KK0026 e no índice do manual: “KK0011: kkkk53 kkkkho/kkkkgm; kkkkhp pré-kkkks7”. |
-| **kkkky9 e kkkkxg** — valor exato, onde é setado | Variáveis e KK0028 documentados | **§4** Tabela kkkkvo. **§1** Pseudo-KK0021 e RN (KK0188 1 e KK0188 5). **Novo:** Em FLUXO_05_tecnico (e onde aplicável) documentar `KK0047` / `KK0008`: valor do kkkkzz, tarefa/KK0148 que popula. |
-| **kkkk64 e KK0012** — falha kkkkz3 ou cai? kkkkvn KK0027 | kkkkvm e decisão de erro | **Novo:** Em DUVIDAS §5 e §6 (ou doc de integração): (1) kkkkvn da KK0027 (endpoint, kkkkmn, 200 e erros); (2) decisão “falha kkkkth kkkkia: kkkkz3 vs KK0046 sem kkkkia”; (3) falha KK0012: kkkkaa/kkkkhk error/Cockpit. |
-| **kkkkhr / limites** — onde sobrescrita, prazo endpoint | kkkkxe e kkkkvo na parte 7 | **§1** kkkkxe KK0188 7 (kkkknx, KK0096). **§4** Variáveis. **Novo:** Em FLUXO_07_tecnico ou doc de limites: onde a sobrescrita (kkkksp kkkkxg sobre kkkkhr) é feita; prazo kkkkhr em DUVIDAS §7. |
-| **Rollout e kkkk4h** | KK0007 documentada | **Novo:** Em DUVIDAS §8 (ou kkkk7p): como a lista de agências kkkkzz é usada (kkkk7v no kkkkgm vs valor do kkkkhp); onde fica o kkkk4h do ramo. |
-| **kkkk5j/nomes kkkkhk** não nos docs — kkkkli de KK0136 sem KK0199 | kkkkma nos KK0178 e USER_STORY | **§2** Diagramas com KK0199 ao kkkkhk. **§3** Critérios de kkkkmk com KK0199 kkkkhk. **Novo:** Ao fechar ramo kkkk6k, incluir em FLUXO_*_tecnico e USER_STORY os kkkk5j das kkkkiq/kkkkaf do ramo (evitar só “Gateway_xxx” sem nome lógico). |
-| **Botão kkkkgu no kkkkho** — casos que quebram, alinhamento kkkkhp/front | KK0149 e KK0145 “kkkkgu” + kkkkyr | **§2** kkkk5v “kkkkgu” e tabela De/Para/Flow (Partes 2, 3, 4, 8). **§4** KK0149 por kkkk9q. **Novo:** Em KK0026: “Reconstruir KK0176 ao kkkkgu: estado vem do kkkk55/kkkkho; kkkkhp e front alinhados em qual KK0176 e chave tarefa kkkkgu”. Opcional: doc “Casos em que o kkkkgu quebra” (ex.: kkkkij várias telas). |
-| **Capacidade e difusão kkkkho** — poucos donos, conhecimento no dia a dia | kkkkwq e documentação como fonte única | **§1** kkkkxe, pseudo-KK0021, índice de KK0028. **§4** Variáveis e completes. **Novo:** Manter **ponto de entrada único** para kkkkho (ex.: README do manual + INDICE + DUVIDAS + KK0026); **índice de KK0028** (§3.1); opcional: **guia de onboarding kkkkho** (kkkksk em 1 página, onde está o quê, links para kkkkhk, kkkkvo, completes). |
-| **Cockpit e reprocessamento** | Visão de kkkkvo e procedimento | **Novo:** Em documentação kkkkgm (ou kkkkyy): como ver kkkkvo no Cockpit; procedimento de reprocessamento em kkkk4n (e que em produção fica desativado). |
-| **External kkkk9q: dono (NC2 vs kkkkho) e autorização para mexer** | Tabela de kkkkxb e decisão de desenho | **Novo:** Na mesma **tabela “Tasks de integração”** (acima): indicar dono (NC2/kkkkho), se a squad pode alterar; registrar decisão “nova caixinha kkkkho para validar kkkkia kkkk6k” (já em DUVIDAS §10). |
-| **Nomenclatura kkkklh para kkkkg2 vs menoridade** | Glossário e doc único | **§3.4** Glossário do manual. **Novo:** Uma única entrada no glossário e em um doc (ex.: DUVIDAS ou KK0026): “kkkklh para kkkkg2 / kkkklh de menoridade: mesmo contexto, tratar igual”. |
+| **Modelagem do ramo no KK0172** — onde entra o ramo, ordem das tarefas | Diagramas por parte + tabela de KK1272; decisão registrada em doc | **§2** Aplicar modelo FLUXO_03 (KK0492 principal com KK0712 e KK1335). **Novo:** Registrar em KK0040 ou em DUVIDAS §1 a decisão “ramo KK0921: KK0669 X, ordem das KK1335” após KK1142. |
+| **Paralelo vs KK1272** (KK0657, etc.) | KK0466 explícita e documentada | **Novo:** Manter em DUVIDAS 1.3 a decisão fechada (13/03); para outros ramos, documentar em KK0040 quando fechado (§7.3). |
+| **Service KK1332 vs external KK1332** — tipo, topics, dono | Tabela de KK0785 + KK0980 | **§3** Melhorias (estrutura, KK1423). **Novo:** Criar **tabela “Tasks de integração”** (KK1332/tópico, tipo KK0473 vs external, dono NC2/KK0282) em DUVIDAS ou em `documentacao/KK0898/interno/KK1169`; preencher após KK1142. |
+| **Variáveis e KK1012 no KK0282** — onde setar, lista canônica, KK1288 | Tabela KK1423 por parte + regra explícita | **§4** Variáveis (escrita/leitura/condição) em cada FLUXO_*_tecnico. **§1.2** KK1145 de KK0911. **Novo:** Incluir no manual (ou em DUVIDAS §3) **lista canônica de KK1423 do ramo KK0921** e regra: “KK1424 usada no KK1069 deve ser setada com KK1288 (não só no KK1223)”. |
+| **Ownership KK0144 x KK0217** | KK0466 única e visível | Já fechado na planning 12/03. **Novo:** Garantir uma linha em KK1169 e no índice do manual: “KK0656: KK0978 KK0282/KK0217; KK0144 pré-KK0544”. |
+| **KK1314 e KK0497** — valor exato, onde é setado | Variáveis e KK1245 documentados | **§4** Tabela KK1423. **§1** Pseudo-KK0398 e RN (KK1000 1 e KK1000 5). **Novo:** Em FLUXO_05_tecnico (e onde aplicável) documentar `KK1312` / `KK1313`: valor do KK1020, tarefa/KK1223 que popula. |
+| **KK1123 e KK0657** — falha KK0158 ou cai? KK0372 KK0072 | KK0371 e decisão de erro | **Novo:** Em DUVIDAS §5 e §6 (ou doc de integração): (1) KK0372 da KK0072 (endpoint, KK1001, 200 e erros); (2) decisão “falha KK1406 KK1124: KK0158 vs KK0651 sem KK1124”; (3) falha KK0657: KK1190/KK0172 error/Cockpit. |
+| **KK1130 / limites** — onde sobrescrita, prazo endpoint | KK1145 e KK1423 na parte 7 | **§1** KK1145 KK1000 7 (KK0856, KK1240). **§4** Variáveis. **Novo:** Em FLUXO_07_tecnico ou doc de limites: onde a sobrescrita (KK0823 KK0497 sobre KK1130) é feita; prazo KK1130 em DUVIDAS §7. |
+| **Rollout e KK0633** | KK0466 documentada | **Novo:** Em DUVIDAS §8 (ou KK0040): como a lista de agências KK1020 é usada (KK0669 no KK0217 vs valor do KK0144); onde fica o KK0633 do ramo. |
+| **KK0755/nomes KK0172** não nos docs — KK1201 de KK0759 sem KK1139 | KK1132 nos KK1379 e USER_STORY | **§2** Diagramas com KK1139 ao KK0172. **§3** Critérios de KK0009 com KK1139 KK0172. **Novo:** Ao fechar ramo KK0921, incluir em FLUXO_*_tecnico e USER_STORY os KK0755 das KK1335/KK0712 do ramo (evitar só “Gateway_xxx” sem nome lógico). |
+| **Botão KK1451 no KK0282** — casos que quebram, alinhamento KK0144/front | KK0309 e KK0492 “KK1451” + KK1167 | **§2** KK0491 “KK1451” e tabela De/Para/Flow (Partes 2, 3, 4, 8). **§4** KK0309 por KK1332. **Novo:** Em KK1169: “Reconstruir KK1338 ao KK1451: estado vem do KK1069/KK0282; KK0144 e front alinhados em qual KK1338 e chave tarefa KK1451”. Opcional: doc “Casos em que o KK1451 quebra” (ex.: KK0406 várias telas). |
+| **Capacidade e difusão KK0282** — poucos donos, conhecimento no dia a dia | KK0963 e documentação como fonte única | **§1** KK1145, pseudo-KK0398, índice de KK1245. **§4** Variáveis e completes. **Novo:** Manter **ponto de entrada único** para KK0282 (ex.: README do manual + INDICE + DUVIDAS + KK1169); **índice de KK1245** (§3.1); opcional: **guia de onboarding KK0282** (KK0084 em 1 página, onde está o quê, links para KK0172, KK1423, completes). |
+| **Cockpit e reprocessamento** | Visão de KK1423 e procedimento | **Novo:** Em documentação KK0217 (ou KK1439): como ver KK1423 no Cockpit; procedimento de reprocessamento em KK0736 (e que em produção fica desativado). |
+| **External KK1332: dono (NC2 vs KK0282) e autorização para mexer** | Tabela de KK0980 e decisão de desenho | **Novo:** Na mesma **tabela “Tasks de integração”** (acima): indicar dono (NC2/KK0282), se a squad pode alterar; registrar decisão “nova caixinha KK0282 para validar KK1124 KK0921” (já em DUVIDAS §10). |
+| **Nomenclatura KK0346 para KK0640 vs menoridade** | Glossário e doc único | **§3.4** Glossário do manual. **Novo:** Uma única entrada no glossário e em um doc (ex.: DUVIDAS ou KK1169): “KK0346 para KK0640 / KK0346 de menoridade: mesmo contexto, tratar igual”. |
 
-### 8.2 Novos itens do kkkky1 (remédios adicionais)
+### 8.2 Novos itens do KK1026 (remédios adicionais)
 
-| # | Item | kkkkwy sugerido | Entregável |
+| # | Item | KK1174 sugerido | Entregável |
 | --- | ------ | ---------------------- | ------------ |
-| R1 | **kkkk7p (ou bloco em DUVIDAS) para KK0003 kkkkgm** | Tech lead / KK0143 | Decisões “ramo kkkk6k: kkkk7v e ordem”, “paralelo vs kkkkxc”, “falha kkkkia/KK0012”, “rollout/kkkk4h” em um único lugar, com data e contexto. |
-| R2 | **Tabela “Tasks de integração” (kkkkaq vs external, dono)** | kkkkho / Back | Por kkkk9q de integração (kkkkth kkkkia, KK0012, etc.): nome, tipo (service/external), kkkk91 se external, dono (NC2/kkkkho), “squad pode alterar?”. Atualizar quando houver KK0002. |
-| R3 | **Lista canônica de kkkkvo do ramo kkkk6k** | kkkkho / BA | Nome, quem escreve, quem lê, vai para kkkk3l? Incluir em DUVIDAS §3 ou em FLUXO_*_tecnico das partes impactadas. Regra explícita: “kkkk9x no KK0148 quando KK0034 for usada no kkkk55”. |
-| R4 | **Ponto de entrada e onboarding kkkkho** | Time | README ou índice único (manual + DUVIDAS + KK0026 + kkkkhk); opcional: “kkkkho em 1 página” (kkkksk, onde está o quê, links). Reduz dependência de “só uma pessoa sabe”. |
-| R5 | **kkkkvm e KK0003 de erro (kkkkia, KK0012)** | Back / KK0143 | Documentar em DUVIDAS ou doc de integração: endpoint, kkkkmn, 200 e erros; “falha kkkkia: kkkkz3 ou cai?”; “falha KK0012: kkkkaa, kkkkhk error ou Cockpit?”. |
-| R6 | **Glossário e nomenclatura única** | BA / Time | Glossário do manual (§3.4) com kkkkyh do KK0046; entrada única para “kkkklh para kkkkg2 / menoridade”. |
+| R1 | **KK0040 (ou bloco em DUVIDAS) para KK0467 KK0217** | Tech lead / KK1031 | Decisões “ramo KK0921: KK0669 e ordem”, “paralelo vs KK1272”, “falha KK1124/KK0657”, “rollout/KK0633” em um único lugar, com data e contexto. |
+| R2 | **Tabela “Tasks de integração” (KK0473 vs external, dono)** | KK0282 / Back | Por KK1332 de integração (KK1406 KK1124, KK0657, etc.): nome, tipo (service/external), KK1363 se external, dono (NC2/KK0282), “squad pode alterar?”. Atualizar quando houver KK1142. |
+| R3 | **Lista canônica de KK1423 do ramo KK0921** | KK0282 / BA | Nome, quem escreve, quem lê, vai para KK1086? Incluir em DUVIDAS §3 ou em FLUXO_*_tecnico das partes impactadas. Regra explícita: “KK1288 no KK1223 quando KK1424 for usada no KK1069”. |
+| R4 | **Ponto de entrada e onboarding KK0282** | Time | README ou índice único (manual + DUVIDAS + KK1169 + KK0172); opcional: “KK0282 em 1 página” (KK0084, onde está o quê, links). Reduz dependência de “só uma pessoa sabe”. |
+| R5 | **KK0371 e KK0467 de erro (KK1124, KK0657)** | Back / KK1031 | Documentar em DUVIDAS ou doc de integração: endpoint, KK1001, 200 e erros; “falha KK1124: KK0158 ou cai?”; “falha KK0657: KK1190, KK0172 error ou Cockpit?”. |
+| R6 | **Glossário e nomenclatura única** | BA / Time | Glossário do manual (§3.4) com KK1351 do KK0651; entrada única para “KK0346 para KK0640 / menoridade”. |
 
-### 8.3 Resumo: kkkky1 como remédio
+### 8.3 Resumo: KK1026 como remédio
 
-- **Já cobertos pelos planos 1–4:** kkkkvo e completes documentados (§4) atacam “kkkkvo/kkkkho”, “kkkk9x” e ajudam no botão kkkkgu; kkkk5w (§2) e kkkkx5/pseudo-KK0021 (§1) atacam “onde está o quê” e “como funciona o kkkkho”; melhorias §3 (estrutura, condições de kkkk7v, índice de KK0028) atacam clareza e capacidade.
-- **Remédios novos (R1–R6):** kkkk7p/KK0003 em um lugar; tabela de kkkkxb de kkkkiq de integração; lista canônica de kkkkvo do ramo kkkk6k; ponto de entrada/onboarding kkkkho; kkkkvn e KK0003 de erro (kkkkia, KK0012); glossário e nomenclatura única.
-- **Uso no KK0002:** Levar as **lacunas §7.2** ao próximo KK0002; assim que uma decisão for fechada, **atualizar DUVIDAS, KK0026 ou kkkk7p** e, quando couber, **FLUXO_*_tecnico** e tabela de kkkkvo, para o kkkky1 funcionar de fato como remédio contínuo.
+- **Já cobertos pelos planos 1–4:** KK1423 e completes documentados (§4) atacam “KK1423/KK0282”, “KK1288” e ajudam no botão KK1451; KK0493 (§2) e KK1146/pseudo-KK0398 (§1) atacam “onde está o quê” e “como funciona o KK0282”; melhorias §3 (estrutura, condições de KK0669, índice de KK1245) atacam clareza e capacidade.
+- **Remédios novos (R1–R6):** KK0040/KK0467 em um lugar; tabela de KK0980 de KK1335 de integração; lista canônica de KK1423 do ramo KK0921; ponto de entrada/onboarding KK0282; KK0372 e KK0467 de erro (KK1124, KK0657); glossário e nomenclatura única.
+- **Uso no KK1142:** Levar as **lacunas §7.2** ao próximo KK1142; assim que uma decisão for fechada, **atualizar DUVIDAS, KK1169 ou KK0040** e, quando couber, **FLUXO_*_tecnico** e tabela de KK1423, para o KK1026 funcionar de fato como remédio contínuo.
 
 ### 8.4 Estrutura dos arquivos remédio
 
-kkkk58 de **onde cada remédio vive** (caminho, tipo, existente ou a criar). Regra do kkkky7: **não usar `out/` como KK0199** — só arquivos fora de `out/`. **kkkki5** é kkkky7 **à parte** (kkkkgv kkkkhk), não integrado à equipe da daily; os remédios da squad ficam em **Manual KK0106**, **KK0105** e **camunda**.
+KK0844 de **onde cada remédio vive** (caminho, tipo, existente ou a criar). Regra do KK1084: **não usar `out/` como KK1139** — só arquivos fora de `out/`. **KK1438** é KK1084 **à parte** (KK0471 KK0172), não integrado à equipe da daily; os remédios da squad ficam em **Manual KK0950**, **KK0898** e **camunda**.
 
 | Remédio | Caminho (raiz: repositório) | Tipo | Estado |
 | --------- | ----------------------------- | ------ | -------- |
-| **R1 — kkkk7p / KK0003 kkkkgm** | `documentacao/KK0105/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` (seções §1, §5, §6, §8 ou bloco "Decisões fechadas") | Doc da equipe | **Existente.** Manter KK0003 fechadas (ex.: 1.3) e preencher §5, §6, §8 com decisão quando fechada. Não depender de kkkkyy/kkkk7p para a daily. |
-| **R2 — Tabela Tasks de integração** | `documentacao/KK0105/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` ou novo `documentacao/KK0105/interno/TAREFAS_INTEGRACAO_OWNERSHIP.md` | Tabela (seção ou arquivo) | **A criar.** Colunas: kkkk9q/tópico, tipo (kkkkaq/external), dono (NC2/kkkkho), squad pode alterar? |
-| **R3 — Lista canônica kkkkvo ramo kkkk6k** | `documentacao/KK0105/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` §3 ou `documentacao/Manual KK0106/parte_*/FLUXO_*_tecnico.md` (partes impactadas) | Tabela em doc existente ou § kkkkvo nos KK0178 | **A criar/preencher.** Em DUVIDAS §3 ou em VARIAVEIS_E_COMPLETES_REFERENCIA (Manual §4.5). Regra kkkk9x em DUVIDAS ou no template de pseudo-KK0021. |
-| **R4 — Ponto de entrada / onboarding kkkkho** | `documentacao/Manual KK0106/README_MANUAL_OMNICHANNEL.md` + `INDICE_E_PLANEJAMENTO_MANUAL_CO8.md` | README + índice | **Existente.** Garantir links para DUVIDAS, KK0026, kkkkhk. Opcional: `documentacao/Manual KK0106/ONBOARDING_CO8_UMA_PAGINA.md`. Ponto de entrada da equipe é o Manual; kkkkyy é kkkky7 à parte. |
-| **R5 — kkkkvm e KK0003 de erro (kkkkia, KK0012)** | `documentacao/KK0105/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` §5 e §6 | Seções em doc existente | **Existente.** Preencher com: endpoint, kkkkmn, 200 e erros; “falha kkkkia: kkkkz3 ou cai?”; “falha KK0012: kkkkaa, kkkkhk error ou Cockpit?”. |
-| **R6 — Glossário** | `documentacao/Manual KK0106/GLOSSARIO.md` (a criar) | Arquivo glossário | **A criar** no Manual (§3.4). Entrada única “kkkklh para kkkkg2 / menoridade” em DUVIDAS ou KK0026. Referência da squad é o Manual, não kkkkyy. |
-| **Ownership kkkkhp x kkkkgm** | `documentacao/KK0105/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` + `documentacao/Manual KK0106/INDICE_E_PLANEJAMENTO_MANUAL_CO8.md` | Uma linha em cada | **Existente.** Incluir no texto: “KK0011: kkkk53 kkkkho/kkkkgm; kkkkhp pré-kkkks7”. |
-| **kkkky9 / kkkkxg** | `documentacao/Manual KK0106/parte_05_segmentacao_direcionador/FLUXO_05_tecnico.md` (§ kkkkvo / KK0137) | Seção no KK0018 | **Existente.** Adicionar subseção: valor de `KK0047`/`KK0008` no kkkkzz; tarefa/KK0148 que popula. |
-| **kkkkhr / limites e sobrescrita** | `documentacao/Manual KK0106/parte_07_limites_oferta_mapeamento_ge/FLUXO_07_tecnico.md` + DUVIDAS §7 | Seção no KK0018 + DUVIDAS | **Existente.** Documentar onde a sobrescrita (kkkksp kkkkxg sobre kkkkhr) é feita; prazo em DUVIDAS §7. |
-| **kkkk5j kkkkhk no ramo kkkk6k** | `documentacao/Manual KK0106/parte_12_*/FLUXO_12_tecnico.md` e USER_STORY da parte 12; partes com ramo kkkk6k | Tabela/seção em KK0018 e USER_STORY | **A preencher.** Ao fechar ramo kkkk6k: incluir kkkk5j das kkkkiq/kkkkaf com nome lógico. |
-| **Botão kkkkgu (kkkkyr)** | `documentacao/KK0105/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` | Parágrafo existente | **Existente.** Reforçar: “Reconstruir KK0176 ao kkkkgu: estado vem do kkkk55/kkkkho; kkkkhp e front alinhados em qual KK0176 e chave tarefa kkkkgu”. Opcional: doc em `documentacao/camunda/` para casos em que o kkkkgu quebra. |
-| **KK0149 e KK0145 kkkkgu** | `documentacao/Manual KK0106/parte_*/FLUXO_*_tecnico.md` (Partes 2, 3, 4, 8) — §2.5 e §2.4 (§4) | kkkk5v + tabela De/Para/Flow | **kkkky2 §2 e §4.** Aplicar modelo FLUXO_03 (KK0145 kkkkgu + tabela completes). |
-| **Cockpit e reprocessamento** | `documentacao/camunda/` (ex.: novo guia ou seção em GUIA_COMPLETO_CAMUNDA.md / README_CAMUNDA.md) | Doc ou seção | **A criar.** Como ver kkkkvo no Cockpit; procedimento reprocessamento em kkkk4n. |
-| **Índice de KK0028** | `documentacao/Manual KK0106/INDICE_SCRIPTS.md` | Arquivo novo | **A criar** (§3.1). Lista KK0148 kkkk9q, id, parte, link para FLUXO_*_tecnico. |
-| **Variáveis e completes por parte** | `documentacao/Manual KK0106/parte_<N>_*/FLUXO_<N>_tecnico.md` — §3 Variáveis, §2.4 KK0149 | Seções nos KK0178 | **kkkky2 §4.** Expandir cada FLUXO_*_tecnico com tabelas. |
-| **kkkkxe de kkkkag / pseudo-KK0021** | `documentacao/Manual KK0106/parte_<N>_*/FLUXO_<N>_tecnico.md` ou `parte_<N>_REGRAS_NEGOCIO.md`, `_template_PSEUDOCODIGO_SCRIPT.md` | Seção ou arquivo por parte | **kkkky2 §1.** Template e arquivos por parte. |
+| **R1 — KK0040 / KK0467 KK0217** | `documentacao/KK0898/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` (seções §1, §5, §6, §8 ou bloco "Decisões fechadas") | Doc da equipe | **Existente.** Manter KK0467 fechadas (ex.: 1.3) e preencher §5, §6, §8 com decisão quando fechada. Não depender de KK1439/KK0040 para a daily. |
+| **R2 — Tabela Tasks de integração** | `documentacao/KK0898/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` ou novo `documentacao/KK0898/interno/TAREFAS_INTEGRACAO_OWNERSHIP.md` | Tabela (seção ou arquivo) | **A criar.** Colunas: KK1332/tópico, tipo (KK0473/external), dono (NC2/KK0282), squad pode alterar? |
+| **R3 — Lista canônica KK1423 ramo KK0921** | `documentacao/KK0898/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` §3 ou `documentacao/Manual KK0950/parte_*/FLUXO_*_tecnico.md` (partes impactadas) | Tabela em doc existente ou § KK1423 nos KK1379 | **A criar/preencher.** Em DUVIDAS §3 ou em VARIAVEIS_E_COMPLETES_REFERENCIA (Manual §4.5). Regra KK1288 em DUVIDAS ou no template de pseudo-KK0398. |
+| **R4 — Ponto de entrada / onboarding KK0282** | `documentacao/Manual KK0950/README_MANUAL_OMNICHANNEL.md` + `INDICE_E_PLANEJAMENTO_MANUAL_CO8.md` | README + índice | **Existente.** Garantir links para DUVIDAS, KK1169, KK0172. Opcional: `documentacao/Manual KK0950/ONBOARDING_CO8_UMA_PAGINA.md`. Ponto de entrada da equipe é o Manual; KK1439 é KK1084 à parte. |
+| **R5 — KK0371 e KK0467 de erro (KK1124, KK0657)** | `documentacao/KK0898/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` §5 e §6 | Seções em doc existente | **Existente.** Preencher com: endpoint, KK1001, 200 e erros; “falha KK1124: KK0158 ou cai?”; “falha KK0657: KK1190, KK0172 error ou Cockpit?”. |
+| **R6 — Glossário** | `documentacao/Manual KK0950/GLOSSARIO.md` (a criar) | Arquivo glossário | **A criar** no Manual (§3.4). Entrada única “KK0346 para KK0640 / menoridade” em DUVIDAS ou KK1169. Referência da squad é o Manual, não KK1439. |
+| **Ownership KK0144 x KK0217** | `documentacao/KK0898/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` + `documentacao/Manual KK0950/INDICE_E_PLANEJAMENTO_MANUAL_CO8.md` | Uma linha em cada | **Existente.** Incluir no texto: “KK0656: KK0978 KK0282/KK0217; KK0144 pré-KK0544”. |
+| **KK1314 / KK0497** | `documentacao/Manual KK0950/parte_05_segmentacao_direcionador/FLUXO_05_tecnico.md` (§ KK1423 / KK1315) | Seção no KK1378 | **Existente.** Adicionar subseção: valor de `KK1312`/`KK1313` no KK1020; tarefa/KK1223 que popula. |
+| **KK1130 / limites e sobrescrita** | `documentacao/Manual KK0950/parte_07_limites_oferta_mapeamento_ge/FLUXO_07_tecnico.md` + DUVIDAS §7 | Seção no KK1378 + DUVIDAS | **Existente.** Documentar onde a sobrescrita (KK0823 KK0497 sobre KK1130) é feita; prazo em DUVIDAS §7. |
+| **KK0755 KK0172 no ramo KK0921** | `documentacao/Manual KK0950/parte_12_*/FLUXO_12_tecnico.md` e USER_STORY da parte 12; partes com ramo KK0921 | Tabela/seção em KK1378 e USER_STORY | **A preencher.** Ao fechar ramo KK0921: incluir KK0755 das KK1335/KK0712 com nome lógico. |
+| **Botão KK1451 (KK1167)** | `documentacao/KK0898/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` | Parágrafo existente | **Existente.** Reforçar: “Reconstruir KK1338 ao KK1451: estado vem do KK1069/KK0282; KK0144 e front alinhados em qual KK1338 e chave tarefa KK1451”. Opcional: doc em `documentacao/camunda/` para casos em que o KK1451 quebra. |
+| **KK0309 e KK0492 KK1451** | `documentacao/Manual KK0950/parte_*/FLUXO_*_tecnico.md` (Partes 2, 3, 4, 8) — §2.5 e §2.4 (§4) | KK0491 + tabela De/Para/Flow | **KK1025 §2 e §4.** Aplicar modelo FLUXO_03 (KK0492 KK1451 + tabela completes). |
+| **Cockpit e reprocessamento** | `documentacao/camunda/` (ex.: novo guia ou seção em GUIA_COMPLETO_CAMUNDA.md / README_CAMUNDA.md) | Doc ou seção | **A criar.** Como ver KK1423 no Cockpit; procedimento reprocessamento em KK0736. |
+| **Índice de KK1245** | `documentacao/Manual KK0950/INDICE_SCRIPTS.md` | Arquivo novo | **A criar** (§3.1). Lista KK1223 KK1332, id, parte, link para FLUXO_*_tecnico. |
+| **Variáveis e completes por parte** | `documentacao/Manual KK0950/parte_<N>_*/FLUXO_<N>_tecnico.md` — §3 Variáveis, §2.4 KK0309 | Seções nos KK1379 | **KK1025 §4.** Expandir cada FLUXO_*_tecnico com tabelas. |
+| **KK1145 de KK0911 / pseudo-KK0398** | `documentacao/Manual KK0950/parte_<N>_*/FLUXO_<N>_tecnico.md` ou `parte_<N>_REGRAS_NEGOCIO.md`, `_template_PSEUDOCODIGO_SCRIPT.md` | Seção ou arquivo por parte | **KK1025 §1.** Template e arquivos por parte. |
 
 #### Árvore resumida (arquivos e pastas remédio — equipe daily)
 
-*kkkki5 é kkkky7 à parte (kkkkgv kkkkhk); não integrado à daily. Remédios da squad abaixo.*
+*KK1438 é KK1084 à parte (KK0471 KK0172); não integrado à daily. Remédios da squad abaixo.*
 
 ```text
 documentacao/
-├── Manual KK0106/
+├── Manual KK0950/
 │   ├── README_MANUAL_OMNICHANNEL.md          # R4 — ponto de entrada (existente)
-│   ├── INDICE_E_PLANEJAMENTO_MANUAL_CO8.md   # R4 + link kkkkxb (existente)
+│   ├── INDICE_E_PLANEJAMENTO_MANUAL_CO8.md   # R4 + link KK0980 (existente)
 │   ├── INDICE_SCRIPTS.md                      # §3.1 / capacidade — a criar
 │   ├── GLOSSARIO.md                           # R6 — a criar
 │   ├── ONBOARDING_CO8_UMA_PAGINA.md           # R4 opcional — a criar
 │   ├── RELATORIO_PLANOS_E_MELHORIAS.md       # este relatório (contém §8)
 │   └── parte_<N>_<nome>/
-│       └── FLUXO_<N>_tecnico.md               # kkkkvo, completes, kkkk5w, KK0137 (5,7), kkkk5j
-├── KK0105/
-│   ├── KK0024.md       # KK0199 (existente)
+│       └── FLUXO_<N>_tecnico.md               # KK1423, completes, KK0493, KK1315 (5,7), KK0755
+├── KK0898/
+│   ├── KK0899.md       # KK1139 (existente)
 │   └── interno/
 │       ├── DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md   # R1, R3, R5, §5 §6 §7 §8 (existente)
-│       ├── RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md    # R2 (tabela ou link), kkkkxb, botão kkkkgu (existente)
-│       └── TAREFAS_INTEGRACAO_OWNERSHIP.md    # R2 — a criar (se não for seção em KK0026)
+│       ├── RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md    # R2 (tabela ou link), KK0980, botão KK1451 (existente)
+│       └── TAREFAS_INTEGRACAO_OWNERSHIP.md    # R2 — a criar (se não for seção em KK1169)
 └── camunda/
     ├── README_CAMUNDA.md                     # Cockpit — link ou seção (existente)
     └── (guia ou doc Cockpit/reprocessamento) # Cockpit — a criar
 ```
 
-**KK0205:** “Existente” = arquivo/pasta já existe, falta preencher ou vincular conteúdo. “A criar” = arquivo ou seção ainda não existente. “kkkky2 §N” = entregável dos planos das seções 1–4 do relatório. A pasta `documentacao/kkkkyy/` pertence a outro kkkky7 (kkkkgv kkkkhk), não à documentação do dia a dia da squad.
+**KK0816:** “Existente” = arquivo/pasta já existe, falta preencher ou vincular conteúdo. “A criar” = arquivo ou seção ainda não existente. “KK1025 §N” = entregável dos planos das seções 1–4 do relatório. A pasta `documentacao/KK1439/` pertence a outro KK1084 (KK0471 KK0172), não à documentação do dia a dia da squad.
 
 ---
 
-## 9. KK0001 final consolidado (pós to-do e re-review 2026-03-14)
+## 9. KK1154 final consolidado (pós to-do e re-review 2026-03-14)
 
-- **Review de kkkkf4:** [RELATORIO_REVIEW_RASTREABILIDADE_MANUAL.md](RELATORIO_REVIEW_RASTREABILIDADE_MANUAL.md) — 16 partes verificadas; kkkkhk Flow_116t3w8 corrigido; §10 descreve re-review e artefatos criados.
-- **Status remédios R1–R6:** R1 (kkkk7p + DUVIDAS), R2 (TAREFAS_INTEGRACAO_OWNERSHIP), R3 (placeholder), R4 (links README/INDICE), R5 (estrutura DUVIDAS §5/§6), R6 (GLOSSARIO) — ver relatório §10.3.
-- **Referência cruzada:** [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md) — KK0105, kkkkes e Manual; KK0188 12 e consistência ramo kkkk6k.
-- **To-do restante:** [TODO_POS_REVIEW_MANUAL.md](TODO_POS_REVIEW_MANUAL.md) — R3 (kkkkvo ramo kkkk6k quando kkkkhk definido); varredura opcional kkkkhk (outros sourceRef/targetRef); completar FLUXO_*_tecnico partes 9, 11–16.
-- **Aprimoramentos do manual:** [TODO_POS_REVIEW_MANUAL.md](TODO_POS_REVIEW_MANUAL.md) §6 — completar estrutura KK0178 (9, 11–16), kkkk5w padrão FLUXO_03, kkkkx5/pseudo-KK0021, completes/kkkkvo, INDICE_SCRIPTS, condições de kkkk7v. Execução incremental conforme §1–§4 deste relatório.
+- **Review de KK1133:** [RELATORIO_REVIEW_RASTREABILIDADE_MANUAL.md](RELATORIO_REVIEW_RASTREABILIDADE_MANUAL.md) — 16 partes verificadas; KK0172 Flow_116t3w8 corrigido; §10 descreve re-review e artefatos criados.
+- **Status remédios R1–R6:** R1 (KK0040 + DUVIDAS), R2 (TAREFAS_INTEGRACAO_OWNERSHIP), R3 (placeholder), R4 (links README/INDICE), R5 (estrutura DUVIDAS §5/§6), R6 (GLOSSARIO) — ver relatório §10.3.
+- **Referência cruzada:** [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md) — KK0898, KK1284 e Manual; KK1000 12 e consistência ramo KK0921.
+- **To-do restante:** [TODO_POS_REVIEW_MANUAL.md](TODO_POS_REVIEW_MANUAL.md) — R3 (KK1423 ramo KK0921 quando KK0172 definido); varredura opcional KK0172 (outros sourceRef/targetRef); completar FLUXO_*_tecnico partes 9, 11–16.
+- **Aprimoramentos do manual:** [TODO_POS_REVIEW_MANUAL.md](TODO_POS_REVIEW_MANUAL.md) §6 — completar estrutura KK1379 (9, 11–16), KK0493 padrão FLUXO_03, KK1146/pseudo-KK0398, completes/KK1423, INDICE_SCRIPTS, condições de KK0669. Execução incremental conforme §1–§4 deste relatório.
 
 $$$$$
 
 [RELATORIO_REVIEW_RASTREABILIDADE_MANUAL_GENERICO.md]
 XXXXX
-# KK0001 — Review de kkkkf4 Manual kkkkho vs kkkkhk (todo o manual)
+# KK1154 — Review de KK1133 Manual KK0282 vs KK0172 (todo o manual)
 
 **Data:** 2026-03-14 (última atualização: rodada de review conforme regra MANUAL_CO8_BPMN_TRACEABILITY_REVIEW)  
-**Regra de KK0199:** `.cursor/rules/MANUAL_CO8_BPMN_TRACEABILITY_REVIEW.mdc`  
-**KK0184:** `kkkkk6`  
-**KK0183:** 16 partes — todos os `FLUXO_*_tecnico`, `FLUXO_*_guia` e `USER_STORY_*` do manual.
+**Regra de KK1139:** `.cursor/rules/MANUAL_CO8_BPMN_TRACEABILITY_REVIEW.mdc`  
+**KK0655:** `KK0953`  
+**KK0598:** 16 partes — todos os `FLUXO_*_tecnico`, `FLUXO_*_guia` e `USER_STORY_*` do manual.
 
 ---
 
 ## 1. Resumo executivo
 
-Foi realizada revisão de kkkkf4 da **documentação completa do Manual kkkkho** (16 partes) em relação ao kkkkhk e ao índice. **Consistência geral:** o índice e os KK0181 kkkkhk citados estão alinhados ao kkkkhk; todos os kkkk5j de KK0199 do índice existem no KK0145. A inconsistência do kkkkhk (Flow_116t3w8) foi **corrigida**. As **partes 9 e 11–16**, que tinham documentação kkkk5u mínima, foram **completadas em lote** (Objetivo, kkkk59 kkkkhk em tabela, Sequence kkkkoa, kkkk5v kkkk5x, Variáveis, Referências). **Estado atual:** as 16 partes possuem FLUXO_*_tecnico com estrutura adequada; sem divergência crítica entre guia, KK0018 e user story; lacuna MÉDIO (KK0018 mínimo) **resolvida**. Permanecem recomendações BAIXO (completes/kkkkvo em mais partes, condições de kkkk7v).
+Foi realizada revisão de KK1133 da **documentação completa do Manual KK0282** (16 partes) em relação ao KK0172 e ao índice. **Consistência geral:** o índice e os KK0552 KK0172 citados estão alinhados ao KK0172; todos os KK0755 de KK1139 do índice existem no KK0492. A inconsistência do KK0172 (Flow_116t3w8) foi **corrigida**. As **partes 9 e 11–16**, que tinham documentação KK1377 mínima, foram **completadas em lote** (Objetivo, KK0551 KK0172 em tabela, Sequence KK0649, KK0491 KK0865, Variáveis, Referências). **Estado atual:** as 16 partes possuem FLUXO_*_tecnico com estrutura adequada; sem divergência crítica entre guia, KK1378 e user story; lacuna MÉDIO (KK1378 mínimo) **resolvida**. Permanecem recomendações BAIXO (completes/KK1423 em mais partes, condições de KK0669).
 
 ---
 
-## 2. KK0183 analisado
+## 2. KK0598 analisado
 
 | Item | Cobertura |
 | ------ | ------------ |
-| **kkkkhk** | `kkkkk6` — verificação dos kkkk5j citados no índice para as 16 partes. |
-| **Índice** | `INDICE_E_PLANEJAMENTO_MANUAL_CO8.md` — 16 partes, links para guia/KK0018/US. |
-| **kkkk5m KK0178** | Todas as 16 partes — estrutura (seções) e conteúdo mínimo verificados. |
+| **KK0172** | `KK0953` — verificação dos KK0755 citados no índice para as 16 partes. |
+| **Índice** | `INDICE_E_PLANEJAMENTO_MANUAL_CO8.md` — 16 partes, links para guia/KK1378/US. |
+| **KK0522 KK1379** | Todas as 16 partes — estrutura (seções) e conteúdo mínimo verificados. |
 | **Guias** | 16 partes — existência e alinhamento ao índice. |
-| **User stories** | 16 partes — existência e KK0199 kkkkhk. |
+| **User stories** | 16 partes — existência e KK1139 KK0172. |
 
 ---
 
-## 3. Consistência kkkkhk vs documentação
+## 3. Consistência KK0172 vs documentação
 
-### 3.1 Verificação por parte — KK0181 do índice existem no kkkkhk
+### 3.1 Verificação por parte — KK0552 do índice existem no KK0172
 
-Todos os KK0181 kkkkhk listados na coluna "kkkk59 kkkkhk principais" do índice foram conferidos no `kkkkk6`. **Resultado:** os kkkk5j existem no kkkkhk (como `id` em KK0181 ou `bpmnElement` em BPMNDI).
+Todos os KK0552 KK0172 listados na coluna "KK0551 KK0172 principais" do índice foram conferidos no `KK0953`. **Resultado:** os KK0755 existem no KK0172 (como `id` em KK0552 ou `bpmnElement` em BPMNDI).
 
-| KK0188 | kkkk59 índice verificados no kkkkhk | Status |
+| KK1000 | KK0551 índice verificados no KK0172 | Status |
 | ------- | -------------------------------------- | -------- |
-| 1 | Event_0s31x87, kkkkm2, kkkkpb | OK |
-| 2 | kkkkix, kkkkiw, kkkkjs, kkkkiz | OK |
-| 3 | kkkkiy, kkkkjt, kkkki0, kkkkpd | OK |
-| 4 | kkkkjg, kkkknq | OK |
-| 5 | kkkklr, kkkkls, kkkkno, kkkkpb, KK0049, kkkkjb, kkkknz, kkkkb0 | OK |
-| 6 | kkkkax, kkkkji, kkkko1 | OK |
-| 7 | kkkkcn, kkkknx, kkkkij, kkkkpi, KK0096 | OK |
-| 8 | kkkkid, kkkkif, kkkkmy, KK0064 | OK |
-| 9 | KK0060, kkkkpc, KK0064, KK0065 | OK |
-| 10 | consulta_conta, kkkk72, kkkkc7, kkkkn3 | OK |
-| 11 | kkkkne, kkkkel, KK0126, KK0107, kkkkcx, kkkkn7 | OK |
-| 12 | KK0090, KK0069, KK0091, KK0071, KK0073, KK0074 | OK |
-| 13 | Gateway_19hcmx2, Gateway_16nr563, KK0075, KK0076, KK0078 | OK |
-| 14 | kkkkpk, KK0080, kkkkaz, kkkkld, KK0083 | OK |
-| 15 | KK0084, KK0085, KK0086, KK0089, kkkkdt | OK |
-| 16 | kkkko5, kkkko8, kkkko7, kkkko4, kkkkdg | OK |
+| 1 | Event_0s31x87, KK1232, KK0674 | OK |
+| 2 | KK0421, KK0413, KK0411, KK0416 | OK |
+| 3 | KK0417, KK0414, KK0420, KK0686 | OK |
+| 4 | KK1262, KK1116 | OK |
+| 5 | KK0500, KK0502, KK0111, KK0674, KK0339, KK0596, KK0597, KK0503 | OK |
+| 6 | KK0675, KK0053, KK0019 | OK |
+| 7 | KK0934, KK0856, KK0406, KK1097, KK1240 | OK |
+| 8 | KK0016, KK1349, KK0015, KK0301 | OK |
+| 9 | KK0409, KK0677, KK0301, KK1184 | OK |
+| 10 | consulta_conta, KK0683, KK1110, KK0105 | OK |
+| 11 | KK1235, KK0534, KK0873, KK1233, KK0101, KK1104 | OK |
+| 12 | KK0690, KK1076, KK0020, KK1398, KK0533, KK1105 | OK |
+| 13 | Gateway_19hcmx2, Gateway_16nr563, KK1348, KK1401, KK0538 | OK |
+| 14 | KK0031, KK0209, KK0696, KK0695, KK0866 | OK |
+| 15 | KK0718, KK0719, KK0542, KK0892, KK0583 | OK |
+| 16 | KK0024, KK0028, KK0027, KK0022, KK0025 | OK |
 
-### 3.2 Inconsistência no kkkkhk (não na documentação)
+### 3.2 Inconsistência no KK0172 (não na documentação)
 
 | Severidade | Descrição | Status |
 | ------------ | ----------- | -------- |
-| **BAIXO** | O `sequenceFlow` `Flow_116t3w8` tinha `sourceRef="KK0148 atribui KK0177 decurso"` (com espaço); o id da KK0148 kkkk9q é `kkkkm2`. | **Corrigido em 2026-03-14:** `sourceRef` alterado para `kkkkm2` no kkkkhk. |
+| **BAIXO** | O `sequenceFlow` `Flow_116t3w8` tinha `sourceRef="KK1223 atribui KK1342 decurso"` (com espaço); o id da KK1223 KK1332 é `KK1232`. | **Corrigido em 2026-03-14:** `sourceRef` alterado para `KK1232` no KK0172. |
 
-### 3.3 Documentação que reflete corretamente o kkkkhk
+### 3.3 Documentação que reflete corretamente o KK0172
 
-- **Partes 1–4:** Técnico com Objetivo, kkkk59 kkkkhk (tabela), Variáveis, kkkkvq/kkkk5v, Referências; guia e USER_STORY alinhados; KK0181 citados existem no kkkkhk.
-- **Partes 5–8, 10:** Técnico com Objetivo, kkkk59 kkkkhk principais, Referências (e em alguns Variáveis); conteúdo coerente com o índice e com o kkkkhk.
-- **Partes 9, 11–16:** Técnicos **completos** (pós aprimoramentos em lote): Objetivo, kkkk59 kkkkhk (tabelas), Sequence kkkkoa, kkkk5v kkkkhk (kkkk5x), Variáveis, Referências; KK0181 citados existem no kkkkhk; guia e USER_STORY alinhados.
+- **Partes 1–4:** Técnico com Objetivo, KK0551 KK0172 (tabela), Variáveis, KK0650/KK0491, Referências; guia e USER_STORY alinhados; KK0552 citados existem no KK0172.
+- **Partes 5–8, 10:** Técnico com Objetivo, KK0551 KK0172 principais, Referências (e em alguns Variáveis); conteúdo coerente com o índice e com o KK0172.
+- **Partes 9, 11–16:** Técnicos **completos** (pós aprimoramentos em lote): Objetivo, KK0551 KK0172 (tabelas), Sequence KK0649, KK0491 KK0172 (KK0865), Variáveis, Referências; KK0552 citados existem no KK0172; guia e USER_STORY alinhados.
 
 ---
 
-## 4. Estrutura dos documentos KK0178 (padrão esperado)
+## 4. Estrutura dos documentos KK1379 (padrão esperado)
 
-Conforme a regra de review, espera-se: Objetivo, kkkk59 kkkkhk, kkkkvq em detalhe, Variáveis de kkkk55, KK0149/sequence kkkkoa, kkkk5v kkkkhk (kkkk5x), Referências kkkkhk.
+Conforme a regra de review, espera-se: Objetivo, KK0551 KK0172, KK0650 em detalhe, Variáveis de KK1069, KK0309/sequence KK0649, KK0491 KK0172 (KK0865), Referências KK0172.
 
-| KK0188 | Nome | Seções presentes no KK0018 | Linhas | Adequação |
+| KK1000 | Nome | Seções presentes no KK1378 | Linhas | Adequação |
 | ------- | ------ | ----------------------------- | -------- | ------------ |
-| 1 | Início e identificação | Objetivo, kkkk59 kkkkhk, kkkkvq, Variáveis, kkkk5v, Referências | 126 | Completo |
-| 2 | kkkkgd inicial / dados de contato | Objetivo, kkkk59 kkkkhk, Variáveis, kkkkvt/saídas, kkkk5v, Referências | 107 | Completo |
-| 3 | kkkkwx pessoais | Objetivo, kkkk59 kkkkhk, Variáveis, kkkkvt/saídas, Referências | 180 | Completo |
-| 4 | Seleção de kkkk1o | Objetivo, kkkk59 kkkkhk, Variáveis, Referências | 52 | Completo |
-| 5 | Segmentação e kkkkxg | Objetivo, kkkk59 kkkkhk, Sequence kkkkoa, Condições kkkk7v, Variáveis, kkkk5v kkkk5x, Referências | ~110 | Completo |
-| 6 | kkkk7u / kkkkg3 | Objetivo, kkkk59 kkkkhk, Sequence kkkkoa, Condições kkkk7v, Variáveis, kkkk5v kkkk5x, Referências | ~115 | Completo |
-| 7 | Limites e kkkkss GE | Objetivo, kkkk59 kkkkhk, Sequence kkkkoa, Variáveis, kkkk5v kkkk5x, Referências | ~85 | Completo |
-| 8 | kkkkwt, kkkkmk e kkkkyh | Objetivo, kkkk59 kkkkhk, KK0149, Variáveis, kkkk5v kkkk5x, Referências | ~105 | Completo |
-| 9 | kkkkxf e kkkkwc de kkkkiu | Objetivo, kkkk59 kkkkhk (2.1–2.5), Condições kkkk7v, Variáveis, kkkk5v kkkk5x, Referências | ~120 | Completo |
-| 10 | kkkk56 pré-kkkks7 | Objetivo, kkkk59 kkkkhk, Sequence kkkkoa, Condições kkkk7v, Variáveis, kkkk5v kkkk5x, Referências | ~95 | Completo |
-| 11 | kkkk7y da kkkklh | Objetivo, kkkk59 kkkkhk (2.1–2.3), Variáveis, kkkk5v kkkk5x, Referências | ~80 | Completo |
-| 12 | kkkk8c e Vínculo kkkk64 | Objetivo, kkkk59 kkkkhk (2.1–2.3), Variáveis, kkkk5v kkkk5x, Referências | ~95 | Completo |
-| 13 | Benefício kkkkhm | Objetivo, kkkk59 kkkkhk (2.1–2.3), Variáveis, kkkk5v kkkk5x, Referências | ~75 | Completo |
-| 14 | kkkkh1 e Mesa kkkkh1 | Objetivo, kkkk59 kkkkhk (2.1–2.3), Variáveis, kkkk5v kkkk5x, Referências | ~85 | Completo |
-| 15 | kkkkhu, envios e finalização | Objetivo, kkkk59 kkkkhk (2.1–2.3), Variáveis, kkkk5v kkkk5x, Referências | ~75 | Completo |
-| 16 | Eventos kkkkyi | Objetivo, kkkk59 kkkkhk (2.1–2.3), Variáveis, kkkk5v kkkk5x, Referências | ~75 | Completo |
+| 1 | Início e identificação | Objetivo, KK0551 KK0172, KK0650, Variáveis, KK0491, Referências | 126 | Completo |
+| 2 | KK0196 inicial / dados de contato | Objetivo, KK0551 KK0172, Variáveis, KK0577/saídas, KK0491, Referências | 107 | Completo |
+| 3 | KK0399 pessoais | Objetivo, KK0551 KK0172, Variáveis, KK0577/saídas, Referências | 180 | Completo |
+| 4 | Seleção de KK0046 | Objetivo, KK0551 KK0172, Variáveis, Referências | 52 | Completo |
+| 5 | Segmentação e KK0497 | Objetivo, KK0551 KK0172, Sequence KK0649, Condições KK0669, Variáveis, KK0491 KK0865, Referências | ~110 | Completo |
+| 6 | KK0134 / KK1467 | Objetivo, KK0551 KK0172, Sequence KK0649, Condições KK0669, Variáveis, KK0491 KK0865, Referências | ~115 | Completo |
+| 7 | Limites e KK0936 GE | Objetivo, KK0551 KK0172, Sequence KK0649, Variáveis, KK0491 KK0865, Referências | ~85 | Completo |
+| 8 | KK1078, KK0009 e KK1351 | Objetivo, KK0551 KK0172, KK0309, Variáveis, KK0491 KK0865, Referências | ~105 | Completo |
+| 9 | KK0148 e KK0297 de KK1267 | Objetivo, KK0551 KK0172 (2.1–2.5), Condições KK0669, Variáveis, KK0491 KK0865, Referências | ~120 | Completo |
+| 10 | KK1405 pré-KK0544 | Objetivo, KK0551 KK0172, Sequence KK0649, Condições KK0669, Variáveis, KK0491 KK0865, Referências | ~95 | Completo |
+| 11 | KK0543 da KK0346 | Objetivo, KK0551 KK0172 (2.1–2.3), Variáveis, KK0491 KK0865, Referências | ~80 | Completo |
+| 12 | KK1282 e Vínculo KK1123 | Objetivo, KK0551 KK0172 (2.1–2.3), Variáveis, KK0491 KK0865, Referências | ~95 | Completo |
+| 13 | Benefício KK0776 | Objetivo, KK0551 KK0172 (2.1–2.3), Variáveis, KK0491 KK0865, Referências | ~75 | Completo |
+| 14 | KK1029 e Mesa KK1029 | Objetivo, KK0551 KK0172 (2.1–2.3), Variáveis, KK0491 KK0865, Referências | ~85 | Completo |
+| 15 | KK0982, envios e finalização | Objetivo, KK0551 KK0172 (2.1–2.3), Variáveis, KK0491 KK0865, Referências | ~75 | Completo |
+| 16 | Eventos KK1371 | Objetivo, KK0551 KK0172 (2.1–2.3), Variáveis, KK0491 KK0865, Referências | ~75 | Completo |
 
 ---
 
-## 5. Divergências entre guia, KK0018 e user story
+## 5. Divergências entre guia, KK1378 e user story
 
-- **Partes 1–4:** Guia, KK0018 e USER_STORY descrevem o mesmo comportamento; critérios de kkkkmk auditáveis no kkkkhk. Sem divergência.
-- **Partes 5–8, 10:** Técnicos completos (pós TODO 100%); guia, KK0018 e USER_STORY compatíveis; sem contradição.
-- **Partes 9, 11–16:** Técnicos completos (pós lote); guia, KK0018 e USER_STORY descrevem o mesmo comportamento; KK0181 e KK0204 citados existem no kkkkhk. **Sem divergência** identificada.
+- **Partes 1–4:** Guia, KK1378 e USER_STORY descrevem o mesmo comportamento; critérios de KK0009 auditáveis no KK0172. Sem divergência.
+- **Partes 5–8, 10:** Técnicos completos (pós TODO 100%); guia, KK1378 e USER_STORY compatíveis; sem contradição.
+- **Partes 9, 11–16:** Técnicos completos (pós lote); guia, KK1378 e USER_STORY descrevem o mesmo comportamento; KK0552 e KK0654 citados existem no KK0172. **Sem divergência** identificada.
 
 ---
 
-## 6. Variáveis e KK0028 não rastreáveis
+## 6. Variáveis e KK1245 não rastreáveis
 
-- **Partes 1–4:** Variáveis documentadas nos KK0178 são setadas por kkkkiq/KK0028 existentes no kkkkhk. **Rastreável.**
-- **Partes 5–8, 10:** Técnicos com tabelas de kkkkvo (e completes/kkkk7v onde aplicável); KK0181 citados existem no kkkkhk. **Rastreável** (pós TODO 100%).
-- **Partes 9, 11–16:** Técnicos passam a listar kkkkvo (e, quando aplicável, KK0028); KK0181 citados existem no kkkkhk. **Rastreável** (pós aprimoramentos em lote).
+- **Partes 1–4:** Variáveis documentadas nos KK1379 são setadas por KK1335/KK1245 existentes no KK0172. **Rastreável.**
+- **Partes 5–8, 10:** Técnicos com tabelas de KK1423 (e completes/KK0669 onde aplicável); KK0552 citados existem no KK0172. **Rastreável** (pós TODO 100%).
+- **Partes 9, 11–16:** Técnicos passam a listar KK1423 (e, quando aplicável, KK1245); KK0552 citados existem no KK0172. **Rastreável** (pós aprimoramentos em lote).
 
 ---
 
@@ -941,30 +941,30 @@ Conforme a regra de review, espera-se: Objetivo, kkkk59 kkkkhk, kkkkvq em detalh
 
 | Severidade | Partes | Lacuna | Status |
 | ------------ | -------- | -------- | -------- |
-| ~~**MÉDIO**~~ | ~~9, 11, 12, 13, 14, 15, 16~~ | ~~FLUXO_*_tecnico mínimo~~ | **Resolvido** — Completados em lote (Objetivo, kkkk59 kkkkhk, kkkk5v kkkk5x, Variáveis, Referências). |
-| ~~**BAIXO**~~ | ~~5–8, 10~~ | ~~Técnicos Parcial~~ | **Resolvido** — Completados em 2026-03-14 (TODO_INTERNO_PENDENCIAS_REVIEW_100): kkkk5v kkkk5x, Variáveis, KK0149, Condições de kkkk7v, Sequence kkkkoa. |
+| ~~**MÉDIO**~~ | ~~9, 11, 12, 13, 14, 15, 16~~ | ~~FLUXO_*_tecnico mínimo~~ | **Resolvido** — Completados em lote (Objetivo, KK0551 KK0172, KK0491 KK0865, Variáveis, Referências). |
+| ~~**BAIXO**~~ | ~~5–8, 10~~ | ~~Técnicos Parcial~~ | **Resolvido** — Completados em 2026-03-14 (TODO_INTERNO_PENDENCIAS_REVIEW_100): KK0491 KK0865, Variáveis, KK0309, Condições de KK0669, Sequence KK0649. |
 | **BAIXO** | Geral | Tabela consolidada VARIAVEIS_E_COMPLETES_REFERENCIA.md opcional. | Opcional |
 
-**Nota:** Partes 5, 6, 7, 8 e 10 — KK0181 kkkkhk referenciados existem no KK0145. Estrutura completa aplicada (2026-03-14). Índice e regra de review contemplam referências cruzadas; este relatório em `MANUAL_CO8_BPMN_TRACEABILITY_REVIEW.mdc` (documentation.overview).
+**Nota:** Partes 5, 6, 7, 8 e 10 — KK0552 KK0172 referenciados existem no KK0492. Estrutura completa aplicada (2026-03-14). Índice e regra de review contemplam referências cruzadas; este relatório em `MANUAL_CO8_BPMN_TRACEABILITY_REVIEW.mdc` (documentation.overview).
 
 ---
 
-## 8. Riscos kkkkwm
+## 8. Riscos KK0086
 
-- **Ramo kkkkzo kkkk6k (KK0188 12):** O kkkkhk tem dois arcos saindo de `KK0090`. O ramo múltiplo kkkk6k exigirá terceiro arco ou kkkk7v exclusivo; documentação KK0105 e FLUXO_12_tecnico já refletem essa decisão. Manter FLUXO_12_tecnico alinhado quando o kkkkhk for alterado.
-- ~~**SourceRef com espaço (Flow_116t3w8):**~~ **Resolvido** — sourceRef corrigido no kkkkhk.
-- **Varredura kkkkhk (sourceRef/targetRef com espaço):** Varredura pontual identificou outros KK0181 com espaço no id em sequenceFlow/association: ex. `kkkkis 1a27abu`, `Event 0cv5cgy`, `Event 1qqqoc6`, `kkkkis Orzool0`, `monta_payload obter_limie_v3`, `kkkk3l kkkkmb`, `kkkkxg kkkk1x`, `Event 095mcuv`, `altera situacao cadastro`, `restricao bacen`, `janela funcionamento_r0`, `trava r0`. **kkkk5n BAIXO** (engine pode resolver por name); correção recomendada quando houver alteração no kkkkhk (usar id sem espaço).
+- **Ramo KK0902 KK0921 (KK1000 12):** O KK0172 tem dois arcos saindo de `KK0690`. O ramo múltiplo KK0921 exigirá terceiro arco ou KK0669 exclusivo; documentação KK0898 e FLUXO_12_tecnico já refletem essa decisão. Manter FLUXO_12_tecnico alinhado quando o KK0172 for alterado.
+- ~~**SourceRef com espaço (Flow_116t3w8):**~~ **Resolvido** — sourceRef corrigido no KK0172.
+- **Varredura KK0172 (sourceRef/targetRef com espaço):** Varredura pontual identificou outros KK0552 com espaço no id em sequenceFlow/association: ex. `KK0668 1a27abu`, `Event 0cv5cgy`, `Event 1qqqoc6`, `KK0668 Orzool0`, `monta_payload obter_limie_v3`, `KK1086 KK0906`, `KK0497 KK0273`, `Event 095mcuv`, `altera situacao cadastro`, `restricao bacen`, `janela funcionamento_r0`, `trava r0`. **KK1200 BAIXO** (engine pode resolver por name); correção recomendada quando houver alteração no KK0172 (usar id sem espaço).
 
 ---
 
 ## 9. Recomendações
 
-1. **kkkkhk:** ~~Corrigir `sourceRef` do `Flow_116t3w8`~~ **Concluído (2026-03-14).**
+1. **KK0172:** ~~Corrigir `sourceRef` do `Flow_116t3w8`~~ **Concluído (2026-03-14).**
 2. **Partes 9, 11–16:** ~~Completar cada FLUXO_*_tecnico~~ **Concluído** — Completados em lote (TODO_INTERNO_APRIMORAMENTOS_LOTE, 2026-03-14).
-3. ~~**Partes 5–8, 10:** kkkkdq kkkkvo e completes~~ **Concluído** — TODO_INTERNO_PENDENCIAS_REVIEW_100 executado (2026-03-14).
-4. **Índice:** Referências cruzadas (§5) ampliadas com links para DUVIDAS, KK0026, GLOSSARIO, REFERENCIA_CRUZADA, INDICE_SCRIPTS (2026-03-14).
+3. ~~**Partes 5–8, 10:** KK1196 KK1423 e completes~~ **Concluído** — TODO_INTERNO_PENDENCIAS_REVIEW_100 executado (2026-03-14).
+4. **Índice:** Referências cruzadas (§5) ampliadas com links para DUVIDAS, KK1169, GLOSSARIO, REFERENCIA_CRUZADA, INDICE_SCRIPTS (2026-03-14).
 5. **Regra de review:** Este relatório e o TODO_POS_REVIEW_MANUAL já constam em `MANUAL_CO8_BPMN_TRACEABILITY_REVIEW.mdc` (documentation.overview).
-6. **Varredura kkkkhk:** Corrigir sourceRef/targetRef com espaço (lista em §8) quando houver alteração no kkkkhk (opcional).
+6. **Varredura KK0172:** Corrigir sourceRef/targetRef com espaço (lista em §8) quando houver alteração no KK0172 (opcional).
 
 ---
 
@@ -972,72 +972,72 @@ Conforme a regra de review, espera-se: Objetivo, kkkk59 kkkkhk, kkkkvq em detalh
 
 **Reaplicação do review** após execução do TODO_POS_REVIEW_MANUAL.
 
-### 10.1 Verificação kkkkhk (pós-correção)
+### 10.1 Verificação KK0172 (pós-correção)
 
-- **Flow_116t3w8:** Conferido no kkkkhk; `sourceRef="kkkkm2"` — **consistente** com o id da KK0148 kkkk9q.
-- **kkkk59 do índice (16 partes):** Reconfirmado que todos os kkkk5j citados existem no kkkkhk; sem novas divergências.
+- **Flow_116t3w8:** Conferido no KK0172; `sourceRef="KK1232"` — **consistente** com o id da KK1223 KK1332.
+- **KK0551 do índice (16 partes):** Reconfirmado que todos os KK0755 citados existem no KK0172; sem novas divergências.
 
 ### 10.2 Artefatos criados/alterados (remédios e to-do)
 
 | Artefato | Descrição |
 | ---------- | ----------- |
-| `documentacao/KK0105/interno/kkkk7p/` | Pasta e README_ADR_MULTIPLO_NPC.md + ADR_MULTIPLO_NPC_DUVIDAS.md (dúvidas em formato kkkk7p com sugestão quando aberto). |
-| `documentacao/KK0105/interno/TAREFAS_INTEGRACAO_OWNERSHIP.md` | Tabela de kkkkiq de integração (R2). |
-| `documentacao/Manual KK0106/GLOSSARIO.md` | Glossário (R6): kkkklh para kkkkg2 / menoridade. |
-| `documentacao/Manual KK0106/REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md` | Onde KK0105, kkkkes e Manual se tocam; KK0188 12 e consistência ramo kkkk6k. |
-| `documentacao/Manual KK0106/README_MANUAL_OMNICHANNEL.md` | Links para GLOSSARIO, DUVIDAS, KK0026, kkkkes (R4). |
-| `documentacao/Manual KK0106/INDICE_E_PLANEJAMENTO_MANUAL_CO8.md` | §5 ampliado: DUVIDAS, KK0026, GLOSSARIO, REFERENCIA_CRUZADA (R4). |
-| `documentacao/KK0105/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` | Linha de kkkkxb kkkkhp x kkkkgm e botão kkkkgu. |
-| `documentacao/KK0105/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` | Bloco "kkkkvm e KK0003 de erro" em §6; KK0199 em §5 (R5). |
+| `documentacao/KK0898/interno/KK0040/` | Pasta e README_ADR_MULTIPLO_NPC.md + ADR_MULTIPLO_NPC_DUVIDAS.md (dúvidas em formato KK0040 com sugestão quando aberto). |
+| `documentacao/KK0898/interno/TAREFAS_INTEGRACAO_OWNERSHIP.md` | Tabela de KK1335 de integração (R2). |
+| `documentacao/Manual KK0950/GLOSSARIO.md` | Glossário (R6): KK0346 para KK0640 / menoridade. |
+| `documentacao/Manual KK0950/REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md` | Onde KK0898, KK1284 e Manual se tocam; KK1000 12 e consistência ramo KK0921. |
+| `documentacao/Manual KK0950/README_MANUAL_OMNICHANNEL.md` | Links para GLOSSARIO, DUVIDAS, KK1169, KK1284 (R4). |
+| `documentacao/Manual KK0950/INDICE_E_PLANEJAMENTO_MANUAL_CO8.md` | §5 ampliado: DUVIDAS, KK1169, GLOSSARIO, REFERENCIA_CRUZADA (R4). |
+| `documentacao/KK0898/interno/RESPONSABILIDADES_FRONT_BACK_MULTIPLO_NPC.md` | Linha de KK0980 KK0144 x KK0217 e botão KK1451. |
+| `documentacao/KK0898/interno/DUVIDAS_IMPLEMENTACAO_CAMUNDA_MULTIPLO_NPC.md` | Bloco "KK0371 e KK0467 de erro" em §6; KK1139 em §5 (R5). |
 
 ### 10.3 Status dos remédios R1–R6
 
 | Remédio | Status |
 | --------- | -------- |
-| R1 — Decisões em DUVIDAS/kkkk7p | kkkk7p criado; decisão 1.3 em DUVIDAS e kkkk7p. |
-| R2 — Tabela kkkkiq integração | TAREFAS_INTEGRACAO_OWNERSHIP.md criado. |
-| R3 — Variáveis ramo kkkk6k | Placeholder em DUVIDAS §3 / kkkk7p; preencher quando kkkkhk ramo kkkk6k estiver definido. |
-| R4 — Ponto de entrada / links | README e INDICE com links para DUVIDAS, KK0026, kkkkhk, GLOSSARIO, REFERENCIA_CRUZADA. |
-| R5 — kkkkvm kkkkia/KK0012 | Estrutura "a preencher" em DUVIDAS §5 e §6. |
-| R6 — Glossário | GLOSSARIO.md criado (kkkklh para kkkkg2 / menoridade). |
+| R1 — Decisões em DUVIDAS/KK0040 | KK0040 criado; decisão 1.3 em DUVIDAS e KK0040. |
+| R2 — Tabela KK1335 integração | TAREFAS_INTEGRACAO_OWNERSHIP.md criado. |
+| R3 — Variáveis ramo KK0921 | Placeholder em DUVIDAS §3 / KK0040; preencher quando KK0172 ramo KK0921 estiver definido. |
+| R4 — Ponto de entrada / links | README e INDICE com links para DUVIDAS, KK1169, KK0172, GLOSSARIO, REFERENCIA_CRUZADA. |
+| R5 — KK0371 KK1124/KK0657 | Estrutura "a preencher" em DUVIDAS §5 e §6. |
+| R6 — Glossário | GLOSSARIO.md criado (KK0346 para KK0640 / menoridade). |
 
 ### 10.4 Conclusão do re-review
 
-- **kkkkma:** Índice e 16 partes permanecem alinhados ao kkkkhk; inconsistência do Flow_116t3w8 resolvida.
-- **Novos artefatos:** Não alteram a kkkkf4 dos FLUXO_* ou USER_STORY_*; reforçam KK0199 cruzada e documentação de KK0003.
-- **Lacunas de documentação (§7):** Na época, partes 9, 11–16 tinham KK0018 mínimo; após aprimoramentos em lote essa lacuna foi resolvida (ver §11).
+- **KK1132:** Índice e 16 partes permanecem alinhados ao KK0172; inconsistência do Flow_116t3w8 resolvida.
+- **Novos artefatos:** Não alteram a KK1133 dos FLUXO_* ou USER_STORY_*; reforçam KK1139 cruzada e documentação de KK0467.
+- **Lacunas de documentação (§7):** Na época, partes 9, 11–16 tinham KK1378 mínimo; após aprimoramentos em lote essa lacuna foi resolvida (ver §11).
 
 ---
 
 ## 11. Re-review pós aprimoramentos em lote (2026-03-14)
 
-**Motivo:** Execução do [TODO_INTERNO_APRIMORAMENTOS_LOTE.md](TODO_INTERNO_APRIMORAMENTOS_LOTE.md) — Lote 1 (completar FLUXO_*_tecnico partes 11–16; KK0188 9 já estava completa).
+**Motivo:** Execução do [TODO_INTERNO_APRIMORAMENTOS_LOTE.md](TODO_INTERNO_APRIMORAMENTOS_LOTE.md) — Lote 1 (completar FLUXO_*_tecnico partes 11–16; KK1000 9 já estava completa).
 
 ### 11.1 Verificação realizada
 
-- **Índice:** 16 partes; KK0181 kkkkhk da coluna "kkkk59 kkkkhk principais" conferidos no kkkkhk — **todos existem**.
-- **FLUXO_*_tecnico partes 9, 11–16:** Todos possuem §1 Objetivo, §2 kkkk59 kkkkhk (tabelas), §2.x kkkk5v kkkkhk (kkkk5x), §3 Variáveis (ou "nenhuma específica"), §4 Referências kkkkhk. kkkk59 citados (kkkk5j) existem no kkkkhk.
-- **Consistência guia / KK0018 / USER_STORY:** Sem contradição; KK0178 refletem o KK0046 descrito nos guias e kkkkla no kkkkhk.
-- **Diagramas kkkk5x:** Representam o KK0046 principal de cada parte; cores e KK0181 alinhados ao padrão (início verde, kkkkiq KK0207/KK0208, kkkk7v amarelo, fim KK0209).
+- **Índice:** 16 partes; KK0552 KK0172 da coluna "KK0551 KK0172 principais" conferidos no KK0172 — **todos existem**.
+- **FLUXO_*_tecnico partes 9, 11–16:** Todos possuem §1 Objetivo, §2 KK0551 KK0172 (tabelas), §2.x KK0491 KK0172 (KK0865), §3 Variáveis (ou "nenhuma específica"), §4 Referências KK0172. KK0551 citados (KK0755) existem no KK0172.
+- **Consistência guia / KK1378 / USER_STORY:** Sem contradição; KK1379 refletem o KK0651 descrito nos guias e KK0123 no KK0172.
+- **Diagramas KK0865:** Representam o KK0651 principal de cada parte; cores e KK0552 alinhados ao padrão (início verde, KK1335 KK0127/KK0269, KK0669 amarelo, fim KK1430).
 
 ### 11.2 Resultado
 
 | Item | Status |
 | ------ | -------- |
-| Consistência kkkkhk vs documentação | **OK** — 16 partes alinhadas. |
-| Estrutura dos KK0178 (9, 11–16) | **Completo** — padrão aplicado. |
-| Lacuna MÉDIO (KK0018 mínimo) | **Resolvida.** |
-| Divergências guia/KK0018/US | **Nenhuma** crítica. |
-| Variáveis e KK0028 rastreáveis | **Sim** nas partes 9, 11–16. |
+| Consistência KK0172 vs documentação | **OK** — 16 partes alinhadas. |
+| Estrutura dos KK1379 (9, 11–16) | **Completo** — padrão aplicado. |
+| Lacuna MÉDIO (KK1378 mínimo) | **Resolvida.** |
+| Divergências guia/KK1378/US | **Nenhuma** crítica. |
+| Variáveis e KK1245 rastreáveis | **Sim** nas partes 9, 11–16. |
 
 ### 11.3 Pendências (BAIXO) — resolvidas em 2026-03-14
 
-- ~~Partes 5–8, 10: completar tabelas e KK0145 kkkk5x~~ **Concluído** (TODO_INTERNO_PENDENCIAS_REVIEW_100).
-- ~~Condições de kkkk7v em tabela (Partes 2, 3, 4, 5, 6, 9, 10)~~ **Concluído** (tabelas adicionadas).
-- kkkk7t "Ao alterar o kkkkhk" e template pseudo-KK0021 já criados (README e _template_PSEUDOCODIGO_SCRIPT.md).
-- Opcional: VARIAVEIS_E_COMPLETES_REFERENCIA.md consolidado; correção de sourceRef/targetRef com espaço no kkkkhk (§8).
+- ~~Partes 5–8, 10: completar tabelas e KK0492 KK0865~~ **Concluído** (TODO_INTERNO_PENDENCIAS_REVIEW_100).
+- ~~Condições de KK0669 em tabela (Partes 2, 3, 4, 5, 6, 9, 10)~~ **Concluído** (tabelas adicionadas).
+- KK0262 "Ao alterar o KK0172" e template pseudo-KK0398 já criados (README e _template_PSEUDOCODIGO_SCRIPT.md).
+- Opcional: VARIAVEIS_E_COMPLETES_REFERENCIA.md consolidado; correção de sourceRef/targetRef com espaço no KK0172 (§8).
 
-**To-do 100%:** [TODO_INTERNO_PENDENCIAS_REVIEW_100.md](TODO_INTERNO_PENDENCIAS_REVIEW_100.md) — blocos 1–6 e 8–10 executados (2026-03-14); bloco 7 (visão consolidada) e correções kkkkhk opcionais.
+**To-do 100%:** [TODO_INTERNO_PENDENCIAS_REVIEW_100.md](TODO_INTERNO_PENDENCIAS_REVIEW_100.md) — blocos 1–6 e 8–10 executados (2026-03-14); bloco 7 (visão consolidada) e correções KK0172 opcionais.
 
 ---
 
@@ -1047,14 +1047,14 @@ Conforme a regra de review, espera-se: Objetivo, kkkk59 kkkkhk, kkkkvq em detalh
 
 ### 12.1 Verificação realizada
 
-- **kkkkhk:** `Flow_116t3w8` com `sourceRef="kkkkm2"` — consistente. kkkk59 do índice (16 partes) existem no kkkkhk.
-- **Índice:** 16 partes com links para guia, KK0018 e USER_STORY.
-- **FLUXO_*_tecnico:** Partes 1–16 com estrutura completa (Objetivo, kkkk59 kkkkhk, Variáveis, kkkk5v kkkk5x quando aplicável, Referências; partes 5–10 Completo pós §13).
-- **Consistência:** Sem divergência crítica entre guia, KK0018 e user story; KK0181 citados rastreáveis no kkkkhk.
+- **KK0172:** `Flow_116t3w8` com `sourceRef="KK1232"` — consistente. KK0551 do índice (16 partes) existem no KK0172.
+- **Índice:** 16 partes com links para guia, KK1378 e USER_STORY.
+- **FLUXO_*_tecnico:** Partes 1–16 com estrutura completa (Objetivo, KK0551 KK0172, Variáveis, KK0491 KK0865 quando aplicável, Referências; partes 5–10 Completo pós §13).
+- **Consistência:** Sem divergência crítica entre guia, KK1378 e user story; KK0552 citados rastreáveis no KK0172.
 
 ### 12.2 Resultado
 
-Estado do relatório **mantido**. Nenhuma nova inconsistência; KK0005 BAIXO e to-do 100% conforme §7, §9 e §11.3.
+Estado do relatório **mantido**. Nenhuma nova inconsistência; KK1007 BAIXO e to-do 100% conforme §7, §9 e §11.3.
 
 ---
 
@@ -1064,17 +1064,17 @@ Estado do relatório **mantido**. Nenhuma nova inconsistência; KK0005 BAIXO e t
 
 | Bloco | Ação | Status |
 | ------- | ------ | -------- |
-| 1 | Partes 5, 6, 7, 8, 10 — estrutura Completo (kkkk5v kkkk5x, Variáveis, Sequence kkkkoa, KK0149, Condições kkkk7v) | Concluído |
-| 2 | Tabelas de kkkkvo completas (5, 6, 7, 8, 10) | Concluído |
-| 3 | Tabelas de KK0149 (2, 3, 4, 8, 9) | Concluído |
-| 4 | Condições de kkkk7v em tabela (2, 3, 4, 5, 6, 9, 10) | Concluído |
-| 5 | Diagramas kkkk5x padrão FLUXO_03 (5, 6, 7, 8, 10) | Concluído |
-| 6 | Varredura kkkkhk sourceRef/targetRef — registrado em §8 | Concluído |
+| 1 | Partes 5, 6, 7, 8, 10 — estrutura Completo (KK0491 KK0865, Variáveis, Sequence KK0649, KK0309, Condições KK0669) | Concluído |
+| 2 | Tabelas de KK1423 completas (5, 6, 7, 8, 10) | Concluído |
+| 3 | Tabelas de KK0309 (2, 3, 4, 8, 9) | Concluído |
+| 4 | Condições de KK0669 em tabela (2, 3, 4, 5, 6, 9, 10) | Concluído |
+| 5 | Diagramas KK0865 padrão FLUXO_03 (5, 6, 7, 8, 10) | Concluído |
+| 6 | Varredura KK0172 sourceRef/targetRef — registrado em §8 | Concluído |
 | 7 | VARIAVEIS_E_COMPLETES_REFERENCIA.md (opcional) | Pendente opcional |
 | 8–9 | Guias/US e índice — verificação rápida; índice §5 já contém links | Considerado ok |
 | 10 | Re-executar review e atualizar relatório (§4, §6, §7, §9, §11.3) | Concluído |
 
-**Resultado:** §4 tabela com partes 5–10 **Completo**; §7 lacunas 5–8, 10 resolvidas; §6 kkkkvo rastreáveis em todas as partes; §8 adendo varredura kkkkhk. Qualidade máxima atingida exceto itens opcionais (bloco 7, correções kkkkhk).
+**Resultado:** §4 tabela com partes 5–10 **Completo**; §7 lacunas 5–8, 10 resolvidas; §6 KK1423 rastreáveis em todas as partes; §8 adendo varredura KK0172. Qualidade máxima atingida exceto itens opcionais (bloco 7, correções KK0172).
 
 ---
 
@@ -1087,16 +1087,16 @@ Estado do relatório **mantido**. Nenhuma nova inconsistência; KK0005 BAIXO e t
 
 | Item | Resultado |
 | ------ | ----------- |
-| **kkkkhk** | `Flow_116t3w8` com `sourceRef="kkkkm2"` — **OK**. kkkk59 do índice (16 partes) existem no kkkkhk. |
-| **Índice** | 16 partes com links Guia \ | Técnico \ | USER STORY — **OK**. §5 referências cruzadas (DUVIDAS, KK0026, GLOSSARIO, INDICE_SCRIPTS, REFERENCIA_CRUZADA). |
+| **KK0172** | `Flow_116t3w8` com `sourceRef="KK1232"` — **OK**. KK0551 do índice (16 partes) existem no KK0172. |
+| **Índice** | 16 partes com links Guia \ | Técnico \ | USER STORY — **OK**. §5 referências cruzadas (DUVIDAS, KK1169, GLOSSARIO, INDICE_SCRIPTS, REFERENCIA_CRUZADA). |
 | **FLUXO_*_tecnico** | 16 arquivos presentes; partes 1–16 com estrutura adequada (§4); 5–10 Completo (pós TODO 100%). |
-| **Consistência guia / KK0018 / USER_STORY** | Sem divergência crítica identificada. |
-| **Variáveis e KK0028** | Rastreáveis em todas as partes (§6). |
-| **Lacunas §7** | Lacunas 5–8, 10 resolvidas; pendente opcional: tabela consolidada, sourceRef/targetRef com espaço no kkkkhk (§8). |
+| **Consistência guia / KK1378 / USER_STORY** | Sem divergência crítica identificada. |
+| **Variáveis e KK1245** | Rastreáveis em todas as partes (§6). |
+| **Lacunas §7** | Lacunas 5–8, 10 resolvidas; pendente opcional: tabela consolidada, sourceRef/targetRef com espaço no KK0172 (§8). |
 
 ### 14.2 Conclusão
 
-Review **concluído**. Estado do relatório **mantido**; nenhuma inconsistência crítica; 16 partes alinhadas ao kkkkhk e ao índice.
+Review **concluído**. Estado do relatório **mantido**; nenhuma inconsistência crítica; 16 partes alinhadas ao KK0172 e ao índice.
 
 ---
 
@@ -1105,78 +1105,78 @@ Review **concluído**. Estado do relatório **mantido**; nenhuma inconsistência
 ## 15. Execução do review — rodada atual (regra MANUAL_CO8_BPMN_TRACEABILITY_REVIEW)
 
 **Data:** 2026-03-14  
-**Objetivo:** Reaplicar a kkkkgt de kkkkf4 conforme `.cursor/rules/MANUAL_CO8_BPMN_TRACEABILITY_REVIEW.mdc` (consistência kkkkhk vs documentação, divergências guia/KK0018/US, kkkkvo/KK0028 rastreáveis, lacunas, kkkk5w kkkk5x).
+**Objetivo:** Reaplicar a KK0065 de KK1133 conforme `.cursor/rules/MANUAL_CO8_BPMN_TRACEABILITY_REVIEW.mdc` (consistência KK0172 vs documentação, divergências guia/KK1378/US, KK1423/KK1245 rastreáveis, lacunas, KK0493 KK0865).
 
-### 15.1 Verificação kkkkhk (amostra de kkkk5j)
+### 15.1 Verificação KK0172 (amostra de KK0755)
 
-| Elemento citado na documentação | Presente no kkkkhk (`id` ou `sourceRef`/`targetRef`) | Status |
+| Elemento citado na documentação | Presente no KK0172 (`id` ou `sourceRef`/`targetRef`) | Status |
 | ---------------------------------- | ---------------------------------------------------- | -------- |
-| kkkkm2 | `id="kkkkm2"` (scriptTask) | OK |
-| Flow_116t3w8 | sequenceFlow `sourceRef="kkkkm2"` `targetRef="kkkkpb"` | OK |
-| kkkkpb | `id="kkkkpb"` (exclusiveGateway) | OK |
-| KK0090 | `id="KK0090"` (parallelGateway) | OK |
-| kkkkpd | `id="kkkkpd"` (exclusiveGateway) | OK |
-| kkkkiy, kkkkn7 | userTask / serviceTask com mesmo id | OK |
-| KK0188 9: KK0061, kkkkpc, kkkkow, kkkkju, kkkkm9 | Todos presentes no kkkkhk (id com espaço em "kkkkow" conforme kkkkhk) | OK |
+| KK1232 | `id="KK1232"` (scriptTask) | OK |
+| Flow_116t3w8 | sequenceFlow `sourceRef="KK1232"` `targetRef="KK0674"` | OK |
+| KK0674 | `id="KK0674"` (exclusiveGateway) | OK |
+| KK0690 | `id="KK0690"` (parallelGateway) | OK |
+| KK0686 | `id="KK0686"` (exclusiveGateway) | OK |
+| KK0417, KK1104 | userTask / serviceTask com mesmo id | OK |
+| KK1000 9: KK0057, KK0677, KK1089, KK0154, KK0114 | Todos presentes no KK0172 (id com espaço em "KK1089" conforme KK0172) | OK |
 
-### 15.2 Consistência guia × KK0018 × USER_STORY (amostra: Partes 2, 9, 12)
+### 15.2 Consistência guia × KK1378 × USER_STORY (amostra: Partes 2, 9, 12)
 
-| KK0188 | Guia | Técnico | USER_STORY | Conclusão |
+| KK1000 | Guia | Técnico | USER_STORY | Conclusão |
 | ------- | ------ | --------- | ------------ | ----------- |
-| 2 | kkkkgd inicial (KK0151 → KK0158 → data nasc. → KK0159/kkkk1o) | kkkk59 kkkkhk, kkkkoa, completes, kkkkvo, §4 kkkkvu/saídas alinhados ao índice | Critérios de kkkkmk ancorados em kkkkiw, kkkkix, kkkkjs, kkkkiz | Sem divergência |
-| 9 | kkkkxf → kkkkwc kkkkiu → resumo | KK0060, kkkkpc, KK0064, KK0065; kkkkoa e KK0196 documentados | CA1–CA4 referenciam KK0060, kkkkpc, KK0064, KK0065 e kkkkhk | Sem divergência |
-| 12 | kkkk8c + Vínculo kkkk64 + ramo kkkkzo kkkk6k | KK0090, KK0069, KK0091, ramo kkkk6k (a kkkkdx) | Alinhado ao escopo pós-kkkks7 | Sem divergência |
+| 2 | KK0196 inicial (KK0530 → KK1339 → data nasc. → KK0912/KK0046) | KK0551 KK0172, KK0649, completes, KK1423, §4 KK0578/saídas alinhados ao índice | Critérios de KK0009 ancorados em KK0413, KK0421, KK0411, KK0416 | Sem divergência |
+| 9 | KK0148 → KK0297 KK1267 → resumo | KK0409, KK0677, KK0301, KK1184; KK0649 e KK0166 documentados | CA1–CA4 referenciam KK0409, KK0677, KK0301, KK1184 e KK0172 | Sem divergência |
+| 12 | KK1282 + Vínculo KK1123 + ramo KK0902 KK0921 | KK0690, KK1076, KK0020, ramo KK0921 (a KK0884) | Alinhado ao escopo pós-KK0544 | Sem divergência |
 
-### 15.3 Diagramas kkkk5x
+### 15.3 Diagramas KK0865
 
-- Diagramas nos FLUXO_*_tecnico e FLUXO_*_guia seguem o **padrão visual** do kkkky1 kkkkyy (verde início, KK0207 user kkkk9q, KK0208 service/KK0148, amarelo kkkk7v, KK0209 fim; legenda explícita).
-- Representam o KK0046 principal e, quando aplicável, kkkkvu/saídas da parte; KK0181 dos kkkk5w são rastreáveis aos kkkk5j do kkkkhk ou a rótulos de contexto (ex.: "KK0188 7", "KK0188 11").
+- Diagramas nos FLUXO_*_tecnico e FLUXO_*_guia seguem o **padrão visual** do KK1026 KK1439 (verde início, KK0127 user KK1332, KK0269 service/KK1223, amarelo KK0669, KK1430 fim; legenda explícita).
+- Representam o KK0651 principal e, quando aplicável, KK0578/saídas da parte; KK0552 dos KK0493 são rastreáveis aos KK0755 do KK0172 ou a rótulos de contexto (ex.: "KK1000 7", "KK1000 11").
 
-### 15.4 Variáveis e KK0028
+### 15.4 Variáveis e KK1245
 
-- Variáveis citadas nos KK0178 (ex.: KK0125, kkkkgu, KK0130) estão associadas a kkkkiq/kkkkaf existentes no kkkkhk.
-- Scripts listados (ex.: kkkkm2, KK0107) existem no kkkkhk. **Rastreável.**
+- Variáveis citadas nos KK1379 (ex.: KK0602, KK1451, KK1180) estão associadas a KK1335/KK0712 existentes no KK0172.
+- Scripts listados (ex.: KK1232, KK1233) existem no KK0172. **Rastreável.**
 
 ### 15.5 Lacunas e severidade
 
 | Severidade | Descrição | Status |
 | ------------ | ----------- | -------- |
-| **CRÍTICO** | Documentação contradiz kkkkhk | Nenhum identificado |
-| **MÉDIO** | Documentação incompleta (parte sem KK0018/guia/US) | Nenhum — 16 partes completas |
-| **BAIXO** | sourceRef/targetRef com espaço no kkkkhk (§8); tabela consolidada VARIAVEIS_E_COMPLETES opcional | Pendente opcional |
+| **CRÍTICO** | Documentação contradiz KK0172 | Nenhum identificado |
+| **MÉDIO** | Documentação incompleta (parte sem KK1378/guia/US) | Nenhum — 16 partes completas |
+| **BAIXO** | sourceRef/targetRef com espaço no KK0172 (§8); tabela consolidada VARIAVEIS_E_COMPLETES opcional | Pendente opcional |
 
 ### 15.6 Conclusão da rodada
 
-- **kkkkma:** Índice e 16 partes permanecem alinhados ao kkkkhk; KK0181 amostrados existem no KK0145.
-- **Consistência:** Guia, KK0018 e USER_STORY coerentes entre si e com o kkkkhk na amostra verificada.
-- **Estrutura:** FLUXO_*_tecnico com seções esperadas (Objetivo, kkkk59 kkkkhk, Variáveis, kkkkvt/saídas quando aplicável, kkkk5v, Referências).
-- **Recomendação:** Manter o relatório como KK0199 para próximas alterações no kkkkhk ou no manual; executar nova rodada após mudanças estruturais.
+- **KK1132:** Índice e 16 partes permanecem alinhados ao KK0172; KK0552 amostrados existem no KK0492.
+- **Consistência:** Guia, KK1378 e USER_STORY coerentes entre si e com o KK0172 na amostra verificada.
+- **Estrutura:** FLUXO_*_tecnico com seções esperadas (Objetivo, KK0551 KK0172, Variáveis, KK0577/saídas quando aplicável, KK0491, Referências).
+- **Recomendação:** Manter o relatório como KK1139 para próximas alterações no KK0172 ou no manual; executar nova rodada após mudanças estruturais.
 
 ---
 
-## 16. Melhorias incorporadas (2026-03-15) — KK0183 fora desta US, kkkkx5 de kkkkag e pseudo-KK0021
+## 16. Melhorias incorporadas (2026-03-15) — KK0598 fora desta US, KK1146 de KK0911 e pseudo-KK0398
 
-**Objetivo:** Registrar no review as melhorias aplicadas ao manual para que a próxima rodada e a regra de KK0199 as considerem.
+**Objetivo:** Registrar no review as melhorias aplicadas ao manual para que a próxima rodada e a regra de KK1139 as considerem.
 
 ### 16.1 O que foi feito
 
-| Melhoria | KK0183 | Referência |
+| Melhoria | KK0598 | Referência |
 | ---------- | -------- | ------------ |
-| **KK0183 fora desta US em tabelas** | As 16 USER_STORY_* possuem a seção "KK0183 fora desta US" enriquecida com subseções em **tabelas** (Entrada no bloco; Scripts e kkkkx5 de kkkkag; KK0129 e kkkkvo; kkkkxe de kkkkth; Comportamentos fora do núcleo; Partes adjacentes), kkkkvo/kkkk5j em backticks, links para FLUXO_*_tecnico e INDICE_SCRIPTS. | PLANO_ENRIQUECIMENTO_ESCOPO_FORA_US, PLANO_MELHORIA_ESTILO_ESCOPO_FORA_US, TODO_ENRIQUECIMENTO_ESCOPO_FORA_US (concluído). |
-| **Linha de esclarecimento "KK0183 fora desta US"** | Abaixo do título da seção, em cada USER_STORY_*, foi adicionada (ou será) uma linha em itálico explicando que a seção é *complemento KK0018 e fronteiras* (entrada, KK0028, kkkkvo, comportamentos na borda e partes adjacentes) e que *não altera o escopo da US*. | KK0007 de nomenclatura (evitar leitura "fora do escopo" = fora da kkkkyr). |
-| **kkkkxe de kkkkag e pseudo-KK0021** | Nos FLUXO_*_tecnico das **Partes 1 e 2** foram adicionadas as seções **§4 kkkkxe de kkkkag (KK0199)** (tabela id KK0148 \ | regra em uma linha) e **§5 Pseudo-KK0021 (KK0199)** (bloco por KK0148: objetivo, entrada/saída, pseudo-KK0021 em português). Partes 1 e 2 renumeraram as seções seguintes (kkkkvt e saídas, kkkk5v, Condições, Referências). INDICE_SCRIPTS atualizado com links para §4 e §5. | PLANO_ENRIQUECIMENTO_REGRAS_NEGOCIO_PSEUDOCODIGO, TODO_INTERNO_APRIMORAMENTOS_LOTE (Lote 3), _template_PSEUDOCODIGO_SCRIPT. |
-| **Estrutura mínima dos KK0178** | Passa a incluir, quando a parte tiver KK0148 kkkkiq: **§4 kkkkxe de kkkkag (KK0199)** e **§5 Pseudo-KK0021 (KK0199)** (antes de kkkkvt e saídas / kkkk5v / Referências). | RELATORIO_PLANOS_E_MELHORIAS §3.1 (atualizado). |
+| **KK0598 fora desta US em tabelas** | As 16 USER_STORY_* possuem a seção "KK0598 fora desta US" enriquecida com subseções em **tabelas** (Entrada no bloco; Scripts e KK1146 de KK0911; KK1002 e KK1423; KK1145 de KK1406; Comportamentos fora do núcleo; Partes adjacentes), KK1423/KK0755 em backticks, links para FLUXO_*_tecnico e INDICE_SCRIPTS. | PLANO_ENRIQUECIMENTO_ESCOPO_FORA_US, PLANO_MELHORIA_ESTILO_ESCOPO_FORA_US, TODO_ENRIQUECIMENTO_ESCOPO_FORA_US (concluído). |
+| **Linha de esclarecimento "KK0598 fora desta US"** | Abaixo do título da seção, em cada USER_STORY_*, foi adicionada (ou será) uma linha em itálico explicando que a seção é *complemento KK1378 e fronteiras* (entrada, KK1245, KK1423, comportamentos na borda e partes adjacentes) e que *não altera o escopo da US*. | KK0466 de nomenclatura (evitar leitura "fora do escopo" = fora da KK1167). |
+| **KK1145 de KK0911 e pseudo-KK0398** | Nos FLUXO_*_tecnico das **Partes 1 e 2** foram adicionadas as seções **§4 KK1145 de KK0911 (KK1139)** (tabela id KK1223 \ | regra em uma linha) e **§5 Pseudo-KK0398 (KK1139)** (bloco por KK1223: objetivo, entrada/saída, pseudo-KK0398 em português). Partes 1 e 2 renumeraram as seções seguintes (KK0577 e saídas, KK0491, Condições, Referências). INDICE_SCRIPTS atualizado com links para §4 e §5. | PLANO_ENRIQUECIMENTO_REGRAS_NEGOCIO_PSEUDOCODIGO, TODO_INTERNO_APRIMORAMENTOS_LOTE (Lote 3), _template_PSEUDOCODIGO_SCRIPT. |
+| **Estrutura mínima dos KK1379** | Passa a incluir, quando a parte tiver KK1223 KK1335: **§4 KK1145 de KK0911 (KK1139)** e **§5 Pseudo-KK0398 (KK1139)** (antes de KK0577 e saídas / KK0491 / Referências). | RELATORIO_PLANOS_E_MELHORIAS §3.1 (atualizado). |
 
 ### 16.2 Impacto no review
 
-- **kkkkma:** Não alterada; kkkkhk continua fonte da verdade; KK0181 citados nas novas tabelas e pseudo-KK0021 são rastreáveis ao kkkkhk.
-- **Consistência:** USER_STORY e FLUXO_*_tecnico permanecem alinhados; a seção "KK0183 fora desta US" e as seções kkkkxe/Pseudo-KK0021 apenas detalham o que já estava referenciado.
-- **Estrutura (§4 do relatório):** Para as Partes 1 e 2, a tabela "Seções presentes no KK0018" passa a incluir "kkkkxe de kkkkag (KK0199)" e "Pseudo-KK0021 (KK0199)"; para as demais partes com KK0148 (5–8, 10, 11, 13, 15, 16), essas seções são **recomendadas** pelo kkkky1 e preenchidas incrementalmente.
+- **KK1132:** Não alterada; KK0172 continua fonte da verdade; KK0552 citados nas novas tabelas e pseudo-KK0398 são rastreáveis ao KK0172.
+- **Consistência:** USER_STORY e FLUXO_*_tecnico permanecem alinhados; a seção "KK0598 fora desta US" e as seções KK1145/Pseudo-KK0398 apenas detalham o que já estava referenciado.
+- **Estrutura (§4 do relatório):** Para as Partes 1 e 2, a tabela "Seções presentes no KK1378" passa a incluir "KK1145 de KK0911 (KK1139)" e "Pseudo-KK0398 (KK1139)"; para as demais partes com KK1223 (5–8, 10, 11, 13, 15, 16), essas seções são **recomendadas** pelo KK1026 e preenchidas incrementalmente.
 
 ### 16.3 Pendências (baixa prioridade)
 
-- Preencher kkkkxe de kkkkag e Pseudo-KK0021 nas Partes 5, 6, 7, 8, 10, 11, 13, 15, 16 conforme PLANO_ENRIQUECIMENTO_REGRAS_NEGOCIO_PSEUDOCODIGO.
-- Manter checklist "Ao alterar o kkkkhk" no README incluindo atualização de pseudo-KK0021/kkkkx5 quando houver KK0148 (já previsto).
+- Preencher KK1145 de KK0911 e Pseudo-KK0398 nas Partes 5, 6, 7, 8, 10, 11, 13, 15, 16 conforme PLANO_ENRIQUECIMENTO_REGRAS_NEGOCIO_PSEUDOCODIGO.
+- Manter checklist "Ao alterar o KK0172" no README incluindo atualização de pseudo-KK0398/KK1146 quando houver KK1223 (já previsto).
 
 ---
 
@@ -1188,85 +1188,85 @@ Review **concluído**. Estado do relatório **mantido**; nenhuma inconsistência
 
 | Ação | Resultado |
 | ------ | ----------- |
-| **Review atualizado com nossas melhorias** | §16 adicionado ao RELATORIO_REVIEW: KK0183 fora desta US em tabelas (16 partes), linha de esclarecimento, kkkkxe de kkkkag e Pseudo-KK0021 (Partes 1 e 2), estrutura mínima dos KK0178. |
-| **Documentação de estrutura mínima** | RELATORIO_PLANOS_E_MELHORIAS §3.1 atualizado: estrutura dos FLUXO_*_tecnico passa a incluir §4 kkkkxe de kkkkag e §5 Pseudo-KK0021 quando a parte tiver KK0148 kkkkiq (Partes 1 e 2 já possuem). |
-| **Linha de esclarecimento "KK0183 fora desta US"** | Inserida em **todas as 16** USER_STORY_* (KK0188 1 já tinha): *Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).* |
-| **Verificação de consistência** | kkkkhk, índice e 16 partes mantidos alinhados; nenhuma alteração que quebre kkkkf4. |
+| **Review atualizado com nossas melhorias** | §16 adicionado ao RELATORIO_REVIEW: KK0598 fora desta US em tabelas (16 partes), linha de esclarecimento, KK1145 de KK0911 e Pseudo-KK0398 (Partes 1 e 2), estrutura mínima dos KK1379. |
+| **Documentação de estrutura mínima** | RELATORIO_PLANOS_E_MELHORIAS §3.1 atualizado: estrutura dos FLUXO_*_tecnico passa a incluir §4 KK1145 de KK0911 e §5 Pseudo-KK0398 quando a parte tiver KK1223 KK1335 (Partes 1 e 2 já possuem). |
+| **Linha de esclarecimento "KK0598 fora desta US"** | Inserida em **todas as 16** USER_STORY_* (KK1000 1 já tinha): *Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).* |
+| **Verificação de consistência** | KK0172, índice e 16 partes mantidos alinhados; nenhuma alteração que quebre KK1133. |
 
 ### 17.2 Conclusão da rodada
 
-- **kkkkma:** Mantida; KK0181 citados nas USER_STORY e FLUXO_*_tecnico continuam rastreáveis ao kkkkhk.
-- **Estrutura:** 16 USER_STORY_* com seção "KK0183 fora desta US" enriquecida em tabelas + linha de esclarecimento; FLUXO_01 e FLUXO_02 com §4 kkkkxe de kkkkag e §5 Pseudo-KK0021.
-- **KK0001 e planos:** RELATORIO_REVIEW com §16 e §17; RELATORIO_PLANOS com estrutura mínima atualizada. Review **aplicado e documentado**.
+- **KK1132:** Mantida; KK0552 citados nas USER_STORY e FLUXO_*_tecnico continuam rastreáveis ao KK0172.
+- **Estrutura:** 16 USER_STORY_* com seção "KK0598 fora desta US" enriquecida em tabelas + linha de esclarecimento; FLUXO_01 e FLUXO_02 com §4 KK1145 de KK0911 e §5 Pseudo-KK0398.
+- **KK1154 e planos:** RELATORIO_REVIEW com §16 e §17; RELATORIO_PLANOS com estrutura mínima atualizada. Review **aplicado e documentado**.
 
 ---
 
-*KK0001 gerado conforme `.cursor/rules/MANUAL_CO8_BPMN_TRACEABILITY_REVIEW.mdc` para **todo o manual** (16 partes). Atualizado em 2026-03-14: TODO 100% executado, partes 5–10 Completo, varredura kkkkhk, §13–§15. Atualizado em 2026-03-15: §16 melhorias (KK0183 fora desta US em tabelas, kkkkx5/pseudo-KK0021 Partes 1 e 2, estrutura mínima); §17 aplicação do review (linha de esclarecimento em 16 partes, doc estrutura mínima).*
+*KK1154 gerado conforme `.cursor/rules/MANUAL_CO8_BPMN_TRACEABILITY_REVIEW.mdc` para **todo o manual** (16 partes). Atualizado em 2026-03-14: TODO 100% executado, partes 5–10 Completo, varredura KK0172, §13–§15. Atualizado em 2026-03-15: §16 melhorias (KK0598 fora desta US em tabelas, KK1146/pseudo-KK0398 Partes 1 e 2, estrutura mínima); §17 aplicação do review (linha de esclarecimento em 16 partes, doc estrutura mínima).*
 
 $$$$$
 
 [_template_PSEUDOCODIGO_SCRIPT_GENERICO.md]
 XXXXX
-# Template — Pseudo-KK0021 de KK0148 (kkkkhk)
+# Template — Pseudo-KK0398 de KK1223 (KK0172)
 
-**Uso:** Preencher para cada KK0148 kkkk9q documentado no manual. Pode ser uma seção dentro do `FLUXO_<N>_tecnico.md` ou um arquivo `parte_<N>_pseudocodigo.md`.  
+**Uso:** Preencher para cada KK1223 KK1332 documentado no manual. Pode ser uma seção dentro do `FLUXO_<N>_tecnico.md` ou um arquivo `parte_<N>_pseudocodigo.md`.  
 **Referência:** RELATORIO_PLANOS_E_MELHORIAS.md §1.3.
 
 ---
 
-## KK0216 \<id_do_script\>
+## KK1224 \<id_do_script\>
 
-**KK0188:** \<N — nome da parte\>  
-**Nome (kkkkhk):** \<name do KK0148 kkkk9q\>  
-**Formato:** KK0044 | JavaScript  
+**KK1000:** \<N — nome da parte\>  
+**Nome (KK0172):** \<name do KK1223 KK1332\>  
+**Formato:** KK0732 | JavaScript  
 **Objetivo:** \<uma linha\>
 
-### Entrada (kkkkvo lidas / formData / contexto)
+### Entrada (KK1423 lidas / formData / contexto)
 
 | Variável | Origem | Observação |
 | ---------- | -------- | ------------ |
 | _nome_ | _start / formData / execution_ | _opcional / obrigatório_ |
 
-### Saída (kkkkvo escritas / kkkk9x / outputParameter)
+### Saída (KK1423 escritas / KK1288 / outputParameter)
 
 | Variável | Observação |
 | ---------- | ------------ |
 | _nome_ | _valor ou expressão_ |
 
-### Pseudo-KK0021 (KK0199)
+### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217:
+KK1129:
   ATRIBUIR variavel1 = valor1
-  KK0223 condição KK0224
+  KK1249 condição KK0579
     ...
-  KK0221
+  KK1269
     ...
-  KK0226 KK0223
+  KK0642 KK1249
 ```
 
-### kkkkxe de kkkkag (uma linha)
+### KK1145 de KK0911 (uma linha)
 
-- _Ex.: "KK0047: se informado no start, manter; senão 'kkkkve'."_
+- _Ex.: "KK1312: se informado no start, manter; senão 'KK1017'."_
 
-### Referências kkkkhk
+### Referências KK0172
 
-- **id:** \<id do KK0148 kkkk9q\>
-- **kkkkhk:** `kkkkk6`
+- **id:** \<id do KK1223 KK1332\>
+- **KK0172:** `KK0953`
 
 $$$$$
 
 [guia_mermaid_final_corrigido_GENERICO.md]
 XXXXX
-# Política de cores — Manual KK0106 (kkkk5w kkkk5x) — versão final (render-safe)
+# Política de cores — Manual KK0950 (KK0493 KK0865) — versão final (render-safe)
 
-**Objetivo:** Definir uma paleta única, acessível e consistente para todos os kkkk5w dos `FLUXO_*_tecnico.md`, garantindo legibilidade, padronização visual e compatibilidade com renderizadores (GitHub, Cursor, etc).
+**Objetivo:** Definir uma paleta única, acessível e consistente para todos os KK0493 dos `FLUXO_*_tecnico.md`, garantindo legibilidade, padronização visual e compatibilidade com renderizadores (GitHub, Cursor, etc).
 
 ---
 
-## ⚠️ kkkkxe de renderização (obrigatórias)
+## ⚠️ KK1145 de renderização (obrigatórias)
 
-1. Blocos `mermaid` devem conter **KK0021 válido e renderizável**.
+1. Blocos `mermaid` devem conter **KK0398 válido e renderizável**.
 2. `classDef` sozinho **não é suficiente** — é necessário ao menos 1 nó.
 3. **Tudo no mesmo bloco**: `flowchart TD` + `classDef` + nós + conexões (+ `linkStyle` se houver).
 4. Exemplos **inválidos ou incompletos** devem usar ```text (não `mermaid`).
@@ -1274,14 +1274,14 @@ XXXXX
 
 ---
 
-## 1. KK0205 padrão
+## 1. KK0816 padrão
 
-> **KK0206** = início / sucesso  
-> **Azul** = user kkkk9q  
+> **KK1426** = início / sucesso  
+> **Azul** = user KK1332  
 > **Cinza tracejado** = service (automação)  
-> **Âmbar** = kkkk7v  
+> **Âmbar** = KK0669  
 > **Vermelho** = erro  
-> **Roxo tracejado** = kkkkgu  
+> **Roxo tracejado** = KK1451  
 
 ---
 
@@ -1291,9 +1291,9 @@ XXXXX
 |-----|------|--------|
 | Início | #c8e6c9 | #2e7d32 |
 | Sucesso | #a5d6a7 | #2e7d32 |
-| kkkk8l | #bbdefb | #1565c0 |
+| KK1331 | #bbdefb | #1565c0 |
 | Service | #eceff1 | #546e7a |
-| kkkkis | #fff8e1 | #e65100 |
+| KK0668 | #fff8e1 | #e65100 |
 | Erro | #ffcdd2 | #c62828 |
 
 ---
@@ -1348,9 +1348,9 @@ linkStyle X stroke:#6a1b9a
 flowchart TD
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -1358,16 +1358,16 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-A[Template]:::kkkk9q
+A[Template]:::KK1332
 ```
 
 ---
 
 ## 5. Exemplo funcional
 
-### 5.1 Tema padrão para sequenceDiagram (caixas brancas, borda KK0207, texto preto)
+### 5.1 Tema padrão para sequenceDiagram (caixas brancas, borda KK0127, texto preto)
 
-Para kkkk5w de kkkkxc, usar sempre o tema base com caixas brancas, bordas azuis e texto escuro, via `init` no início do bloco:
+Para KK0493 de KK1272, usar sempre o tema base com caixas brancas, bordas azuis e texto escuro, via `init` no início do bloco:
 
 ```mermaid
 %%{init: {'theme':'base', 'themeVariables': {
@@ -1402,9 +1402,9 @@ sequenceDiagram
 flowchart TD
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -1413,9 +1413,9 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 A([Início]):::start
-B[Preencher dados]:::kkkk9q
-C[kkkkav dados]:::service
-D{Aprovado?}:::kkkk7v
+B[Preencher dados]:::KK1332
+C[KK1404 dados]:::service
+D{Aprovado?}:::KK0669
 E([Concluído]):::success
 F([Erro]):::end
 
@@ -1431,7 +1431,7 @@ linkStyle 2 stroke:#6a1b9a,stroke-width:2px,stroke-dasharray:5 5;
 ## 6. Boas práticas
 
 - ✅ Usar sempre classes (`:::classe`)
-- ✅ Um único bloco kkkk5x por KK0145
+- ✅ Um único bloco KK0865 por KK0492
 - ✅ Incluir pelo menos 1 nó no template
 - ✅ Usar `text` para exemplos inválidos
 - ❌ Nunca usar `classDef` fora de `flowchart`
@@ -1447,75 +1447,75 @@ linkStyle 2 stroke:#6a1b9a,stroke-width:2px,stroke-dasharray:5 5;
 
 ---
 
-## 8. Automação (KK0148 Python)
+## 8. Automação (KK1223 Python)
 
-O KK0148 **`documentacao/kkkkyy/aplica_paleta_legenda_mermaid.py`** aplica esta paleta e a legenda em todo o kkkky7 (todos os `.md`, exceto pastas `out`, `_OUT`, `_x7k2`, `genericos`).
+O KK1223 **`documentacao/KK1439/aplica_paleta_legenda_mermaid.py`** aplica esta paleta e a legenda em todo o KK1084 (todos os `.md`, exceto pastas `out`, `_OUT`, `_x7k2`, `genericos`).
 
 **Uso (na raiz do repositório):**
 
 ```bash
-python3 documentacao/kkkkyy/aplica_paleta_legenda_mermaid.py                    # aplica em todo o kkkky7
-python3 documentacao/kkkkyy/aplica_paleta_legenda_mermaid.py --dry-run         # só relata (todo o kkkky7)
-python3 documentacao/kkkkyy/aplica_paleta_legenda_mermaid.py documentacao       # só em documentacao/
-python3 documentacao/kkkkyy/aplica_paleta_legenda_mermaid.py --verbose "documentacao/Manual KK0106"
+python3 documentacao/KK1439/aplica_paleta_legenda_mermaid.py                    # aplica em todo o KK1084
+python3 documentacao/KK1439/aplica_paleta_legenda_mermaid.py --dry-run         # só relata (todo o KK1084)
+python3 documentacao/KK1439/aplica_paleta_legenda_mermaid.py documentacao       # só em documentacao/
+python3 documentacao/KK1439/aplica_paleta_legenda_mermaid.py --verbose "documentacao/Manual KK0950"
 ```
 
-Se não passar caminho, aplica em **todo o kkkky7** (raiz).
+Se não passar caminho, aplica em **todo o KK1084** (raiz).
 
 - **--dry-run:** apenas lista o que seria alterado; não grava.
 - **--verbose:** por arquivo, lista cada regra aplicada e quantidade.
-- KK0205: substitui "âmbar = kkkk7v" por "âmbar = kkkk7v" conforme §1.
+- KK0816: substitui "âmbar = KK0669" por "âmbar = KK0669" conforme §1.
 
 $$$$$
 
 [parte_01_inicio_identificacao_jornada/FLUXO_01_guia_GENERICO.md]
 XXXXX
-# KK0188 1 — Início e identificação da kkkkgq (guia)
+# KK1000 1 — Início e identificação da KK0797 (guia)
 
-**O que é esta parte:** é o **pontapé inicial** da kkkkgq no motor de kkkk55. Nenhuma KK0176 é exibida ao KK0173: o kkkk55 apenas **inicializa kkkkvo** que vão identificar o KK0046 (kkkksg), o KK0139/KK0137 (ex.: kkkkve, KK0134) e os **tempos usados no kkkkyo** (20 min por KK0175, 22 dias no sistêmico). Em seguida o KK0046 segue para a pergunta "kkkklq".
+**O que é esta parte:** é o **pontapé inicial** da KK0797 no motor de KK1069. Nenhuma KK1338 é exibida ao KK1392: o KK1069 apenas **inicializa KK1423** que vão identificar o KK0651 (KK0949), o KK0230/KK1315 (ex.: KK1017, KK0812) e os **tempos usados no KK0621** (20 min por KK0760, 22 dias no sistêmico). Em seguida o KK0651 segue para a pergunta "KK1341".
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Garantir que, ao iniciar uma kkkkuy de kkkklh, o kkkk55 já tenha definido **quem é a kkkkgq** (KK0046/KK0137) e **quanto KK0177** o KK0173 pode ficar parado em uma KK0176 antes de a kkkk3l ser expurgada. Quem de fato dispara a abertura da kkkk3l (KK0176 "kkkkdi", kkkkhp, etc.) não está modelado no kkkkhk; isso fica na KK0136.
+Garantir que, ao iniciar uma KK1092 de KK0346, o KK1069 já tenha definido **quem é a KK0797** (KK0651/KK1315) e **quanto KK1342** o KK1392 pode ficar parado em uma KK1338 antes de a KK1086 ser expurgada. Quem de fato dispara a abertura da KK1086 (KK1338 "KK0918", KK0144, etc.) não está modelado no KK0172; isso fica na KK0759.
 
 ---
 
 ## 2. O que acontece na prática
 
-1. **kkkkyb da kkkk3l** — Alguém (kkkkxv ou KK0173) inicia a kkkk5h do kkkk55. No kkkkhk não está definido quem; na kkkksk atual costuma ser o kkkkra → kkkkhp (e eventualmente uma camada intermediária) → motor de kkkk55.
+1. **KK0508 da KK1086** — Alguém (KK1292 ou KK1392) inicia a KK0780 do KK1069. No KK0172 não está definido quem; na KK0084 atual costuma ser o KK0666 → KK0144 (e eventualmente uma camada intermediária) → motor de KK1069.
 
-2. **Script de inicialização** — O kkkk55 executa uma única tarefa automática (KK0148) que define:
-   - **KK0046** = sempre `kkkksg`
-   - **KK0177 de decurso do KK0173** = 20 minutos (usado depois no kkkkyo quando o KK0173 fica parado em uma KK0176)
-   - **KK0177 de decurso sistêmico** = 22 dias
-   - **KK0139 (KK0137)** = se já tiver sido enviado no start, mantém; senão usa kkkkve
-   - **tipo de KK0038** = se o KK0139 for KK0134, marca como KK0134
-   - **KK0021 da unidade de kkkkag** (valor fixo do kkkk55)
+2. **Script de inicialização** — O KK1069 executa uma única tarefa automática (KK1223) que define:
+   - **KK0651** = sempre `KK0949`
+   - **KK1342 de decurso do KK1392** = 20 minutos (usado depois no KK0621 quando o KK1392 fica parado em uma KK1338)
+   - **KK1342 de decurso sistêmico** = 22 dias
+   - **KK0230 (KK1315)** = se já tiver sido enviado no start, mantém; senão usa KK1017
+   - **tipo de KK0510** = se o KK0230 for KK0812, marca como KK0812
+   - **KK0398 da unidade de KK0911** (valor fixo do KK1069)
 
-3. **Próximo passo** — O KK0046 segue para o kkkk7v **"kkkklq"**, que direciona para a kkkkvg/kkkkxg (KK0188 5).
+3. **Próximo passo** — O KK0651 segue para o KK0669 **"KK1341"**, que direciona para a KK1251/KK0497 (KK1000 5).
 
-Nenhum dado é preenchido pelo KK0173 nesta etapa; o KK0139 pode vir do kkkkxv que iniciou o kkkk55; os demais valores são fixos no KK0148.
+Nenhum dado é preenchido pelo KK1392 nesta etapa; o KK0230 pode vir do KK1292 que iniciou o KK1069; os demais valores são fixos no KK1223.
 
 ---
 
-## 3. Resumo para KK0140, KK0142 e KK0143
+## 3. Resumo para KK0726, KK1131 e KK1031
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **O que o KK0173 vê** | Nada: é etapa automática antes da primeira decisão ("kkkklq"). |
-| **Variáveis definidas** | KK0046 (kkkksg), KK0047 (ex.: kkkkve), tempos de kkkkyo (20 min / 22 dias), KK0021 unidade de kkkkag. |
-| **Quem KK0144** | Não está no kkkkhk; na prática costuma ser kkkkra → kkkkhp (e eventualmente camada intermediária) → motor. |
-| **Saída** | kkkkvq segue para "kkkklq" (kkkkvg). |
+| **O que o KK1392 vê** | Nada: é etapa automática antes da primeira decisão ("KK1341"). |
+| **Variáveis definidas** | KK0651 (KK0949), KK1312 (ex.: KK1017), tempos de KK0621 (20 min / 22 dias), KK0398 unidade de KK0911. |
+| **Quem KK1303** | Não está no KK0172; na prática costuma ser KK0666 → KK0144 (e eventualmente camada intermediária) → motor. |
+| **Saída** | KK0650 segue para "KK1341" (KK1251). |
 
 ---
 
-## 4. kkkk5v (visão geral)
+## 4. KK0491 (visão geral)
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -1536,9 +1536,9 @@ Nenhum dado é preenchido pelo KK0173 nesta etapa; o KK0139 pode vir do kkkkxv q
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -1546,8 +1546,8 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  A((Início)) --> B([Inicializa KK0046 e tempos])
-  B --> C{kkkklq}
+  A((Início)) --> B([Inicializa KK0651 e tempos])
+  B --> C{KK1341}
   style A fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
   style B fill:#eceff1,stroke:#546e7a
   style C fill:#fff8e1,stroke:#e65100,stroke-width:2px
@@ -1555,211 +1555,211 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 5. KK0170
+## 5. KK1041
 
-- O **identificador da kkkkgq** (ex.: KK0039, KK0039-KK0134) **não** é definido nesta parte; é calculado mais à frente no KK0046, a partir do KK0139 (KK0137).
-- Para detalhes KK0178 (kkkk5j dos KK0181, kkkkvo exatas, referências no kkkkhk), use o **KK0045.md**.
+- O **identificador da KK0797** (ex.: KK1018, KK1018-KK0812) **não** é definido nesta parte; é calculado mais à frente no KK0651, a partir do KK0230 (KK1315).
+- Para detalhes KK1379 (KK0755 dos KK0552, KK1423 exatas, referências no KK0172), use o **KK0652.md**.
 
 $$$$$
 
 [parte_01_inicio_identificacao_jornada/FLUXO_01_tecnico_GENERICO.md]
 XXXXX
-# KK0188 1 — Início e identificação da kkkkgq (documentação kkkk5u)
+# KK1000 1 — Início e identificação da KK0797 (documentação KK1377)
 
-**KK0184:** `kkkkk6`  
-**KK0183:** Inicialização da kkkk5h do kkkk55; definição das kkkkvo de KK0046 e KK0137 que identificam a kkkkgq ao longo do kkkkho.
+**KK0655:** `KK0953`  
+**KK0598:** Inicialização da KK0780 do KK1069; definição das KK1423 de KK0651 e KK1315 que identificam a KK0797 ao longo do KK0282.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkkm2` | Script kkkk9q inicial (kkkkgx — kkkke2); define KK0046, KK0043/sistemico. |
+| `KK1232` | Script KK1332 inicial (KK0173 — KK0316); define KK0651, KK1344/sistemico. |
 
 ---
 
-## 0. Quem KK0144 o KK0145 e de onde vêm as kkkkvo
+## 0. Quem KK1303 o KK0492 e de onde vêm as KK1423
 
-### Quem KK0144 o kkkk55
+### Quem KK1303 o KK1069
 
-O **start kkkkja** `Event_0s31x87` é um *start kkkkja* **sem trigger** (nem mensagem, nem sinal, nem timer): no kkkkhk não está definido *quem* ou *o quê* inicia o kkkk55. Na prática, em kkkkgm o kkkk55 é iniciado por **quem chamar a KK0027 de start** da engine, por exemplo:
+O **start KK0604** `Event_0s31x87` é um *start KK0604* **sem trigger** (nem mensagem, nem sinal, nem timer): no KK0172 não está definido *quem* ou *o quê* inicia o KK1069. Na prática, em KK0217 o KK1069 é iniciado por **quem chamar a KK0072 de start** da engine, por exemplo:
 
-- **POST** `/process-definition/key/kkkksg/start` (ou por id), com opcional corpo JSON contendo **kkkkvo iniciais**.
+- **POST** `/process-definition/key/KK0949/start` (ou por id), com opcional corpo JSON contendo **KK1423 iniciais**.
 
-Possíveis iniciadores (fora do kkkkhk, definidos pela kkkksk/kkkkxv):
+Possíveis iniciadores (fora do KK0172, definidos pela KK0084/KK1292):
 
-- **kkkkra da kkkkgq** (Fígito, aplicativo kkkkve, KK0134, etc.): KK0173 inicia a kkkkp3 e o kkkku2 dispara a kkkk5h.
-- **Outro kkkkxv ou kkkkmc**: inicia a kkkk5h passando kkkkvo (ex.: KK0139/KK0137).
-- **kkkk65 activity** de um kkkk55 pai: outro kkkkhk que chama o kkkk55 `kkkksg` e pode passar kkkkvo (não há KK0199 a kkkk55 pai no kkkkhk atual).
+- **KK0666 da KK0797** (Fígito, aplicativo KK1017, KK0812, etc.): KK1392 inicia a KK0007 e o KK0132 dispara a KK0780.
+- **Outro KK1292 ou KK0974**: inicia a KK0780 passando KK1423 (ex.: KK0230/KK1315).
+- **KK0206 activity** de um KK1069 pai: outro KK0172 que chama o KK1069 `KK0949` e pode passar KK1423 (não há KK1139 a KK1069 pai no KK0172 atual).
 
-O KK0145 **não** modela formulário de start nem kkkkvn da KK0027; isso fica na KK0136 do motor e dos kkkk50 que o invocam.
+O KK0492 **não** modela formulário de start nem KK0372 da KK0072; isso fica na KK0759 do motor e dos KK1298 que o invocam.
 
-### De onde vêm as kkkkvo
+### De onde vêm as KK1423
 
 | Variável | Origem | Observação |
 | ---------- | -------- | ------------ |
-| `KK0046` | **Script** (fixo) | Sempre `'kkkksg'` — definido na KK0148 kkkk9q. |
-| `KK0043` | **Script** (fixo) | `'PT20M'`. |
-| `KK0040` | **Script** (fixo) | `'P22D'`. |
-| `KK0041` | **Script** (fixo) | `'514017224'`. |
-| `KK0047` | **Caller (opcional) ou KK0148 (KK0195)** | Se **quem KK0144** passar `KK0047` (ex.: no body da KK0027 de start), o KK0148 **mantém** esse valor. Caso contrário, o KK0148 define `'kkkkve'`. |
-| `KK0042` | **Script** (condicional) | Só é setada se `KK0047 == 'KK0037'` (após a regra acima). |
+| `KK0651` | **Script** (fixo) | Sempre `'KK0949'` — definido na KK1223 KK1332. |
+| `KK1344` | **Script** (fixo) | `'PT20M'`. |
+| `KK1343` | **Script** (fixo) | `'P22D'`. |
+| `KK0296` | **Script** (fixo) | `'514017224'`. |
+| `KK1312` | **Caller (opcional) ou KK1223 (KK0472)** | Se **quem KK1303** passar `KK1312` (ex.: no body da KK0072 de start), o KK1223 **mantém** esse valor. Caso contrário, o KK1223 define `'KK1017'`. |
+| `KK1357` | **Script** (condicional) | Só é setada se `KK1312 == 'KK0811'` (após a regra acima). |
 
-Resumo: a única KK0034 que **pode** vir de fora na inicialização é **`KK0047`**; as demais são **sempre** atribuídas pela KK0148 kkkk9q `kkkkm2`.
+Resumo: a única KK1424 que **pode** vir de fora na inicialização é **`KK1312`**; as demais são **sempre** atribuídas pela KK1223 KK1332 `KK1232`.
 
-**Obs. (especulativo):** Quem dispara a kkkk5h e com quais kkkkvo no body do start não estão modelados no kkkkhk. Na kkkksk atual costuma-se considerar algo como kkkkra → kkkkhp (e eventualmente uma camada intermediária) → engine, com kkkkvo iniciais como `KK0068` e, quando aplicável, `kkkkfi` ou `KK0047`. Confirmar na KK0136 e no kkkkvn da KK0027 de start.
+**Obs. (especulativo):** Quem dispara a KK0780 e com quais KK1423 no body do start não estão modelados no KK0172. Na KK0084 atual costuma-se considerar algo como KK0666 → KK0144 (e eventualmente uma camada intermediária) → engine, com KK1423 iniciais como `KK0746` e, quando aplicável, `KK0747` ou `KK1312`. Confirmar na KK0759 e no KK0372 da KK0072 de start.
 
 ---
 
 ## 1. Objetivo da parte
 
-Garantir que, ao **iniciar** uma kkkk5h do kkkk55 kkkkyq, as kkkkvo de contexto da kkkkgq sejam definidas de forma consistente: **KK0046**, **KK0047**, tempos de decurso (kkkkyo) e, quando aplicável, **KK0042**. Essa etapa não kkkkwc dados do KK0173; é puramente de **inicialização** antes do primeiro kkkk7v de kkkkag ("kkkklq").
+Garantir que, ao **iniciar** uma KK0780 do KK1069 KK0948, as KK1423 de contexto da KK0797 sejam definidas de forma consistente: **KK0651**, **KK1312**, tempos de decurso (KK0621) e, quando aplicável, **KK1357**. Essa etapa não KK0297 dados do KK1392; é puramente de **inicialização** antes do primeiro KK0669 de KK0911 ("KK1341").
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
 | Tipo | ID do elemento | Nome (name) | Observação |
 | ------------ | ----------------------------- | -------------------------- | ------------ |
-| kkkk8r | `Event_0s31x87` | — | Ponto único de início do kkkk55 principal. |
-| kkkk8o | `kkkkm2` | kkkklt | Inicializa kkkkvo de KK0046 e tempos. |
-| kkkk85 | `Flow_17vlh7m` | — | Event_0s31x87 → kkkkm2. |
-| kkkk85 | `Flow_116t3w8` | — | kkkkm2 → kkkkpb. |
+| KK1304 | `Event_0s31x87` | — | Ponto único de início do KK1069 principal. |
+| KK1246 | `KK1232` | KK0092 | Inicializa KK1423 de KK0651 e tempos. |
+| KK1270 | `Flow_17vlh7m` | — | Event_0s31x87 → KK1232. |
+| KK1270 | `Flow_116t3w8` | — | KK1232 → KK0674. |
 
-**Saída da parte:** o KK0046 segue para o **Exclusive kkkkis** `kkkkpb` (nome: *Tem agencia ?*), que pertence à KK0188 5 (Segmentação e kkkkxg).
+**Saída da parte:** o KK0651 segue para o **Exclusive KK0668** `KK0674` (nome: *Tem agencia ?*), que pertence à KK1000 5 (Segmentação e KK0497).
 
 ---
 
-## 3. kkkkvq em detalhe
+## 3. KK0650 em detalhe
 
 ### 3.1 Sequência
 
 1. **Start Event** `Event_0s31x87`  
-   - kkkkyb: início da kkkk5h do kkkk55 (por mensagem, formulário ou KK0027, conforme KK0136 do motor).
-   - Uma única kkkkxc de saída: `Flow_17vlh7m`.
+   - KK0508: início da KK0780 do KK1069 (por mensagem, formulário ou KK0072, conforme KK0759 do motor).
+   - Uma única KK1272 de saída: `Flow_17vlh7m`.
 
-2. **Script kkkk8l** `kkkkm2`  
-   - **Entrada:** kkkk5h recém-iniciada (sem kkkkvo de kkkk55 obrigatórias ainda).  
-   - **Comportamento (KK0044):**
-     - Define **KK0043** = `'PT20M'` (20 minutos para kkkkyo por KK0175 do KK0173).
-     - Define **KK0040** = `'P22D'` (22 dias para kkkkyo sistêmico).
-     - Define **KK0046** = `'kkkksg'` (identificador do KK0046 de abertura de kkkk7g).
-     - Define **KK0041** = `'514017224'`.
-     - **KK0047:** se a KK0034 já existir e não for vazia, mantém; caso contrário, define `'kkkkve'`.
-     - Se **KK0047** for `'KK0037'`, define **KK0042** = `'KK0037'`.
-   - **Saída:** uma única kkkkxc: `Flow_116t3w8` em direção ao kkkk7v "Tem agencia?".
+2. **Script KK1331** `KK1232`  
+   - **Entrada:** KK0780 recém-iniciada (sem KK1423 de KK1069 obrigatórias ainda).  
+   - **Comportamento (KK0732):**
+     - Define **KK1344** = `'PT20M'` (20 minutos para KK0621 por KK0760 do KK1392).
+     - Define **KK1343** = `'P22D'` (22 dias para KK0621 sistêmico).
+     - Define **KK0651** = `'KK0949'` (identificador do KK0651 de abertura de KK0360).
+     - Define **KK0296** = `'514017224'`.
+     - **KK1312:** se a KK1424 já existir e não for vazia, mantém; caso contrário, define `'KK1017'`.
+     - Se **KK1312** for `'KK0811'`, define **KK1357** = `'KK0811'`.
+   - **Saída:** uma única KK1272: `Flow_116t3w8` em direção ao KK0669 "Tem agencia?".
 
-### 3.2 Variáveis de kkkk55 (escritas nesta parte)
+### 3.2 Variáveis de KK1069 (escritas nesta parte)
 
-| Variável | Valor / regra | Uso na kkkkgq |
+| Variável | Valor / regra | Uso na KK0797 |
 | --------------------------- | --------------- | ---------------- |
-| `KK0043` | `PT20M` | kkkk63 por KK0175 do KK0173 (KK0188 16). |
-| `KK0040` | `P22D` | kkkk63 por KK0177 sistêmico (KK0188 16). |
-| `KK0046` | `kkkksg` | Identificação do KK0046; usado em formulários (`kkkk46`) e kkkkgc. |
-| `KK0041` | `514017224` | Unidade de kkkkag. |
-| `KK0047` | Mantido ou `kkkkve` | KK0146 (kkkkve, KK0037, central, etc.); usado em kkkkxg, SPI, KK0048. |
-| `KK0042` | `KK0037` (apenas se KK0047 == 'KK0037') | KK0147/KK0139 específico. |
+| `KK1344` | `PT20M` | KK0620 por KK0760 do KK1392 (KK1000 16). |
+| `KK1343` | `P22D` | KK0620 por KK1342 sistêmico (KK1000 16). |
+| `KK0651` | `KK0949` | Identificação do KK0651; usado em formulários (`KK0653`) e KK0785. |
+| `KK0296` | `514017224` | Unidade de KK0911. |
+| `KK1312` | Mantido ou `KK1017` | KK0233 (KK1017, KK0811, central, etc.); usado em KK0497, SPI, KK0750. |
+| `KK1357` | `KK0811` (apenas se KK1312 == 'KK0811') | KK0511/KK0230 específico. |
 
-### 3.3 Identificador da kkkkgq
+### 3.3 Identificador da KK0797
 
-A KK0034 **KK0048** **não** é definida nesta parte. Ela é setada mais adiante no kkkk55, em KK0148 associado ao mapeamento de kkkkvn kkkkhu (KK0044), com a regra:
+A KK1424 **KK0750** **não** é definida nesta parte. Ela é setada mais adiante no KK1069, em KK1223 associado ao mapeamento de KK0372 KK0982 (KK0732), com a regra:
 
-- Se `KK0047 != 'kkkkve'` → `KK0048 = "KK0039" + "-" + KK0047`
-- Caso contrário → `KK0048 = "KK0039"`
+- Se `KK1312 != 'KK1017'` → `KK0750 = "KK1018" + "-" + KK1312`
+- Caso contrário → `KK0750 = "KK1018"`
 
-Ou seja, a **identificação da kkkkgq** depende de **KK0047**, que **é inicializada** nesta KK0188 1.
+Ou seja, a **identificação da KK0797** depende de **KK1312**, que **é inicializada** nesta KK1000 1.
 
 ---
 
 
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Onde é escrita | Uso |
 |----------|----------------|-----|
-| KK0046 | kkkkm2 | Sempre `'kkkksg'`; identificação do KK0046. |
-| KK0043 | kkkkm2 | `'PT20M'`; kkkkyo por KK0175 (KK0188 16). |
-| KK0040 | kkkkm2 | `'P22D'`; kkkkyo sistêmico (KK0188 16). |
-| KK0041 | kkkkm2 | `'514017224'`. |
-| KK0047 | Caller (start) ou kkkkm2 | Mantido se informado; senão `'kkkkve'`; KK0139/kkkkgq. |
-| KK0042 | kkkkm2 | `'KK0037'` apenas se KK0047 == 'KK0037'. |
+| KK0651 | KK1232 | Sempre `'KK0949'`; identificação do KK0651. |
+| KK1344 | KK1232 | `'PT20M'`; KK0621 por KK0760 (KK1000 16). |
+| KK1343 | KK1232 | `'P22D'`; KK0621 sistêmico (KK1000 16). |
+| KK0296 | KK1232 | `'514017224'`. |
+| KK1312 | Caller (start) ou KK1232 | Mantido se informado; senão `'KK1017'`; KK0230/KK0797. |
+| KK1357 | KK1232 | `'KK0811'` apenas se KK1312 == 'KK0811'. |
 
-## 4. kkkkxe de kkkkag (KK0199)
+## 4. KK1145 de KK0911 (KK1139)
 
-| ID KK0148 / kkkk9q | Regra em uma linha |
+| ID KK1223 / KK1332 | Regra em uma linha |
 | ------------------ | --------------------- |
-| kkkkm2 | Atribui KK0046, tempos de kkkkyo (PT20M KK0173, P22D sistêmico) e KK0041; KK0047: se informado no start, manter; senão 'kkkkve'; KK0042 = 'KK0037' somente se KK0047 == 'KK0037'. |
+| KK1232 | Atribui KK0651, tempos de KK0621 (PT20M KK1392, P22D sistêmico) e KK0296; KK1312: se informado no start, manter; senão 'KK1017'; KK1357 = 'KK0811' somente se KK1312 == 'KK0811'. |
 
 ---
 
-## 5. Pseudo-KK0021 (KK0199)
+## 5. Pseudo-KK0398 (KK1139)
 
-### 5.1 KK0216 kkkkm2
+### 5.1 KK1224 KK1232
 
-**KK0188:** 1 — Início e identificação da kkkkgq  
-**Nome (kkkkhk):** kkkklt  
-**Formato:** KK0044  
-**Objetivo:** Inicializar kkkkvo de KK0046 e tempos de kkkkyo ao iniciar a kkkk5h.
+**KK1000:** 1 — Início e identificação da KK0797  
+**Nome (KK0172):** KK0092  
+**Formato:** KK0732  
+**Objetivo:** Inicializar KK1423 de KK0651 e tempos de KK0621 ao iniciar a KK0780.
 
-#### Entrada (kkkkvo lidas / contexto)
+#### Entrada (KK1423 lidas / contexto)
 
 | Variável | Origem | Observação |
 | ---------- | -------- | ------------ |
-| KK0047 | Caller (opcional no start) | Se já existir e não vazio, é mantido. |
+| KK1312 | Caller (opcional no start) | Se já existir e não vazio, é mantido. |
 
-#### Saída (kkkkvo escritas / kkkk9x)
+#### Saída (KK1423 escritas / KK1288)
 
 | Variável | Observação |
 | ---------- | ------------ |
-| KK0046 | `'kkkksg'` |
-| KK0043 | `'PT20M'` |
-| KK0040 | `'P22D'` |
-| KK0041 | `'514017224'` |
-| KK0047 | Mantido se informado; senão `'kkkkve'` |
-| KK0042 | `'KK0037'` apenas se KK0047 == 'KK0037' |
+| KK0651 | `'KK0949'` |
+| KK1344 | `'PT20M'` |
+| KK1343 | `'P22D'` |
+| KK0296 | `'514017224'` |
+| KK1312 | Mantido se informado; senão `'KK1017'` |
+| KK1357 | `'KK0811'` apenas se KK1312 == 'KK0811' |
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217:
-  ATRIBUIR KK0046 = "kkkksg"
-  ATRIBUIR KK0043 = "PT20M"
-  ATRIBUIR KK0040 = "P22D"
-  ATRIBUIR KK0041 = "514017224"
-  KK0223 KK0047 já existe E não é vazio KK0224
-    MANTER KK0047
-  KK0221
-    ATRIBUIR KK0047 = "kkkkve"
-  KK0226 KK0223
-  KK0223 KK0047 == "KK0037" KK0224
-    ATRIBUIR KK0042 = "KK0037"
-  KK0226 KK0223
+KK1129:
+  ATRIBUIR KK0651 = "KK0949"
+  ATRIBUIR KK1344 = "PT20M"
+  ATRIBUIR KK1343 = "P22D"
+  ATRIBUIR KK0296 = "514017224"
+  KK1249 KK1312 já existe E não é vazio KK0579
+    MANTER KK1312
+  KK1269
+    ATRIBUIR KK1312 = "KK1017"
+  KK0642 KK1249
+  KK1249 KK1312 == "KK0811" KK0579
+    ATRIBUIR KK1357 = "KK0811"
+  KK0642 KK1249
 ```
 
-#### kkkkxe de kkkkag (uma linha)
+#### KK1145 de KK0911 (uma linha)
 
-- KK0047: se informado no start, manter; senão 'kkkkve'.
-- KK0042: setado apenas quando KK0047 == 'KK0037'.
+- KK1312: se informado no start, manter; senão 'KK1017'.
+- KK1357: setado apenas quando KK1312 == 'KK0811'.
 
-#### Referências kkkkhk
+#### Referências KK0172
 
-- **id:** kkkkm2
-- **kkkkhk:** `kkkkk6`
+- **id:** KK1232
+- **KK0172:** `KK0953`
 
 ---
 
-## 6. kkkkvt e saídas da parte
+## 6. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** a KK0188 1 é a primeira do kkkk55; entrada = start da kkkk5h (externo); saída única para a KK0188 5.
+**KK0491 de contexto:** a KK1000 1 é a primeira do KK1069; entrada = start da KK0780 (externo); saída única para a KK1000 5.
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
 ```mermaid
 %%{init: {
@@ -1780,9 +1780,9 @@ KK0217:
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -1791,40 +1791,40 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Entrada["Origem"]
-    EXT([Start kkkk5h])
+    EXT([Start KK0780])
   end
-  subgraph Parte1["KK0188 1 - Início"]
-    KK0216([kkkkm2])
+  subgraph Parte1["KK1000 1 - Início"]
+    KK1224([KK1232])
   end
   subgraph Saida["Destino"]
-    P5([kkkkpb KK0188 5])
+    P5([KK0674 KK1000 5])
   end
-  EXT -->|17vlh7m| KK0216
-  KK0216 -->|116t3w8| P5
+  EXT -->|17vlh7m| KK1224
+  KK1224 -->|116t3w8| P5
   style EXT fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
-  style KK0216 fill:#eceff1,stroke:#546e7a
+  style KK1224 fill:#eceff1,stroke:#546e7a
   style P5 fill:#fff8e1,stroke:#e65100,stroke-width:2px
-  linkStyle KK0195 stroke:#37474f,stroke-width:2px
+  linkStyle KK0472 stroke:#37474f,stroke-width:2px
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
 | Elemento de destino | Flow | Origem / observação |
 | --------------------- | ---------------- | ---------------------- |
-| Event_0s31x87 | (externo) | Início da kkkk5h (KK0027 de start do kkkk55). |
-| kkkkm2 | Flow_17vlh7m | Start kkkkja. |
+| Event_0s31x87 | (externo) | Início da KK0780 (KK0072 de start do KK1069). |
+| KK1232 | Flow_17vlh7m | Start KK0604. |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Flow | Destino | Observação |
 | ---------------- | ---------------------- | ------------ |
-| Flow_116t3w8 | kkkkpb | KK0188 5 (Segmentação e kkkkxg). |
+| Flow_116t3w8 | KK0674 | KK1000 5 (Segmentação e KK0497). |
 
 ---
 
-## 7. kkkk5v resumido (kkkk5x)
+## 7. KK0491 resumido (KK0865)
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -1845,9 +1845,9 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -1855,203 +1855,203 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  A((Start)) --> B([kkkkm2])
+  A((Start)) --> B([KK1232])
   B --> C{Tem agencia ?}
   style A fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
   style B fill:#eceff1,stroke:#546e7a
   style C fill:#fff8e1,stroke:#e65100,stroke-width:2px
-  linkStyle KK0195 stroke:#37474f,stroke-width:2px
+  linkStyle KK0472 stroke:#37474f,stroke-width:2px
 ```
 
 ---
 
 ## 8. Condições e exceções
 
-- **Sem kkkkaf** nesta parte: há um único caminho.
-- **Sem KK0180** no KK0148 kkkk9q: falha no KK0148 resulta em falha da kkkk5h (tratamento conforme motor kkkkgm).
-- **Nota:** No kkkkhk, o `sourceRef` do `Flow_116t3w8` aparece em um trecho como `"KK0148 atribui KK0177 decurso"` (com espaço); o id correto da kkkk9q é `kkkkm2`. O comportamento de KK0199 é o descrito acima (saída do KK0148 para o kkkkpb).
+- **Sem KK0712** nesta parte: há um único caminho.
+- **Sem KK0167** no KK1223 KK1332: falha no KK1223 resulta em falha da KK0780 (tratamento conforme motor KK0217).
+- **Nota:** No KK0172, o `sourceRef` do `Flow_116t3w8` aparece em um trecho como `"KK1223 atribui KK1342 decurso"` (com espaço); o id correto da KK1332 é `KK1232`. O comportamento de KK1139 é o descrito acima (saída do KK1223 para o KK0674).
 
 ---
 
-## 9. Referências no kkkkhk
+## 9. Referências no KK0172
 
 - Start: `Event_0s31x87`  
-- Script: `kkkkm2` (KK0044 nas linhas ~2484–2489 do kkkkhk)  
-- Saída: `Flow_116t3w8` → `kkkkpb` (KK0188 5)
+- Script: `KK1232` (KK0732 nas linhas ~2484–2489 do KK0172)  
+- Saída: `Flow_116t3w8` → `KK0674` (KK1000 5)
 
 
-### 2.2.1 KK0149 (KK0189 da KK0190)
+### 2.2.1 KK0309 (KK1181 da KK0314)
 
-Não há user kkkk9q na KK0188 1; apenas a KK0148 kkkk9q com uma única saída.
+Não há user KK1332 na KK1000 1; apenas a KK1223 KK1332 com uma única saída.
 
 | Elemento | Tipo | Condição | Flow | Target |
 |----------|------|----------|------|--------|
-| kkkkm2 | Saída única | — | Flow_116t3w8 | kkkkpb (KK0188 5) |
+| KK1232 | Saída única | — | Flow_116t3w8 | KK0674 (KK1000 5) |
 
-### 2.2.2 Condições de kkkk7v
+### 2.2.2 Condições de KK0669
 
-Nenhum kkkk7v na KK0188 1. Saída da parte: Flow_116t3w8 → kkkkpb (kkkklq), que pertence à KK0188 5.
+Nenhum KK0669 na KK1000 1. Saída da parte: Flow_116t3w8 → KK0674 (KK1341), que pertence à KK1000 5.
 
-| ID kkkk7v | Nome | Expressão | Ramo | Flow | Target |
+| ID KK0669 | Nome | Expressão | Ramo | Flow | Target |
 |-----------|------|-----------|------|------|--------|
-| — | Nenhum na KK0188 1 | — | — | Flow_116t3w8 | kkkkpb (KK0188 5) |
+| — | Nenhum na KK1000 1 | — | — | Flow_116t3w8 | KK0674 (KK1000 5) |
 
 
 $$$$$
 
 [parte_01_inicio_identificacao_jornada/USER_STORY_01_inicio_identificacao_jornada_GENERICO.md]
 XXXXX
-# User Story — KK0188 1: Início e identificação da kkkkgq
+# User Story — KK1000 1: Início e identificação da KK0797
 
-**KK0184:** `kkkkk6` (Event_0s31x87, kkkkm2)
+**KK0655:** `KK0953` (Event_0s31x87, KK1232)
 
 ---
 
-**Obs. (especulativo):** Quem inicia a kkkk5h e quais kkkkvo vêm no start não estão no kkkkhk; o KK0148 apenas preserva `KK0047` se já existir. Ver [KK0045](KK0045.md) §0.
+**Obs. (especulativo):** Quem inicia a KK0780 e quais KK1423 vêm no start não estão no KK0172; o KK1223 apenas preserva `KK1312` se já existir. Ver [KK0652](KK0652.md) §0.
 
 ---
 
 ## User Story
 
-**Como** motor de kkkk55 (ou kkkkxv que inicia a kkkkfj),  
-**quero** que, ao iniciar uma kkkk5h do kkkk55 kkkkyq, as kkkkvo de KK0046 e de KK0177 de decurso sejam inicializadas de forma consistente,  
-**para** que o restante da kkkkgq possa identificar o KK0139 (KK0046/KK0137) e aplicar corretamente as kkkkx5 de kkkkyo.
+**Como** motor de KK1069 (ou KK1292 que inicia a KK0798),  
+**quero** que, ao iniciar uma KK0780 do KK1069 KK0948, as KK1423 de KK0651 e de KK1342 de decurso sejam inicializadas de forma consistente,  
+**para** que o restante da KK0797 possa identificar o KK0230 (KK0651/KK1315) e aplicar corretamente as KK1146 de KK0621.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- [ ] **CA1 – Início do kkkk55**  
-  Quando a kkkkgq é iniciada (start kkkkja `Event_0s31x87`), a primeira coisa que roda é um KK0148 que atribui os tempos de decurso e kkkkvo de KK0046 (`kkkkm2`).
+- [ ] **CA1 – Início do KK1069**  
+  Quando a KK0797 é iniciada (start KK0604 `Event_0s31x87`), a primeira coisa que roda é um KK1223 que atribui os tempos de decurso e KK1423 de KK0651 (`KK1232`).
 
 - [ ] **CA2 – Variáveis obrigatórias**  
-  Depois desse KK0148, a kkkk5h fica com: KK0046 = kkkksg; KK0177 máximo de permanência do KK0173 em uma etapa = 20 minutos; KK0177 máximo sistêmico da kkkkgq = 22 dias; e KK0021 da unidade de kkkkag definido.
+  Depois desse KK1223, a KK0780 fica com: KK0651 = KK0949; KK1342 máximo de permanência do KK1392 em uma etapa = 20 minutos; KK1342 máximo sistêmico da KK0797 = 22 dias; e KK0398 da unidade de KK0911 definido.
 
-- [ ] **CA3 – KK0138 (KK0047)**  
-  Se quem iniciou a kkkkgq já informou o KK0139 (KK0047), esse valor é mantido. Caso contrário, o kkkkxv assume “kkkkve” como padrão.
+- [ ] **CA3 – KK0229 (KK1312)**  
+  Se quem iniciou a KK0797 já informou o KK0230 (KK1312), esse valor é mantido. Caso contrário, o KK1292 assume “KK1017” como padrão.
 
-- [ ] **CA4 – KK0147 “KK0037”**  
-  Quando o KK0139 for “KK0037”, o kkkkxv grava também o tipo de KK0038 como “KK0037”. Nos outros canais, o tipo de KK0038 não é definido nesta etapa.
+- [ ] **CA4 – KK0511 “KK0811”**  
+  Quando o KK0230 for “KK0811”, o KK1292 grava também o tipo de KK0510 como “KK0811”. Nos outros canais, o tipo de KK0510 não é definido nesta etapa.
 
 - [ ] **CA5 – Próximo passo**  
-  Ao terminar essa etapa, o KK0046 segue direto para a decisão “kkkklq” (kkkk7v `kkkkpb`), sem outros caminhos nesta parte.
+  Ao terminar essa etapa, o KK0651 segue direto para a decisão “KK1341” (KK0669 `KK0674`), sem outros caminhos nesta parte.
 
-- [ ] **CA6 – Base para identificador da kkkkgq**  
-  O KK0139 (KK0047) definido aqui será usado mais à frente para montar o identificador da kkkkgq (ex.: KK0039 ou KK0039-{KK0139}). Quem inicia a kkkk5h pode enviar o KK0139 para customizar.
+- [ ] **CA6 – Base para identificador da KK0797**  
+  O KK0230 (KK1312) definido aqui será usado mais à frente para montar o identificador da KK0797 (ex.: KK1018 ou KK1018-{KK0230}). Quem inicia a KK0780 pode enviar o KK0230 para customizar.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
 | Origem | Destino | Observação |
 | -------- | --------- | ------------ |
-| Start da kkkk5h | `Event_0s31x87` | Única entrada; não há ramos de kkkkgu ou kkkkx9 nesta parte. |
+| Start da KK0780 | `Event_0s31x87` | Única entrada; não há ramos de KK1451 ou KK0610 nesta parte. |
 
-### Scripts e kkkkx5 de kkkkag
+### Scripts e KK1146 de KK0911
 
-| ID KK0148 | Regra resumida |
+| ID KK1223 | Regra resumida |
 | ----------- | ---------------- |
-| `kkkkm2` | Atribui `KK0043` (PT20M), `KK0040` (P22D), `KK0046` (kkkksg), `KK0041`; mantém ou define `KK0047` (KK0195 kkkkve); define `KK0042` quando `KK0047` = KK0037. |
+| `KK1232` | Atribui `KK1344` (PT20M), `KK1343` (P22D), `KK0651` (KK0949), `KK0296`; mantém ou define `KK1312` (KK0472 KK1017); define `KK1357` quando `KK1312` = KK0811. |
 
-Ver [KK0045](KK0045.md).
+Ver [KK0652](KK0652.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Valor / regra | Observação |
 | ---------- | --------------- | ------------ |
-| `KK0043` | PT20M | kkkk63 por KK0175. |
-| `KK0040` | P22D | kkkk63 sistêmico. |
-| `KK0046` | kkkksg | Identificação do KK0046. |
-| `KK0047` | Mantido ou kkkkve | KK0138; opcional do caller na KK0027 de start. |
-| `KK0041` | 514017224 | Fixo no KK0148. |
-| `KK0042` | KK0037 (condicional) | Apenas se `KK0047` = KK0037. |
+| `KK1344` | PT20M | KK0620 por KK0760. |
+| `KK1343` | P22D | KK0620 sistêmico. |
+| `KK0651` | KK0949 | Identificação do KK0651. |
+| `KK1312` | Mantido ou KK1017 | KK0229; opcional do caller na KK0072 de start. |
+| `KK0296` | 514017224 | Fixo no KK1223. |
+| `KK1357` | KK0811 (condicional) | Apenas se `KK1312` = KK0811. |
 
-Nenhum kkkkmn de kkkkaq.
+Nenhum KK1001 de KK0473.
 
-### kkkkxe de kkkkth de campos
+### KK1145 de KK1406 de campos
 
-*Não se aplicam (esta parte não kkkkwc dados do KK0173).*
+*Não se aplicam (esta parte não KK0297 dados do KK1392).*
 
 ### Comportamentos fora do núcleo
 
 | Tipo | Flow / elemento | Destino |
 | ------ | ----------------- | --------- |
-| Saída única | `Flow_116t3w8` | kkkkis da KK0188 5 (`kkkkpb`) |
-| kkkkwk events | — | Nenhum nesta parte. |
+| Saída única | `Flow_116t3w8` | KK0668 da KK1000 5 (`KK0674`) |
+| KK0165 events | — | Nenhum nesta parte. |
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 5 | Destino (saída) | kkkkis “kkkklq” (`kkkkpb`), kkkkvg/kkkkxg; definição de `KK0048` ocorre mais adiante (mapeamento kkkkhu). |
-| 16 | Uso posterior | kkkkxe de kkkkyo utilizam `KK0043` e `KK0040`. |
+| 5 | Destino (saída) | KK0668 “KK1341” (`KK0674`), KK1251/KK0497; definição de `KK0750` ocorre mais adiante (mapeamento KK0982). |
+| 16 | Uso posterior | KK1145 de KK0621 utilizam `KK1344` e `KK1343`. |
 
 ---
 
-## Referência kkkkhk
+## Referência KK0172
 
-- `Event_0s31x87` — start kkkkja  
-- `kkkkm2` — KK0148 KK0044 (kkkkvo listadas no FLUXO_01)  
-- `Flow_17vlh7m`, `Flow_116t3w8` — sequence kkkkoa  
-- Próximo elemento: `kkkkpb` (KK0188 5)
+- `Event_0s31x87` — start KK0604  
+- `KK1232` — KK1223 KK0732 (KK1423 listadas no FLUXO_01)  
+- `Flow_17vlh7m`, `Flow_116t3w8` — sequence KK0649  
+- Próximo elemento: `KK0674` (KK1000 5)
 
 $$$$$
 
 [parte_02_cadastro_inicial_dados_contato/FLUXO_02_guia_GENERICO.md]
 XXXXX
-# KK0188 2 — kkkkgd inicial / dados de contato (guia)
+# KK1000 2 — KK0196 inicial / dados de contato (guia)
 
-**O que é esta parte:** trecho da kkkkgq em que são coletados **KK0158**, **KK0151**, **KK0155** e, quando o kkkk1x tem KK0160 no KK0162, **KK0159**. Serve de guia para entender o KK0046, o que cada KK0176 faz e como funciona o "kkkkgu" e o kkkkyo por KK0175.
+**O que é esta parte:** trecho da KK0797 em que são coletados **KK1339**, **KK0530**, **KK0428** e, quando o KK0273 tem KK1164 no KK0624, **KK0912**. Serve de guia para entender o KK0651, o que cada KK1338 faz e como funciona o "KK1451" e o KK0621 por KK0760.
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Nesta etapa o kkkk38 (ou o próprio kkkk1x, conforme o KK0139) preenche os **dados de contato e iniciais** do titular. O kkkk55 registra em qual etapa a kkkk3l está e, se o KK0173 ficar parado na KK0176 além do KK0177 configurado (20 minutos), a kkkk3l é **expurgada** automaticamente.
+Nesta etapa o KK0723 (ou o próprio KK0273, conforme o KK0230) preenche os **dados de contato e iniciais** do titular. O KK1069 registra em qual etapa a KK1086 está e, se o KK1392 ficar parado na KK1338 além do KK1342 configurado (20 minutos), a KK1086 é **expurgada** automaticamente.
 
 ---
 
 ## 2. O que acontece na prática
 
-### Bloco principal: KK0152 → KK0157 → KK0156
+### Bloco principal: KK0531 → KK1340 → KK0429
 
-A kkkkgq passa por **três telas em kkkkxc**:
+A KK0797 passa por **três telas em KK1272**:
 
-1. **KK0152** — KK0182 do KK0151 (e do representante legal, quando houver). Ao continuar, vai para a KK0176 de KK0158. O KK0173 pode **kkkkgu** para a KK0176 de **nome** (etapa anterior na kkkkgq).
+1. **KK0531** — KK0298 do KK0530 (e do representante legal, quando houver). Ao continuar, vai para a KK1338 de KK1339. O KK1392 pode **KK1451** para a KK1338 de **nome** (etapa anterior na KK0797).
 
-2. **KK0157** — KK0182 do DDD e número de KK0158 (e do representante, quando houver). Ao continuar, vai para a KK0176 de **KK0155**. O KK0173 pode **kkkkgu** para a KK0176 de **KK0151**.
+2. **KK1340** — KK0298 do DDD e número de KK1339 (e do representante, quando houver). Ao continuar, vai para a KK1338 de **KK0428**. O KK1392 pode **KK1451** para a KK1338 de **KK0530**.
 
-3. **KK0156** — KK0182 da KK0155 (e do representante, quando houver). Ao continuar, o KK0046 segue para as próximas etapas da kkkkp3 (atualização de dados no cadastro). O KK0173 pode **kkkkgu** para a KK0176 de **KK0158**.
+3. **KK0429** — KK0298 da KK0428 (e do representante, quando houver). Ao continuar, o KK0651 segue para as próximas etapas da KK0007 (atualização de dados no cadastro). O KK1392 pode **KK1451** para a KK1338 de **KK1339**.
 
-Em cada KK0176, o kkkkxv grava em qual etapa o KK0173 está (ex.: "estava na KK0176 de KK0151", "estava na de KK0158"). Se ninguém clicar em continuar ou kkkkgu dentro do KK0177 kkkksp (20 min), a kkkk3l é **expurgada** e a kkkkgq encerra nesse ramo.
+Em cada KK1338, o KK1292 grava em qual etapa o KK1392 está (ex.: "estava na KK1338 de KK0530", "estava na de KK1339"). Se ninguém clicar em continuar ou KK1451 dentro do KK1342 KK0823 (20 min), a KK1086 é **expurgada** e a KK0797 encerra nesse ramo.
 
-### Tela de KK0159 (só quando há KK0160 no KK0162)
+### Tela de KK0912 (só quando há KK1164 no KK0624)
 
-Depois de preencher **nome**, **KK0168** e **kkkksy** (KK0188 3), o KK0046 pergunta se o kkkk1x **KK0186**.  
-Se a resposta for **sim**, aparece a KK0176 **kkkkwx KK0159** (KK0163, KK0164, KK0166 de KK0160 fiscal, número KK0159). Ao continuar, o KK0046 converge com o caminho de quem não tem KK0160 no KK0162 (seleção de kkkk1o, kkkkvg etc.). O KK0173 pode **kkkkgu** para a KK0176 de **KK0168**. Essa KK0176 também tem timer de kkkkyo.
+Depois de preencher **nome**, **KK0570** e **KK1155** (KK1000 3), o KK0651 pergunta se o KK0273 **KK1046**.  
+Se a resposta for **sim**, aparece a KK1338 **KK0399 KK0912** (KK0905, KK1004, KK1003 de KK1164 fiscal, número KK0912). Ao continuar, o KK0651 converge com o caminho de quem não tem KK1164 no KK0624 (seleção de KK0046, KK1251 etc.). O KK1392 pode **KK1451** para a KK1338 de **KK0570**. Essa KK1338 também tem timer de KK0621.
 
 ---
 
-## 3. Resumo para KK0140, KK0142 e KK0143
+## 3. Resumo para KK0726, KK1131 e KK1031
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **Ordem das telas** | KK0152 → KK0157 → KK0156. KK0159 só aparece se "Possui KK0160 no KK0162?" = Sim (após KK0168/kkkksy). |
-| **KK0194** | Em cada KK0176 há opção de kkkkgu para a etapa anterior (nome ↔ KK0151 ↔ KK0158 ↔ data nascimento). KK0159 pode kkkkgu para KK0168. |
-| **kkkk63** | Se o KK0173 ficar parado em qualquer uma dessas telas por 20 minutos sem avançar ou kkkkgu, a kkkk3l é expurgada. |
-| **Saída** | Após **KK0155** (continuar), a kkkkgq segue para atualização de cadastro e demais etapas. Após **KK0159** (quando aplicável), segue para seleção de kkkk1o / kkkkvg. |
+| **Ordem das telas** | KK0531 → KK1340 → KK0429. KK0912 só aparece se "Possui KK1164 no KK0624?" = Sim (após KK0570/KK1155). |
+| **KK1452** | Em cada KK1338 há opção de KK1451 para a etapa anterior (nome ↔ KK0530 ↔ KK1339 ↔ data nascimento). KK0912 pode KK1451 para KK0570. |
+| **KK0620** | Se o KK1392 ficar parado em qualquer uma dessas telas por 20 minutos sem avançar ou KK1451, a KK1086 é expurgada. |
+| **Saída** | Após **KK0428** (continuar), a KK0797 segue para atualização de cadastro e demais etapas. Após **KK0912** (quando aplicável), segue para seleção de KK0046 / KK1251. |
 
 ---
 
-## 4. kkkk5v (visão geral)
+## 4. KK0491 (visão geral)
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -2072,9 +2072,9 @@ Se a resposta for **sim**, aparece a KK0176 **kkkkwx KK0159** (KK0163, KK0164, K
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -2083,12 +2083,12 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph bloco_contato
-    A([KK0152]) --> B([KK0157])
+    A([KK0531]) --> B([KK1340])
     B --> C([Data nascimento])
   end
   C --> D([Próximas etapas])
-  E{Residência KK0162?} -->|Sim| F([KK0159])
-  F --> G([Converge com KK0046 principal])
+  E{Residência KK0624?} -->|Sim| F([KK0912])
+  F --> G([Converge com KK0651 principal])
   style A fill:#bbdefb,stroke:#1565c0
   style B fill:#bbdefb,stroke:#1565c0
   style C fill:#bbdefb,stroke:#1565c0
@@ -2100,191 +2100,191 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 5. KK0170
+## 5. KK1041
 
-- **KK0194:** o comportamento de "kkkkgu" depende do valor enviado no preenchimento (ex.: "kkkkgu para KK0151"). O kkkkhk modela esses ramos; a kkkklz deve deixar claro para qual KK0176 o KK0173 está voltando.
-- **kkkk63:** as quatro telas (KK0151, KK0158, data nascimento, KK0159) disparam kkkkyo após o KK0177 de KK0175 (20 min). Para detalhes do KK0177 e da regra, ver KK0188 1.
-- **KK0159:** a KK0176 de KK0159 não fica na linha KK0151 → KK0158 → data nascimento; ela aparece só no ramo "KK0160 no KK0162 = Sim", depois de KK0168 e kkkksy.
+- **KK1452:** o comportamento de "KK1451" depende do valor enviado no preenchimento (ex.: "KK1451 para KK0530"). O KK0172 modela esses ramos; a KK1393 deve deixar claro para qual KK1338 o KK1392 está voltando.
+- **KK0620:** as quatro telas (KK0530, KK1339, data nascimento, KK0912) disparam KK0621 após o KK1342 de KK0760 (20 min). Para detalhes do KK1342 e da regra, ver KK1000 1.
+- **KK0912:** a KK1338 de KK0912 não fica na linha KK0530 → KK1339 → data nascimento; ela aparece só no ramo "KK1164 no KK0624 = Sim", depois de KK0570 e KK1155.
 
-Para detalhes KK0178 (kkkk5j dos KK0181, kkkkoa, KK0180), use o **FLUXO_02_tecnico.md**.
+Para detalhes KK1379 (KK0755 dos KK0552, KK0649, KK0167), use o **FLUXO_02_tecnico.md**.
 
 $$$$$
 
 [parte_02_cadastro_inicial_dados_contato/FLUXO_02_tecnico_GENERICO.md]
 XXXXX
-# KK0188 2 — kkkkgd inicial / dados de contato (documentação kkkk5u)
+# KK1000 2 — KK0196 inicial / dados de contato (documentação KK1377)
 
-**KK0184:** `kkkkk6`  
-**KK0183:** KK0182 de KK0158, KK0151, KK0155 e KK0159 (quando KK0160 no KK0162); KK0034 **KK0125**; KK0180 de timer (kkkkyo por KK0175); KK0204 de “kkkkgu”.
+**KK0655:** `KK0953`  
+**KK0598:** KK0298 de KK1339, KK0530, KK0428 e KK0912 (quando KK1164 no KK0624); KK1424 **KK0602**; KK0167 de timer (KK0621 por KK0760); KK0654 de “KK1451”.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkkix` | kkkk8m — kkkkkm |
-| `kkkkiw` | kkkk8m — kkkkkl |
-| `kkkkjs` | kkkk8m — kkkkkn |
-| `kkkkiz` | kkkk8m — kkkkwx KK0159 (condicional: KK0160 KK0162) |
+| `KK0421` | KK1388 — KK0426 |
+| `KK0413` | KK1388 — KK0405 |
+| `KK0411` | KK1388 — KK0402 |
+| `KK0416` | KK1388 — KK0399 KK0912 (condicional: KK1164 KK0624) |
 
 ---
 
 ## 1. Objetivo da parte
 
-Registrar **dados de contato e iniciais** do titular (e do representante legal quando houver): KK0151, KK0158, KK0155 e, no ramo “KK0186”, KK0159. Em cada user kkkk9q o kkkk55 grava **KK0125** para KK0185; KK0180 de timer disparam kkkkyo ao estourar **KK0043** (definido na KK0188 1).
+Registrar **dados de contato e iniciais** do titular (e do representante legal quando houver): KK0530, KK1339, KK0428 e, no ramo “KK1046”, KK0912. Em cada user KK1332 o KK1069 grava **KK0602** para KK1134; KK0167 de timer disparam KK0621 ao estourar **KK1344** (definido na KK1000 1).
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 User kkkkiq (bloco principal: KK0151 → KK0158 → data nascimento)
+### 2.1 User KK1335 (bloco principal: KK0530 → KK1339 → data nascimento)
 
 | Tipo | ID do elemento | Nome (name) | Observação |
 | ---------- | -------------------------- | ------------------------ | ------------ |
-| kkkk8m | `kkkkiw` | kkkkkl | KK0197: KK0154, email_representante, kkkk46, kkkkgu. outputParameter KK0125 = kkkkiw. |
-| kkkk8m | `kkkkix` | kkkkkm | KK0197: KK0128, KK0121, representante, kkkk46, kkkkgu. KK0195 = Flow_0z28kqb (continuar). KK0125 = kkkkix. |
-| kkkk8m | `kkkkjs` | kkkkkn | KK0197: KK0120, representante, kkkk46, kkkkgu. KK0125 = kkkkjs. |
-| kkkk8m | `kkkkiz` | kkkkwx KK0159 | KK0197: KK0163, pais_nascimento, pais_residencia_fiscal, numero_nif (e representante). KK0125 = kkkkiz. Só é alcançado pelo ramo “Possui Residencia no Exterior?” = Sim. |
+| KK1388 | `KK0413` | KK0405 | KK0659: KK0556, email_representante, KK0653, KK1451. outputParameter KK0602 = KK0413. |
+| KK1388 | `KK0421` | KK0426 | KK0659: KK0923, KK0438, representante, KK0653, KK1451. KK0472 = Flow_0z28kqb (continuar). KK0602 = KK0421. |
+| KK1388 | `KK0411` | KK0402 | KK0659: KK0433, representante, KK0653, KK1451. KK0602 = KK0411. |
+| KK1388 | `KK0416` | KK0399 KK0912 | KK0659: KK0905, pais_nascimento, pais_residencia_fiscal, numero_nif (e representante). KK0602 = KK0416. Só é alcançado pelo ramo “Possui Residencia no Exterior?” = Sim. |
 
-### 2.2 kkkkis
+### 2.2 KK0668
 
 | Tipo | ID do elemento | Nome (name) | Observação |
 | ------------------- | ------------------ | ---------------------------------- | ------------ |
-| kkkk81 | `kkkkpd` | Possui Residencia no Exterior? | Entrada: após kkkki0 (KK0188 3). kkkkvv: Flow_1ka10hr (SIM) → kkkkiz; Flow_1pb12jt (não/KK0195) → kkkkjg. Condição SIM: implícita; não: `${KK0122 == false}`. |
+| KK0614 | `KK0686` | Possui Residencia no Exterior? | Entrada: após KK0420 (KK1000 3). KK1213: Flow_1ka10hr (SIM) → KK0416; Flow_1pb12jt (não/KK0472) → KK1262. Condição SIM: implícita; não: `${KK0468 == false}`. |
 
-### 2.3 Sequence kkkkoa (bloco KK0151 / KK0158 / data nascimento)
+### 2.3 Sequence KK0649 (bloco KK0530 / KK1339 / data nascimento)
 
 | ID do flow | sourceRef | targetRef | Nome/condição |
 | -------------- | ---------------------- | ------------------------ | --------------- |
-| `Flow_0d4ew6i` | inicia_pld | kkkkiw | Entrada da parte (quando a kkkkgq vem de inicia_pld). |
-| `Flow_1q69te8` | kkkkiw | kkkkix | Continuar (KK0195 kkkkiw). |
-| `Flow_0z28kqb` | kkkkix | kkkkjs | Continuar (KK0195 kkkkix). |
-| `Flow_0ex4yxs` | kkkkjs | KK0107 | Saída: segue para atualização kkkkhq e demais etapas. |
-| `Flow_0ewc29g` | kkkkiw | kkkkiy | KK0194: `${kkkkgu=="kkkkiy"}`. |
-| `Flow_0illuoz` | kkkkix | kkkkiw | KK0194: `${kkkkgu=="kkkkiw"}`. |
-| `Flow_098zdvb` | kkkkjs | kkkkix | KK0194: `${kkkkgu=="kkkkix"}`. |
+| `Flow_0d4ew6i` | inicia_pld | KK0413 | Entrada da parte (quando a KK0797 vem de inicia_pld). |
+| `Flow_1q69te8` | KK0413 | KK0421 | Continuar (KK0472 KK0413). |
+| `Flow_0z28kqb` | KK0421 | KK0411 | Continuar (KK0472 KK0421). |
+| `Flow_0ex4yxs` | KK0411 | KK1233 | Saída: segue para atualização KK0586 e demais etapas. |
+| `Flow_0ewc29g` | KK0413 | KK0417 | KK1452: `${KK1451=="KK0417"}`. |
+| `Flow_0illuoz` | KK0421 | KK0413 | KK1452: `${KK1451=="KK0413"}`. |
+| `Flow_098zdvb` | KK0411 | KK0421 | KK1452: `${KK1451=="KK0421"}`. |
 
-### 2.3.1 Sequence kkkkoa (KK0159)
+### 2.3.1 Sequence KK0649 (KK0912)
 
 | ID do flow | sourceRef | targetRef | Nome/condição |
 | -------------- | -------------------- | --------------------- | --------------- |
-| `Flow_1ka10hr` | kkkkpd | kkkkiz | SIM. |
-| `Flow_1q9216u` | kkkkiz | Gateway_0xv7h0i | Continuar (KK0195). Converge para seleção de kkkk1o / KK0046 principal. |
-| `Flow_10bazw8` | kkkkiz | kkkkjt | KK0194: `${kkkkgu=="kkkkjt"}`. |
+| `Flow_1ka10hr` | KK0686 | KK0416 | SIM. |
+| `Flow_1q9216u` | KK0416 | Gateway_0xv7h0i | Continuar (KK0472). Converge para seleção de KK0046 / KK0651 principal. |
+| `Flow_10bazw8` | KK0416 | KK0414 | KK1452: `${KK1451=="KK0414"}`. |
 
-### 2.4 KK0149 (KK0189 da KK0190 das user kkkkiq)
+### 2.4 KK0309 (KK1181 da KK0314 das user KK1335)
 
-| kkkk8l ID | Tipo de KK0013 | Condição | Flow | Target |
+| KK1331 ID | Tipo de KK0308 | Condição | Flow | Target |
 | --------- | ------------------ | ---------- | ------ | -------- |
-| kkkkiw | KK0192 (continuar) | — | Flow_1q69te8 | kkkkix |
-| kkkkiw | KK0194 | kkkkgu=="kkkkiy" | Flow_0ewc29g | kkkkiy |
-| kkkkix | KK0192 (continuar) | — | Flow_0z28kqb | kkkkjs |
-| kkkkix | KK0194 | kkkkgu=="kkkkiw" | Flow_0illuoz | kkkkiw |
-| kkkkjs | KK0192 (continuar) | — | Flow_0ex4yxs | KK0107 |
-| kkkkjs | KK0194 | kkkkgu=="kkkkix" | Flow_098zdvb | kkkkix |
-| kkkkiz | KK0192 (continuar) | — | Flow_1q9216u | Gateway_0xv7h0i |
-| kkkkiz | KK0194 | kkkkgu=="kkkkjt" | Flow_10bazw8 | kkkkjt |
+| KK0413 | KK0991 (continuar) | — | Flow_1q69te8 | KK0421 |
+| KK0413 | KK1452 | KK1451=="KK0417" | Flow_0ewc29g | KK0417 |
+| KK0421 | KK0991 (continuar) | — | Flow_0z28kqb | KK0411 |
+| KK0421 | KK1452 | KK1451=="KK0413" | Flow_0illuoz | KK0413 |
+| KK0411 | KK0991 (continuar) | — | Flow_0ex4yxs | KK1233 |
+| KK0411 | KK1452 | KK1451=="KK0421" | Flow_098zdvb | KK0421 |
+| KK0416 | KK0991 (continuar) | — | Flow_1q9216u | Gateway_0xv7h0i |
+| KK0416 | KK1452 | KK1451=="KK0414" | Flow_10bazw8 | KK0414 |
 
-### 2.5 Condições de kkkk7v
+### 2.5 Condições de KK0669
 
-| ID kkkk7v | Nome | Expressão | Ramo | Observação |
+| ID KK0669 | Nome | Expressão | Ramo | Observação |
 | ------------ | ------ | ----------- | ------ | ------------ |
-| kkkkpd | Possui Residencia no Exterior? | (KK0188 3: kkkki0) | SIM → kkkkiz; não/KK0195 → kkkkjg | kkkkis da KK0188 3; saída SIM leva a kkkkiz (esta parte). Condição não: `${KK0122 == false}`. |
+| KK0686 | Possui Residencia no Exterior? | (KK1000 3: KK0420) | SIM → KK0416; não/KK0472 → KK1262 | KK0668 da KK1000 3; saída SIM leva a KK0416 (esta parte). Condição não: `${KK0468 == false}`. |
 
-### 2.6 kkkkwk events (timer → kkkkyo)
+### 2.6 KK0165 events (timer → KK0621)
 
-| ID do kkkkas | attachedToRef | Saída (flow) | Timer |
+| ID do KK0169 | attachedToRef | Saída (flow) | Timer |
 | --------------------- | ------------------------ | --------------- | -------- |
-| `Event_lul4j5n` | kkkkiw | Flow_106y5y3 | `${KK0043}` |
-| `Event_0gjqtzo` | kkkkix | Flow_0bpof2r | `${KK0043}` |
-| `Event_0su8oxx` | kkkkjs | Flow_1kpgcmh | `${KK0043}` |
-| `Event_0s8rokp` | kkkkiz | Flow_11px7js | `${KK0043}` |
+| `Event_lul4j5n` | KK0413 | Flow_106y5y3 | `${KK1344}` |
+| `Event_0gjqtzo` | KK0421 | Flow_0bpof2r | `${KK1344}` |
+| `Event_0su8oxx` | KK0411 | Flow_1kpgcmh | `${KK1344}` |
+| `Event_0s8rokp` | KK0416 | Flow_11px7js | `${KK1344}` |
 
-Cada flow de saída do KK0196 leva a um end kkkkja de erro (kkkkyo disparado, Error_112p0oi).
+Cada flow de saída do KK0166 leva a um end KK0604 de erro (KK0621 disparado, Error_112p0oi).
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Onde é escrita | Uso |
 | ------------------ | ------------------------ | ----- |
-| `KK0125` | outputParameter de cada user kkkk9q (kkkkiw, kkkkix, kkkkjs, kkkkiz) | Indica em qual etapa a kkkk3l estava para fins de kkkkyo (KK0188 16). |
-| `KK0043` | KK0188 1 (KK0148) | Lido pelos timer events; valor típico PT20M. |
-| `kkkkgu` | KK0197 (campos kkkkgu das kkkkiq) | Decide o próximo nó ao “kkkkgu” (kkkkiy, kkkkiw, kkkkix, kkkkjt). |
-| `KK0122` | Definida antes do kkkkpd (KK0188 3 – kkkki0 / declaração) | Condição do kkkk7v “Possui Residencia no Exterior?”. |
+| `KK0602` | outputParameter de cada user KK1332 (KK0413, KK0421, KK0411, KK0416) | Indica em qual etapa a KK1086 estava para fins de KK0621 (KK1000 16). |
+| `KK1344` | KK1000 1 (KK1223) | Lido pelos timer events; valor típico PT20M. |
+| `KK1451` | KK0659 (campos KK1451 das KK1335) | Decide o próximo nó ao “KK1451” (KK0417, KK0413, KK0421, KK0414). |
+| `KK0468` | Definida antes do KK0686 (KK1000 3 – KK0420 / declaração) | Condição do KK0669 “Possui Residencia no Exterior?”. |
 
 ---
 
-## 4. kkkkxe de kkkkag (KK0199)
+## 4. KK1145 de KK0911 (KK1139)
 
-| ID KK0148 / kkkk9q | Regra em uma linha |
+| ID KK1223 / KK1332 | Regra em uma linha |
 | ------------------ | --------------------- |
-| KK0107 | Atualiza kkkkhq com dados de contato e KK0155 (KK0151, KK0158, KK0120) após KK0190 de kkkkjs; kkkkvo conforme KK0203 do kkkkhk. |
-| script_atualiza_eq3_titular_representante, kkkkny, KK0201, KK0202 | Acionados em KK0204 que levam a kkkkjt (KK0188 3); documentação detalhada no KK0018 da KK0188 3 quando aplicável. |
+| KK1233 | Atualiza KK0586 com dados de contato e KK0428 (KK0530, KK1339, KK0433) após KK0314 de KK0411; KK1423 conforme KK0775 do KK0172. |
+| script_atualiza_eq3_titular_representante, KK1243, KK1244, KK1234 | Acionados em KK0654 que levam a KK0414 (KK1000 3); documentação detalhada no KK1378 da KK1000 3 quando aplicável. |
 
 ---
 
-## 5. Pseudo-KK0021 (KK0199)
+## 5. Pseudo-KK0398 (KK1139)
 
-### 5.1 KK0216 KK0107
+### 5.1 KK1224 KK1233
 
-**KK0188:** 2 — kkkkgd inicial / dados de contato  
-**Nome (kkkkhk):** Script Atualiza kkkkhq  
-**Formato:** KK0044 (conferir kkkkhk)  
-**Objetivo:** Sincronizar dados de contato e KK0155 com o kkkkhq após o KK0173 concluir a kkkk9q kkkkjs.
+**KK1000:** 2 — KK0196 inicial / dados de contato  
+**Nome (KK0172):** Script Atualiza KK0586  
+**Formato:** KK0732 (conferir KK0172)  
+**Objetivo:** Sincronizar dados de contato e KK0428 com o KK0586 após o KK1392 concluir a KK1332 KK0411.
 
-#### Entrada (kkkkvo lidas / contexto)
+#### Entrada (KK1423 lidas / contexto)
 
 | Variável | Origem | Observação |
 | ---------- | -------- | ------------ |
-| (dados do formulário) | kkkk9o / formData das kkkkiq anteriores | KK0151, KK0158, KK0120; representante quando aplicável. |
+| (dados do formulário) | KK0615 / formData das KK1335 anteriores | KK0530, KK1339, KK0433; representante quando aplicável. |
 
-#### Saída (kkkkvo escritas / kkkk9x)
+#### Saída (KK1423 escritas / KK1288)
 
 | Variável | Observação |
 | ---------- | ------------ |
-| (conforme kkkkhk) | Conferir KK0203 do KK0148 kkkk9q no kkkkhk; tipicamente kkkkim ou dados persistidos no kkkkhq. |
+| (conforme KK0172) | Conferir KK0775 do KK1223 KK1332 no KK0172; tipicamente KK0320 ou dados persistidos no KK0586. |
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217:
-  OBTER dados do contexto (KK0154, KK0158, KK0120; representante se houver)
-  KK0219 kkkkmn para atualização kkkkhq
-  KK0220 serviço / kkkkaq de atualização kkkkhq
-  KK0223 sucesso KK0224
-    ATRIBUIR kkkkvo de kkkkdy conforme kkkkhk
-  KK0221
-    TRATAR erro (conforme motor / kkkkhk)
-  KK0226 KK0223
+KK1129:
+  OBTER dados do contexto (KK0556, KK1339, KK0433; representante se houver)
+  KK1051 KK1001 para atualização KK0586
+  KK0260 serviço / KK0473 de atualização KK0586
+  KK1249 sucesso KK0579
+    ATRIBUIR KK1423 de KK1187 conforme KK0172
+  KK1269
+    TRATAR erro (conforme motor / KK0172)
+  KK0642 KK1249
 ```
 
-*Detalhe da KK0136 (campos exatos, kkkkvn do serviço) deve ser conferido no kkkkhk (KK0203) e no KK0021.*
+*Detalhe da KK0759 (campos exatos, KK0372 do serviço) deve ser conferido no KK0172 (KK0775) e no KK0398.*
 
-#### kkkkxe de kkkkag (uma linha)
+#### KK1145 de KK0911 (uma linha)
 
-- Sincronizar estado do kkkkhq com os dados de contato e KK0155 já informados pelo KK0173 antes de seguir para as etapas seguintes.
+- Sincronizar estado do KK0586 com os dados de contato e KK0428 já informados pelo KK1392 antes de seguir para as etapas seguintes.
 
-#### Referências kkkkhk
+#### Referências KK0172
 
-- **id:** KK0107
-- **kkkkhk:** `kkkkk6`
-- **Flow de entrada:** Flow_0ex4yxs (kkkkjs → KK0107).
+- **id:** KK1233
+- **KK0172:** `KK0953`
+- **Flow de entrada:** Flow_0ex4yxs (KK0411 → KK1233).
 
 ---
 
-## 6. kkkkvt e saídas da parte
+## 6. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** origens à esquerda; núcleo da KK0188 2 ao centro; destinos à direita. Setas tracejadas = KK0204 "kkkkgu".
+**KK0491 de contexto:** origens à esquerda; núcleo da KK1000 2 ao centro; destinos à direita. Setas tracejadas = KK0654 "KK1451".
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
 ```mermaid
 %%{init: {
@@ -2305,9 +2305,9 @@ KK0217:
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -2315,28 +2315,28 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  subgraph kkkkvt["Origem (outras partes)"]
+  subgraph KK0577["Origem (outras partes)"]
     IP([inicia_pld])
-    GW3([kkkkpd KK0188 3])
+    GW3([KK0686 KK1000 3])
   end
-  subgraph Parte2["KK0188 2 - kkkkgd inicial"]
-    DE([kkkkiw])
-    DT([kkkkix])
-    DN([kkkkjs])
-    KK0159([kkkkiz])
+  subgraph Parte2["KK1000 2 - KK0196 inicial"]
+    DE([KK0413])
+    DT([KK0421])
+    DN([KK0411])
+    KK0912([KK0416])
     DE --> DT --> DN
   end
-  subgraph kkkkvw["Destino (outras partes)"]
-    NOME([kkkkiy])
-    KK0216([KK0107])
+  subgraph KK1207["Destino (outras partes)"]
+    NOME([KK0417])
+    KK1224([KK1233])
     GX([Gateway_0xv7h0i])
-    END([kkkkjt])
+    END([KK0414])
   end
   IP -->|0d4ew6i| DE
-  GW3 -->|1ka10hr SIM| KK0159
-  KK0159 -->|1q9216u| GX
-  KK0159 -.->|10bazw8| END
-  DN -->|0ex4yxs| KK0216
+  GW3 -->|1ka10hr SIM| KK0912
+  KK0912 -->|1q9216u| GX
+  KK0912 -.->|10bazw8| END
+  DN -->|0ex4yxs| KK1224
   DE -.->|0ewc29g| NOME
   DT -.->|0illuoz| DE
   DN -.->|098zdvb| DT
@@ -2345,39 +2345,39 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style DE fill:#bbdefb,stroke:#1565c0
   style DT fill:#bbdefb,stroke:#1565c0
   style DN fill:#bbdefb,stroke:#1565c0
-  style KK0159 fill:#bbdefb,stroke:#1565c0
+  style KK0912 fill:#bbdefb,stroke:#1565c0
   style NOME fill:#bbdefb,stroke:#1565c0
-  style KK0216 fill:#eceff1,stroke:#546e7a
+  style KK1224 fill:#eceff1,stroke:#546e7a
   style GX fill:#fff8e1,stroke:#e65100,stroke-width:2px
   style END fill:#bbdefb,stroke:#1565c0
-  linkStyle KK0195 stroke:#37474f,stroke-width:2px
+  linkStyle KK0472 stroke:#37474f,stroke-width:2px
 ```
 
-*kkkk5j no KK0145: sufixos dos Flow (ex.: 0d4ew6i = Flow_0d4ew6i).*
+*KK0755 no KK0492: sufixos dos Flow (ex.: 0d4ew6i = Flow_0d4ew6i).*
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
-| kkkk8l de destino | Flow | Origem / observação |
+| KK1331 de destino | Flow | Origem / observação |
 | ----------------------- | ---------------- | ---------------------- |
-| kkkkiw | Flow_0d4ew6i | inicia_pld (entrada da kkkkgq no bloco contato). |
-| kkkkiz | Flow_1ka10hr | kkkkpd — KK0188 3 (SIM KK0160 KK0162). |
+| KK0413 | Flow_0d4ew6i | inicia_pld (entrada da KK0797 no bloco contato). |
+| KK0416 | Flow_1ka10hr | KK0686 — KK1000 3 (SIM KK1164 KK0624). |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Flow | Destino | Observação |
 | ---------------- | ---------------------- | ------------ |
-| Flow_0ex4yxs | KK0107 | Bloco principal: continuar (atualização kkkkhq e kkkkxc). |
-| Flow_1q9216u | Gateway_0xv7h0i | KK0159: continuar (converge com KK0046 principal). |
-| Flow_0ewc29g | kkkkiy | KK0194 (kkkkiw → KK0188 3). |
-| Flow_0illuoz | kkkkiw | KK0194 (kkkkix → kkkkiw). |
-| Flow_098zdvb | kkkkix | KK0194 (kkkkjs → kkkkix). |
-| Flow_10bazw8 | kkkkjt | KK0194 (kkkkiz → KK0188 3). |
+| Flow_0ex4yxs | KK1233 | Bloco principal: continuar (atualização KK0586 e KK1272). |
+| Flow_1q9216u | Gateway_0xv7h0i | KK0912: continuar (converge com KK0651 principal). |
+| Flow_0ewc29g | KK0417 | KK1452 (KK0413 → KK1000 3). |
+| Flow_0illuoz | KK0413 | KK1452 (KK0421 → KK0413). |
+| Flow_098zdvb | KK0421 | KK1452 (KK0411 → KK0421). |
+| Flow_10bazw8 | KK0414 | KK1452 (KK0416 → KK1000 3). |
 
 ---
 
-## 7. kkkk5v resumido (kkkk5x)
+## 7. KK0491 resumido (KK0865)
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -2398,9 +2398,9 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -2409,16 +2409,16 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph bloco_contato
-    A([kkkkiw]) -->|Flow_1q69te8| B([kkkkix])
-    B -->|Flow_0z28kqb| C([kkkkjs])
+    A([KK0413]) -->|Flow_1q69te8| B([KK0421])
+    B -->|Flow_0z28kqb| C([KK0411])
   end
-  C -->|Flow_0ex4yxs| D([KK0107])
-  B -.->|Flow_0illuoz kkkkgu| A
-  C -.->|Flow_098zdvb kkkkgu| B
-  A -.->|Flow_0ewc29g kkkkgu| N([kkkkiy])
-  G{kkkkpd} -->|SIM Flow_1ka10hr| E([kkkkiz])
+  C -->|Flow_0ex4yxs| D([KK1233])
+  B -.->|Flow_0illuoz KK1451| A
+  C -.->|Flow_098zdvb KK1451| B
+  A -.->|Flow_0ewc29g KK1451| N([KK0417])
+  G{KK0686} -->|SIM Flow_1ka10hr| E([KK0416])
   E -->|Flow_1q9216u| F{Gateway_0xv7h0i}
-  E -.->|Flow_10bazw8 kkkkgu| H([kkkkjt])
+  E -.->|Flow_10bazw8 KK1451| H([KK0414])
   style A fill:#bbdefb,stroke:#1565c0
   style B fill:#bbdefb,stroke:#1565c0
   style C fill:#bbdefb,stroke:#1565c0
@@ -2428,146 +2428,146 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style E fill:#bbdefb,stroke:#1565c0
   style F fill:#fff8e1,stroke:#e65100,stroke-width:2px
   style H fill:#bbdefb,stroke:#1565c0
-  linkStyle KK0195 stroke:#37474f,stroke-width:2px
+  linkStyle KK0472 stroke:#37474f,stroke-width:2px
 ```
 
 ---
 
-## 8. Referências no kkkkhk
+## 8. Referências no KK0172
 
-- Tasks: `kkkkiw`, `kkkkix`, `kkkkjs`, `kkkkiz`.
-- kkkkis: `kkkkpd` (Possui Residencia no Exterior?).
-- kkkkwk events: `Event_lul4j5n`, `Event_0gjqtzo`, `Event_0su8oxx`, `Event_0s8rokp`.
-- Saída bloco principal: `Flow_0ex4yxs` → `KK0107`. Saída KK0159: `Flow_1q9216u` → `Gateway_0xv7h0i`.
+- Tasks: `KK0413`, `KK0421`, `KK0411`, `KK0416`.
+- KK0668: `KK0686` (Possui Residencia no Exterior?).
+- KK0165 events: `Event_lul4j5n`, `Event_0gjqtzo`, `Event_0su8oxx`, `Event_0s8rokp`.
+- Saída bloco principal: `Flow_0ex4yxs` → `KK1233`. Saída KK0912: `Flow_1q9216u` → `Gateway_0xv7h0i`.
 
 $$$$$
 
 [parte_02_cadastro_inicial_dados_contato/USER_STORY_02_cadastro_inicial_dados_contato_GENERICO.md]
 XXXXX
-# User Story — KK0188 2: kkkkgd inicial / dados de contato
+# User Story — KK1000 2: KK0196 inicial / dados de contato
 
-**KK0184:** `kkkkk6` (kkkkix, kkkkiw, kkkkjs, kkkkiz)
+**KK0655:** `KK0953` (KK0421, KK0413, KK0411, KK0416)
 
 ---
 
 ## User Story
 
-**Como** kkkk38 ou KK0173 da kkkksn de kkkklh,  
-**quero** informar e corrigir os dados de contato e iniciais do kkkk1x (KK0158, KK0151, KK0155 e, quando houver KK0160 no KK0162, KK0159),  
-**para** que a kkkk3l tenha esses dados persistidos e a kkkkgq avance ou permita kkkkgu às telas anteriores sem perda de KK0125.
+**Como** KK0723 ou KK1392 da KK0799 de KK0346,  
+**quero** informar e corrigir os dados de contato e iniciais do KK0273 (KK1339, KK0530, KK0428 e, quando houver KK1164 no KK0624, KK0912),  
+**para** que a KK1086 tenha esses dados persistidos e a KK0797 avance ou permita KK1451 às telas anteriores sem perda de KK0602.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
 - [ ] **CA1 – Ordem das etapas**  
-  A kkkkxc é: primeiro KK0151 (`kkkkiw`), depois KK0158 (`kkkkix`), depois KK0155 (`kkkkjs`). Ao concluir a KK0155, o KK0046 segue para a próxima atividade (atualização kkkkhq).
+  A KK1272 é: primeiro KK0530 (`KK0413`), depois KK1339 (`KK0421`), depois KK0428 (`KK0411`). Ao concluir a KK0428, o KK0651 segue para a próxima atividade (atualização KK0586).
 
-- [ ] **CA2 – Navegação “KK0194”**  
-  Na KK0176 de KK0158, o KK0173 pode kkkkgu para a KK0176 de KK0151. Na KK0176 de KK0155, pode kkkkgu para a KK0176 de KK0158. Na KK0176 de KK0151, pode kkkkgu para a KK0176 de nome (KK0188 3).
+- [ ] **CA2 – Navegação “KK1452”**  
+  Na KK1338 de KK1339, o KK1392 pode KK1451 para a KK1338 de KK0530. Na KK1338 de KK0428, pode KK1451 para a KK1338 de KK1339. Na KK1338 de KK0530, pode KK1451 para a KK1338 de nome (KK1000 3).
 
-- [ ] **CA3 – Registro da etapa atual (kkkkyo)**  
-  Ao finalizar cada KK0176 — KK0151, KK0158, KK0155 ou KK0159 —, o kkkkxv grava em qual etapa o KK0173 está (KK0034 **KK0125** com o id da tarefa concluída), para uso em kkkkx5 de kkkkyo.
+- [ ] **CA3 – Registro da etapa atual (KK0621)**  
+  Ao finalizar cada KK1338 — KK0530, KK1339, KK0428 ou KK0912 —, o KK1292 grava em qual etapa o KK1392 está (KK1424 **KK0602** com o id da tarefa concluída), para uso em KK1146 de KK0621.
 
-- [ ] **CA4 – Tempo kkkksp e kkkkyo**  
-  Em cada uma das quatro etapas existe um KK0177 máximo de permanência. Se o KK0177 acabar sem o KK0173 concluir a etapa, o KK0046 dispara o kkkkx9 de kkkkyo e encerra o ramo conforme o modelo da kkkkgq.
+- [ ] **CA4 – Tempo KK0823 e KK0621**  
+  Em cada uma das quatro etapas existe um KK1342 máximo de permanência. Se o KK1342 acabar sem o KK1392 concluir a etapa, o KK0651 dispara o KK0610 de KK0621 e encerra o ramo conforme o modelo da KK0797.
 
-- [ ] **CA5 – Tela de KK0159 (KK0160 no KK0162)**  
-  A KK0176 de KK0159 só aparece quando, na decisão “Possui KK0160 no KK0162?” (kkkk7v `kkkkpd`), a resposta for **sim**. Ao concluir o KK0159, o KK0046 segue para o ponto de convergência. O KK0173 pode kkkkgu da KK0176 de KK0159 para a KK0176 de KK0168.
+- [ ] **CA5 – Tela de KK0912 (KK1164 no KK0624)**  
+  A KK1338 de KK0912 só aparece quando, na decisão “Possui KK1164 no KK0624?” (KK0669 `KK0686`), a resposta for **sim**. Ao concluir o KK0912, o KK0651 segue para o ponto de convergência. O KK1392 pode KK1451 da KK1338 de KK0912 para a KK1338 de KK0570.
 
-- [ ] **CA6 – Campos de cada KK0176**  
-  **KK0157:** número, DDD, controle de KK0046, kkkkgu e dados do representante. **KK0152:** KK0151, controle de KK0046, kkkkgu e KK0151 do representante. **KK0156:** KK0155, controle de KK0046, kkkkgu e data do representante. **KK0159:** KK0163, KK0164, KK0166 de KK0160 fiscal, número KK0159, controle de KK0046, kkkkgu e campos do representante. O botão/ação “kkkkgu” tem valor padrão “continuar”.
+- [ ] **CA6 – Campos de cada KK1338**  
+  **KK1340:** número, DDD, controle de KK0651, KK1451 e dados do representante. **KK0531:** KK0530, controle de KK0651, KK1451 e KK0530 do representante. **KK0429:** KK0428, controle de KK0651, KK1451 e data do representante. **KK0912:** KK0905, KK1004, KK1003 de KK1164 fiscal, número KK0912, controle de KK0651, KK1451 e campos do representante. O botão/ação “KK1451” tem valor padrão “continuar”.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
 | Flow | Origem | Destino |
 | ------ | -------- | --------- |
-| `Flow_0d4ew6i` | `inicia_pld` | `kkkkiw` |
-| `Flow_1ka10hr` | `kkkkpd` (KK0188 3, ramo SIM) | `kkkkiz` |
+| `Flow_0d4ew6i` | `inicia_pld` | `KK0413` |
+| `Flow_1ka10hr` | `KK0686` (KK1000 3, ramo SIM) | `KK0416` |
 
-Primeira kkkk9q do bloco: `kkkkiw` (kkkkgq desde inicia_pld) ou `kkkkiz` (kkkkgq desde kkkk7v "Possui KK0160 no KK0162?").
+Primeira KK1332 do bloco: `KK0413` (KK0797 desde inicia_pld) ou `KK0416` (KK0797 desde KK0669 "Possui KK1164 no KK0624?").
 
-### Scripts e kkkkx5 de kkkkag
+### Scripts e KK1146 de KK0911
 
-| ID KK0148 | Regra resumida |
+| ID KK1223 | Regra resumida |
 | ----------- | ---------------- |
-| `KK0107` | Executado após `kkkkjs`; atualiza kkkkhq e kkkkvo de kkkksy/KK0168. |
+| `KK1233` | Executado após `KK0411`; atualiza KK0586 e KK1423 de KK1155/KK0570. |
 
 Ver [FLUXO_02_tecnico](FLUXO_02_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Onde escrita / lida | Observação |
 | ---------- | ---------------------- | ------------ |
-| `KK0125` | outputParameter em `kkkkiw`, `kkkkix`, `kkkkjs`, `kkkkiz` | ID da kkkk9q concluída. |
-| `kkkkgu` | KK0197 (cada user kkkk9q) | Decide próximo nó ao kkkkgu. |
-| `KK0043` | Lido pelos KK0196 timers | KK0188 1; valor PT20M. |
-| `KK0122` | KK0188 3 (kkkki0/KK0168) | Condiciona `kkkkpd`. |
+| `KK0602` | outputParameter em `KK0413`, `KK0421`, `KK0411`, `KK0416` | ID da KK1332 concluída. |
+| `KK1451` | KK0659 (cada user KK1332) | Decide próximo nó ao KK1451. |
+| `KK1344` | Lido pelos KK0166 timers | KK1000 1; valor PT20M. |
+| `KK0468` | KK1000 3 (KK0420/KK0570) | Condiciona `KK0686`. |
 
-### kkkkxe de kkkkth de campos
+### KK1145 de KK1406 de campos
 
-*kkkkxe de kkkkth de campos (formato, obrigatoriedade, máscara para KK0151, KK0158, etc.) não estão modeladas no kkkkhk; quando existirem, devem ser documentadas em spec/front ou no KK0018.*
+*KK1145 de KK1406 de campos (formato, obrigatoriedade, máscara para KK0530, KK1339, etc.) não estão modeladas no KK0172; quando existirem, devem ser documentadas em spec/front ou no KK1378.*
 
 ### Comportamentos fora do núcleo
 
-**kkkkwk events (timer → kkkkyo):**
+**KK0165 events (timer → KK0621):**
 
-| Event ID | kkkk8l anexada | Timer |
+| Event ID | KK1331 anexada | Timer |
 | ---------- | -------------- | ------- |
-| `Event_lul4j5n` | `kkkkiw` | `KK0043` |
-| `Event_0gjqtzo` | `kkkkix` | `KK0043` |
-| `Event_0su8oxx` | `kkkkjs` | `KK0043` |
-| `Event_0s8rokp` | `kkkkiz` | `KK0043` |
+| `Event_lul4j5n` | `KK0413` | `KK1344` |
+| `Event_0gjqtzo` | `KK0421` | `KK1344` |
+| `Event_0su8oxx` | `KK0411` | `KK1344` |
+| `Event_0s8rokp` | `KK0416` | `KK1344` |
 
-**Fluxos de kkkkgu:**
+**Fluxos de KK1451:**
 
 | De | Para |
 | ---- | ------ |
-| `kkkkiw` | `kkkkiy` |
-| `kkkkix` | `kkkkiw` |
-| `kkkkjs` | `kkkkix` |
-| `kkkkiz` | `kkkkjt` |
+| `KK0413` | `KK0417` |
+| `KK0421` | `KK0413` |
+| `KK0411` | `KK0421` |
+| `KK0416` | `KK0414` |
 
-kkkkis "Possui Residencia no Exterior?" (KK0188 3) envia para `kkkkiz` (SIM).
+KK0668 "Possui Residencia no Exterior?" (KK1000 3) envia para `KK0416` (SIM).
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 1 | Origem | `inicia_pld` (origem possível para `kkkkiw`). |
-| 3 | Origem / destino | `kkkkiy`, `kkkkjt`, `kkkki0`; `kkkkpd` (entrada para `kkkkiz`); `KK0107` e KK0046 posterior. |
-| 4 | Destino | `kkkkjg` (destino do ramo não do kkkk7v). |
+| 1 | Origem | `inicia_pld` (origem possível para `KK0413`). |
+| 3 | Origem / destino | `KK0417`, `KK0414`, `KK0420`; `KK0686` (entrada para `KK0416`); `KK1233` e KK0651 posterior. |
+| 4 | Destino | `KK1262` (destino do ramo não do KK0669). |
 
 ---
 
-## Referência kkkkhk
+## Referência KK0172
 
-- User kkkkiq: `kkkkix`, `kkkkiw`, `kkkkjs`, `kkkkiz`.  
-- Sequence kkkkoa: Flow_1q69te8, Flow_0z28kqb, Flow_0ex4yxs, Flow_0illuoz, Flow_0ewc29g, Flow_098zdvb, Flow_1ka10hr, Flow_1q9216u, Flow_10bazw8.  
-- kkkkwk events: Event_lul4j5n, Event_0gjqtzo, Event_0su8oxx, Event_0s8rokp.  
+- User KK1335: `KK0421`, `KK0413`, `KK0411`, `KK0416`.  
+- Sequence KK0649: Flow_1q69te8, Flow_0z28kqb, Flow_0ex4yxs, Flow_0illuoz, Flow_0ewc29g, Flow_098zdvb, Flow_1ka10hr, Flow_1q9216u, Flow_10bazw8.  
+- KK0165 events: Event_lul4j5n, Event_0gjqtzo, Event_0su8oxx, Event_0s8rokp.  
 - Detalhes: [FLUXO_02_cadastro_inicial_dados_contato.md](FLUXO_02_cadastro_inicial_dados_contato.md)
 
 $$$$$
 
 [parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_guia_GENERICO.md]
 XXXXX
-# KK0188 3 — kkkkwx pessoais (nome, KK0168, kkkksy) — guia
+# KK1000 3 — KK0399 pessoais (nome, KK0570, KK1155) — guia
 
-**O que é esta parte:** trecho da kkkkgq em que são coletados **nome completo**, **KK0168** e **kkkksy** do titular (e do representante legal quando houver). Ao final, o KK0046 pergunta se o kkkk1x KK0186: se sim, segue para a KK0176 de **KK0159** (KK0188 2); se não, segue para **seleção de kkkk1o** (KK0188 4).
+**O que é esta parte:** trecho da KK0797 em que são coletados **nome completo**, **KK0570** e **KK1155** do titular (e do representante legal quando houver). Ao final, o KK0651 pergunta se o KK0273 KK1046: se sim, segue para a KK1338 de **KK0912** (KK1000 2); se não, segue para **seleção de KK0046** (KK1000 4).
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Registrar os kkkkl9 e de KK0168/kkkksy necessários para a kkkk3l. Em cada KK0176 o kkkk55 grava a etapa atual; há **kkkkgu** entre as etapas e **kkkkyo** por KK0175 (KK0177 kkkksp por KK0176). O campo de **declaração de KK0160 no KK0162** (na KK0176 de KK0168) alimenta a decisão "Possui KK0160 no KK0162?".
+Registrar os KK0408 e de KK0570/KK1155 necessários para a KK1086. Em cada KK1338 o KK1069 grava a etapa atual; há **KK1451** entre as etapas e **KK0621** por KK0760 (KK1342 KK0823 por KK1338). O campo de **declaração de KK1164 no KK0624** (na KK1338 de KK0570) alimenta a decisão "Possui KK1164 no KK0624?".
 
 ---
 
@@ -2575,33 +2575,33 @@ Registrar os kkkkl9 e de KK0168/kkkksy necessários para a kkkk3l. Em cada KK017
 
 ### Ordem lógica: Nome -> Endereço -> Renda
 
-1. **Nome** — KK0182 do nome completo (e do representante). Ao continuar, o KK0046 segue conforme a kkkkgq. O KK0173 pode **kkkkgu** para etapas anteriores (ex.: KK0151, informar CNPJ, escolha de kkkkxr).
+1. **Nome** — KK0298 do nome completo (e do representante). Ao continuar, o KK0651 segue conforme a KK0797. O KK1392 pode **KK1451** para etapas anteriores (ex.: KK0530, informar CNPJ, escolha de KK1254).
 
-2. **Endereço** — KK0182 de CEP, rua, número, complemento, bairro, cidade, estado, declaração de KK0160 no KK0162 e dados do representante. Ao continuar, vai para **kkkksy**. O KK0173 pode **kkkkgu** para **kkkksy**. Quem vem de "kkkkgu" da seleção de kkkk1o ou da KK0176 de KK0159 chega no KK0168.
+2. **Endereço** — KK0298 de CEP, rua, número, complemento, bairro, cidade, estado, declaração de KK1164 no KK0624 e dados do representante. Ao continuar, vai para **KK1155**. O KK1392 pode **KK1451** para **KK1155**. Quem vem de "KK1451" da seleção de KK0046 ou da KK1338 de KK0912 chega no KK0570.
 
-3. **Renda** — KK0182 de valor da kkkksy e motivo (e representante). Ao continuar, o KK0046 segue para a pergunta **Possui KK0160 no KK0162?**. O KK0173 pode **kkkkgu** para **KK0155** (KK0188 2) ou para **KK0168**.
+3. **Renda** — KK0298 de valor da KK1155 e motivo (e representante). Ao continuar, o KK0651 segue para a pergunta **Possui KK1164 no KK0624?**. O KK1392 pode **KK1451** para **KK0428** (KK1000 2) ou para **KK0570**.
 
-### Após a kkkksy: Possui KK0160 no KK0162?
+### Após a KK1155: Possui KK1164 no KK0624?
 
-- **Sim** → o KK0046 segue para a **KK0176 de KK0159** (KK0188 2).
-- **Não (ou não informado)** → o KK0046 segue para a **seleção de kkkk1o** (KK0188 4).
+- **Sim** → o KK0651 segue para a **KK1338 de KK0912** (KK1000 2).
+- **Não (ou não informado)** → o KK0651 segue para a **seleção de KK0046** (KK1000 4).
 
 ---
 
-## 3. Resumo para KK0140, KK0142 e KK0143
+## 3. Resumo para KK0726, KK1131 e KK1031
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **Ordem** | Nome -> Endereço -> Renda. kkkkis "Possui KK0160 no KK0162?" após kkkksy. |
-| **KK0194** | Entre nome, KK0154, KK0168, kkkksy e data nascimento conforme ramos do kkkkhk. |
-| **kkkk63** | Tempo kkkksp em nome, KK0168 e kkkksy; se exceder, dispara kkkkyo. |
-| **Saída** | Sim → KK0176 de KK0159. Não → seleção de kkkk1o. |
+| **Ordem** | Nome -> Endereço -> Renda. KK0668 "Possui KK1164 no KK0624?" após KK1155. |
+| **KK1452** | Entre nome, KK0556, KK0570, KK1155 e data nascimento conforme ramos do KK0172. |
+| **KK0620** | Tempo KK0823 em nome, KK0570 e KK1155; se exceder, dispara KK0621. |
+| **Saída** | Sim → KK1338 de KK0912. Não → seleção de KK0046. |
 
 ---
 
-## 4. kkkk5v (visão geral)
+## 4. KK0491 (visão geral)
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -2622,9 +2622,9 @@ Registrar os kkkkl9 e de KK0168/kkkksy necessários para a kkkk3l. Em cada KK017
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -2634,9 +2634,9 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
   A([Nome]) --> B([Endereço])
   B --> C([Renda])
-  C --> D{Possui KK0160 no KK0162?}
-  D -->|Sim| E([Tela KK0159])
-  D -->|Não| F([Seleção de kkkk1o])
+  C --> D{Possui KK1164 no KK0624?}
+  D -->|Sim| E([Tela KK0912])
+  D -->|Não| F([Seleção de KK0046])
   style A fill:#bbdefb,stroke:#1565c0
   style B fill:#bbdefb,stroke:#1565c0
   style C fill:#bbdefb,stroke:#1565c0
@@ -2647,102 +2647,102 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 5. KK0170
+## 5. KK1041
 
-- O campo de **declaração de KK0160 no KK0162** (na KK0176 de KK0168) alimenta essa decisão: quando o kkkk1x informa que não KK0186, o KK0046 segue para seleção de kkkk1o.
-- Para detalhes KK0178 (kkkk5j, kkkkoa, KK0180), use o **FLUXO_03_tecnico.md**.
+- O campo de **declaração de KK1164 no KK0624** (na KK1338 de KK0570) alimenta essa decisão: quando o KK0273 informa que não KK1046, o KK0651 segue para seleção de KK0046.
+- Para detalhes KK1379 (KK0755, KK0649, KK0167), use o **FLUXO_03_tecnico.md**.
 
 $$$$$
 
 [parte_03_dados_pessoais_nome_endereco_renda/FLUXO_03_tecnico_GENERICO.md]
 XXXXX
-# KK0188 3 — kkkkwx pessoais (nome, KK0168, kkkksy) — documentação kkkk5u
+# KK1000 3 — KK0399 pessoais (nome, KK0570, KK1155) — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** User kkkkiq kkkkiy, kkkkjt, kkkki0; kkkk7v "Possui Residencia no Exterior?" (kkkkpd); KK0204 para kkkkiz ou kkkkjg; KK0125 e KK0180 de timer.
+**KK0655:** `KK0953`  
+**KK0598:** User KK1335 KK0417, KK0414, KK0420; KK0669 "Possui Residencia no Exterior?" (KK0686); KK0654 para KK0416 ou KK1262; KK0602 e KK0167 de timer.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkkiy` | kkkk8m — nome (primeira UT kkkkl9) |
-| `kkkkjt` | kkkk8m — Endereço |
-| `kkkki0` | kkkk8m — kkkksy (última UT; kkkkho segue para kkkk1o/kkkkxr) |
+| `KK0417` | KK1388 — nome (primeira UT KK0408) |
+| `KK0414` | KK1388 — Endereço |
+| `KK0420` | KK1388 — KK1155 (última UT; KK0282 segue para KK0046/KK1254) |
 
 ---
 
 ## 1. Objetivo da parte
 
-Coletar nome completo, KK0168 e kkkksy; definir **KK0125** em cada kkkk9q; direcionar, após kkkksy, para o kkkk7v que leva a **kkkkiz** (SIM) ou **kkkkjg** (não).
+Coletar nome completo, KK0570 e KK1155; definir **KK0602** em cada KK1332; direcionar, após KK1155, para o KK0669 que leva a **KK0416** (SIM) ou **KK1262** (não).
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 User kkkkiq
+### 2.1 User KK1335
 
 | Tipo | ID | Nome (name) | Observação |
 | ---------- | ---------------- | ------------- | ------------ |
-| kkkk8m | `kkkkiy` | nome | formData: nome_completo, kkkk46, kkkkgu, nome_completo_representante. outputParameter KK0125 = kkkkiy. KK0195 Flow_Ozli0ap. |
-| kkkk8m | `kkkkjt` | Endereço | formData: CEP, rua, numero, complemento, bairro, estado, cidade, KK0122, kkkk46, kkkkgu, representante. KK0125 = kkkkjt. KK0195 Flow_0yp7fzn. |
-| kkkk8m | `kkkki0` | kkkksy | formData: KK0131, motivo, kkkk46, kkkkgu, valor_renda_representante. KK0125 = kkkki0. |
+| KK1388 | `KK0417` | nome | formData: nome_completo, KK0653, KK1451, nome_completo_representante. outputParameter KK0602 = KK0417. KK0472 Flow_Ozli0ap. |
+| KK1388 | `KK0414` | Endereço | formData: CEP, rua, numero, complemento, bairro, estado, cidade, KK0468, KK0653, KK1451, representante. KK0602 = KK0414. KK0472 Flow_0yp7fzn. |
+| KK1388 | `KK0420` | KK1155 | formData: KK1417, motivo, KK0653, KK1451, valor_renda_representante. KK0602 = KK0420. |
 
-### 2.2 kkkkis
+### 2.2 KK0668
 
 | Tipo | ID | Nome | Observação |
 | ------------------ | ------------------ | ------ | ------------ |
-| kkkk81 | `kkkkpd` | Possui Residencia no Exterior? | incoming: Flow_lidwp7i, Flow_1gjo4s2. outgoing: Flow_1ka10hr (SIM → kkkkiz), Flow_1pb12jt (não/KK0195 → kkkkjg). Condição não: KK0122 == false. |
+| KK0614 | `KK0686` | Possui Residencia no Exterior? | incoming: Flow_lidwp7i, Flow_1gjo4s2. outgoing: Flow_1ka10hr (SIM → KK0416), Flow_1pb12jt (não/KK0472 → KK1262). Condição não: KK0468 == false. |
 
-### 2.2.1 Condições de kkkk7v
+### 2.2.1 Condições de KK0669
 
-| ID kkkk7v | Nome | Expressão | Ramo | Flow | Target |
+| ID KK0669 | Nome | Expressão | Ramo | Flow | Target |
 | ------------ | ------ | ----------- | ------ | ------ | -------- |
-| kkkkpd | Possui Residencia no Exterior? | `${KK0122 == false}` | não/KK0195 | Flow_1pb12jt | kkkkjg |
-| kkkkpd | Possui Residencia no Exterior? | (SIM) | SIM | Flow_1ka10hr | kkkkiz |
+| KK0686 | Possui Residencia no Exterior? | `${KK0468 == false}` | não/KK0472 | Flow_1pb12jt | KK1262 |
+| KK0686 | Possui Residencia no Exterior? | (SIM) | SIM | Flow_1ka10hr | KK0416 |
 
-### 2.3 Sequence kkkkoa principais
+### 2.3 Sequence KK0649 principais
 
 | ID do flow | sourceRef | targetRef | Observação |
 | -------------- | ----------------- | ------------------- | ------------ |
-| Flow_Ozli0ap / Flow_0zli0ap | kkkkiy | inicia_pld | Continuar (depois inicia_pld → kkkkiw). |
-| Flow_0yp7fzn | kkkkjt | kkkki0 | Continuar. |
-| Flow_0qen913 | kkkki0 | kkkkpd | Continuar. |
-| Flow_1ka10hr | kkkkpd | kkkkiz | SIM. |
-| Flow_1pb12jt | kkkkpd | kkkkjg | não/KK0195. |
-| Flow_0kl8vnv | kkkkjt | kkkki0 | KK0194 (kkkkgu=="kkkki0"). |
-| Flow_0v81015 | kkkki0 | kkkkjs | KK0194 (kkkkgu=="kkkkjs"). |
-| Flow_10bazw8 | kkkkiz | kkkkjt | KK0194 (kkkkgu=="kkkkjt"). |
-| Flow_0ca3z8j | kkkkjg | kkkkjt | KK0194 (kkkkgu=="kkkkjt"). |
+| Flow_Ozli0ap / Flow_0zli0ap | KK0417 | inicia_pld | Continuar (depois inicia_pld → KK0413). |
+| Flow_0yp7fzn | KK0414 | KK0420 | Continuar. |
+| Flow_0qen913 | KK0420 | KK0686 | Continuar. |
+| Flow_1ka10hr | KK0686 | KK0416 | SIM. |
+| Flow_1pb12jt | KK0686 | KK1262 | não/KK0472. |
+| Flow_0kl8vnv | KK0414 | KK0420 | KK1452 (KK1451=="KK0420"). |
+| Flow_0v81015 | KK0420 | KK0411 | KK1452 (KK1451=="KK0411"). |
+| Flow_10bazw8 | KK0416 | KK0414 | KK1452 (KK1451=="KK0414"). |
+| Flow_0ca3z8j | KK1262 | KK0414 | KK1452 (KK1451=="KK0414"). |
 
-### 2.3.1 KK0149 (KK0189 da KK0190)
+### 2.3.1 KK0309 (KK1181 da KK0314)
 
-| kkkk8l ID | Tipo de KK0013 | Condição | Flow | Target |
+| KK1331 ID | Tipo de KK0308 | Condição | Flow | Target |
 | --------- | ------------------ | ---------- | ------ | -------- |
-| kkkkiy | KK0192 (continuar) | — | Flow_Ozli0ap / Flow_0zli0ap | inicia_pld |
-| kkkkjt | KK0192 (continuar) | — | Flow_0yp7fzn | kkkki0 |
-| kkkkjt | KK0194 | kkkkgu=="kkkki0" | Flow_0kl8vnv | kkkki0 |
-| kkkki0 | KK0192 (continuar) | — | Flow_0qen913 | kkkkpd |
-| kkkki0 | KK0194 | kkkkgu=="kkkkjs" | Flow_0v81015 | kkkkjs |
-| kkkkiz | KK0194 | kkkkgu=="kkkkjt" | Flow_10bazw8 | kkkkjt |
-| kkkkjg | KK0194 | kkkkgu=="kkkkjt" | Flow_0ca3z8j | kkkkjt |
+| KK0417 | KK0991 (continuar) | — | Flow_Ozli0ap / Flow_0zli0ap | inicia_pld |
+| KK0414 | KK0991 (continuar) | — | Flow_0yp7fzn | KK0420 |
+| KK0414 | KK1452 | KK1451=="KK0420" | Flow_0kl8vnv | KK0420 |
+| KK0420 | KK0991 (continuar) | — | Flow_0qen913 | KK0686 |
+| KK0420 | KK1452 | KK1451=="KK0411" | Flow_0v81015 | KK0411 |
+| KK0416 | KK1452 | KK1451=="KK0414" | Flow_10bazw8 | KK0414 |
+| KK1262 | KK1452 | KK1451=="KK0414" | Flow_0ca3z8j | KK0414 |
 
-### 2.4 kkkkwk events (timer → kkkkyo)
+### 2.4 KK0165 events (timer → KK0621)
 
-| ID do kkkkas | attachedToRef | Timer |
+| ID do KK0169 | attachedToRef | Timer |
 | --------------------- | ----------------- | ------ |
-| Event_1dgutng | kkkkiy | ${KK0043} |
-| Event_0ty9zug | kkkkjt | ${KK0043} |
-| Event_1sm0ccb | kkkki0 | ${KK0043} |
+| Event_1dgutng | KK0417 | ${KK1344} |
+| Event_0ty9zug | KK0414 | ${KK1344} |
+| Event_1sm0ccb | KK0420 | ${KK1344} |
 
-### 2.5 kkkk5v kkkkhk (visão da parte)
+### 2.5 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu". kkkkvq principal e KK0180 em estilo próximo ao do modeler (kkkkiq como retângulos arredondados, kkkk7v como losango, eventos como círculos).
+**KK0816:** KK1426 = início; KK0127 = user KK1332; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451". KK0650 principal e KK0167 em estilo próximo ao do modeler (KK1335 como retângulos arredondados, KK0669 como losango, eventos como círculos).
 
-**kkkkvq principal (continuar) e saídas**
+**KK0650 principal (continuar) e saídas**
 
 ```mermaid
 %%{init: {
@@ -2763,9 +2763,9 @@ Coletar nome completo, KK0168 e kkkksy; definir **KK0125** em cada kkkk9q; direc
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -2775,13 +2775,13 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
   direction LR
   IN((•))
-  IN --> N([kkkkiy])
-  N --> E([kkkkjt])
-  E --> R([kkkki0])
-  R --> GW{Possui KK0160<br/>no KK0162?}
-  GW -->|SIM| KK0159([kkkkiz])
-  GW -->|Não| AG([kkkkjg])
-  KK0159 --> OUT1(( ))
+  IN --> N([KK0417])
+  N --> E([KK0414])
+  E --> R([KK0420])
+  R --> GW{Possui KK1164<br/>no KK0624?}
+  GW -->|SIM| KK0912([KK0416])
+  GW -->|Não| AG([KK1262])
+  KK0912 --> OUT1(( ))
   AG --> OUT2(( ))
 
   style IN fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
@@ -2790,16 +2790,16 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style N fill:#bbdefb,stroke:#1565c0
   style E fill:#bbdefb,stroke:#1565c0
   style R fill:#bbdefb,stroke:#1565c0
-  style KK0159 fill:#bbdefb,stroke:#1565c0
+  style KK0912 fill:#bbdefb,stroke:#1565c0
   style AG fill:#bbdefb,stroke:#1565c0
   style GW fill:#fff8e1,stroke:#e65100,stroke-width:2px
 ```
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
-**kkkkwk events (timer → kkkkyo) nas user kkkkiq**
+**KK0165 events (timer → KK0621) nas user KK1335**
 
-Cada uma das três user kkkkiq tem um KK0196 kkkkja de timer (`KK0043`). Ao estourar, o KK0046 segue para o tratamento de kkkkyo (fora do escopo desta parte).
+Cada uma das três user KK1335 tem um KK0166 KK0604 de timer (`KK1344`). Ao estourar, o KK0651 segue para o tratamento de KK0621 (fora do escopo desta parte).
 
 ```mermaid
 %%{init: {
@@ -2820,9 +2820,9 @@ Cada uma das três user kkkkiq tem um KK0196 kkkkja de timer (`KK0043`). Ao esto
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -2830,12 +2830,12 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  subgraph User kkkkiq com timer
-    N([kkkkiy])
-    E([kkkkjt])
-    R([kkkki0])
+  subgraph User KK1335 com timer
+    N([KK0417])
+    E([KK0414])
+    R([KK0420])
   end
-  subgraph kkkkwk events
+  subgraph KK0165 events
     T1((⏱))
     T2((⏱))
     T3((⏱))
@@ -2846,7 +2846,7 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   T1 --> EXP
   T2 --> EXP
   T3 --> EXP
-  EXP((kkkk63))
+  EXP((KK0620))
 
   style N fill:#bbdefb
   style E fill:#bbdefb
@@ -2857,9 +2857,9 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style EXP fill:#ffcdd2,stroke:#c62828,stroke-width:2px
 ```
 
-**Fluxos “kkkkgu” (resumo)**
+**Fluxos “KK1451” (resumo)**
 
-kkkk5v: setas indicam para onde o KK0046 vai quando o KK0173 escolhe **kkkkgu** na KK0176 de origem. Tasks de outras partes aparecem para contexto.
+KK0491: setas indicam para onde o KK0651 vai quando o KK1392 escolhe **KK1451** na KK1338 de origem. Tasks de outras partes aparecem para contexto.
 
 ```mermaid
 %%{init: {
@@ -2880,9 +2880,9 @@ kkkk5v: setas indicam para onde o KK0046 vai quando o KK0173 escolhe **kkkkgu** 
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -2890,59 +2890,59 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  subgraph KK0188 2
-    DDN[kkkkjs]
-    KK0159[kkkkiz]
+  subgraph KK1000 2
+    DDN[KK0411]
+    KK0912[KK0416]
   end
-  subgraph KK0188 3
-    N([kkkkiy])
-    E([kkkkjt])
-    R([kkkki0])
+  subgraph KK1000 3
+    N([KK0417])
+    E([KK0414])
+    R([KK0420])
   end
-  subgraph KK0188 4
-    AG([kkkkjg])
+  subgraph KK1000 4
+    AG([KK1262])
   end
 
-  E -.->|kkkkgu| R
-  R -.->|kkkkgu| DDN
-  KK0159 -.->|kkkkgu| E
-  AG -.->|kkkkgu| E
+  E -.->|KK1451| R
+  R -.->|KK1451| DDN
+  KK0912 -.->|KK1451| E
+  AG -.->|KK1451| E
 
   style N fill:#bbdefb
   style E fill:#bbdefb
   style R fill:#bbdefb
   style DDN fill:#eceff1
-  style KK0159 fill:#eceff1
+  style KK0912 fill:#eceff1
   style AG fill:#eceff1
 ```
 
-KK0205: linha tracejada = KK0046 **kkkkgu** (KK0034 `kkkkgu` define o destino). kkkkvt em kkkkiy e kkkkjt a partir de outras partes — ex.: kkkkiw → kkkkiy, kkkkiz/kkkkjg → kkkkjt — conforme tabela §2.3.
+KK0816: linha tracejada = KK0651 **KK1451** (KK1424 `KK1451` define o destino). KK0577 em KK0417 e KK0414 a partir de outras partes — ex.: KK0413 → KK0417, KK0416/KK1262 → KK0414 — conforme tabela §2.3.
 
 | De | Para | Flow |
 | --------------------- | ---------------------- | ------------- |
-| kkkkjt | kkkki0 | Flow_0kl8vnv |
-| kkkki0 | kkkkjs | Flow_0v81015 |
-| kkkkiz | kkkkjt | Flow_10bazw8 |
-| kkkkjg | kkkkjt | Flow_0ca3z8j |
+| KK0414 | KK0420 | Flow_0kl8vnv |
+| KK0420 | KK0411 | Flow_0v81015 |
+| KK0416 | KK0414 | Flow_10bazw8 |
+| KK1262 | KK0414 | Flow_0ca3z8j |
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Uso |
 | ----------------- | ----- |
-| KK0125 | kkkkiy, kkkkjt, kkkki0 (outputParameter em cada kkkk9q). |
-| KK0122 | Condição do kkkkpd (KK0160 no KK0162). |
-| kkkkgu | KK0007 dos KK0204 "kkkkgu" (kkkki0, kkkkjt, etc.). |
-| KK0043 | Lido pelos KK0180 (KK0188 1). |
+| KK0602 | KK0417, KK0414, KK0420 (outputParameter em cada KK1332). |
+| KK0468 | Condição do KK0686 (KK1164 no KK0624). |
+| KK1451 | KK0466 dos KK0654 "KK1451" (KK0420, KK0414, etc.). |
+| KK1344 | Lido pelos KK0167 (KK1000 1). |
 
 ---
 
-## 4. kkkkvt e saídas da parte
+## 4. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** origens à esquerda (kkkkvu na parte); núcleo da KK0188 3 ao centro; destinos à direita (saídas). Setas tracejadas = KK0204 "kkkkgu".
+**KK0491 de contexto:** origens à esquerda (KK0578 na parte); núcleo da KK1000 3 ao centro; destinos à direita (saídas). Setas tracejadas = KK0654 "KK1451".
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -2963,9 +2963,9 @@ KK0205: linha tracejada = KK0046 **kkkkgu** (KK0034 `kkkkgu` define o destino). 
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -2973,34 +2973,34 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  subgraph kkkkvt["Origem (outras partes)"]
-    DE([kkkkiw])
-    DNASC([kkkkjs])
-    DNIF([kkkkiz])
-    SA([kkkkjg])
-    kkkkhq([kkkkcx...])
-    kkkkti([CadastroRiscoBacen])
+  subgraph KK0577["Origem (outras partes)"]
+    DE([KK0413])
+    DNASC([KK0411])
+    DNIF([KK0416])
+    SA([KK1262])
+    KK0586([KK0101...])
+    KK0128([CadastroRiscoBacen])
   end
 
-  subgraph Parte3["KK0188 3 — kkkkwx pessoais"]
-    N([kkkkiy])
-    E([kkkkjt])
-    R([kkkki0])
-    GW{kkkkpd}
+  subgraph Parte3["KK1000 3 — KK0399 pessoais"]
+    N([KK0417])
+    E([KK0414])
+    R([KK0420])
+    GW{KK0686}
     N --> E --> R --> GW
   end
 
-  subgraph kkkkvv["Destino (outras partes)"]
-    NIF2([kkkkiz])
-    SA2([kkkkjg])
-    DNASC2([kkkkjs])
+  subgraph KK1213["Destino (outras partes)"]
+    NIF2([KK0416])
+    SA2([KK1262])
+    DNASC2([KK0411])
   end
 
   DE -.->|0ewc29g| N
-  kkkkti -.->|0u2al2b| N
+  KK0128 -.->|0u2al2b| N
   DNIF -.->|10bazw8| E
   SA -.->|0ca3z8j| E
-  kkkkhq -.->|0awu3ng| E
+  KK0586 -.->|0awu3ng| E
   E -->|0yp7fzn| R
   DNASC -.->|0v81015| R
 
@@ -3011,8 +3011,8 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style DNASC fill:#bbdefb,stroke:#1565c0
   style DNIF fill:#bbdefb,stroke:#1565c0
   style SA fill:#bbdefb,stroke:#1565c0
-  style kkkkhq fill:#eceff1,stroke:#546e7a
-  style kkkkti fill:#eceff1,stroke:#546e7a
+  style KK0586 fill:#eceff1,stroke:#546e7a
+  style KK0128 fill:#eceff1,stroke:#546e7a
   style N fill:#bbdefb,stroke:#1565c0
   style E fill:#bbdefb,stroke:#1565c0
   style R fill:#bbdefb,stroke:#1565c0
@@ -3022,188 +3022,188 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style DNASC2 fill:#bbdefb,stroke:#1565c0
 ```
 
-*kkkk5j no KK0145: sufixos dos Flow (ex.: 0ewc29g = Flow_0ewc29g).*
+*KK0755 no KK0492: sufixos dos Flow (ex.: 0ewc29g = Flow_0ewc29g).*
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
-| kkkk8l de destino | Flow | Origem / observação |
+| KK1331 de destino | Flow | Origem / observação |
 | ------------------ | ---------------- | ---------------------- |
-| kkkkiy | Flow_0ewc29g | kkkkiw (kkkkgu) |
-| kkkkiy | Flow_0u2al2b | kkkkx9 CadastroRiscoBacen (entre outros) |
-| kkkkjt | Flow_10bazw8 | kkkkiz (kkkkgu) |
-| kkkkjt | Flow_0ca3z8j | kkkkjg (kkkkgu) |
-| kkkkjt | Flow_0awu3ng | atualiza_dados_eq3_titular_representante |
-| kkkki0 | Flow_0yp7fzn | kkkkjt (continuar) |
-| kkkki0 | Flow_0v81015 | kkkkgu (kkkkjs) |
+| KK0417 | Flow_0ewc29g | KK0413 (KK1451) |
+| KK0417 | Flow_0u2al2b | KK0610 CadastroRiscoBacen (entre outros) |
+| KK0414 | Flow_10bazw8 | KK0416 (KK1451) |
+| KK0414 | Flow_0ca3z8j | KK1262 (KK1451) |
+| KK0414 | Flow_0awu3ng | atualiza_dados_eq3_titular_representante |
+| KK0420 | Flow_0yp7fzn | KK0414 (continuar) |
+| KK0420 | Flow_0v81015 | KK1451 (KK0411) |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Flow | Destino | Observação |
 | ---------------- | ---------------------- | ------------ |
-| Flow_1ka10hr | kkkkiz | KK0188 2 (SIM — KK0160 KK0162). |
-| Flow_1pb12jt | kkkkjg | KK0188 4 (não/KK0195). |
-| Flow_0v81015 | kkkkjs | KK0194. |
-| Flow_10bazw8 | kkkkjt | KK0194 (desde kkkkiz). |
-| Flow_0ca3z8j | kkkkjt | KK0194 (desde kkkkjg). |
+| Flow_1ka10hr | KK0416 | KK1000 2 (SIM — KK1164 KK0624). |
+| Flow_1pb12jt | KK1262 | KK1000 4 (não/KK0472). |
+| Flow_0v81015 | KK0411 | KK1452. |
+| Flow_10bazw8 | KK0414 | KK1452 (desde KK0416). |
+| Flow_0ca3z8j | KK0414 | KK1452 (desde KK1262). |
 
 ---
 
-## 5. Referências no kkkkhk
+## 5. Referências no KK0172
 
-- Tasks: `kkkkiy`, `kkkkjt`, `kkkki0`.
-- kkkkis: `kkkkpd`.
+- Tasks: `KK0417`, `KK0414`, `KK0420`.
+- KK0668: `KK0686`.
 - Flows: Flow_0yp7fzn, Flow_0qen913, Flow_1ka10hr, Flow_1pb12jt, Flow_0kl8vnv, Flow_0v81015, Flow_10bazw8, Flow_0ca3z8j.
 
 $$$$$
 
 [parte_03_dados_pessoais_nome_endereco_renda/USER_STORY_03_dados_pessoais_nome_endereco_renda_GENERICO.md]
 XXXXX
-# User Story — KK0188 3: kkkkwx pessoais (nome, KK0168, kkkksy)
+# User Story — KK1000 3: KK0399 pessoais (nome, KK0570, KK1155)
 
-**KK0184:** `kkkkk6` (kkkkiy, kkkkjt, kkkki0, kkkkpd)
+**KK0655:** `KK0953` (KK0417, KK0414, KK0420, KK0686)
 
 ---
 
 ## User Story
 
-**Como** kkkk38 ou KK0173 da kkkksn de kkkklh,  
-**quero** informar e corrigir os kkkkl9 do kkkk1x (nome, KK0168 e kkkksy),  
-**para** que a kkkk3l tenha esses dados persistidos e o KK0046 direcione corretamente para KK0159 (KK0160 no KK0162) ou seleção de kkkk1o.
+**Como** KK0723 ou KK1392 da KK0799 de KK0346,  
+**quero** informar e corrigir os KK0408 do KK0273 (nome, KK0570 e KK1155),  
+**para** que a KK1086 tenha esses dados persistidos e o KK0651 direcione corretamente para KK0912 (KK1164 no KK0624) ou seleção de KK0046.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
 - [ ] **CA1 – Ordem das etapas**  
-  Depois que o KK0173 conclui o KK0168 (tarefa `kkkkjt`), o KK0046 segue para a etapa de kkkksy (`kkkki0`). Ao concluir a kkkksy, o KK0046 chega ao ponto de decisão “Possui KK0160 no KK0162?” (kkkk7v `kkkkpd`).
+  Depois que o KK1392 conclui o KK0570 (tarefa `KK0414`), o KK0651 segue para a etapa de KK1155 (`KK0420`). Ao concluir a KK1155, o KK0651 chega ao ponto de decisão “Possui KK1164 no KK0624?” (KK0669 `KK0686`).
 
-- [ ] **CA2 – KK0007 “Possui KK0160 no KK0162?”**  
-  Se a resposta for **sim**, o KK0046 vai para a kkkkwc de KK0159 (`kkkkiz`). Se for **não** (ou não informado), o KK0046 segue para a seleção de kkkk1o (`kkkkjg`). A condição “não” é baseada na KK0034 `KK0122 == false`.
+- [ ] **CA2 – KK0466 “Possui KK1164 no KK0624?”**  
+  Se a resposta for **sim**, o KK0651 vai para a KK0297 de KK0912 (`KK0416`). Se for **não** (ou não informado), o KK0651 segue para a seleção de KK0046 (`KK1262`). A condição “não” é baseada na KK1424 `KK0468 == false`.
 
-- [ ] **CA3 – Registro da etapa atual (kkkkyo)**  
-  Ao finalizar cada uma das telas — nome, KK0168 e kkkksy —, o kkkkxv grava em qual etapa o KK0173 está (KK0034 **KK0125** com o id da tarefa concluída: `kkkkiy`, `kkkkjt` ou `kkkki0`), para uso em kkkkx5 de kkkkyo.
+- [ ] **CA3 – Registro da etapa atual (KK0621)**  
+  Ao finalizar cada uma das telas — nome, KK0570 e KK1155 —, o KK1292 grava em qual etapa o KK1392 está (KK1424 **KK0602** com o id da tarefa concluída: `KK0417`, `KK0414` ou `KK0420`), para uso em KK1146 de KK0621.
 
-- [ ] **CA4 – Tempo kkkksp e kkkkyo**  
-  Em cada uma das três etapas (nome, KK0168, kkkksy), existe um KK0177 máximo de permanência (`KK0043`). Se o KK0177 acabar sem o KK0173 concluir a etapa, o KK0046 dispara o kkkkx9 de kkkkyo (timer nas tarefas).
+- [ ] **CA4 – Tempo KK0823 e KK0621**  
+  Em cada uma das três etapas (nome, KK0570, KK1155), existe um KK1342 máximo de permanência (`KK1344`). Se o KK1342 acabar sem o KK1392 concluir a etapa, o KK0651 dispara o KK0610 de KK0621 (timer nas tarefas).
 
-- [ ] **CA5 – Navegação “KK0194”**  
-  Na KK0176 de KK0168, o KK0173 pode kkkkgu para a KK0176 de kkkksy. Na KK0176 de kkkksy, pode kkkkgu para a KK0176 de KK0155. A partir de KK0159 ou de seleção de kkkk1o, o KK0173 pode kkkkgu para a KK0176 de KK0168.
+- [ ] **CA5 – Navegação “KK1452”**  
+  Na KK1338 de KK0570, o KK1392 pode KK1451 para a KK1338 de KK1155. Na KK1338 de KK1155, pode KK1451 para a KK1338 de KK0428. A partir de KK0912 ou de seleção de KK0046, o KK1392 pode KK1451 para a KK1338 de KK0570.
 
-- [ ] **CA6 – Campos de cada KK0176**  
-  **Nome:** nome completo (titular e representante, quando houver), controle de KK0046 e kkkkgu. **Endereço:** CEP, rua, número, complemento, bairro, cidade, estado, declaração de KK0160 no KK0162, controle de KK0046, kkkkgu e campos do representante. **Renda:** valor da kkkksy, motivo (quando aplicável), controle de KK0046, kkkkgu e kkkksy do representante.
+- [ ] **CA6 – Campos de cada KK1338**  
+  **Nome:** nome completo (titular e representante, quando houver), controle de KK0651 e KK1451. **Endereço:** CEP, rua, número, complemento, bairro, cidade, estado, declaração de KK1164 no KK0624, controle de KK0651, KK1451 e campos do representante. **Renda:** valor da KK1155, motivo (quando aplicável), controle de KK0651, KK1451 e KK1155 do representante.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
 | Ponto de entrada | Origem / condição |
 | ------------------ | ------------------- |
-| `kkkkiy` | Fluxos de kkkkgu (ex.: `kkkkiw` com `kkkkgu=="kkkkiy"`); kkkkxc inicia_pld → kkkkiw → …; eventos kkkkyi (ex.: CadastroRiscoBacen). |
-| `kkkkjt` / `kkkki0` | Fluxos de continuar ou kkkkgu. |
-| `kkkkpd` | Após `kkkki0` (`Flow_0qen913`). |
+| `KK0417` | Fluxos de KK1451 (ex.: `KK0413` com `KK1451=="KK0417"`); KK1272 inicia_pld → KK0413 → …; eventos KK1371 (ex.: CadastroRiscoBacen). |
+| `KK0414` / `KK0420` | Fluxos de continuar ou KK1451. |
+| `KK0686` | Após `KK0420` (`Flow_0qen913`). |
 
-### Scripts e kkkkx5 de kkkkag
+### Scripts e KK1146 de KK0911
 
-*Nesta parte não há KK0148 kkkkiq.* O kkkk7v `kkkkpd` usa a KK0034 `KK0122` (definida em `kkkkjt` / `kkkki0`).
+*Nesta parte não há KK1223 KK1335.* O KK0669 `KK0686` usa a KK1424 `KK0468` (definida em `KK0414` / `KK0420`).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Onde escrita / lida | Observação |
 | ---------- | ---------------------- | ------------ |
-| `KK0125` | outputParameter em `kkkkiy`, `kkkkjt`, `kkkki0` | ID da kkkk9q concluída. |
-| `kkkkgu` | KK0197 (valores: `kkkkjs`, `kkkki0`, `kkkkjt`) | Decide próximo nó. |
-| `KK0122` | KK0197 KK0168 | Condiciona `kkkkpd`. |
-| `KK0043` | kkkkwk timers | KK0188 1. |
+| `KK0602` | outputParameter em `KK0417`, `KK0414`, `KK0420` | ID da KK1332 concluída. |
+| `KK1451` | KK0659 (valores: `KK0411`, `KK0420`, `KK0414`) | Decide próximo nó. |
+| `KK0468` | KK0659 KK0570 | Condiciona `KK0686`. |
+| `KK1344` | KK0165 timers | KK1000 1. |
 
-### kkkkxe de kkkkth de campos
+### KK1145 de KK1406 de campos
 
-*kkkkxe de kkkkth de campos (formato, obrigatoriedade, máscara para CEP, KK0168, kkkksy, etc.) não estão modeladas no kkkkhk; quando existirem, devem ser documentadas em spec/front ou no KK0018.*
+*KK1145 de KK1406 de campos (formato, obrigatoriedade, máscara para CEP, KK0570, KK1155, etc.) não estão modeladas no KK0172; quando existirem, devem ser documentadas em spec/front ou no KK1378.*
 
 ### Comportamentos fora do núcleo
 
-**kkkkwk events (timer → kkkkyo):**
+**KK0165 events (timer → KK0621):**
 
-| Event ID | kkkk8l anexada | Timer |
+| Event ID | KK1331 anexada | Timer |
 | ---------- | -------------- | ------- |
-| `Event_1dgutng` | `kkkkiy` | `KK0043` |
-| `Event_0ty9zug` | `kkkkjt` | `KK0043` |
-| `Event_1sm0ccb` | `kkkki0` | `KK0043` |
+| `Event_1dgutng` | `KK0417` | `KK1344` |
+| `Event_0ty9zug` | `KK0414` | `KK1344` |
+| `Event_1sm0ccb` | `KK0420` | `KK1344` |
 
-**kkkkpd:**
+**KK0686:**
 
 | Ramo | Flow | Destino |
 | ------ | ------ | --------- |
-| SIM | `Flow_1ka10hr` | `kkkkiz` (KK0188 2) |
-| não / KK0195 | `Flow_1pb12jt` | `kkkkjg` (KK0188 4) |
+| SIM | `Flow_1ka10hr` | `KK0416` (KK1000 2) |
+| não / KK0472 | `Flow_1pb12jt` | `KK1262` (KK1000 4) |
 
-**Fluxos de kkkkgu:**
+**Fluxos de KK1451:**
 
 | De | Para |
 | ---- | ------ |
-| `kkkkjt` | `kkkki0` |
-| `kkkki0` | `kkkkjs` |
-| `kkkkiz` / `kkkkjg` | `kkkkjt` |
+| `KK0414` | `KK0420` |
+| `KK0420` | `KK0411` |
+| `KK0416` / `KK1262` | `KK0414` |
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 2 | Origem / destino | `kkkkiw`, `kkkkix`, `kkkkjs`, `kkkkiz` (KK0159 = destino do kkkk7v SIM); inicia_pld. |
-| 4 | Destino / origem de kkkkgu | `kkkkjg` (destino do kkkk7v não); `kkkkjt` = destino de kkkkgu desde `kkkkiz` e desde `kkkkjg`. |
+| 2 | Origem / destino | `KK0413`, `KK0421`, `KK0411`, `KK0416` (KK0912 = destino do KK0669 SIM); inicia_pld. |
+| 4 | Destino / origem de KK1451 | `KK1262` (destino do KK0669 não); `KK0414` = destino de KK1451 desde `KK0416` e desde `KK1262`. |
 
 ---
 
-## Referência kkkkhk
+## Referência KK0172
 
-- User kkkkiq: `kkkkiy`, `kkkkjt`, `kkkki0`.
-- kkkkis: `kkkkpd`.
+- User KK1335: `KK0417`, `KK0414`, `KK0420`.
+- KK0668: `KK0686`.
 - Flows: Flow_0yp7fzn, Flow_0qen913, Flow_1ka10hr, Flow_1pb12jt, Flow_0kl8vnv, Flow_0v81015.
-- kkkkwk events: Event_1dgutng, Event_0ty9zug, Event_1sm0ccb.
+- KK0165 events: Event_1dgutng, Event_0ty9zug, Event_1sm0ccb.
 
 $$$$$
 
 [parte_04_selecao_agencia_proposta_segmentada/FLUXO_04_guia_GENERICO.md]
 XXXXX
-# KK0188 4 — Seleção de kkkk1o e kkkklu — guia
+# KK1000 4 — Seleção de KK0046 e KK1098 — guia
 
-**O que é esta parte:** trecho em que o KK0173 **escolhe a kkkk1o** (e eventualmente kkkkvh) e a kkkk3l é **marcada como segmentada**. Em seguida o KK0046 converge e pode seguir para a kkkkss ou outros ramos.
+**O que é esta parte:** trecho em que o KK1392 **escolhe a KK0046** (e eventualmente KK0562) e a KK1086 é **marcada como segmentada**. Em seguida o KK0651 converge e pode seguir para a KK0936 ou outros ramos.
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Permitir a seleção da kkkk1o e o kkkkvh; em seguida atualizar a kkkk3l para status **segmentada**. A KK0176 grava a etapa atual (para kkkkyo) e permite **kkkkgu** para a KK0176 de KK0168.
+Permitir a seleção da KK0046 e o KK0562; em seguida atualizar a KK1086 para status **segmentada**. A KK1338 grava a etapa atual (para KK0621) e permite **KK1451** para a KK1338 de KK0570.
 
 ---
 
 ## 2. O que acontece na prática
 
-1. **Selecionar kkkk1o** — KK0197 com número da kkkk1o, superintendência comercial, kkkkvh manual (quando aplicável) e opção de kkkkgu. Ao continuar, o KK0046 marca a kkkk3l como segmentada. O KK0173 pode **kkkkgu** para a KK0176 de **KK0168**. Há KK0177 kkkksp por KK0176 (kkkkyo se ficar parado).
+1. **Selecionar KK0046** — KK0659 com número da KK0046, superintendência comercial, KK0562 manual (quando aplicável) e opção de KK1451. Ao continuar, o KK0651 marca a KK1086 como segmentada. O KK1392 pode **KK1451** para a KK1338 de **KK0570**. Há KK1342 KK0823 por KK1338 (KK0621 se ficar parado).
 
-2. **kkkklg segmentada** — O kkkkxv atualiza a kkkk3l com status segmentada. Em seguida o KK0046 segue para o ponto de convergência, onde pode ir para dados de kkkkss ou outros ramos.
+2. **KK1085 segmentada** — O KK1292 atualiza a KK1086 com status segmentada. Em seguida o KK0651 segue para o ponto de convergência, onde pode ir para dados de KK0936 ou outros ramos.
 
 ---
 
-## 3. Resumo para KK0140, KK0142 e KK0143
+## 3. Resumo para KK0726, KK1131 e KK1031
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **Ordem** | Seleção de kkkk1o → kkkk3l marcada como segmentada → convergência do KK0046. |
-| **KK0194** | Na seleção de kkkk1o o KK0173 pode kkkkgu para a KK0176 de KK0168. |
-| **kkkk63** | Tempo kkkksp na KK0176 de seleção de kkkk1o. |
-| **Saída** | Após marcar kkkklu, o KK0046 converge; em seguida segue para dados de kkkkss ou outros ramos. |
+| **Ordem** | Seleção de KK0046 → KK1086 marcada como segmentada → convergência do KK0651. |
+| **KK1452** | Na seleção de KK0046 o KK1392 pode KK1451 para a KK1338 de KK0570. |
+| **KK0620** | Tempo KK0823 na KK1338 de seleção de KK0046. |
+| **Saída** | Após marcar KK1098, o KK0651 converge; em seguida segue para dados de KK0936 ou outros ramos. |
 
 ---
 
-## 4. kkkk5v
+## 4. KK0491
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -3224,9 +3224,9 @@ Permitir a seleção da kkkk1o e o kkkkvh; em seguida atualizar a kkkk3l para st
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -3234,8 +3234,8 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  A([Selecionar kkkk1o]) --> B([kkkklg segmentada])
-  B --> C([Convergência do KK0046])
+  A([Selecionar KK0046]) --> B([KK1085 segmentada])
+  B --> C([Convergência do KK0651])
   style A fill:#bbdefb,stroke:#1565c0
   style B fill:#eceff1,stroke:#546e7a
   style C fill:#bbdefb,stroke:#1565c0
@@ -3243,79 +3243,79 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 5. KK0170
+## 5. KK1041
 
-- A kkkklu (status 1) é pré-requisito para seguir na kkkkgq. Para detalhes KK0178 use **FLUXO_04_tecnico.md**.
+- A KK1098 (status 1) é pré-requisito para seguir na KK0797. Para detalhes KK1379 use **FLUXO_04_tecnico.md**.
 
 $$$$$
 
 [parte_04_selecao_agencia_proposta_segmentada/FLUXO_04_tecnico_GENERICO.md]
 XXXXX
-# KK0188 4 — Seleção de kkkk1o e kkkklu — documentação kkkk5u
+# KK1000 4 — Seleção de KK0046 e KK1098 — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** User kkkk9q kkkkjg; service kkkk9q kkkknq; KK0204 de entrada/saída e kkkkgu; KK0196 kkkkja de timer.
+**KK0655:** `KK0953`  
+**KK0598:** User KK1332 KK1262; service KK1332 KK1116; KK0654 de entrada/saída e KK1451; KK0166 KK0604 de timer.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkkjg` | kkkk8m — kkkkjh (ponto de corte para kkkkgy) |
+| `KK1262` | KK1388 — KK1261 (ponto de corte para KK0175) |
 
 ---
 
 ## 1. Objetivo da parte
 
-Escolha de kkkk1o e kkkkvh; atualização da kkkk3l para status 1 (segmentada) via kkkkaq.
+Escolha de KK0046 e KK0562; atualização da KK1086 para status 1 (segmentada) via KK0473.
 
 ---
 
-## 2. kkkk59 kkkkhk
+## 2. KK0551 KK0172
 
 | Tipo | ID do elemento | Nome (name) | Observação |
 | ------------- | ---------------------- | ----------------------- | ------------ |
-| kkkk8m | kkkkjg | kkkkjh | formData: KK0127, kkkk46, kkkkgu, KK0118, KK0124. outputParameter KK0125 = kkkkjg. KK0195 Flow_0ca3z8j. |
-| kkkk8n | kkkknq | kkkklu | kkkkat KK0095. inputParameter: kkkkfi, kkkk4c = 1. |
+| KK1388 | KK1262 | KK1261 | formData: KK0922, KK0653, KK1451, KK0294, KK0565. outputParameter KK0602 = KK1262. KK0472 Flow_0ca3z8j. |
+| KK1276 | KK1116 | KK1098 | KK0474 KK0117. inputParameter: KK0747, KK1309 = 1. |
 
-### Sequence kkkkoa
+### Sequence KK0649
 
 | ID do flow | sourceRef | targetRef |
 | -------------- | ---------------------- | ------------------------ |
-| Flow_0ca3z8j | kkkkjg | kkkknq |
-| Flow_0d93ejv | kkkknq | Gateway_0xv7h0i |
-| Flow_0dyydgg | kkkkjg | kkkkm3 |
-| Flow_0ca3z8j (kkkkgu) | kkkkjg | kkkkjt (kkkkgu) |
-| Flow_03fc21n | KK0056 | kkkkjg (kkkkgu) |
-| Flow_0is6pyj | kkkkjm | kkkkjg (kkkkgu) |
+| Flow_0ca3z8j | KK1262 | KK1116 |
+| Flow_0d93ejv | KK1116 | Gateway_0xv7h0i |
+| Flow_0dyydgg | KK1262 | KK1222 |
+| Flow_0ca3z8j (KK1451) | KK1262 | KK0414 (KK1451) |
+| Flow_03fc21n | KK0418 | KK1262 (KK1451) |
+| Flow_0is6pyj | KK0564 | KK1262 (KK1451) |
 
-### 2.4 KK0149 (KK0189 da KK0190)
+### 2.4 KK0309 (KK1181 da KK0314)
 
-| kkkk8l ID | Tipo de KK0013 | Condição | Flow | Target |
+| KK1331 ID | Tipo de KK0308 | Condição | Flow | Target |
 | --------- | ------------------ | ---------- | ------ | -------- |
-| kkkkjg | KK0192 (continuar) | — | Flow_0ca3z8j | kkkknq |
-| kkkkjg | KK0194 | kkkkgu=="kkkkjt" | Flow_0ca3z8j (kkkkgu) | kkkkjt |
+| KK1262 | KK0991 (continuar) | — | Flow_0ca3z8j | KK1116 |
+| KK1262 | KK1452 | KK1451=="KK0414" | Flow_0ca3z8j (KK1451) | KK0414 |
 
-Outros KK0204 de entrada em kkkkjg (kkkkgu desde KK0056, kkkkjm): Flow_03fc21n, Flow_0is6pyj. Conferir no kkkkhk.
+Outros KK0654 de entrada em KK1262 (KK1451 desde KK0418, KK0564): Flow_03fc21n, Flow_0is6pyj. Conferir no KK0172.
 
-### 2.5 Condições de kkkk7v
+### 2.5 Condições de KK0669
 
-Nenhum kkkk7v exclusivo desta parte; convergência em Gateway_0xv7h0i (entrada/saída da parte).
+Nenhum KK0669 exclusivo desta parte; convergência em Gateway_0xv7h0i (entrada/saída da parte).
 
-### 2.6 kkkkwk kkkkja
+### 2.6 KK0165 KK0604
 
-| ID do kkkkas | attachedToRef | Timer |
+| ID do KK0169 | attachedToRef | Timer |
 | --------------------- | ------------------- | ------- |
-| Event_0f1shpq | kkkkjg | KK0043 |
+| Event_0f1shpq | KK1262 | KK1344 |
 
-### 2.7 kkkk5v kkkkhk (visão da parte)
+### 2.7 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service kkkk9q; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service KK1332; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
-**kkkkvq principal**
+**KK0650 principal**
 
 ```mermaid
 %%{init: {
@@ -3336,9 +3336,9 @@ Nenhum kkkk7v exclusivo desta parte; convergência em Gateway_0xv7h0i (entrada/s
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -3348,8 +3348,8 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
   direction LR
   IN((•))
-  IN --> SA([Selecionar kkkk1o<br/>kkkkjg])
-  SA --> PS([kkkklg segmentada<br/>kkkknq])
+  IN --> SA([Selecionar KK0046<br/>KK1262])
+  SA --> PS([KK1085 segmentada<br/>KK1116])
   PS --> G(Gateway_0xv7h0i)
   G --> OUT(( ))
 
@@ -3360,35 +3360,35 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style G fill:#fff8e1,stroke:#e65100,stroke-width:2px
 ```
 
-**KK0194**
+**KK1452**
 
 | De | Para | Condição | Flow / observação |
 | ---- | ------ | ---------- | ------------------- |
-| kkkkjg | kkkknq | KK0195 | Flow_0ca3z8j |
-| kkkkjg | kkkkjt (KK0188 3) | kkkkgu=="kkkkjt" | Flow (kkkkgu) — conferir ID no kkkkhk |
-| KK0056 | kkkkjg | kkkkgu=="kkkkjg" | Flow_03fc21n |
-| kkkkjm | kkkkjg | kkkkgu=="kkkkjg" | Flow_0is6pyj |
+| KK1262 | KK1116 | KK0472 | Flow_0ca3z8j |
+| KK1262 | KK0414 (KK1000 3) | KK1451=="KK0414" | Flow (KK1451) — conferir ID no KK0172 |
+| KK0418 | KK1262 | KK1451=="KK1262" | Flow_03fc21n |
+| KK0564 | KK1262 | KK1451=="KK1262" | Flow_0is6pyj |
 
-**kkkkwk (timer):** `kkkkjg` possui KK0196 kkkkja de timer (Event_0f1shpq, `KK0043`); ao estourar, KK0046 segue para kkkkyo (Flow_16lgajk → Event_1mucgp5).
+**KK0165 (timer):** `KK1262` possui KK0166 KK0604 de timer (Event_0f1shpq, `KK1344`); ao estourar, KK0651 segue para KK0621 (Flow_16lgajk → Event_1mucgp5).
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Escrita por | Lida por | Usada em condição | Observação |
 | ---------- | ------------- | ---------- | ------------------- | ------------ |
-| KK0125 | kkkkjg (outputParameter) | — | — | Valor = \"kkkkjg\" para kkkkyo (KK0188 16). |
-| kkkkfi, kkkk4c | kkkknq / upstream | kkkkjg, kkkkgc | kkkk4c == 1 (kkkklu ativa) | Conferir kkkkhk. |
-| kkkkgu | kkkkjg (formData) | kkkkps / kkkkxc de kkkkgu | kkkkgu==\"kkkkjg\" / outros ramos | Define target do KK0013 \"kkkkgu\". |
-| KK0043 | KK0188 1 (kkkkm2) | kkkkwk timer Event_0f1shpq | — | Controle de kkkkyo por KK0177 na user kkkk9q kkkkjg. |
+| KK0602 | KK1262 (outputParameter) | — | — | Valor = \"KK1262\" para KK0621 (KK1000 16). |
+| KK0747, KK1309 | KK1116 / upstream | KK1262, KK0785 | KK1309 == 1 (KK1098 ativa) | Conferir KK0172. |
+| KK1451 | KK1262 (formData) | KK0711 / KK1272 de KK1451 | KK1451==\"KK1262\" / outros ramos | Define target do KK0308 \"KK1451\". |
+| KK1344 | KK1000 1 (KK1232) | KK0165 timer Event_0f1shpq | — | Controle de KK0621 por KK1342 na user KK1332 KK1262. |
 
 ---
 
-## 4. kkkkvt e saídas da parte
+## 4. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** origens à esquerda; núcleo da KK0188 4 ao centro; destinos à direita. Setas tracejadas = KK0204 "kkkkgu".
+**KK0491 de contexto:** origens à esquerda; núcleo da KK1000 4 ao centro; destinos à direita. Setas tracejadas = KK0654 "KK1451".
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -3409,9 +3409,9 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -3419,25 +3419,25 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  subgraph kkkkvt["Origem"]
-    END([kkkkjt])
-    DO([KK0056])
-    EM([kkkkjm])
+  subgraph KK0577["Origem"]
+    END([KK0414])
+    DO([KK0418])
+    EM([KK0564])
   end
-  subgraph Parte4["KK0188 4"]
-    SA([kkkkjg])
-    PS([kkkknq])
+  subgraph Parte4["KK1000 4"]
+    SA([KK1262])
+    PS([KK1116])
     SA --> PS
   end
-  subgraph kkkkvw["Destino"]
+  subgraph KK1207["Destino"]
     GX([Gateway_0xv7h0i])
-    END2([kkkkjt])
+    END2([KK0414])
   end
   END --> SA
   DO -.->|03fc21n| SA
   EM -.->|0is6pyj| SA
   PS --> GX
-  SA -.->|kkkkgu| END2
+  SA -.->|KK1451| END2
   style END fill:#bbdefb,stroke:#1565c0
   style DO fill:#bbdefb,stroke:#1565c0
   style EM fill:#bbdefb,stroke:#1565c0
@@ -3447,184 +3447,176 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style END2 fill:#bbdefb,stroke:#1565c0
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
-| kkkk8l de destino | Flow | Origem / observação |
+| KK1331 de destino | Flow | Origem / observação |
 | ------------------- | ---------------- | ---------------------- |
-| kkkkjg | (KK0188 3) | kkkkjt → kkkki0 → kkkkpd (não) → KK0188 4. |
-| kkkkjg | Flow_03fc21n | KK0056 (kkkkgu). |
-| kkkkjg | Flow_0is6pyj | kkkkjm (kkkkgu). |
+| KK1262 | (KK1000 3) | KK0414 → KK0420 → KK0686 (não) → KK1000 4. |
+| KK1262 | Flow_03fc21n | KK0418 (KK1451). |
+| KK1262 | Flow_0is6pyj | KK0564 (KK1451). |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Flow | Destino | Observação |
 | ---------------- | ---------------------- | ------------ |
-| Flow_0ca3z8j | kkkknq | Continuar. |
-| Flow_0d93ejv | Gateway_0xv7h0i | Convergência (ex.: KK0056). |
-| (kkkkgu) | kkkkjt | kkkkgu=="kkkkjt" (KK0188 3). |
+| Flow_0ca3z8j | KK1116 | Continuar. |
+| Flow_0d93ejv | Gateway_0xv7h0i | Convergência (ex.: KK0418). |
+| (KK1451) | KK0414 | KK1451=="KK0414" (KK1000 3). |
 
 ---
 
-## 5. Referências no kkkkhk
+## 5. Referências no KK0172
 
-- kkkkjg, kkkknq.
+- KK1262, KK1116.
 - Flow_0ca3z8j, Flow_0d93ejv, Flow_0dyydgg.
-- Gateway_0xv7h0i. Flow_lvstxhf: kkkknq para KK0056.
+- Gateway_0xv7h0i. Flow_lvstxhf: KK1116 para KK0418.
 
 $$$$$
 
 [parte_04_selecao_agencia_proposta_segmentada/USER_STORY_04_selecao_agencia_proposta_segmentada_GENERICO.md]
 XXXXX
-# User Story — KK0188 4: Seleção de kkkk1o e kkkklu
+# User Story — KK1000 4: Seleção de KK0046 e KK1098
 
-**KK0184:** `kkkkk6` (kkkkjg, kkkknq)
+**KK0655:** `KK0953` (KK1262, KK1116)
 
 ---
 
 ## User Story
 
-**Como** kkkk38 ou KK0173 da kkkksn de kkkklh,  
-**quero** selecionar a kkkk1o (e kkkkvh quando aplicável) e ter a kkkk3l marcada como segmentada,  
-**para** que a kkkkgq avance para kkkkss e demais etapas com kkkk3l no status correto.
+**Como** KK0723 ou KK1392 da KK0799 de KK0346,  
+**quero** selecionar a KK0046 (e KK0562 quando aplicável) e ter a KK1086 marcada como segmentada,  
+**para** que a KK0797 avance para KK0936 e demais etapas com KK1086 no status correto.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- **CA1 – Ordem das etapas**  
-Depois que o KK0173 conclui a seleção de kkkk1o (`kkkkjg`), o KK0046 executa a atualização da kkkk3l como segmentada (`kkkknq`), marcando status da kkkk3l = 1 (KK0095).
-- **CA2 – Registro da etapa atual (kkkkyo)**  
-Ao finalizar a KK0176 de seleção de kkkk1o, o kkkkxv grava que o KK0173 está nessa etapa (KK0034 **KK0125** = kkkkjg), para uso em kkkkx5 de kkkkyo.
-- **CA3 – Tempo kkkksp e kkkkyo**  
-Na KK0176 de seleção de kkkk1o existe um KK0177 máximo de permanência. Se o KK0177 acabar sem KK0190, o KK0046 dispara o kkkkx9 de kkkkyo (timer `Event_0f1shpq`).
-- **CA4 – Navegação “KK0194”**  
-Na KK0176 de seleção de kkkk1o, o KK0173 pode kkkkgu para a KK0176 de KK0168. Em outros caminhos da kkkkgq, o KK0173 pode kkkkgu de dados de kkkkss ou de kkkkvh manual para a KK0176 de seleção de kkkk1o.
-- **CA5 – Próximo passo**  
-Após marcar a kkkk3l como segmentada, o KK0046 segue para o ponto de convergência (kkkk7v `Gateway_0xv7h0i`). Em um dos caminhos, a próxima etapa é a KK0176 de dados de kkkkss (KK0188 7).
-- **CA6 – Campos da KK0176**  
-A KK0176 de seleção de kkkk1o exibe: número da kkkk1o, superintendência comercial, opção de kkkkvh manual (quando aplicável), controle de KK0046 e kkkkgu.
+- [ ] **CA1 – Ordem das etapas**  
+  Depois que o KK1392 conclui a seleção de KK0046 (`KK1262`), o KK0651 executa a atualização da KK1086 como segmentada (`KK1116`), marcando status da KK1086 = 1 (KK0117).
+
+- [ ] **CA2 – Registro da etapa atual (KK0621)**  
+  Ao finalizar a KK1338 de seleção de KK0046, o KK1292 grava que o KK1392 está nessa etapa (KK1424 **KK0602** = KK1262), para uso em KK1146 de KK0621.
+
+- [ ] **CA3 – Tempo KK0823 e KK0621**  
+  Na KK1338 de seleção de KK0046 existe um KK1342 máximo de permanência. Se o KK1342 acabar sem KK0314, o KK0651 dispara o KK0610 de KK0621 (timer `Event_0f1shpq`).
+
+- [ ] **CA4 – Navegação “KK1452”**  
+  Na KK1338 de seleção de KK0046, o KK1392 pode KK1451 para a KK1338 de KK0570. Em outros caminhos da KK0797, o KK1392 pode KK1451 de dados de KK0936 ou de KK0562 manual para a KK1338 de seleção de KK0046.
+
+- [ ] **CA5 – Próximo passo**  
+  Após marcar a KK1086 como segmentada, o KK0651 segue para o ponto de convergência (KK0669 `Gateway_0xv7h0i`). Em um dos caminhos, a próxima etapa é a KK1338 de dados de KK0936 (KK1000 7).
+
+- [ ] **CA6 – Campos da KK1338**  
+  A KK1338 de seleção de KK0046 exibe: número da KK0046, superintendência comercial, opção de KK0562 manual (quando aplicável), controle de KK0651 e KK1451.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
+| Flow | Origem | Destino |
+| ------ | -------- | --------- |
+| `Flow_1pb12jt` | `KK0686` (KK1000 3, ramo não) | `KK1262` |
+| `Flow_1q9216u` | Após `KK0416` / `Gateway_0xv7h0i` | `KK1262` |
+| `Flow_03fc21n` | `KK0418` (KK1451) | `KK1262` |
+| `Flow_0is6pyj` | `KK0564` (KK1451) | `KK1262` |
 
-| Flow           | Origem                            | Destino  |
-| -------------- | --------------------------------- | -------- |
-| `Flow_1pb12jt` | `kkkkpd` (KK0188 3, ramo não)     | `kkkkjg` |
-| `Flow_1q9216u` | Após `kkkkiz` / `Gateway_0xv7h0i` | `kkkkjg` |
-| `Flow_03fc21n` | `KK0056` (kkkkgu)                 | `kkkkjg` |
-| `Flow_0is6pyj` | `kkkkjm` (kkkkgu)                 | `kkkkjg` |
+### Scripts e KK1146 de KK0911
 
-
-### Scripts e kkkkx5 de kkkkag
-
-
-| ID kkkk9q / kkkkaq | Regra resumida                                                        |
-| ------------------ | --------------------------------------------------------------------- |
-| `kkkknq` (KK0095)  | Atualiza kkkk3l com `kkkk4c` = 1; inputParameter: `kkkkfi`, `kkkk4c`. |
-
+| ID KK1332 / KK0473 | Regra resumida |
+| -------------------- | ---------------- |
+| `KK1116` (KK0117) | Atualiza KK1086 com `KK1309` = 1; inputParameter: `KK0747`, `KK1309`. |
 
 Ver [FLUXO_04_tecnico](FLUXO_04_tecnico.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
+| Variável | Onde escrita / lida | Observação |
+| ---------- | ---------------------- | ------------ |
+| `KK0602` | outputParameter `KK1262` | ID da KK1332. |
+| `KK0747`, `KK1309` | `KK1116` (inputParameter; status = 1) | Delegate. |
+| `KK1451` | KK0659 | `KK1451=="KK0414"` leva à KK1000 3. |
 
-| Variável           | Onde escrita / lida                   | Observação                          |
-| ------------------ | ------------------------------------- | ----------------------------------- |
-| `KK0125`           | outputParameter `kkkkjg`              | ID da kkkk9q.                       |
-| `kkkkfi`, `kkkk4c` | `kkkknq` (inputParameter; status = 1) | Delegate.                           |
-| `kkkkgu`           | KK0197                                | `kkkkgu=="kkkkjt"` leva à KK0188 3. |
+### KK1145 de KK1406 de campos
 
-
-### kkkkxe de kkkkth de campos
-
-*kkkkxe de kkkkth de kkkk1o/kkkkvh não estão modeladas no kkkkhk; quando existirem, devem ser documentadas em spec/front ou no KK0018.*
+*KK1145 de KK1406 de KK0046/KK0562 não estão modeladas no KK0172; quando existirem, devem ser documentadas em spec/front ou no KK1378.*
 
 ### Comportamentos fora do núcleo
 
-**kkkkwk kkkkja (timer → kkkkyo):**
+**KK0165 KK0604 (timer → KK0621):**
 
+| Event ID | KK1331 anexada | Timer |
+| ---------- | -------------- | ------- |
+| `Event_0f1shpq` | `KK1262` | `KK1344` |
 
-| Event ID        | kkkk8l anexada | Timer    |
-| --------------- | -------------- | -------- |
-| `Event_0f1shpq` | `kkkkjg`       | `KK0043` |
+**Fluxos de KK1451 e saída:**
 
-
-**Fluxos de kkkkgu e saída:**
-
-
-| Tipo              | De            | Para                |
-| ----------------- | ------------- | ------------------- |
-| KK0194            | `kkkkjg`      | `kkkkjt` (KK0188 3) |
-| Saída (continuar) | `kkkknq`      | `Gateway_0xv7h0i`   |
-| Erros / GQ        | kkkkvh manual | Conforme kkkkhk     |
-
+| Tipo | De | Para |
+| ------ | ----- | ------ |
+| KK1452 | `KK1262` | `KK0414` (KK1000 3) |
+| Saída (continuar) | `KK1116` | `Gateway_0xv7h0i` |
+| Erros / GQ | KK0562 manual | Conforme KK0172 |
 
 ### Partes/etapas adjacentes
 
-
-| KK0188 | Papel                      | kkkk59 / observação                                          |
-| ------ | -------------------------- | ------------------------------------------------------------ |
-| 3      | Origem / destino de kkkkgu | `kkkkjt` (kkkkgu); `kkkkpd` e `kkkkiz` (origens de entrada). |
-| 5      | Destino                    | kkkke6/kkkkvg (após `Gateway_0xv7h0i`).                      |
-| 7      | Origem de kkkkgu           | `KK0056` (kkkkgu para `kkkkjg`).                             |
-
+| KK1000 | Papel | KK0551 / observação |
+| ------- | -------- | ------------------------- |
+| 3 | Origem / destino de KK1451 | `KK0414` (KK1451); `KK0686` e `KK0416` (origens de entrada). |
+| 5 | Destino | KK0496/KK1251 (após `Gateway_0xv7h0i`). |
+| 7 | Origem de KK1451 | `KK0418` (KK1451 para `KK1262`). |
 
 ---
 
-## Referência kkkkhk
+## Referência KK0172
 
-- kkkkjg, kkkknq.
+- KK1262, KK1116.
 - Flow_0ca3z8j, Flow_0d93ejv, Event_0f1shpq.
-
 
 $$$$$
 
 [parte_05_segmentacao_direcionador/FLUXO_05_guia_GENERICO.md]
 XXXXX
-# KK0188 5 — Segmentação e kkkkxg — guia
+# KK1000 5 — Segmentação e KK0497 — guia
 
-**O que é esta parte:** trecho em que o kkkk55 **kkkkml o kkkkxg** (com ou sem kkkk1o), **atualiza o kkkk1x**, **kkkkml kkkkxr**, **escolha de kkkkxr/upgrade** e **kkkkxg na kkkk3l**. Inclui o kkkk7v "kkkklq" e exceções (não elegível, kkkklv).
+**O que é esta parte:** trecho em que o KK1069 **KK0330 o KK0497** (com ou sem KK0046), **atualiza o KK0273**, **KK0330 KK1254**, **escolha de KK1254/upgrade** e **KK0497 na KK1086**. Inclui o KK0669 "KK1341" e exceções (não elegível, KK1255).
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Definir o kkkkxr e a kkkkss inicial do kkkk1x com base no kkkkxg; atualizar kkkksx e da kkkk3l. KK0129 e kkkkvo KK0132 são usados nas kkkkgc.
+Definir o KK1254 e a KK0936 inicial do KK0273 com base no KK0497; atualizar KK0404 e da KK1086. KK1002 e KK1423 KK1171 são usados nas KK0785.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **"kkkklq"** — O KK0046 pergunta se o kkkk1x tem kkkk1o e direciona para a kkkkml ao kkkkxg **com kkkk1o** ou **sem kkkk1o**.
-- **kkkke6 do kkkk1x** — Consulta ao kkkkxg (com ou sem kkkk1o, conforme o ramo).
-- **Atualizar kkkk1x** — Atualização dos kkkksx no kkkkxv.
-- **Consulta de kkkkxr**, **escolha de kkkkxr** e **escolha de upgrade** — Definição do kkkkxr e da kkkkss inicial.
-- **kkkke6 na kkkk3l** — Aplicação do resultado do kkkkxg na kkkk3l.
-- **Exceções:** não elegível e kkkklv são tratados em ramos específicos.
+- **"KK1341"** — O KK0651 pergunta se o KK0273 tem KK0046 e direciona para a KK0330 ao KK0497 **com KK0046** ou **sem KK0046**.
+- **KK0496 do KK0273** — Consulta ao KK0497 (com ou sem KK0046, conforme o ramo).
+- **Atualizar KK0273** — Atualização dos KK0404 no KK1292.
+- **Consulta de KK1254**, **escolha de KK1254** e **escolha de upgrade** — Definição do KK1254 e da KK0936 inicial.
+- **KK0496 na KK1086** — Aplicação do resultado do KK0497 na KK1086.
+- **Exceções:** não elegível e KK1255 são tratados em ramos específicos.
 
 ---
 
-## 3. Resumo para KK0140, KK0142 e KK0143
+## 3. Resumo para KK0726, KK1131 e KK1031
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **O que ocorre** | KK0007 "kkkklq"; kkkkxg (com/sem kkkk1o); atualização do kkkk1x; kkkkml e escolha de kkkkxr/upgrade; aplicação do kkkkxg na kkkk3l. |
-| **Saída** | kkkki3 e kkkkss definidos; respostas do kkkkxg disponíveis para as etapas seguintes. |
-| **Exceções** | Não elegível, kkkklv. |
+| **O que ocorre** | KK0466 "KK1341"; KK0497 (com/sem KK0046); atualização do KK0273; KK0330 e escolha de KK1254/upgrade; aplicação do KK0497 na KK1086. |
+| **Saída** | KK1253 e KK0936 definidos; respostas do KK0497 disponíveis para as etapas seguintes. |
+| **Exceções** | Não elegível, KK1255. |
 
 ---
 
-## 4. kkkk5v
+## 4. KK0491
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -3645,9 +3637,9 @@ Definir o kkkkxr e a kkkkss inicial do kkkk1x com base no kkkkxg; atualizar kkkk
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -3655,13 +3647,13 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  A{kkkklq} --> B([kkkkxg com kkkk1o])
-  A --> C([kkkkxg sem kkkk1o])
-  B --> D([Atualizar kkkk1x])
+  A{KK1341} --> B([KK0497 com KK0046])
+  A --> C([KK0497 sem KK0046])
+  B --> D([Atualizar KK0273])
   C --> D
-  D --> E([Consulta kkkkxr])
-  E --> F([Escolha kkkkxr / upgrade])
-  F --> G([kkkke6 na kkkk3l])
+  D --> E([Consulta KK1254])
+  E --> F([Escolha KK1254 / upgrade])
+  F --> G([KK0496 na KK1086])
   style A fill:#fff8e1,stroke:#e65100,stroke-width:2px
   style B fill:#bbdefb,stroke:#1565c0
   style C fill:#bbdefb,stroke:#1565c0
@@ -3673,92 +3665,92 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 5. KK0170
+## 5. KK1041
 
-Para detalhes de kkkkmn kkkkxg e kkkkvo use **FLUXO_05_tecnico.md**.
+Para detalhes de KK1001 KK0497 e KK1423 use **FLUXO_05_tecnico.md**.
 
 $$$$$
 
 [parte_05_segmentacao_direcionador/FLUXO_05_tecnico_GENERICO.md]
 XXXXX
-# KK0188 5 — Segmentação e kkkkxg — documentação kkkk5u
+# KK1000 5 — Segmentação e KK0497 — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** kkkkpb (Tem agencia?), kkkklr, kkkkls, kkkkno, KK0049, kkkknq, kkkkjb, kkkknz, kkkkb0; exceções (não elegível, kkkklv).
+**KK0655:** `KK0953`  
+**KK0598:** KK0674 (Tem agencia?), KK0500, KK0502, KK0111, KK0339, KK1116, KK0596, KK0597, KK0503; exceções (não elegível, KK1255).
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkkjb` | kkkk8m — kkkkt1 (primeira UT etapa kkkke2) |
-| `kkkknz` | kkkk8m — Envio kkkk5m (condicional kkkkgg/situação especial) |
-| `kkkkjc` | Estado de exceção |
-| `kkkkmb` | Estado de exceção |
-| `kkkklr`, `kkkkls` | kkkk8n — [kkkk8e] kkkkb5 |
-| `kkkkno`, `KK0049`, `kkkknq`, `kkkkb0` | Service/Script kkkkiq da parte |
+| `KK0596` | KK1388 — KK0595 (primeira UT etapa KK0316) |
+| `KK0597` | KK1388 — Envio KK0522 (condicional KK1384/situação especial) |
+| `KK1258` | Estado de exceção |
+| `KK0906` | Estado de exceção |
+| `KK0500`, `KK0502` | KK1276 — [KK0255] KK0498 |
+| `KK0111`, `KK0339`, `KK1116`, `KK0503` | Service/Script KK1335 da parte |
 
 ---
 
 ## 1. Objetivo da parte
 
-Consulta ao kkkkxg (com ou sem kkkk1o), atualização de kkkk1x, kkkkml e escolha de kkkkxr, upgrade e aplicação do kkkkxg na kkkk3l. KK0007 pelo kkkk7v "kkkklq" (agencia_logada); kkkkvo KK0132, kkkkxr, KK0119, kkkkeo.
+Consulta ao KK0497 (com ou sem KK0046), atualização de KK0273, KK0330 e escolha de KK1254, upgrade e aplicação do KK0497 na KK1086. KK0466 pelo KK0669 "KK1341" (agencia_logada); KK1423 KK1171, KK1254, KK0288, KK0550.
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 kkkkis
+### 2.1 KK0668
 
 | Tipo | ID | Nome (name) | Observação |
 | ------------------ | ------------------ | --------------- | ------------ |
-| kkkk81 | `kkkkpb` | Tem agencia ? | Entrada após kkkkm2 (KK0188 1). kkkkvv: sim → kkkklr; Não → kkkkls. |
+| KK0614 | `KK0674` | Tem agencia ? | Entrada após KK1232 (KK1000 1). KK1213: sim → KK0500; Não → KK0502. |
 
 ### 2.2 Tasks e delegates
 
 | Tipo / Papel | ID do elemento |
 | -------------- | ---------------- |
-| kkkk8m / kkkk8n | kkkklr, kkkkls |
-| kkkk8n / Delegate | kkkkno, KK0049, kkkknq, kkkkjb, kkkknz, kkkkb0 |
+| KK1388 / KK1276 | KK0500, KK0502 |
+| KK1276 / Delegate | KK0111, KK0339, KK1116, KK0596, KK0597, KK0503 |
 
-Exceções no kkkkhk: não elegível, kkkklv (ramos e eventos específicos; conferir situacao_consulta_segmento, KK0051, KK0050).
+Exceções no KK0172: não elegível, KK1255 (ramos e eventos específicos; conferir situacao_consulta_segmento, KK1189, KK1188).
 
-### 2.3 Sequence kkkkoa principais
+### 2.3 Sequence KK0649 principais
 
 | ID do flow | sourceRef | targetRef | Nome/condição |
 | ------------ | ----------- | ----------- | --------------- |
-| Flow_116t3w8 | kkkkm2 | kkkkpb | Entrada da parte. |
-| Flow_1g9i6od | kkkkpb | kkkkxg kkkk1x | sim: agencia_logada preenchida. |
-| Flow_1y0atzf | kkkkpb | kkkkls | Não (KK0195). |
+| Flow_116t3w8 | KK1232 | KK0674 | Entrada da parte. |
+| Flow_1g9i6od | KK0674 | KK0497 KK0273 | sim: agencia_logada preenchida. |
+| Flow_1y0atzf | KK0674 | KK0502 | Não (KK0472). |
 
-Demais kkkkoa (kkkkxg → kkkkno → KK0049 → kkkkjb / kkkknz → kkkkb0, etc.) conferir no kkkkhk.
+Demais KK0649 (KK0497 → KK0111 → KK0339 → KK0596 / KK0597 → KK0503, etc.) conferir no KK0172.
 
-### 2.4 Condições de kkkk7v
-### 2.4.1 KK0149 (KK0189 da KK0190)
+### 2.4 Condições de KK0669
+### 2.4.1 KK0309 (KK1181 da KK0314)
 
-| kkkk8l ID | Tipo de KK0013 | Condição | Flow | Target |
+| KK1331 ID | Tipo de KK0308 | Condição | Flow | Target |
 |---------|------------------|----------|------|--------|
-| kkkklr | KK0192 | — | Flow_1h18suh | kkkkno |
-| kkkkls | KK0192 | — | Flow_049gmlz | kkkkno |
-| kkkkjb | KK0192 | — | Flow_0dcefc1 | kkkkpg |
-| kkkknz | KK0192 | — | Flow_1lsqeit | Gateway_1rc003q |
-| kkkkb0 | KK0192 | — | Flow_02c7u0n | kkkk1b |
+| KK0500 | KK0991 | — | Flow_1h18suh | KK0111 |
+| KK0502 | KK0991 | — | Flow_049gmlz | KK0111 |
+| KK0596 | KK0991 | — | Flow_0dcefc1 | KK0697 |
+| KK0597 | KK0991 | — | Flow_1lsqeit | Gateway_1rc003q |
+| KK0503 | KK0991 | — | Flow_02c7u0n | KK0744 |
 
 
 
-| ID kkkk7v | Nome | Expressão (ex.: `${...}`) | Ramo | Flow | Target |
+| ID KK0669 | Nome | Expressão (ex.: `${...}`) | Ramo | Flow | Target |
 | ------------ | ------ | --------------------------- | ------ | ------ | -------- |
-| kkkkpb | Tem agencia ? | `${kkkk9o.hasVariable('agencia_logada') && agencia_logada != null && agencia_logada != ""}` | sim | Flow_1g9i6od | kkkkxg kkkk1x |
-| kkkkpb | Tem agencia ? | (KK0195) | Não | Flow_1y0atzf | kkkkls |
+| KK0674 | Tem agencia ? | `${KK0615.hasVariable('agencia_logada') && agencia_logada != null && agencia_logada != ""}` | sim | Flow_1g9i6od | KK0497 KK0273 |
+| KK0674 | Tem agencia ? | (KK0472) | Não | Flow_1y0atzf | KK0502 |
 
-### 2.5 kkkk5v kkkkhk (visão da parte)
+### 2.5 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
-kkkkvq principal: kkkkis "kkkklq" → kkkkxg (com kkkk1o) ou kkkkxg sem kkkk1o → kkkkno → KK0049 → kkkkjb / kkkknz → kkkkb0. Ramos de exceção (erro kkkkml, não elegível, kkkklv) no kkkkhk.
+KK0650 principal: KK0668 "KK1341" → KK0497 (com KK0046) ou KK0497 sem KK0046 → KK0111 → KK0339 → KK0596 / KK0597 → KK0503. Ramos de exceção (erro KK0330, não elegível, KK1255) no KK0172.
 
 ```mermaid
 %%{init: {
@@ -3779,9 +3771,9 @@ kkkkvq principal: kkkkis "kkkklq" → kkkkxg (com kkkk1o) ou kkkkxg sem kkkk1o �
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -3791,15 +3783,15 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
   direction LR
   IN((•))
-  IN --> GW{kkkklq<br/>kkkkpb}
-  GW -->|sim| DC([kkkke6 com kkkk1o<br/>kkkklr])
-  GW -->|Não| DSA([kkkke6 sem kkkk1o<br/>kkkkls])
-  DC --> AC([Atualizar kkkk1x<br/>kkkkno])
+  IN --> GW{KK1341<br/>KK0674}
+  GW -->|sim| DC([KK0496 com KK0046<br/>KK0500])
+  GW -->|Não| DSA([KK0496 sem KK0046<br/>KK0502])
+  DC --> AC([Atualizar KK0273<br/>KK0111])
   DSA --> AC
-  AC --> CS([Consulta kkkkxr<br/>KK0049])
-  CS --> ES([Escolha kkkkxr<br/>kkkkjb])
-  ES --> EU([Escolha upgrade<br/>kkkknz])
-  EU --> DP([kkkke6 kkkk3l<br/>kkkkb0])
+  AC --> CS([Consulta KK1254<br/>KK0339])
+  CS --> ES([Escolha KK1254<br/>KK0596])
+  ES --> EU([Escolha upgrade<br/>KK0597])
+  EU --> DP([KK0496 KK1086<br/>KK0503])
   DP --> OUT(( ))
 
   style IN fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
@@ -3816,63 +3808,63 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Escrita por | Lida por | Usada em condição | Observação |
 | ---------- | ------------- | ---------- | ------------------- | ------------ |
-| agencia_logada | KK0188 anterior / start | kkkkpb | sim: agencia_logada != null && != "" | Define ramo kkkkxg com/sem kkkk1o. |
-| KK0132 | kkkklr / kkkkls | etapas seguintes | — | Resposta do kkkkxg. |
-| kkkkxr, KK0119, KK0113 | KK0049, kkkkjb | kkkkax (KK0188 6), etc. | — | Segmentação e kkkkg3. |
-| kkkkeo | KK0109, KK0110 | kkkkpb (em ramos a montante) | — | Elegibilidade do kkkk1x. |
-| situacao_consulta_segmento, KK0051, KK0050 | KK0049 / KK0028 | kkkkps de exceção | erros (erro kkkkml, GQ NOT_FOUND, numeroFuncional 000000000) | Ramos de erro documentados no kkkkhk. |
+| agencia_logada | KK1000 anterior / start | KK0674 | sim: agencia_logada != null && != "" | Define ramo KK0497 com/sem KK0046. |
+| KK1171 | KK0500 / KK0502 | etapas seguintes | — | Resposta do KK0497. |
+| KK1254, KK0288, KK1256 | KK0339, KK0596 | KK0675 (KK1000 6), etc. | — | Segmentação e KK1467. |
+| KK0550 | KK1236, KK1237 | KK0674 (em ramos a montante) | — | Elegibilidade do KK0273. |
+| situacao_consulta_segmento, KK1189, KK1188 | KK0339 / KK1245 | KK0711 de exceção | erros (erro KK0330, GQ NOT_FOUND, numeroFuncional 000000000) | Ramos de erro documentados no KK0172. |
 
 ---
 
-## 4. kkkkxe de kkkkag (KK0199)
+## 4. KK1145 de KK0911 (KK1139)
 
-| ID KK0148 / kkkk9q | Regra em uma linha |
+| ID KK1223 / KK1332 | Regra em uma linha |
 | ------------------ | --------------------- |
-| kkkkno, kkkkm6, atualizar_representante | Atualizam kkkksx no kkkkxv; kkkkvo conforme kkkkaq/KK0203 do kkkkhk. |
-| kkkkm3 | Consulta kkkkxr; preenche kkkkxr, KK0119, situacao_consulta_segmento; ramos de erro (não elegível, kkkklv) no kkkkhk. |
-| KK0109, KK0110 | Verificação de kkkkeo (KK0044); resultado usado em kkkkaf a montante. Conferir conditionExpression no kkkkhk. |
+| KK0111, KK0112, atualizar_representante | Atualizam KK0404 no KK1292; KK1423 conforme KK0473/KK0775 do KK0172. |
+| KK1222 | Consulta KK1254; preenche KK1254, KK0288, situacao_consulta_segmento; ramos de erro (não elegível, KK1255) no KK0172. |
+| KK1236, KK1237 | Verificação de KK0550 (KK0732); resultado usado em KK0712 a montante. Conferir conditionExpression no KK0172. |
 
 ---
 
-## 5. Pseudo-KK0021 (KK0199)
+## 5. Pseudo-KK0398 (KK1139)
 
-### 5.1 Scripts de atualização de kkkk1x e kkkkml kkkkxr
+### 5.1 Scripts de atualização de KK0273 e KK0330 KK1254
 
-**KK0188:** 5 — Segmentação e kkkkxg  
-**Objetivo:** Atualizar kkkk1x e consultar kkkkxr/kkkkss; definir kkkkeo. Comportamento dos delegates e KK0028 deve ser conferido no kkkkhk (KK0203, kkkkvo de resposta).
+**KK1000:** 5 — Segmentação e KK0497  
+**Objetivo:** Atualizar KK0273 e consultar KK1254/KK0936; definir KK0550. Comportamento dos delegates e KK1245 deve ser conferido no KK0172 (KK0775, KK1423 de resposta).
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217 (KK0199 — conferir kkkkhk):
-  KK0220 kkkkno (kkkkaq) com dados do contexto
-  OBTER KK0132 (kkkklr ou kkkkls)
-  KK0220 KK0049
-  KK0223 sucesso KK0224
-    ATRIBUIR kkkkxr, KK0119 conforme resposta
-  KK0221
-    ATRIBUIR situacao_consulta_segmento, KK0051 (ramos de exceção no kkkkhk)
-  KK0226 KK0223
-  EXECUTAR KK0109 / KK0110 (kkkkeo)
-  KK0220 kkkkb0
+KK1129 (KK1139 — conferir KK0172):
+  KK0260 KK0111 (KK0473) com dados do contexto
+  OBTER KK1171 (KK0500 ou KK0502)
+  KK0260 KK0339
+  KK1249 sucesso KK0579
+    ATRIBUIR KK1254, KK0288 conforme resposta
+  KK1269
+    ATRIBUIR situacao_consulta_segmento, KK1189 (ramos de exceção no KK0172)
+  KK0642 KK1249
+  EXECUTAR KK1236 / KK1237 (KK0550)
+  KK0260 KK0503
 ```
 
-#### Referências kkkkhk
+#### Referências KK0172
 
-- **ids:** kkkkno, kkkkm3, KK0109, KK0110, kkkkb0.
-- **kkkkhk:** `kkkkk6`.
+- **ids:** KK0111, KK1222, KK1236, KK1237, KK0503.
+- **KK0172:** `KK0953`.
 
 ---
 
-## 6. kkkkvt e saídas da parte
+## 6. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** entrada única da KK0188 1; núcleo da KK0188 5; saídas para KK0188 6 (e exceções).
+**KK0491 de contexto:** entrada única da KK1000 1; núcleo da KK1000 5; saídas para KK1000 6 (e exceções).
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -3893,9 +3885,9 @@ KK0217 (KK0199 — conferir kkkkhk):
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -3904,22 +3896,22 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Entrada["Origem"]
-    KK0216([kkkkm2 KK0188 1])
+    KK1224([KK1232 KK1000 1])
   end
-  subgraph Parte5["KK0188 5 - Segmentação"]
-    GW{kkkklq}
-    DC([kkkklr])
-    DSA([kkkkls])
-    DP([kkkkb0])
+  subgraph Parte5["KK1000 5 - Segmentação"]
+    GW{KK1341}
+    DC([KK0500])
+    DSA([KK0502])
+    DP([KK0503])
   end
-  subgraph kkkkvw["Destino"]
-    P6([KK0188 6 / exceções])
+  subgraph KK1207["Destino"]
+    P6([KK1000 6 / exceções])
   end
-  KK0216 -->|116t3w8| GW
+  KK1224 -->|116t3w8| GW
   GW --> DC
   GW --> DSA
   DP --> P6
-  style KK0216 fill:#eceff1,stroke:#546e7a
+  style KK1224 fill:#eceff1,stroke:#546e7a
   style GW fill:#fff8e1,stroke:#e65100,stroke-width:2px
   style DC fill:#bbdefb,stroke:#1565c0
   style DSA fill:#bbdefb,stroke:#1565c0
@@ -3927,177 +3919,170 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style P6 fill:#bbdefb,stroke:#1565c0
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
-| kkkk8l / elemento de destino | Flow | Origem / observação |
+| KK1331 / elemento de destino | Flow | Origem / observação |
 | ---------------------------- | ---------------- | ---------------------- |
-| kkkkpb | Flow_116t3w8 | kkkkm2 (KK0188 1). |
+| KK0674 | Flow_116t3w8 | KK1232 (KK1000 1). |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Flow / ramo | Destino | Observação |
 | ------------- | ---------------- | ------------ |
-| (KK0046 principal) | KK0188 6 (kkkkax, KK0056, etc.) | kkkkb0 e kkkkxc. |
-| (exceções) | não elegível, kkkklv | Ramos documentados no kkkkhk. |
+| (KK0651 principal) | KK1000 6 (KK0675, KK0418, etc.) | KK0503 e KK1272. |
+| (exceções) | não elegível, KK1255 | Ramos documentados no KK0172. |
 
-**Relação com kkkkzo kkkk6k:** O kkkkxg (KK0188 5) kkkkdp kkkkss com **KK0052**, planos e benefícios; no kkkkzz kkkkzo kkkk6k essas kkkkvo são reutilizadas no **ramo pós-kkkks7** (KK0188 12), sem segunda kkkkmr ao kkkkxg. Ver [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md) e [KK0024.md](../../KK0105/KK0024.md).
+**Relação com KK0902 KK0921:** O KK0497 (KK1000 5) KK1186 KK0936 com **KK0745**, planos e benefícios; no KK1020 KK0902 KK0921 essas KK1423 são reutilizadas no **ramo pós-KK0544** (KK1000 12), sem segunda KK0259 ao KK0497. Ver [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md) e [KK0899.md](../../KK0898/KK0899.md).
 
 ---
 
-## 7. Referências no kkkkhk
+## 7. Referências no KK0172
 
-- kkkkis: `kkkkpb`.
-- Tasks: `kkkklr`, `kkkkls`, `kkkkno`, `KK0049`, `kkkkjb`, `kkkknz`, `kkkkb0`.
-- Flows: Flow_116t3w8, Flow_1g9i6od, Flow_1y0atzf (e demais da cadeia no kkkkhk).
-- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 5). **Guia:** [FLUXO_05_guia.md](FLUXO_05_guia.md). **User story:** [USER_STORY_05_segmentacao_direcionador.md](USER_STORY_05_segmentacao_direcionador.md).
+- KK0668: `KK0674`.
+- Tasks: `KK0500`, `KK0502`, `KK0111`, `KK0339`, `KK0596`, `KK0597`, `KK0503`.
+- Flows: Flow_116t3w8, Flow_1g9i6od, Flow_1y0atzf (e demais da cadeia no KK0172).
+- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 5). **Guia:** [FLUXO_05_guia.md](FLUXO_05_guia.md). **User story:** [USER_STORY_05_segmentacao_direcionador.md](USER_STORY_05_segmentacao_direcionador.md).
 
 $$$$$
 
 [parte_05_segmentacao_direcionador/USER_STORY_05_segmentacao_direcionador_GENERICO.md]
 XXXXX
-# User Story — KK0188 5: Segmentação e kkkkxg
+# User Story — KK1000 5: Segmentação e KK0497
 
-**KK0184:** `kkkkk6` (kkkkpb, kkkklr, KK0049, kkkkjb, kkkkb0, etc.)
+**KK0655:** `KK0953` (KK0674, KK0500, KK0339, KK0596, KK0503, etc.)
 
 ---
 
 ## User Story
 
-**Como** motor de kkkk55 da kkkkfj,  
-**quero** consultar o kkkkxg (com ou sem kkkk1o), atualizar o kkkk1x e definir kkkkxr e kkkkss inicial,  
-**para** que a kkkk3l siga com kkkkvg e kkkkss corretas para as etapas seguintes.
+**Como** motor de KK1069 da KK0798,  
+**quero** consultar o KK0497 (com ou sem KK0046), atualizar o KK0273 e definir KK1254 e KK0936 inicial,  
+**para** que a KK1086 siga com KK1251 e KK0936 corretas para as etapas seguintes.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- **CA1 – KK0007 “kkkklq”**  
-O KK0046 pergunta se o kkkk1x tem kkkk1o (kkkk7v `kkkkpb`). Se sim, segue pelo ramo com kkkk1o (kkkkxg do kkkk1x); se não, pelo ramo sem kkkk1o (kkkkxg sem kkkk1o).
-- **CA2 – Consulta e aplicação do kkkkxg**  
-O kkkkxv executa na ordem: kkkkxg do kkkk1x (com ou sem kkkk1o), atualização do kkkk1x, kkkkml de kkkkxr, escolha de kkkkxr, escolha de upgrade (quando aplicável) e kkkkxg da kkkk3l. Tudo conforme a ordem definida no kkkkhk.
-- **CA3 – kkkkwx do kkkkxg**  
-As respostas do kkkkxg (ex.: KK0132) são gravadas e ficam disponíveis para as etapas seguintes (kkkkss, kkkkfv, etc.).
-- **CA4 – Casos de exceção**  
-Os caminhos em que o kkkk1x não é elegível ou o kkkkxr não é atendido estão modelados e tratados conforme o kkkkhk.
-- **CA5 – Próximo passo**  
-Ao final desta parte, a kkkk3l tem kkkkxr e kkkkss definidos e o KK0046 segue para as próximas etapas (ex.: dados de kkkkss, kkkkfv/kkkkg3).
+- [ ] **CA1 – KK0466 “KK1341”**  
+  O KK0651 pergunta se o KK0273 tem KK0046 (KK0669 `KK0674`). Se sim, segue pelo ramo com KK0046 (KK0497 do KK0273); se não, pelo ramo sem KK0046 (KK0497 sem KK0046).
+
+- [ ] **CA2 – Consulta e aplicação do KK0497**  
+  O KK1292 executa na ordem: KK0497 do KK0273 (com ou sem KK0046), atualização do KK0273, KK0330 de KK1254, escolha de KK1254, escolha de upgrade (quando aplicável) e KK0497 da KK1086. Tudo conforme a ordem definida no KK0172.
+
+- [ ] **CA3 – KK0399 do KK0497**  
+  As respostas do KK0497 (ex.: KK1171) são gravadas e ficam disponíveis para as etapas seguintes (KK0936, KK0135, etc.).
+
+- [ ] **CA4 – Casos de exceção**  
+  Os caminhos em que o KK0273 não é elegível ou o KK1254 não é atendido estão modelados e tratados conforme o KK0172.
+
+- [ ] **CA5 – Próximo passo**  
+  Ao final desta parte, a KK1086 tem KK1254 e KK0936 definidos e o KK0651 segue para as próximas etapas (ex.: dados de KK0936, KK0135/KK1467).
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
+| Flow | Origem | Destino |
+| ------ | -------- | --------- |
+| `Flow_116t3w8` | `KK1232` (KK1000 1) | `KK0674` |
 
-| Flow           | Origem              | Destino  |
-| -------------- | ------------------- | -------- |
-| `Flow_116t3w8` | `kkkkm2` (KK0188 1) | `kkkkpb` |
+### Scripts e KK1146 de KK0911
 
+| ID KK1332 / KK1223 | Regra resumida |
+| ------------------ | ---------------- |
+| `KK0111` | Delegate; atualização de KK0273. |
+| `KK0339` | Delegate; KK0330 KK1254. |
+| `KK1236` / `KK1237` | Elegibilidade do KK0273. |
+| `KK0596`, `KK0597` | User/service; escolha de KK1254 e upgrade. |
+| `KK0503` | Delegate; aplica KK0497 na KK1086. |
 
-### Scripts e kkkkx5 de kkkkag
+Exceções: não elegível, KK1255 (`situacao_consulta_segmento`, `KK1189`, `KK1188`). Ver [FLUXO_05_tecnico](FLUXO_05_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
+### KK1002 e KK1423
 
-| ID kkkk9q / KK0148  | Regra resumida                             |
-| ------------------- | ------------------------------------------ |
-| `kkkkno`            | Delegate; atualização de kkkk1x.           |
-| `KK0049`            | Delegate; kkkkml kkkkxr.                   |
-| `KK0109` / `KK0110` | Elegibilidade do kkkk1x.                   |
-| `kkkkjb`, `kkkknz`  | User/service; escolha de kkkkxr e upgrade. |
-| `kkkkb0`            | Delegate; aplica kkkkxg na kkkk3l.         |
+| Variável | Onde escrita / lida | Observação |
+| ---------- | ---------------------- | ------------ |
+| `agencia_logada` | KK1000 anterior / start; lida por `KK0674` | Condiciona ramo com/sem KK0046. |
+| `KK1171` | `KK0500` / `KK0502` | Resposta do KK0497. |
+| `KK1254`, `KK0288`, `KK1256` | `KK0339`, `KK0596`; KK1000 6 | Segmentação e KK1467. |
+| `KK0550` | KK1236* | Elegibilidade. |
+| `situacao_consulta_segmento`, `KK1189`, `KK1188` | KK0339 / KK1245 | KK0711 de exceção (erro, GQ NOT_FOUND, etc.). |
 
+### KK1145 de KK1406 de campos
 
-Exceções: não elegível, kkkklv (`situacao_consulta_segmento`, `KK0051`, `KK0050`). Ver [FLUXO_05_tecnico](FLUXO_05_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
-
-### KK0129 e kkkkvo
-
-
-| Variável                                         | Onde escrita / lida                        | Observação                                    |
-| ------------------------------------------------ | ------------------------------------------ | --------------------------------------------- |
-| `agencia_logada`                                 | KK0188 anterior / start; lida por `kkkkpb` | Condiciona ramo com/sem kkkk1o.               |
-| `KK0132`                                         | `kkkklr` / `kkkkls`                        | Resposta do kkkkxg.                           |
-| `kkkkxr`, `KK0119`, `KK0113`                     | `KK0049`, `kkkkjb`; KK0188 6               | Segmentação e kkkkg3.                         |
-| `kkkkeo`                                         | KK0109*                                    | Elegibilidade.                                |
-| `situacao_consulta_segmento`, `KK0051`, `KK0050` | KK0049 / KK0028                            | kkkkps de exceção (erro, GQ NOT_FOUND, etc.). |
-
-
-### kkkkxe de kkkkth de campos
-
-*kkkkxe de kkkkth de campos não estão modeladas no kkkkhk; quando existirem, devem ser documentadas em spec/front ou no KK0018.*
+*KK1145 de KK1406 de campos não estão modeladas no KK0172; quando existirem, devem ser documentadas em spec/front ou no KK1378.*
 
 ### Comportamentos fora do núcleo
 
-**kkkkpb (kkkklq):**
+**KK0674 (KK1341):**
 
+| Ramo | Flow | Destino |
+| ------ | ------ | --------- |
+| sim | `Flow_1g9i6od` | `KK0500` |
+| Não (KK0472) | `Flow_1y0atzf` | `KK0502` |
 
-| Ramo         | Flow           | Destino  |
-| ------------ | -------------- | -------- |
-| sim          | `Flow_1g9i6od` | `kkkklr` |
-| Não (KK0195) | `Flow_1y0atzf` | `kkkkls` |
-
-
-Ramos de exceção (não elegível, kkkklv) conforme kkkkhk. Saída da parte para KK0188 6 (`kkkkax`).
+Ramos de exceção (não elegível, KK1255) conforme KK0172. Saída da parte para KK1000 6 (`KK0675`).
 
 ### Partes/etapas adjacentes
 
-
-| KK0188 | Papel   | kkkk59 / observação                                 |
-| ------ | ------- | --------------------------------------------------- |
-| 4      | Origem  | Seleção kkkk1o (`agencia_logada` quando aplicável). |
-| 6      | Destino | kkkk7u/kkkkg3 (`kkkkax`; `KK0113`, `KK0119`).       |
-| 7      | Destino | Limites/kkkkss (KK0046 normal após KK0188 6).       |
-
+| KK1000 | Papel | KK0551 / observação |
+| ------- | -------- | ------------------------- |
+| 4 | Origem | Seleção KK0046 (`agencia_logada` quando aplicável). |
+| 6 | Destino | KK0134/KK1467 (`KK0675`; `KK1256`, `KK0288`). |
+| 7 | Destino | Limites/KK0936 (KK0651 normal após KK1000 6). |
 
 ---
 
-## Referência kkkkhk
+## Referência KK0172
 
-- kkkkpb, kkkklr, kkkkls, kkkkno, KK0049, kkkkjb, kkkknz, kkkkb0.
-
+- KK0674, KK0500, KK0502, KK0111, KK0339, KK0596, KK0597, KK0503.
 
 $$$$$
 
 [parte_06_backoffice_wayout_analise_documentos/FLUXO_06_guia_GENERICO.md]
 XXXXX
-# KK0188 6 — kkkk7u / kkkkg3 / kkkkgt de documentos — guia
+# KK1000 6 — KK0134 / KK1467 / KK0065 de documentos — guia
 
-**O que é esta parte:** trecho em que o kkkk55 trata **kkkkg3**, **upgrade**, **kkkkgt EZ8**, **kkkkgt de fraudes kkkkhy** e **aprovação/recusa kkkkfv**. Inclui kkkk7v "Tem kkkkg3, upgrade, situação especial?", kkkkgt de documentos (kkkkfv e EZ8), KK0137 de fraudes kkkkhy e atualização de status da kkkk3l.
+**O que é esta parte:** trecho em que o KK1069 trata **KK1467**, **upgrade**, **KK0065 EZ8**, **KK0065 de fraudes KK0082** e **aprovação/recusa KK0135**. Inclui KK0669 "Tem KK1467, upgrade, situação especial?", KK0065 de documentos (KK0135 e EZ8), KK1315 de fraudes KK0082 e atualização de status da KK1086.
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Direcionar propostas em situações especiais (kkkkg3, upgrade) para kkkkfv; executar kkkkgt de documentos (EZ8) e kkkkgt de fraudes (kkkkhy); atualizar kkkk3l como aprovada, recusada ou com falha conforme resultado.
+Direcionar propostas em situações especiais (KK1467, upgrade) para KK0135; executar KK0065 de documentos (EZ8) e KK0065 de fraudes (KK0082); atualizar KK1086 como aprovada, recusada ou com falha conforme resultado.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **"Tem kkkkg3, upgrade ou situação especial?"** — O KK0046 verifica e direciona: se sim, envia a kkkk3l para o kkkkfv (kkkkg3, status 86); se não, segue o KK0046 normal de kkkks7.
-- **kkkklg kkkkg3** — kkkklg enviada para o kkkkfv para kkkkgt.
-- **kkkk5o de documentos no kkkkfv** — Inclui montagem do objeto de kkkkgt e kkkkgt EZ8 (tópico de kkkkfv).
-- **kkkk5o de fraudes (kkkkhy)** — kkkky9 de kkkkgt de fraudes executado quando aplicável.
-- **Resultado:** kkkk3l **aprovada** (status 1), **falha na kkkkgt** (status 4), **recusa EZ8** ou **kkkkby** — cada um atualiza o status da kkkk3l.
-- **Resposta do kkkkfv** — KK0007 entre aprovar ou recusar; aprovada kkkkdp ao ponto de convergência.
+- **"Tem KK1467, upgrade ou situação especial?"** — O KK0651 verifica e direciona: se sim, envia a KK1086 para o KK0135 (KK1467, status 86); se não, segue o KK0651 normal de KK0544.
+- **KK1085 KK1467** — KK1085 enviada para o KK0135 para KK0065.
+- **KK0064 de documentos no KK0135** — Inclui montagem do objeto de KK0065 e KK0065 EZ8 (tópico de KK0135).
+- **KK0064 de fraudes (KK0082)** — KK1314 de KK0065 de fraudes executado quando aplicável.
+- **Resultado:** KK1086 **aprovada** (status 1), **falha na KK0065** (status 4), **recusa EZ8** ou **KK0665** — cada um atualiza o status da KK1086.
+- **Resposta do KK0135** — KK0466 entre aprovar ou recusar; aprovada KK1186 ao ponto de convergência.
 
 ---
 
-## 3. Resumo para KK0140, KK0142 e KK0143
+## 3. Resumo para KK0726, KK1131 e KK1031
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **Ramos** | Wayout/upgrade -> kkkkfv; KK0046 normal -> kkkks7. kkkk5o EZ8 e kkkkhy no kkkkfl. |
-| **Status** | 86 (kkkkg3), 1 (aprovada), 4 (falha kkkkgt), recusa EZ8, kkkkby. |
-| **Saída** | Aprovada → kkkkdp ao ponto de convergência; recusa → manutenção da kkkkgq ou kkkkcg. |
+| **Ramos** | Wayout/upgrade -> KK0135; KK0651 normal -> KK0544. KK0064 EZ8 e KK0082 no KK1324. |
+| **Status** | 86 (KK1467), 1 (aprovada), 4 (falha KK0065), recusa EZ8, KK0665. |
+| **Saída** | Aprovada → KK1186 ao ponto de convergência; recusa → manutenção da KK0797 ou KK0567. |
 
 ---
 
-## 4. kkkk5v
+## 4. KK0491
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -4118,9 +4103,9 @@ Direcionar propostas em situações especiais (kkkkg3, upgrade) para kkkkfv; exe
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -4128,11 +4113,11 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  A{Tem kkkkg3/upgrade?} -->|Sim| B([kkkklg kkkkg3])
-  A -->|Não| C([kkkkvq normal kkkks7])
-  B --> D([Manutenção kkkkgq])
-  E([kkkk5o EZ8/kkkkhy]) --> F{Aprovado?}
-  F -->|Sim| G([kkkklg aprovada])
+  A{Tem KK1467/upgrade?} -->|Sim| B([KK1085 KK1467])
+  A -->|Não| C([KK0650 normal KK0544])
+  B --> D([Manutenção KK0797])
+  E([KK0064 EZ8/KK0082]) --> F{Aprovado?}
+  F -->|Sim| G([KK1085 aprovada])
   F -->|Não| H([Falha / recusa])
   style A fill:#fff8e1,stroke:#e65100,stroke-width:2px
   style B fill:#eceff1,stroke:#546e7a
@@ -4146,92 +4131,92 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 5. KK0170
+## 5. KK1041
 
-Para kkkk5j de kkkkiq, kkkkoa e delegates use **FLUXO_06_tecnico.md**.
+Para KK0755 de KK1335, KK0649 e delegates use **FLUXO_06_tecnico.md**.
 
 $$$$$
 
 [parte_06_backoffice_wayout_analise_documentos/FLUXO_06_tecnico_GENERICO.md]
 XXXXX
-# KK0188 6 — kkkk7u kkkkg3 kkkkgt de documentos — documentação kkkk5u
+# KK1000 6 — KK0134 KK1467 KK0065 de documentos — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** kkkkax (Tem kkkkg3, upgrade, situação especial?), kkkkji, kkkko1, KK0114, kkkkpt, kkkkoe, kkkk1c, kkkkkt, kkkkaw.
+**KK0655:** `KK0953`  
+**KK0598:** KK0675 (Tem KK1467, upgrade, situação especial?), KK0053, KK0019, KK0054, KK1316, KK1121, KK1099, KK1107, KK0680.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkkjm` | kkkk8m — kkkkt3 (exceção kkkkzy) |
-| `kkkk02` | kkkk8m — kkkkl1 (KK0137 kkkkf1) |
-| `kkkkox` | kkkk8m — Confirmação dados empresa (kkkkf1) |
-| `kkkkji`, `kkkkjp` | kkkk7u — kkkkgt documentos/kkkkg5 |
+| `KK0564` | KK1388 — KK0563 (exceção KK0967) |
+| `KK0769` | KK1388 — KK0768 (KK1315 KK1375) |
+| `KK0319` | KK1388 — Confirmação dados empresa (KK1375) |
+| `KK0053`, `KK0523` | KK0134 — KK0065 documentos/KK0661 |
 
 ---
 
 ## 1. Objetivo da parte
 
-Ramos **kkkkg3** e **upgrade/situação especial**; kkkkgt de documentos (kkkkfv, EZ8, fraudes kkkkhy); aprovação ou recusa da kkkk3l. kkkkax direciona para kkkkoe (sim) ou KK0046 normal (Não → kkkko3). User kkkk9q kkkkji; kkkkfl e external/call para EZ8 e kkkkhy; kkkkaf de resultado (aprovada, falha, kkkkaa).
+Ramos **KK1467** e **upgrade/situação especial**; KK0065 de documentos (KK0135, EZ8, fraudes KK0082); aprovação ou recusa da KK1086. KK0675 direciona para KK1121 (sim) ou KK0651 normal (Não → KK0021). User KK1332 KK0053; KK1324 e external/call para EZ8 e KK0082; KK0712 de resultado (aprovada, falha, KK1190).
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 kkkkis principal
+### 2.1 KK0668 principal
 
 | Tipo | ID | Nome (name) | Observação |
 | ------------------ | ------------------ | ------------------------------------------ | ------------ |
-| kkkk81 | `kkkkax` | Tem kkkkg3, upgrade, situação especial? | Entrada após convergência (ex.: kkkk1c). kkkkvv: sim → Flow_100gyb6 (kkkkg3/ramo kkkkg3); Não → Flow_1a72e8p → kkkko3. |
+| KK0614 | `KK0675` | Tem KK1467, upgrade, situação especial? | Entrada após convergência (ex.: KK1099). KK1213: sim → Flow_100gyb6 (KK1467/ramo KK1467); Não → Flow_1a72e8p → KK0021. |
 
-### 2.2 Tasks e kkkk66
+### 2.2 Tasks e KK1326
 
 | Tipo | ID do elemento |
 | ----------------- | ---------------- |
-| kkkk8m | kkkkji |
-| kkkk8j | kkkko1 |
-| kkkk8n (external) | KK0114 (kkkk91 jvcc-analise-kkkkfv) |
-| kkkk8k | kkkkpt (kkkkbj) |
-| kkkk8n | kkkkoe, kkkk1c, kkkkkt |
-| kkkk81 | kkkkaw (após kkkkgt) |
+| KK1388 | KK0053 |
+| KK1320 | KK0019 |
+| KK1276 (external) | KK0054 (KK1363 jvcc-analise-KK0135) |
+| KK0215 | KK1316 (KK1469) |
+| KK1276 | KK1121, KK1099, KK1107 |
+| KK0614 | KK0680 (após KK0065) |
 
-### 2.3 Sequence kkkkoa principais
+### 2.3 Sequence KK0649 principais
 
 | ID do flow | sourceRef | targetRef | Nome/condição |
 | ------------ | ----------- | ----------- | --------------- |
-| Flow_025xqbq | (convergência) | kkkkax | Entrada na parte. |
-| Flow_100gyb6 | kkkkax | kkkkoe / kkkkay | sim: kkkkg3/upgrade/situação especial. |
-| Flow_1a72e8p | kkkkax | kkkko3 | Não (KK0046 normal). |
-| Flow_lj6lcuj | kkkko1 | (saídas) | Saída do kkkkfl. |
-| Flow_0q6wcaq | (kkkkgt) | Event_0q6wcaq | Ramos de erro/recusa. |
+| Flow_025xqbq | (convergência) | KK0675 | Entrada na parte. |
+| Flow_100gyb6 | KK0675 | KK1121 / KK0676 | sim: KK1467/upgrade/situação especial. |
+| Flow_1a72e8p | KK0675 | KK0021 | Não (KK0651 normal). |
+| Flow_lj6lcuj | KK0019 | (saídas) | Saída do KK1324. |
+| Flow_0q6wcaq | (KK0065) | Event_0q6wcaq | Ramos de erro/recusa. |
 
-Condição sim do kkkkax: KK0113/KK0119, KK0130 == 'kkkkg3', KK0133 != "Nenhuma". Conferir conditionExpression no kkkkhk.
+Condição sim do KK0675: KK1256/KK0288, KK1180 == 'KK1467', KK1301 != "Nenhuma". Conferir conditionExpression no KK0172.
 
-### 2.4 Condições de kkkk7v
-### 2.4.1 KK0149 (KK0189 da KK0190)
+### 2.4 Condições de KK0669
+### 2.4.1 KK0309 (KK1181 da KK0314)
 
-KK0188 6 é dominada por kkkkaf e kkkk66 (kkkkg3, kkkkgt documentos, kkkkhy). KK0149 relevantes estão nos kkkkad; KK0046 principal: kkkk1c → Flow_025xqbq → kkkkax; kkkkoe e kkkk1j mantidas no kkkkhk.
+KK1000 6 é dominada por KK0712 e KK1326 (KK1467, KK0065 documentos, KK0082). KK0309 relevantes estão nos KK1319; KK0651 principal: KK1099 → Flow_025xqbq → KK0675; KK1121 e KK1106 mantidas no KK0172.
 
-| kkkk8l ID / elemento | Tipo | Condição | Flow | Target |
+| KK1331 ID / elemento | Tipo | Condição | Flow | Target |
 |--------------------|------|----------|------|--------|
-| kkkk1c | Saída (convergência) | — | Flow_025xqbq | kkkkax |
+| KK1099 | Saída (convergência) | — | Flow_025xqbq | KK0675 |
 
 
 
-| ID kkkk7v | Nome | Expressão (resumo) | Ramo | Observação |
+| ID KK0669 | Nome | Expressão (resumo) | Ramo | Observação |
 | ------------ | ------ | -------------------- | ------ | ------------ |
-| kkkkax | Tem kkkkg3, upgrade, situação especial? | `${(KK0113 == "3" && KK0119 == "L") \ | \ | ... \ | \ | KK0130 == 'kkkkg3' \ | \ | (KK0133 != "Nenhuma" && != "nenhuma")}` | sim | Flow_100gyb6. |
-| kkkkax | Tem kkkkg3, upgrade, situação especial? | (KK0195) | Não | Flow_1a72e8p → kkkko3. |
-| kkkkaw | (resultado kkkkgt) | (aprovada) | aprovada | Flow_1j61cuj → kkkk1c. |
-| kkkkaw | (resultado kkkkgt) | (KK0195) | falha / kkkkaa | Flow_08ceoql → Event_05idg99 ou KK0108 (conforme ramo). |
+| KK0675 | Tem KK1467, upgrade, situação especial? | `${(KK1256 == "3" && KK0288 == "L") \ | \ | ... \ | \ | KK1180 == 'KK1467' \ | \ | (KK1301 != "Nenhuma" && != "nenhuma")}` | sim | Flow_100gyb6. |
+| KK0675 | Tem KK1467, upgrade, situação especial? | (KK0472) | Não | Flow_1a72e8p → KK0021. |
+| KK0680 | (resultado KK0065) | (aprovada) | aprovada | Flow_1j61cuj → KK1099. |
+| KK0680 | (resultado KK0065) | (KK0472) | falha / KK1190 | Flow_08ceoql → Event_05idg99 ou KK1238 (conforme ramo). |
 
-### 2.5 kkkk5v kkkkhk (visão da parte)
+### 2.5 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
 ```mermaid
 %%{init: {
@@ -4252,9 +4237,9 @@ KK0188 6 é dominada por kkkkaf e kkkk66 (kkkkg3, kkkkgt documentos, kkkkhy). KK
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -4264,15 +4249,15 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
   direction LR
   IN((•))
-  IN --> GW{Tem kkkkg3, upgrade,<br/>situação especial?}
-  GW -->|sim| W([kkkklg kkkkg3<br/>kkkkoe])
-  GW -->|Não| CX([Continuar KK0046<br/>kkkko3])
-  W --> SUB[kkkk5o kkkkfv<br/>kkkko1]
-  SUB --> EZ8([kkkk5o documentos EZ8<br/>KK0114])
-  EZ8 --> kkkkhy([kkkky9 kkkkhy<br/>KK0137 kkkkhy])
-  kkkkhy --> GW2{Resultado kkkkgt}
-  GW2 -->|aprovada| OK([kkkklg aprovada kkkkfv<br/>kkkk1c])
-  GW2 -->|falha| FK([kkkklg falha kkkkgt BKO<br/>kkkkkt])
+  IN --> GW{Tem KK1467, upgrade,<br/>situação especial?}
+  GW -->|sim| W([KK1085 KK1467<br/>KK1121])
+  GW -->|Não| CX([Continuar KK0651<br/>KK0021])
+  W --> SUB[KK0064 KK0135<br/>KK0019]
+  SUB --> EZ8([KK0064 documentos EZ8<br/>KK0054])
+  EZ8 --> KK0082([KK1314 KK0082<br/>KK1315 KK0082])
+  KK0082 --> GW2{Resultado KK0065}
+  GW2 -->|aprovada| OK([KK1085 aprovada KK0135<br/>KK1099])
+  GW2 -->|falha| FK([KK1085 falha KK0065 BKO<br/>KK1107])
   OK --> OUT(( ))
   FK --> OUT2(( ))
 
@@ -4284,7 +4269,7 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style W fill:#eceff1,stroke:#546e7a
   style SUB fill:#eceff1,stroke:#546e7a
   style EZ8 fill:#eceff1,stroke:#546e7a
-  style kkkkhy fill:#eceff1,stroke:#546e7a
+  style KK0082 fill:#eceff1,stroke:#546e7a
   style OK fill:#c8e6c9
   style FK fill:#ffcdd2
   style CX fill:#bbdefb,stroke:#1565c0
@@ -4292,62 +4277,62 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Escrita por | Lida por | Usada em condição | Observação |
 | ---------- | ------------- | ---------- | ------------------- | ------------ |
-| KK0113, KK0119 | KK0188 5 | kkkkax | Condição kkkkg3/upgrade | Define se segue para kkkkg3. |
-| KK0130 | KK0188 9 (a montante) | kkkkax | == 'kkkkg3' | Wayout por kkkks4. |
-| KK0133 | (formulários / upstream) | kkkkax | != "Nenhuma" | Situação especial. |
-| resultado_analise_backoffice | kkkkji | kkkkps de kkkkaa/erro | ERRO_INTERNO, ERRO_PAYLOAD | Conferir kkkkhk. |
-| backoffice_retry | (KK0148/kkkk9q) | Condição kkkkaa | backoffice_retry > 3 | Conferir kkkkhk. |
-| conclusao_analise_fraude | KK0137 kkkkhy | kkkkis (KK0188 12/16) | Confirmação de kkkkyd | Conferir kkkkhk. |
+| KK1256, KK0288 | KK1000 5 | KK0675 | Condição KK1467/upgrade | Define se segue para KK1467. |
+| KK1180 | KK1000 9 (a montante) | KK0675 | == 'KK1467' | Wayout por KK0149. |
+| KK1301 | (formulários / upstream) | KK0675 | != "Nenhuma" | Situação especial. |
+| resultado_analise_backoffice | KK0053 | KK0711 de KK1190/erro | ERRO_INTERNO, ERRO_PAYLOAD | Conferir KK0172. |
+| backoffice_retry | (KK1223/KK1332) | Condição KK1190 | backoffice_retry > 3 | Conferir KK0172. |
+| conclusao_analise_fraude | KK1315 KK0082 | KK0668 (KK1000 12/16) | Confirmação de KK0660 | Conferir KK0172. |
 
 ---
 
-## 4. kkkkxe de kkkkag (KK0199)
+## 4. KK1145 de KK0911 (KK1139)
 
-| ID KK0148 / kkkk9q | Regra em uma linha |
+| ID KK1223 / KK1332 | Regra em uma linha |
 | ------------------ | --------------------- |
-| KK0104 | Monta objetos para kkkkgt EZ8 a partir de KK0123; inclui selfie, DI frente, situações especiais (menor emancipado, formulário não alfabetização); prepara KK0123 para KK0114. |
-| KK0108 | Envio de KK0151 com motivo de recusa do kkkkfv; conferir KK0203 no kkkkhk. |
+| KK0893 | Monta objetos para KK0065 EZ8 a partir de KK0524; inclui selfie, DI frente, situações especiais (menor emancipado, formulário não alfabetização); prepara KK0524 para KK0054. |
+| KK1238 | Envio de KK0530 com motivo de recusa do KK0135; conferir KK0775 no KK0172. |
 
 ---
 
-## 5. Pseudo-KK0021 (KK0199)
+## 5. Pseudo-KK0398 (KK1139)
 
-### 5.1 KK0216 KK0104
+### 5.1 KK1224 KK0893
 
-**KK0188:** 6 — kkkk7u / kkkkg3 / kkkkgt de documentos  
-**Nome (kkkkhk):** Monta objetos de kkkkgt  
-**Formato:** KK0044  
-**Objetivo:** Preparar lista de documentos (KK0123) para a kkkkgt EZ8; incluir selfie, DI, situações especiais e comprovantes conforme kkkkhk.
+**KK1000:** 6 — KK0134 / KK1467 / KK0065 de documentos  
+**Nome (KK0172):** Monta objetos de KK0065  
+**Formato:** KK0732  
+**Objetivo:** Preparar lista de documentos (KK0524) para a KK0065 EZ8; incluir selfie, DI, situações especiais e comprovantes conforme KK0172.
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217 (KK0199 — conferir kkkkhk):
-  OBTER KK0123 do contexto
-  PARA CADA kkkkta EM KK0123 FAZER
-    KK0223 tipo_documento == "selfie" KK0224 adicionar id_conteudo_di4, tipo_documento; setar id_conteudo_selfie_di4
-    KK0223 tipo_documento == "di frente" KK0224 adicionar id_conteudo_di4, tipo_documento
-  KK0226 PARA
-  KK0223 KK0133 (menor emancipado, etc.) KK0224 adicionar kkkkvu conforme kkkkhk
-  ATRIBUIR KK0123 = nova lista
+KK1129 (KK1139 — conferir KK0172):
+  OBTER KK0524 do contexto
+  PARA CADA KK0521 EM KK0524 FAZER
+    KK1249 tipo_documento == "selfie" KK0579 adicionar id_conteudo_di4, tipo_documento; setar id_conteudo_selfie_di4
+    KK1249 tipo_documento == "di frente" KK0579 adicionar id_conteudo_di4, tipo_documento
+  KK0642 PARA
+  KK1249 KK1301 (menor emancipado, etc.) KK0579 adicionar KK0578 conforme KK0172
+  ATRIBUIR KK0524 = nova lista
 ```
 
-#### Referências kkkkhk
+#### Referências KK0172
 
-- **id:** KK0104 (dentro de kkkko1).
-- **kkkkhk:** `kkkkk6`.
+- **id:** KK0893 (dentro de KK0019).
+- **KK0172:** `KK0953`.
 
 ---
 
-## 6. kkkkvt e saídas da parte
+## 6. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** entrada por convergência (ex.: kkkk1c); núcleo kkkkg3/kkkkgt; saídas aprovada/falha ou KK0046 normal.
+**KK0491 de contexto:** entrada por convergência (ex.: KK1099); núcleo KK1467/KK0065; saídas aprovada/falha ou KK0651 normal.
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -4368,9 +4353,9 @@ KK0217 (KK0199 — conferir kkkkhk):
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -4379,18 +4364,18 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Entrada["Origem"]
-    CONV([convergência KK0188 5/6])
+    CONV([convergência KK1000 5/6])
   end
-  subgraph Parte6["KK0188 6 - Wayout"]
-    GW{Tem kkkkg3?}
-    W([kkkkoe])
-    SUB([kkkko1])
+  subgraph Parte6["KK1000 6 - Wayout"]
+    GW{Tem KK1467?}
+    W([KK1121])
+    SUB([KK0019])
     GW2{Resultado}
   end
-  subgraph kkkkvw["Destino"]
-    OK([kkkk1c])
-    FK([kkkkkt])
-    CX([kkkko3])
+  subgraph KK1207["Destino"]
+    OK([KK1099])
+    FK([KK1107])
+    CX([KK0021])
   end
   CONV -->|025xqbq| GW
   GW -->|100gyb6| W
@@ -4409,166 +4394,166 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style CX fill:#bbdefb,stroke:#1565c0
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
 | Elemento de destino | Flow | Origem / observação |
 | --------------------- | ---------------- | ---------------------- |
-| kkkkax | Flow_025xqbq | Convergência (ex.: kkkk1c, KK0046 principal). |
+| KK0675 | Flow_025xqbq | Convergência (ex.: KK1099, KK0651 principal). |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Flow / ramo | Destino | Observação |
 | ------------- | ---------------------- | ------------ |
-| Flow_100gyb6 | kkkkoe / ramo kkkkg3 | Sim: kkkkg3, upgrade ou situação especial. |
-| Flow_1a72e8p | kkkko3 | Não: KK0046 normal (KK0188 7). |
-| (após kkkkgt) | kkkk1c, kkkkkt | Ramos 86 kkkkg3, aprovada, falha. |
+| Flow_100gyb6 | KK1121 / ramo KK1467 | Sim: KK1467, upgrade ou situação especial. |
+| Flow_1a72e8p | KK0021 | Não: KK0651 normal (KK1000 7). |
+| (após KK0065) | KK1099, KK1107 | Ramos 86 KK1467, aprovada, falha. |
 
 ---
 
-## 7. Referências no kkkkhk
+## 7. Referências no KK0172
 
-- kkkkis: `kkkkax`, `kkkkaw`.
-- Tasks: `kkkkji`, `kkkko1`, `KK0114`, `kkkkpt`, `kkkkoe`, `kkkk1c`, `kkkkkt`.
+- KK0668: `KK0675`, `KK0680`.
+- Tasks: `KK0053`, `KK0019`, `KK0054`, `KK1316`, `KK1121`, `KK1099`, `KK1107`.
 - Flows: Flow_100gyb6, Flow_la72e8p, Flow_025xqbq, Flow_lj6lcuj, Event_0q6wcaq.
-- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 6). **Guia:** [FLUXO_06_guia.md](FLUXO_06_guia.md). **User story:** [USER_STORY_06_backoffice_wayout_analise_documentos.md](USER_STORY_06_backoffice_wayout_analise_documentos.md).
+- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 6). **Guia:** [FLUXO_06_guia.md](FLUXO_06_guia.md). **User story:** [USER_STORY_06_backoffice_wayout_analise_documentos.md](USER_STORY_06_backoffice_wayout_analise_documentos.md).
 
 $$$$$
 
 [parte_06_backoffice_wayout_analise_documentos/USER_STORY_06_backoffice_wayout_analise_documentos_GENERICO.md]
 XXXXX
-# User Story — KK0188 6: kkkk7u / kkkkg3 / kkkkgt de documentos
+# User Story — KK1000 6: KK0134 / KK1467 / KK0065 de documentos
 
-**KK0184:** `kkkkk6` (kkkkax, KK0114, kkkkpt, kkkkoe, kkkk1c, etc.)
+**KK0655:** `KK0953` (KK0675, KK0054, KK1316, KK1121, KK1099, etc.)
 
 ---
 
 ## User Story
 
-**Como** motor de kkkk55 da kkkkfj,  
-**quero** direcionar propostas kkkkg3/upgrade para kkkkfv e executar kkkkgt de documentos (EZ8) e de fraudes (kkkkhy),  
-**para** que a kkkk3l seja aprovada, recusada ou marcada com falha conforme o resultado da kkkkgt.
+**Como** motor de KK1069 da KK0798,  
+**quero** direcionar propostas KK1467/upgrade para KK0135 e executar KK0065 de documentos (EZ8) e de fraudes (KK0082),  
+**para** que a KK1086 seja aprovada, recusada ou marcada com falha conforme o resultado da KK0065.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- [ ] **CA1 – KK0007 kkkkg3 / upgrade / KK0046 normal**  
-  O KK0046 verifica se a kkkk3l é kkkkg3, upgrade ou situação especial (kkkk7v `kkkkax`). Quando for kkkkg3, a kkkk3l é enviada para o kkkkfv e o status da kkkk3l é atualizado para 86 (`kkkkoe`). Caso contrário, segue o KK0046 normal.
+- [ ] **CA1 – KK0466 KK1467 / upgrade / KK0651 normal**  
+  O KK0651 verifica se a KK1086 é KK1467, upgrade ou situação especial (KK0669 `KK0675`). Quando for KK1467, a KK1086 é enviada para o KK0135 e o status da KK1086 é atualizado para 86 (`KK1121`). Caso contrário, segue o KK0651 normal.
 
-- [ ] **CA2 – kkkk5o de documentos (EZ8)**  
-  O kkkkfv monta o objeto de kkkkgt e executa a kkkkgt de documentos (EZ8, tópico jvcc-analise-kkkkfv). Ao concluir, o KK0046 segue para o tratamento da resposta do kkkkfv (`Event_0q6wcaq`).
+- [ ] **CA2 – KK0064 de documentos (EZ8)**  
+  O KK0135 monta o objeto de KK0065 e executa a KK0065 de documentos (EZ8, tópico jvcc-analise-KK0135). Ao concluir, o KK0651 segue para o tratamento da resposta do KK0135 (`Event_0q6wcaq`).
 
-- [ ] **CA3 – kkkk5o de fraudes (kkkkhy)**  
-  Quando aplicável, é executado o KK0137 de kkkkgt de fraudes (kkkkbj). O resultado pode levar à marcação de falha na kkkkgt (status 4) ou à continuidade do KK0046.
+- [ ] **CA3 – KK0064 de fraudes (KK0082)**  
+  Quando aplicável, é executado o KK1315 de KK0065 de fraudes (KK1469). O resultado pode levar à marcação de falha na KK0065 (status 4) ou à continuidade do KK0651.
 
-- [ ] **CA4 – Aprovação ou recusa pelo kkkkfv**  
-  Após a kkkkgt, o KK0046 decide: kkkk3l aprovada (status 1) ou recusa do kkkkfv (`kkkkaw`). A kkkk3l aprovada kkkkdp ao ponto de convergência kkkkg3/upgrade.
+- [ ] **CA4 – Aprovação ou recusa pelo KK0135**  
+  Após a KK0065, o KK0651 decide: KK1086 aprovada (status 1) ou recusa do KK0135 (`KK0680`). A KK1086 aprovada KK1186 ao ponto de convergência KK1467/upgrade.
 
 - [ ] **CA5 – Exceções e recusas**  
-  Falha na kkkkgt, recusa EZ8 e kkkk3l kkkkby atualizam status e metadados conforme o kkkkhk. O KK0046 de recusa pode levar à manutenção da kkkkgq ou ao kkkkcg da kkkk5h.
+  Falha na KK0065, recusa EZ8 e KK1086 KK0665 atualizam status e metadados conforme o KK0172. O KK0651 de recusa pode levar à manutenção da KK0797 ou ao KK0567 da KK0780.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
 | Flow | Origem | Destino |
 | ------ | -------- | --------- |
-| `Flow_025xqbq` | Convergência (ex.: kkkk1c, KK0046 principal) | `kkkkax` |
+| `Flow_025xqbq` | Convergência (ex.: KK1099, KK0651 principal) | `KK0675` |
 
-### Scripts e kkkkga
+### Scripts e KK1472
 
-| ID kkkk9q / elemento | Regra resumida |
+| ID KK1332 / elemento | Regra resumida |
 | -------------------- | ---------------- |
-| `kkkkji` | User kkkk9q; kkkkfv monta objeto e dispara kkkkgt. |
-| `KK0114` | kkkk8n (kkkk91 jvcc-analise-kkkkfv); kkkkgt EZ8. |
-| `kkkkpt` | kkkk8k (kkkkbj); kkkkgt de fraudes. |
-| `kkkkoe`, `kkkk1c`, `kkkkkt` | kkkka6; atualização de status (86 kkkkg3, 1 aprovada, 4 falha). |
+| `KK0053` | User KK1332; KK0135 monta objeto e dispara KK0065. |
+| `KK0054` | KK1276 (KK1363 jvcc-analise-KK0135); KK0065 EZ8. |
+| `KK1316` | KK0215 (KK1469); KK0065 de fraudes. |
+| `KK1121`, `KK1099`, `KK1107` | KK1277; atualização de status (86 KK1467, 1 aprovada, 4 falha). |
 
-KK0035 dos kkkkga EZ8 e kkkkhy fora desta US. Ver [FLUXO_06_tecnico](FLUXO_06_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
+KK0758 dos KK1472 EZ8 e KK0082 fora desta US. Ver [FLUXO_06_tecnico](FLUXO_06_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Onde escrita / lida | Observação |
 | ---------- | ---------------------- | ------------ |
-| `KK0113`, `KK0119` | KK0188 5; lida por `kkkkax` | Condição kkkkg3/upgrade. |
-| `KK0130` | KK0188 9 (a montante); lida por `kkkkax` | == 'kkkkg3'. |
-| `KK0133` | Formulários/upstream; lida por `kkkkax` | != "Nenhuma". |
-| `resultado_analise_backoffice`, `backoffice_retry` | kkkkji / KK0028 | ERRO_INTERNO, ERRO_PAYLOAD; kkkkaa > 3. |
-| `conclusao_analise_fraude` | KK0137 kkkkhy | Confirmação de kkkkg5 (KK0188 12/16). |
+| `KK1256`, `KK0288` | KK1000 5; lida por `KK0675` | Condição KK1467/upgrade. |
+| `KK1180` | KK1000 9 (a montante); lida por `KK0675` | == 'KK1467'. |
+| `KK1301` | Formulários/upstream; lida por `KK0675` | != "Nenhuma". |
+| `resultado_analise_backoffice`, `backoffice_retry` | KK0053 / KK1245 | ERRO_INTERNO, ERRO_PAYLOAD; KK1190 > 3. |
+| `conclusao_analise_fraude` | KK1315 KK0082 | Confirmação de KK0661 (KK1000 12/16). |
 
-### kkkkxe de kkkkth de campos
+### KK1145 de KK1406 de campos
 
-*kkkkxe de kkkkth de campos não estão modeladas no kkkkhk; quando existirem, devem ser documentadas em spec/front ou no KK0018.*
+*KK1145 de KK1406 de campos não estão modeladas no KK0172; quando existirem, devem ser documentadas em spec/front ou no KK1378.*
 
 ### Comportamentos fora do núcleo
 
-**kkkkax (Tem kkkkg3, upgrade, situação especial?):**
+**KK0675 (Tem KK1467, upgrade, situação especial?):**
 
 | Ramo | Flow | Destino |
 | ------ | ------ | --------- |
-| sim | `Flow_100gyb6` | kkkkoe / ramo kkkkg3 |
-| Não (KK0195) | `Flow_1a72e8p` | kkkko3 (KK0188 7) |
+| sim | `Flow_100gyb6` | KK1121 / ramo KK1467 |
+| Não (KK0472) | `Flow_1a72e8p` | KK0021 (KK1000 7) |
 
-**kkkkaw (resultado kkkkgt):** ramos aprovada / falha / kkkkaa conforme kkkkhk.
+**KK0680 (resultado KK0065):** ramos aprovada / falha / KK1190 conforme KK0172.
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 5 | Origem | Segmentação (`KK0113`, `KK0119`). |
-| 7 | Destino | Limites/kkkkss (KK0046 normal via `kkkko3`). |
-| 11 | Destino | kkkk7y (após aprovação kkkkfv). |
+| 5 | Origem | Segmentação (`KK1256`, `KK0288`). |
+| 7 | Destino | Limites/KK0936 (KK0651 normal via `KK0021`). |
+| 11 | Destino | KK0543 (após aprovação KK0135). |
 
 ---
 
-## Referência kkkkhk
+## Referência KK0172
 
-- kkkkax, kkkkoe, kkkk1c, kkkkkt, kkkko1, KK0114, kkkkpt, kkkkaw, Event_0q6wcaq, Event_05idg99.
+- KK0675, KK1121, KK1099, KK1107, KK0019, KK0054, KK1316, KK0680, Event_0q6wcaq, Event_05idg99.
 
 $$$$$
 
 [parte_07_limites_oferta_mapeamento_ge/FLUXO_07_guia_GENERICO.md]
 XXXXX
-# KK0188 7 — Limites, kkkkss e mapeamento GE — guia
+# KK1000 7 — Limites, KK0936 e mapeamento GE — guia
 
-**O que é esta parte:** trecho em que o kkkk55 **obtém o kkkksp** do kkkk1x (R0/V3), **mapeia os campos para o GE**, kkkkwc **dados de kkkkss** e atualiza a kkkkss na kkkk3l.
+**O que é esta parte:** trecho em que o KK1069 **obtém o KK0823** do KK0273 (R0/V3), **mapeia os campos para o GE**, KK0297 **dados de KK0936** e atualiza a KK0936 na KK1086.
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Obter kkkksp kkkkhr/GE, definir KK0053 e kkkkvo de kkkkgw; mapear campos para GE e atualizar solicitação/kkkksv na kkkk3l.
+Obter KK0823 KK1130/GE, definir KK0946 e KK1423 de KK0245; mapear campos para GE e atualizar solicitação/KK0369 na KK1086.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **Obtenção de kkkksp** — O kkkkxv obtém o kkkksp do kkkk1x (R0/V3) no legado.
-- **kkkk58 para o GE** — Os campos necessários ao GE (identificação da pessoa, kkkky6 kkkkgw, kkkksp máximo, etc.) são mapeados e preenchidos.
-- **kkkkwx de kkkkss** — KK0182 dos dados de kkkkss e atualização da kkkk3l com kkkkss e dados de kkkkgw.
-- **Persistência** — A kkkk3l é atualizada com kkkkss e solicitação de kkkksv.
-- **Consulta ao kkkkre** — Quando aplicável no KK0046.
+- **Obtenção de KK0823** — O KK1292 obtém o KK0823 do KK0273 (R0/V3) no legado.
+- **KK0844 para o GE** — Os campos necessários ao GE (identificação da pessoa, KK1077 KK0245, KK0823 máximo, etc.) são mapeados e preenchidos.
+- **KK0399 de KK0936** — KK0298 dos dados de KK0936 e atualização da KK1086 com KK0936 e dados de KK0245.
+- **Persistência** — A KK1086 é atualizada com KK0936 e solicitação de KK0369.
+- **Consulta ao KK1009** — Quando aplicável no KK0651.
 
 ---
 
-## 3. Resumo para KK0140, KK0142 e KK0143
+## 3. Resumo para KK0726, KK1131 e KK1031
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **O que ocorre** | Obtenção de kkkksp; mapeamento de campos para o GE; kkkkwc e atualização de dados de kkkkss na kkkk3l. |
-| **Resultado** | Oferta de kkkky6, dados de kkkkgw e kkkksp definidos; kkkk3l pronta para kkkkmk e kkkks7. |
+| **O que ocorre** | Obtenção de KK0823; mapeamento de campos para o GE; KK0297 e atualização de dados de KK0936 na KK1086. |
+| **Resultado** | Oferta de KK1077, dados de KK0245 e KK0823 definidos; KK1086 pronta para KK0009 e KK0544. |
 
 ---
 
-## 4. kkkk5v
+## 4. KK0491
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -4589,9 +4574,9 @@ Obter kkkksp kkkkhr/GE, definir KK0053 e kkkkvo de kkkkgw; mapear campos para GE
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -4599,9 +4584,9 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  A([Obter kkkksp]) --> B([Mapear campos GE])
-  B --> C([kkkkwx de kkkkss])
-  C --> D([kkkklg kkkkss / atualizar])
+  A([Obter KK0823]) --> B([Mapear campos GE])
+  B --> C([KK0399 de KK0936])
+  C --> D([KK1085 KK0936 / atualizar])
   style A fill:#eceff1,stroke:#546e7a
   style B fill:#eceff1,stroke:#546e7a
   style C fill:#bbdefb,stroke:#1565c0
@@ -4610,81 +4595,81 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 5. KK0170
+## 5. KK1041
 
-Para detalhes KK0178 use **FLUXO_07_tecnico.md**.
+Para detalhes KK1379 use **FLUXO_07_tecnico.md**.
 
 $$$$$
 
 [parte_07_limites_oferta_mapeamento_ge/FLUXO_07_tecnico_GENERICO.md]
 XXXXX
-# KK0188 7 — Limites kkkkss mapeamento GE — documentação kkkk5u
+# KK1000 7 — Limites KK0936 mapeamento GE — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** kkkkcn, kkkknx, kkkkij, kkkkpi, KK0096, kkkkm7, kkkkcc.
+**KK0655:** `KK0953`  
+**KK0598:** KK0934, KK0856, KK0406, KK1097, KK1240, KK0116, KK0343.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkkij` | kkkk8m — kkkkwx Oferta (primeira UT etapa kkkkwt; recebe KK0053 + KK0054) |
-| `kkkkcn`, `kkkkd0`, `kkkkcc` | Consultas kkkksp (kkkkgz) |
-| `KK0096`, `kkkkm7` | Script/Service kkkkiq da parte |
+| `KK0406` | KK1388 — KK0399 Oferta (primeira UT etapa KK1078; recebe KK0946 + KK0939) |
+| `KK0934`, `KK0935`, `KK0343` | Consultas KK0823 (KK0176) |
+| `KK1240`, `KK0116` | Script/Service KK1335 da parte |
 
 ---
 
 ## 1. Objetivo da parte
 
-Obtenção de **kkkksp** (R0/V3); **mapeamento de campos para GE**; kkkkwc de **dados de kkkkss** e atualização na **kkkkpi**. Variáveis de kkkkgw (kkkk4p, KK0059, dia_vencimento_fatura_cartao, etc.) e KK0053.
+Obtenção de **KK0823** (R0/V3); **mapeamento de campos para GE**; KK0297 de **dados de KK0936** e atualização na **KK1097**. Variáveis de KK0245 (KK0290, KK1415, dia_vencimento_fatura_cartao, etc.) e KK0946.
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 Tasks e KK0028
+### 2.1 Tasks e KK1245
 
 | Tipo | ID do elemento | Observação |
 | ------------- | ---------------- | ------------ |
-| kkkk8n / kkkk65 | kkkkcn | Obtenção de kkkksp (kkkkmn kkkkou). |
-| kkkk8o | kkkknx | JavaScript; mapeia campos para GE. |
-| kkkk8m | kkkkij | Nome com espaço no kkkkhk. |
-| kkkk8n | kkkkpi | Atualização kkkk3l. |
-| kkkk8o | KK0096 | KK0044; mapeia kkkkij. |
-| kkkk8n | kkkkm7 | Atualização solicitação. |
-| (kkkk65/Service) | kkkkcc | Consulta kkkk7d. |
+| KK1276 / KK0206 | KK0934 | Obtenção de KK0823 (KK1001 KK0894). |
+| KK1246 | KK0856 | JavaScript; mapeia campos para GE. |
+| KK1388 | KK0406 | Nome com espaço no KK0172. |
+| KK1276 | KK1097 | Atualização KK1086. |
+| KK1246 | KK1240 | KK0732; mapeia KK0406. |
+| KK1276 | KK0116 | Atualização solicitação. |
+| (KK0206/Service) | KK0343 | Consulta KK0981. |
 
-### 2.2 Sequence kkkkoa principais
+### 2.2 Sequence KK0649 principais
 
-### 2.2.1 KK0149 (KK0189 da KK0190)
+### 2.2.1 KK0309 (KK1181 da KK0314)
 
-| kkkk8l ID | Tipo de KK0013 | Condição | Flow | Target |
+| KK1331 ID | Tipo de KK0308 | Condição | Flow | Target |
 |---------|------------------|----------|------|--------|
-| kkkkij | KK0192 (continuar) | — | Flow_1mmm6f0 | Gateway_1ly0xsv |
+| KK0406 | KK0991 (continuar) | — | Flow_1mmm6f0 | Gateway_1ly0xsv |
 
-### 2.2.2 Condições de kkkk7v
+### 2.2.2 Condições de KK0669
 
-Nenhum kkkk7v no KK0046 principal desta parte (kkkkcn → kkkknx → kkkkij → kkkkpi → …). A saída da user kkkk9q *kkkkij* segue pelo Flow_1mmm6f0 para o Gateway_1ly0xsv (fronteira com KK0188 8).
+Nenhum KK0669 no KK0651 principal desta parte (KK0934 → KK0856 → KK0406 → KK1097 → …). A saída da user KK1332 *KK0406* segue pelo Flow_1mmm6f0 para o Gateway_1ly0xsv (fronteira com KK1000 8).
 
 
 
 | ID do flow | sourceRef | targetRef | Observação |
 | ------------ | ----------- | ----------- | ------------ |
-| Flow_likioqu / Flow_0hzwmli | (entrada) | kkkkcn | Entrada (timer_rajada_r0 ou janela_funcionamento_r0). |
-| Flow_1diayuk | janela_funcionamento_r0 | kkkknx | Limite obtido → mapeamento GE. |
-| (conferir kkkkhk) | kkkknx | kkkkij | User kkkk9q kkkkij (KK0046 pode estar em call activity). |
-| Flow_1qklifx | KK0056 | KK0057 | Atualização kkkk3l. |
-| Flow_1mmm6f0 | kkkkij | Gateway_1ly0xsv | Saída da parte (fronteira KK0188 8). |
-| Flow_17nfuhl | KK0057 | Gateway_19hcmx2 | Sequência (KK0188 13). |
+| Flow_likioqu / Flow_0hzwmli | (entrada) | KK0934 | Entrada (timer_rajada_r0 ou janela_funcionamento_r0). |
+| Flow_1diayuk | janela_funcionamento_r0 | KK0856 | Limite obtido → mapeamento GE. |
+| (conferir KK0172) | KK0856 | KK0406 | User KK1332 KK0406 (KK0651 pode estar em call activity). |
+| Flow_1qklifx | KK0418 | KK1113 | Atualização KK1086. |
+| Flow_1mmm6f0 | KK0406 | Gateway_1ly0xsv | Saída da parte (fronteira KK1000 8). |
+| Flow_17nfuhl | KK1113 | Gateway_19hcmx2 | Sequência (KK1000 13). |
 
-kkkk5j com espaço no kkkkhk: `kkkkij`, `kkkkpi`; em sourceRef/targetRef também aparecem `KK0056`, `KK0057`. Ver [PONTAS_SOLTAS_CONSULTA_BPMN.md](../../planos_e_todos/PONTAS_SOLTAS_CONSULTA_BPMN.md).
+KK0755 com espaço no KK0172: `KK0406`, `KK1097`; em sourceRef/targetRef também aparecem `KK0418`, `KK1113`. Ver [PONTAS_SOLTAS_CONSULTA_BPMN.md](../../planos_e_todos/PONTAS_SOLTAS_CONSULTA_BPMN.md).
 
-### 2.3 kkkk5v kkkkhk (visão da parte)
+### 2.3 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
 ```mermaid
 %%{init: {
@@ -4705,9 +4690,9 @@ kkkk5j com espaço no kkkkhk: `kkkkij`, `kkkkpi`; em sourceRef/targetRef também
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -4717,12 +4702,12 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
   direction LR
   IN((•))
-  IN --> OL([Obter kkkksp legado<br/>kkkkcn])
-  OL --> MC([Mapeia campos GE<br/>kkkknx])
-  MC --> DO([kkkkwx kkkkss<br/>kkkkij])
-  DO --> KK0143([kkkklg kkkkss<br/>kkkkpi])
-  KK0143 --> SM([Script mapeia kkkkij<br/>KK0096])
-  SM --> ASC([Atualizar solicitação kkkksv<br/>kkkkm7])
+  IN --> OL([Obter KK0823 legado<br/>KK0934])
+  OL --> MC([Mapeia campos GE<br/>KK0856])
+  MC --> DO([KK0399 KK0936<br/>KK0406])
+  DO --> KK1031([KK1085 KK0936<br/>KK1097])
+  KK1031 --> SM([Script mapeia KK0406<br/>KK1240])
+  SM --> ASC([Atualizar solicitação KK0369<br/>KK0116])
   ASC --> OUT(( ))
 
   style IN fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
@@ -4730,66 +4715,66 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style OL fill:#eceff1,stroke:#546e7a
   style MC fill:#eceff1,stroke:#546e7a
   style DO fill:#bbdefb,stroke:#1565c0
-  style KK0143 fill:#eceff1,stroke:#546e7a
+  style KK1031 fill:#eceff1,stroke:#546e7a
   style SM fill:#eceff1,stroke:#546e7a
   style ASC fill:#eceff1,stroke:#546e7a
 ```
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Escrita por | Lida por | Usada em condição | Observação |
 | ---------- | ------------- | ---------- | ------------------- | ------------ |
-| kkkk4p, codigo_produto_cartao_credito, KK0059, dia_vencimento_fatura_cartao | kkkknx (outputParameter) | etapas seguintes | — | Conferir kkkkhk. |
-| KK0053 | KK0096, kkkkij | Partes 8, 10 | optante_produto, etc. | Oferta e kkkkst. |
-| (kkkkvo de kkkksp R0/V3) | kkkkcn / monta_payload | kkkknx | — | KK0129 e resposta. |
+| KK0290, codigo_produto_cartao_credito, KK1415, dia_vencimento_fatura_cartao | KK0856 (outputParameter) | etapas seguintes | — | Conferir KK0172. |
+| KK0946 | KK1240, KK0406 | Partes 8, 10 | optante_produto, etc. | Oferta e KK1079. |
+| (KK1423 de KK0823 R0/V3) | KK0934 / monta_payload | KK0856 | — | KK1002 e resposta. |
 
 ---
 
-## 4. kkkkxe de kkkkag (KK0199)
+## 4. KK1145 de KK0911 (KK1139)
 
-| ID KK0148 / kkkk9q | Regra em uma linha |
+| ID KK1223 / KK1332 | Regra em uma linha |
 | ------------------ | --------------------- |
-| kkkknx | Mapeia kkkkvo para GE: kkkk4p, codigo_produto_cartao_credito, KK0059, dia_vencimento_fatura_cartao, indicadores (overlimit, programa recompensa, kkkk12, etc.); lê KK0101 e KK0053; regra person DN kkkkgw conforme kkkkxr. |
-| KK0096 | Mapeia dados de kkkkss na kkkk3l; persiste KK0053 e campos de kkkkgw/kkkkss. |
-| kkkkou | kkkkmo para kkkkmr de kkkkts V3; conferir kkkkhk. |
+| KK0856 | Mapeia KK1423 para GE: KK0290, codigo_produto_cartao_credito, KK1415, dia_vencimento_fatura_cartao, indicadores (overlimit, programa recompensa, KK0529, etc.); lê KK1170 e KK0946; regra person DN KK0245 conforme KK1254. |
+| KK1240 | Mapeia dados de KK0936 na KK1086; persiste KK0946 e campos de KK0245/KK0936. |
+| KK0894 | KK0891 para KK0259 de KK0929 V3; conferir KK0172. |
 
 ---
 
-## 5. Pseudo-KK0021 (KK0199)
+## 5. Pseudo-KK0398 (KK1139)
 
-### 5.1 KK0216 kkkknx
+### 5.1 KK1224 KK0856
 
-**KK0188:** 7 — Limites, kkkkss e mapeamento GE  
-**Nome (kkkkhk):** mapeio campos GE  
+**KK1000:** 7 — Limites, KK0936 e mapeamento GE  
+**Nome (KK0172):** mapeio campos GE  
 **Formato:** JavaScript  
-**Objetivo:** Preencher kkkkvo exigidas pelo GE a partir de KK0101, KK0053 e kkkksp (R0/V3).
+**Objetivo:** Preencher KK1423 exigidas pelo GE a partir de KK1170, KK0946 e KK0823 (R0/V3).
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217 (KK0199 — conferir kkkkhk):
-  OBTER KK0101, KK0053 do contexto
+KK1129 (KK1139 — conferir KK0172):
+  OBTER KK1170, KK0946 do contexto
   OBTER valor_maximo_cartao_credito (limiterotativo V3 ou response_obter_limiteR0)
-  APLICAR regra person DN kkkkgw (kkkkxr, valor pre-aprovado) se aplicável
-  ATRIBUIR kkkk4p, codigo_produto_cartao_credito, KK0059
+  APLICAR regra person DN KK0245 (KK1254, valor pre-aprovado) se aplicável
+  ATRIBUIR KK0290, codigo_produto_cartao_credito, KK1415
   ATRIBUIR dia_vencimento_fatura_cartao, indicador_overlimit, indicador_programa_recompensa, etc.
-  ATRIBUIR KK0127, numero_conta_corrente, numero_dac_conta_corrente, codigo_segmento_cliente
+  ATRIBUIR KK0922, numero_conta_corrente, numero_dac_conta_corrente, codigo_segmento_cliente
 ```
 
-#### Referências kkkkhk
+#### Referências KK0172
 
-- **id:** kkkknx.
-- **kkkkhk:** `kkkkk6`.
+- **id:** KK0856.
+- **KK0172:** `KK0953`.
 
 ---
 
-## 6. kkkkvt e saídas da parte
+## 6. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** entrada pelo KK0046 normal (KK0188 6); núcleo limites/kkkkss GE; saída para KK0188 8.
+**KK0491 de contexto:** entrada pelo KK0651 normal (KK1000 6); núcleo limites/KK0936 GE; saída para KK1000 8.
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -4810,9 +4795,9 @@ KK0217 (KK0199 — conferir kkkkhk):
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -4821,15 +4806,15 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Entrada["Origem"]
-    P6([KK0188 6 KK0046 normal])
+    P6([KK1000 6 KK0651 normal])
   end
-  subgraph Parte7["KK0188 7 - Limites e kkkkss GE"]
-    OL([kkkkcn])
-    DO([kkkkij])
-    SM([KK0096])
+  subgraph Parte7["KK1000 7 - Limites e KK0936 GE"]
+    OL([KK0934])
+    DO([KK0406])
+    SM([KK1240])
   end
-  subgraph kkkkvw["Destino"]
-    P8([KK0188 8])
+  subgraph KK1207["Destino"]
+    P8([KK1000 8])
   end
   P6 --> OL
   OL --> DO
@@ -4842,134 +4827,134 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style P8 fill:#bbdefb,stroke:#1565c0
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
-| kkkk8l de destino | Origem / observação |
+| KK1331 de destino | Origem / observação |
 | ------------------- | ---------------------- |
-| kkkkcn | kkkkvq normal após KK0188 6 (kkkko3, etc.). Conferir flow de entrada no kkkkhk. |
+| KK0934 | KK0650 normal após KK1000 6 (KK0021, etc.). Conferir flow de entrada no KK0172. |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Destino | Observação |
 | ----------- | ------------ |
-| KK0188 8 | KK0096 → kkkkib / kkkkid (conforme ramo). Conferir kkkkoa no kkkkhk. |
+| KK1000 8 | KK1240 → KK0412 / KK0016 (conforme ramo). Conferir KK0649 no KK0172. |
 
-**Relação com kkkkzo kkkk6k:** No kkkkzz, o **kkkksp de kkkkgw** passa a vir do kkkkxg (KK0188 5); quando houver kkkkss do kkkkxg, sobrescreve o uso da kkkkhr para kkkkgw. Variáveis de kkkkss/mapeamento GE alimentam a KK0176 de kkkkmk e o ramo pós-kkkks7. Ver [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md).
+**Relação com KK0902 KK0921:** No KK1020, o **KK0823 de KK0245** passa a vir do KK0497 (KK1000 5); quando houver KK0936 do KK0497, sobrescreve o uso da KK1130 para KK0245. Variáveis de KK0936/mapeamento GE alimentam a KK1338 de KK0009 e o ramo pós-KK0544. Ver [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md).
 
 ---
 
-## 7. Referências no kkkkhk
+## 7. Referências no KK0172
 
-- Tasks: `kkkkcn`, `kkkknx`, `kkkkij`, `kkkkpi`, `KK0096`, `kkkkm7`, `kkkkcc`.
-- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 7). **Guia:** [FLUXO_07_guia.md](FLUXO_07_guia.md). **User story:** [USER_STORY_07_limites_oferta_mapeamento_ge.md](USER_STORY_07_limites_oferta_mapeamento_ge.md).
+- Tasks: `KK0934`, `KK0856`, `KK0406`, `KK1097`, `KK1240`, `KK0116`, `KK0343`.
+- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 7). **Guia:** [FLUXO_07_guia.md](FLUXO_07_guia.md). **User story:** [USER_STORY_07_limites_oferta_mapeamento_ge.md](USER_STORY_07_limites_oferta_mapeamento_ge.md).
 
 $$$$$
 
 [parte_07_limites_oferta_mapeamento_ge/USER_STORY_07_limites_oferta_mapeamento_ge_GENERICO.md]
 XXXXX
-# User Story — KK0188 7: Limites, kkkkss e mapeamento GE
+# User Story — KK1000 7: Limites, KK0936 e mapeamento GE
 
-**KK0184:** `kkkkk6` (kkkkcn, kkkknx, kkkkij, kkkkpi, etc.)
+**KK0655:** `KK0953` (KK0934, KK0856, KK0406, KK1097, etc.)
 
 ---
 
 ## User Story
 
-**Como** motor de kkkk55 da kkkkfj,  
-**quero** obter o kkkksp do kkkk1x (R0/V3), mapear campos para GE e registrar dados de kkkkss na kkkk3l,  
-**para** que a kkkktv e kkkkgw esteja definida para as etapas de kkkkmk e kkkks7.
+**Como** motor de KK1069 da KK0798,  
+**quero** obter o KK0823 do KK0273 (R0/V3), mapear campos para GE e registrar dados de KK0936 na KK1086,  
+**para** que a KK0938 e KK0245 esteja definida para as etapas de KK0009 e KK0544.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- [ ] **CA1 – Obtenção de kkkksp**  
-  O kkkkxv obtém o kkkksp do kkkk1x (R0/V3) no legado (`kkkkcn` ou equivalente). As kkkkvo de kkkksp ficam disponíveis para as etapas seguintes.
+- [ ] **CA1 – Obtenção de KK0823**  
+  O KK1292 obtém o KK0823 do KK0273 (R0/V3) no legado (`KK0934` ou equivalente). As KK1423 de KK0823 ficam disponíveis para as etapas seguintes.
 
-- [ ] **CA2 – kkkk58 para o GE**  
-  Um KK0148 mapeia os campos exigidos pelo GE (identificação da pessoa, kkkky6 kkkkgw, kkkksp máximo do kkkkgw, etc.) e preenche as kkkkvo do kkkk55 conforme o kkkkhk (`kkkknx`).
+- [ ] **CA2 – KK0844 para o GE**  
+  Um KK1223 mapeia os campos exigidos pelo GE (identificação da pessoa, KK1077 KK0245, KK0823 máximo do KK0245, etc.) e preenche as KK1423 do KK1069 conforme o KK0172 (`KK0856`).
 
-- [ ] **CA3 – kkkkwx de kkkkss**  
-  As etapas de dados de kkkkss e de kkkk3l de kkkkss (e, quando aplicável, mapeamento de dados de kkkkss e atualização da solicitação de kkkksv) são executadas na ordem definida. Oferta de kkkky6 e dados de kkkkgw são gravados na kkkk3l.
+- [ ] **CA3 – KK0399 de KK0936**  
+  As etapas de dados de KK0936 e de KK1086 de KK0936 (e, quando aplicável, mapeamento de dados de KK0936 e atualização da solicitação de KK0369) são executadas na ordem definida. Oferta de KK1077 e dados de KK0245 são gravados na KK1086.
 
 - [ ] **CA4 – Próximo passo**  
-  Ao final desta parte, a kkkk3l tem kkkkss e limites definidos e o KK0046 segue para o kkkktw e kkkkyh (KK0188 8) ou etapa equivalente.
+  Ao final desta parte, a KK1086 tem KK0936 e limites definidos e o KK0651 segue para o KK0012 e KK1351 (KK1000 8) ou etapa equivalente.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
 | Ponto de entrada | Origem / observação |
 | ------------------ | --------------------- |
-| `kkkkcn` | kkkkvq normal após KK0188 6 (kkkko3). |
+| `KK0934` | KK0650 normal após KK1000 6 (KK0021). |
 
-### Scripts e kkkkiq
+### Scripts e KK1335
 
-| ID kkkk9q / KK0148 | Regra resumida |
+| ID KK1332 / KK1223 | Regra resumida |
 | ------------------ | ---------------- |
-| `kkkkcn` | kkkk8n/kkkk65; obtém kkkksp R0/V3 (kkkkmn kkkkou). |
-| `kkkknx` | kkkk8o (JavaScript); mapeia campos para GE. |
-| `kkkkij` | kkkk8m; kkkkwc dados de kkkkss. |
-| `kkkkpi` | kkkk8n; atualização kkkk3l. |
-| `KK0096` | KK0044; mapeia kkkkij. |
-| `kkkkm7` | kkkk8n; atualização solicitação. |
-| `kkkkcc` | kkkk65/Service; kkkkml kkkk7d. |
+| `KK0934` | KK1276/KK0206; obtém KK0823 R0/V3 (KK1001 KK0894). |
+| `KK0856` | KK1246 (JavaScript); mapeia campos para GE. |
+| `KK0406` | KK1388; KK0297 dados de KK0936. |
+| `KK1097` | KK1276; atualização KK1086. |
+| `KK1240` | KK0732; mapeia KK0406. |
+| `KK0116` | KK1276; atualização solicitação. |
+| `KK0343` | KK0206/Service; KK0330 KK0981. |
 
-kkkkxe de kkkkag de kkkksp e kkkkss e integração com GE fora desta US. Ver [FLUXO_07_tecnico](FLUXO_07_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
+KK1145 de KK0911 de KK0823 e KK0936 e integração com GE fora desta US. Ver [FLUXO_07_tecnico](FLUXO_07_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Onde escrita / lida | Observação |
 | ---------- | ---------------------- | ------------ |
-| `kkkk4p`, `codigo_produto_cartao_credito`, `KK0059`, `dia_vencimento_fatura_cartao` | kkkknx (outputParameter) | Partes seguintes. |
-| `KK0053` | KK0096, kkkkij | Partes 8, 10 (optante_produto). |
-| Variáveis de kkkksp R0/V3 | kkkkcn / monta_payload | kkkknx. |
+| `KK0290`, `codigo_produto_cartao_credito`, `KK1415`, `dia_vencimento_fatura_cartao` | KK0856 (outputParameter) | Partes seguintes. |
+| `KK0946` | KK1240, KK0406 | Partes 8, 10 (optante_produto). |
+| Variáveis de KK0823 R0/V3 | KK0934 / monta_payload | KK0856. |
 
-### kkkkxe de kkkkth de campos
+### KK1145 de KK1406 de campos
 
-*kkkkxe de kkkkth de campos não estão modeladas no kkkkhk; quando existirem, devem ser documentadas em spec/front ou no KK0018.*
+*KK1145 de KK1406 de campos não estão modeladas no KK0172; quando existirem, devem ser documentadas em spec/front ou no KK1378.*
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 6 | Origem | kkkkvq normal (kkkko3). |
-| 8 | Destino | Aceite kkkkst/kkkkyh (kkkkib, kkkkid). |
+| 6 | Origem | KK0650 normal (KK0021). |
+| 8 | Destino | Aceite KK1079/KK1351 (KK0412, KK0016). |
 
 ---
 
-## Referência kkkkhk
+## Referência KK0172
 
-kkkkcn, kkkknx, kkkkij, kkkkpi, KK0096, kkkkm7.
+KK0934, KK0856, KK0406, KK1097, KK1240, KK0116.
 
 $$$$$
 
 [parte_08_produtos_aceite_termos/FLUXO_08_guia_GENERICO.md]
 XXXXX
-# KK0188 8 - kkkkwt, kkkkmk e kkkkyh (guia)
+# KK1000 8 - KK1078, KK0009 e KK1351 (guia)
 
-**O que é esta parte:** trecho em que o kkkk1x **aceita kkkkst**, **kkkkyh**, **consentimentos** (kkkkh2, kkkkmj) e **kkkkl6**. Há opção de kkkkgu para etapas anteriores quando aplicável.
+**O que é esta parte:** trecho em que o KK0273 **aceita KK1079**, **KK1351**, **consentimentos** (KK1219, KK0528) e **KK0470**. Há opção de KK1451 para etapas anteriores quando aplicável.
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Registrar kkkktw, kkkkyh, consentimentos e kkkkl6; permitir kkkkgu entre etapas conforme kkkkhk.
+Registrar KK0012, KK1351, consentimentos e KK0470; permitir KK1451 entre etapas conforme KK0172.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **Aceite de kkkkst** — O kkkk1x aceita os kkkkst; a kkkk3l é atualizada com o kkkkmk.
-- **kkkkyg e consentimentos** — Aceite dos kkkkyh de KK0022 e do kkkkmm de kkkkmj (kkkkh2, kkkkmj).
-- **Declarações** — Preenchimento das kkkkl6 exigidas.
-- **KK0194** — O KK0173 pode kkkkgu para etapas anteriores (ex.: kkkkwc de kkkkiu) conforme os ramos do KK0046.
+- **Aceite de KK1079** — O KK0273 aceita os KK1079; a KK1086 é atualizada com o KK0009.
+- **KK1350 e consentimentos** — Aceite dos KK1351 de KK0378 e do KK0324 de KK0528 (KK1219, KK0528).
+- **Declarações** — Preenchimento das KK0470 exigidas.
+- **KK1452** — O KK1392 pode KK1451 para etapas anteriores (ex.: KK0297 de KK1267) conforme os ramos do KK0651.
 
 ---
 
@@ -4977,14 +4962,14 @@ Registrar kkkktw, kkkkyh, consentimentos e kkkkl6; permitir kkkkgu entre etapas 
 
 | O que | Detalhe |
 | ------- | -------- |
-| **O que ocorre** | Aceite de kkkkst; kkkkyh e KK0022; kkkkmm de kkkkmj; kkkkl6. |
-| **KK0194** | Opção de kkkkgu para etapas anteriores quando aplicável. |
+| **O que ocorre** | Aceite de KK1079; KK1351 e KK0378; KK0324 de KK0528; KK0470. |
+| **KK1452** | Opção de KK1451 para etapas anteriores quando aplicável. |
 
 ---
 
-## 4. kkkk5v
+## 4. KK0491
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -5005,9 +4990,9 @@ Registrar kkkktw, kkkkyh, consentimentos e kkkkl6; permitir kkkkgu entre etapas 
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -5015,7 +5000,7 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  A([Aceite de kkkkst]) --> B([kkkkyg e KK0022])
+  A([Aceite de KK1079]) --> B([KK1350 e KK0378])
   B --> C([Declarações])
   style A fill:#bbdefb,stroke:#1565c0
   style B fill:#bbdefb,stroke:#1565c0
@@ -5024,92 +5009,92 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-Para detalhes KK0178 use FLUXO_08_tecnico.md.
+Para detalhes KK1379 use FLUXO_08_tecnico.md.
 
 $$$$$
 
 [parte_08_produtos_aceite_termos/FLUXO_08_tecnico_GENERICO.md]
 XXXXX
-# KK0188 8 — kkkkwt, kkkkmk e kkkkyh (documentação kkkk5u)
+# KK1000 8 — KK1078, KK0009 e KK1351 (documentação KK1377)
 
-**KK0184:** `kkkkk6`  
-**KK0183:** kkkkid, kkkkmz, kkkkif, kkkkmy, kkkkib; KK0204 de kkkkgu (ex.: para KK0064, kkkkid, kkkkif).
+**KK0655:** `KK0953`  
+**KK0598:** KK0016, KK0103, KK1349, KK0015, KK0412; KK0654 de KK1451 (ex.: para KK0301, KK0016, KK1349).
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkkid` | kkkk8m — Aceite kkkkwt (kkkkt8; kkkkt6 após aqui) |
-| `kkkkib` | kkkk8m — Declarações |
-| `kkkkif` | kkkk8m — Termo Autorização kkkklj |
-| `kkkkh9` | kkkk8m — Consentimento Débito (condicional) |
+| `KK0016` | KK1388 — Aceite KK1078 (KK1038; KK0985 após aqui) |
+| `KK0412` | KK1388 — Declarações |
+| `KK1349` | KK1388 — Termo Autorização KK0332 |
+| `KK0329` | KK1388 — Consentimento Débito (condicional) |
 
 ---
 
 ## 1. Objetivo da parte
 
-Aceite de **kkkkst**, **kkkkyh**, **consentimentos** (kkkkmj) e **kkkkl6**. kkkkvq "kkkkgu" entre kkkkiq (kkkkgu para KK0064, kkkkid, kkkkif). User kkkkiq com KK0195 e completes condicionais; KK0028 de mapeamento e kkkkml kkkkmj.
+Aceite de **KK1079**, **KK1351**, **consentimentos** (KK0528) e **KK0470**. KK0650 "KK1451" entre KK1335 (KK1451 para KK0301, KK0016, KK1349). User KK1335 com KK0472 e completes condicionais; KK1245 de mapeamento e KK0330 KK0528.
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 User kkkkiq e service kkkkiq
+### 2.1 User KK1335 e service KK1335
 
 | Tipo | ID do elemento | Observação |
 | ------------- | ---------------- | ------------ |
-| kkkk8m | kkkkid | KK0195 continuar; kkkkgu (condicional). |
-| kkkk8n | kkkkmz | Após kkkkmh. |
-| kkkk8m | kkkkif | KK0195 continuar; kkkkgu. |
-| kkkk8m | kkkkh9 | Termo/kkkkce; KK0013 condicional (kkkkgu/continuar). |
-| kkkk8n | kkkkmy | Consentimento listagem kkkkmj (kkkkmx). |
-| kkkk8m | kkkkib | Declarações. |
+| KK1388 | KK0016 | KK0472 continuar; KK1451 (condicional). |
+| KK1276 | KK0103 | Após KK0014. |
+| KK1388 | KK1349 | KK0472 continuar; KK1451. |
+| KK1388 | KK0329 | Termo/KK0326; KK0308 condicional (KK1451/continuar). |
+| KK1276 | KK0015 | Consentimento listagem KK0528 (KK1231). |
+| KK1388 | KK0412 | Declarações. |
 
-Scripts: KK0096, kkkkmw (typo no kkkkhk), kkkkmx. kkkkns (kkkk58 kkkkyn), Activity_097rtf7 (Mapeia kkkkwx kkkkg7 Ofertas).
+Scripts: KK1240, KK1248 (typo no KK0172), KK1231. KK0030 (KK0844 KK0561), Activity_097rtf7 (Mapeia KK0399 KK1013 Ofertas).
 
-### 2.2 Sequence kkkkoa principais
+### 2.2 Sequence KK0649 principais
 
 | ID do flow | sourceRef | targetRef | Nome/condição |
 | ------------ | ----------- | ----------- | --------------- |
-| Flow_0vf0xfk | kkkkid | kkkkmv | KK0195 (continuar). |
-| Flow_0r9adi2 | kkkkif | kkkkh9 | KK0195 (continuar). |
-| Flow_0n4eqi2 | kkkkmy | Gateway_1p92mla | KK0195. |
-| Flow_0a0za12 | kkkkib | kkkkc7 | KK0195 (continuar). |
-| Flow_07q23pc | kkkkif | kkkkid | kkkkgu=="kkkkid". |
-| Flow_1a4fst5 | kkkkh9 | kkkkif | kkkkgu=="kkkkif". |
-| kkkke3 | kkkkid | KK0064 | kkkkgu=="KK0064". |
-| Flow_0jtfalw | kkkkib | kkkkid | kkkkgu=="kkkkid". |
+| Flow_0vf0xfk | KK0016 | KK0336 | KK0472 (continuar). |
+| Flow_0r9adi2 | KK1349 | KK0329 | KK0472 (continuar). |
+| Flow_0n4eqi2 | KK0015 | Gateway_1p92mla | KK0472. |
+| Flow_0a0za12 | KK0412 | KK1110 | KK0472 (continuar). |
+| Flow_07q23pc | KK1349 | KK0016 | KK1451=="KK0016". |
+| Flow_1a4fst5 | KK0329 | KK1349 | KK1451=="KK1349". |
+| KK0648 | KK0016 | KK0301 | KK1451=="KK0301". |
+| Flow_0jtfalw | KK0412 | KK0016 | KK1451=="KK0016". |
 
-### 2.3 KK0149 (KK0189 da KK0190)
+### 2.3 KK0309 (KK1181 da KK0314)
 
-| kkkk8l ID | Tipo de KK0013 | Condição | Flow | Target |
+| KK1331 ID | Tipo de KK0308 | Condição | Flow | Target |
 | --------- | ------------------- | ---------- | ------ | -------- |
-| kkkkid | KK0192 (continuar) | — | (KK0195) | atualiza_proposta / kkkkif |
-| kkkkid | KK0194 | kkkkgu=="KK0064" | kkkke3 | KK0064 (KK0188 9) |
-| kkkkif | KK0192 (continuar) | — | Flow_0r9adi2 | kkkkh9 |
-| kkkkif | KK0194 | kkkkgu=="kkkkid" | Flow_07q23pc | kkkkid |
-| kkkkh9 | KK0194 | kkkkgu=="kkkkif" | Flow_1a4fst5 | kkkkif |
-| kkkkib | KK0192 (continuar) | — | Flow_0a0za12 | kkkkc7 (KK0188 10) |
-| kkkkib | KK0194 | kkkkgu=="kkkkid" | Flow_0jtfalw | kkkkid |
+| KK0016 | KK0991 (continuar) | — | (KK0472) | atualiza_proposta / KK1349 |
+| KK0016 | KK1452 | KK1451=="KK0301" | KK0648 | KK0301 (KK1000 9) |
+| KK1349 | KK0991 (continuar) | — | Flow_0r9adi2 | KK0329 |
+| KK1349 | KK1452 | KK1451=="KK0016" | Flow_07q23pc | KK0016 |
+| KK0329 | KK1452 | KK1451=="KK1349" | Flow_1a4fst5 | KK1349 |
+| KK0412 | KK0991 (continuar) | — | Flow_0a0za12 | KK1110 (KK1000 10) |
+| KK0412 | KK1452 | KK1451=="KK0016" | Flow_0jtfalw | KK0016 |
 
-### 2.4 Condições de kkkk7v (se houver)
+### 2.4 Condições de KK0669 (se houver)
 
-KK0188 8 pode ter kkkkaf condicionais (ex.: optante_produto, fluxo_spi, response_consulta_debito_json). Conferir no kkkkhk e documentar em manutenção.
+KK1000 8 pode ter KK0712 condicionais (ex.: optante_produto, fluxo_spi, response_consulta_debito_json). Conferir no KK0172 e documentar em manutenção.
 
-| ID kkkk7v | Nome | Expressão | Ramo | Flow | Target |
+| ID KK0669 | Nome | Expressão | Ramo | Flow | Target |
 |-----------|------|-----------|------|------|--------|
-| Gateway_0hneh12 | Possui debito? | (Sim: tem kkkkmj) | Sim | Flow_07s3ahf | kkkkif |
-| Gateway_0hneh12 | Possui debito? | (KK0195) | Não | Flow_0oewewz | Gateway_13b43jo |
+| Gateway_0hneh12 | Possui debito? | (Sim: tem KK0528) | Sim | Flow_07s3ahf | KK1349 |
+| Gateway_0hneh12 | Possui debito? | (KK0472) | Não | Flow_0oewewz | Gateway_13b43jo |
 
-### 2.5 kkkk5v kkkkhk (visão da parte)
+### 2.5 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
-**kkkkvq principal**
+**KK0650 principal**
 
 ```mermaid
 %%{init: {
@@ -5130,9 +5115,9 @@ KK0188 8 pode ter kkkkaf condicionais (ex.: optante_produto, fluxo_spi, response
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -5142,11 +5127,11 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
   direction LR
   IN((•))
-  IN --> AP([Aceite de kkkkst<br/>kkkkid])
-  AP --> AU([Atualiza kkkk3l<br/>kkkkmz])
-  AU --> TC([Termo KK0022<br/>kkkkif])
-  TC --> ACD([Consentimento kkkkmj<br/>kkkkmy])
-  ACD --> DD([Declarações<br/>kkkkib])
+  IN --> AP([Aceite de KK1079<br/>KK0016])
+  AP --> AU([Atualiza KK1086<br/>KK0103])
+  AU --> TC([Termo KK0378<br/>KK1349])
+  TC --> ACD([Consentimento KK0528<br/>KK0015])
+  ACD --> DD([Declarações<br/>KK0412])
   DD --> OUT(( ))
 
   style IN fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
@@ -5158,9 +5143,9 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style AU fill:#eceff1,stroke:#546e7a
 ```
 
-**KK0194 (KK0145)**
+**KK1452 (KK0492)**
 
-Setas tracejadas: para onde o KK0046 vai quando o KK0173 escolhe "kkkkgu". KK0188 9 (KK0064) para contexto.
+Setas tracejadas: para onde o KK0651 vai quando o KK1392 escolhe "KK1451". KK1000 9 (KK0301) para contexto.
 
 ```mermaid
 %%{init: {
@@ -5181,9 +5166,9 @@ Setas tracejadas: para onde o KK0046 vai quando o KK0173 escolhe "kkkkgu". KK018
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -5192,16 +5177,16 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Parte_8
-    AP([kkkkid])
-    TC([kkkkif])
-    DD([kkkkib])
+    AP([KK0016])
+    TC([KK1349])
+    DD([KK0412])
   end
   subgraph Parte_9
-    CS([KK0064])
+    CS([KK0301])
   end
-  TC -.->|kkkkgu| AP
-  DD -.->|kkkkgu| AP
-  AP -.->|kkkkgu| CS
+  TC -.->|KK1451| AP
+  DD -.->|KK1451| AP
+  AP -.->|KK1451| CS
 
   style AP fill:#bbdefb,stroke:#1565c0
   style TC fill:#bbdefb,stroke:#1565c0
@@ -5209,81 +5194,81 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style CS fill:#bbdefb,stroke:#1565c0
 ```
 
-**KK0194 (tabela De/Para/Flow)**
+**KK1452 (tabela De/Para/Flow)**
 
 | De | Para | Condição | Flow |
 | ---- | ------ | ---------- | ------ |
-| kkkkif | kkkkid | kkkkgu=="kkkkid" | Flow_07q23pc |
-| kkkkh9 | kkkkif | kkkkgu=="kkkkif" | Flow_1a4fst5 |
-| kkkkid | KK0064 (KK0188 9) | kkkkgu=="KK0064" | kkkke3 |
-| kkkkib | kkkkid | kkkkgu=="kkkkid" | Flow_0jtfalw |
+| KK1349 | KK0016 | KK1451=="KK0016" | Flow_07q23pc |
+| KK0329 | KK1349 | KK1451=="KK1349" | Flow_1a4fst5 |
+| KK0016 | KK0301 (KK1000 9) | KK1451=="KK0301" | KK0648 |
+| KK0412 | KK0016 | KK1451=="KK0016" | Flow_0jtfalw |
 
-**kkkkwk (timer):** `kkkkib` possui KK0196 kkkkja de timer (Event_0d91jbw, `KK0043`); ao estourar, KK0046 segue para kkkkyo.
+**KK0165 (timer):** `KK0412` possui KK0166 KK0604 de timer (Event_0d91jbw, `KK1344`); ao estourar, KK0651 segue para KK0621.
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Escrita por | Lida por | Usada em condição | Observação |
 | ---------- | ------------- | ---------- | ------------------- | ------------ |
-| kkkkgu | User kkkkiq (formData) | — | kkkkgu=="kkkkid", kkkkgu=="kkkkif", kkkkgu=="KK0064" | Define target do KK0013 "kkkkgu". |
-| KK0053 | KK0188 7, KK0096 | kkkkps (KK0188 8/10) | optante_produto == false | Oferta e kkkkmk. |
-| response_consulta_debito_json, fluxo_spi | kkkkml kkkkmj / upstream | kkkkps | Ex.: exibir KK0176 kkkkmj | Conferir kkkkhk. |
-| KK0125 | User kkkkiq (outputParameter) | — | — | Valor = id da kkkk9q concluída. |
+| KK1451 | User KK1335 (formData) | — | KK1451=="KK0016", KK1451=="KK1349", KK1451=="KK0301" | Define target do KK0308 "KK1451". |
+| KK0946 | KK1000 7, KK1240 | KK0711 (KK1000 8/10) | optante_produto == false | Oferta e KK0009. |
+| response_consulta_debito_json, fluxo_spi | KK0330 KK0528 / upstream | KK0711 | Ex.: exibir KK1338 KK0528 | Conferir KK0172. |
+| KK0602 | User KK1335 (outputParameter) | — | — | Valor = id da KK1332 concluída. |
 
 ---
 
-## 4. kkkkxe de kkkkag (KK0199)
+## 4. KK1145 de KK0911 (KK1139)
 
-| ID KK0148 / kkkk9q | Regra em uma linha |
+| ID KK1223 / KK1332 | Regra em uma linha |
 | ------------------ | --------------------- |
-| KK0096 | Mapeia dados de kkkkss para kkkkid; persiste KK0053 e campos de kkkkgw/kkkkss (reutilizado da KK0188 7). |
-| kkkkmw | kkkklj; preenche response_consulta_debito_json, fluxo_spi; usado em kkkkaf para exibir KK0176 kkkkmj. |
-| kkkkmx | Persiste kkkkmk de kkkkmm listagem kkkkmj; conferir KK0203 no kkkkhk. |
-| kkkkns (kkkk58 kkkkyn), Activity_097rtf7 (Mapeia kkkkwx kkkkg7 Ofertas) | kkkk58 kkkkvh e dados pessoa ofertas; conferir kkkkhk. |
+| KK1240 | Mapeia dados de KK0936 para KK0016; persiste KK0946 e campos de KK0245/KK0936 (reutilizado da KK1000 7). |
+| KK1248 | KK0332; preenche response_consulta_debito_json, fluxo_spi; usado em KK0712 para exibir KK1338 KK0528. |
+| KK1231 | Persiste KK0009 de KK0324 listagem KK0528; conferir KK0775 no KK0172. |
+| KK0030 (KK0844 KK0561), Activity_097rtf7 (Mapeia KK0399 KK1013 Ofertas) | KK0844 KK0562 e dados pessoa ofertas; conferir KK0172. |
 
 ---
 
-## 5. Pseudo-KK0021 (KK0199)
+## 5. Pseudo-KK0398 (KK1139)
 
-### 5.1 KK0216 kkkkmw
+### 5.1 KK1224 KK1248
 
-**KK0188:** 8 — kkkkwt, kkkkmk e kkkkyh  
-**Formato:** KK0044 / kkkkaq  
-**Objetivo:** Consultar kkkkmj; preencher response_consulta_debito_json e fluxo_spi para kkkkaf.
+**KK1000:** 8 — KK1078, KK0009 e KK1351  
+**Formato:** KK0732 / KK0473  
+**Objetivo:** Consultar KK0528; preencher response_consulta_debito_json e fluxo_spi para KK0712.
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217 (KK0199 — conferir kkkkhk):
-  KK0220 serviço de kkkkml kkkkmj
+KK1129 (KK1139 — conferir KK0172):
+  KK0260 serviço de KK0330 KK0528
   ATRIBUIR response_consulta_debito_json, fluxo_spi conforme resposta
 ```
 
-### 5.2 KK0216 kkkkmx
+### 5.2 KK1224 KK1231
 
-**Objetivo:** Persistir kkkkmk do kkkkmm de listagem kkkkmj após user kkkk9q kkkkh9.
+**Objetivo:** Persistir KK0009 do KK0324 de listagem KK0528 após user KK1332 KK0329.
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217 (KK0199 — conferir kkkkhk):
-  OBTER resultado do kkkkmk (formData / outputParameter)
-  PERSISTIR kkkkmm listagem kkkkmj
+KK1129 (KK1139 — conferir KK0172):
+  OBTER resultado do KK0009 (formData / outputParameter)
+  PERSISTIR KK0324 listagem KK0528
 ```
 
-#### Referências kkkkhk
+#### Referências KK0172
 
-- **ids:** KK0096, kkkkmw, kkkkmx, kkkkns, Activity_097rtf7.
-- **kkkkhk:** `kkkkk6`.
+- **ids:** KK1240, KK1248, KK1231, KK0030, Activity_097rtf7.
+- **KK0172:** `KK0953`.
 
 ---
 
-## 6. kkkkvt e saídas da parte
+## 6. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** kkkkvu a partir de KK0188 7 e KK0188 9 (kkkkgu); núcleo da KK0188 8; saídas para KK0188 9 (KK0064), KK0188 10 (kkkkc7) e KK0204 kkkkgu.
+**KK0491 de contexto:** KK0578 a partir de KK1000 7 e KK1000 9 (KK1451); núcleo da KK1000 8; saídas para KK1000 9 (KK0301), KK1000 10 (KK1110) e KK0654 KK1451.
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -5304,9 +5289,9 @@ KK0217 (KK0199 — conferir kkkkhk):
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -5314,18 +5299,18 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  subgraph kkkkvt["Origem"]
-    P7([KK0188 7])
-    CS([KK0064 KK0188 9])
+  subgraph KK0577["Origem"]
+    P7([KK1000 7])
+    CS([KK0301 KK1000 9])
   end
-  subgraph Parte8["KK0188 8 - kkkkwt e kkkkyh"]
-    AP([kkkkid])
-    TC([kkkkif])
-    DD([kkkkib])
+  subgraph Parte8["KK1000 8 - KK1078 e KK1351"]
+    AP([KK0016])
+    TC([KK1349])
+    DD([KK0412])
   end
-  subgraph kkkkvw["Destino"]
-    CS2([KK0064])
-    PL([kkkkc7 KK0188 10])
+  subgraph KK1207["Destino"]
+    CS2([KK0301])
+    PL([KK1110 KK1000 10])
   end
   P7 --> AP
   AP -.->|0m9vbwt| CS2
@@ -5342,159 +5327,159 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   CS -.-> AP
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
-| kkkk8l de destino | Flow / origem | Observação |
+| KK1331 de destino | Flow / origem | Observação |
 | ------------------- | --------------- | ------------ |
-| kkkkid | (KK0188 7) | kkkkvq principal (kkkkmv, atualiza_proposta, etc.). |
-| kkkkid | Flow_07q23pc, Flow_0jtfalw | KK0194 (kkkkif ou kkkkib). |
-| kkkkif | Flow_1a4fst5 | KK0194 (kkkkh9). |
+| KK0016 | (KK1000 7) | KK0650 principal (KK0336, atualiza_proposta, etc.). |
+| KK0016 | Flow_07q23pc, Flow_0jtfalw | KK1452 (KK1349 ou KK0412). |
+| KK1349 | Flow_1a4fst5 | KK1452 (KK0329). |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Flow | Destino | Observação |
 | ---------------- | ---------------------- | ------------ |
-| Flow_0a0za12 | kkkkc7 | KK0188 10 (continuar). |
-| kkkke3 | KK0064 | KK0188 9 (kkkkgu). |
-| Flow_07q23pc, Flow_0jtfalw | kkkkid | KK0194 interno. |
+| Flow_0a0za12 | KK1110 | KK1000 10 (continuar). |
+| KK0648 | KK0301 | KK1000 9 (KK1451). |
+| Flow_07q23pc, Flow_0jtfalw | KK0016 | KK1452 interno. |
 
-**Relação com kkkkzo kkkk6k:** O kkkktw (KK0188 8) consome a kkkkss retornada pelo kkkkxg (KK0188 5); kkkkvo (KK0053, KK0052 quando aplicável) persistem no kkkkho para uso no **ramo pós-kkkks7** (KK0012 no ramo kkkkzo kkkk6k, KK0188 12). Ver [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md).
+**Relação com KK0902 KK0921:** O KK0012 (KK1000 8) consome a KK0936 retornada pelo KK0497 (KK1000 5); KK1423 (KK0946, KK0745 quando aplicável) persistem no KK0282 para uso no **ramo pós-KK0544** (KK0657 no ramo KK0902 KK0921, KK1000 12). Ver [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md).
 
 ---
 
-## 7. Referências no kkkkhk
+## 7. Referências no KK0172
 
-- Tasks: `kkkkid`, `kkkkmz`, `kkkkif`, `kkkkmy`, `kkkkib`.
-- Flows de kkkkgu: buscar por conditionExpression kkkkgu=="kkkkid", kkkkgu=="kkkkif", kkkkgu=="KK0064".
-- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 8). **Guia:** [FLUXO_08_guia.md](FLUXO_08_guia.md). **User story:** [USER_STORY_08_produtos_aceite_termos.md](USER_STORY_08_produtos_aceite_termos.md).
+- Tasks: `KK0016`, `KK0103`, `KK1349`, `KK0015`, `KK0412`.
+- Flows de KK1451: buscar por conditionExpression KK1451=="KK0016", KK1451=="KK1349", KK1451=="KK0301".
+- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 8). **Guia:** [FLUXO_08_guia.md](FLUXO_08_guia.md). **User story:** [USER_STORY_08_produtos_aceite_termos.md](USER_STORY_08_produtos_aceite_termos.md).
 
 
 $$$$$
 
 [parte_08_produtos_aceite_termos/USER_STORY_08_produtos_aceite_termos_GENERICO.md]
 XXXXX
-# User Story — KK0188 8: kkkkwt, kkkkmk e kkkkyh
+# User Story — KK1000 8: KK1078, KK0009 e KK1351
 
-**KK0184:** `kkkkk6` (kkkkid, kkkkif, kkkkmy, kkkkib)
+**KK0655:** `KK0953` (KK0016, KK1349, KK0015, KK0412)
 
 ---
 
 ## User Story
 
-**Como** kkkk1x ou KK0173 da kkkksn de kkkklh,  
-**quero** aceitar kkkkst, kkkkyh, consentimentos (kkkkh2, kkkkmj) e preencher kkkkl6,  
-**para** que a kkkk3l registre os aceites e a kkkkgq avance para kkkks4/kkkkiu ou kkkkth pré-kkkks7.
+**Como** KK0273 ou KK1392 da KK0799 de KK0346,  
+**quero** aceitar KK1079, KK1351, consentimentos (KK1219, KK0528) e preencher KK0470,  
+**para** que a KK1086 registre os aceites e a KK0797 avance para KK0149/KK1267 ou KK1406 pré-KK0544.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- [ ] **CA1 – Aceite de kkkkst**  
-  O kkkk1x realiza o kkkkmk dos kkkkst na KK0176 correspondente (`kkkkid`). O kkkkxv atualiza a kkkk3l com esse kkkkmk e persiste na kkkk3l.
+- [ ] **CA1 – Aceite de KK1079**  
+  O KK0273 realiza o KK0009 dos KK1079 na KK1338 correspondente (`KK0016`). O KK1292 atualiza a KK1086 com esse KK0009 e persiste na KK1086.
 
-- [ ] **CA2 – kkkkyg e consentimentos**  
-  As etapas de kkkkmk de kkkkyh de KK0022 e de kkkkmm de kkkkmj (kkkkh2, kkkkmj) são executadas na ordem definida no KK0046.
+- [ ] **CA2 – KK1350 e consentimentos**  
+  As etapas de KK0009 de KK1351 de KK0378 e de KK0324 de KK0528 (KK1219, KK0528) são executadas na ordem definida no KK0651.
 
 - [ ] **CA3 – Declarações**  
-  A KK0176 de kkkkl6 é exibida e as informações declaradas pelo kkkk1x são registradas na kkkk3l (`kkkkib`).
+  A KK1338 de KK0470 é exibida e as informações declaradas pelo KK0273 são registradas na KK1086 (`KK0412`).
 
-- [ ] **CA4 – Navegação “KK0194”**  
-  Quando o KK0173 escolhe kkkkgu (por exemplo, para a KK0176 de kkkkwc de kkkkiu), o KK0046 kkkkdp para a etapa correspondente, conforme modelado no kkkkhk.
+- [ ] **CA4 – Navegação “KK1452”**  
+  Quando o KK1392 escolhe KK1451 (por exemplo, para a KK1338 de KK0297 de KK1267), o KK0651 KK1186 para a etapa correspondente, conforme modelado no KK0172.
 
 - [ ] **CA5 – Próximo passo**  
-  Ao final desta parte, o KK0046 segue para kkkks4 e kkkkwc de kkkkiu (KK0188 9) ou para kkkkth pré-kkkks7 (KK0188 10), conforme o caminho da kkkkgq.
+  Ao final desta parte, o KK0651 segue para KK0149 e KK0297 de KK1267 (KK1000 9) ou para KK1406 pré-KK0544 (KK1000 10), conforme o caminho da KK0797.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
-| kkkk8l de destino | Flow / origem | Observação |
+| KK1331 de destino | Flow / origem | Observação |
 | ----------------- | --------------- | ------------ |
-| `kkkkid` | KK0188 7 | kkkkvq principal (kkkkmv, atualiza_proposta, etc.). |
-| `kkkkid` | Flow_07q23pc, Flow_0jtfalw | KK0194 (kkkkif ou kkkkib). |
-| `kkkkif` | Flow_1a4fst5 | KK0194 (kkkkh9). |
+| `KK0016` | KK1000 7 | KK0650 principal (KK0336, atualiza_proposta, etc.). |
+| `KK0016` | Flow_07q23pc, Flow_0jtfalw | KK1452 (KK1349 ou KK0412). |
+| `KK1349` | Flow_1a4fst5 | KK1452 (KK0329). |
 
-### Scripts e kkkkiq
+### Scripts e KK1335
 
-| ID kkkk9q / KK0148 | Regra resumida |
+| ID KK1332 / KK1223 | Regra resumida |
 | ------------------ | ---------------- |
-| `kkkkid` | kkkk8m; KK0195 continuar; kkkkgu condicional. |
-| `kkkkmz` | kkkk8n; após kkkkmh. |
-| `kkkkif` | kkkk8m; KK0195 continuar; kkkkgu. |
-| `kkkkh9` | kkkk8m; KK0013 condicional (kkkkgu/continuar). |
-| `kkkkmy` | kkkk8n; kkkkmx. |
-| `kkkkib` | kkkk8m; kkkkl6. |
-| KK0096, kkkkmw | Scripts | kkkk58 e kkkkml kkkkmj. |
+| `KK0016` | KK1388; KK0472 continuar; KK1451 condicional. |
+| `KK0103` | KK1276; após KK0014. |
+| `KK1349` | KK1388; KK0472 continuar; KK1451. |
+| `KK0329` | KK1388; KK0308 condicional (KK1451/continuar). |
+| `KK0015` | KK1276; KK1231. |
+| `KK0412` | KK1388; KK0470. |
+| KK1240, KK1248 | Scripts | KK0844 e KK0330 KK0528. |
 
-Conteúdo jurídico dos kkkkyh fora desta US. Ver [FLUXO_08_tecnico](FLUXO_08_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
+Conteúdo jurídico dos KK1351 fora desta US. Ver [FLUXO_08_tecnico](FLUXO_08_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Onde escrita / lida | Observação |
 | ---------- | ---------------------- | ------------ |
-| `kkkkgu` | User kkkkiq (formData) | kkkkgu=="kkkkid", "kkkkif", "KK0064". |
-| `KK0053` | KK0188 7, KK0096 | optante_produto == false (KK0188 8/10). |
-| `response_consulta_debito_json`, `fluxo_spi` | kkkkml kkkkmj / upstream | Ex.: exibir KK0176 kkkkmj. |
-| `KK0125` | User kkkkiq (outputParameter) | id da kkkk9q concluída. |
+| `KK1451` | User KK1335 (formData) | KK1451=="KK0016", "KK1349", "KK0301". |
+| `KK0946` | KK1000 7, KK1240 | optante_produto == false (KK1000 8/10). |
+| `response_consulta_debito_json`, `fluxo_spi` | KK0330 KK0528 / upstream | Ex.: exibir KK1338 KK0528. |
+| `KK0602` | User KK1335 (outputParameter) | id da KK1332 concluída. |
 
-### kkkkwk events
+### KK0165 events
 
-| Event ID | kkkk8l anexada | Observação |
+| Event ID | KK1331 anexada | Observação |
 | ---------- | -------------- | ------------ |
-| Event_0d91jbw | kkkkib | Timer `KK0043`; ao estourar → kkkkyo. |
+| Event_0d91jbw | KK0412 | Timer `KK1344`; ao estourar → KK0621. |
 
-### Fluxos de kkkkgu
+### Fluxos de KK1451
 
 | De | Para | Condição | Flow |
 | ---- | ------ | ---------- | ------ |
-| kkkkif | kkkkid | kkkkgu=="kkkkid" | Flow_07q23pc |
-| kkkkh9 | kkkkif | kkkkgu=="kkkkif" | Flow_1a4fst5 |
-| kkkkid | KK0064 (KK0188 9) | kkkkgu=="KK0064" | kkkke3 |
-| kkkkib | kkkkid | kkkkgu=="kkkkid" | Flow_0jtfalw |
+| KK1349 | KK0016 | KK1451=="KK0016" | Flow_07q23pc |
+| KK0329 | KK1349 | KK1451=="KK1349" | Flow_1a4fst5 |
+| KK0016 | KK0301 (KK1000 9) | KK1451=="KK0301" | KK0648 |
+| KK0412 | KK0016 | KK1451=="KK0016" | Flow_0jtfalw |
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 7 | Origem | Limites/kkkkss (KK0053). |
-| 9 | Adjacente | KK0064 (kkkkgu via kkkke3). |
-| 10 | Destino | kkkkc7 (Flow_0a0za12). |
+| 7 | Origem | Limites/KK0936 (KK0946). |
+| 9 | Adjacente | KK0301 (KK1451 via KK0648). |
+| 10 | Destino | KK1110 (Flow_0a0za12). |
 
 ---
 
-## Referência kkkkhk
+## Referência KK0172
 
-kkkkid, kkkkmz, kkkkif, kkkkmy, kkkkib.
+KK0016, KK0103, KK1349, KK0015, KK0412.
 
 $$$$$
 
 [parte_09_biometria_coleta_senha/FLUXO_09_guia_GENERICO.md]
 XXXXX
-# KK0188 9 — kkkkxf e kkkkwc de kkkkiu (guia)
+# KK1000 9 — KK0148 e KK0297 de KK1267 (guia)
 
-**O que é esta parte:** trecho em que o kkkk1x realiza **kkkks4**, **kkkkgt de kkkksr** (aprovado / recusado / não elegível), **kkkkwc de kkkkiu** e **resumo da kkkklh**. A kkkk3l é atualizada com o resultado.
+**O que é esta parte:** trecho em que o KK0273 realiza **KK0149**, **KK0065 de KK1216** (aprovado / recusado / não elegível), **KK0297 de KK1267** e **resumo da KK0346**. A KK1086 é atualizada com o resultado.
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Coletar kkkks4, validar kkkksr, kkkktx e exibir resumo da kkkklh; atualizar kkkk3l. Ramos: aprovado, kkkkjv, não elegível.
+Coletar KK0149, validar KK1216, KK0300 e exibir resumo da KK0346; atualizar KK1086. Ramos: aprovado, KK0151, não elegível.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **kkkkxf** — O kkkk1x realiza a kkkkwc de kkkks4; em seguida o kkkkxv avalia o kkkksr (aprovado, recusado ou não elegível).
-- **Ramos recusado / não elegível** — Quando a kkkks4 é recusada ou o kkkk1x não é elegível, o KK0046 segue para os ramos específicos de tratamento.
-- **KK0182 de kkkkiu** — O kkkk1x define a kkkkiu.
-- **Resumo da kkkklh** — O kkkk1x visualiza o resumo da kkkklh antes de seguir.
-- **Atualização da kkkk3l** — A kkkk3l é atualizada com os dados desta etapa.
+- **KK0148** — O KK0273 realiza a KK0297 de KK0149; em seguida o KK1292 avalia o KK1216 (aprovado, recusado ou não elegível).
+- **Ramos recusado / não elegível** — Quando a KK0149 é recusada ou o KK0273 não é elegível, o KK0651 segue para os ramos específicos de tratamento.
+- **KK0298 de KK1267** — O KK0273 define a KK1267.
+- **Resumo da KK0346** — O KK0273 visualiza o resumo da KK0346 antes de seguir.
+- **Atualização da KK1086** — A KK1086 é atualizada com os dados desta etapa.
 
 ---
 
@@ -5502,8 +5487,8 @@ Coletar kkkks4, validar kkkksr, kkkktx e exibir resumo da kkkklh; atualizar kkkk
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **O que ocorre** | kkkkxf; decisão por kkkksr; kkkkwc de kkkkiu; resumo da kkkklh. |
-| **Saída** | Aprovado → kkkkth e kkkks7; recusado ou não elegível → ramos específicos. |
+| **O que ocorre** | KK0148; decisão por KK1216; KK0297 de KK1267; resumo da KK0346. |
+| **Saída** | Aprovado → KK1406 e KK0544; recusado ou não elegível → ramos específicos. |
 
 Para detalhes use **FLUXO_09_tecnico.md**.
 
@@ -5511,101 +5496,101 @@ $$$$$
 
 [parte_09_biometria_coleta_senha/FLUXO_09_tecnico_GENERICO.md]
 XXXXX
-# KK0188 9 — kkkkxf e kkkkwc de kkkkiu — documentação kkkk5u
+# KK1000 9 — KK0148 e KK0297 de KK1267 — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** User kkkkiq KK0060, KK0061 (service), kkkkpc (kkkkxf aprovada?), ramos recusado/não elegível, KK0064, KK0065, kkkkm9.
+**KK0655:** `KK0953`  
+**KK0598:** User KK1335 KK0409, KK0057 (service), KK0677 (KK0148 aprovada?), ramos recusado/não elegível, KK0301, KK1184, KK0114.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `KK0060` | kkkk8m — kkkkwx kkkkxf (wait state) |
-| `KK0064` | kkkk8m — KK0182 de kkkkna |
-| `KK0065` | kkkk8m — Resumo kkkk8h |
-| `kkkkjv`, `kkkkju` | Estados de exceção |
+| `KK0409` | KK1388 — KK0399 KK0148 (wait state) |
+| `KK0301` | KK1388 — KK0298 de KK1266 |
+| `KK1184` | KK1388 — Resumo KK0345 |
+| `KK0151`, `KK0154` | Estados de exceção |
 
 ---
 
 ## 1. Objetivo da parte
 
-Coletar **kkkks4**, avaliar **kkkksr** (aprovado / recusado / não elegível), **kkkktx** e exibir **resumo da kkkklh**; atualizar kkkk3l. Ramos de exceção: kkkkow, kkkkl7. kkkkvq "kkkkgu" de KK0064 para KK0060.
+Coletar **KK0149**, avaliar **KK1216** (aprovado / recusado / não elegível), **KK0300** e exibir **resumo da KK0346**; atualizar KK1086. Ramos de exceção: KK1089, KK0150. KK0650 "KK1451" de KK0301 para KK0409.
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 User kkkkiq
+### 2.1 User KK1335
 
 | Tipo | ID | Nome (name) | Observação |
 | ---------- | -------------------- | ------------- | ------------ |
-| kkkk8m | `KK0060` | kkkkwx kkkkxf | KK0195 Flow_lwia93s → KK0061. outputParameter KK0125 = KK0060. kkkkwk kkkkja (timer). Completos condicionais: kkkkgu; não elegível (Flow_1lb52fv → kkkkju). |
-| kkkk8m | `kkkkju` | kkkks4 não elegivel | Rama quando não elegível; KK0196 kkkkja (não cancela). |
-| kkkk8m | `KK0064` | KK0182 de kkkkna | KK0195 Flow_0napr8v. KK0125 = KK0064. KK0194: Flow_lbs08gl (kkkkgu=="KK0060"). kkkkwk kkkkja (timer). |
-| kkkk8m | `KK0065` | Resumo kkkk8h | kkkkvq para Event_0tqat13 (fim da parte / próxima etapa). |
+| KK1388 | `KK0409` | KK0399 KK0148 | KK0472 Flow_lwia93s → KK0057. outputParameter KK0602 = KK0409. KK0165 KK0604 (timer). Completos condicionais: KK1451; não elegível (Flow_1lb52fv → KK0154). |
+| KK1388 | `KK0154` | KK0149 não elegivel | Rama quando não elegível; KK0166 KK0604 (não cancela). |
+| KK1388 | `KK0301` | KK0298 de KK1266 | KK0472 Flow_0napr8v. KK0602 = KK0301. KK1452: Flow_lbs08gl (KK1451=="KK0409"). KK0165 KK0604 (timer). |
+| KK1388 | `KK1184` | Resumo KK0345 | KK0650 para Event_0tqat13 (fim da parte / próxima etapa). |
 
-### 2.2 Service kkkkiq e kkkk7v
+### 2.2 Service KK1335 e KK0669
 
 | Tipo | ID | Nome | Observação |
 | --------- | ----- | ------ | ------------ |
-| kkkk8n | `KK0061` | (kkkkgt de kkkksr) | Após KK0060; saída para kkkkpc. |
-| kkkk8n | `kkkkow` | kkkklg recusada por kkkks4 | kkkkat KK0095. |
-| kkkk8n | `KK0063` | kkkklg kkkkl7 | kkkkat KK0095. |
-| kkkk8n | `kkkkm9` | Atualiza kkkklg | kkkkat KK0095 (outros ramos). |
-| kkkk81 | `kkkkpc` | kkkkxf aprovada? | KK0195 Flow_0vupom6 (Aprovado). Outgoing: Aprovado → kkkklb; Não → ramo kkkkow; condicional não elegível. |
+| KK1276 | `KK0057` | (KK0065 de KK1216) | Após KK0409; saída para KK0677. |
+| KK1276 | `KK1089` | KK1085 recusada por KK0149 | KK0474 KK0117. |
+| KK1276 | `KK1100` | KK1085 KK0150 | KK0474 KK0117. |
+| KK1276 | `KK0114` | Atualiza KK1085 | KK0474 KK0117 (outros ramos). |
+| KK0614 | `KK0677` | KK0148 aprovada? | KK0472 Flow_0vupom6 (Aprovado). Outgoing: Aprovado → KK0685; Não → ramo KK1089; condicional não elegível. |
 
-### 2.2.1 Condições de kkkk7v
-### 2.2.2 KK0149 (KK0189 da KK0190)
+### 2.2.1 Condições de KK0669
+### 2.2.2 KK0309 (KK1181 da KK0314)
 
-| kkkk8l ID | Tipo de KK0013 | Condição | Flow | Target |
+| KK1331 ID | Tipo de KK0308 | Condição | Flow | Target |
 |---------|------------------|----------|------|--------|
-| KK0060 | KK0192 (continuar) | — | Flow_lwia93s | KK0061 |
-| KK0060 | Não elegível | — | Flow_1lb52fv | kkkkju |
-| KK0064 | KK0192 (continuar) | — | Flow_0napr8v | Gateway_0985gr4 |
-| KK0064 | KK0194 | kkkkgu=="KK0060" | Flow_lbs08gl | KK0060 |
-| KK0065 | KK0192 | — | Flow_14p237e | Event_0tqat13 |
+| KK0409 | KK0991 (continuar) | — | Flow_lwia93s | KK0057 |
+| KK0409 | Não elegível | — | Flow_1lb52fv | KK0154 |
+| KK0301 | KK0991 (continuar) | — | Flow_0napr8v | Gateway_0985gr4 |
+| KK0301 | KK1452 | KK1451=="KK0409" | Flow_lbs08gl | KK0409 |
+| KK1184 | KK0991 | — | Flow_14p237e | Event_0tqat13 |
 
 
 
-| ID kkkk7v | Nome | Expressão | Ramo | Flow | Target |
+| ID KK0669 | Nome | Expressão | Ramo | Flow | Target |
 | ------------ | ------ | ----------- | ------ | ------ | -------- |
-| kkkkpc | kkkkxf aprovada? | (KK0195) | Aprovado | Flow_0vupom6 | kkkklb |
-| kkkkpc | kkkkxf aprovada? | `${KK0130 != 'KK0115'}` | Não (recusado) | Flow_1bop8df | kkkklc |
+| KK0677 | KK0148 aprovada? | (KK0472) | Aprovado | Flow_0vupom6 | KK0685 |
+| KK0677 | KK0148 aprovada? | `${KK1180 != 'KK0152'}` | Não (recusado) | Flow_1bop8df | KK0700 |
 
-### 2.3 Sequence kkkkoa principais
+### 2.3 Sequence KK0649 principais
 
 | ID do flow | sourceRef | targetRef | Observação |
 | ------------ | ----------- | ----------- | ------------ |
-| Flow_lwia93s | KK0060 | KK0061 | Continuar (KK0195). |
-| Flow_16gjrtz | KK0061 | kkkkpc | Entrada no kkkk7v. |
-| Flow_0vupom6 | kkkkpc | kkkklb | Aprovado (KK0195). |
-| Flow_1bop8df | kkkkpc | kkkklc | Não (recusado). |
-| Flow_0napr8v | KK0064 | Gateway_0985gr4 | Continuar. |
-| Flow_1v2yesr | Gateway_1lr1d27 | KK0065 | Entrada em resumo. |
-| Flow_14p237e | KK0065 | Event_0tqat13 | Saída. |
-| Flow_lbs08gl | KK0064 | KK0060 | KK0194 (kkkkgu=="KK0060"). |
-| Flow_1lb52fv | KK0060 | kkkkju | Não elegível. |
-| Flow_1p6bw67 | kkkkju | KK0063 | Segue para atualização kkkk3l. |
+| Flow_lwia93s | KK0409 | KK0057 | Continuar (KK0472). |
+| Flow_16gjrtz | KK0057 | KK0677 | Entrada no KK0669. |
+| Flow_0vupom6 | KK0677 | KK0685 | Aprovado (KK0472). |
+| Flow_1bop8df | KK0677 | KK0700 | Não (recusado). |
+| Flow_0napr8v | KK0301 | Gateway_0985gr4 | Continuar. |
+| Flow_1v2yesr | Gateway_1lr1d27 | KK1184 | Entrada em resumo. |
+| Flow_14p237e | KK1184 | Event_0tqat13 | Saída. |
+| Flow_lbs08gl | KK0301 | KK0409 | KK1452 (KK1451=="KK0409"). |
+| Flow_1lb52fv | KK0409 | KK0154 | Não elegível. |
+| Flow_1p6bw67 | KK0154 | KK1100 | Segue para atualização KK1086. |
 
-### 2.4 kkkkwk events
+### 2.4 KK0165 events
 
-| ID do kkkkas | attachedToRef | Tipo | Observação |
+| ID do KK0169 | attachedToRef | Tipo | Observação |
 | --------------------- | --------------- | ------ | ------------ |
-| Event_0c2fazl | KK0060 | Timer | kkkk63 (KK0043). |
-| Event_0ojvc63 | KK0064 | Timer | kkkk63. |
-| Event_19wij0k | kkkkju | (não cancela atividade) | kkkkvq para KK0063. |
+| Event_0c2fazl | KK0409 | Timer | KK0620 (KK1344). |
+| Event_0ojvc63 | KK0301 | Timer | KK0620. |
+| Event_19wij0k | KK0154 | (não cancela atividade) | KK0650 para KK1100. |
 
-### 2.5 kkkk5v kkkkhk (visão da parte)
+### 2.5 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
-kkkkvq principal: kkkks4 → kkkkgt kkkksr → kkkk7v (aprovado / recusado / não elegível) → aprovado segue para KK0064 → KK0065. Ramos recusado e não elegível atualizam kkkk3l e seguem para eventos de fim.
+KK0650 principal: KK0149 → KK0065 KK1216 → KK0669 (aprovado / recusado / não elegível) → aprovado segue para KK0301 → KK1184. Ramos recusado e não elegível atualizam KK1086 e seguem para eventos de fim.
 
-**kkkkvq principal (aprovado) e ramos**
+**KK0650 principal (aprovado) e ramos**
 
 ```mermaid
 %%{init: {
@@ -5626,9 +5611,9 @@ kkkkvq principal: kkkks4 → kkkkgt kkkksr → kkkk7v (aprovado / recusado / nã
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -5640,14 +5625,14 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   subgraph Entrada
     IN((•))
   end
-  IN --> B([kkkkxf<br/>KK0060])
-  B --> A([kkkk5o kkkkul<br/>KK0061])
-  A --> GW{kkkkxf<br/>aprovada?}
-  GW -->|Aprovado| C([Coletar kkkkiu<br/>KK0064])
-  GW -->|Não| REC([kkkklg kkkkjv<br/>kkkkow])
-  GW -->|Não elegível| NE([kkkkxf não elegível<br/>kkkkju])
-  NE --> NEP([kkkklg kkkkl7<br/>KK0063])
-  C --> R([Resumo kkkklh<br/>KK0065])
+  IN --> B([KK0148<br/>KK0409])
+  B --> A([KK0064 KK1217<br/>KK0057])
+  A --> GW{KK0148<br/>aprovada?}
+  GW -->|Aprovado| C([Coletar KK1267<br/>KK0301])
+  GW -->|Não| REC([KK1085 KK0151<br/>KK1089])
+  GW -->|Não elegível| NE([KK0148 não elegível<br/>KK0154])
+  NE --> NEP([KK1085 KK0150<br/>KK1100])
+  C --> R([Resumo KK0346<br/>KK1184])
   R --> OUT(( ))
 
   style IN fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
@@ -5662,29 +5647,29 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style NEP fill:#eceff1,stroke:#546e7a
 ```
 
-**KK0194 (KK0064 → KK0060)**
+**KK1452 (KK0301 → KK0409)**
 
 | De | Para | Condição | Flow |
 | ---- | ------ | ---------- | ------ |
-| KK0064 | KK0060 | kkkkgu == "KK0060" | Flow_lbs08gl |
+| KK0301 | KK0409 | KK1451 == "KK0409" | Flow_lbs08gl |
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Escrita por | Lida por | Usada em condição | Observação |
 | ---------- | ------------- | ---------- | ------------------- | ------------ |
-| KK0125 | KK0060, KK0064 (outputParameter) | — | — | Valor = id da kkkk9q concluída (KK0060, KK0064). |
-| kkkkgu | User kkkkiq (formData) | — | Flow_lbs08gl: kkkkgu=="KK0060" | Define target do KK0013 "kkkkgu". |
-| KK0043 | KK0188 1 (KK0148) | kkkkwk events (timer) | — | Só leitura nesta parte. |
+| KK0602 | KK0409, KK0301 (outputParameter) | — | — | Valor = id da KK1332 concluída (KK0409, KK0301). |
+| KK1451 | User KK1335 (formData) | — | Flow_lbs08gl: KK1451=="KK0409" | Define target do KK0308 "KK1451". |
+| KK1344 | KK1000 1 (KK1223) | KK0165 events (timer) | — | Só leitura nesta parte. |
 
 ---
 
-## 4. kkkkvt e saídas da parte
+## 4. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** entrada a partir da KK0188 8 (após kkkkmk/kkkkyh); núcleo kkkks4/kkkkwc kkkkiu; saídas para KK0065, kkkkgu (KK0060) e ramos recusado/não elegível.
+**KK0491 de contexto:** entrada a partir da KK1000 8 (após KK0009/KK1351); núcleo KK0149/KK0297 KK1267; saídas para KK1184, KK1451 (KK0409) e ramos recusado/não elegível.
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -5705,9 +5690,9 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -5716,17 +5701,17 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Entrada["Origem"]
-    P8([KK0188 8])
+    P8([KK1000 8])
   end
-  subgraph Parte9["KK0188 9 - kkkkxf e kkkkiu"]
-    B([KK0060])
-    GW{kkkkxf aprovada?}
-    C([KK0064])
-    R([KK0065])
+  subgraph Parte9["KK1000 9 - KK0148 e KK1267"]
+    B([KK0409])
+    GW{KK0148 aprovada?}
+    C([KK0301])
+    R([KK1184])
   end
-  subgraph kkkkvw["Destino"]
-    R2([KK0065 / Event])
-    B2([KK0060])
+  subgraph KK1207["Destino"]
+    R2([KK1184 / Event])
+    B2([KK0409])
   end
   P8 --> B
   B --> GW
@@ -5743,157 +5728,157 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style B2 fill:#bbdefb,stroke:#1565c0
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
-| kkkk8l de destino | Origem / observação |
+| KK1331 de destino | Origem / observação |
 | ------------------- | ---------------------- |
-| KK0060 | kkkkvq principal após KK0188 8 (kkkkmk, kkkkyh, kkkkl6). |
-| KK0064 | kkkkpc (kkkkxf aprovada? = Sim). |
+| KK0409 | KK0650 principal após KK1000 8 (KK0009, KK1351, KK0470). |
+| KK0301 | KK0677 (KK0148 aprovada? = Sim). |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Flow | Destino | Observação |
 | ---------------- | ---------------------- | ------------ |
-| Flow_14p237e | Event_0tqat13 | KK0065 → próxima etapa. |
-| Flow_lbs08gl | KK0060 | KK0194 (KK0064). |
-| (ramos recusado / não elegível) | kkkkow, kkkkju | Atualização kkkk3l e fim. |
+| Flow_14p237e | Event_0tqat13 | KK1184 → próxima etapa. |
+| Flow_lbs08gl | KK0409 | KK1452 (KK0301). |
+| (ramos recusado / não elegível) | KK1089, KK0154 | Atualização KK1086 e fim. |
 
 ---
 
-## 5. Referências kkkkhk
+## 5. Referências KK0172
 
-- **kkkkhk:** `kkkkk6` (raiz do repositório).
-- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 9).
+- **KK0172:** `KK0953` (raiz do repositório).
+- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 9).
 - **Guia:** [FLUXO_09_guia.md](FLUXO_09_guia.md). **User story:** [USER_STORY_09_biometria_coleta_senha.md](USER_STORY_09_biometria_coleta_senha.md).
 
 $$$$$
 
 [parte_09_biometria_coleta_senha/USER_STORY_09_biometria_coleta_senha_GENERICO.md]
 XXXXX
-# User Story — KK0188 9: kkkkxf e kkkkwc de kkkkiu
+# User Story — KK1000 9: KK0148 e KK0297 de KK1267
 
-**KK0184:** `kkkkk6` (KK0060, kkkkpc, KK0064, KK0065)
+**KK0655:** `KK0953` (KK0409, KK0677, KK0301, KK1184)
 
 ---
 
 ## User Story
 
-**Como** kkkk1x,  
-**quero** realizar a kkkks4, coletar a kkkkiu e ver o resumo da kkkklh,  
-**para** avançar para kkkkth e kkkks7.
+**Como** KK0273,  
+**quero** realizar a KK0149, coletar a KK1267 e ver o resumo da KK0346,  
+**para** avançar para KK1406 e KK0544.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- [ ] **CA1 – kkkkxf e decisão**  
-  O kkkk1x realiza a kkkkwc de kkkks4 (`KK0060`). Em seguida o KK0046 passa por uma decisão (kkkk7v `kkkkpc`), que direciona conforme o resultado da kkkks4.
+- [ ] **CA1 – KK0148 e decisão**  
+  O KK0273 realiza a KK0297 de KK0149 (`KK0409`). Em seguida o KK0651 passa por uma decisão (KK0669 `KK0677`), que direciona conforme o resultado da KK0149.
 
-- [ ] **CA2 – KK0182 de kkkkiu e resumo**  
-  O kkkk1x informa a kkkkiu na KK0176 de kkkkwc (`KK0064`) e visualiza o resumo da kkkklh (`KK0065`), na ordem definida no kkkkhk.
+- [ ] **CA2 – KK0298 de KK1267 e resumo**  
+  O KK0273 informa a KK1267 na KK1338 de KK0297 (`KK0301`) e visualiza o resumo da KK0346 (`KK1184`), na ordem definida no KK0172.
 
-- [ ] **CA3 – Atualização da kkkk3l**  
-  Ao concluir as etapas desta parte, a kkkk3l é atualizada com os dados de kkkks4 e kkkkiu, conforme KK0203 do kkkkhk.
+- [ ] **CA3 – Atualização da KK1086**  
+  Ao concluir as etapas desta parte, a KK1086 é atualizada com os dados de KK0149 e KK1267, conforme KK0775 do KK0172.
 
 - [ ] **CA4 – Próximo passo**  
-  Ao final, o KK0046 segue para a kkkkth pré-kkkks7 e kkkkxo (KK0188 10).
+  Ao final, o KK0651 segue para a KK1406 pré-KK0544 e KK0821 (KK1000 10).
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
-| kkkk8l de destino | Origem / observação |
+| KK1331 de destino | Origem / observação |
 | ----------------- | --------------------- |
-| `KK0060` | kkkkvq principal após KK0188 8 (kkkkmk, kkkkyh, kkkkl6). |
-| `KK0064` | kkkkpc (kkkkxf aprovada? = Sim). |
+| `KK0409` | KK0650 principal após KK1000 8 (KK0009, KK1351, KK0470). |
+| `KK0301` | KK0677 (KK0148 aprovada? = Sim). |
 
-### Scripts e kkkkiq
+### Scripts e KK1335
 
-| ID kkkk9q / elemento | Regra resumida |
+| ID KK1332 / elemento | Regra resumida |
 | -------------------- | ---------------- |
-| `KK0060` | kkkk8m; KK0195 Flow_lwia93s → KK0061; kkkkgu; não elegível (Flow_1lb52fv). |
-| `KK0061` | kkkk8n; kkkkgt de kkkksr; saída para kkkkpc. |
-| `kkkkow`, `KK0063` | kkkka6; KK0095. |
-| `KK0064` | kkkk8m; kkkkgu Flow_lbs08gl (kkkkgu=="KK0060"). |
-| `KK0065` | kkkk8m; saída Event_0tqat13. |
-| `kkkkm9` | kkkk8n; KK0095. |
+| `KK0409` | KK1388; KK0472 Flow_lwia93s → KK0057; KK1451; não elegível (Flow_1lb52fv). |
+| `KK0057` | KK1276; KK0065 de KK1216; saída para KK0677. |
+| `KK1089`, `KK1100` | KK1277; KK0117. |
+| `KK0301` | KK1388; KK1451 Flow_lbs08gl (KK1451=="KK0409"). |
+| `KK1184` | KK1388; saída Event_0tqat13. |
+| `KK0114` | KK1276; KK0117. |
 
 Ver [FLUXO_09_tecnico](FLUXO_09_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Onde escrita / lida | Observação |
 | ---------- | ---------------------- | ------------ |
-| `KK0125` | KK0060, KK0064 (outputParameter) | Valor = id da kkkk9q concluída. |
-| `kkkkgu` | User kkkkiq (formData) | kkkkgu=="KK0060" (Flow_lbs08gl). |
-| `KK0043` | KK0188 1 (KK0148) | kkkkwk events (timer); só leitura. |
-| `KK0130` | KK0061 | kkkkpc (KK0115 / kkkkg3 / recusado). |
+| `KK0602` | KK0409, KK0301 (outputParameter) | Valor = id da KK1332 concluída. |
+| `KK1451` | User KK1335 (formData) | KK1451=="KK0409" (Flow_lbs08gl). |
+| `KK1344` | KK1000 1 (KK1223) | KK0165 events (timer); só leitura. |
+| `KK1180` | KK0057 | KK0677 (KK0152 / KK1467 / recusado). |
 
-### kkkkwk events
+### KK0165 events
 
-| Event ID | kkkk8l anexada | Observação |
+| Event ID | KK1331 anexada | Observação |
 | ---------- | -------------- | ------------ |
-| Event_0c2fazl | KK0060 | Timer; kkkkyo. |
-| Event_0ojvc63 | KK0064 | Timer; kkkkyo. |
-| Event_19wij0k | kkkkju | Não cancela atividade. |
+| Event_0c2fazl | KK0409 | Timer; KK0621. |
+| Event_0ojvc63 | KK0301 | Timer; KK0621. |
+| Event_19wij0k | KK0154 | Não cancela atividade. |
 
-### kkkkpc (kkkkxf aprovada?)
+### KK0677 (KK0148 aprovada?)
 
 | Ramo | Flow | Destino |
 | ------ | ------ | --------- |
-| Aprovado (KK0195) | Flow_0vupom6 | kkkklb → KK0064 |
-| Não (recusado) | Flow_1bop8df | kkkklc (kkkkow) |
-| Não elegível | Flow_1lb52fv | kkkkju |
+| Aprovado (KK0472) | Flow_0vupom6 | KK0685 → KK0301 |
+| Não (recusado) | Flow_1bop8df | KK0700 (KK1089) |
+| Não elegível | Flow_1lb52fv | KK0154 |
 
-### Fluxos de kkkkgu
+### Fluxos de KK1451
 
 | De | Para | Condição | Flow |
 | ---- | ------ | ---------- | ------ |
-| KK0064 | KK0060 | kkkkgu=="KK0060" | Flow_lbs08gl |
+| KK0301 | KK0409 | KK1451=="KK0409" | Flow_lbs08gl |
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 8 | Origem | Aceite/kkkkyh/kkkkl6. |
-| 10 | Destino | kkkk56 pré-kkkks7 (Event_0tqat13 após KK0065). |
-| 6 | Uso | `KK0130 == 'kkkkg3'` (kkkkax). |
+| 8 | Origem | Aceite/KK1351/KK0470. |
+| 10 | Destino | KK1405 pré-KK0544 (Event_0tqat13 após KK1184). |
+| 6 | Uso | `KK1180 == 'KK1467'` (KK0675). |
 
 ---
 
-## Referência kkkkhk
+## Referência KK0172
 
-- User kkkkiq / atividades: KK0060, KK0064, KK0065.
-- kkkkis: kkkkpc.
+- User KK1335 / atividades: KK0409, KK0301, KK1184.
+- KK0668: KK0677.
 
 $$$$$
 
 [parte_10_validacao_pre_efetivacao_liberacao/FLUXO_10_guia_GENERICO.md]
 XXXXX
-# KK0188 10 — kkkk56 pré-kkkks7 e kkkkxo (guia)
+# KK1000 10 — KK1405 pré-KK0544 e KK0821 (guia)
 
-**O que é esta parte:** trecho em que o kkkk55 **valida a kkkklh** e o **id da pessoa**, **libera a kkkk3l** para kkkks7 ou direciona para ramos de não efetivada / erro (ex.: tentativa excedida). Só propostas liberadas seguem para a kkkks7 da kkkklh (KK0188 11).
+**O que é esta parte:** trecho em que o KK1069 **valida a KK0346** e o **id da pessoa**, **libera a KK1086** para KK0544 ou direciona para ramos de não efetivada / erro (ex.: tentativa excedida). Só propostas liberadas seguem para a KK0544 da KK0346 (KK1000 11).
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-kkkkav kkkklh e id da pessoa antes de efetivar; liberar a kkkk3l para kkkks7 quando estiver tudo certo; tratar erros (ex.: tentativa excedida) nos ramos definidos no KK0046.
+KK1404 KK0346 e id da pessoa antes de efetivar; liberar a KK1086 para KK0544 quando estiver tudo certo; tratar erros (ex.: tentativa excedida) nos ramos definidos no KK0651.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **Consulta de kkkklh** — O kkkkxv kkkkml a kkkklh e o id da pessoa.
-- **KK0007** — O KK0046 verifica se a kkkk3l pode ser kkkkl5: **kkkkl5** (segue para kkkks7) ou **não efetivada** (ramo específico).
-- **kkkklg kkkkl5** — Quando aprovada, a kkkk3l é marcada como kkkkl5 e as kkkkl6 de kkkk0x são atualizadas.
-- **Erros** — Eventos como tentativa excedida disparam os ramos de tratamento, sem seguir para kkkks7.
+- **Consulta de KK0346** — O KK1292 KK0330 a KK0346 e o id da pessoa.
+- **KK0466** — O KK0651 verifica se a KK1086 pode ser KK0820: **KK0820** (segue para KK0544) ou **não efetivada** (ramo específico).
+- **KK1085 KK0820** — Quando aprovada, a KK1086 é marcada como KK0820 e as KK0470 de KK1095 são atualizadas.
+- **Erros** — Eventos como tentativa excedida disparam os ramos de tratamento, sem seguir para KK0544.
 
 ---
 
@@ -5901,77 +5886,77 @@ kkkkav kkkklh e id da pessoa antes de efetivar; liberar a kkkk3l para kkkks7 qua
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **O que ocorre** | Consulta de kkkklh; decisão kkkkl5 / não efetivada; atualização da kkkk3l quando kkkkl5. |
-| **Saída** | kkkklg kkkkl5 → KK0188 11 (kkkks7 da kkkklh). |
+| **O que ocorre** | Consulta de KK0346; decisão KK0820 / não efetivada; atualização da KK1086 quando KK0820. |
+| **Saída** | KK1085 KK0820 → KK1000 11 (KK0544 da KK0346). |
 
-Para detalhes KK0178 use **FLUXO_10_tecnico.md**.
+Para detalhes KK1379 use **FLUXO_10_tecnico.md**.
 
 $$$$$
 
 [parte_10_validacao_pre_efetivacao_liberacao/FLUXO_10_tecnico_GENERICO.md]
 XXXXX
-# KK0188 10 — kkkk56 pré-kkkks7 e kkkkxo (documentação kkkk5u)
+# KK1000 10 — KK1405 pré-KK0544 e KK0821 (documentação KK1377)
 
-**KK0184:** `kkkkk6`  
-**KK0183:** consulta_conta, kkkk72 (A kkkktj com mesmo KK0068 da kkkk3l?), proposta_nao_efetivada, kkkkc7, kkkkn3; eventos de erro (tentativa excedida).
+**KK0655:** `KK0953`  
+**KK0598:** consulta_conta, KK0683 (A KK0350 com mesmo KK0746 da KK1086?), proposta_nao_efetivada, KK1110, KK0105; eventos de erro (tentativa excedida).
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkkc7` | kkkk8m/Service — kkkklg Liberada (última UT; loop até kkkkl5==true) |
+| `KK1110` | KK1388/Service — KK1085 Liberada (última UT; loop até KK0820==true) |
 
 ---
 
 ## 1. Objetivo da parte
 
-**kkkkip** antes de efetivar: kkkkml à kkkklh; verificação se a kkkklh já efetivada tem mesmo KK0068 da kkkk3l (kkkk72). Se **Sim** → segue para kkkkxo (kkkk71); se **Não** → definir_motico_cancelamento. Tratamento de **tentativas** (tentativas_consulta_conta, KK0066); kkkkc7 e kkkkn3; integração kkkkgb (Activity_0uurkex, Activity_15q9p5w).
+**KK1412** antes de efetivar: KK0330 à KK0346; verificação se a KK0346 já efetivada tem mesmo KK0746 da KK1086 (KK0683). Se **Sim** → segue para KK0821 (KK0703); se **Não** → definir_motico_cancelamento. Tratamento de **tentativas** (tentativas_consulta_conta, KK1172); KK1110 e KK0105; integração KK0145 (Activity_0uurkex, Activity_15q9p5w).
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 kkkkis e kkkkiq
+### 2.1 KK0668 e KK1335
 
 | Tipo | ID do elemento | Nome (name) | Observação |
 | ------------------ | ---------------- | ------------- | ------------ |
-| kkkk81 | kkkk72 | A kkkktj com mesmo KK0068 da kkkk3l? | Entrada após Gateway_08c0frl. kkkkvv: Sim → Flow_1vvghj5 → kkkk71; Não → Flow_1d1y607 → definir_motico_cancelamento. |
-| kkkk8n / kkkk8m | consulta_conta | Consulta kkkklh | Variáveis KK0066, tentativas_consulta_conta. |
-| kkkk8n | proposta_nao_efetivada | kkkklg não efetivada | Ramos de erro. |
-| kkkk8n | kkkkc7 | kkkklg kkkkl5 | Liberação. |
-| kkkk8n | kkkkn3 | Atualiza kkkk0x kkkkl6 | Após kkkkxo. |
+| KK0614 | KK0683 | A KK0350 com mesmo KK0746 da KK1086? | Entrada após Gateway_08c0frl. KK1213: Sim → Flow_1vvghj5 → KK0703; Não → Flow_1d1y607 → definir_motico_cancelamento. |
+| KK1276 / KK1388 | consulta_conta | Consulta KK0346 | Variáveis KK1172, tentativas_consulta_conta. |
+| KK1276 | proposta_nao_efetivada | KK1085 não efetivada | Ramos de erro. |
+| KK1276 | KK1110 | KK1085 KK0820 | Liberação. |
+| KK1276 | KK0105 | Atualiza KK1095 KK0470 | Após KK0821. |
 
-Condição Não: `${KK0066[0].KK0067 != KK0068}`. Condições de tentativa: KK0066 == null && tentativas_consulta_conta < 3 (kkkkaa) ou >= 3 (tentativa excedida).
+Condição Não: `${KK1172[0].KK0924 != KK0746}`. Condições de tentativa: KK1172 == null && tentativas_consulta_conta < 3 (KK1190) ou >= 3 (tentativa excedida).
 
-### 2.2 Sequence kkkkoa principais
+### 2.2 Sequence KK0649 principais
 
 | ID do flow | sourceRef | targetRef | Nome/condição |
 | ------------ | ----------- | ----------- | --------------- |
-| Flow_08d8u9w | Gateway_08c0frl | kkkk72 | Entrada (Sim). |
-| Flow_1vvghj5 | kkkk72 | kkkk71 | Sim (kkkklh mesmo KK0068). |
-| Flow_1d1y607 | kkkk72 | definir_motico_cancelamento | Não: KK0066[0].KK0067 != KK0068. |
+| Flow_08d8u9w | Gateway_08c0frl | KK0683 | Entrada (Sim). |
+| Flow_1vvghj5 | KK0683 | KK0703 | Sim (KK0346 mesmo KK0746). |
+| Flow_1d1y607 | KK0683 | definir_motico_cancelamento | Não: KK1172[0].KK0924 != KK0746. |
 
-### 2.3 Condições de kkkk7v
-### 2.3.1 KK0149 (KK0189 da KK0190)
+### 2.3 Condições de KK0669
+### 2.3.1 KK0309 (KK1181 da KK0314)
 
-Não há user kkkk9q no KK0046 principal da KK0188 10 (consulta_conta e kkkkc7 são service/KK0148). Completions são determinadas pelos sequence kkkkoa e pelo kkkk7v kkkk72 (kkkklh mesmo KK0068 → Flow_1vvghj5; não → Flow_1d1y607 definir_motico_cancelamento).
+Não há user KK1332 no KK0651 principal da KK1000 10 (consulta_conta e KK1110 são service/KK1223). Completions são determinadas pelos sequence KK0649 e pelo KK0669 KK0683 (KK0346 mesmo KK0746 → Flow_1vvghj5; não → Flow_1d1y607 definir_motico_cancelamento).
 
 
 
-| ID kkkk7v | Nome | Expressão | Ramo | Flow | Target |
+| ID KK0669 | Nome | Expressão | Ramo | Flow | Target |
 | ------------ | ------ | ----------- | ------ | ------ | -------- |
-| kkkk72 | A kkkktj com mesmo KK0068 da kkkk3l? | `${KK0066[0].KK0067 == KK0068}` (implícito Sim) | Sim | Flow_1vvghj5 | kkkk71 |
-| kkkk72 | A kkkktj com mesmo KK0068 da kkkk3l? | `${KK0066[0].KK0067 != KK0068}` | Não | Flow_1d1y607 | definir_motico_cancelamento |
+| KK0683 | A KK0350 com mesmo KK0746 da KK1086? | `${KK1172[0].KK0924 == KK0746}` (implícito Sim) | Sim | Flow_1vvghj5 | KK0703 |
+| KK0683 | A KK0350 com mesmo KK0746 da KK1086? | `${KK1172[0].KK0924 != KK0746}` | Não | Flow_1d1y607 | definir_motico_cancelamento |
 
-Outros kkkkaf (tentativas_consulta_conta, KK0066 == null): conferir conditionExpression no kkkkhk.
+Outros KK0712 (tentativas_consulta_conta, KK1172 == null): conferir conditionExpression no KK0172.
 
-### 2.4 kkkk5v kkkkhk (visão da parte)
+### 2.4 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
 ```mermaid
 %%{init: {
@@ -5992,9 +5977,9 @@ Outros kkkkaf (tentativas_consulta_conta, KK0066 == null): conferir conditionExp
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -6004,12 +5989,12 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
   direction LR
   IN((•))
-  IN --> kkkk8e([Consulta kkkklh<br/>consulta_conta])
-  kkkk8e --> GW{kkkk8h efetivada<br/>mesmo KK0068?}
-  GW -->|Sim| G2([kkkk56 kkkkxo<br/>kkkk71])
+  IN --> KK0255([Consulta KK0346<br/>consulta_conta])
+  KK0255 --> GW{KK0345 efetivada<br/>mesmo KK0746?}
+  GW -->|Sim| G2([KK1405 KK0821<br/>KK0703])
   GW -->|Não| DMC([Definir motivo cancelamento<br/>definir_motico_cancelamento])
-  G2 --> PL([kkkklg kkkkl5<br/>kkkkc7])
-  PL --> AU([Atualiza kkkk0x kkkkl6<br/>kkkkn3])
+  G2 --> PL([KK1085 KK0820<br/>KK1110])
+  PL --> AU([Atualiza KK1095 KK0470<br/>KK0105])
   AU --> OUT(( ))
   DMC --> OUT2(( ))
 
@@ -6017,7 +6002,7 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style OUT fill:#ffcdd2,stroke:#c62828,stroke-width:2px
   style OUT2 fill:#ffcdd2,stroke:#c62828,stroke-width:2px
   style GW fill:#fff8e1,stroke:#e65100,stroke-width:2px
-  style kkkk8e fill:#eceff1,stroke:#546e7a
+  style KK0255 fill:#eceff1,stroke:#546e7a
   style PL fill:#eceff1,stroke:#546e7a
   style AU fill:#eceff1,stroke:#546e7a
   style G2 fill:#fff8e1,stroke:#e65100,stroke-width:2px
@@ -6026,57 +6011,57 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Escrita por | Lida por | Usada em condição | Observação |
 | ---------- | ------------- | ---------- | ------------------- | ------------ |
-| KK0066 | consulta_conta | kkkk72 | KK0067 == KK0068 | Resposta da kkkkml kkkklh. |
-| KK0068 | (upstream) | kkkk72 | Comparação com KK0066[0].KK0067 | Identificador da kkkk3l. |
-| tentativas_consulta_conta | consulta_conta / KK0148 | kkkkps de kkkkaa/erro | < 3 (kkkkaa), >= 3 (tentativa excedida) | Conferir kkkkhk. |
-| kkkkc7 | kkkkc7 (kkkk9q) / KK0028 | Partes 11, kkkkaf | kkkkc7 != true (bloqueio) | Liberação para efetivar. |
+| KK1172 | consulta_conta | KK0683 | KK0924 == KK0746 | Resposta da KK0330 KK0346. |
+| KK0746 | (upstream) | KK0683 | Comparação com KK1172[0].KK0924 | Identificador da KK1086. |
+| tentativas_consulta_conta | consulta_conta / KK1223 | KK0711 de KK1190/erro | < 3 (KK1190), >= 3 (tentativa excedida) | Conferir KK0172. |
+| KK1110 | KK1110 (KK1332) / KK1245 | Partes 11, KK0712 | KK1110 != true (bloqueio) | Liberação para efetivar. |
 
 ---
 
-## 4. kkkkxe de kkkkag (KK0199)
+## 4. KK1145 de KK0911 (KK1139)
 
-| ID KK0148 / kkkk9q | Regra em uma linha |
+| ID KK1223 / KK1332 | Regra em uma linha |
 | ------------------ | --------------------- |
-| Activity_0uurkex, Activity_15q9p5w | Scripts/kkkkiq de kkkkth pré-kkkks7 e kkkkxo; conferir KK0203 e conditionExpression no kkkkhk (consulta_conta, kkkkc7). |
+| Activity_0uurkex, Activity_15q9p5w | Scripts/KK1335 de KK1406 pré-KK0544 e KK0821; conferir KK0775 e conditionExpression no KK0172 (consulta_conta, KK1110). |
 
 ---
 
-## 5. Pseudo-KK0021 (KK0199)
+## 5. Pseudo-KK0398 (KK1139)
 
 ### 5.1 Activity_0uurkex / Activity_15q9p5w
 
-**KK0188:** 10 — kkkk56 pré-kkkks7 e kkkkxo  
-**Objetivo:** Suportar consulta_conta, comparação KK0068 e kkkkxo (kkkkc7); comportamento conforme kkkkhk.
+**KK1000:** 10 — KK1405 pré-KK0544 e KK0821  
+**Objetivo:** Suportar consulta_conta, comparação KK0746 e KK0821 (KK1110); comportamento conforme KK0172.
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217 (KK0199 — conferir kkkkhk):
-  APÓS consulta_conta OBTER KK0066
-  KK0223 KK0066[0].KK0067 == KK0068 KK0224
-    ATRIBUIR kkkkc7 (ou seguir para kkkkc7)
-  KK0221
+KK1129 (KK1139 — conferir KK0172):
+  APÓS consulta_conta OBTER KK1172
+  KK1249 KK1172[0].KK0924 == KK0746 KK0579
+    ATRIBUIR KK1110 (ou seguir para KK1110)
+  KK1269
     SEGUIR para definir_motico_cancelamento
-  KK0226 KK0223
-  (Retry: tentativas_consulta_conta < 3 conforme kkkkhk)
+  KK0642 KK1249
+  (Retry: tentativas_consulta_conta < 3 conforme KK0172)
 ```
 
-#### Referências kkkkhk
+#### Referências KK0172
 
-- **ids:** Activity_0uurkex, Activity_15q9p5w, consulta_conta, kkkkc7, kkkk72.
-- **kkkkhk:** `kkkkk6`.
+- **ids:** Activity_0uurkex, Activity_15q9p5w, consulta_conta, KK1110, KK0683.
+- **KK0172:** `KK0953`.
 
 ---
 
-## 6. kkkkvt e saídas da parte
+## 6. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** entrada a partir da KK0188 8 (kkkkc7); núcleo kkkkth/kkkklh; saídas para kkkkxo (KK0188 11) ou definir_motico_cancelamento.
+**KK0491 de contexto:** entrada a partir da KK1000 8 (KK1110); núcleo KK1406/KK0346; saídas para KK0821 (KK1000 11) ou definir_motico_cancelamento.
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -6097,9 +6082,9 @@ KK0217 (KK0199 — conferir kkkkhk):
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -6108,162 +6093,162 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Entrada["Origem"]
-    P8([kkkkc7 KK0188 8])
+    P8([KK1110 KK1000 8])
   end
-  subgraph Parte10["KK0188 10 - kkkk56 pré-kkkks7"]
-    kkkk8e([consulta_conta])
-    GW{kkkk8h mesmo KK0068?}
-    PL([kkkkc7])
+  subgraph Parte10["KK1000 10 - KK1405 pré-KK0544"]
+    KK0255([consulta_conta])
+    GW{KK0345 mesmo KK0746?}
+    PL([KK1110])
   end
-  subgraph kkkkvw["Destino"]
-    G2([kkkk71])
+  subgraph KK1207["Destino"]
+    G2([KK0703])
     DMC([definir_motico_cancelamento])
   end
-  P8 --> kkkk8e
-  kkkk8e --> GW
+  P8 --> KK0255
+  KK0255 --> GW
   GW -->|Sim| G2
   GW -->|Não| DMC
   G2 --> PL
   style P8 fill:#bbdefb,stroke:#1565c0
-  style kkkk8e fill:#eceff1,stroke:#546e7a
+  style KK0255 fill:#eceff1,stroke:#546e7a
   style GW fill:#fff8e1,stroke:#e65100,stroke-width:2px
   style PL fill:#bbdefb,stroke:#1565c0
   style G2 fill:#fff8e1,stroke:#e65100,stroke-width:2px
   style DMC fill:#bbdefb,stroke:#1565c0
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
-| kkkk8l / elemento de destino | Flow / origem | Observação |
+| KK1331 / elemento de destino | Flow / origem | Observação |
 | ----------------------------- | --------------- | ------------ |
-| consulta_conta / Gateway_08c0frl | KK0188 8 | kkkkib → kkkkc7 (Flow_0a0za12) e kkkkxc. |
-| kkkk72 | Flow_08d8u9w | Gateway_08c0frl (após consulta_conta). |
+| consulta_conta / Gateway_08c0frl | KK1000 8 | KK0412 → KK1110 (Flow_0a0za12) e KK1272. |
+| KK0683 | Flow_08d8u9w | Gateway_08c0frl (após consulta_conta). |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Flow | Destino | Observação |
 | ---------------- | ---------------------- | ------------ |
-| Flow_1vvghj5 | kkkk71 | Sim: kkkklh mesmo KK0068 (kkkkxo → KK0188 11). |
-| Flow_1d1y607 | definir_motico_cancelamento | Não: kkkklh com KK0068 diferente. |
+| Flow_1vvghj5 | KK0703 | Sim: KK0346 mesmo KK0746 (KK0821 → KK1000 11). |
+| Flow_1d1y607 | definir_motico_cancelamento | Não: KK0346 com KK0746 diferente. |
 
 ---
 
-## 7. Referências no kkkkhk
+## 7. Referências no KK0172
 
-- kkkkis: `kkkk72`.
-- Tasks: `consulta_conta`, `proposta_nao_efetivada`, `kkkkc7`, `kkkkn3`.
+- KK0668: `KK0683`.
+- Tasks: `consulta_conta`, `proposta_nao_efetivada`, `KK1110`, `KK0105`.
 - Flows: Flow_08d8u9w, Flow_1vvghj5, Flow_1d1y607.
-- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 10). **Guia:** [FLUXO_10_guia.md](FLUXO_10_guia.md). **User story:** [USER_STORY_10_validacao_pre_efetivacao_liberacao.md](USER_STORY_10_validacao_pre_efetivacao_liberacao.md).
+- **Índice do manual:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 10). **Guia:** [FLUXO_10_guia.md](FLUXO_10_guia.md). **User story:** [USER_STORY_10_validacao_pre_efetivacao_liberacao.md](USER_STORY_10_validacao_pre_efetivacao_liberacao.md).
 
 $$$$$
 
 [parte_10_validacao_pre_efetivacao_liberacao/USER_STORY_10_validacao_pre_efetivacao_liberacao_GENERICO.md]
 XXXXX
-# User Story — KK0188 10: kkkk56 pré-kkkks7 e kkkkxo
+# User Story — KK1000 10: KK1405 pré-KK0544 e KK0821
 
-**KK0184:** `kkkkk6` (consulta_conta, kkkk72, kkkkc7)
+**KK0655:** `KK0953` (consulta_conta, KK0683, KK1110)
 
 ---
 
 ## User Story
 
-**Como** motor de kkkk55 da kkkkfj, **quero** validar kkkklh e KK0068 e liberar a kkkk3l para kkkks7, **para** que apenas propostas válidas sigam para kkkks7 da kkkklh.
+**Como** motor de KK1069 da KK0798, **quero** validar KK0346 e KK0746 e liberar a KK1086 para KK0544, **para** que apenas propostas válidas sigam para KK0544 da KK0346.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- [ ] **CA1 – Consulta de kkkklh e decisão**  
-  O kkkkxv kkkkml a kkkklh e o id da pessoa (`consulta_conta`) e, em seguida, passa por uma decisão (kkkk7v `kkkk72`). Conforme o resultado, o KK0046 segue pelo ramo “kkkk0x” ou “não efetivada”.
+- [ ] **CA1 – Consulta de KK0346 e decisão**  
+  O KK1292 KK0330 a KK0346 e o id da pessoa (`consulta_conta`) e, em seguida, passa por uma decisão (KK0669 `KK0683`). Conforme o resultado, o KK0651 segue pelo ramo “KK1095” ou “não efetivada”.
 
-- [ ] **CA2 – kkkklg kkkkl5**  
-  Quando a kkkk3l é kkkkl5, o KK0046 executa a marcação de kkkk0x e a atualização das kkkkl6 de kkkk0x. A kkkk3l fica pronta para kkkks7.
+- [ ] **CA2 – KK1085 KK0820**  
+  Quando a KK1086 é KK0820, o KK0651 executa a marcação de KK1095 e a atualização das KK0470 de KK1095. A KK1086 fica pronta para KK0544.
 
 - [ ] **CA3 – Tratamento de erros**  
-  Eventos de erro (ex.: tentativa excedida) disparam os ramos de tratamento definidos no kkkkhk, sem seguir para kkkks7.
+  Eventos de erro (ex.: tentativa excedida) disparam os ramos de tratamento definidos no KK0172, sem seguir para KK0544.
 
 - [ ] **CA4 – Próximo passo**  
-  Com a kkkk0x, o KK0046 segue para a kkkks7 da kkkklh (KK0188 11).
+  Com a KK1095, o KK0651 segue para a KK0544 da KK0346 (KK1000 11).
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
-| kkkk8l / elemento de destino | Flow / origem | Observação |
+| KK1331 / elemento de destino | Flow / origem | Observação |
 | ---------------------------- | --------------- | ------------ |
-| consulta_conta / Gateway_08c0frl | KK0188 8 | kkkkib → kkkkc7 (Flow_0a0za12). |
-| kkkk72 | Flow_08d8u9w | Gateway_08c0frl (após consulta_conta). |
+| consulta_conta / Gateway_08c0frl | KK1000 8 | KK0412 → KK1110 (Flow_0a0za12). |
+| KK0683 | Flow_08d8u9w | Gateway_08c0frl (após consulta_conta). |
 
-### Scripts e kkkkiq
+### Scripts e KK1335
 
-| ID kkkk9q / elemento | Regra resumida |
+| ID KK1332 / elemento | Regra resumida |
 | -------------------- | ---------------- |
-| `consulta_conta` | kkkk8n/kkkk8m; KK0066, tentativas_consulta_conta. |
-| `kkkk72` | A kkkktj com mesmo KK0068 da kkkk3l? |
-| `proposta_nao_efetivada` | kkkk8n; ramos de erro (tentativa excedida). |
-| `kkkkc7` | kkkk8n; kkkkxo. |
-| `kkkkn3` | kkkk8n; após kkkkxo. |
-| Activity_0uurkex, Activity_15q9p5w | KK0030 kkkkgb. |
+| `consulta_conta` | KK1276/KK1388; KK1172, tentativas_consulta_conta. |
+| `KK0683` | A KK0350 com mesmo KK0746 da KK1086? |
+| `proposta_nao_efetivada` | KK1276; ramos de erro (tentativa excedida). |
+| `KK1110` | KK1276; KK0821. |
+| `KK0105` | KK1276; após KK0821. |
+| Activity_0uurkex, Activity_15q9p5w | KK0782 KK0145. |
 
 Ver [FLUXO_10_tecnico](FLUXO_10_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Onde escrita / lida | Observação |
 | ---------- | ---------------------- | ------------ |
-| `KK0066` | consulta_conta | kkkk72 (KK0067 == KK0068). |
-| `KK0068` | upstream | Comparação com KK0066[0].KK0067. |
-| `tentativas_consulta_conta` | consulta_conta / KK0148 | < 3 (kkkkaa), >= 3 (tentativa excedida). |
-| `kkkkc7` | kkkkc7 (kkkk9q) | Partes 11; kkkkc7 != true (bloqueio). |
+| `KK1172` | consulta_conta | KK0683 (KK0924 == KK0746). |
+| `KK0746` | upstream | Comparação com KK1172[0].KK0924. |
+| `tentativas_consulta_conta` | consulta_conta / KK1223 | < 3 (KK1190), >= 3 (tentativa excedida). |
+| `KK1110` | KK1110 (KK1332) | Partes 11; KK1110 != true (bloqueio). |
 
-### kkkk72 (kkkk8h efetivada mesmo KK0068?)
+### KK0683 (KK0345 efetivada mesmo KK0746?)
 
 | Ramo | Flow | Destino |
 | ------ | ------ | --------- |
-| Sim | Flow_1vvghj5 | kkkk71 → kkkkc7 (KK0188 11) |
+| Sim | Flow_1vvghj5 | KK0703 → KK1110 (KK1000 11) |
 | Não | Flow_1d1y607 | definir_motico_cancelamento |
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 8 | Origem | kkkkc7 (Flow_0a0za12). |
-| 11 | Destino | kkkk7y (kkkk71). |
+| 8 | Origem | KK1110 (Flow_0a0za12). |
+| 11 | Destino | KK0543 (KK0703). |
 
 ---
 
-## Referência kkkkhk
+## Referência KK0172
 
-consulta_conta, kkkk72, proposta_nao_efetivada, kkkkc7, kkkkn3.
+consulta_conta, KK0683, proposta_nao_efetivada, KK1110, KK0105.
 
 $$$$$
 
 [parte_11_efetivacao_conta/FLUXO_11_guia_GENERICO.md]
 XXXXX
-# KK0188 11 — kkkk7y da kkkklh (guia)
+# KK1000 11 — KK0543 da KK0346 (guia)
 
-**O que é esta parte:** trecho em que a **kkkklh é efetivada** (abertura via KK0139 correspondente), os dados são **atualizados no kkkkhq** e a **kkkk3l** recebe o id da kkkklh e a resposta de abertura. Em seguida o KK0046 segue para o pós-kkkks7 (KK0188 12).
+**O que é esta parte:** trecho em que a **KK0346 é efetivada** (abertura via KK0230 correspondente), os dados são **atualizados no KK0586** e a **KK1086** recebe o id da KK0346 e a resposta de abertura. Em seguida o KK0651 segue para o pós-KK0544 (KK1000 12).
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Efetivar a kkkklh no kkkkxv; atualizar a kkkk3l com id da kkkklh e resposta de abertura; manter o kkkkhq alinhado com a kkkklh aberta.
+Efetivar a KK0346 no KK1292; atualizar a KK1086 com id da KK0346 e resposta de abertura; manter o KK0586 alinhado com a KK0346 aberta.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **Preparação e kkkks7** — O kkkk55 prepara e chama o serviço de kkkks7 da kkkklh (kkkkp3 corrente).
-- **Mensagem e decisão** — Após a kkkks7, o KK0046 trata o resultado (kkkktj ou erro) e direciona conforme o kkkk7v.
-- **Atualização kkkkhq** — Os dados são atualizados no kkkkhq para refletir a kkkklh aberta.
-- **kkkklg** — A kkkk3l é atualizada com o id da kkkklh e a resposta de kkkkp3.
+- **Preparação e KK0544** — O KK1069 prepara e chama o serviço de KK0544 da KK0346 (KK0007 corrente).
+- **Mensagem e decisão** — Após a KK0544, o KK0651 trata o resultado (KK0350 ou erro) e direciona conforme o KK0669.
+- **Atualização KK0586** — Os dados são atualizados no KK0586 para refletir a KK0346 aberta.
+- **KK1085** — A KK1086 é atualizada com o id da KK0346 e a resposta de KK0007.
 
 ---
 
@@ -6271,81 +6256,81 @@ Efetivar a kkkklh no kkkkxv; atualizar a kkkk3l com id da kkkklh e resposta de a
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **O que ocorre** | kkkk7y da kkkklh; atualização kkkkhq; registro na kkkk3l (KK0103, resposta de abertura). |
-| **Saída** | kkkkvq segue para KK0188 12 (kkkk8g e vínculo kkkkia). |
+| **O que ocorre** | KK0543 da KK0346; atualização KK0586; registro na KK1086 (KK0742, resposta de abertura). |
+| **Saída** | KK0650 segue para KK1000 12 (KK1283 e vínculo KK1124). |
 
-Para detalhes KK0178 use **FLUXO_11_tecnico.md**.
+Para detalhes KK1379 use **FLUXO_11_tecnico.md**.
 
 $$$$$
 
 [parte_11_efetivacao_conta/FLUXO_11_tecnico_GENERICO.md]
 XXXXX
-# KK0188 11 — kkkk7y da kkkklh — documentação kkkk5u
+# KK1000 11 — KK0543 da KK0346 — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** Script e service kkkkiq de preparação e kkkks7 da kkkklh; atualização kkkkhq; kkkk3l efetiva kkkklh. kkkk59: kkkkne, kkkkel, KK0126, KK0107, kkkkcx, kkkkm1, kkkknw, kkkkn7.
+**KK0655:** `KK0953`  
+**KK0598:** Script e service KK1335 de preparação e KK0544 da KK0346; atualização KK0586; KK1086 efetiva KK0346. KK0551: KK1235, KK0534, KK0873, KK1233, KK0101, KK0714, KK0113, KK1104.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkkne`, `kkkkel` | Preparação e kkkks7 da kkkklh |
-| `kkkkn7`, `KK0074` | Atualização kkkk3l |
-| `KK0107`, `kkkkcx`, `kkkknw` | kkkkhq e pessoa |
-| `KK0073`, `kkkkn6`, `kkkkn9` | kkkkz5, tarifas, kkkkhv |
-| `KK0076`, `KK0078`, `KK0079` | kkkkhm (kkkk7y) |
+| `KK1235`, `KK0534` | Preparação e KK0544 da KK0346 |
+| `KK1104`, `KK1105` | Atualização KK1086 |
+| `KK1233`, `KK0101`, `KK0113` | KK0586 e pessoa |
+| `KK0533`, `KK0367`, `KK0601` | KK0244, tarifas, KK0831 |
+| `KK1401`, `KK0538`, `KK0104` | KK0776 (KK0543) |
 
 ---
 
 ## 1. Objetivo da parte
 
-**Efetivar a kkkklh** no kkkkxv (abertura via KK0139 correspondente); atualizar **kkkkhq** com os dados da kkkklh; atualizar a **kkkk3l** com id da kkkklh e resposta de abertura. Saída para KK0188 12 (pós-kkkks7: kkkk8g e vínculo kkkkia).
+**Efetivar a KK0346** no KK1292 (abertura via KK0230 correspondente); atualizar **KK0586** com os dados da KK0346; atualizar a **KK1086** com id da KK0346 e resposta de abertura. Saída para KK1000 12 (pós-KK0544: KK1283 e vínculo KK1124).
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 Script kkkkiq e service kkkkiq
+### 2.1 Script KK1335 e service KK1335
 
 | Tipo | ID | Nome (name) | Observação |
 | ------ | ----- | ------------- | ------------ |
-| kkkk8o | `kkkkne` | kkkknl | KK0044; preparação para kkkks7. |
-| kkkk8n | `kkkkel` | (kkkks7 kkkklh) | kkkkxl ao KK0139/serviço de kkkkp3. |
-| kkkk8n | `KK0126` | (mensagem kkkktj) | Tratamento do resultado. |
-| kkkk8o | `KK0107` | Script Atualiza kkkkhq | KK0044; atualização kkkkhq. |
-| kkkk8n | `kkkkcx` | (atualiza dados kkkkhq) | Delegate. |
-| kkkk8o | `kkkkm1` | kkkknf | KK0044. |
-| kkkk8n | `kkkknw` | (atualizar pessoa) | Delegate. |
-| kkkk8n | `kkkkn7` | (kkkk3l efetiva kkkklh) | Atualiza kkkk3l com KK0103 e KK0101. |
+| KK1246 | `KK1235` | KK1227 | KK0732; preparação para KK0544. |
+| KK1276 | `KK0534` | (KK0544 KK0346) | KK0258 ao KK0230/serviço de KK0007. |
+| KK1276 | `KK0873` | (mensagem KK0350) | Tratamento do resultado. |
+| KK1246 | `KK1233` | Script Atualiza KK0586 | KK0732; atualização KK0586. |
+| KK1276 | `KK0101` | (atualiza dados KK0586) | Delegate. |
+| KK1246 | `KK0714` | KK0717 | KK0732. |
+| KK1276 | `KK0113` | (atualizar pessoa) | Delegate. |
+| KK1276 | `KK1104` | (KK1086 efetiva KK0346) | Atualiza KK1086 com KK0742 e KK1170. |
 
-### 2.2 Sequence kkkkoa principais
+### 2.2 Sequence KK0649 principais
 
-### 2.2.1 KK0149 (KK0189 da KK0190)
+### 2.2.1 KK0309 (KK1181 da KK0314)
 
-KK0188 11 não possui user kkkkiq; apenas KK0148 e external kkkkiq em kkkkxc. Saída: kkkkn7 → KK0090 (KK0188 12).
+KK1000 11 não possui user KK1335; apenas KK1223 e external KK1335 em KK1272. Saída: KK1104 → KK0690 (KK1000 12).
 
-### 2.2.2 Condições de kkkk7v
+### 2.2.2 Condições de KK0669
 
-Nenhum kkkk7v no KK0046 da KK0188 11. A decisão (kkkk8h aberta? etc.) está em kkkkaf a montante ou na KK0188 12 (KK0090).
+Nenhum KK0669 no KK0651 da KK1000 11. A decisão (KK0345 aberta? etc.) está em KK0712 a montante ou na KK1000 12 (KK0690).
 
 
 
 | ID do flow | sourceRef | targetRef | Observação |
 | ------------ | ----------- | ----------- | ------------ |
-| (timer_trava_XO) | timer | kkkkne | Entrada após kkkkth pré-kkkks7. |
-| Flow_lgjpt48 | kkkkne | kkkkel | Continuar. |
-| (kkkkel → KK0126) | kkkkel | KK0126 | Resultado. |
-| Flow_0xkhsw8 | KK0107 | kkkkcx | Atualização kkkkhq. |
-| (→ kkkkn7) | kkkkcx / KK0046 | kkkkn7 | Registro na kkkk3l. |
-| Flow_lnlvcia | kkkkn7 | KK0090 | Saída para KK0188 12. |
+| (timer_trava_XO) | timer | KK1235 | Entrada após KK1406 pré-KK0544. |
+| Flow_lgjpt48 | KK1235 | KK0534 | Continuar. |
+| (KK0534 → KK0873) | KK0534 | KK0873 | Resultado. |
+| Flow_0xkhsw8 | KK1233 | KK0101 | Atualização KK0586. |
+| (→ KK1104) | KK0101 / KK0651 | KK1104 | Registro na KK1086. |
+| Flow_lnlvcia | KK1104 | KK0690 | Saída para KK1000 12. |
 
-### 2.3 kkkk5v kkkkhk (visão da parte)
+### 2.3 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
 ```mermaid
 %%{init: {
@@ -6366,9 +6351,9 @@ Nenhum kkkk7v no KK0046 da KK0188 11. A decisão (kkkk8h aberta? etc.) está em 
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -6377,13 +6362,13 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   direction LR
-  IN((•)) --> S1([Script kkkk7y kkkk8h<br/>kkkkne])
-  S1 --> EF([Efetiva kkkklh<br/>kkkkel])
-  EF --> MSG([Mensagem kkkktj<br/>KK0126])
-  MSG --> S2([Script Atualiza kkkkhq<br/>KK0107])
-  S2 --> EQ([Atualiza dados kkkkhq<br/>kkkkcx])
-  EQ --> P([kkkklg efetiva kkkklh<br/>kkkkn7])
-  P --> OUT((KK0188 12))
+  IN((•)) --> S1([Script KK0543 KK0345<br/>KK1235])
+  S1 --> EF([Efetiva KK0346<br/>KK0534])
+  EF --> MSG([Mensagem KK0350<br/>KK0873])
+  MSG --> S2([Script Atualiza KK0586<br/>KK1233])
+  S2 --> EQ([Atualiza dados KK0586<br/>KK0101])
+  EQ --> P([KK1085 efetiva KK0346<br/>KK1104])
+  P --> OUT((KK1000 12))
 
   style IN fill:#c8e6c9,stroke:#2e7d32,stroke-width:2px
   style OUT fill:#ffcdd2,stroke:#c62828,stroke-width:2px
@@ -6397,70 +6382,70 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Escrita por | Lida por | Observação |
 | ---------- | ------------- | ---------- | ------------ |
-| KK0103 | kkkkel / resposta | kkkkn7, KK0188 12 | Id da kkkklh aberta. |
-| KK0101 | kkkkel / resposta | kkkkn7 | Resposta do serviço de abertura. |
+| KK0742 | KK0534 / resposta | KK1104, KK1000 12 | Id da KK0346 aberta. |
+| KK1170 | KK0534 / resposta | KK1104 | Resposta do serviço de abertura. |
 
 ---
 
-## 4. kkkkxe de kkkkag (KK0199)
+## 4. KK1145 de KK0911 (KK1139)
 
-| ID KK0148 / kkkk9q | Regra em uma linha |
+| ID KK1223 / KK1332 | Regra em uma linha |
 | ------------------ | --------------------- |
-| kkkkne | Prepara kkkkvo para kkkks7 (data_inicio_relacionamento, codigo_tipo_atuacao_titularidade_conta, codigo_empresa, codigo_banco, etc.); KK0044; conferir kkkkhk. |
-| KK0107 | Atualiza kkkkhq com telefones, emails, data_nascimento_fundacao, nome_completo (dados_pessoa_temp); kkkkaq kkkkcx. |
-| kkkkm1 | Define KK0116, KK0117, dados_pessoa_temp a partir de agencia, kkkklh, dac; prepara para kkkknw. |
+| KK1235 | Prepara KK1423 para KK0544 (data_inicio_relacionamento, codigo_tipo_atuacao_titularidade_conta, codigo_empresa, codigo_banco, etc.); KK0732; conferir KK0172. |
+| KK1233 | Atualiza KK0586 com telefones, emails, data_nascimento_fundacao, nome_completo (dados_pessoa_temp); KK0473 KK0101. |
+| KK0714 | Define KK0205, KK0289, dados_pessoa_temp a partir de agencia, KK0346, dac; prepara para KK0113. |
 
 ---
 
-## 5. Pseudo-KK0021 (KK0199)
+## 5. Pseudo-KK0398 (KK1139)
 
-### 5.1 KK0216 kkkkne
+### 5.1 KK1224 KK1235
 
-**KK0188:** 11 — kkkk7y da kkkklh  
-**Nome (kkkkhk):** kkkknl  
-**Formato:** KK0044  
-**Objetivo:** Preparar kkkkvo e kkkkmn para a kkkkmr de kkkks7 (kkkkel).
+**KK1000:** 11 — KK0543 da KK0346  
+**Nome (KK0172):** KK1227  
+**Formato:** KK0732  
+**Objetivo:** Preparar KK1423 e KK1001 para a KK0259 de KK0544 (KK0534).
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217 (KK0199 — conferir kkkkhk):
+KK1129 (KK1139 — conferir KK0172):
   ATRIBUIR data_inicio_relacionamento (data atual)
   ATRIBUIR codigo_tipo_atuacao_titularidade_conta, numero_unico_organizacao, codigo_empresa, codigo_banco
-  OBTER consultaSegmento e demais kkkkvo do contexto
-  KK0219 dados para kkkkel (conforme kkkkhk)
+  OBTER consultaSegmento e demais KK1423 do contexto
+  KK1051 dados para KK0534 (conforme KK0172)
 ```
 
-### 5.2 KK0216 kkkkm1
+### 5.2 KK1224 KK0714
 
-**Objetivo:** Gerar KK0117 e dados_pessoa_temp para kkkknw (KK0116, KK0117).
+**Objetivo:** Gerar KK0289 e dados_pessoa_temp para KK0113 (KK0205, KK0289).
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217 (KK0199 — conferir kkkkhk):
-  ATRIBUIR KK0116 = "S", tipo_empresa, codigo_compensacao_banco
-  OBTER agencia, kkkklh, dac do contexto
-  CALCULAR KK0117 (tipo_empresa + codigo_compensacao_banco + agencia + kkkklh + dac + ...)
-  ATRIBUIR dados_pessoa_temp com KK0116 e KK0117
+KK1129 (KK1139 — conferir KK0172):
+  ATRIBUIR KK0205 = "S", tipo_empresa, codigo_compensacao_banco
+  OBTER agencia, KK0346, dac do contexto
+  CALCULAR KK0289 (tipo_empresa + codigo_compensacao_banco + agencia + KK0346 + dac + ...)
+  ATRIBUIR dados_pessoa_temp com KK0205 e KK0289
 ```
 
-#### Referências kkkkhk
+#### Referências KK0172
 
-- **ids:** kkkkne, KK0107, kkkkm1.
-- **kkkkhk:** `kkkkk6`.
+- **ids:** KK1235, KK1233, KK0714.
+- **KK0172:** `KK0953`.
 
 ---
 
-## 6. kkkkvt e saídas da parte
+## 6. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** entrada após KK0188 10 (kkkkth/kkkkxp); núcleo kkkks7; saída para KK0188 12.
+**KK0491 de contexto:** entrada após KK1000 10 (KK1406/KK0819); núcleo KK0544; saída para KK1000 12.
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -6481,9 +6466,9 @@ KK0217 (KK0199 — conferir kkkkhk):
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -6492,15 +6477,15 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Entrada["Origem"]
-    P10([KK0188 10 kkkkxo])
+    P10([KK1000 10 KK0821])
   end
-  subgraph Parte11["KK0188 11 - kkkk7y"]
-    S1([kkkkne])
-    EF([kkkkel])
-    P([kkkkn7])
+  subgraph Parte11["KK1000 11 - KK0543"]
+    S1([KK1235])
+    EF([KK0534])
+    P([KK1104])
   end
   subgraph Saida["Destino"]
-    P12([KK0090 KK0188 12])
+    P12([KK0690 KK1000 12])
   end
   P10 --> S1
   S1 --> EF
@@ -6513,126 +6498,126 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style P12 fill:#fff8e1,stroke:#e65100,stroke-width:2px
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
-| kkkk8l de destino | Origem / observação |
+| KK1331 de destino | Origem / observação |
 | ------------------- | ---------------------- |
-| kkkkne | Após kkkkth pré-kkkks7 (KK0188 10): kkkk71, kkkkc7, timer_trava_XO. Conferir flow no kkkkhk. |
+| KK1235 | Após KK1406 pré-KK0544 (KK1000 10): KK0703, KK1110, timer_trava_XO. Conferir flow no KK0172. |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Destino | Observação |
 | ----------- | ------------ |
-| KK0090 (KK0188 12) | kkkkn7 → kkkkis paralelo (kkkk8c, Vínculo kkkk64, kkkkzo kkkk6k). |
+| KK0690 (KK1000 12) | KK1104 → KK0668 paralelo (KK1282, Vínculo KK1123, KK0902 KK0921). |
 
 ---
 
-## 7. Referências kkkkhk
+## 7. Referências KK0172
 
-- **kkkkhk:** `kkkkk6` (raiz do repositório).
-- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 11).
+- **KK0172:** `KK0953` (raiz do repositório).
+- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 11).
 - **Guia:** [FLUXO_11_guia.md](FLUXO_11_guia.md). **User story:** [USER_STORY_11_efetivacao_conta.md](USER_STORY_11_efetivacao_conta.md).
 
 $$$$$
 
 [parte_11_efetivacao_conta/USER_STORY_11_efetivacao_conta_GENERICO.md]
 XXXXX
-# User Story — KK0188 11: kkkk7y da kkkklh
+# User Story — KK1000 11: KK0543 da KK0346
 
-**KK0184:** `kkkkk6` (kkkkne, kkkkel, kkkkn7)
+**KK0655:** `KK0953` (KK1235, KK0534, KK1104)
 
 ---
 
 ## User Story
 
-**Como** motor de kkkk55,  
-**quero** efetivar a kkkklh via kkkk8e e atualizar kkkk3l e kkkkhq,  
-**para** que a kkkklh seja aberta e a kkkk3l registre KK0103 e resposta de kkkkp3.
+**Como** motor de KK1069,  
+**quero** efetivar a KK0346 via KK0255 e atualizar KK1086 e KK0586,  
+**para** que a KK0346 seja aberta e a KK1086 registre KK0742 e resposta de KK0007.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- [ ] **CA1 – Preparação e kkkks7**  
-  O KK0148 de preparação para kkkks7 (`kkkkne`) e a atividade de efetivar a kkkklh (`kkkkel`) são executados, efetivando a kkkklh no KK0139 correspondente.
+- [ ] **CA1 – Preparação e KK0544**  
+  O KK1223 de preparação para KK0544 (`KK1235`) e a atividade de efetivar a KK0346 (`KK0534`) são executados, efetivando a KK0346 no KK0230 correspondente.
 
-- [ ] **CA2 – Mensagem e decisão pós-kkkks7**  
-  Após a kkkks7, o KK0046 trata a mensagem de kkkktj e passa por um kkkk7v que direciona conforme o resultado (sucesso/erro).
+- [ ] **CA2 – Mensagem e decisão pós-KK0544**  
+  Após a KK0544, o KK0651 trata a mensagem de KK0350 e passa por um KK0669 que direciona conforme o resultado (sucesso/erro).
 
-- [ ] **CA3 – Atualização kkkkhq**  
-  O KK0148 de atualização kkkkhq e a atividade de atualizar dados no kkkkhq são executados, mantendo o kkkkhq alinhado com a kkkklh aberta.
+- [ ] **CA3 – Atualização KK0586**  
+  O KK1223 de atualização KK0586 e a atividade de atualizar dados no KK0586 são executados, mantendo o KK0586 alinhado com a KK0346 aberta.
 
-- [ ] **CA4 – Registro na kkkk3l**  
-  A kkkk3l é atualizada com a kkkks7 (`kkkkn7`): id da kkkklh e resposta de kkkkp3 ficam gravados na kkkk3l.
+- [ ] **CA4 – Registro na KK1086**  
+  A KK1086 é atualizada com a KK0544 (`KK1104`): id da KK0346 e resposta de KK0007 ficam gravados na KK1086.
 
 - [ ] **CA5 – Próximo passo**  
-  Ao final, o KK0046 segue para o pós-kkkks7: kkkk8g e vínculo kkkkia (KK0188 12).
+  Ao final, o KK0651 segue para o pós-KK0544: KK1283 e vínculo KK1124 (KK1000 12).
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
-| kkkk8l de destino | Origem / observação |
+| KK1331 de destino | Origem / observação |
 | ----------------- | --------------------- |
-| kkkkne | Após KK0188 10 (kkkk71, kkkkc7, timer_trava_XO). |
+| KK1235 | Após KK1000 10 (KK0703, KK1110, timer_trava_XO). |
 
-### Scripts e kkkkiq
+### Scripts e KK1335
 
-| ID kkkk9q / KK0148 | Regra resumida |
+| ID KK1332 / KK1223 | Regra resumida |
 | ------------------ | ---------------- |
-| `kkkkne` | kkkk8o (KK0044); preparação para kkkks7. |
-| `kkkkel` | kkkk8n; kkkkmr ao KK0139/serviço de kkkkp3. |
-| `KK0126` | kkkk8n; tratamento do resultado. |
-| `KK0107` | kkkk8o (KK0044); atualização kkkkhq. |
-| `kkkkcx` | kkkk8n; kkkkaq. |
-| `kkkkm1` | kkkk8o (KK0044). |
-| `kkkknw` | kkkk8n; kkkkaq. |
-| `kkkkn7` | kkkk8n; atualiza kkkk3l com KK0103 e KK0101. |
+| `KK1235` | KK1246 (KK0732); preparação para KK0544. |
+| `KK0534` | KK1276; KK0259 ao KK0230/serviço de KK0007. |
+| `KK0873` | KK1276; tratamento do resultado. |
+| `KK1233` | KK1246 (KK0732); atualização KK0586. |
+| `KK0101` | KK1276; KK0473. |
+| `KK0714` | KK1246 (KK0732). |
+| `KK0113` | KK1276; KK0473. |
+| `KK1104` | KK1276; atualiza KK1086 com KK0742 e KK1170. |
 
 Ver [FLUXO_11_tecnico](FLUXO_11_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Onde escrita / lida | Observação |
 | ---------- | ---------------------- | ------------ |
-| `KK0103` | kkkkel / resposta | kkkkn7, KK0188 12. |
-| `KK0101` | kkkkel / resposta | kkkkn7. |
+| `KK0742` | KK0534 / resposta | KK1104, KK1000 12. |
+| `KK1170` | KK0534 / resposta | KK1104. |
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 10 | Origem | kkkk56/kkkkxo (kkkk71). |
-| 12 | Destino | KK0090 (kkkk8c, Vínculo kkkk64, kkkkzo kkkk6k). |
+| 10 | Origem | KK1405/KK0821 (KK0703). |
+| 12 | Destino | KK0690 (KK1282, Vínculo KK1123, KK0902 KK0921). |
 
 $$$$$
 
 [parte_12_pos_efetivacao_setup_vinculo_proxy/FLUXO_12_guia_GENERICO.md]
 XXXXX
-# KK0188 12 — Pós-kkkks7: kkkk8g e vínculo kkkkia (guia)
+# KK1000 12 — Pós-KK0544: KK1283 e vínculo KK1124 (guia)
 
-**O que é esta parte:** trecho em que, **após a kkkklh ser efetivada**, o kkkk55 executa em paralelo (ou na ordem do KK0046) o **kkkk8g de kkkk7g**, o **vínculo kkkkia** e a **kkkks7 de kkkkgw/kkkkst**. A kkkk3l é atualizada com a kkkks7 dos kkkkst.
+**O que é esta parte:** trecho em que, **após a KK0346 ser efetivada**, o KK1069 executa em paralelo (ou na ordem do KK0651) o **KK1283 de KK0360**, o **vínculo KK1124** e a **KK0544 de KK0245/KK1079**. A KK1086 é atualizada com a KK0544 dos KK1079.
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Configurar o kkkk8g da kkkklh; executar o vínculo kkkkia; efetivar kkkkgw e kkkkst na kkkk3l.
+Configurar o KK1283 da KK0346; executar o vínculo KK1124; efetivar KK0245 e KK1079 na KK1086.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **Ramos paralelos** — Após a kkkks7 da kkkklh, o KK0046 pode seguir por mais de um ramo (ex.: kkkk8g de kkkk7g e kkkks7 de kkkkgw).
-- **kkkk8c de kkkk7g** — O kkkkxv atualiza o kkkk8g de kkkk7g (tópico kkkkbx) e a kkkk3l com o kkkk8g.
-- **Vínculo kkkkia** — kkkkyf de kkkkth e vínculo kkkkia é executado quando aplicável.
-- **kkkk7y de kkkkgw e kkkkst** — O kkkkgw e os kkkkst são efetivados; a kkkk3l é atualizada com a kkkks7 dos kkkkst.
+- **Ramos paralelos** — Após a KK0544 da KK0346, o KK0651 pode seguir por mais de um ramo (ex.: KK1283 de KK0360 e KK0544 de KK0245).
+- **KK1282 de KK0360** — O KK1292 atualiza o KK1283 de KK0360 (tópico KK0098) e a KK1086 com o KK1283.
+- **Vínculo KK1124** — KK1323 de KK1406 e vínculo KK1124 é executado quando aplicável.
+- **KK0543 de KK0245 e KK1079** — O KK0245 e os KK1079 são efetivados; a KK1086 é atualizada com a KK0544 dos KK1079.
 
 ---
 
@@ -6640,80 +6625,80 @@ Configurar o kkkk8g da kkkklh; executar o vínculo kkkkia; efetivar kkkkgw e kkk
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **O que ocorre** | kkkk8c de kkkk7g; vínculo kkkkia; kkkks7 de kkkkgw e kkkkst. |
-| **Saída** | kkkk8h e kkkkst configurados; kkkk3l com kkkks7 registrada. |
+| **O que ocorre** | KK1282 de KK0360; vínculo KK1124; KK0544 de KK0245 e KK1079. |
+| **Saída** | KK0345 e KK1079 configurados; KK1086 com KK0544 registrada. |
 
-Para detalhes KK0178 use **FLUXO_12_tecnico.md**.
+Para detalhes KK1379 use **FLUXO_12_tecnico.md**.
 
 $$$$$
 
 [parte_12_pos_efetivacao_setup_vinculo_proxy/FLUXO_12_tecnico_GENERICO.md]
 XXXXX
-# KK0188 12 — Pós-kkkks7: kkkk8c e Vínculo kkkk64 — documentação kkkk5u
+# KK1000 12 — Pós-KK0544: KK1282 e Vínculo KK1123 — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** kkkkis paralelo pós kkkkn7; ramos: kkkkes, kkkkfl Vínculo kkkk64, kkkks7 de kkkkgw e kkkkst. kkkk59: KK0090, KK0069, KK0070, KK0091 (Vínculo kkkk64), KK0071, KK0073, KK0074.
+**KK0655:** `KK0953`  
+**KK0598:** KK0668 paralelo pós KK1104; ramos: KK1284, KK1324 Vínculo KK1123, KK0544 de KK0245 e KK1079. KK0551: KK0690, KK1076, KK0106, KK0020 (Vínculo KK1123), KK1398, KK0533, KK1105.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `KK0071`, `kkkk01` | kkkk56 e vínculo kkkkia BC |
-| `kkkkn2` | Atualização kkkk3l com kkkkia |
-| `kkkkn1` | Estado de erro (kkkke1) |
+| `KK1398`, `KK1433` | KK1405 e vínculo KK1124 BC |
+| `KK1120` | Atualização KK1086 com KK1124 |
+| `KK0592` | Estado de erro (KK1126) |
 
 ---
 
 ## 1. Objetivo da parte
 
-Após a **kkkks7 da kkkklh**, executar em **paralelo** (ou na ordem do kkkkhk): **kkkk8c de kkkk7g** (kkkktm com kkkk8g); **Vínculo kkkk64** (kkkkfl: kkkkth kkkkia e kkkks7 de kkkkgw quando aplicável); **kkkks7 de kkkkst** na kkkk3l. O ramo **kkkkzo kkkk6k** (kkkkzz) será um **terceiro ramo** do KK0090 — ver [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md).
+Após a **KK0544 da KK0346**, executar em **paralelo** (ou na ordem do KK0172): **KK1282 de KK0360** (KK0120 com KK1283); **Vínculo KK1123** (KK1324: KK1406 KK1124 e KK0544 de KK0245 quando aplicável); **KK0544 de KK1079** na KK1086. O ramo **KK0902 KK0921** (KK1020) será um **terceiro ramo** do KK0690 — ver [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md).
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 kkkkis e tarefas
+### 2.1 KK0668 e tarefas
 
 | Tipo | ID | Nome (name) | Observação |
 | ------ | ----- | ------------- | ------------ |
-| kkkk82 | `KK0090` | (paralelo pós-kkkks7) | Ramos: kkkkes; Vínculo kkkk64 (KK0091); eventual ramo kkkkzo kkkk6k. |
-| kkkk8n / kkkk8k | `KK0069` | (atualiza kkkk8g kkkk7g) | Producer; atualização de kkkk8g. |
-| kkkk8n | `KK0070` | (atualiza kkkk3l kkkk8g) | Atualiza kkkk3l com dados do kkkk8g. |
-| kkkk8j | `KK0091` | Vínculo kkkk64 | kkkkyf: KK0071, KK0073, KK0074. |
-| kkkk8n | `KK0071` | (valida kkkkia) | kkkk56 do kkkkia. |
-| kkkk8n | `KK0073` | (efetiva kkkkgw) | kkkk7y do kkkkgw. |
-| kkkk8n | `KK0074` | (kkkk3l kkkks7 kkkkst) | Registro da kkkks7 dos kkkkst na kkkk3l. |
+| KK0998 | `KK0690` | (paralelo pós-KK0544) | Ramos: KK1284; Vínculo KK1123 (KK0020); eventual ramo KK0902 KK0921. |
+| KK1276 / KK0215 | `KK1076` | (atualiza KK1283 KK0360) | Producer; atualização de KK1283. |
+| KK1276 | `KK0106` | (atualiza KK1086 KK1283) | Atualiza KK1086 com dados do KK1283. |
+| KK1320 | `KK0020` | Vínculo KK1123 | KK1323: KK1398, KK0533, KK1105. |
+| KK1276 | `KK1398` | (valida KK1124) | KK1405 do KK1124. |
+| KK1276 | `KK0533` | (efetiva KK0245) | KK0543 do KK0245. |
+| KK1276 | `KK1105` | (KK1086 KK0544 KK1079) | Registro da KK0544 dos KK1079 na KK1086. |
 
-### 2.2 Sequence kkkkoa principais
+### 2.2 Sequence KK0649 principais
 
-### 2.2.1 KK0149 (KK0189 da KK0190)
+### 2.2.1 KK0309 (KK1181 da KK0314)
 
-KK0188 12 não possui user kkkkiq no KK0046 principal; apenas service kkkkiq e kkkkfl. kkkkvv: KK0069 → KK0070; KK0091 (Vínculo kkkk64) → KK0071 → KK0073 → KK0074. Ramos paralelos saem do KK0090.
+KK1000 12 não possui user KK1335 no KK0651 principal; apenas service KK1335 e KK1324. KK1213: KK1076 → KK0106; KK0020 (Vínculo KK1123) → KK1398 → KK0533 → KK1105. Ramos paralelos saem do KK0690.
 
-### 2.2.2 Condições de kkkk7v
+### 2.2.2 Condições de KK0669
 
-| ID kkkk7v | Nome | Expressão | Ramo | Flow | Target |
+| ID KK0669 | Nome | Expressão | Ramo | Flow | Target |
 |-----------|------|-----------|------|------|--------|
-| KK0090 | (kkkk7v paralelo pós kkkkn7) | (paralelo) | kkkk8c | Flow_02tfitj | KK0069 |
-| KK0090 | (paralelo) | (paralelo) | Vínculo kkkk64 | KK0092 | KK0091 |
+| KK0690 | (KK0669 paralelo pós KK1104) | (paralelo) | KK1282 | Flow_02tfitj | KK1076 |
+| KK0690 | (paralelo) | (paralelo) | Vínculo KK1123 | KK0647 | KK0020 |
 
 
 
 | sourceRef | targetRef | Observação |
 | ----------- | ----------- | ------------ |
-| kkkkn7 | KK0090 | Entrada na parte. |
-| KK0090 | KK0069 | Rama kkkkes. |
-| KK0090 | KK0091 | Rama Vínculo kkkk64. |
-| KK0069 | KK0070 | Sequência kkkk8c. |
-| (dentro KK0091) | KK0071 → KK0073 → KK0074 | kkkkvq do kkkkfl. |
+| KK1104 | KK0690 | Entrada na parte. |
+| KK0690 | KK1076 | Rama KK1284. |
+| KK0690 | KK0020 | Rama Vínculo KK1123. |
+| KK1076 | KK0106 | Sequência KK1282. |
+| (dentro KK0020) | KK1398 → KK0533 → KK1105 | KK0650 do KK1324. |
 
-### 2.3 kkkk5v kkkkhk (visão da parte)
+### 2.3 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
 ```mermaid
 %%{init: {
@@ -6734,9 +6719,9 @@ KK0188 12 não possui user kkkkiq no KK0046 principal; apenas service kkkkiq e k
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -6745,10 +6730,10 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   direction LR
-  IN((KK0188 11)) --> GW((kkkkis paralelo<br/>KK0090))
-  GW --> SETUP([Atualiza kkkk8g kkkk7g<br/>KK0069])
-  GW --> VPROXY[Vínculo kkkk64<br/>KK0091]
-  SETUP --> SETUP2([Atualiza kkkk3l kkkk8g<br/>KK0070])
+  IN((KK1000 11)) --> GW((KK0668 paralelo<br/>KK0690))
+  GW --> SETUP([Atualiza KK1283 KK0360<br/>KK1076])
+  GW --> VPROXY[Vínculo KK1123<br/>KK0020]
+  SETUP --> SETUP2([Atualiza KK1086 KK1283<br/>KK0106])
   VPROXY --> OUT1(( ))
   SETUP2 --> OUT2(( ))
 
@@ -6761,24 +6746,24 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style OUT2 fill:#ffcdd2,stroke:#c62828,stroke-width:2px
 ```
 
-*Ramo kkkkzo kkkk6k (kkkkth kkkkia kkkk6k, KK0012): terceiro ramo do KK0090 — a ser modelado no kkkkhk; documentação em KK0105/ e REFERENCIA_CRUZADA.*
+*Ramo KK0902 KK0921 (KK1406 KK1124 KK0921, KK0657): terceiro ramo do KK0690 — a ser modelado no KK0172; documentação em KK0898/ e REFERENCIA_CRUZADA.*
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Uso na parte |
 | ---------- | -------------- |
-| KK0103 | Disponível (KK0188 11); usada no kkkk8g e no vínculo kkkkia. |
-| (kkkkvo de kkkk3l/kkkk8g) | Escritas por producer e KK0070. |
+| KK0742 | Disponível (KK1000 11); usada no KK1283 e no vínculo KK1124. |
+| (KK1423 de KK1086/KK1283) | Escritas por producer e KK0106. |
 
 ---
 
-## 4. kkkkvt e saídas da parte
+## 4. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** entrada da KK0188 11; núcleo paralelo (kkkk8c + Vínculo kkkk64 + **terceiro ramo kkkkzo kkkk6k**); saídas para Partes 13–16.
+**KK0491 de contexto:** entrada da KK1000 11; núcleo paralelo (KK1282 + Vínculo KK1123 + **terceiro ramo KK0902 KK0921**); saídas para Partes 13–16.
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção). kkkkem = KK0207 forte.*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção). KK0208 = KK0127 forte.*
 
 ```mermaid
 %%{init: {
@@ -6799,9 +6784,9 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -6810,54 +6795,54 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Entrada["Origem"]
-    P11([kkkkn7 KK0188 11])
+    P11([KK1104 KK1000 11])
   end
-  subgraph Parte12["KK0188 12 - kkkk8c e Vínculo kkkk64"]
-    GW{KK0090}
-    SETUP([kkkkes])
-    VPROXY([Vínculo kkkk64])
-    kkkk6k([Ramo kkkkzo kkkk6k])
+  subgraph Parte12["KK1000 12 - KK1282 e Vínculo KK1123"]
+    GW{KK0690}
+    SETUP([KK1284])
+    VPROXY([Vínculo KK1123])
+    KK0921([Ramo KK0902 KK0921])
   end
-  subgraph kkkkvw["Destino"]
-    P13([KK0188 13 kkkkhm / 14 kkkkh1 / 15 kkkkhu])
+  subgraph KK1207["Destino"]
+    P13([KK1000 13 KK0776 / 14 KK1029 / 15 KK0982])
   end
   P11 --> GW
   GW --> SETUP
   GW --> VPROXY
-  GW -.->|terceiro ramo| kkkk6k
+  GW -.->|terceiro ramo| KK0921
   SETUP --> P13
   VPROXY --> P13
-  kkkk6k -.->|a kkkkdx| P13
+  KK0921 -.->|a KK0884| P13
   style P11 fill:#bbdefb,stroke:#1565c0
   style GW fill:#fff8e1,stroke:#e65100,stroke-width:2px
   style SETUP fill:#eceff1,stroke:#546e7a
   style VPROXY fill:#bbdefb,stroke:#1565c0
-  style kkkk6k fill:#bbdefb,stroke:#1565c0
+  style KK0921 fill:#bbdefb,stroke:#1565c0
   style P13 fill:#bbdefb,stroke:#1565c0
 ```
 
-*Ramo kkkkzo kkkk6k:* terceiro ramo do KK0090 (kkkkzz; kkkk7v kkkkzz → kkkkth kkkkia → KK0012 → atualização kkkk3l). A ser modelado no kkkkhk; documentação em [KK0105](../../KK0105/) e [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md).
+*Ramo KK0902 KK0921:* terceiro ramo do KK0690 (KK1020; KK0669 KK1020 → KK1406 KK1124 → KK0657 → atualização KK1086). A ser modelado no KK0172; documentação em [KK0898](../../KK0898/) e [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md).
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
 | Elemento de destino | Origem / observação |
 | --------------------- | ---------------------- |
-| KK0090 | kkkkn7 (KK0188 11). |
+| KK0690 | KK1104 (KK1000 11). |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Ramo / flow | Destino | Observação |
 | ------------- | ---------------- | ------------ |
-| kkkkes | Partes 13–16 | KK0069, KK0070. |
-| Vínculo kkkk64 (KK0091) | Partes 13–16 | KK0071, KK0073, KK0074. |
-| **Ramo kkkkzo kkkk6k** | Convergência (Partes 13–16) | Terceiro ramo; kkkk7v kkkkzz → kkkkth kkkkia → KK0012 → atualização kkkk3l. Ver [REFERENCIA_CRUZADA](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md). |
+| KK1284 | Partes 13–16 | KK1076, KK0106. |
+| Vínculo KK1123 (KK0020) | Partes 13–16 | KK1398, KK0533, KK1105. |
+| **Ramo KK0902 KK0921** | Convergência (Partes 13–16) | Terceiro ramo; KK0669 KK1020 → KK1406 KK1124 → KK0657 → atualização KK1086. Ver [REFERENCIA_CRUZADA](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md). |
 
 ---
 
-## 5. Referências kkkkhk
+## 5. Referências KK0172
 
-- **kkkkhk:** `kkkkk6` (raiz do repositório).
-- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 12).
+- **KK0172:** `KK0953` (raiz do repositório).
+- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 12).
 - **Guia:** [FLUXO_12_guia.md](FLUXO_12_guia.md). **User story:** [USER_STORY_12_pos_efetivacao_setup_vinculo_proxy.md](USER_STORY_12_pos_efetivacao_setup_vinculo_proxy.md).
 - **Referência cruzada:** [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md).
 
@@ -6865,99 +6850,99 @@ $$$$$
 
 [parte_12_pos_efetivacao_setup_vinculo_proxy/USER_STORY_12_pos_efetivacao_setup_vinculo_proxy_GENERICO.md]
 XXXXX
-# User Story — KK0188 12: Pós-kkkks7, kkkk8g e vínculo kkkkia
+# User Story — KK1000 12: Pós-KK0544, KK1283 e vínculo KK1124
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## User Story
 
-**Como** motor de kkkk55,  
-**quero** executar o kkkk8g de kkkk7g e o vínculo kkkkia após a kkkks7 da kkkklh,  
-**para** que a kkkklh e os kkkkst (ex.: kkkkgw) fiquem configurados e a kkkk3l registre a kkkks7 dos kkkkst.
+**Como** motor de KK1069,  
+**quero** executar o KK1283 de KK0360 e o vínculo KK1124 após a KK0544 da KK0346,  
+**para** que a KK0346 e os KK1079 (ex.: KK0245) fiquem configurados e a KK1086 registre a KK0544 dos KK1079.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
 - [ ] **CA1 – Ramos em paralelo**  
-  Após a kkkks7, o KK0046 pode seguir por mais de um ramo em paralelo (ex.: kkkk8g de kkkk7g e kkkks7 de kkkkgw/kkkkst), conforme modelado no kkkkhk.
+  Após a KK0544, o KK0651 pode seguir por mais de um ramo em paralelo (ex.: KK1283 de KK0360 e KK0544 de KK0245/KK1079), conforme modelado no KK0172.
 
-- [ ] **CA2 – kkkk8c de kkkk7g**  
-  O producer de atualização de kkkk8g de kkkk7g (`KK0069`) é executado, configurando o kkkk8g da kkkklh conforme as kkkkx5 do kkkk55.
+- [ ] **CA2 – KK1282 de KK0360**  
+  O producer de atualização de KK1283 de KK0360 (`KK1076`) é executado, configurando o KK1283 da KK0346 conforme as KK1146 do KK1069.
 
-- [ ] **CA3 – Atividade de pós-kkkks7**  
-  A atividade de pós-kkkks7 (`KK0091`) é executada na ordem definida, integrando kkkk8g e vínculo kkkkia ao KK0046.
+- [ ] **CA3 – Atividade de pós-KK0544**  
+  A atividade de pós-KK0544 (`KK0020`) é executada na ordem definida, integrando KK1283 e vínculo KK1124 ao KK0651.
 
-- [ ] **CA4 – kkkk7y de kkkkgw e kkkkst**  
-  A kkkks7 do kkkkgw (`KK0073`) e o registro de kkkks7 dos kkkkst na kkkk3l (`KK0074`) são executados quando aplicável.
+- [ ] **CA4 – KK0543 de KK0245 e KK1079**  
+  A KK0544 do KK0245 (`KK0533`) e o registro de KK0544 dos KK1079 na KK1086 (`KK1105`) são executados quando aplicável.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
 | Elemento de destino | Origem / observação |
 | --------------------- | --------------------- |
-| KK0090 | kkkkn7 (KK0188 11). |
+| KK0690 | KK1104 (KK1000 11). |
 
-### Scripts e kkkkiq
+### Scripts e KK1335
 
-| ID kkkk9q / elemento | Regra resumida |
+| ID KK1332 / elemento | Regra resumida |
 | -------------------- | ---------------- |
-| KK0090 | kkkk82; ramos: kkkkes, Vínculo kkkk64, kkkkzo kkkk6k. |
-| `KK0069` | kkkk8n/kkkk8k; atualização de kkkk8g. |
-| `KK0070` | kkkk8n; atualiza kkkk3l com kkkk8g. |
-| KK0091 | kkkk8j Vínculo kkkk64: KK0071, KK0073, KK0074. |
-| `KK0071` | kkkk8n; kkkkth do kkkkia. |
-| `KK0073` | kkkk8n; kkkks7 do kkkkgw. |
-| `KK0074` | kkkk8n; registro kkkks7 kkkkst na kkkk3l. |
+| KK0690 | KK0998; ramos: KK1284, Vínculo KK1123, KK0902 KK0921. |
+| `KK1076` | KK1276/KK0215; atualização de KK1283. |
+| `KK0106` | KK1276; atualiza KK1086 com KK1283. |
+| KK0020 | KK1320 Vínculo KK1123: KK1398, KK0533, KK1105. |
+| `KK1398` | KK1276; KK1406 do KK1124. |
+| `KK0533` | KK1276; KK0544 do KK0245. |
+| `KK1105` | KK1276; registro KK0544 KK1079 na KK1086. |
 
 Ver [FLUXO_12_tecnico](FLUXO_12_tecnico.md) e [REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md](../REFERENCIA_CRUZADA_MULTIPLO_SETUP_MANUAL.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Uso na parte |
 | ---------- | -------------- |
-| KK0103 | KK0188 11; usada no kkkk8g e no vínculo kkkkia. |
-| (kkkkvo de kkkk3l/kkkk8g) | Escritas por producer e KK0070. |
+| KK0742 | KK1000 11; usada no KK1283 e no vínculo KK1124. |
+| (KK1423 de KK1086/KK1283) | Escritas por producer e KK0106. |
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 11 | Origem | kkkkn7. |
-| 13–16 | Destino | kkkkhm, kkkkh1, kkkkhu, eventos kkkkyi (convergência dos ramos). |
-| kkkkzo kkkk6k | Terceiro ramo | kkkkis kkkkzz → kkkkth kkkkia → KK0012; ver REFERENCIA_CRUZADA. |
+| 11 | Origem | KK1104. |
+| 13–16 | Destino | KK0776, KK1029, KK0982, eventos KK1371 (convergência dos ramos). |
+| KK0902 KK0921 | Terceiro ramo | KK0668 KK1020 → KK1406 KK1124 → KK0657; ver REFERENCIA_CRUZADA. |
 
 $$$$$
 
 [parte_13_beneficio_inss/FLUXO_13_guia_GENERICO.md]
 XXXXX
-# KK0188 13 — Benefício kkkkhm (guia)
+# KK1000 13 — Benefício KK0776 (guia)
 
-**O que é esta parte:** trecho em que o kkkk1x **aceita o termo de autorização** de kkkktz, o kkkkxv **valida o benefício** e **efetiva o kkkktz** na kkkklh. A kkkk3l é atualizada com a kkkks7 kkkkhm.
+**O que é esta parte:** trecho em que o KK0273 **aceita o termo de autorização** de KK0142, o KK1292 **valida o benefício** e **efetiva o KK0142** na KK0346. A KK1086 é atualizada com a KK0544 KK0776.
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Permitir o kkkkmk do termo, a kkkkth e a kkkks7 do kkkktz; registrar na kkkk3l que o benefício foi efetivado.
+Permitir o KK0009 do termo, a KK1406 e a KK0544 do KK0142; registrar na KK1086 que o benefício foi efetivado.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **Termo de autorização** — O kkkk1x aceita o termo de autorização de kkkktz (quando esse ramo for acionado).
-- **kkkk56** — O kkkkxv valida o kkkktz conforme as kkkkx5 do KK0046.
-- **kkkk7y** — O kkkktz é efetivado e vinculado à kkkklh.
-- **kkkklg** — A kkkk3l é atualizada com a kkkks7 kkkkhm.
+- **Termo de autorização** — O KK0273 aceita o termo de autorização de KK0142 (quando esse ramo for acionado).
+- **KK1405** — O KK1292 valida o KK0142 conforme as KK1146 do KK0651.
+- **KK0543** — O KK0142 é efetivado e vinculado à KK0346.
+- **KK1085** — A KK1086 é atualizada com a KK0544 KK0776.
 
 ---
 
@@ -6965,86 +6950,86 @@ Permitir o kkkkmk do termo, a kkkkth e a kkkks7 do kkkktz; registrar na kkkk3l q
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **O que ocorre** | Termo de autorização; kkkkth do benefício; kkkks7 kkkkhm; atualização da kkkk3l. |
-| **Saída** | Benefício kkkkhm efetivado na kkkklh. |
+| **O que ocorre** | Termo de autorização; KK1406 do benefício; KK0544 KK0776; atualização da KK1086. |
+| **Saída** | Benefício KK0776 efetivado na KK0346. |
 
-Para detalhes KK0178 use **FLUXO_13_tecnico.md**.
+Para detalhes KK1379 use **FLUXO_13_tecnico.md**.
 
 $$$$$
 
 [parte_13_beneficio_inss/FLUXO_13_tecnico_GENERICO.md]
 XXXXX
-# KK0188 13 — Benefício kkkkhm — documentação kkkk5u
+# KK1000 13 — Benefício KK0776 — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** kkkkps e tarefas do KK0046 de kkkktz. kkkk59: Gateway_19hcmx2, Gateway_16nr563, KK0075, KK0076, KK0078 (KK0148 KK0077), KK0079.
+**KK0655:** `KK0953`  
+**KK0598:** KK0711 e tarefas do KK0651 de KK0142. KK0551: Gateway_19hcmx2, Gateway_16nr563, KK1348, KK1401, KK0538 (KK1223 KK0044), KK0104.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkklx` | kkkk8m — Benefício kkkkhm (condicional; kkkkgx) |
-| `KK0075` | kkkk8m — kkkkjx (kkkkgz) |
-| `KK0076`, `KK0078`, `KK0079` | kkkk56 e kkkks7 kkkkhm |
+| `KK0415` | KK1388 — Benefício KK0776 (condicional; KK0173) |
+| `KK1348` | KK1388 — KK1345 (KK0176) |
+| `KK1401`, `KK0538`, `KK0104` | KK1405 e KK0544 KK0776 |
 
 ---
 
 ## 1. Objetivo da parte
 
-Registrar **termo de autorização** do kkkktz; **validar** e **efetivar** o kkkktz; **atualizar a kkkk3l** com a kkkks7 kkkkhm. kkkkvq condicionado por kkkkaf (kkkkeo / decisão).
+Registrar **termo de autorização** do KK0142; **validar** e **efetivar** o KK0142; **atualizar a KK1086** com a KK0544 KK0776. KK0650 condicionado por KK0712 (KK0550 / decisão).
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 User kkkkiq, service kkkkiq e kkkk7v
+### 2.1 User KK1335, service KK1335 e KK0669
 
 | Tipo | ID | Nome (name) | Observação |
 | ------ | ----- | ------------- | ------------ |
-| kkkk8m | `KK0075` | (termo autorização kkkkhm) | Aceite/termo do kkkk1x. |
-| kkkk8n | `KK0076` | (kkkkth kkkktz) | kkkk56 do benefício. |
-| kkkk8o | (em KK0078) | `KK0077` | KK0044; agrupa dados para kkkks7 kkkkhm. |
-| kkkk8n | `KK0078` | (kkkks7 kkkktz) | kkkk7y do benefício; resultVariable efetivacao_inss. |
-| kkkk8n | `KK0079` | (atualiza kkkk3l kkkks7 kkkkhm) | Registro na kkkk3l. |
-| kkkk81 | `Gateway_19hcmx2` | (condição kkkkhm) | Direciona para termo ou outro ramo. |
-| kkkk81 | `Gateway_16nr563` | (condição kkkkhm) | Direciona após kkkkth/kkkks7. |
+| KK1388 | `KK1348` | (termo autorização KK0776) | Aceite/termo do KK0273. |
+| KK1276 | `KK1401` | (KK1406 KK0142) | KK1405 do benefício. |
+| KK1246 | (em KK0538) | `KK0044` | KK0732; agrupa dados para KK0544 KK0776. |
+| KK1276 | `KK0538` | (KK0544 KK0142) | KK0543 do benefício; resultVariable efetivacao_inss. |
+| KK1276 | `KK0104` | (atualiza KK1086 KK0544 KK0776) | Registro na KK1086. |
+| KK0614 | `Gateway_19hcmx2` | (condição KK0776) | Direciona para termo ou outro ramo. |
+| KK0614 | `Gateway_16nr563` | (condição KK0776) | Direciona após KK1406/KK0544. |
 
-### 2.2 Sequence kkkkoa principais
+### 2.2 Sequence KK0649 principais
 
-### 2.2.1 KK0149 (KK0189 da KK0190)
+### 2.2.1 KK0309 (KK1181 da KK0314)
 
-| kkkk8l ID | Tipo de KK0013 | Condição | Flow | Target |
+| KK1331 ID | Tipo de KK0308 | Condição | Flow | Target |
 |---------|------------------|----------|------|--------|
-| KK0075 | KK0192 | — | Flow_10kanqf | Gateway_16nr563 |
-| KK0076 | KK0192 | — | Flow_0vorcm4 | kkkk76 |
-| KK0078 | KK0192 | — | Flow_1sszpgf | KK0077 |
+| KK1348 | KK0991 | — | Flow_10kanqf | Gateway_16nr563 |
+| KK1401 | KK0991 | — | Flow_0vorcm4 | KK0693 |
+| KK0538 | KK0991 | — | Flow_1sszpgf | KK0044 |
 
-### 2.2.2 Condições de kkkk7v
+### 2.2.2 Condições de KK0669
 
-| ID kkkk7v | Nome | Expressão | Ramo | Flow | Target |
+| ID KK0669 | Nome | Expressão | Ramo | Flow | Target |
 |-----------|------|-----------|------|------|--------|
-| Gateway_19hcmx2 | Possui Benefício kkkkhm? | (Sim: aceita termo) | Sim | Flow_0lbbesj | KK0075 |
-| Gateway_19hcmx2 | Possui Benefício kkkkhm? | (KK0195) | Não | Flow_1q4i2k8 | Gateway_16nr563 |
-| Gateway_16nr563 | (convergência pós termo) | (KK0195) | — | Flow_16skkt4 | kkkkid |
-| kkkk76 | O beneficio kkkkhm foi validado? | (Não → agrupa) | Não | Flow_07nxn5i | KK0077 |
+| Gateway_19hcmx2 | Possui Benefício KK0776? | (Sim: aceita termo) | Sim | Flow_0lbbesj | KK1348 |
+| Gateway_19hcmx2 | Possui Benefício KK0776? | (KK0472) | Não | Flow_1q4i2k8 | Gateway_16nr563 |
+| Gateway_16nr563 | (convergência pós termo) | (KK0472) | — | Flow_16skkt4 | KK0016 |
+| KK0693 | O beneficio KK0776 foi validado? | (Não → agrupa) | Não | Flow_07nxn5i | KK0044 |
 
 
 
 | sourceRef | targetRef | Observação |
 | ----------- | ----------- | ------------ |
-| Gateway_19hcmx2 | KK0075 | Rama kkkkhm. |
-| KK0075 | KK0076 | Sequência. |
-| KK0076 | Gateway_16nr563 | KK0007. |
-| Gateway_16nr563 | KK0078 | Efetivar. |
-| KK0078 | KK0079 | Atualizar kkkk3l. |
+| Gateway_19hcmx2 | KK1348 | Rama KK0776. |
+| KK1348 | KK1401 | Sequência. |
+| KK1401 | Gateway_16nr563 | KK0466. |
+| Gateway_16nr563 | KK0538 | Efetivar. |
+| KK0538 | KK0104 | Atualizar KK1086. |
 
-### 2.3 kkkk5v kkkkhk (visão da parte)
+### 2.3 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
 ```mermaid
 %%{init: {
@@ -7065,9 +7050,9 @@ Registrar **termo de autorização** do kkkktz; **validar** e **efetivar** o kkk
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -7076,11 +7061,11 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   direction LR
-  GW1{Possui Benefício<br/>kkkkhm?} --> TERMO([Termo autorização kkkktz<br/>KK0075])
-  TERMO --> VAL([kkkk56 kkkktz<br/>KK0076])
+  GW1{Possui Benefício<br/>KK0776?} --> TERMO([Termo autorização KK0142<br/>KK1348])
+  TERMO --> VAL([KK1405 KK0142<br/>KK1401])
   VAL --> GW2{Benefício<br/>validado?}
-  GW2 --> EF([kkkk7y kkkktz<br/>KK0078])
-  EF --> AT([Atualiza kkkk3l kkkks7 kkkkhm<br/>KK0079])
+  GW2 --> EF([KK0543 KK0142<br/>KK0538])
+  EF --> AT([Atualiza KK1086 KK0544 KK0776<br/>KK0104])
   AT --> OUT(( ))
 
   style GW1 fill:#fff8e1,stroke:#e65100,stroke-width:2px
@@ -7094,53 +7079,53 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Escrita por | Observação |
 | ---------- | ------------- | ------------ |
-| efetivacao_inss | KK0078 (KK0077) | resultVariable do KK0148; resultado da kkkks7 kkkkhm. |
+| efetivacao_inss | KK0538 (KK0044) | resultVariable do KK1223; resultado da KK0544 KK0776. |
 
 ---
 
-## 4. kkkkxe de kkkkag (KK0199)
+## 4. KK1145 de KK0911 (KK1139)
 
-| ID KK0148 / kkkk9q | Regra em uma linha |
+| ID KK1223 / KK1332 | Regra em uma linha |
 | ------------------ | --------------------- |
-| KK0077 | Agrupa dados para kkkks7 do kkkktz; preenche resultVariable efetivacao_inss; conferir kkkkhk (KK0078). |
+| KK0044 | Agrupa dados para KK0544 do KK0142; preenche resultVariable efetivacao_inss; conferir KK0172 (KK0538). |
 
 ---
 
-## 5. Pseudo-KK0021 (KK0199)
+## 5. Pseudo-KK0398 (KK1139)
 
-### 5.1 KK0216 KK0077
+### 5.1 KK1224 KK0044
 
-**KK0188:** 13 — Benefício kkkkhm  
-**Nome (kkkkhk):** KK0078 (KK0148 KK0077)  
-**Formato:** KK0044  
-**Objetivo:** Agrupar dados do contexto (kkkk3l, benefício, termo) e retornar resultado da kkkks7 kkkkhm em efetivacao_inss.
+**KK1000:** 13 — Benefício KK0776  
+**Nome (KK0172):** KK0538 (KK1223 KK0044)  
+**Formato:** KK0732  
+**Objetivo:** Agrupar dados do contexto (KK1086, benefício, termo) e retornar resultado da KK0544 KK0776 em efetivacao_inss.
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217 (KK0199 — conferir kkkkhk):
-  OBTER dados da kkkk3l, kkkktz e termo do contexto
-  MONTAR kkkkmn/objeto para kkkks7 kkkkhm
-  KK0220 serviço de kkkks7 (ou delegar)
-  ATRIBUIR efetivacao_inss = resultado (resultVariable no kkkkhk)
+KK1129 (KK1139 — conferir KK0172):
+  OBTER dados da KK1086, KK0142 e termo do contexto
+  MONTAR KK1001/objeto para KK0544 KK0776
+  KK0260 serviço de KK0544 (ou delegar)
+  ATRIBUIR efetivacao_inss = resultado (resultVariable no KK0172)
 ```
 
-#### Referências kkkkhk
+#### Referências KK0172
 
-- **id:** KK0077 (em KK0078).
-- **kkkkhk:** `kkkkk6`.
+- **id:** KK0044 (em KK0538).
+- **KK0172:** `KK0953`.
 
 ---
 
-## 6. kkkkvt e saídas da parte
+## 6. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** entrada pelo ramo kkkkhm (KK0188 12); núcleo termo/kkkkth/kkkks7 kkkkhm; saída para convergência (KK0188 15/16).
+**KK0491 de contexto:** entrada pelo ramo KK0776 (KK1000 12); núcleo termo/KK1406/KK0544 KK0776; saída para convergência (KK1000 15/16).
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -7161,9 +7146,9 @@ KK0217 (KK0199 — conferir kkkkhk):
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -7172,12 +7157,12 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Entrada["Origem"]
-    P12([Gateway_19hcmx2 KK0188 12])
+    P12([Gateway_19hcmx2 KK1000 12])
   end
-  subgraph Parte13["KK0188 13 - Benefício kkkkhm"]
-    TERMO([KK0075])
-    VAL([KK0076])
-    EF([KK0078])
+  subgraph Parte13["KK1000 13 - Benefício KK0776"]
+    TERMO([KK1348])
+    VAL([KK1401])
+    EF([KK0538])
   end
   subgraph Saida["Destino"]
     CONV([convergência])
@@ -7193,120 +7178,120 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style CONV fill:#bbdefb,stroke:#1565c0
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
 | Elemento de destino | Origem / observação |
 | --------------------- | ---------------------- |
-| Gateway_19hcmx2 / KK0075 | Ramo kkkkhm (KK0188 12 / convergência pós kkkk8c e Vínculo kkkk64). |
+| Gateway_19hcmx2 / KK1348 | Ramo KK0776 (KK1000 12 / convergência pós KK1282 e Vínculo KK1123). |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Destino | Observação |
 | ----------- | ------------ |
-| Convergência (KK0188 15 kkkkhu / 16 eventos) | KK0079 → KK0046 principal. |
+| Convergência (KK1000 15 KK0982 / 16 eventos) | KK0104 → KK0651 principal. |
 
 ---
 
-## 7. Referências kkkkhk
+## 7. Referências KK0172
 
-- **kkkkhk:** `kkkkk6` (raiz do repositório).
-- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 13).
+- **KK0172:** `KK0953` (raiz do repositório).
+- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 13).
 - **Guia:** [FLUXO_13_guia.md](FLUXO_13_guia.md). **User story:** [USER_STORY_13_beneficio_inss.md](USER_STORY_13_beneficio_inss.md).
-- **Scripts:** [INDICE_SCRIPTS.md](../INDICE_SCRIPTS.md) — KK0077 (KK0188 13).
+- **Scripts:** [INDICE_SCRIPTS.md](../INDICE_SCRIPTS.md) — KK0044 (KK1000 13).
 
 $$$$$
 
 [parte_13_beneficio_inss/USER_STORY_13_beneficio_inss_GENERICO.md]
 XXXXX
-# User Story — KK0188 13: Benefício kkkkhm
+# User Story — KK1000 13: Benefício KK0776
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## User Story
 
-**Como** kkkk1x ou motor de kkkk55,  
-**quero** aceitar o termo de autorização e efetivar o kkkktz na kkkkgq,  
-**para** que o benefício fique vinculado à kkkklh e a kkkk3l registre a kkkks7 kkkkhm.
+**Como** KK0273 ou motor de KK1069,  
+**quero** aceitar o termo de autorização e efetivar o KK0142 na KK0797,  
+**para** que o benefício fique vinculado à KK0346 e a KK1086 registre a KK0544 KK0776.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
 - [ ] **CA1 – Termo de autorização**  
-  O kkkk1x aceita o termo de autorização de kkkktz (`KK0075`), quando esse ramo for acionado no KK0046.
+  O KK0273 aceita o termo de autorização de KK0142 (`KK1348`), quando esse ramo for acionado no KK0651.
 
-- [ ] **CA2 – kkkk56 do benefício**  
-  O kkkkxv executa a kkkkth do kkkktz (`KK0076`) conforme as kkkkx5 do kkkkhk.
+- [ ] **CA2 – KK1405 do benefício**  
+  O KK1292 executa a KK1406 do KK0142 (`KK1401`) conforme as KK1146 do KK0172.
 
-- [ ] **CA3 – kkkk7y do benefício**  
-  A kkkks7 do kkkktz (`KK0078`) é executada, vinculando o benefício à kkkklh.
+- [ ] **CA3 – KK0543 do benefício**  
+  A KK0544 do KK0142 (`KK0538`) é executada, vinculando o benefício à KK0346.
 
-- [ ] **CA4 – Registro na kkkk3l**  
-  A kkkk3l é atualizada com a kkkks7 kkkkhm (`KK0079`), registrando que o benefício foi efetivado.
+- [ ] **CA4 – Registro na KK1086**  
+  A KK1086 é atualizada com a KK0544 KK0776 (`KK0104`), registrando que o benefício foi efetivado.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
 | Elemento de destino | Origem / observação |
 | --------------------- | --------------------- |
-| Gateway_19hcmx2 | KK0188 12 (ramo kkkkhm). |
+| Gateway_19hcmx2 | KK1000 12 (ramo KK0776). |
 
-### Scripts e kkkkiq
+### Scripts e KK1335
 
-| ID kkkk9q / KK0148 | Regra resumida |
+| ID KK1332 / KK1223 | Regra resumida |
 | ------------------ | ---------------- |
-| `KK0075` | kkkk8m; kkkkmk/termo do kkkk1x. |
-| `KK0076` | kkkk8n; kkkkth do benefício. |
-| `KK0077` | Script (em KK0078); KK0044; agrupa dados para kkkks7 kkkkhm. |
-| `KK0078` | kkkk8n; resultVariable efetivacao_inss. |
-| `KK0079` | kkkk8n; registro na kkkk3l. |
-| Gateway_19hcmx2, Gateway_16nr563 | ExclusiveGateways; condição kkkkhm. |
+| `KK1348` | KK1388; KK0009/termo do KK0273. |
+| `KK1401` | KK1276; KK1406 do benefício. |
+| `KK0044` | Script (em KK0538); KK0732; agrupa dados para KK0544 KK0776. |
+| `KK0538` | KK1276; resultVariable efetivacao_inss. |
+| `KK0104` | KK1276; registro na KK1086. |
+| Gateway_19hcmx2, Gateway_16nr563 | ExclusiveGateways; condição KK0776. |
 
 Ver [FLUXO_13_tecnico](FLUXO_13_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Onde escrita / lida | Observação |
 | ---------- | ---------------------- | ------------ |
-| efetivacao_inss | KK0078 (KK0077) | resultVariable; resultado da kkkks7 kkkkhm. |
+| efetivacao_inss | KK0538 (KK0044) | resultVariable; resultado da KK0544 KK0776. |
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 12 | Origem | Gateway_19hcmx2 (ramo kkkkhm). |
-| 15–16 | Destino | Convergência (KK0188 15 kkkkhu; KK0188 16 eventos). |
+| 12 | Origem | Gateway_19hcmx2 (ramo KK0776). |
+| 15–16 | Destino | Convergência (KK1000 15 KK0982; KK1000 16 eventos). |
 
 $$$$$
 
 [parte_14_pld_mesa_pld/FLUXO_14_guia_GENERICO.md]
 XXXXX
-# KK0188 14 — kkkkh1 e Mesa kkkkh1 (guia)
+# KK1000 14 — KK1029 e Mesa KK1029 (guia)
 
-**O que é esta parte:** trecho em que o kkkk55 executa a **kkkkgt kkkkh1** (Prevenção à Lavagem de Dinheiro), **classifica o kkkkli** (baixo, médio, alto) e, quando necessário, encaminha para a **Mesa kkkkh1**.
+**O que é esta parte:** trecho em que o KK1069 executa a **KK0065 KK1029** (Prevenção à Lavagem de Dinheiro), **classifica o KK1201** (baixo, médio, alto) e, quando necessário, encaminha para a **Mesa KK1029**.
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Analisar o kkkk1x no âmbito kkkkh1; classificar o kkkkli; direcionar para a Mesa kkkkh1 quando o KK0046 exigir.
+Analisar o KK0273 no âmbito KK1029; classificar o KK1201; direcionar para a Mesa KK1029 quando o KK0651 exigir.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **kkkk5o kkkkh1** — O kkkkxv executa a kkkkgt kkkkh1 (ex.: integração AQ4) e obtém o resultado.
-- **KK0007 por kkkkli** — Os kkkkaf avaliam o resultado e direcionam: kkkkli aceitável segue o KK0046; quando necessário, encaminha para a Mesa kkkkh1.
-- **Mesa kkkkh1** — Quando o KK0046 exige kkkkgt humana, a kkkk3l segue para a Mesa kkkkh1; o resultado define os próximos passos.
+- **KK0064 KK1029** — O KK1292 executa a KK0065 KK1029 (ex.: integração AQ4) e obtém o resultado.
+- **KK0466 por KK1201** — Os KK0712 avaliam o resultado e direcionam: KK1201 aceitável segue o KK0651; quando necessário, encaminha para a Mesa KK1029.
+- **Mesa KK1029** — Quando o KK0651 exige KK0065 humana, a KK1086 segue para a Mesa KK1029; o resultado define os próximos passos.
 
 ---
 
@@ -7314,85 +7299,85 @@ Analisar o kkkk1x no âmbito kkkkh1; classificar o kkkkli; direcionar para a Mes
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **O que ocorre** | kkkk5o kkkkh1; classificação de kkkkli (baixo/médio/alto); Mesa kkkkh1 quando aplicável. |
-| **Saída** | kkkklg com classificação de kkkkli; quando necessário, kkkkgt pela Mesa kkkkh1. |
+| **O que ocorre** | KK0064 KK1029; classificação de KK1201 (baixo/médio/alto); Mesa KK1029 quando aplicável. |
+| **Saída** | KK1085 com classificação de KK1201; quando necessário, KK0065 pela Mesa KK1029. |
 
-Para detalhes KK0178 use **FLUXO_14_tecnico.md**.
+Para detalhes KK1379 use **FLUXO_14_tecnico.md**.
 
 $$$$$
 
 [parte_14_pld_mesa_pld/FLUXO_14_tecnico_GENERICO.md]
 XXXXX
-# KK0188 14 — kkkkh1 e Mesa kkkkh1 — documentação kkkk5u
+# KK1000 14 — KK1029 e Mesa KK1029 — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** kkkk5o kkkkh1 (AQ4), kkkkaf de kkkkli (baixo/alto/médio), mesa kkkkh1. kkkk59: kkkkpk, KK0080, kkkkaz, kkkkld, KK0081, KK0082, KK0083.
+**KK0655:** `KK0953`  
+**KK0598:** KK0064 KK1029 (AQ4), KK0712 de KK1201 (baixo/alto/médio), mesa KK1029. KK0551: KK0031, KK0209, KK0696, KK0695, KK1274, KK0055, KK0866.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `KK0080` | kkkk8k — kkkk5o kkkkh1 (AQ4) |
-| `KK0082`, `kkkkjr` | kkkka5 — kkkk5n kkkkh1 alto / em andamento |
-| `KK0083` | kkkk8k — Mesa kkkkh1 |
+| `KK0209` | KK0215 — KK0064 KK1029 (AQ4) |
+| `KK0055`, `KK0056` | KK1389 — KK1200 KK1029 alto / em andamento |
+| `KK0866` | KK0215 — Mesa KK1029 |
 
 ---
 
 ## 1. Objetivo da parte
 
-**Analisar** o perfil kkkkh1 (kkkkri); classificar **kkkkli** (baixo, alto, médio); encaminhar para **mesa kkkkh1** quando aplicável; **atualizar kkkk3l** com o kkkkli quando necessário.
+**Analisar** o perfil KK1029 (KK1052); classificar **KK1201** (baixo, alto, médio); encaminhar para **mesa KK1029** quando aplicável; **atualizar KK1086** com o KK1201 quando necessário.
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 Tasks e kkkkaf
+### 2.1 Tasks e KK0712
 
 | Tipo | ID | Nome (name) | Observação |
 | ------ | ----- | ------------- | ------------ |
-| kkkk8l / kkkk8k | `kkkkpk` | (início/entrada kkkkh1) | Entrada na parte. |
-| kkkk8k | `KK0080` | (analisa kkkkh1) | kkkkxl à kkkkgt kkkkh1 (AQ4). |
-| kkkk81 | `kkkkaz` | (kkkkli?) | Direciona por nível de kkkkli. |
-| kkkk81 | `kkkkld` | (kkkkli?) | Segundo nível de decisão. |
-| kkkk8n | `KK0081` | (atualiza kkkk3l kkkkli) | Registra kkkkli na kkkk3l. |
-| kkkk8l | `KK0082` | (kkkkgt kkkkh1 alto) | Tratamento kkkkli alto. |
-| kkkk8l | `KK0083` | (mesa kkkkh1) | Mesa de kkkkgt kkkkh1. |
+| KK1331 / KK0215 | `KK0031` | (início/entrada KK1029) | Entrada na parte. |
+| KK0215 | `KK0209` | (analisa KK1029) | KK0258 à KK0065 KK1029 (AQ4). |
+| KK0614 | `KK0696` | (KK1201?) | Direciona por nível de KK1201. |
+| KK0614 | `KK0695` | (KK1201?) | Segundo nível de decisão. |
+| KK1276 | `KK1274` | (atualiza KK1086 KK1201) | Registra KK1201 na KK1086. |
+| KK1331 | `KK0055` | (KK0065 KK1029 alto) | Tratamento KK1201 alto. |
+| KK1331 | `KK0866` | (mesa KK1029) | Mesa de KK0065 KK1029. |
 
-### 2.2 Sequence kkkkoa principais
+### 2.2 Sequence KK0649 principais
 
-### 2.2.1 KK0149 (KK0189 da KK0190)
+### 2.2.1 KK0309 (KK1181 da KK0314)
 
-KK0188 14 é dominada por call activity (analisa_pld) e kkkkaf de kkkkli. Completions dos kkkkxt e da mesa kkkkh1 seguem os sequence kkkkoa; conferir kkkk5j no kkkkhk (kkkkaz, kkkkld, KK0082, KK0083).
+KK1000 14 é dominada por call activity (analisa_pld) e KK0712 de KK1201. Completions dos KK1279 e da mesa KK1029 seguem os sequence KK0649; conferir KK0755 no KK0172 (KK0696, KK0695, KK0055, KK0866).
 
-### 2.2.2 Condições de kkkk7v
+### 2.2.2 Condições de KK0669
 
-| ID kkkk7v | Nome | Expressão | Ramo | Flow | Target |
+| ID KK0669 | Nome | Expressão | Ramo | Flow | Target |
 |-----------|------|-----------|------|------|--------|
-| kkkkaz | O kkkkdy do aq4 foi sucesso? | (KK0195) | Não | Flow_0y4kgq2 | kkkkjr |
-| kkkkaz | O kkkkdy do aq4 foi sucesso? | Sim | Sim | Flow_16vejkp | Gateway_0nrojv3 |
-| kkkkld | kkkkle | Sim | Sim | Flow_0gufj56 | service_atualiza_proposta_risco_baixo |
-| kkkkld | kkkkle | (KK0195) | — | Flow_1wnzhb8 | (outro) |
-| kkkkld | kkkkle | Não | Não | Flow_lwnzhb8 | kkkka0 |
-| kkkka0 | kkkk5n médio? | Sim | Sim | Flow_0758as1 | KK0083 |
-| kkkka0 | kkkk5n médio? | (KK0195) | Não | Flow_1e4bszb | KK0082 |
+| KK0696 | O KK1187 do aq4 foi sucesso? | (KK0472) | Não | Flow_0y4kgq2 | KK0056 |
+| KK0696 | O KK1187 do aq4 foi sucesso? | Sim | Sim | Flow_16vejkp | Gateway_0nrojv3 |
+| KK0695 | KK1203 | Sim | Sim | Flow_0gufj56 | service_atualiza_proposta_risco_baixo |
+| KK0695 | KK1203 | (KK0472) | — | Flow_1wnzhb8 | (outro) |
+| KK0695 | KK1203 | Não | Não | Flow_lwnzhb8 | KK0682 |
+| KK0682 | KK1200 médio? | Sim | Sim | Flow_0758as1 | KK0866 |
+| KK0682 | KK1200 médio? | (KK0472) | Não | Flow_1e4bszb | KK0055 |
 
 
 
 | sourceRef | targetRef | Observação |
 | ----------- | ----------- | ------------ |
-| kkkkpk | KK0080 | kkkk5o. |
-| KK0080 | kkkkaz | KK0007 por kkkkli. |
-| kkkkaz | (ramos) | kkkk5n baixo / médio / alto. |
-| kkkkld | KK0083 ou KK0046 normal | Mesa kkkkh1 ou continuação. |
-| (ramos) | KK0081 | Atualização de kkkk3l. |
+| KK0031 | KK0209 | KK0064. |
+| KK0209 | KK0696 | KK0466 por KK1201. |
+| KK0696 | (ramos) | KK1200 baixo / médio / alto. |
+| KK0695 | KK0866 ou KK0651 normal | Mesa KK1029 ou continuação. |
+| (ramos) | KK1274 | Atualização de KK1086. |
 
-### 2.3 kkkk5v kkkkhk (visão da parte)
+### 2.3 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
 ```mermaid
 %%{init: {
@@ -7413,9 +7398,9 @@ KK0188 14 é dominada por call activity (analisa_pld) e kkkkaf de kkkkli. Comple
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -7424,14 +7409,14 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   direction LR
-  IN((•)) --> L([Pré-kkkkgt kkkkh1<br/>kkkkpk])
-  L --> CAL([kkkkxl analisa kkkkh1<br/>KK0080])
-  CAL --> GW1{kkkk5n?}
+  IN((•)) --> L([Pré-KK0065 KK1029<br/>KK0031])
+  L --> CAL([KK0258 analisa KK1029<br/>KK0209])
+  CAL --> GW1{KK1200?}
   GW1 -->|Baixo| OUT1(( ))
-  GW1 -->|Médio| UPD([Atualiza kkkk3l kkkkli<br/>service_atualiza_proposta_risco_baixo])
-  GW1 -->|Alto| GW2{kkkk5n médio?}
-  GW2 --> MESA([Mesa kkkkh1<br/>KK0083])
-  GW2 --> ALTO([kkkk5o kkkkh1 alto<br/>KK0082])
+  GW1 -->|Médio| UPD([Atualiza KK1086 KK1201<br/>service_atualiza_proposta_risco_baixo])
+  GW1 -->|Alto| GW2{KK1200 médio?}
+  GW2 --> MESA([Mesa KK1029<br/>KK0866])
+  GW2 --> ALTO([KK0064 KK1029 alto<br/>KK0055])
   UPD --> OUT2(( ))
   MESA --> OUT3(( ))
   ALTO --> OUT4(( ))
@@ -7451,20 +7436,20 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Uso na parte |
 | ---------- | -------------- |
-| (resultado kkkkgt kkkkh1) | Saída de KK0080; lida pelos kkkkaf. |
-| (kkkkli na kkkk3l) | Escrita por KK0081. |
+| (resultado KK0065 KK1029) | Saída de KK0209; lida pelos KK0712. |
+| (KK1201 na KK1086) | Escrita por KK1274. |
 
 ---
 
-## 4. kkkkvt e saídas da parte
+## 4. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** entrada pelo ramo kkkkh1 (KK0188 12); núcleo kkkkgt kkkkh1/kkkkli/mesa; saídas por nível de kkkkli.
+**KK0491 de contexto:** entrada pelo ramo KK1029 (KK1000 12); núcleo KK0065 KK1029/KK1201/mesa; saídas por nível de KK1201.
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -7485,9 +7470,9 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -7496,14 +7481,14 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Entrada["Origem"]
-    P12([kkkkpk KK0188 12])
+    P12([KK0031 KK1000 12])
   end
-  subgraph Parte14["KK0188 14 - kkkkh1 e Mesa kkkkh1"]
-    CAL([KK0080])
-    GW{kkkk5n?}
-    MESA([KK0083])
+  subgraph Parte14["KK1000 14 - KK1029 e Mesa KK1029"]
+    CAL([KK0209])
+    GW{KK1200?}
+    MESA([KK0866])
   end
-  subgraph kkkkvw["Destino"]
+  subgraph KK1207["Destino"]
     OUT([convergência / fim])
   end
   P12 --> CAL
@@ -7517,117 +7502,117 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   style OUT fill:#ffcdd2,stroke:#c62828,stroke-width:2px
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
 | Elemento de destino | Origem / observação |
 | --------------------- | ---------------------- |
-| kkkkpk | Ramo kkkkh1 (KK0188 12 / convergência pós kkkk8c e Vínculo kkkk64). |
+| KK0031 | Ramo KK1029 (KK1000 12 / convergência pós KK1282 e Vínculo KK1123). |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Ramo / flow | Destino | Observação |
 | ------------- | ---------------- | ------------ |
-| kkkk5n baixo / médio / alto | KK0081, KK0083, KK0082 | Conforme kkkk7v; depois convergência (KK0188 15/16). |
+| KK1200 baixo / médio / alto | KK1274, KK0866, KK0055 | Conforme KK0669; depois convergência (KK1000 15/16). |
 
 ---
 
-## 5. Referências kkkkhk
+## 5. Referências KK0172
 
-- **kkkkhk:** `kkkkk6` (raiz do repositório).
-- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 14).
+- **KK0172:** `KK0953` (raiz do repositório).
+- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 14).
 - **Guia:** [FLUXO_14_guia.md](FLUXO_14_guia.md). **User story:** [USER_STORY_14_pld_mesa_pld.md](USER_STORY_14_pld_mesa_pld.md).
 
 $$$$$
 
 [parte_14_pld_mesa_pld/USER_STORY_14_pld_mesa_pld_GENERICO.md]
 XXXXX
-# User Story — KK0188 14: kkkkh1 e Mesa kkkkh1
+# User Story — KK1000 14: KK1029 e Mesa KK1029
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## User Story
 
-**Como** motor de kkkk55 da kkkkfj,  
-**quero** executar a kkkkgt kkkkh1 (Prevenção à Lavagem de Dinheiro) e classificar o kkkkli,  
-**para** que a kkkk3l siga com a classificação de kkkkli correta e, quando necessário, para a mesa kkkkh1.
+**Como** motor de KK1069 da KK0798,  
+**quero** executar a KK0065 KK1029 (Prevenção à Lavagem de Dinheiro) e classificar o KK1201,  
+**para** que a KK1086 siga com a classificação de KK1201 correta e, quando necessário, para a mesa KK1029.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- [ ] **CA1 – kkkk5o kkkkh1**  
-  A call activity de kkkkgt kkkkh1 (`KK0080`) é executada quando o KK0046 direciona para esse ramo, gerando o resultado da kkkkgt.
+- [ ] **CA1 – KK0064 KK1029**  
+  A call activity de KK0065 KK1029 (`KK0209`) é executada quando o KK0651 direciona para esse ramo, gerando o resultado da KK0065.
 
-- [ ] **CA2 – KK0007 por kkkkli**  
-  Os kkkkaf de kkkkli avaliam o resultado da kkkkgt e direcionam o KK0046 conforme a classificação (ex.: kkkkli aceitável, encaminhar para mesa).
+- [ ] **CA2 – KK0466 por KK1201**  
+  Os KK0712 de KK1201 avaliam o resultado da KK0065 e direcionam o KK0651 conforme a classificação (ex.: KK1201 aceitável, encaminhar para mesa).
 
-- [ ] **CA3 – Mesa kkkkh1**  
-  Quando o KK0046 exige kkkkgt pela mesa kkkkh1 (`KK0083`), essa etapa é executada e o resultado direciona os próximos passos da kkkkgq.
+- [ ] **CA3 – Mesa KK1029**  
+  Quando o KK0651 exige KK0065 pela mesa KK1029 (`KK0866`), essa etapa é executada e o resultado direciona os próximos passos da KK0797.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
 | Elemento de destino | Origem / observação |
 | --------------------- | --------------------- |
-| kkkkpk | KK0188 12 (ramo kkkkh1). |
+| KK0031 | KK1000 12 (ramo KK1029). |
 
-### Scripts e kkkkiq
+### Scripts e KK1335
 
-| ID kkkk9q / elemento | Regra resumida |
+| ID KK1332 / elemento | Regra resumida |
 | -------------------- | ---------------- |
-| kkkkpk | Entrada na parte. |
-| KK0080 | kkkk8k; kkkkgt kkkkh1 (AQ4). |
-| kkkkaz, kkkkld | ExclusiveGateways; direcionam por nível de kkkkli. |
-| KK0081 | kkkk8n; registra kkkkli na kkkk3l. |
-| KK0082 | kkkk8l; tratamento kkkkli alto. |
-| KK0083 | kkkk8l; mesa de kkkkgt kkkkh1. |
+| KK0031 | Entrada na parte. |
+| KK0209 | KK0215; KK0065 KK1029 (AQ4). |
+| KK0696, KK0695 | ExclusiveGateways; direcionam por nível de KK1201. |
+| KK1274 | KK1276; registra KK1201 na KK1086. |
+| KK0055 | KK1331; tratamento KK1201 alto. |
+| KK0866 | KK1331; mesa de KK0065 KK1029. |
 
 Ver [FLUXO_14_tecnico](FLUXO_14_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Uso na parte |
 | ---------- | -------------- |
-| (resultado kkkkgt kkkkh1) | Saída de KK0080; lida pelos kkkkaf. |
-| (kkkkli na kkkk3l) | Escrita por KK0081. |
+| (resultado KK0065 KK1029) | Saída de KK0209; lida pelos KK0712. |
+| (KK1201 na KK1086) | Escrita por KK1274. |
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 12 | Origem | kkkkpk (ramo kkkkh1). |
-| 15–16 | Destino | Convergência (KK0188 15 kkkkhu; KK0188 16 eventos). |
+| 12 | Origem | KK0031 (ramo KK1029). |
+| 15–16 | Destino | Convergência (KK1000 15 KK0982; KK1000 16 eventos). |
 
 $$$$$
 
 [parte_15_pac_envios_finalizacao/FLUXO_15_guia_GENERICO.md]
 XXXXX
-# KK0188 15 — kkkkhu, envios e finalização (guia)
+# KK1000 15 — KK0982, envios e finalização (guia)
 
-**O que é esta parte:** trecho em que o kkkk55 **gera o kkkkhu** (Protocolo de kkkkyj de kkkk8h), **efetiva o conteúdo**, **monta o kkkkvn para KK0151** e **envia o kkkkhu ao kkkk1x por KK0151**. Finalização da kkkkgq com o comprovante enviado.
+**O que é esta parte:** trecho em que o KK1069 **gera o KK0982** (Protocolo de KK0005 de KK0345), **efetiva o conteúdo**, **monta o KK0372 para KK0530** e **envia o KK0982 ao KK0273 por KK0530**. Finalização da KK0797 com o comprovante enviado.
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Gerar o kkkkhu nas versões previstas no KK0046; efetivar o conteúdo; enviar o kkkkhu por KK0151 ao kkkk1x.
+Gerar o KK0982 nas versões previstas no KK0651; efetivar o conteúdo; enviar o KK0982 por KK0530 ao KK0273.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **Geração do kkkkhu** — O kkkkxv gera o kkkkhu (versões kkkkzq/IP conforme o mapeamento e o KK0046).
-- **kkkk7y** — O conteúdo do kkkkhu é efetivado.
-- **Montagem e envio** — O kkkkvn é montado para KK0151 e o kkkkhu é enviado ao kkkk1x.
+- **Geração do KK0982** — O KK1292 gera o KK0982 (versões KK0740/IP conforme o mapeamento e o KK0651).
+- **KK0543** — O conteúdo do KK0982 é efetivado.
+- **Montagem e envio** — O KK0372 é montado para KK0530 e o KK0982 é enviado ao KK0273.
 
 ---
 
@@ -7635,81 +7620,81 @@ Gerar o kkkkhu nas versões previstas no KK0046; efetivar o conteúdo; enviar o 
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **O que ocorre** | Geração do kkkkhu; kkkks7 do conteúdo; envio do kkkkhu por KK0151. |
-| **Saída** | kkkkmf recebe o kkkkhu por KK0151; kkkkgq finalizada com comprovante. |
+| **O que ocorre** | Geração do KK0982; KK0544 do conteúdo; envio do KK0982 por KK0530. |
+| **Saída** | KK0272 recebe o KK0982 por KK0530; KK0797 finalizada com comprovante. |
 
-Para detalhes KK0178 use **FLUXO_15_tecnico.md**.
+Para detalhes KK1379 use **FLUXO_15_tecnico.md**.
 
 $$$$$
 
 [parte_15_pac_envios_finalizacao/FLUXO_15_tecnico_GENERICO.md]
 XXXXX
-# KK0188 15 — kkkkhu, envios e finalização — documentação kkkk5u
+# KK1000 15 — KK0982, envios e finalização — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** Geração de kkkkhu (kkkkzq, IP), kkkks7 de conteúdo (kkkkh3/selfie), montagem e envio de kkkkhu por KK0151. kkkk59: KK0084, KK0085, mapear_contrato_pac_*, KK0086, KK0089, kkkkdt.
+**KK0655:** `KK0953`  
+**KK0598:** Geração de KK0982 (KK0740, IP), KK0544 de conteúdo (KK0490/selfie), montagem e envio de KK0982 por KK0530. KK0551: KK0718, KK0719, mapear_contrato_pac_*, KK0542, KK0892, KK0583.
 
 ---
 
-## kkkkma Nível 2 (kkkk5f kkkkhk)
+## KK1132 Nível 2 (KK0790 KK0172)
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `KK0084`, `KK0085` | Geração kkkkhu por kkkkxr |
-| `KK0087`, `KK0088` | kkkk58 kkkkvn kkkkhu |
-| `KK0086`, `kkkkn4` | kkkk7y e atualização kkkk3l |
-| `KK0089`, `kkkkdt` | Envio kkkkhu por KK0151 |
+| `KK0718`, `KK0719` | Geração KK0982 por KK1254 |
+| `KK0854`, `KK0855` | KK0844 KK0372 KK0982 |
+| `KK0542`, `KK1114` | KK0543 e atualização KK1086 |
+| `KK0892`, `KK0583` | Envio KK0982 por KK0530 |
 
 ---
 
 ## 1. Objetivo da parte
 
-**Gerar** o kkkkhu (Produto de kkkkyj de kkkk8h) por kkkkxr (kkkkzq ou IP); **mapear kkkkvn** e **efetivar** o conteúdo (kkkkh3/selfie); **montar** o kkkkvn para KK0151 e **enviar** a kkkkhu por KK0151 ao kkkk1x.
+**Gerar** o KK0982 (Produto de KK0005 de KK0345) por KK1254 (KK0740 ou IP); **mapear KK0372** e **efetivar** o conteúdo (KK0490/selfie); **montar** o KK0372 para KK0530 e **enviar** a KK0982 por KK0530 ao KK0273.
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 Script kkkkiq e service kkkkiq
+### 2.1 Script KK1335 e service KK1335
 
 | Tipo | ID | Nome (name) | Observação |
 | ------ | ----- | ------------- | ------------ |
-| kkkk8o | `KK0087` | Mapear kkkkvn gerar pac | KK0044; mapeamento para kkkkhu kkkkzq. |
-| kkkk8o | `KK0088` | Mapear kkkkvn gerar pac person | KK0044; mapeamento para kkkkhu IP. |
-| kkkk8n / kkkk8k | `KK0084` | (kkkkf2 kkkkzq) | Geração do kkkkhu. |
-| kkkk8n / kkkk8k | `KK0085` | (kkkkf2 IP) | Geração do kkkkhu IP. |
-| kkkk8n | `KK0086` | (kkkkt7) | kkkk7y do conteúdo (kkkkh3/selfie). |
-| kkkk8o | `KK0089` | Montar kkkkvn para envio da kkkkhu KK0151 | KK0044; montagem do kkkkvn para KK0151. |
-| kkkk8n | `kkkkdt` | (envia kkkkhu KK0151) | Envio da kkkkhu por KK0151. |
+| KK1246 | `KK0854` | Mapear KK0372 gerar pac | KK0732; mapeamento para KK0982 KK0740. |
+| KK1246 | `KK0855` | Mapear KK0372 gerar pac person | KK0732; mapeamento para KK0982 IP. |
+| KK1276 / KK0215 | `KK0718` | (KK0716 KK0740) | Geração do KK0982. |
+| KK1276 / KK0215 | `KK0719` | (KK0716 IP) | Geração do KK0982 IP. |
+| KK1276 | `KK0542` | (KK0541) | KK0543 do conteúdo (KK0490/selfie). |
+| KK1246 | `KK0892` | Montar KK0372 para envio da KK0982 KK0530 | KK0732; montagem do KK0372 para KK0530. |
+| KK1276 | `KK0583` | (envia KK0982 KK0530) | Envio da KK0982 por KK0530. |
 
-### 2.2 Sequence kkkkoa principais
+### 2.2 Sequence KK0649 principais
 
-### 2.2.1 KK0149 (KK0189 da KK0190)
+### 2.2.1 KK0309 (KK1181 da KK0314)
 
-KK0188 15 não possui user kkkkiq; apenas KK0148/service kkkkiq (gerar_pac_*, mapear_contrato_pac_*, KK0086, KK0089, kkkkdt). Completions determinadas pelos sequence kkkkoa; conferir kkkkhk.
+KK1000 15 não possui user KK1335; apenas KK1223/service KK1335 (gerar_pac_*, mapear_contrato_pac_*, KK0542, KK0892, KK0583). Completions determinadas pelos sequence KK0649; conferir KK0172.
 
-### 2.2.2 Condições de kkkk7v
+### 2.2.2 Condições de KK0669
 
-| ID kkkk7v | Nome | Expressão | Ramo | Flow | Target |
+| ID KK0669 | Nome | Expressão | Ramo | Flow | Target |
 |-----------|------|-----------|------|------|--------|
-| Gateway_lwbuzfc | Qual kkkki3? | kkkkzq | kkkkzq | Flow_0cf8zs5 | KK0087 |
-| Gateway_lwbuzfc | Qual kkkki3? | IP | IP | Flow_06iqu2a | KK0088 |
+| Gateway_lwbuzfc | Qual KK1253? | KK0740 | KK0740 | Flow_0cf8zs5 | KK0854 |
+| Gateway_lwbuzfc | Qual KK1253? | IP | IP | Flow_06iqu2a | KK0855 |
 
 
 
 | sourceRef | targetRef | Observação |
 | ----------- | ----------- | ------------ |
-| (kkkk7v kkkkxr) | KK0084 ou KK0085 | Por kkkkxr. |
-| KK0084 / KK0085 | mapear_contrato_pac_* | kkkk58. |
-| (mapear) | KK0086 | kkkk7y. |
-| KK0086 | KK0089 | Montagem. |
-| KK0089 | kkkkdt | Envio. |
+| (KK0669 KK1254) | KK0718 ou KK0719 | Por KK1254. |
+| KK0718 / KK0719 | mapear_contrato_pac_* | KK0844. |
+| (mapear) | KK0542 | KK0543. |
+| KK0542 | KK0892 | Montagem. |
+| KK0892 | KK0583 | Envio. |
 
-### 2.3 kkkk5v kkkkhk (visão da parte)
+### 2.3 KK0491 KK0172 (visão da parte)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
 ```mermaid
 %%{init: {
@@ -7730,9 +7715,9 @@ KK0188 15 não possui user kkkkiq; apenas KK0148/service kkkkiq (gerar_pac_*, ma
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -7741,14 +7726,14 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   direction LR
-  GW{Qual kkkki3?<br/>Gateway_lwbuzfc} --> MAP1([kkkkl3 kkkkzq<br/>KK0087])
-  GW --> MAP2([kkkkl3 IP<br/>KK0088])
-  MAP1 --> PAC_IU([Gerar kkkkhu kkkkzq<br/>KK0084])
-  MAP2 --> PAC_IP([Gerar kkkkhu IP<br/>KK0085])
-  PAC_IU --> EF([Efetivar kkkkhu<br/>KK0086])
+  GW{Qual KK1253?<br/>Gateway_lwbuzfc} --> MAP1([KK0853 KK0740<br/>KK0854])
+  GW --> MAP2([KK0853 IP<br/>KK0855])
+  MAP1 --> PAC_IU([Gerar KK0982 KK0740<br/>KK0718])
+  MAP2 --> PAC_IP([Gerar KK0982 IP<br/>KK0719])
+  PAC_IU --> EF([Efetivar KK0982<br/>KK0542])
   PAC_IP --> EF
-  EF --> MONTA([Monta kkkkvn KK0151<br/>KK0089])
-  MONTA --> ENV([kkkkdd<br/>kkkkdt])
+  EF --> MONTA([Monta KK0372 KK0530<br/>KK0892])
+  MONTA --> ENV([KK0581<br/>KK0583])
   ENV --> OUT(( ))
 
   style GW fill:#fff8e1,stroke:#e65100,stroke-width:2px
@@ -7764,65 +7749,65 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Escrita por | Observação |
 | ---------- | ------------- | ------------ |
-| (kkkkvn kkkkhu) | mapear_contrato_pac_*, KK0089 | kkkkwx para geração e envio do kkkkhu. |
+| (KK0372 KK0982) | mapear_contrato_pac_*, KK0892 | KK0399 para geração e envio do KK0982. |
 
 ---
 
-## 4. kkkkxe de kkkkag (KK0199)
+## 4. KK1145 de KK0911 (KK1139)
 
-| ID KK0148 / kkkk9q | Regra em uma linha |
+| ID KK1223 / KK1332 | Regra em uma linha |
 | ------------------ | --------------------- |
-| KK0087, KK0088 | Mapeiam dados do kkkkvn para geração do kkkkhu (kkkkxr kkkkzq vs IP); conferir kkkkhk (KK0084, KK0085). |
-| KK0089 | Monta dados do kkkkvn para envio por KK0151 (kkkkdt); conferir kkkkhk. |
+| KK0854, KK0855 | Mapeiam dados do KK0372 para geração do KK0982 (KK1254 KK0740 vs IP); conferir KK0172 (KK0718, KK0719). |
+| KK0892 | Monta dados do KK0372 para envio por KK0530 (KK0583); conferir KK0172. |
 
 ---
 
-## 5. Pseudo-KK0021 (KK0199)
+## 5. Pseudo-KK0398 (KK1139)
 
-### 5.1 KK0216 KK0087 / KK0088
+### 5.1 KK1224 KK0854 / KK0855
 
-**KK0188:** 15 — kkkkhu e finalização  
-**Objetivo:** Mapear kkkkvo do contexto para o kkkkvn kkkkhu conforme kkkkxr (kkkkzq ou IP).
+**KK1000:** 15 — KK0982 e finalização  
+**Objetivo:** Mapear KK1423 do contexto para o KK0372 KK0982 conforme KK1254 (KK0740 ou IP).
 
-#### Pseudo-KK0021 (KK0199)
-
-```text
-KK0217 (KK0199 — conferir kkkkhk):
-  OBTER kkkkxr e dados da kkkk3l do contexto
-  KK0223 kkkkxr IA ou IU KK0224 usar KK0087
-  KK0223 kkkkxr IP KK0224 usar KK0088
-  ATRIBUIR campos do kkkkvn kkkkhu (conforme KK0203 no kkkkhk)
-```
-
-### 5.2 KK0216 KK0089
-
-**Objetivo:** Montar kkkkmn/objeto para envio do kkkkhu por KK0151.
-
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217 (KK0199 — conferir kkkkhk):
-  OBTER kkkkvn kkkkhu e kkkksx
-  MONTAR dados para KK0151 (destinatário, anexo, corpo)
-  PASSAR para kkkkdt
+KK1129 (KK1139 — conferir KK0172):
+  OBTER KK1254 e dados da KK1086 do contexto
+  KK1249 KK1254 IA ou IU KK0579 usar KK0854
+  KK1249 KK1254 IP KK0579 usar KK0855
+  ATRIBUIR campos do KK0372 KK0982 (conforme KK0775 no KK0172)
 ```
 
-#### Referências kkkkhk
+### 5.2 KK1224 KK0892
 
-- **ids:** KK0087, KK0088, KK0089, KK0084, KK0085, kkkkdt.
-- **kkkkhk:** `kkkkk6`.
+**Objetivo:** Montar KK1001/objeto para envio do KK0982 por KK0530.
+
+#### Pseudo-KK0398 (KK1139)
+
+```text
+KK1129 (KK1139 — conferir KK0172):
+  OBTER KK0372 KK0982 e KK0404
+  MONTAR dados para KK0530 (destinatário, anexo, corpo)
+  PASSAR para KK0583
+```
+
+#### Referências KK0172
+
+- **ids:** KK0854, KK0855, KK0892, KK0718, KK0719, KK0583.
+- **KK0172:** `KK0953`.
 
 ---
 
-## 6. kkkkvt e saídas da parte
+## 6. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** entrada pela convergência (Partes 12–14); núcleo kkkkhu (gerar/mapear/efetivar/envio); saída para fim e eventos (KK0188 16).
+**KK0491 de contexto:** entrada pela convergência (Partes 12–14); núcleo KK0982 (gerar/mapear/efetivar/envio); saída para fim e eventos (KK1000 16).
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -7843,9 +7828,9 @@ KK0217 (KK0199 — conferir kkkkhk):
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -7856,142 +7841,142 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
   subgraph Entrada["Origem"]
     CONV([convergência Partes 12-14])
   end
-  subgraph Parte15["KK0188 15 - kkkkhu e finalização"]
-    GW{kkkki3?}
-    kkkkhu([gerar_pac_*])
-    ENV([kkkkdt])
+  subgraph Parte15["KK1000 15 - KK0982 e finalização"]
+    GW{KK1253?}
+    KK0982([gerar_pac_*])
+    ENV([KK0583])
   end
   subgraph Saida["Destino"]
-    KK0226((fim))
+    KK0642((fim))
   end
   CONV --> GW
-  GW --> kkkkhu
-  kkkkhu --> ENV
-  ENV --> KK0226
+  GW --> KK0982
+  KK0982 --> ENV
+  ENV --> KK0642
   style CONV fill:#bbdefb,stroke:#1565c0
   style GW fill:#fff8e1,stroke:#e65100,stroke-width:2px
-  style kkkkhu fill:#eceff1,stroke:#546e7a
+  style KK0982 fill:#eceff1,stroke:#546e7a
   style ENV fill:#eceff1,stroke:#546e7a
-  style KK0226 fill:#ffcdd2,stroke:#c62828,stroke-width:2px
+  style KK0642 fill:#ffcdd2,stroke:#c62828,stroke-width:2px
 ```
 
-### kkkkvt (quem chega nesta parte)
+### KK0577 (quem chega nesta parte)
 
 | Elemento de destino | Origem / observação |
 | --------------------- | ---------------------- |
-| KK0084 / KK0085 | Convergência dos ramos (KK0188 12 kkkk8c/Vínculo, KK0188 13 kkkkhm, KK0188 14 kkkkh1). kkkkis de kkkkxr. |
+| KK0718 / KK0719 | Convergência dos ramos (KK1000 12 KK1282/Vínculo, KK1000 13 KK0776, KK1000 14 KK1029). KK0668 de KK1254. |
 
-### kkkkvv (para onde esta parte vai)
+### KK1213 (para onde esta parte vai)
 
 | Destino | Observação |
 | ----------- | ------------ |
-| End events / KK0188 16 | kkkkdt → fim da kkkkgq; eventos kkkkyi (kkkkyo, cancelamento, etc.) em paralelo. |
+| End events / KK1000 16 | KK0583 → fim da KK0797; eventos KK1371 (KK0621, cancelamento, etc.) em paralelo. |
 
 ---
 
-## 7. Referências kkkkhk
+## 7. Referências KK0172
 
-- **kkkkhk:** `kkkkk6` (raiz do repositório).
-- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 15).
+- **KK0172:** `KK0953` (raiz do repositório).
+- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 15).
 - **Guia:** [FLUXO_15_guia.md](FLUXO_15_guia.md). **User story:** [USER_STORY_15_pac_envios_finalizacao.md](USER_STORY_15_pac_envios_finalizacao.md).
-- **Scripts:** [INDICE_SCRIPTS.md](../INDICE_SCRIPTS.md) — KK0087, KK0088, KK0089 (KK0188 15).
+- **Scripts:** [INDICE_SCRIPTS.md](../INDICE_SCRIPTS.md) — KK0854, KK0855, KK0892 (KK1000 15).
 
 $$$$$
 
 [parte_15_pac_envios_finalizacao/USER_STORY_15_pac_envios_finalizacao_GENERICO.md]
 XXXXX
-# User Story — KK0188 15: kkkkhu, envios e finalização
+# User Story — KK1000 15: KK0982, envios e finalização
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## User Story
 
-**Como** motor de kkkk55 da kkkkfj,  
-**quero** gerar o kkkkhu (Protocolo de kkkkyj de kkkk8h) e enviá-lo por KK0151,  
-**para** que o kkkk1x receba o comprovante e a kkkkgq seja finalizada com o kkkkhu efetivado.
+**Como** motor de KK1069 da KK0798,  
+**quero** gerar o KK0982 (Protocolo de KK0005 de KK0345) e enviá-lo por KK0530,  
+**para** que o KK0273 receba o comprovante e a KK0797 seja finalizada com o KK0982 efetivado.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- [ ] **CA1 – Geração do kkkkhu**  
-  O kkkkxv gera o kkkkhu nas versões previstas no KK0046 (`KK0084`, `KK0085` ou equivalentes), conforme o mapeamento e a fonte da verdade (kkkkhk).
+- [ ] **CA1 – Geração do KK0982**  
+  O KK1292 gera o KK0982 nas versões previstas no KK0651 (`KK0718`, `KK0719` ou equivalentes), conforme o mapeamento e a fonte da verdade (KK0172).
 
-- [ ] **CA2 – kkkk7y do kkkkhu**  
-  O kkkkhu é efetivado (`KK0086`), registrando-o como concluído no kkkk55.
+- [ ] **CA2 – KK0543 do KK0982**  
+  O KK0982 é efetivado (`KK0542`), registrando-o como concluído no KK1069.
 
-- [ ] **CA3 – Envio por KK0151**  
-  O kkkkhu é enviado ao kkkk1x por KK0151 (`kkkkdt`), conforme configurado no kkkkhk.
+- [ ] **CA3 – Envio por KK0530**  
+  O KK0982 é enviado ao KK0273 por KK0530 (`KK0583`), conforme configurado no KK0172.
 
 - [ ] **CA4 – Finalização**  
-  Com o kkkkt6, efetivado e enviado, a parte de finalização da kkkkgq é concluída conforme o KK0046.
+  Com o KK0985, efetivado e enviado, a parte de finalização da KK0797 é concluída conforme o KK0651.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
 ### Entrada no bloco
 
 | Ponto de entrada | Origem / observação |
 | ------------------ | --------------------- |
-| (kkkk7v kkkkxr) | Convergência Partes 12–14. |
+| (KK0669 KK1254) | Convergência Partes 12–14. |
 
-### Scripts e kkkkiq
+### Scripts e KK1335
 
-| ID kkkk9q / KK0148 | Regra resumida |
+| ID KK1332 / KK1223 | Regra resumida |
 | ------------------ | ---------------- |
-| KK0087 | kkkk8o (KK0044); mapeamento para kkkkhu kkkkzq. |
-| KK0088 | kkkk8o (KK0044); mapeamento para kkkkhu IP. |
-| KK0084, KK0085 | kkkk8n/kkkk8k; geração do kkkkhu por kkkkxr. |
-| KK0086 | kkkk8n; kkkks7 do conteúdo (kkkkh3/selfie). |
-| KK0089 | kkkk8o (KK0044); montagem do kkkkvn para KK0151. |
-| kkkkdt | kkkk8n; envio da kkkkhu por KK0151. |
+| KK0854 | KK1246 (KK0732); mapeamento para KK0982 KK0740. |
+| KK0855 | KK1246 (KK0732); mapeamento para KK0982 IP. |
+| KK0718, KK0719 | KK1276/KK0215; geração do KK0982 por KK1254. |
+| KK0542 | KK1276; KK0544 do conteúdo (KK0490/selfie). |
+| KK0892 | KK1246 (KK0732); montagem do KK0372 para KK0530. |
+| KK0583 | KK1276; envio da KK0982 por KK0530. |
 
 Ver [FLUXO_15_tecnico](FLUXO_15_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Onde escrita / lida | Observação |
 | ---------- | ---------------------- | ------------ |
-| (kkkkvn kkkkhu) | mapear_contrato_pac_*, KK0089 | kkkkwx para geração e envio do kkkkhu. |
+| (KK0372 KK0982) | mapear_contrato_pac_*, KK0892 | KK0399 para geração e envio do KK0982. |
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 12–14 | Origem | Convergência (kkkkhm, kkkkh1, kkkk8c, Vínculo kkkk64). |
-| 16 | Destino | Eventos kkkkyi e exceções (fim da kkkkgq). |
+| 12–14 | Origem | Convergência (KK0776, KK1029, KK1282, Vínculo KK1123). |
+| 16 | Destino | Eventos KK1371 e exceções (fim da KK0797). |
 
 $$$$$
 
 [parte_16_eventos_transversais_excecoes/FLUXO_16_guia_GENERICO.md]
 XXXXX
-# KK0188 16 — Eventos kkkkyi e exceções (guia)
+# KK1000 16 — Eventos KK1371 e exceções (guia)
 
-**O que é esta parte:** trecho que trata **eventos que podem ocorrer em qualquer momento** ou em ramos específicos da kkkkgq: **kkkkyo** (KK0177 de KK0173 ou sistêmico excedido), **cancelamento**, **bloqueio kkkkia**, **reset de kkkk3l** e **kkkktr**. Inclui também tratamento de **erro de reserva** e demais eventos modelados no kkkkhk.
+**O que é esta parte:** trecho que trata **eventos que podem ocorrer em qualquer momento** ou em ramos específicos da KK0797: **KK0621** (KK1342 de KK1392 ou sistêmico excedido), **cancelamento**, **bloqueio KK1124**, **reset de KK1086** e **KK0199**. Inclui também tratamento de **erro de reserva** e demais eventos modelados no KK0172.
 
-**KK0184:** `kkkkk6`
+**KK0655:** `KK0953`
 
 ---
 
 ## 1. Objetivo
 
-Garantir que, quando ocorrer kkkkyo, cancelamento, bloqueio kkkkia, reset, kkkk0f ou outros eventos kkkkyi, a kkkkgq seja encerrada ou atualizada de forma consistente, conforme as kkkkx5 do kkkkhk.
+Garantir que, quando ocorrer KK0621, cancelamento, bloqueio KK1124, reset, KK0129 ou outros eventos KK1371, a KK0797 seja encerrada ou atualizada de forma consistente, conforme as KK1146 do KK0172.
 
 ---
 
 ## 2. O que acontece na prática
 
-- **kkkk63** — Quando o KK0173 fica parado além do KK0177 permitido em uma KK0176 (ou quando o KK0177 sistêmico da kkkkgq é excedido), o KK0046 dispara o kkkkyo e encerra ou redireciona a kkkk5h.
-- **Cancelamento** — O kkkkx9 de cancelamento é tratado e a kkkkgq é encerrada ou atualizada conforme o KK0046.
-- **kkkk62 kkkkia** — O bloqueio kkkkia é tratado e o estado da kkkk3l/kkkkgq é atualizado.
-- **Reset de kkkk3l** — A kkkk3l pode ser resetada conforme o KK0046, permitindo reiniciar ou ajustar.
-- **kkkkb7** — O kkkkx9 de kkkktr é tratado e direciona para os ramos definidos.
-- **Erro de reserva e outros** — Erros e demais eventos kkkkyi seguem os ramos de tratamento para evitar estado inconsistente.
+- **KK0620** — Quando o KK1392 fica parado além do KK1342 permitido em uma KK1338 (ou quando o KK1342 sistêmico da KK0797 é excedido), o KK0651 dispara o KK0621 e encerra ou redireciona a KK0780.
+- **Cancelamento** — O KK0610 de cancelamento é tratado e a KK0797 é encerrada ou atualizada conforme o KK0651.
+- **KK0159 KK1124** — O bloqueio KK1124 é tratado e o estado da KK1086/KK0797 é atualizado.
+- **Reset de KK1086** — A KK1086 pode ser resetada conforme o KK0651, permitindo reiniciar ou ajustar.
+- **KK0204** — O KK0610 de KK0199 é tratado e direciona para os ramos definidos.
+- **Erro de reserva e outros** — Erros e demais eventos KK1371 seguem os ramos de tratamento para evitar estado inconsistente.
 
 ---
 
@@ -7999,79 +7984,79 @@ Garantir que, quando ocorrer kkkkyo, cancelamento, bloqueio kkkkia, reset, kkkk0
 
 | O quê | Detalhe |
 | ------- | -------- |
-| **Eventos** | kkkk63; cancelamento; bloqueio kkkkia; reset kkkk3l; cadastro kkkkff; erro reserva. |
-| **Efeito** | Jornada encerrada ou kkkk3l/kkkkgq atualizada conforme o modelo. |
+| **Eventos** | KK0620; cancelamento; bloqueio KK1124; reset KK1086; cadastro KK1202; erro reserva. |
+| **Efeito** | Jornada encerrada ou KK1086/KK0797 atualizada conforme o modelo. |
 
-Para detalhes KK0178 use **FLUXO_16_tecnico.md**.
+Para detalhes KK1379 use **FLUXO_16_tecnico.md**.
 
 $$$$$
 
 [parte_16_eventos_transversais_excecoes/FLUXO_16_tecnico_GENERICO.md]
 XXXXX
-# KK0188 16 — Eventos kkkkyi e exceções — documentação kkkk5u
+# KK1000 16 — Eventos KK1371 e exceções — documentação KK1377
 
-**KK0184:** `kkkkk6`  
-**KK0183:** Eventos que podem ocorrer em vários kkkky4 da kkkkgq: kkkk63, Cancelamento, kkkk62 kkkk64, Reset kkkk3l, kkkkb7; KK0180 de timer; kkkkvo KK0043 e KK0040.
+**KK0655:** `KK0953`  
+**KK0598:** Eventos que podem ocorrer em vários KK1039 da KK0797: KK0620, Cancelamento, KK0159 KK1123, Reset KK1086, KK0204; KK0167 de timer; KK1423 KK1344 e KK1343.
 
 ---
 
-## Visionning kkkkgv kkkkhk
+## Visionning KK0471 KK0172
 
-**kkkk5e completo:** [kkkkos](<documentacao/kkkkyy/kkkk5e da kkkkgv/kkkk3b>)
+**KK0789 completo:** [KK0847](<documentacao/KK1439/KK0789 da KK0471/KK0848>)
 
 | ID (Nível 2) | Observação |
 |--------------|------------|
-| `kkkkjj` | Estado de exceção — Restrição kkkk0f |
-| `kkkkjd`, `kkkkpl`, `kkkko0` | Estados de erro GQ |
-| Eventos kkkkyi: kkkk63, Cancelamento, kkkk62 kkkk64, Reset kkkk3l, kkkkb7 | kkkkwk events / atividades de tratamento |
+| `KK1177` | Estado de exceção — Restrição KK0129 |
+| `KK0043`, `KK0589`, `KK0590` | Estados de erro GQ |
+| Eventos KK1371: KK0620, Cancelamento, KK0159 KK1123, Reset KK1086, KK0204 | KK0165 events / atividades de tratamento |
 
 ---
 
 ## 1. Objetivo da parte
 
-Documentar os **eventos kkkkyi** e **exceções** do KK0046: **kkkk63** (timer nas user kkkkiq), **Cancelamento**, **kkkk62 kkkk64**, **Reset da kkkk3l**, **kkkkb7**, e outros tratamentos de erro. Estes KK0181 estão ligados a **KK0180** ou **eventos de mensagem** em várias partes do kkkkhk.
+Documentar os **eventos KK1371** e **exceções** do KK0651: **KK0620** (timer nas user KK1335), **Cancelamento**, **KK0159 KK1123**, **Reset da KK1086**, **KK0204**, e outros tratamentos de erro. Estes KK0552 estão ligados a **KK0167** ou **eventos de mensagem** em várias partes do KK0172.
 
 ---
 
-## 2. kkkk59 kkkkhk da parte
+## 2. KK0551 KK0172 da parte
 
-### 2.1 Atividades e eventos (KK0199)
+### 2.1 Atividades e eventos (KK1139)
 
 | ID | Nome / tipo | Observação |
 | ---- | ------------- | ------------ |
-| `kkkko5` | kkkk63 | Tratamento de kkkkyo (timer); KK0034 KK0043. |
-| `kkkko8` | Cancelamento | Tratamento de cancelamento. |
-| `kkkko7` | kkkk62 kkkk64 | Tratamento de bloqueio de kkkkia. |
-| `kkkko4` | Reset kkkk3l | Reset da kkkk3l. |
-| `kkkkdg` | (kkkk0f) | kkkkb7. |
-| `kkkko9` | (outro kkkkx9) | Outros eventos kkkkyi. |
+| `KK0024` | KK0620 | Tratamento de KK0621 (timer); KK1424 KK1344. |
+| `KK0028` | Cancelamento | Tratamento de cancelamento. |
+| `KK0027` | KK0159 KK1123 | Tratamento de bloqueio de KK1124. |
+| `KK0022` | Reset KK1086 | Reset da KK1086. |
+| `KK0025` | (KK0129) | KK0204. |
+| `KK0029` | (outro KK0610) | Outros eventos KK1371. |
 
-### 2.2 kkkkwk events (timer → kkkkyo)
+### 2.2 KK0165 events (timer → KK0621)
 
-### 2.2.1 KK0149 (KK0189 da KK0190)
+### 2.2.1 KK0309 (KK1181 da KK0314)
 
-KK0188 16 reúne **eventos kkkkyi** (kkkkyo, cancelamento, bloqueio kkkkia, reset, kkkk0f). Não há “completes” no sentido de user kkkk9q; os KK0180 (timer) e mensagens disparam para as atividades de tratamento (kkkko5 kkkk63, kkkko8 Cancelamento, etc.). Conferir kkkkhk para flow kkkk5j de cada kkkkx9.
+KK1000 16 reúne **eventos KK1371** (KK0621, cancelamento, bloqueio KK1124, reset, KK0129). Não há “completes” no sentido de user KK1332; os KK0167 (timer) e mensagens disparam para as atividades de tratamento (KK0024 KK0620, KK0028 Cancelamento, etc.). Conferir KK0172 para flow KK0755 de cada KK0610.
 
-| kkkkyc / atividade | Tipo | Flow / target |
+| KK0609 / atividade | Tipo | Flow / target |
 |--------------------|------|----------------|
-| Timer (KK0196) | kkkk63 | kkkko5 |
-| Mensagem / erro | Cancelamento, bloqueio, reset, kkkk0f | kkkko8, kkkko7, kkkko4, kkkkdg |
+| Timer (KK0166) | KK0620 | KK0024 |
+| Mensagem / erro | Cancelamento, bloqueio, reset, KK0129 | KK0028, KK0027, KK0022, KK0025 |
 
-### 2.2.2 Condições de kkkk7v
+### 2.2.2 Condições de KK0669
 
-Não há kkkk7v no sentido de decisão de kkkkag na KK0188 16; o KK0046 é disparado por eventos (timer, mensagem). kkkkps eventualmente usados para rotear mensagens/erros estão no kkkkhk; conferir sourceRef/targetRef dos eventos.
+Não há KK0669 no sentido de decisão de KK0911 na KK1000 16; o KK0651 é disparado por eventos (timer, mensagem). KK0711 eventualmente usados para rotear mensagens/erros estão no KK0172; conferir sourceRef/targetRef dos eventos.
 
-| ID kkkk7v | Nome | Expressão | Ramo | Flow | Target |
+| ID KK0669 | Nome | Expressão | Ramo | Flow | Target |
 |-----------|------|-----------|------|------|--------|
-| — | Nenhum (eventos kkkkyi) | — | — | — | — |
+| — | Nenhum (eventos KK1371) | — | — | — | — |
 
 
 
-Várias **user kkkkiq** possuem KK0196 kkkkja de **timer** (ciclo de vida `${KK0043}` ou `${KK0040}`); ao disparar, o KK0046 segue para a atividade de **kkkk63** (kkkko5 ou equivalente). Definido na KK0188 1 (kkkkm2).
+Várias **user KK1335** possuem KK0166 KK0604 de **timer** (ciclo de vida `${KK1344}` ou `${KK1343}`); ao disparar, o KK0651 segue para a atividade de **KK0620** (KK0024 ou equivalente). Definido na KK1000 1 (KK1232).
 
-### 2.3 kkkk5v kkkkhk (visão consolidada dos eventos)
+### 2.3 KK0491 KK0172 (visão consolidada dos eventos)
 
-**KK0205:** KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = KK0046 "kkkkgu".
+**KK0816:** KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK0651 "KK1451".
 
 ```mermaid
 %%{init: {
@@ -8092,9 +8077,9 @@ Várias **user kkkkiq** possuem KK0196 kkkkja de **timer** (ciclo de vida `${KK0
 flowchart TB
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -8103,77 +8088,77 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
   subgraph Eventos
-    EXP[kkkk63<br/>kkkko5]
-    CAN[Cancelamento<br/>kkkko8]
-    BLOQ[kkkk62 kkkk64<br/>kkkko7]
-    RESET[Reset kkkk3l<br/>kkkko4]
-    kkkkti[kkkk0f<br/>kkkkdg]
+    EXP[KK0620<br/>KK0024]
+    CAN[Cancelamento<br/>KK0028]
+    BLOQ[KK0159 KK1123<br/>KK0027]
+    RESET[Reset KK1086<br/>KK0022]
+    KK0128[KK0129<br/>KK0025]
   end
 
-  TIMER(⏱ Timer nas user kkkkiq) --> EXP
+  TIMER(⏱ Timer nas user KK1335) --> EXP
   MSG( Mensagem / erro) --> CAN
   MSG --> BLOQ
   MSG --> RESET
-  MSG --> kkkkti
+  MSG --> KK0128
 
   style EXP fill:#ffcdd2,stroke:#c62828,stroke-width:2px
   style CAN fill:#ffcdd2,stroke:#c62828,stroke-width:2px
   style BLOQ fill:#ffcdd2,stroke:#c62828,stroke-width:2px
   style RESET fill:#fff8e1,stroke:#e65100,stroke-width:2px
-  style kkkkti fill:#ffcdd2,stroke:#c62828,stroke-width:2px
+  style KK0128 fill:#ffcdd2,stroke:#c62828,stroke-width:2px
   style TIMER fill:#fff8e1,stroke:#e65100,stroke-width:2px
   style MSG fill:#eceff1,stroke:#546e7a
 ```
 
 ---
 
-## 3. Variáveis de kkkk55
+## 3. Variáveis de KK1069
 
 | Variável | Escrita por | Lida por | Observação |
 | ---------- | ------------- | ---------- | ------------ |
-| KK0043 | KK0188 1 (kkkkm2) | kkkkwk events (timer) em user kkkkiq | Ex.: PT20M. |
-| KK0040 | KK0188 1 (kkkkm2) | kkkkwk events (timer) | Ex.: P22D. |
-| KK0125 | Cada user kkkk9q (outputParameter) | — | Id da última kkkk9q concluída (para kkkkyo). |
+| KK1344 | KK1000 1 (KK1232) | KK0165 events (timer) em user KK1335 | Ex.: PT20M. |
+| KK1343 | KK1000 1 (KK1232) | KK0165 events (timer) | Ex.: P22D. |
+| KK0602 | Cada user KK1332 (outputParameter) | — | Id da última KK1332 concluída (para KK0621). |
 
 ---
 
-## 4. kkkkxe de kkkkag (KK0199)
+## 4. KK1145 de KK0911 (KK1139)
 
-| ID KK0148 / kkkk9q | Regra em uma linha |
+| ID KK1223 / KK1332 | Regra em uma linha |
 | ------------------ | --------------------- |
-| KK0111 | kkkkmo/dados para kkkku0 kkkk0f (titular); conferir kkkkhk. |
-| KK0112 | kkkkmo/dados para kkkku0 kkkk0f (representante); conferir kkkkhk. |
+| KK1241 | KK0891/dados para KK0311 KK0129 (titular); conferir KK0172. |
+| KK1242 | KK0891/dados para KK0311 KK0129 (representante); conferir KK0172. |
 
 ---
 
-## 5. Pseudo-KK0021 (KK0199)
+## 5. Pseudo-KK0398 (KK1139)
 
-### 5.1 KK0216 KK0111 / KK0112
+### 5.1 KK1224 KK1241 / KK1242
 
-**KK0188:** 16 — Eventos kkkkyi e exceções  
-**Objetivo:** Montar dados para envio ao kkkk0f (titular e representante) em eventos de kkkku0 obrigatória.
+**KK1000:** 16 — Eventos KK1371 e exceções  
+**Objetivo:** Montar dados para envio ao KK0129 (titular e representante) em eventos de KK0311 obrigatória.
 
-#### Pseudo-KK0021 (KK0199)
+#### Pseudo-KK0398 (KK1139)
 
 ```text
-KK0217 (KK0199 — conferir kkkkhk):
-  OBTER dados da kkkk3l e do kkkk1x (ou representante) do contexto
-  MONTAR kkkkmn kkkk0f conforme layout obrigatório
-  (KK0111: titular; KK0112: representante)
+KK1129 (KK1139 — conferir KK0172):
+  OBTER dados da KK1086 e do KK0273 (ou representante) do contexto
+  MONTAR KK1001 KK0129 conforme layout obrigatório
+  (KK1241: titular; KK1242: representante)
 ```
 
-#### Referências kkkkhk
+#### Referências KK0172
 
-- **ids:** KK0111, KK0112.
-- **kkkkhk:** `kkkkk6`.
+- **ids:** KK1241, KK1242.
+- **KK0172:** `KK0953`.
 
 ---
 
-## 6. kkkkvt e saídas da parte
+## 6. KK0577 e saídas da parte
 
-**kkkk5v de contexto:** a KK0188 16 não é um trecho sequencial único — são **eventos kkkkyi** que podem ser disparados de várias partes (timer, mensagem, erro).
+**KK0491 de contexto:** a KK1000 16 não é um trecho sequencial único — são **eventos KK1371** que podem ser disparados de várias partes (timer, mensagem, erro).
 
-*KK0206 = início; KK0207 = user kkkk9q; KK0208 = service/KK0148; âmbar = kkkk7v; KK0209 = fim; KK0210 tracejada = kkkkgu (ou exceção).*
+*KK1426 = início; KK0127 = user KK1332; KK0269 = service/KK1223; âmbar = KK0669; KK1430 = fim; KK1281 tracejada = KK1451 (ou exceção).*
 
 ```mermaid
 %%{init: {
@@ -8194,9 +8179,9 @@ KK0217 (KK0199 — conferir kkkkhk):
 flowchart LR
 
 classDef start fill:#22c55e,stroke:#15803d,stroke-width:2px,color:#ffffff;
-classDef kkkk9q fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
+classDef KK1332 fill:#3b82f6,stroke:#1d4ed8,stroke-width:1.5px,color:#ffffff;
 classDef service fill:#ffffff,stroke:#3b82f6,stroke-width:1.5px,stroke-dasharray:5 5,color:#0f172a;
-classDef kkkk7v fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
+classDef KK0669 fill:#f59e0b,stroke:#b45309,stroke-width:2px,color:#ffffff;
 classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
@@ -8204,131 +8189,131 @@ classDef finish fill:#ef4444,stroke:#991b1b,stroke-width:2px,color:#ffffff;
 
 
 
-  subgraph Origens["kkkkyb (várias partes)"]
-    TIMER((⏱ Timer user kkkkiq))
+  subgraph Origens["KK0508 (várias partes)"]
+    TIMER((⏱ Timer user KK1335))
     MSG(( Mensagem / erro))
   end
-  subgraph Parte16["KK0188 16 - Eventos kkkkyi"]
-    EXP([kkkk63])
+  subgraph Parte16["KK1000 16 - Eventos KK1371"]
+    EXP([KK0620])
     CAN([Cancelamento])
-    BLOQ([kkkk62 kkkk64])
-    RESET([Reset kkkk3l])
-    kkkkti([kkkk0f])
+    BLOQ([KK0159 KK1123])
+    RESET([Reset KK1086])
+    KK0128([KK0129])
   end
   TIMER --> EXP
   MSG --> CAN
   MSG --> BLOQ
   MSG --> RESET
-  MSG --> kkkkti
+  MSG --> KK0128
   style TIMER fill:#fff8e1,stroke:#e65100,stroke-width:2px
   style MSG fill:#eceff1,stroke:#546e7a
   style EXP fill:#eceff1,stroke:#546e7a
   style CAN fill:#eceff1,stroke:#546e7a
   style BLOQ fill:#eceff1,stroke:#546e7a
   style RESET fill:#eceff1,stroke:#546e7a
-  style kkkkti fill:#eceff1,stroke:#546e7a
+  style KK0128 fill:#eceff1,stroke:#546e7a
 ```
 
-### kkkkvt (quem dispara estes eventos)
+### KK0577 (quem dispara estes eventos)
 
-| kkkkyc / atividade | Origem / observação |
+| KK0609 / atividade | Origem / observação |
 | -------------------- | ---------------------- |
-| kkkk63 (kkkko5) | kkkkwk events de timer em user kkkkiq (Partes 2, 3, 4, 8, 9, etc.); KK0034 KK0043 (KK0188 1). |
-| Cancelamento, kkkk62 kkkk64, Reset, kkkk0f | Eventos de mensagem ou erro; podem ser disparados em vários kkkky4 do kkkkhk. |
+| KK0620 (KK0024) | KK0165 events de timer em user KK1335 (Partes 2, 3, 4, 8, 9, etc.); KK1424 KK1344 (KK1000 1). |
+| Cancelamento, KK0159 KK1123, Reset, KK0129 | Eventos de mensagem ou erro; podem ser disparados em vários KK1039 do KK0172. |
 
-### kkkkvv (para onde estes eventos levam)
+### KK1213 (para onde estes eventos levam)
 
 | Atividade | Destino | Observação |
 | ------------- | ---------------- | ------------ |
-| kkkk63, Cancelamento, kkkk62, Reset, kkkk0f | End events / kkkkr7 | Conforme kkkkwb no kkkkhk (fim do KK0046 ou recuperação). |
+| KK0620, Cancelamento, KK0159, Reset, KK0129 | End events / KK1373 | Conforme KK0883 no KK0172 (fim do KK0651 ou recuperação). |
 
 ---
 
-## 7. Referências kkkkhk
+## 7. Referências KK0172
 
-- **kkkkhk:** `kkkkk6` (raiz do repositório).
-- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK0188 16).
+- **KK0172:** `KK0953` (raiz do repositório).
+- **Índice:** [INDICE_E_PLANEJAMENTO_MANUAL_CO8.md](../INDICE_E_PLANEJAMENTO_MANUAL_CO8.md) §2 (KK1000 16).
 - **Guia:** [FLUXO_16_guia.md](FLUXO_16_guia.md). **User story:** [USER_STORY_16_eventos_transversais_excecoes.md](USER_STORY_16_eventos_transversais_excecoes.md).
-- **Scripts:** [INDICE_SCRIPTS.md](../INDICE_SCRIPTS.md) — KK0111, KK0112 (KK0188 16).
+- **Scripts:** [INDICE_SCRIPTS.md](../INDICE_SCRIPTS.md) — KK1241, KK1242 (KK1000 16).
 
 $$$$$
 
 [parte_16_eventos_transversais_excecoes/USER_STORY_16_eventos_transversais_excecoes_GENERICO.md]
 XXXXX
-# User Story — KK0188 16: Eventos kkkkyi e exceções
+# User Story — KK1000 16: Eventos KK1371 e exceções
 
-**KK0184:** `kkkkk6` (kkkk63, Cancelamento, Bloq kkkk64, Reset, kkkk0f)
+**KK0655:** `KK0953` (KK0620, Cancelamento, Bloq KK1123, Reset, KK0129)
 
 ---
 
 ## User Story
 
-**Como** motor de kkkk55,  
-**quero** tratar kkkkyo, cancelamento, bloqueio kkkkia, reset de kkkk3l e kkkktr conforme os eventos e timers do kkkkhk,  
-**para** que a kkkkgq encerre ou seja atualizada corretamente nesses casos.
+**Como** motor de KK1069,  
+**quero** tratar KK0621, cancelamento, bloqueio KK1124, reset de KK1086 e KK0199 conforme os eventos e timers do KK0172,  
+**para** que a KK0797 encerre ou seja atualizada corretamente nesses casos.
 
 ---
 
-## Critérios de kkkkmk (derivados do kkkkhk)
+## Critérios de KK0009 (derivados do KK0172)
 
-- [ ] **CA1 – kkkk63**  
-  O kkkkyo é disparado quando o KK0177 de permanência do KK0173 em uma etapa ou o KK0177 sistêmico da kkkkgq é excedido. A atividade de kkkkyo (`kkkko5`) utiliza as kkkkvo KK0043 e KK0040 e encerra ou redireciona a kkkk5h conforme o modelo.
+- [ ] **CA1 – KK0620**  
+  O KK0621 é disparado quando o KK1342 de permanência do KK1392 em uma etapa ou o KK1342 sistêmico da KK0797 é excedido. A atividade de KK0621 (`KK0024`) utiliza as KK1423 KK1344 e KK1343 e encerra ou redireciona a KK0780 conforme o modelo.
 
 - [ ] **CA2 – Cancelamento**  
-  O kkkkx9 de cancelamento é tratado pela atividade correspondente (`kkkko8`). A kkkkgq é encerrada ou atualizada conforme o kkkkhk.
+  O KK0610 de cancelamento é tratado pela atividade correspondente (`KK0028`). A KK0797 é encerrada ou atualizada conforme o KK0172.
 
-- [ ] **CA3 – kkkk62 kkkkia**  
-  O bloqueio kkkkia é tratado pela atividade definida no kkkkhk (`kkkko7`), atualizando o estado da kkkk3l/kkkkgq conforme as kkkkx5.
+- [ ] **CA3 – KK0159 KK1124**  
+  O bloqueio KK1124 é tratado pela atividade definida no KK0172 (`KK0027`), atualizando o estado da KK1086/KK0797 conforme as KK1146.
 
-- [ ] **CA4 – Reset de kkkk3l**  
-  O reset da kkkk3l é executado pela atividade de reset (`kkkko4`), permitindo reiniciar ou ajustar a kkkk3l conforme o KK0046.
+- [ ] **CA4 – Reset de KK1086**  
+  O reset da KK1086 é executado pela atividade de reset (`KK0022`), permitindo reiniciar ou ajustar a KK1086 conforme o KK0651.
 
-- [ ] **CA5 – kkkkb7**  
-  O kkkkx9 de kkkktr é tratado pela atividade correspondente (`kkkkdg`), seguindo os ramos definidos no kkkkhk.
+- [ ] **CA5 – KK0204**  
+  O KK0610 de KK0199 é tratado pela atividade correspondente (`KK0025`), seguindo os ramos definidos no KK0172.
 
 - [ ] **CA6 – Erro de reserva e demais eventos**  
-  O tratamento de erro de reserva e de outros eventos kkkkyi segue os ramos e atividades modelados no kkkkhk, garantindo que a kkkkgq não fique em estado inconsistente.
+  O tratamento de erro de reserva e de outros eventos KK1371 segue os ramos e atividades modelados no KK0172, garantindo que a KK0797 não fique em estado inconsistente.
 
 ---
 
-## KK0183 complementar (fora desta US)
+## KK0598 complementar (fora desta US)
 
-*Complemento KK0018 e fronteiras: entrada no bloco, KK0028, kkkkvo, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
+*Complemento KK1378 e fronteiras: entrada no bloco, KK1245, KK1423, comportamentos na borda e partes adjacentes (não altera o escopo da US; detalha contexto e limites).*
 
-### Entrada no bloco (kkkk5k kkkk7r)
+### Entrada no bloco (KK0509 KK1372)
 
-| kkkkyb | Origem / observação |
+| KK0508 | Origem / observação |
 | --------- | --------------------- |
-| Timer (KK0180) | User kkkkiq em várias partes; kkkkvo `KK0043`, `KK0040` (KK0188 1). |
+| Timer (KK0167) | User KK1335 em várias partes; KK1423 `KK1344`, `KK1343` (KK1000 1). |
 | Mensagem / erro | Eventos de mensagem, erro de reserva, etc. |
 
 ### Atividades e eventos
 
 | ID atividade | Nome / tipo | Observação |
 | -------------- | ------------- | ------------ |
-| kkkko5 | kkkk63 | Timer → KK0034 KK0043. |
-| kkkko8 | Cancelamento | Tratamento de cancelamento. |
-| kkkko7 | kkkk62 kkkk64 | Atualização estado kkkk3l/kkkkgq. |
-| kkkko4 | Reset kkkk3l | Reset da kkkk3l. |
-| kkkkdg | kkkkb7 | KK0111, KK0112. |
-| kkkko9 | Outros eventos | Erro de reserva e demais kkkkyi. |
+| KK0024 | KK0620 | Timer → KK1424 KK1344. |
+| KK0028 | Cancelamento | Tratamento de cancelamento. |
+| KK0027 | KK0159 KK1123 | Atualização estado KK1086/KK0797. |
+| KK0022 | Reset KK1086 | Reset da KK1086. |
+| KK0025 | KK0204 | KK1241, KK1242. |
+| KK0029 | Outros eventos | Erro de reserva e demais KK1371. |
 
 Ver [FLUXO_16_tecnico](FLUXO_16_tecnico.md) e [INDICE_SCRIPTS](../INDICE_SCRIPTS.md).
 
-### KK0129 e kkkkvo
+### KK1002 e KK1423
 
 | Variável | Escrita por | Lida por | Observação |
 | ---------- | -------------- | ---------- | ------------ |
-| KK0043 | KK0188 1 (kkkkm2) | kkkkwk events (timer) | Ex.: PT20M. |
-| KK0040 | KK0188 1 (kkkkm2) | kkkkwk events (timer) | Ex.: P22D. |
-| KK0125 | Cada user kkkk9q (outputParameter) | — | Id da última kkkk9q concluída. |
+| KK1344 | KK1000 1 (KK1232) | KK0165 events (timer) | Ex.: PT20M. |
+| KK1343 | KK1000 1 (KK1232) | KK0165 events (timer) | Ex.: P22D. |
+| KK0602 | Cada user KK1332 (outputParameter) | — | Id da última KK1332 concluída. |
 
 ### Partes/etapas adjacentes
 
-| KK0188 | Papel | kkkk59 / observação |
+| KK1000 | Papel | KK0551 / observação |
 | ------- | -------- | ------------------------- |
-| 1 | Origem | kkkkm2 (kkkkvo de timer). |
-| Várias | kkkkyb | kkkkwk events em user kkkkiq (Partes 2, 8, 9, etc.). |
-| 15 | Destino | Após kkkkhu/finalização; kkkkcg da kkkkgq. |
+| 1 | Origem | KK1232 (KK1423 de timer). |
+| Várias | KK0508 | KK0165 events em user KK1335 (Partes 2, 8, 9, etc.). |
+| 15 | Destino | Após KK0982/finalização; KK0567 da KK0797. |
 
 $$$$$
