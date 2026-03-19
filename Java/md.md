@@ -1,70 +1,151 @@
-# Passos e objetivo — KK0282 KK1282 (tópico unificado)
-
-Resumo do que foi KK0302 nos materiais e do que precisa ser feito no KK0282.
+### Guia final — Script para montar JSON consolidado da KK1086 para KK1282 (KK0282)
 
 ---
 
-## 1. Objetivo final (a partir do que foi falado)
+### 1. Visão geral
 
-- **Publicar a KK1086 completa** no **tópico unificado de atualização de propostas**  
-  (`KK0618`), com:
-  - **`KK1309 = 44`** – "KK0553",
-  - **flags de KK0476 / KK0809 ligadas**,
-  - para o **KK1282 consumir esse tópico** e “pegar o que interessar”.
-- **Manter o KK0651 antigo** (`KK1076`) **convivendo por um KK1342**, e **tombar depois**.
-
----
-
-## 2. O que temos que fazer no KK0282 (passos práticos)
-
-### (A) Preparar o JSON completo dentro do KK0172 (Script KK1331 que já desenhamos)
-
-- Garantir que o Script KK1331:
-  - Monte o **JSON mínimo KK0302 com KK1282** (nos campos do KK0439).
-  - Faça `KK0615.KK1288("proposta_completa_setup", jsonString)`.
-- KK1196 se todos os **campos críticos** (KK0747, KK0746, KK0346, DN, KK0981, KK0651/KK1315, origem, data_evento etc.) estão chegando **antes** do Script.
+- **Objetivo**: montar um JSON consolidado da KK1086 **específico para KK1284**, usando apenas um **Script KK1331 KK0732** no KK0217, sem Java Delegate.
+- **KK0991 de KK1139**:
+  - Script já existente no KK0282: `Script monta KK1001 Biocath` (`Activity_0uurkex`) no `KK0953`.
+  - A ideia é **repetir o mesmo padrão**:
+    - ler KK1423 soltas do KK1069,
+    - montar um Map/JSON aninhado,
+    - gerar uma string JSON,
+    - salvar em uma KK1424 única de KK1069.
+- **Variável final**: `proposta_completa_setup` (JSON que será consumido pelo KK1282).
 
 ---
 
-### (B) Inserir/ajustar a atividade de “KK0119” com padrão KK0812
+### 2. Onde posicionar o Script KK1331 no KK0651
 
-- KK0835 **`KK1104`** (KK0350), criar o **novo step** copiando o padrão do Tapete KK0812:
-  - Service KK1331 **`delegate_atualizar_status_44`** (ou nome equivalente que você já está usando).
-- **Configurar no KK0473:** na mesma Service KK1331 "Atualizar status: KK1085 efetivada", na seção **Inputs** do painel de propriedades (onde já estão `KK1309`, `KK0475`, etc.):
-  - **`KK1309`** = `44`.
-  - **`KK0484`** = `"KK0949"` — adicionar como **input** (nome: `KK0484`, valor: `KK0949` ou expressão que resulte nesse valor).
-  - **flags de KK0476 / KK0809 ativadas** (mesmo combo que o KK0812 usou): `novo_democratiza_proposta`, `democratiza_sync`, `democratiza_sqs`, `KK0475`.
-  - (Opcional, mas recomendado) **Persistir `proposta_completa_setup`** em `dados_proposta` para ir no KK0610 democratizado:
-    - No input **`dados_proposta`** (map) da mesma KK1332, **adicione uma entrada** com chave `proposta_completa_setup` e valor `${proposta_completa_setup}` (expressão que lê a KK1424 definida pelo Script KK1331). O KK0473 grava o KK0840 na KK1086; a KK0476 inclui esse dado no KK0610 do tópico.
-- Garantir que essa caixa esteja no **ramo pós-KK0544**, **sem quebrar** o `KK1076` atual.
-
----
-
-### (C) Garantir convivência com o KK0651 antigo de KK1282
-
-- **Não mexer agora em:**
-  - `KK1076` (external KK1332 `KK0098`).
-  - `KK0106` e seus eventos de erro/sucesso.
-- Deixar os **dois ramos convivendo**:
-  - **Ramo antigo:** continua mandando o KK1001 enxuto para o tópico atual do KK1282 (KK1394).
-  - **Ramo novo:** publica a KK1086 completa (via democratiza + status 44) no tópico unificado.
+- **Local lógico no KK0282**:
+  - Bloco de **pós-KK0544**, logo **antes** do `delegate_atualizar_status_44` (que vamos criar copiando o padrão da KK0812).
+  - Nessa altura do KK0651, já temos:
+    - `KK0747`, dados de KK0346 (`KK0925` / `KK0742`), `KK1254`, `canal_origem`, dados de KK0273, etc.
+- **Regra prática**:
+  - Coloque o Script KK1331 **no mesmo “nível”** em que hoje está o KK1223 de KK0145:
+    - o Script monta o KK1001 (`proposta_completa_setup`),
+    - o KK0473 44 / democratiza lê essa KK1424 para atualizar KK1086 / publicar KK0610.
 
 ---
 
-### (D) Alinhar teste e KK1362 com KK1282
+### 3. KK0316 do Script KK1331 no KK0218
 
-- **Em KK0736:**
-  - KK1404 com KK1282 que eles **enxergam o KK0610 com status 44** no tópico unificado.
-  - Bater **campo a campo** o KK1001 que chega lá.
-- **Depois, em outra história:**
-  - Planejar e executar a **remoção do ramo antigo** (`KK1076` + `KK0106`), quando KK1282 estiver só no tópico 44.
+1. **Inserir o Script KK1331**
+   - Abra o `KK0953` no KK0218.
+   - Localize o ponto do KK0651 logo antes do `delegate_atualizar_status_44` (ou da Service KK1331/External KK1331 que vai usar o JSON).
+   - No elemento anterior, clique em “+” (Append) → **KK1331**.
+   - Com a KK1331 selecionada:
+     - Aba **General**:
+       - **Type**: `Script KK1331`.
+       - **Id**: `script_monta_payload_setup` (exemplo).
+       - **Name**: `Script monta KK1001 KK1282` (exemplo).
+
+2. **Definir detalhes do Script**
+   - Aba **Details**:
+     - **Script Format**: `groovy`.
+     - **Script Type**: `Inline Script`.
+     - **Script**: colar o KK1223 final abaixo.
 
 ---
 
-## Referências
+### 4. Script KK0732 final — `script_monta_payload_setup`
 
-- `TODO_IMPLEMENTACAO_SETUP.md` — planejamento detalhado no KK0172.
-- `GUIA_SCRIPT_JSON_PROPOSTA_SETUP.md` — KK1223 KK0732 e KK1424 `proposta_completa_setup`.
-- `transcricoes/alinhamento KK1283 KK0282 Rafael.txt` e `transcricao_alinhamento_co8.md` — fonte do que foi falado.
+Cole este conteúdo no campo **Script** do Script KK1331:
 
-Documento: KK0047
+```groovy
+/* KK1246 KK0732 — Montar JSON consolidado da KK1086 para KK1282 (KK0282)
+ *
+ * KK0991 inspirado em "Script monta KK1001 Biocath" (Activity_0uurkex).
+ * Resultado final: KK1424 de KK1069 "proposta_completa_setup" (string JSON).
+ */
+
+import groovy.json.JsonBuilder
+
+// Lê KK1423 essenciais
+def KK0754       = KK0615.KK0728("KK0747")
+def KK0753         = KK0615.KK0728("KK0746")
+def numeroUnicoConta = KK0615.KK0728("KK0925") ?: KK0615.KK0728("KK0742")
+def fluxoAtual       = KK0615.KK0728("KK0653") ?: KK0615.KK0728("KK0651")
+def subFluxoAtual    = KK0615.KK0728("KK1312")
+def origemProduto    = KK0615.KK0728("KK0972")
+def valorLimitePa    = KK0615.KK0728("KK1414") ?: KK0615.KK0728("KK1418")
+def dnCartaoCredito  = KK0615.KK0728("KK0518")
+def dnCartaoDebito   = KK0615.KK0728("dn_cartao_debito")
+def dnCartaoNpc      = KK0615.KK0728("dn_cartao_npc")
+def dataEvento       = KK0615.KK0728("KK0437") ?: new Date().toString()
+
+def descricaoDetalheProduto = KK0615.KK0728("KK0483") ?: KK0615.KK0728("KK1254")
+
+def payloadSetup = [
+  KK0747                  : KK0754,
+  KK0290   : KK0753,
+  KK0291  : numeroUnicoConta,
+  KK0293                : "KK0002",
+  KK0483     : descricaoDetalheProduto,
+  KK0292             : origemProduto,
+  valor_limite_pa               : valorLimitePa,
+  KK0484      : "KK0949",
+  KK0482      : subFluxoAtual,
+  dn                            : dnCartaoCredito ?: dnCartaoDebito ?: dnCartaoNpc,
+  KK0432              : dataEvento
+]
+
+def jsonBuilder = new JsonBuilder()
+jsonBuilder(payloadSetup)
+def jsonString = jsonBuilder.toString()
+
+KK0615.KK1288("proposta_completa_setup", jsonString)
+```
+
+> **Importante — alinhado ao que o KK1282 pediu**:
+> - O JSON que o KK1282 vai consumir vem do **KK1381** (`KK0618`), filtrado por **`KK1309` = "KK0553" (44)**.  
+> - O conteúdo mínimo que **precisa estar correto antes do KK0473 44 / Script de KK1282** inclui, de acordo com `KK1287`:
+>   - **Identificadores básicos**: `KK0747`, `KK0746` / `KK0290`, `KK0742` / `KK0291`.
+>   - **KK0345 e KK0797**: `KK0346`, `agencia`, `KK0653` (usado em `KK0484` = `"KK0949"`), `KK1312` (usado em `KK0482`).
+>   - **KK0244 / DN**: `KK0518` (KK1465) ou `KK0944` (KK0921), mais `KK0972` / `KK0292` (`'KK1475'` = KK0921, `null` = KK1465).
+>   - **KK0981 (Possui Adiantamento)**: campos numéricos de KK0823 de KK0981 (`KK1414` ou similar) para derivar `KK0765` (maior que zero = tem KK0981).
+>   - **Campos de data/hora**: `KK0431` + `KK0737` (para montar `KK0432`).
+> - Se alguma informação do bloco de KK1423 digitais (`customer_session_id`, `session_id`, IPs, `user_agent`) não existir no seu KK0651, você pode **remover ou tornar opcional** esse trecho do KK1223; os itens obrigatórios são os identificadores, KK0346, DN, plataforma múltiplo (KK1465/KK0921), KK0981, `KK1309` 44 e os campos de KK0797 (`KK0484` / `KK0482`).
+
+---
+
+### 5. Como o KK1282 vai consumir `proposta_completa_setup`
+
+- **Delegate 44 / Democratiza**:
+  - O `delegate_atualizar_status_44` pode:
+    - gravar `proposta_completa_setup` em `metadata_schemaless` / `dados_proposta`, ou
+    - apenas garantir que o JSON já esteja disponível para o mecanismo de democratiza KK0809.
+- **External KK1331 ou outro serviço**:
+  - Qualquer External KK1331 posterior consegue ler `proposta_completa_setup` nas KK1423 do KK1069 (no `KK0635`) e publicar/rotear esse JSON para o tópico que o KK1282 consome.
+
+---
+
+### 6. Boas práticas e KK1406
+
+- **KK1405 mínima** (exemplo):
+
+```groovy
+if (!KK0754) {
+  throw new IllegalStateException("KK0747 é obrigatório para montar proposta_completa_setup.")
+}
+```
+
+- **Nome de KK1424 estável**:
+  - Usar sempre `proposta_completa_setup` como nome canônico facilita configuração de KK0473, democratiza e consumidores.
+- **Evolução de KK0372**:
+  - Novos campos podem ser adicionados no Map `propostaSetup` sem quebrar leitores tolerantes (desde que KK1282 trate campos opcionais).
+
+---
+
+### 7. Resumo executivo
+
+- **Script KK1331** `script_monta_payload_setup`:
+  - lê KK1423 da KK1086,
+  - monta um JSON estruturado inspirado no padrão KK0145,
+  - grava em `proposta_completa_setup`.
+- **Delegate 44 / KK1282**:
+  - utiliza `proposta_completa_setup` como fonte única de verdade dos dados de KK1086 para o KK1354 de KK1282.
+
+KK0104
+
