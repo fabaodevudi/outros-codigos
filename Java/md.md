@@ -71,23 +71,33 @@ def subFluxoAtual    = KK0615.KK0728("KK1312")
 def origemProduto    = KK0615.KK0728("KK0972")
 def valorLimitePa    = KK0615.KK0728("KK1414") ?: KK0615.KK0728("KK1418")
 def dnCartaoCredito  = KK0615.KK0728("KK0518")
-def dnCartaoDebito   = KK0615.KK0728("dn_cartao_debito")
 def dnCartaoNpc      = KK0615.KK0728("dn_cartao_npc")
-def dataEvento       = KK0615.KK0728("KK0437") ?: new Date().toString()
+def dataFinalProposta = KK0615.KK0728("KK0431")
+def horaFinalProposta = KK0615.KK0728("KK0737")
+if (!dataFinalProposta || !horaFinalProposta) {
+  throw new IllegalStateException("KK0432: KK0431 e KK0737 são obrigatórias para concatenação.")
+}
+def dataEvento = "${dataFinalProposta}${horaFinalProposta}"
 
-def descricaoDetalheProduto = KK0615.KK0728("KK0483") ?: KK0615.KK0728("KK1254")
+def isNpc = (origemProduto == "KK1475")
+// Regra estrita: KK1465 usa KK0518; KK0921 usa dn_cartao_npc (se não vier no KK1001, tratamos como KK1465 no mesmo espírito do KK0439).
+def dn = isNpc ? (dnCartaoNpc ?: dnCartaoCredito) : dnCartaoCredito
+if (!dn) {
+  throw new IllegalStateException(isNpc ? "dn_cartao_npc (KK0921) ou KK0518 (fallback KK1465) são obrigatórios." : "KK0518 (KK1465) é obrigatório.")
+}
+
+def indicadorPossuiPa = (valorLimitePa != null) ? valorLimitePa : 0
 
 def payloadSetup = [
   KK0747                  : KK0754,
   KK0290   : KK0753,
   KK0291  : numeroUnicoConta,
   KK0293                : "KK0002",
-  KK0483     : descricaoDetalheProduto,
   KK0292             : origemProduto,
-  valor_limite_pa               : valorLimitePa,
+  KK0765           : indicadorPossuiPa,
   KK0484      : "KK0949",
   KK0482      : subFluxoAtual,
-  dn                            : dnCartaoCredito ?: dnCartaoDebito ?: dnCartaoNpc,
+  dn                            : dn,
   KK0432              : dataEvento
 ]
 
@@ -99,6 +109,7 @@ KK0615.KK1288("proposta_completa_setup", jsonString)
 ```
 
 > **Importante — alinhado ao que o KK1282 pediu**:
+>
 > - O JSON que o KK1282 vai consumir vem do **KK1381** (`KK0618`), filtrado por **`KK1309` = "KK0553" (44)**.  
 > - O conteúdo mínimo que **precisa estar correto antes do KK0473 44 / Script de KK1282** inclui, de acordo com `KK1287`:
 >   - **Identificadores básicos**: `KK0747`, `KK0746` / `KK0290`, `KK0742` / `KK0291`.
@@ -148,4 +159,3 @@ if (!KK0754) {
   - utiliza `proposta_completa_setup` como fonte única de verdade dos dados de KK1086 para o KK1354 de KK1282.
 
 KK0104
-
