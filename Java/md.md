@@ -1,161 +1,210 @@
-### Guia final — Script para montar JSON consolidado da KK1086 para KK1282 (KK0282)
+# Revisao dos KK1039 do guia/KK1223 (KK1284)
 
----
+## KK0362
 
-### 1. Visão geral
+Foi feita uma revisao com base nos arquivos do alinhamento e nos materiais do KK0372/contradicoes (KK0439, transcricoes e relatatorios). O objetivo aqui e registrar, de forma rastreavel, o que esta coerente com o que foi KK0302 e o que precisa ser corrigido.
 
-- **Objetivo**: montar um JSON consolidado da KK1086 **específico para KK1284**, usando apenas um **Script KK1331 KK0732** no KK0217, sem Java Delegate.
-- **KK0991 de KK1139**:
-  - Script já existente no KK0282: `Script monta KK1001 Biocath` (`Activity_0uurkex`) no `KK0953`.
-  - A ideia é **repetir o mesmo padrão**:
-    - ler KK1423 soltas do KK1069,
-    - montar um Map/JSON aninhado,
-    - gerar uma string JSON,
-    - salvar em uma KK1424 única de KK1069.
-- **Variável final**: `proposta_completa_setup` (JSON que será consumido pelo KK1282).
+## O que esta certo (coerente com o KK0372)
 
----
+1. **Montar algo no pos-efetivacao, junto do status 44**
+   - O KK1223/atividade deve estar no KK0651 apos a efetivacao da KK0346 e no contexto do status 44 (``KK0553``).
 
-### 2. Onde posicionar o Script KK1331 no KK0651
+2. **`KK0484 = "KK0949"` esta correto e e critico para rollout**
+   - Este campo precisa ser simetrico com o KK0372 do modelo antigo/novo, pois a chave de rollout depende dele.
 
-- **Local lógico no KK0282**:
-  - Bloco de **pós-KK0544**, logo **antes** do `delegate_atualizar_status_44` (que vamos criar copiando o padrão da KK0812).
-  - Nessa altura do KK0651, já temos:
-    - `KK0747`, dados de KK0346 (`KK0925` / `KK0742`), `KK1254`, `canal_origem`, dados de KK0273, etc.
-- **Regra prática**:
-  - Coloque o Script KK1331 **no mesmo “nível”** em que hoje está o KK1223 de KK0145:
-    - o Script monta o KK1001 (`proposta_completa_setup`),
-    - o KK0473 44 / democratiza lê essa KK1424 para atualizar KK1086 / publicar KK0610.
+3. **`KK0482 = KK1312` esta correto**
+   - O campo de captura deve refletir o KK1315 (KK0651 + KK1315) e nao o KK0230 origem.
 
----
+4. **`KK0765` como valor numerico, com regra `> 0 => tem KK0981` esta coerente**
+   - O KK0372 descreve KK0981 como numerico e nao mais booleano.
 
-### 3. KK0316 do Script KK1331 no KK0218
+5. **`KK0432` por concatenacao `KK0431 + KK0737`**
+   - Conceitualmente, esta alinhado com a regra de timestamp unico exigida no KK0439.
 
-1. **Inserir o Script KK1331**
-   - Abra o `KK0953` no KK0218.
-   - Localize o ponto do KK0651 logo antes do `delegate_atualizar_status_44` (ou da Service KK1331/External KK1331 que vai usar o JSON).
-   - No elemento anterior, clique em “+” (Append) → **KK1331**.
-   - Com a KK1331 selecionada:
-     - Aba **General**:
-       - **Type**: `Script KK1331`.
-       - **Id**: `script_monta_payload_setup` (exemplo).
-       - **Name**: `Script monta KK1001 KK1282` (exemplo).
+## O que esta errado ou fraco no KK1223 atual
 
-2. **Definir detalhes do Script**
-   - Aba **Details**:
-     - **Script Format**: `groovy`.
-     - **Script Type**: `Inline Script`.
-     - **Script**: colar o KK1223 final abaixo.
+1. **Arquiteturalmente, o desenho alvo nao e montar "KK1001 paralelo so para o KK1282"**
+   - A user story e explicita: o KK1282 deve consumir a **KK1086 completa** publicada no topico de atualizacao, e os dados devem estar na KK1086 antes da atividade de atualizacao.
+   - Entao, qualquer JSON auxiliar gerado nesta etapa deve ser tratado apenas como apoio/apoio interno (debug/validacao), nao como "modelo oficial" do KK0372.
 
----
+2. **`KK0293` fixo "KK0002" nao esta aderente**
+   - A documentacao diz que `KK0293` nao possui paralelo no novo modelo (premissa correntistas; removido do KK0372 novo).
+   - Logo, manter o campo fixo e apenas compatibilidade temporaria, nao aderencia ao desenho final.
 
-### 4. Script KK0732 final — `script_monta_payload_setup`
+3. **Regra do `dn` para KK0921 esta frouxa demais (fallback silencioso)**
+   - O KK0440 indica:
+     - KK1465: `KK0518`
+     - KK0921: `KK0944`
+   - O fallback `dn_cartao_npc ?: KK0518` para KK0921 nao esta formalmente documentado.
+   - Para revisao seria: KK0921 sem `dn_cartao_npc` deve ser inconsistencia (falhar), nao fallback silencioso.
 
-Cole este conteúdo no campo **Script** do Script KK1331:
+4. **`KK0972` esta em ponto de ambiguidade KK0520 (maior KK1201)**
+   - Contradicao entre materiais:
+     - transcricao/relatorio: `KK0972` fica direto no "detalhe KK1086 venda KK1077" (fora de `KK0940`);
+     - KK0440/exemplos: `KK0972` aparece em `KK0940.KK0972`.
+   - O KK1223 so fica "correto" se ficar explicitado de onde a variavel veio antes (e qual e o caminho canoniaco).
+
+5. **`KK0291` usando `KK0925 ?: KK0742` pode mascarar regra**
+   - O KK0440 da prioridade a `KK0742` como KK1138 para `KK0291`.
+   - `KK0925` aparece como alternativa no KK0172 atual, mas nao e a KK1138 mais forte do novo modelo.
+   - Melhor: privilegiar `KK0742` e usar fallback apenas se houver decisao explicita de implementacao.
+
+6. **Faltam campos de KK0346/KK0797 exigidos pela historia como presentes na KK1086 completa**
+   - A user story detalhada reforca que a KK1086 completa deve conter os dados necessarios para o KK1282 fazer o KK0439.
+   - Entao, um JSON reduzido nao deve ser confundido com o KK0372 final.
+
+## Veredito (antes da revisao KK1086)
+
+1. **Conforme com a intencao funcional:** sim, em boa parte.
+2. **Conforme com o desenho/KK0372 final documentado:** nao totalmente.
+
+### Bloqueadores principais
+
+- `KK0293` fixo
+- fallback indevido de DN para KK0921
+- ambiguidade de `KK0972`
+- principalmente: o alvo e publicar a **KK1086 completa** no topico, nao um KK1001 paralelo especifico do KK1282.
+
+## Como corrigir (recomendacao de revisao)
+
+### Regra de ouro
+
+- Transformar a redacao do material para ficar claro que **o KK1223 e transitório/auxiliar**, nao o KK0372 final entregue ao KK1282.
+
+### Variavel auxiliar (nome e papel)
+
+- Mudar o conceito de:
+  - ``proposta_completa_setup`` (como se fosse KK0372)
+  - para:
+  - ``proposta_completa_setup_aux`` (JSON interno opcional de validacao/consolidacao)
+
+- O consumo oficial deve ocorrer a partir da **KK1086 completa publicada** no topico de atualizacao (status 44) com democratizacao KK0809 ativa.
+
+## Script recomendado como auxiliar interno (versao corrigida)
+
+> Observacao: este KK1223 e auxiliar interno e pressupoe que as KK1422 criticas ja estao normalizadas no KK1069 (especialmente `KK0972` e o caminho canoniaco do `dn` por plataforma).
 
 ```groovy
-/* KK1246 KK0732 — Montar JSON consolidado da KK1086 para KK1282 (KK0282)
+/* KK1246 KK0732 — Consolidaçao auxiliar de campos para publicação da KK1086 (KK0282)
  *
- * KK0991 inspirado em "Script monta KK1001 Biocath" (Activity_0uurkex).
- * Resultado final: KK1424 de KK1069 "proposta_completa_setup" (string JSON).
+ * IMPORTANTE:
+ * - Este KK1223 NAO substitui o KK0372 final do KK1282.
+ * - O modelo-alvo e publicar a PROPOSTA COMPLETA no topico de atualizacao de propostas
+ *   apos atualizar a KK1086 para status 44 com democratizacao KK0809 ativa.
+ * - Este KK1223 serve apenas como apoio interno de validacao/consolidacao.
+ *
+ * Resultado: variavel de KK1069 "proposta_completa_setup_aux" (string JSON).
  */
 
 import groovy.json.JsonBuilder
 
-// Lê KK1423 essenciais
-def KK0754       = KK0615.KK0728("KK0747")
-def KK0753         = KK0615.KK0728("KK0746")
-def numeroUnicoConta = KK0615.KK0728("KK0925") ?: KK0615.KK0728("KK0742")
-def fluxoAtual       = KK0615.KK0728("KK0653") ?: KK0615.KK0728("KK0651")
-def subFluxoAtual    = KK0615.KK0728("KK1312")
-def origemProduto    = KK0615.KK0728("KK0972")
-def valorLimitePa    = KK0615.KK0728("KK1414") ?: KK0615.KK0728("KK1418")
-def dnCartaoCredito  = KK0615.KK0728("KK0518")
-def dnCartaoNpc      = KK0615.KK0728("dn_cartao_npc")
-def dataFinalProposta = KK0615.KK0728("KK0431")
-def horaFinalProposta = KK0615.KK0728("KK0737")
-if (!dataFinalProposta || !horaFinalProposta) {
-  throw new IllegalStateException("KK0432: KK0431 e KK0737 são obrigatórias para concatenação.")
-}
-def dataEvento = "${dataFinalProposta}${horaFinalProposta}"
-
-def isNpc = (origemProduto == "KK1475")
-// Regra estrita: KK1465 usa KK0518; KK0921 usa dn_cartao_npc (se não vier no KK1001, tratamos como KK1465 no mesmo espírito do KK0439).
-def dn = isNpc ? (dnCartaoNpc ?: dnCartaoCredito) : dnCartaoCredito
-if (!dn) {
-  throw new IllegalStateException(isNpc ? "dn_cartao_npc (KK0921) ou KK0518 (fallback KK1465) são obrigatórios." : "KK0518 (KK1465) é obrigatório.")
+def requireVar = { String name, def value ->
+  if (value == null || (value instanceof String && value.trim().isEmpty())) {
+    throw new IllegalStateException("Variavel obrigatoria ausente: " + name)
+  }
+  return value
 }
 
-def indicadorPossuiPa = (valorLimitePa != null) ? valorLimitePa : 0
+// Identificadores principais
+def KK0754 = requireVar("KK0747", KK0615.KK0728("KK0747"))
+def KK0753   = requireVar("KK0746", KK0615.KK0728("KK0746"))
 
-def payloadSetup = [
+// De-para formal prioriza KK0742
+def idConta = KK0615.KK0728("KK0742") ?: KK0615.KK0728("KK0925")
+requireVar("KK0742", idConta)
+
+// Campos de KK0797
+def subFluxoAtual = requireVar("KK1312", KK0615.KK0728("KK1312"))
+
+// Regra critica de rollout: manter fixo "KK0949"
+def descricaoJornadaOrigem = "KK0949"
+
+// Plataforma / KK0972
+// Este KK1223 assume que KK0972 ja esta normalizada no KK1069 antes desta atividade.
+def origemProduto = KK0615.KK0728("KK0972")
+requireVar("KK0972 (normalizada)", origemProduto)
+
+def isNpc = "KK1475".equals(origemProduto)
+
+// DN por plataforma (regra estrita, sem fallback silencioso KK0921->KK1465)
+def dnCartaoCredito = KK0615.KK0728("KK0518")
+def dnCartaoNpc     = KK0615.KK0728("dn_cartao_npc") ?: KK0615.KK0728("oferta_cartao_npc_dn")
+
+def dn
+if (isNpc) {
+  dn = requireVar("dn_cartao_npc/KK0944", dnCartaoNpc)
+} else {
+  dn = requireVar("KK0518", dnCartaoCredito)
+}
+
+// KK0981 numerico (>=0; regra de negocio: > 0 => tem KK0981)
+def valorLimitePa = KK0615.KK0728("KK1414")
+if (valorLimitePa == null) {
+  valorLimitePa = KK0615.KK0728("KK1418")
+}
+if (valorLimitePa == null) {
+  valorLimitePa = 0
+}
+
+// Data/hora do KK0610
+def dataFinalProposta = requireVar("KK0431", KK0615.KK0728("KK0431"))
+def horaFinalProposta = requireVar("KK0737", KK0615.KK0728("KK0737"))
+
+// Sanitizacao leve
+def dataParte = dataFinalProposta.toString().trim()
+def horaParte = horaFinalProposta.toString().trim()
+def dataHoraEvento = dataParte + horaParte
+
+// JSON auxiliar interno (nao substitui KK1086 completa publicada)
+def payloadAux = [
   KK0747                  : KK0754,
-  KK0290   : KK0753,
-  KK0291  : numeroUnicoConta,
-  KK0293                : "KK0002",
-  KK0292             : origemProduto,
-  KK0765           : indicadorPossuiPa,
-  KK0484      : "KK0949",
-  KK0482      : subFluxoAtual,
-  dn                            : dn,
-  KK0432              : dataEvento
+  KK0290 : KK0753,
+  KK0291: idConta,
+  KK0292           : origemProduto,
+  KK0765         : valorLimitePa,
+  KK0484    : descricaoJornadaOrigem,
+  KK0482    : subFluxoAtual,
+  dn                           : dn,
+  KK0432            : dataHoraEvento
 ]
 
-def jsonBuilder = new JsonBuilder()
-jsonBuilder(payloadSetup)
-def jsonString = jsonBuilder.toString()
-
-KK0615.KK1288("proposta_completa_setup", jsonString)
+def jsonString = new JsonBuilder(payloadAux).toString()
+KK0615.KK1288("proposta_completa_setup_aux", jsonString)
 ```
 
-> **Importante — alinhado ao que o KK1282 pediu**:
->
-> - O JSON que o KK1282 vai consumir vem do **KK1381** (`KK0618`), filtrado por **`KK1309` = "KK0553" (44)**.  
-> - O conteúdo mínimo que **precisa estar correto antes do KK0473 44 / Script de KK1282** inclui, de acordo com `KK1287`:
->   - **Identificadores básicos**: `KK0747`, `KK0746` / `KK0290`, `KK0742` / `KK0291`.
->   - **KK0345 e KK0797**: `KK0346`, `agencia`, `KK0653` (usado em `KK0484` = `"KK0949"`), `KK1312` (usado em `KK0482`).
->   - **KK0244 / DN**: `KK0518` (KK1465) ou `KK0944` (KK0921), mais `KK0972` / `KK0292` (`'KK1475'` = KK0921, `null` = KK1465).
->   - **KK0981 (Possui Adiantamento)**: campos numéricos de KK0823 de KK0981 (`KK1414` ou similar) para derivar `KK0765` (maior que zero = tem KK0981).
->   - **Campos de data/hora**: `KK0431` + `KK0737` (para montar `KK0432`).
-> - Se alguma informação do bloco de KK1423 digitais (`customer_session_id`, `session_id`, IPs, `user_agent`) não existir no seu KK0651, você pode **remover ou tornar opcional** esse trecho do KK1223; os itens obrigatórios são os identificadores, KK0346, DN, plataforma múltiplo (KK1465/KK0921), KK0981, `KK1309` 44 e os campos de KK0797 (`KK0484` / `KK0482`).
+## Ajustes recomendados no guia (redacao)
 
----
+### Secao: Resumo executivo (versao correta)
 
-### 5. Como o KK1282 vai consumir `proposta_completa_setup`
+O modelo oficial para atender o KK1282 e:
 
-- **Delegate 44 / Democratiza**:
-  - O `delegate_atualizar_status_44` pode:
-    - gravar `proposta_completa_setup` em `metadata_schemaless` / `dados_proposta`, ou
-    - apenas garantir que o JSON já esteja disponível para o mecanismo de democratiza KK0809.
-- **External KK1331 ou outro serviço**:
-  - Qualquer External KK1331 posterior consegue ler `proposta_completa_setup` nas KK1423 do KK1069 (no `KK0635`) e publicar/rotear esse JSON para o tópico que o KK1282 consome.
+- incluir no KK0282 uma atividade de Atualizacao de KK1085 logo apos a efetivacao da KK0346;
+- atualizar a KK1086 para status 44 — "KK0553";
+- garantir que a atividade esteja com democratizacao KK0809 ativa;
+- publicar a KK1086 completa no topico de atualizacao de propostas;
+- o KK1282 consome o KK0610 filtrando por status 44.
 
----
+- O KK1223 auxiliar acima, se usado, deve ser tratado apenas como auxiliar interno para validacao/consolidacao antes da atualizacao da KK1086.
 
-### 6. Boas práticas e KK1406
+### Ajuste importante no guia original
 
-- **KK1405 mínima** (exemplo):
+Mudar:
 
-```groovy
-if (!KK0754) {
-  throw new IllegalStateException("KK0747 é obrigatório para montar proposta_completa_setup.")
-}
-```
+- "Variavel final: proposta_completa_setup (JSON que sera consumido pelo KK1282)"
 
-- **Nome de KK1424 estável**:
-  - Usar sempre `proposta_completa_setup` como nome canônico facilita configuração de KK0473, democratiza e consumidores.
-- **Evolução de KK0372**:
-  - Novos campos podem ser adicionados no Map `propostaSetup` sem quebrar leitores tolerantes (desde que KK1282 trate campos opcionais).
+Para:
 
----
+- "Variavel auxiliar opcional: proposta_completa_setup_aux
+  JSON interno de apoio para validacao/consolidacao antes da atualizacao da KK1086.
+  O KK1282 nao deve consumir essa variavel diretamente; o consumo oficial ocorre a partir da KK1086 completa publicada no topico de atualizacao de propostas com status 44."
 
-### 7. Resumo executivo
+## Veredito final da revisao
 
-- **Script KK1331** `script_monta_payload_setup`:
-  - lê KK1423 da KK1086,
-  - monta um JSON estruturado inspirado no padrão KK0145,
-  - grava em `proposta_completa_setup`.
-- **Delegate 44 / KK1282**:
-  - utiliza `proposta_completa_setup` como fonte única de verdade dos dados de KK1086 para o KK1354 de KK1282.
+1. O KK1223 anterior estava de acordo?
+   - Nao totalmente (bloqueadores: KK0293 fixo, DN KK0921 com fallback, ambiguidade de KK0972 e desenho alvo como KK0372 paralelo).
+2. Essa versao revisada fica correta?
+   - Sim, como KK1223 auxiliar/transitorio.
+3. Isso ja representa o desenho final do KK1282?
+   - Nao. O desenho final continua sendo a KK1086 completa no topico, e nao um KK1001 paralelo.
 
-KK0104
+KK0110
