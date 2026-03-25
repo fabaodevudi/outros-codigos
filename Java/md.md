@@ -1,39 +1,33 @@
-# Voltar no fluxo nivel 1 (Omnichannel PAI)
+# Voltar no fluxo nível 1 (Omnichannel PAI)
 
-Referencia de modelo: `omnichannel_pai_nivel1_com_voltar.bpmn`.
+Referência de modelo: `omnichannel_pai_nivel1_com_voltar.bpmn`.
 
 ## Resumo (1 minuto)
 
-- O voltar permite regressar da etapa de Produtos e servicos para uma etapa anterior da jornada.
-- Esse retorno e acionado por uma mensagem de voltar durante Produtos e servicos.
-- A decisao de destino usa um criterio simples: voltar para Configuracao, Dados pessoais ou manter em Produtos.
+- O voltar permite regressar da etapa de Produtos e serviços para uma etapa anterior da jornada.
+- Esse retorno é acionado por uma mensagem de voltar durante Produtos e serviços.
+- A decisão de destino usa um critério simples: voltar para Configuração, Dados pessoais ou manter em Produtos.
 
 ## O que muda
 
-1. A jornada deixa de ser apenas linear (inicio ate fim) e passa a aceitar retorno controlado.
-2. O retorno cai num ponto unico de decisao: Para onde voltar?
+1. A jornada deixa de ser apenas linear (início até o fim) e passa a aceitar retorno controlado.
+2. O retorno cai num ponto único de decisão: Para onde voltar?
 3. Depois de voltar, o fluxo segue novamente para frente a partir da etapa escolhida.
 
 ## Passo a passo (objetivo)
 
-1. Avance normalmente: Configuracao, Dados pessoais, Produtos e servicos.
-2. Durante Produtos e servicos, receba o sinal de voltar.
-3. Interrompa essa etapa e direcione para a decisao de retorno.
+1. Avance normalmente: Configuração, Dados pessoais, Produtos e serviços.
+2. Durante Produtos e serviços, receba o sinal de voltar.
+3. Interrompa essa etapa e direcione para a decisão de retorno.
 4. Avalie o destino de retorno informado.
-5. Se o destino for Configuracao, retome nessa etapa.
+5. Se o destino for Configuração, retome nessa etapa.
 6. Se o destino for Dados pessoais, retome nessa etapa.
-7. Se o destino for Produtos e servicos, retome na propria etapa para ajuste e siga adiante.
+7. Se o destino for Produtos e serviços, retome na própria etapa para ajuste e siga adiante.
 
 ## Checklist
 
-- O retorno so e acionado quando ha sinal de voltar em Produtos e servicos.
-- A decisao de retorno sempre escolhe apenas um destino.
-- O fluxo retorna para etapa valida: Configuracao, Dados pessoais ou Produtos.
-- Depois do retorno, a jornada volta a progredir ate Validacao e conclusao.
-- Nao existe retorno direto a partir de Validacao neste desenho atual.
-
-## Apendice tecnico (opcional)
-
-- O evento de voltar esta modelado como Boundary Message Event anexado a `call_produtos` (mensagem `voltar_macro`).
-- O roteamento usa o gateway exclusivo Para onde voltar? com base em `voltar_para_bpmn` (nomes das etapas ou codigos `1`, `2`, `3`).
-
+- [ ] O retorno só é acionado quando há sinal de voltar em Produtos e serviços — No diagrama, o evento de voltar está ligado apenas à atividade de Produtos e serviços. Não há retorno modelado a partir de Configuração, Dados pessoais ou Validação; depois que Produtos e serviços conclui com sucesso, o fluxo segue para Validação sem esse desvio.
+- [ ] A decisão de retorno escolhe um único destino — O gateway é exclusivo: em cada acionamento do voltar, deve caber uma única escolha (Configuração, Dados pessoais ou de novo Produtos e serviços), conforme o valor informado para o destino.
+- [ ] O fluxo retorna somente para etapas previstas neste desenho: Configuração, Dados pessoais ou Produtos e serviços — Qualquer outro destino não tem ramo no modelo; validar que a aplicação e os dados não enviam destino fora desse conjunto.
+- [ ] Depois do retorno, a jornada volta a progredir até Validação e conclusão — Ao reentrar numa etapa anterior, o caminho principal repete a sequência (por exemplo, de Dados pessoais de novo para Produtos e serviços e em seguida Validação), até o fim da jornada.
+- [ ] Não existe retorno direto a partir da Validação neste desenho atual — Uma vez na Validação, não há evento de voltar nem gateway equivalente no BPMN; corrigir algo nessa fase exigiria outro comportamento (outro modelo, compensação ou reabertura), não coberto por este nível 1.
