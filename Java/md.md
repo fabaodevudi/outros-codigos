@@ -2,7 +2,7 @@
 
 Documento de apoio ao desenho executivo em `documentacao/visioning/arquitetura/omnichannel_pai_nivel1_com_voltar.bpmn`.
 
-## Resumo (1 minuto)
+## Resumo
 
 - A jornada segue na ordem: Configuração, Dados pessoais, Produtos e serviços, Validação, e no fim conclui com sucesso.
 - O usuário pode pedir para voltar a partir de Dados pessoais, de Produtos e serviços ou de Validação, e o sistema reabre uma destas quatro etapas (incluindo Validação como destino), conforme o que foi combinado na integração.
@@ -41,7 +41,7 @@ Ou seja: a partir de Produtos ou Validação é possível “saltar” vários p
 
 Qualquer valor em falta, desconhecido ou fora do combinado não deve seguir a jornada “no escuro”: o modelo prevê encerramento com **cancelamento por destino inválido**, para exigir correção no canal ou na integração.
 
-## Passo a passo (objetivo)
+## Passo a passo objetivo
 
 1. Avançar normalmente até a etapa em que for preciso corrigir algo.
 2. Nessa etapa (Dados, Produtos ou Validação), acionar o fluxo de voltar acordado com negócio e canais.
