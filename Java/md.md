@@ -7,40 +7,16 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 /**
- * Lista linhas com comprimento maior que WIDTH (padrão 130).
+ * Lista linhas com comprimento maior que WIDTH em formato compacto de tokens.
  *
- * <h3>Compilar</h3>
+ * Formato de saida: [Linha]TT[Len]HH[Linha]TT[Len]HH...
+ * Quebra de linha quando a linha de saida ultrapassaria ROW_WIDTH (130) chars.
+ *
+ * <h3>IntelliJ — configuracao "Linhas Longas"</h3>
  * <pre>
- *   javac -encoding UTF-8 BpmnLongLines.java
- * </pre>
- *
- * <h3>Usar no terminal</h3>
- * <pre>
- *   java BpmnLongLines &lt;arquivo&gt; [largura] [saida.txt]
- * </pre>
- *
- * <h3>IntelliJ — nova configuração "Linhas Longas"</h3>
- * <ol>
- *   <li>Run → Edit Configurations → + → Application</li>
- *   <li>Name: {@code Linhas Longas}</li>
- *   <li>Main class: {@code BpmnLongLines}</li>
- *   <li>Program arguments (exemplo Windows):
- *   <pre>
- * "C:\projetos\Documentação\Documentacao\src\visioning\novo.bpmn" 130
- *   </pre>
- *   Ou com arquivo de saída:
- *   <pre>
- * "C:\projetos\Documentação\Documentacao\src\visioning\novo.bpmn" 130 "C:\projetos\Documentação\Documentacao\linhas_longas.txt"
- *   </pre>
- *   </li>
- *   <li>Working directory: igual aos demais (ex.: {@code C:\projetos\Documentação\Documentacao})</li>
- * </ol>
- *
- * <h3>Saída</h3>
- * <pre>
- *   L   568 (len= 173): &lt;bpmn:serviceTask id="efetiva_cartao"...
- *   ...
- *   Total: 86 linhas com mais de 130 caracteres
+ *   Main class : BpmnLongLines
+ *   Args       : "C:\...\novo.bpmn" 130
+ *   Args+saida : "C:\...\novo.bpmn" 130 "C:\...\linhas_longas.txt"
  * </pre>
  *
  * Lote KK9590
@@ -48,11 +24,12 @@ import java.nio.file.Paths;
 public final class BpmnLongLines {
 
     private static final int DEFAULT_WIDTH = 130;
+    /** Limite de caracteres por linha de saida. */
+    private static final int ROW_WIDTH = 130;
 
     public static void main(String[] args) throws IOException {
         if (args.length < 1) {
             System.err.println("Uso: java BpmnLongLines <arquivo> [largura] [saida.txt]");
-            System.err.println("  largura padrão: " + DEFAULT_WIDTH);
             System.exit(1);
         }
 
@@ -61,11 +38,12 @@ public final class BpmnLongLines {
         Path out   = args.length >= 3 ? Paths.get(args[2]).toAbsolutePath().normalize() : null;
 
         if (!Files.isRegularFile(file)) {
-            System.err.println("Arquivo não encontrado: " + file);
+            System.err.println("Arquivo nao encontrado: " + file);
             System.exit(2);
         }
 
-        StringBuilder sb = new StringBuilder();
+        // Coleta todos os tokens: "568TT173", "601TT154", ...
+        java.util.List<String> tokens = new java.util.ArrayList<>();
         int count   = 0;
         int lineNum = 0;
 
@@ -74,26 +52,46 @@ public final class BpmnLongLines {
             while ((line = reader.readLine()) != null) {
                 lineNum++;
                 if (line.length() > width) {
+                    tokens.add(lineNum + "TT" + line.length());
                     count++;
-                    String preview = line.length() > 120 ? line.substring(0, 120) + "..." : line;
-                    String entry   = String.format("L%6d (len=%4d): %s%n", lineNum, line.length(), preview);
-                    System.out.print(entry);
-                    sb.append(entry);
                 }
             }
         }
 
-        String summary = String.format("%nArquivo : %s%nLargura : %d%nTotal   : %d linhas com mais de %d caracteres%n",
-                file, width, count, width);
-        System.out.print(summary);
-        sb.append(summary);
+        // Monta linhas respeitando ROW_WIDTH chars
+        // separador entre tokens na mesma linha: "HH"
+        StringBuilder body = new StringBuilder();
+        StringBuilder row  = new StringBuilder();
+        for (int i = 0; i < tokens.size(); i++) {
+            String token = tokens.get(i);
+            String sep   = (row.length() == 0) ? "" : "HH";
+            String candidate = sep + token;
+            if (row.length() + candidate.length() > ROW_WIDTH && row.length() > 0) {
+                // fecha linha atual e abre nova
+                body.append(row).append("\n");
+                row = new StringBuilder(token);
+            } else {
+                row.append(candidate);
+            }
+        }
+        if (row.length() > 0) body.append(row).append("\n");
+
+        String header = String.format("Arquivo: %s  Largura: %d  Total: %d linhas > %d chars%n",
+                file.getFileName(), width, count, width);
+        String footer = String.format("--- fim (%d entradas) ---%n", count);
+
+        System.out.print(header);
+        System.out.print(body);
+        System.out.print(footer);
 
         if (out != null) {
             Files.createDirectories(out.getParent() != null ? out.getParent() : Paths.get("."));
             try (BufferedWriter writer = Files.newBufferedWriter(out, StandardCharsets.UTF_8)) {
-                writer.write(sb.toString());
+                writer.write(header);
+                writer.write(body.toString());
+                writer.write(footer);
             }
-            System.out.println("Relatório salvo em: " + out);
+            System.out.println("Salvo em: " + out);
         }
     }
 }
