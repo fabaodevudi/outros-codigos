@@ -90,6 +90,10 @@ public class BpmnCheckIds {
         { "Gateway_1ianigi",           "Gateway_lianigi",           "1<->l" },
         { "Gateway_1loyjyt",           "Gateway_lloyjyt",           "1<->l" },
         { "Group_0usq370",             "Group_0usq37o",             "1<->o" },
+        // Grupo 3 — novos pares (KK9603): DIAG vs PROC
+        { "Flow_1vvghj5",              "Flow_1yvghi5",              "v/y,h/j" },
+        { "Flow_1t1602i",              "Flow_1tl6o2i",              "l<->1,o<->0" },
+        { "Flow_1011pi1",              "Flow_10llpi1",              "l<->1" },
     };
 
     public static void main(String[] args) throws IOException {
