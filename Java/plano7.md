@@ -1,15 +1,56 @@
-CCBLOCK
-SOURCE	/home/fabao/Documentos/Projetos/exemplos/DDD/workflow/arquitetura/ambiente/bpmn/omnichannel_desenvolvimento.from_dev.normalized.camunda-run.bpmn
-MAP	omnichannel_dev_1parte.map.json
-REDACT_INFRA	true
-PII_LIGHT	true
-URL_MASK	true
-X_HEADER_LINES	false
-MASK_BPMN_DEEP	true
-TENANT_TOKEN	itau
-TAG_MAP	/home/fabao/Documentos/Projetos/exemplos/DDD/workflow/workspace/scripts/bpmn_hard_wrap/camunda_bpmn_tag_map.json
-JAVA_SOFTEN	/home/fabao/Documentos/Projetos/exemplos/DDD/workflow/workspace/scripts/bpmn_hard_wrap/java_soften_map.json
-SANITIZE_PROFILE	none
-LINES_PER_BLOCK	999999
-PART	1	1
----
+// Substitui o bloco original (mantém a mesma regra de negócio, mas em JS válido)
+
+// 1) valor_limite_maximo_cartao: usa limite do direcionador quando existir e não estiver vazio
+var limite_cartao_direcionador = execution.hasVariable("limite_cartao_direcionador")
+  ? execution.getVariable("limite_cartao_direcionador")
+  : null;
+
+execution.setVariable(
+  "valor_limite_maximo_cartao",
+  (limite_cartao_direcionador !== null && limite_cartao_direcionador !== "")
+    ? limite_cartao_direcionador
+    : valor_maximo_cartao_credito
+);
+
+// 2) id_intencao: inicializa com null se não existir
+var id_intencao = execution.hasVariable("id_intencao")
+  ? execution.getVariable("id_intencao")
+  : null;
+execution.setVariable("id_intencao", id_intencao);
+
+// 3) oferta_npc: inicializa a partir de is_npc se não existir
+var is_npc = execution.hasVariable("is_npc") ? execution.getVariable("is_npc") : false;
+
+var oferta_npc = execution.hasVariable("oferta_npc")
+  ? execution.getVariable("oferta_npc")
+  : is_npc;
+
+execution.setVariable("oferta_npc", oferta_npc);
+
+// 4) Se tiver oferta_multiplo_npc, sobrescreve id_intencao e oferta_npc
+var oferta_multiplo_npc = execution.hasVariable("oferta_multiplo_npc")
+  ? execution.getVariable("oferta_multiplo_npc")
+  : null;
+
+if (oferta_multiplo_npc !== null) {
+  // pode vir como Map (Java) ou objeto; tentamos ambos sem quebrar
+  var om = oferta_multiplo_npc;
+
+  var om_id_intencao =
+    (om && typeof om.get === "function") ? om.get("id_intencao") :
+    (om && om["id_intencao"] !== undefined) ? om["id_intencao"] :
+    null;
+
+  if (om_id_intencao !== null && om_id_intencao !== "") {
+    execution.setVariable("id_intencao", om_id_intencao);
+  }
+
+  var om_contratar =
+    (om && typeof om.get === "function") ? om.get("contratar_multiplo_npc") :
+    (om && om["contratar_multiplo_npc"] !== undefined) ? om["contratar_multiplo_npc"] :
+    null;
+
+  if (om_contratar !== null && om_contratar !== "") {
+    execution.setVariable("oferta_npc", om_contratar);
+  }
+}
