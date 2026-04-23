@@ -580,7 +580,7 @@ PP3606.PP4250("PP3286", PP3934PP2722.get("PP3286"));</bpmn:PP4199>
           </camunda:inputParameter>
         </camunda:PP3789>
       </bpmn:extensionElements>
-      <bpmn:incoming>PP2008</bpmn:incoming>
+      <bpmn:incoming>PP12561wmuj4x</bpmn:incoming>
       <bpmn:outgoing>PP2209</bpmn:outgoing>
     </bpmn:servicePP2865>
     <bpmn:servicePP2865 id="PP3373" name="PP0674" PP3191="true" camunda:type="external" PP3199="PP3367">
@@ -715,7 +715,11 @@ PP3606.PP4250("PP3286", PP3934PP2722.get("PP3286"));</bpmn:PP4199>
     <bpmn:sequenceFlow id="PP1915" sourceRef="PP3656" targetRef="PP3109" />
     <bpmn:sequenceFlow id="PP1387" sourceRef="PP3109" targetRef="PP4321" />
     <bpmn:sequenceFlow id="PP1946" sourceRef="PP2415" targetRef="PP3860" />
-    <bpmn:sequenceFlow id="PP1590" sourceRef="PP3860" targetRef="PP2270" />
+    <bpmn:sequenceFlow id="PP1590" sourceRef="PP3860" targetRef="PP2256pos_mapeia_npc" />
+    <bpmn:sequenceFlow id="PP1590_nao_npc" name="Não" sourceRef="PP2256pos_mapeia_npc" targetRef="PP2270" />
+    <bpmn:sequenceFlow id="PP1590_npc" name="Sim" sourceRef="PP2256pos_mapeia_npc" targetRef="PP2381">
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${S(PP3417).hasProp('PP3944') &amp;&amp; !S(PP3417).prop('PP3944').isNull() &amp;&amp; S(PP3417).prop('PP3944').hasProp('PP3370') &amp;&amp; S(PP3417).prop('PP3944').prop('PP3370').boolValue() == true}</bpmn:conditionExpression>
+    </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="PP2209" sourceRef="PP3536" targetRef="PP2296" />
     <bpmn:sequenceFlow id="PP1419" sourceRef="PP2396" targetRef="PP3373" />
     <bpmn:sequenceFlow id="PP1267" sourceRef="PP3373" targetRef="PP2415" />
@@ -1323,15 +1327,19 @@ PP3606.PP4250("PP3528", novoPP0750PP0501)</bpmn:PP4199>
       <bpmn:outgoing>PP1574</bpmn:outgoing>
     </bpmn:servicePP2865>
     <bpmn:sequenceFlow id="PP1574" sourceRef="PP4056" targetRef="PP2325" />
-    <bpmn:sequenceFlow id="PP2008" sourceRef="PP2270" targetRef="PP3536" />
-    <bpmn:parallelPP2253 id="PP2270">
+    <bpmn:exclusivePP2253 id="PP2256pos_mapeia_npc" name="É PP2627?" PP3476="PP1590_nao_npc">
       <bpmn:incoming>PP1590</bpmn:incoming>
-      <bpmn:outgoing>PP2008</bpmn:outgoing>
+      <bpmn:outgoing>PP1590_nao_npc</bpmn:outgoing>
+      <bpmn:outgoing>PP1590_npc</bpmn:outgoing>
+    </bpmn:exclusivePP2253>
+    <bpmn:parallelPP2253 id="PP2270">
+      <bpmn:incoming>PP1590_nao_npc</bpmn:incoming>
       <bpmn:outgoing>PP2065</bpmn:outgoing>
+      <bpmn:outgoing>PP12561wmuj4x</bpmn:outgoing>
     </bpmn:parallelPP2253>
     <bpmn:parallelPP2253 id="PP2296" PP3191="true">
-      <bpmn:incoming>PP2209</bpmn:incoming>
       <bpmn:incoming>PP1825</bpmn:incoming>
+      <bpmn:incoming>PP2209</bpmn:incoming>
       <bpmn:outgoing>PP1628</bpmn:outgoing>
     </bpmn:parallelPP2253>
     <bpmn:sequenceFlow id="PP2065" sourceRef="PP2270" targetRef="PP1225" />
@@ -3133,7 +3141,7 @@ PP4421PP0780.put("PP3833Maximo", formataNumero(PP3947["PP3839"]));
     </bpmn:PP3162>
     <bpmn:sequenceFlow id="PP1334" sourceRef="PP2413" targetRef="PP2303" />
     <bpmn:sequenceFlow id="PP1462" sourceRef="PP2413" targetRef="PP4377">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${!(S(PP3417).prop('PP3944').hasProp('PP3370') &amp;&amp; S(PP3417).prop('PP3944').prop('PP3370').boolValue() == true) &amp;&amp; PP3289 != null &amp;&amp; PP3289 != 'null' &amp;&amp; PP3289 != ''}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${!(S(PP3417).hasProp('PP3944') &amp;&amp; !S(PP3417).prop('PP3944').isNull() &amp;&amp; S(PP3417).prop('PP3944').hasProp('PP3370') &amp;&amp; S(PP3417).prop('PP3944').prop('PP3370').boolValue() == true) &amp;&amp; PP3289 != null &amp;&amp; PP3289 != 'null' &amp;&amp; PP3289 != ''}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:sequenceFlow id="PP1909" sourceRef="PP2379" targetRef="PP2303">
       <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${PP4089 == "0"}</bpmn:conditionExpression>
@@ -3614,6 +3622,7 @@ PP4421PP0780.put("PP3833Maximo", formataNumero(PP3947["PP3839"]));
     </bpmn:servicePP2865>
     <bpmn:exclusivePP2253 id="PP2381" name="PP0634" PP3476="PP1794">
       <bpmn:incoming>PP1628</bpmn:incoming>
+      <bpmn:incoming>PP1590_npc</bpmn:incoming>
       <bpmn:outgoing>PP1657</bpmn:outgoing>
       <bpmn:outgoing>PP1794</bpmn:outgoing>
     </bpmn:exclusivePP2253>
@@ -7309,7 +7318,7 @@ PP3606.PP4250("dados_pessoa_temp", dados)</bpmn:PP4199>
               <camunda:entry key="PP3383">$</camunda:entry>
               <camunda:entry key="PP3753">$</camunda:entry>
               <camunda:entry key="PP3416">$</camunda:entry>
-              <camunda:entry key="PP3946">${S(PP3417).prop('PP3944').hasProp('PP3370') &amp;&amp; S(PP3417).prop('PP3944').prop('PP3370').boolValue() == true}</camunda:entry>
+              <camunda:entry key="PP3946">${S(PP3417).hasProp('PP3944') &amp;&amp; !S(PP3417).prop('PP3944').isNull() &amp;&amp; S(PP3417).prop('PP3944').hasProp('PP3370') &amp;&amp; S(PP3417).prop('PP3944').prop('PP3370').boolValue() == true}</camunda:entry>
               <camunda:entry key="PP3747">${S(PP3417).hasProp('PP3944') &amp;&amp; !S(PP3417).prop('PP3944').isNull() &amp;&amp; S(PP3417).prop('PP3944').hasProp('PP3747') &amp;&amp; !S(PP3417).prop('PP3944').prop('PP3747').isNull() ? S(PP3417).prop('PP3944').prop('PP3747').stringValue() : null}</camunda:entry>
               <camunda:entry key="PP3833_cartao_PP3508">${PP3606.hasVariable("PP3833_cartao_PP3508") ? PP3833_cartao_PP3508 : null}</camunda:entry>
               <camunda:entry key="PP3947">$</camunda:entry>
@@ -8875,7 +8884,7 @@ def PP3913_PP3350 = dados_PP3350 ? dados_PP3350["PP3913_PP3350"] : ""; def PP339
     <bpmn:sequenceFlow id="PP12561xitkq0" sourceRef="PP2354" targetRef="PP4043" />
     <bpmn:sequenceFlow id="PP12560yh6u85" sourceRef="PP2354" targetRef="PP2408" />
     <bpmn:sequenceFlow id="PP2087" sourceRef="PP2408" targetRef="monta_body_PP3641">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${S(PP3417).prop('PP3944').hasProp('PP3370') &amp;&amp; S(PP3417).prop('PP3944').prop('PP3370').boolValue() == true}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${S(PP3417).hasProp('PP3944') &amp;&amp; !S(PP3417).prop('PP3944').isNull() &amp;&amp; S(PP3417).prop('PP3944').hasProp('PP3370') &amp;&amp; S(PP3417).prop('PP3944').prop('PP3370').boolValue() == true}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:servicePP2865 id="Activity_0v1mwjh" name="Valida PP2751 PP2627" camunda:modelerTemplate="PP3965" camunda:modelerTemplateVersion="1" PP3191="true" PP3193="${PP3967}">
       <bpmn:extensionElements>
@@ -8912,7 +8921,7 @@ def PP3913_PP3350 = dados_PP3350 ? dados_PP3350["PP3913_PP3350"] : ""; def PP339
       <bpmn:errorEventDefinition id="PP0806Definition_0vtt0ns" />
     </bpmn:PP3162>
     <bpmn:sequenceFlow id="PP12561qkibhx" sourceRef="PP2413" targetRef="Activity_0v1mwjh">
-      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${S(PP3417).prop('PP3944').hasProp('PP3370') &amp;&amp; S(PP3417).prop('PP3944').prop('PP3370').boolValue() == true &amp;&amp; S(PP3417).prop('PP3944').hasProp('PP4091') &amp;&amp; S(PP3417).prop('PP3944').prop('PP4091').stringValue().trim() != '' &amp;&amp; S(PP3417).prop('PP3944').prop('PP4091').stringValue().trim() != 'null'}</bpmn:conditionExpression>
+      <bpmn:conditionExpression xsi:type="bpmn:tFormalExpression">${S(PP3417).hasProp('PP3944') &amp;&amp; !S(PP3417).prop('PP3944').isNull() &amp;&amp; S(PP3417).prop('PP3944').hasProp('PP3370') &amp;&amp; S(PP3417).prop('PP3944').prop('PP3370').boolValue() == true &amp;&amp; S(PP3417).prop('PP3944').hasProp('PP4091') &amp;&amp; S(PP3417).prop('PP3944').prop('PP4091').stringValue().trim() != '' &amp;&amp; S(PP3417).prop('PP3944').prop('PP4091').stringValue().trim() != 'null'}</bpmn:conditionExpression>
     </bpmn:sequenceFlow>
     <bpmn:exclusivePP2253 id="PP22561npcstatus" PP3476="PP2077funil">
       <bpmn:incoming>PP12561npcposval</bpmn:incoming>
@@ -8939,6 +8948,7 @@ def PP3913_PP3350 = dados_PP3350 ? dados_PP3350["PP3913_PP3350"] : ""; def PP339
     </bpmn:intermediateThrowEvent>
     <bpmn:sequenceFlow id="PP12561mbrxjf" sourceRef="PP09121eodl48" targetRef="PP09121a2uq7i" />
     <bpmn:sequenceFlow id="PP12561an6gzo" sourceRef="PP09121a2uq7i" targetRef="PP3416" />
+    <bpmn:sequenceFlow id="PP12561wmuj4x" sourceRef="PP2270" targetRef="PP3536" />
     <bpmn:textAnnotation id="PP2898">
       <bpmn:text>7h as 20h</bpmn:text>
     </bpmn:textAnnotation>
@@ -9203,6 +9213,12 @@ def PP3913_PP3350 = dados_PP3350 ? dados_PP3350["PP3913_PP3350"] : ""; def PP339
       </bpmndi:PP0227Shape>
       <bpmndi:PP0227Shape id="PP0074" bpmnElement="PP4086" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:PP3123ground-color="#c8e6c9" color:border-color="#205022">
         <dc:Bounds x="17808" y="740" width="100" height="80" />
+      </bpmndi:PP0227Shape>
+      <bpmndi:PP0227Shape id="PP2256pos_mapeia_npc_di" bpmnElement="PP2256pos_mapeia_npc" isMarkerVisible="true">
+        <dc:Bounds x="25395" y="545" width="50" height="50" />
+        <bpmndi:PP0227Label>
+          <dc:Bounds x="25400" y="595" width="40" height="14" />
+        </bpmndi:PP0227Label>
       </bpmndi:PP0227Shape>
       <bpmndi:PP0227Shape id="PP0038" bpmnElement="PP0037" isExpanded="true" bioc:stroke="#000000" bioc:fill="#ffffff" color:border-color="#000000">
         <dc:Bounds x="17958" y="600" width="1470" height="390" />
@@ -11655,7 +11671,23 @@ def PP3913_PP3350 = dados_PP3350 ? dados_PP3350["PP3913_PP3350"] : ""; def PP339
       </bpmndi:PP0227Edge>
       <bpmndi:PP0227Edge id="PP1591" bpmnElement="PP1590">
         <di:waypoint x="25290" y="570" />
+        <di:waypoint x="25395" y="570" />
+      </bpmndi:PP0227Edge>
+      <bpmndi:PP0227Edge id="PP1590_nao_npc_di" bpmnElement="PP1590_nao_npc">
+        <di:waypoint x="25445" y="570" />
         <di:waypoint x="25545" y="570" />
+        <bpmndi:PP0227Label>
+          <dc:Bounds x="25485" y="545" width="21" height="14" />
+        </bpmndi:PP0227Label>
+      </bpmndi:PP0227Edge>
+      <bpmndi:PP0227Edge id="PP1590_npc_di" bpmnElement="PP1590_npc">
+        <di:waypoint x="25420" y="545" />
+        <di:waypoint x="25420" y="470" />
+        <di:waypoint x="26018" y="470" />
+        <di:waypoint x="26018" y="545" />
+        <bpmndi:PP0227Label>
+          <dc:Bounds x="25710" y="445" width="19" height="14" />
+        </bpmndi:PP0227Label>
       </bpmndi:PP0227Edge>
       <bpmndi:PP0227Edge id="PP2210" bpmnElement="PP2209">
         <di:waypoint x="25780" y="570" />
@@ -11765,10 +11797,6 @@ def PP3913_PP3350 = dados_PP3350 ? dados_PP3350["PP3913_PP3350"] : ""; def PP339
         <di:waypoint x="19638" y="825" />
         <di:waypoint x="19678" y="825" />
         <di:waypoint x="19678" y="595" />
-      </bpmndi:PP0227Edge>
-      <bpmndi:PP0227Edge id="PP2009" bpmnElement="PP2008">
-        <di:waypoint x="25595" y="570" />
-        <di:waypoint x="25680" y="570" />
       </bpmndi:PP0227Edge>
       <bpmndi:PP0227Edge id="PP2066" bpmnElement="PP2065">
         <di:waypoint x="25570" y="595" />
@@ -13405,7 +13433,7 @@ def PP3913_PP3350 = dados_PP3350 ? dados_PP3350["PP3913_PP3350"] : ""; def PP339
         <di:waypoint x="1793" y="500" />
         <di:waypoint x="1793" y="545" />
         <bpmndi:PP0227Label>
-          <dc:Bounds x="1409" y="482" width="21" height="14" />
+          <dc:Bounds x="1409" y="483" width="21" height="14" />
         </bpmndi:PP0227Label>
       </bpmndi:PP0227Edge>
       <bpmndi:PP0227Edge id="PP1593" bpmnElement="PP1592">
@@ -13869,6 +13897,10 @@ def PP3913_PP3350 = dados_PP3350 ? dados_PP3350["PP3913_PP3350"] : ""; def PP339
         <di:waypoint x="11112" y="230" />
         <di:waypoint x="10960" y="230" />
         <di:waypoint x="10960" y="530" />
+      </bpmndi:PP0227Edge>
+      <bpmndi:PP0227Edge id="PP12561wmuj4x_di" bpmnElement="PP12561wmuj4x">
+        <di:waypoint x="25595" y="570" />
+        <di:waypoint x="25680" y="570" />
       </bpmndi:PP0227Edge>
       <bpmndi:PP0227Edge id="PP0182" bpmnElement="PP0181">
         <di:waypoint x="24543" y="692" />
