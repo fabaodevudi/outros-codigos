@@ -1,4096 +1,5180 @@
-WEBVTT
-
-00:00.000 --> 00:02.500
-Se eu não tô entendendo nem representante legal, eu não acho que...
-
-00:02.500 --> 00:04.000
-Sua pressão de ouvido tá arregado.
-
-00:05.500 --> 00:07.000
-Melhorou? Melhorou?
-
-00:08.500 --> 00:09.500
-Melhorou muito?
-
-00:10.500 --> 00:12.000
-Nossa, 100%.
-
-00:13.000 --> 00:14.000
-Microphone.
-
-00:14.000 --> 00:16.000
-Não quer me vender esse fone de ouvido?
-
-00:16.500 --> 00:18.000
-Não entendi.
-
-00:18.000 --> 00:20.000
-Você não quer me vender esse fone de ouvido?
-
-00:21.500 --> 00:25.000
-Nossa, eu comprei naquelas lojinha de estação.
-
-00:27.000 --> 00:29.000
-Mas tá dando pra meu ouvido também? Tá de boa?
-
-00:30.500 --> 00:31.500
-Caramba.
-
-00:31.500 --> 00:34.000
-A primeira vez que eu fone de ouvido que eu pego funciona, viu?
-
-00:35.500 --> 00:36.500
-Que bom.
-
-00:38.500 --> 00:40.500
-Deixa eu colocar pra gravar aqui com bem...
-
-00:42.500 --> 00:43.500
-Gravar tudo.
-
-00:44.500 --> 00:45.500
-Encher a gravação.
-
-00:55.500 --> 00:56.500
-Boa.
-
-00:57.500 --> 00:58.500
-Beleza.
-
-01:00.500 --> 01:01.500
-Vamos lá.
-
-01:06.500 --> 01:08.500
-Abrei o C8 aqui.
-
-01:15.500 --> 01:20.500
-Então é mais um overview aí sobre a parte do C8, né?
-
-01:22.500 --> 01:26.500
-E também, acho que um pouco parte de regra de negócio, né?
-
-01:27.000 --> 01:32.000
-E também a parte de como que a gente atua.
-
-01:41.000 --> 01:42.000
-Peraí.
-
-01:43.000 --> 01:45.000
-O seu tá vendo foi do acidente agora também?
-
-01:46.500 --> 01:49.000
-Desculpa que eu abri sem querer o microfone.
-
-01:49.500 --> 01:51.500
-Boa, beleza. Agora tá de boa.
-
-01:52.000 --> 01:53.000
-Bom.
-
-01:53.500 --> 01:56.500
-A parte de regra de negócio fala de...
-
-01:59.500 --> 02:00.500
-De...
-
-02:05.500 --> 02:08.000
-Peraí, só um segundinho, eu tô falando com a Gibraltar.
-
-02:22.500 --> 02:24.000
-Segura aí, gente.
-
-02:49.000 --> 02:50.000
-Tá.
-
-02:50.500 --> 02:52.500
-Aí é um pouco pra vocês dois, assim.
-
-02:52.500 --> 02:54.500
-Sobre regra de negócio, você tem alguma bunda?
-
-02:54.500 --> 02:56.000
-Sobre a jornada?
-
-02:56.000 --> 02:58.000
-Ou meio que já tá apaziguado?
-
-02:59.000 --> 03:02.000
-No geral, tá meio apaziguado, assim.
-
-03:02.000 --> 03:06.500
-Acho que a minha maior dúvida aqui é como funcionam aqui as coisas mesmo.
-
-03:06.500 --> 03:09.500
-Você chegou a ver a jornada no todo, gente?
-
-03:09.500 --> 03:11.500
-O passo a passo ali e tal?
-
-03:11.500 --> 03:12.500
-Beleza.
-
-03:12.500 --> 03:16.000
-Então vou tentar focar um pouco mais na parte técnica em si, tá?
-
-03:16.000 --> 03:19.000
-Eu vou tanto pra parte de regra de negócio.
-
-03:20.500 --> 03:21.500
-Boa.
-
-03:25.500 --> 03:26.500
-Tá.
-
-03:27.000 --> 03:28.500
-Tá melhor assim?
-
-03:28.500 --> 03:29.500
-Você tá melhor?
-
-03:29.500 --> 03:30.500
-Beleza.
-
-03:31.500 --> 03:32.500
-Show.
-
-03:32.500 --> 03:33.500
-Então...
-
-03:35.500 --> 03:37.500
-Passando aqui pro CO8, né?
-
-03:39.000 --> 03:41.500
-A gente tem toda a arquitetura, né?
-
-03:41.500 --> 03:45.000
-Então eu queria começar falando sobre o BTMN-PAI.
-
-03:45.000 --> 03:49.500
-Só pra vocês entenderem da onde vem a informação, que é a nossa primeira tela.
-
-03:49.500 --> 03:51.000
-Que é a tela de CPF.
-
-03:51.000 --> 03:56.000
-Então onde vem a tela de CPF, que é a nossa primeiríssima tela?
-
-04:02.000 --> 04:03.000
-Isso.
-
-04:03.000 --> 04:09.000
-Porque assim, se você pega nossa jornada, ela na verdade é um subfluxo de um outro cara.
-
-04:09.000 --> 04:11.000
-Que é o PAI que a gente chama, né?
-
-04:11.000 --> 04:14.000
-Então eu apresento pra vocês o BTMN-PAI.
-
-04:14.000 --> 04:19.000
-Esse aqui é onde começa a jornada de vias, né?
-
-04:19.500 --> 04:22.500
-Então aqui são todas as jornadas que a gente passa.
-
-04:22.500 --> 04:27.500
-Essa landing page, o Omni-Channel, que é a nossa aqui, olha o que tá rodando agora.
-
-04:27.500 --> 04:33.500
-Corban, tapete laranja, folhas, jornada com interrogado, jornada com bordo de Itaú.
-
-04:35.500 --> 04:38.500
-Um pouquinho de cada jornada, né?
-
-04:38.500 --> 04:42.500
-A nossa, como vocês sabem, é a jornada do Omni-Channel.
-
-04:42.500 --> 04:47.500
-A gente também tem a jornada do Corban, que a gente também olha.
-
-04:48.000 --> 04:50.000
-É similar a nossa jornada.
-
-04:51.000 --> 04:59.000
-A tapete laranja e a jornada Omni-Itaú, elas são o que a gente chama de digital.
-
-04:59.000 --> 05:03.000
-Muitas vezes que a gente fala assim, a digital, digital, são essa galera.
-
-05:03.000 --> 05:07.000
-É o pessoal do tapete e o do One.
-
-05:07.000 --> 05:10.000
-Então o tapete seria a base de todo mundo.
-
-05:10.000 --> 05:12.000
-Antes não tinha digital, não tinha nada.
-
-05:12.000 --> 05:14.000
-Tinha o tapete laranja.
-
-05:14.500 --> 05:19.500
-Tanto que vocês entrarem aqui, vocês vão ver o que é muito parecido com a nossa.
-
-05:19.500 --> 05:21.500
-Então a base...
-
-05:23.500 --> 05:26.500
-Exatamente isso.
-
-05:26.500 --> 05:30.500
-Porque a digital tem acho que uns quatro anos agora.
-
-05:30.500 --> 05:33.500
-Uns quatro anos, se eu não me engano.
-
-05:33.500 --> 05:39.500
-E quando o pessoal começou a construir, eles pegaram a jornada que existe hoje,
-
-05:40.000 --> 05:45.000
-esse é o tapete laranja, que é online, e montaram em cima.
-
-05:45.000 --> 05:47.000
-Então pegaram isso aqui e criaram a fígita.
-
-05:47.000 --> 05:53.000
-Porque o que tinha na agência, que inclusive já acabaram de desligar a maior parte.
-
-05:53.000 --> 05:55.000
-Como é que era feito a abertura de conta antes?
-
-05:55.000 --> 05:58.000
-A abertura de conta era feita pelo cockpit.
-
-05:58.000 --> 06:01.000
-Vocês também já vão ouvir falar bastante também de cockpit.
-
-06:01.000 --> 06:04.000
-Quando o pessoal fala cockpit, eu confundia muito.
-
-06:04.000 --> 06:07.000
-Porque tem o cockpit do C8, que é isso aqui que vocês estão vendo.
-
-06:07.500 --> 06:11.500
-E tem o cockpit, mas quando o pessoal fala cockpit, vocês são pessoas do C8,
-
-06:11.500 --> 06:15.500
-quando falam assim, ah, cockpit, eles estão se referenciando à jornada antiga.
-
-06:15.500 --> 06:18.500
-Que era uma abertura de conta via mainframe.
-
-06:18.500 --> 06:21.500
-É outro rolê, outra coisa.
-
-06:21.500 --> 06:28.500
-Então o cockpit, quando vocês verem, fala a pessoa, ah, cockpit, a gente está se referenciando à jornada antiga.
-
-06:28.500 --> 06:34.500
-E lá era feita a abertura de conta via mainframe, era outra experiência.
-
-06:35.000 --> 06:40.000
-E aí o pessoal falou assim, agora a gente precisa na verdade de uma jornada mais modernizada.
-
-06:40.000 --> 06:44.000
-E aí que entra a fígita, a fígita nasce aí.
-
-06:44.000 --> 06:50.000
-O pessoal que eles fizeram, eles copiaram o tapete, o tapete laranja,
-
-06:50.000 --> 06:55.000
-e começaram a fazer a fígita por aqui.
-
-06:55.000 --> 07:00.000
-Então o pessoal ficou com o cockpit nas agências, o pessoal ficou com o cockpit
-
-07:00.500 --> 07:05.500
-e com a agência e com essa abertura de conta digital que a gente tem hoje.
-
-07:05.500 --> 07:08.500
-Aí que é o começo de tudo.
-
-07:08.500 --> 07:15.500
-Então a gente for lá aqui na abertura de conta corrente.
-
-07:15.500 --> 07:18.500
-Esse aqui é o nosso cara principal.
-
-07:18.500 --> 07:24.500
-A primeira tela que a gente vê lá, a tela de CPF, a gente está vendo a tela de onboard, que é esse cara aqui.
-
-07:24.500 --> 07:28.500
-Então a gente clica lá, a tela de CPF é a tela de onboard.
-
-07:29.000 --> 07:34.000
-E aí daqui como é que ele funciona? Ele vai sair daqui, e aí qual que é a abertura de conta que a gente está utilizando?
-
-07:34.000 --> 07:37.000
-Fígita, tem aqui, ele sai aqui.
-
-07:37.000 --> 07:41.000
-Tapatá, tapete laranja, é o mini-chain, ele vem aqui.
-
-07:41.000 --> 07:44.000
-Ele bate aqui, daqui ele passa para cá.
-
-07:44.000 --> 07:47.000
-É o mini-chain, daqui ele entra nos nossos fluxos.
-
-07:47.000 --> 07:51.000
-Se clicar aqui, a gente fica nos nossos fluxos.
-
-07:51.000 --> 07:56.000
-Aí, um ponto que é interessante também, que eu falei para vocês,
-
-07:56.000 --> 08:00.500
-que o tapete laranja é o nosso legado, é o antigo.
-
-08:00.500 --> 08:03.500
-Hoje o tapete laranja, um dia ele vai morrer também.
-
-08:03.500 --> 08:05.000
-Esse cara não existe mais.
-
-08:05.000 --> 08:12.500
-Porque o ano Itaú, ele é a modernização da modernização.
-
-08:12.500 --> 08:18.500
-Então o ano Itaú ele já é essa modernização do que é hoje o tapete laranja.
-
-08:18.500 --> 08:24.500
-E se a gente clicar no ano Itaú, vocês vão ver que ele é bem menorzinho, está vendo?
-
-08:24.500 --> 08:30.000
-Se vocês compararem com o nosso BTNN ou com o tapete que é parecido, ele é bem menor.
-
-08:30.000 --> 08:36.000
-Porque aqui eles já fizeram o conceito de quebrar o BTNN em vários BTNNs,
-
-08:36.000 --> 08:39.000
-que a gente está discutindo lá no Vision.
-
-08:39.000 --> 08:41.000
-Então a galera do Anjan fez isso.
-
-08:41.000 --> 08:45.000
-Eles estão um pouquinho mais avançados, meio esquisitos.
-
-08:45.000 --> 08:49.000
-Então é um lugar legal para a gente se espelhar e olhar.
-
-08:49.000 --> 08:51.000
-Ele já tem essa quebra.
-
-08:51.500 --> 08:53.500
-Vocês verem aqui, tem um monte.
-
-08:53.500 --> 08:55.500
-Aqui é o ano Itaú, o ano Itaú.
-
-08:55.500 --> 09:01.500
-Todos eles fazem o plástico do mesmo BTNN, mas todos eles são quebrados.
-
-09:03.500 --> 09:09.500
-Então a gente já viu a primeira parte, onde nasce a proposta e para onde ela vai.
-
-09:09.500 --> 09:12.500
-Então a gente está na abertura de conta.
-
-09:12.500 --> 09:14.500
-Entrei dentro.
-
-09:18.500 --> 09:20.500
-Como?
-
-09:21.500 --> 09:23.500
-Ah.
-
-09:23.500 --> 09:25.500
-Isso.
-
-09:25.500 --> 09:27.500
-Então a abertura é tipo isso.
-
-09:27.500 --> 09:32.500
-Imagina, todo mundo nasce no mesmo lugar.
-
-09:32.500 --> 09:38.500
-Qualquer tipo de proposta, se for Isca, se for Corban, se for Selenium Page, Folhas,
-
-09:38.500 --> 09:44.500
-o Antaú, Cartoonista, todos eles nascem no mesmo lugar, que é aqui.
-
-09:44.500 --> 09:47.500
-Então quando você for ver, deixa eu fazer uma operação,
-
-09:48.000 --> 09:50.000
-eu preciso fazer uma operação na tela de CPF.
-
-09:50.000 --> 09:53.000
-Você falou tela de CPF, é aqui dentro.
-
-09:53.000 --> 09:54.000
-A gente vai mexer.
-
-09:54.000 --> 09:55.000
-É nesse cara.
-
-09:55.000 --> 09:57.000
-Não é na nossa jornada ainda.
-
-09:57.000 --> 10:03.000
-E aí é que começam os problemas, porque se eu estou mexendo para esse cara aqui,
-
-10:03.000 --> 10:05.000
-eu estou mexendo para todo mundo.
-
-10:05.000 --> 10:09.000
-Se eu faço um mapeamento dentro desse onboard aqui, que é o que eu vou mandar
-
-10:09.000 --> 10:15.000
-lá para o pessoal do Front, já mostro para vocês, mas se eu fizer um mapeamento aqui,
-
-10:15.500 --> 10:17.500
-eu estou fazendo um mapeamento para todo mundo.
-
-10:17.500 --> 10:20.500
-Eu já tive que, inclusive, mexer dentro dessa tela de onboard.
-
-10:20.500 --> 10:22.500
-E aí o que a gente faz?
-
-10:22.500 --> 10:26.500
-A gente faz a operação, não coloca o cara como required.
-
-10:26.500 --> 10:30.500
-Tipo assim, vamos colocar a variável X.
-
-10:30.500 --> 10:33.500
-A variável X tem que ser required.
-
-10:33.500 --> 10:35.500
-Tem jornadas que não vão usar a variável X.
-
-10:35.500 --> 10:37.500
-Então eu não posso colocar isso.
-
-10:37.500 --> 10:39.500
-Por quê? Todo mundo usa isso.
-
-10:39.500 --> 10:43.500
-Então é um pouco mais delicado de mexer esse cara.
-
-10:44.000 --> 10:46.000
-Todo mundo passa por aqui.
-
-10:46.000 --> 10:48.000
-Então todo mundo tem que fazer teste.
-
-10:48.000 --> 10:52.000
-Então essa é uma das dores que a gente tem.
-
-10:52.000 --> 10:55.000
-A gente está atrelado a outras jornadas.
-
-10:55.000 --> 10:57.000
-A gente quer meio que começar a apartar.
-
-10:57.000 --> 10:59.000
-A gente quer ser independente de todo mundo.
-
-10:59.000 --> 11:01.000
-Então o Visionary está entrando para isso.
-
-11:01.000 --> 11:05.000
-Para a gente começar a dar essa apartada.
-
-11:05.000 --> 11:07.000
-Vamos lá para a nossa jornada agora.
-
-11:14.000 --> 11:16.000
-Aonde que eles entram?
-
-11:16.000 --> 11:18.000
-Todos eles nascem aqui.
-
-11:18.000 --> 11:19.500
-Toda jornada nasce aqui.
-
-11:19.500 --> 11:21.500
-Abertura de conta corrente.
-
-11:21.500 --> 11:23.500
-Dentro dessa cartinha.
-
-11:23.500 --> 11:25.500
-Todas as propostas nascem aqui.
-
-11:25.500 --> 11:27.500
-Daqui...
-
-11:29.500 --> 11:31.500
-Cartão de crédito?
-
-11:34.500 --> 11:37.500
-Eu não conheço essa jornada de cartão de crédito.
-
-11:37.500 --> 11:39.500
-Tipo assim, as que eu conheço.
-
-11:39.500 --> 11:41.500
-Essa linha de emprego eu também conheço.
-
-11:41.500 --> 11:43.500
-Só para ser sincero.
-
-11:43.500 --> 11:45.500
-Eu conheço o Omni Channel, o Corban,
-
-11:45.500 --> 11:47.500
-o Tapete Laranja,
-
-11:47.500 --> 11:49.500
-o Cartoonista, o Logado.
-
-11:49.500 --> 11:51.500
-Eu acho que pode ser essa aqui,
-
-11:51.500 --> 11:53.500
-a de cartão...
-
-11:53.500 --> 11:55.500
-Fábio, o que você está falando?
-
-11:55.500 --> 11:57.500
-Pode ser, eu não tenho certeza.
-
-11:57.500 --> 11:59.500
-Mas acho que é essa aqui, o Cartoonista Logado.
-
-12:01.500 --> 12:03.500
-E a...
-
-12:03.500 --> 12:05.500
-Pelo que eu me lembre sim, tá?
-
-12:05.500 --> 12:07.500
-Já é um ponto de abertura de conta
-
-12:07.500 --> 12:09.500
-que eu não...
-
-12:09.500 --> 12:11.500
-Eu não conheço muito bem.
-
-12:11.500 --> 12:13.500
-Mas pode ser que sim.
-
-12:13.500 --> 12:15.500
-Eu sei que tem um cara que eles chamam de Isca.
-
-12:15.500 --> 12:17.500
-Que é tipo assim,
-
-12:17.500 --> 12:19.500
-o cara tem a conta salário
-
-12:19.500 --> 12:21.500
-dentro, ele tem o nosso aplicativo.
-
-12:21.500 --> 12:23.500
-Só que ele não pode fazer nada.
-
-12:23.500 --> 12:25.500
-Tipo assim, ele não pode fazer o Pix,
-
-12:25.500 --> 12:27.500
-ele só tem o dinheiro na conta.
-
-12:27.500 --> 12:29.500
-Ele não pode fazer nada.
-
-12:29.500 --> 12:31.500
-Ele não pode fazer nada.
-
-12:31.500 --> 12:33.500
-Ele só tem o dinheiro na conta.
-
-12:33.500 --> 12:35.500
-E ele pode lá sacar o dinheiro.
-
-12:35.500 --> 12:37.500
-É isso que ele faz.
-
-12:37.500 --> 12:39.500
-E aí dentro do app do cara,
-
-12:39.500 --> 12:41.500
-tipo assim, tem lá um...
-
-12:41.500 --> 12:43.500
-Inclusive eles chamam de Isca, por quê?
-
-12:43.500 --> 12:45.500
-Aparece lá, vem abrir o Pix com a gente,
-
-12:45.500 --> 12:47.500
-usa o seu Pix, aí você clica lá,
-
-12:47.500 --> 12:49.500
-você vem pra cá.
-
-12:49.500 --> 12:51.500
-E é uma jornada de abertura de conta que eles chamam de Iscas.
-
-12:51.500 --> 12:53.500
-É o pessoal que...
-
-12:53.500 --> 12:55.500
-Tipo, o conta salário, só que ele vira o correntista nosso.
-
-12:55.500 --> 12:57.500
-Beleza.
-
-12:57.500 --> 12:59.500
-Aí entra na nossa jornada em si, né?
-
-12:59.500 --> 13:01.500
-A nossa jornada hoje, pra vocês entenderem,
-
-13:01.500 --> 13:03.500
-ela é a maior jornada que tem
-
-13:03.500 --> 13:05.500
-e a mais complexa.
-
-13:05.500 --> 13:07.500
-Por quê?
-
-13:07.500 --> 13:09.500
-Por que falar mais complexa e a maior que tem?
-
-13:09.500 --> 13:11.500
-Porque quando eu tô falando em...
-
-13:11.500 --> 13:13.500
-Quando eu tô falando em abrir conta online, né?
-
-13:13.500 --> 13:15.500
-Eu vou lá, eu pego, abaixo o aplicativo e tal,
-
-13:15.500 --> 13:17.500
-eu vou lá, eu vou lá,
-
-13:17.500 --> 13:19.500
-eu vou lá, eu vou lá,
-
-13:19.500 --> 13:21.500
-eu vou lá, eu vou lá,
-
-13:21.500 --> 13:23.500
-eu vou lá, eu vou lá,
-
-13:23.500 --> 13:25.500
-eu vou lá, eu pego, abaixo o aplicativo e tal,
-
-13:25.500 --> 13:27.500
-e vou abrir uma conta lá.
-
-13:27.500 --> 13:29.500
-Eu tô abrindo um tipo de modalidade,
-
-13:29.500 --> 13:31.500
-é bem menos reduzido.
-
-13:31.500 --> 13:33.500
-Pensa aqui,
-
-13:33.500 --> 13:35.500
-a gente sufre o banco,
-
-13:35.500 --> 13:37.500
-a gente sufre a agência física.
-
-13:37.500 --> 13:39.500
-E na agência física,
-
-13:39.500 --> 13:41.500
-as pessoas vão lá como tipo assim, cara,
-
-13:41.500 --> 13:43.500
-sei lá, morreu alguém,
-
-13:43.500 --> 13:45.500
-eu preciso abrir uma conta esposa.
-
-13:45.500 --> 13:47.500
-Ah, pra onde eu vou? Vou pro banco.
-
-13:47.500 --> 13:49.500
-Ah, qualquer problema que eu tenho,
-
-13:49.500 --> 13:51.500
-eu vou pro banco. É tudo banco.
-
-13:51.500 --> 13:53.500
-Então,
-
-13:53.500 --> 13:55.500
-a FIG e tal, ela tem que suprir
-
-13:55.500 --> 13:57.500
-todas as necessidades.
-
-13:57.500 --> 13:59.500
-Se vocês verem lá o que é recentemente novo
-
-13:59.500 --> 14:01.500
-lá que a gente tem, as contas especiais,
-
-14:01.500 --> 14:03.500
-eu vou abrir uma conta,
-
-14:03.500 --> 14:05.500
-se eu tenho
-
-14:05.500 --> 14:07.500
-procuração,
-
-14:07.500 --> 14:09.500
-tipo, o menor, ele é menor emancipado,
-
-14:09.500 --> 14:11.500
-tem menor...
-
-14:11.500 --> 14:13.500
-A gente abre vários tipos de contas.
-
-14:13.500 --> 14:15.500
-Então, quanto mais tipos de conta a gente tem,
-
-14:15.500 --> 14:17.500
-mais API a gente chama,
-
-14:17.500 --> 14:19.500
-mais informação a gente precisa.
-
-14:19.500 --> 14:21.500
-Então, assim, a nossa complexidade
-
-14:21.500 --> 14:23.500
-é muito maior do que você pegar
-
-14:23.500 --> 14:25.500
-uma abertura de conta digital.
-
-14:25.500 --> 14:27.500
-Porque a digital não vai ter as mesmas opções
-
-14:27.500 --> 14:29.500
-de abrir. Então, a gente agrega
-
-14:29.500 --> 14:31.500
-todo mundo que abre conta,
-
-14:31.500 --> 14:33.500
-e mais as contas especiais.
-
-14:33.500 --> 14:35.500
-Então, o nosso PPM,
-
-14:35.500 --> 14:37.500
-hoje, ele é um monstro.
-
-14:37.500 --> 14:39.500
-Ele, basicamente, é um monstro.
-
-14:39.500 --> 14:41.500
-É muito chamado, muita coisa,
-
-14:41.500 --> 14:43.500
-muito vai pra cá, vai pra lá.
-
-14:43.500 --> 14:45.500
-Então,
-
-14:45.500 --> 14:47.500
-a gente, a intenção
-
-14:47.500 --> 14:49.500
-é quebrar isso, né?
-
-14:49.500 --> 14:51.500
-E aí, beleza.
-
-14:51.500 --> 14:53.500
-Então, a gente entrou dentro do nosso
-
-14:53.500 --> 14:55.500
-PPM.
-
-14:55.500 --> 14:57.500
-E agora, eu vou partir aqui
-
-14:57.500 --> 14:59.500
-pro Camo da Modela.
-
-14:59.500 --> 15:01.500
-Eu acho que é interessante, agora, a gente entender
-
-15:01.500 --> 15:03.500
-o que é o conceito de chave-tarefa.
-
-15:03.500 --> 15:05.500
+Então assim
+Existe uma funcionalidade funcional
+Que está funcionando
+Isso aí, a gente tem na nossa aqui
+E funciona
+Então o que a gente tem que optar?
+Optar por usar o que já tem
+Sempre
+Por quê? Porque o pessoal fez a implementação
+Eles querem justificar as horas deles
+Então a gente tem que, como você diz
+Abraçar o amiguinho lá
+Porque senão não vai
+Tem
+Não, mas
+Tá, mas deixa eu te contar
+Por que talvez não foi falado
 Tá?
-
-15:05.500 --> 15:07.500
-O porquê que a gente tem esse conceito de chave-tarefa
-
-15:07.500 --> 15:09.500
-e como que isso anda
-
-15:09.500 --> 15:11.500
-entre o back, o front
-
-15:11.500 --> 15:13.500
-e o C8?
-
-15:13.500 --> 15:15.500
-Por quê? Todo mundo
-
-15:15.500 --> 15:17.500
-é...
-
-15:17.500 --> 15:19.500
-Todo mundo precisa andar juntinho.
-
-15:19.500 --> 15:21.500
-Todo mundo precisa dar uma
-
-15:21.500 --> 15:23.500
-undada junto, né?
-
-15:23.500 --> 15:25.500
-Então, imagina,
-
-15:25.500 --> 15:27.500
-eu tô lá na tela de CPF,
-
-15:27.500 --> 15:29.500
-que é fora da nossa jornada.
-
-15:29.500 --> 15:31.500
-Ele tá lá dentro da conta corrente
-
-15:31.500 --> 15:33.500
-VPN e NPI.
-
-15:33.500 --> 15:35.500
-Tô na tela de CPF.
-
-15:35.500 --> 15:37.500
-Quando eu clico na tela de CPF...
-
-15:39.500 --> 15:41.500
-Deixa eu mostrar pra você pra gente ver.
-
-15:45.500 --> 16:03.500
-...
-
-16:03.500 --> 16:09.500
-...
-
-16:09.500 --> 16:13.500
-...
-
-16:13.500 --> 16:17.500
-...
-
-16:17.500 --> 16:21.500
-...
-
-16:21.500 --> 16:23.500
-...
-
-16:23.500 --> 16:25.500
-...
-
-16:25.500 --> 16:27.500
-...
-
-16:27.500 --> 16:31.500
-...
-
-16:31.500 --> 16:50.980
-quando eu fizer, qual é o conceito de chave-tareta? a chave-tareta, inclusive o pessoal do front
-
-16:50.980 --> 16:55.460
-precisa estar mapeado, porque? imagina, todo mundo precisa andar junto, o front precisa
-
-16:55.460 --> 16:59.940
-andar junto, o back precisa andar junto e o seu oito precisa andar junto, todo mundo
-
-16:59.940 --> 17:06.220
-precisa saber onde eu estou agora, então existe o conceito de chave-tareta, a chave-tareta desse
-
-17:06.220 --> 17:15.780
-aqui, se vocês forem ver, ele vai estar, vou ter que baixar para que ele me pare, espere aí,
-
-17:15.780 --> 17:33.940
-de conta, só vou baixar ele aqui, download, vamos abrir ele aqui, abrir aqui, então a gente usa muito
-
-17:34.140 --> 17:40.900
-chave-tareta, a chave-tareta que está relacionada, quando vocês verem aqui, que é uma user task,
-
-17:40.900 --> 17:46.900
-é o bonequinho aqui, é o bonequinho que vocês estão vendo, e é uma user task, esse cara ele comunica com o front,
-
-17:46.900 --> 17:55.500
-é o responso que o C8 dá para o BFF, BFF devolve para o front, e aí todo mundo precisa saber onde
-
-17:55.500 --> 18:01.740
-a gente está, qual que é a chave-tareta? é esse cara aqui, então eu uso bastante esse conceito com o
-
-18:01.740 --> 18:10.940
-front, quando falarem para você, Fábio, eu preciso que você crie um modal novo, ou sei lá, nessa tela
-
-18:10.940 --> 18:16.540
-daqui, eu quero que apareça um modal, tipo assim, olha Flaninho, você não pode mais abrir a conta
-
-18:16.540 --> 18:22.220
-porque qualquer coisa, eu preciso de um modal, aí você tem que falar para ele, mas onde está a chave-tareta?
-
-18:22.220 --> 18:28.620
-em que lugar? vou fazer, complete, então a minha chave-tareta é dados onboard,
-
-18:29.620 --> 18:37.020
-vamos ver aqui agora na prática, eu estou aqui, eu vou colocar a iniciar, quando eu apertar o botão
-
-18:37.020 --> 18:44.140
-iniciar a abertura, ele vai fazer o complete da chave-tareta, dados onboard, esse cara aqui ó,
-
-18:45.100 --> 18:50.300
-então vamos lá, vamos ver se não vai quebrar também né, às vezes o CPF vai dar um vario,
-
-18:50.300 --> 19:01.380
-aí, passou, vamos lá ver, autentico usuário, iniciar jornada,
-
-19:08.140 --> 19:09.860
-o payload dele,
-
-19:09.860 --> 19:23.540
-tá, esse aqui é o payload, vamos ver o response, beleza, ó, então como que funciona? eu fiz o complete,
-
-19:23.540 --> 19:31.460
-eu fiz o complete da chave-tareta, dados onboard, e o que a gente mandou pelas contas né,
-
-19:31.460 --> 19:38.340
-agência, origem proposta, seguimento, situação especial, fluxo e fluxo atual,
-
-19:38.580 --> 19:44.420
-então todas as flags, o CA-8 também já está transitando, tá, essas informações o CA-8 também
-
-19:44.420 --> 19:49.460
-já está guardando, se a gente for olhar dentro do cockpit, se eu abrir lá agora o cockpit e dar uma
-
-19:49.460 --> 19:54.420
-olhada, a gente vai achar todas as informações vinhas, e muitas outras que a gente não transita,
-
-19:54.420 --> 20:04.300
-tá, eu não mostro, mas lá no CA-8, no cockpit, se a gente abrir, você vai ver um monte, agora qual que é
-
-20:04.300 --> 20:14.180
-o response, esse é o response que o CA-8 encaminhou pro back, e o back mandou pro front,
-
-20:14.180 --> 20:23.180
-aí que vem a relação da chave-tareta, qual que é a próxima chave-tareta, dados ONCS, então imagina
-
-20:23.180 --> 20:29.620
-assim, todo mundo, tava todo mundo de mãozinha dada, todo mundo andou junto, agora a próxima é
-
-20:30.620 --> 20:36.900
-se vocês forem ver aqui, então, eu tô fora do nosso fluxo, entrei no nosso fluxo, qual que é a próxima chave-tareta?
-
-20:36.900 --> 20:44.500
-Tá, a dos ONCS, aqui ó, tá vendo? Então, todo mundo andando junto, esse é o conceito de chave-tareta que a gente tem,
-
-20:45.340 --> 20:55.260
-e aí o pessoal precisa fazer as regras em cima disso, então, por exemplo, ah, ô Fábio, eu quero que você
-
-20:55.260 --> 21:03.620
-mande pra mim aqui, eu tô no front, eu preciso que você mande pra mim agora a variável, é...
-
-21:06.100 --> 21:15.980
-Ah, sei lá, variável x, sei lá, um pouco variável, variável x, aí você fala pra mim, ah, como que eu vou mandar isso pro front?
-
-21:16.100 --> 21:29.900
-Eu tenho que vir aqui no farm field e fazer o mapeamento aqui, x, ah, ela é um boolean, ela é uma string, ela é um, sei lá, vamos fingir que ela é um boolean,
-
-21:30.900 --> 21:39.580
-ele tem valor fixo? Não, não tem, ou tem valor fixo, não tem, depende muito do que a gente vai trabalhar,
-
-21:40.100 --> 21:51.780
-ah, por exemplo, aí eu mapeando aqui, esse response, esse mapeamento ele vai subir lá pro BFF e o BFF vai subir isso lá pro front,
-
-21:52.260 --> 22:00.140
-então assim, imagina, todo mundo tem que dar mãozinha, o BFF tem que fazer esse mapeamento e ele que é o BFF que manda pro front,
-
-22:01.060 --> 22:05.540
-esse é o conceito, né? Vamos pegar esse cara aqui por exemplo,
-
-22:05.540 --> 22:20.460
-não, não, é ao contrário, é tipo, é sempre assim, ó, é front, back, C8, e aí dentro do C8 tem o que eles chamam de cruzeiro do sul,
-
-22:21.380 --> 22:29.820
-é sempre essa lógica, primeiro front, depois tem o back, aí vem o cruzeiro do sul, depois vem a gente, que é o C8,
-
-22:30.460 --> 22:39.500
-e aí, como é que a informação ela transita? C8 joga pro cruzeiro do sul, cruzeiro do sul passa pro BFF, BFF vai pro front,
-
-22:39.900 --> 22:47.220
-o front vai mandar uma informação pra gente, front passa pro BFF, BFF passa pro cruzeiro do sul, cruzeiro do sul passa pro C8,
-
-22:47.740 --> 22:55.180
-esse vai e volta de informação, tipo essa é a dança que faz, tipo, vai e volta, beleza?
-
-22:55.180 --> 23:11.020
-Por exemplo, esse cara aqui, ó, segmento inicial, segmento inicial eu queria essa variável e eu fiz esse mapeamento e eu falei pra ela assim,
-
-23:11.020 --> 23:22.260
-é, você geralmente quando você faz mapeamento você coloca domain aqui, é, pra fazer, tipo, pra pegar a informação que não é um boolean,
-
-23:22.260 --> 23:31.540
-uma string, então bem, tá, string a gente usa domain, pode ser usado domain, e aí eu fiz o mapeamento, eu falei pro C8, ó,
-
-23:31.540 --> 23:41.460
-pega a variável que chama segmento, e quem devolve essa variável segmento? O direcionador, então pega essa variável segmento e salva pra mim,
-
-23:41.460 --> 23:51.260
-como segmento inicial, e manda isso pro front, é uma das coisas que eu precisei fazer o mapeamento, pra depois fazer o mapeamento no banco de dados,
-
-23:52.100 --> 24:00.820
-mas enfim, o que eu queria explicar, o conceito da chave-tarefa, então assim, todo mundo anda junto, agora eu tô na minha tela de dados nss,
-
-24:00.820 --> 24:11.140
-que foi a responsa, eu vou fazer o complete da tela nss, que eu tô nessa tela de dados nss, qual que é a minha próxima tela de chave-tarefa?
-
-24:11.500 --> 24:17.860
-A chave-tarefa é informar-se LPJ, então quer ver, ó, vamos lá, vamos clicar agora de novo, vamos avançar,
-
-24:19.540 --> 24:32.900
-Network, aí deixa eu dar uma alentada aqui, emplay, beleza, não coloquei o benefício que eu não quero, beleza, ele acabou de fazer o complete, ó,
-
-24:33.540 --> 24:39.900
-ele fez o complete aqui, e aí beleza, qual que é o payload, o que que a gente mandou?
-
-24:42.580 --> 24:52.180
-E no caso, né, é aqui o que que o front mandou no caso, o que que é o payload, e o que que a gente respondeu aqui no back,
-
-24:52.180 --> 24:59.660
-tipo, BFF, isso é oito, qual que é o responsa? Qual que é a próxima chave-tarefa? Informar-se LPJ.
-
-25:00.620 --> 25:10.580
-Então, ele fez o complete e passou para a próxima chave-tarefa, qual que é a próxima chave-tarefa? Informar-se LPJ.
-
-25:10.580 --> 25:24.460
-Então, é assim que todo mundo anda juntinho, back, front, isso é oito, beleza? Esse é o conceito de chave-tarefa, que eu acho que é importante, tipo, ter esse conceito.
-
-25:25.460 --> 25:45.220
-Agora, vamos aprofundar um pouquinho mais sobre script e vamos ver as funcionalidades do C8, né, o que que a gente dá para fazer com o C8, o que que a gente tem de gator,
-
-25:45.220 --> 25:53.460
-o que que a gente tem de script, uma service task, o que que mais tem de task, o que que é um connector, vamos lá.
-
-25:53.460 --> 26:05.740
-O C8, a gente pensa num programa em si, né, você tem os repositórios lá, você vai criando as passes, você vai criando as informações, os métodos, você tem funções, né?
-
-26:05.740 --> 26:17.420
-O script, ele serve nisso, ele faz as funções de um repositório, de um programa em si, é aqui que a gente vai colocar toda a lógica das coisas, por exemplo,
-
-26:17.420 --> 26:29.340
-eu vou transformar um dado, eu vou trabalhar com dado, vou fazer um depara, aonde que eu vou colocar a informação, eu vou montar um payload, ele vem dentro do script, é aqui que a informação que a gente vai colocar.
-
-26:30.300 --> 26:40.820
-Aí aqui dá para fazer várias coisas, né, transformações ou passagens de informação, então o script ele serve para isso,
-
-26:40.820 --> 26:52.340
-aí cada script faz alguma coisa, cada script demanda alguma coisa, a gente tem scripts extremamente simples, por exemplo, esse cara aqui, esse é um script bem simples,
-
-26:53.220 --> 27:08.940
-o que ele faz? Ele pega a informação do direcionador, e o direcionador ele devolve para a gente a, o responso do direcionador, né, ele devolve para a gente a informação em JSON,
-
-27:08.940 --> 27:20.580
-mas o SOA-8 ele não entende JSON, então eu bato lá na parte do direcionador, direcionador me responde sua informação, ele me responde, só que ele me responde em JSON,
-
-27:20.580 --> 27:31.740
-e JSON o SOA-8 não entende, o Caminho não entende, então eu preciso fazer um parse, ele chama, é isso aqui ó, fazer um parse, o parse eu transformo a informação em string,
-
-27:31.740 --> 27:41.620
-ele faz um parse em string, então transformando em string ele consegue entender, eu inclusive isso aqui eu já fiz na prática, tá em outros lugares,
-
-27:41.620 --> 27:53.380
-então eu vou em JSON para mim, e eu ia, por exemplo, o cara devolve uma variável X para mim, a variável segmento, aí quando eu ia pegar essa variável segmento para utilizar ela, ele não funcionava,
-
-27:53.380 --> 28:07.380
-por quê, porque estava em JSON, o SOA-8 precisava fazer esse parse para poder entender, então isso é um do que o script faz, um parse que eu chamo simples,
-
-28:07.380 --> 28:19.380
-aí eu tenho um outro script que ele monta um payload, por exemplo, vamos pegar esse cara aqui do backoffice, ó, esse cara aqui é um dos caras grandes que a gente tem,
-
-28:19.380 --> 28:32.380
-esse aqui ele vai ter um monte de informação, por quê, aqui eu tenho regras, eu monto o payload, eu crio um if, então por exemplo, olha, crio um payload assim assim assado,
-
-28:32.380 --> 28:41.380
-if, se cair nessa condição, monta assim, se cair nessa condição, monta assado, é basicamente isso de script,
-
-28:41.380 --> 28:54.380
-vamos falar agora de service task, que são as engrenadinhas, script é isso, a gente tem uns gators também, a gente tem um gator de decisão,
-
-28:54.380 --> 29:05.380
-que é o gator que a gente vai verificar se a gente tem, são os itens de um programa, ou eu sigo isso, ou eu sigo aquilo,
-
-29:05.380 --> 29:19.380
-basicamente, quando eu tenho um gator eu só posso ter, eu posso até criar três caminhos, ou mais inclusive, mas aí eu tenho que ir imputando regra,
-
-29:19.380 --> 29:31.380
-a regra a gente sempre coloca na setinha, então, por exemplo, nesse cara aqui, tem agência, qual que é a regra, se eu não coloco nada na setinha,
-
-29:31.380 --> 29:40.380
-por exemplo, essa condição aqui, se vocês estão vendo, a condição está vazia, significa que esse é o padrão, esse é o caminho padrão,
-
-29:40.380 --> 29:48.380
-então se eu não atender a outra regra, eu vou entrar aqui, eu caio dentro dessa regra, que a regra é vazia, qualquer pessoa entra aqui,
-
-29:48.380 --> 30:00.380
-agora, no caminho sim, ele tem agência, se eu tiver, eu coloco uma regra, agência alogada, então qual que é a regra para eu poder entrar no caminho sim,
-
-30:00.380 --> 30:11.380
-ele tem que ter a variável agência alogada, e a variável agência alogada não pode ser nula, e também não pode ser diferente de vazio,
-
-30:11.380 --> 30:21.380
-então essa é a regra, se eu cair dentro dessa regra, eu percorro esse caminho, esse é um tipo de gator que a gente tem de decisão,
-
-30:21.380 --> 30:37.380
-e a gente também tem gators de paralelismo, vamos pegar um exemplo aqui, isso, o do setup, perfeito,
-
-30:37.380 --> 30:48.380
-o do setup, como que funciona, mesmo esquema, eu estou paralelizando a informação, então, ou seja, eu estou pegando a proposta,
-
-30:48.380 --> 30:57.380
-jogo um para um lado e para o outro ao mesmo tempo, e aí, por exemplo, imagina que esse cara travou, o atualiza o setup e conta, beleza?
-
-30:57.380 --> 31:07.380
-e aí eu mandei esse cara para cá e esse cara para cá, esse token seguiu para cá e esse token seguiu aqui, e aí, por exemplo, eu bati aqui, dei problema,
-
-31:07.380 --> 31:13.380
-o que que acontece? o token anda ou não anda? ele não anda, ele tem que seguir as duas condições,
-
-31:13.380 --> 31:32.380
-tem até um exemplo aqui para vocês verem, porque vira e mexe acontece, não está, não tem, só porque eu ia mostrar para vocês,
-
-31:33.380 --> 31:43.380
-mas, por exemplo, se desse um erro aqui nessa caixinha aqui de gerimentidade de vez em quando, vocês iam ver um tokenzinho parado aqui, um tokenzinho único,
-
-31:43.380 --> 31:54.380
-e aí quando você clicasse dentro dele, você ia ver que o token parou aqui e ia ter um tokenzinho aqui, o que significa? porque toda vez que eu abro o paralelismo,
-
-31:55.380 --> 32:04.380
-eu abri o paralelismo, ele abre o paralelismo e ele fecha, tá vendo? ele está fechando aqui, ou seja, o token daqui de cima ele abriu,
-
-32:04.380 --> 32:14.380
-por aqui ele passou na efetivação do limite do V3, ele ok, desculpa, ele deu problema aqui no V3, ele dá problema e ele cai aqui no R0,
-
-32:14.380 --> 32:27.380
-o de baixo ele passa por esse contratar tarifa BT, no contratar tarifa BT ele ok, passei e ele vem para cá, ele espera aqui, só que no limite do limite do V3 ele deu problema,
-
-32:27.380 --> 32:39.380
-ele cai aqui, ele fica parado aqui, ele precisa de uma tratativa, ele só continua andando se as duas condições, ou os dois tokens chegarem no mesmo lugar,
-
-32:39.380 --> 32:49.380
-então o paralelismo ele funciona dessa maneira, eu preciso fazer as duas funções ao mesmo tempo, em vez de eu colocar primeiro passe em um e depois passe em outro,
-
-32:49.380 --> 32:53.380
-eu disparo os dois ao mesmo tempo, os dois tem que fazer essas duas condições,
-
-32:53.380 --> 33:14.380
-os dois, as duas condições, os dois caminhos tem que se encontrar no mesmo lugar, os dois tem que fechar o paralelismo para eles poderem continuar,
-
-33:14.380 --> 33:24.380
-se não ele continua, se não ele trava, por exemplo aqui também, aqui é a mesma coisa, eu abri um paralelismo aqui, eu estou por esse caminho e por esse caminho aqui também,
-
-33:24.380 --> 33:35.380
-para a proposta poder continuar a seguir eles tem que se encontrar aqui, no fechamento deles, se eles se fecharem aqui eles continuam, eles seguem reto,
-
-33:35.380 --> 33:44.380
-se der um problema aqui, por exemplo, nessa efetiva conta, ele não vai, ele fica travado, tem um caso aqui em produção,
-
-33:46.380 --> 33:58.380
-efetiva conta, eu tenho 5 propostas aqui que estou com esse problema, vou clicar em uma delas, então aqui o cockpit, eu estou clicando, é como se fosse antônio,
-
-33:58.380 --> 34:13.380
-eu tenho 5 propostas, agora vou clicar em uma só, na primeira proposta, então o que aconteceu com essa proposta aqui, eu passei, ela andou por dois caminhos,
-
-34:13.380 --> 34:24.380
-o caminho de cima, que é esse aqui, ele veio e bateu aqui, na efetiva conta, na efetiva conta ele deu um problema, tanto que, você está vendo o número 1 aqui, um problema,
-
-34:24.380 --> 34:34.380
-o que aconteceu com o de baixo, o de baixo ele fez isso aqui, ele veio para cá, e aí ele não seguiu por esse caminho do conto efetiva tópico,
-
-34:34.380 --> 34:45.380
-ele desceu, ele veio para cá, ele passou por esse aguardo um dia, ele bateu na consulta e ele veio para cá, conta foi efetivada? Não,
-
-34:45.380 --> 34:56.380
-se ele foi não, ele desceu de novo, bateu aqui, ele vai consultar conta de novo, ou seja, o tokenzinho nem esse token terminou e nem esse token terminou,
-
-34:56.380 --> 35:06.380
-esse aqui é um problema conhecido que eu já sei o que é, o que acontece, por algum motivo específico a funcional do gerente logado não é preenchida,
-
-35:07.380 --> 35:15.380
-a gente já tentou pesquisar porque, enfim, acontece muito pouco, mas acontece, dá algum engasgo que a funcional do gerente logado não vem preenchida,
-
-35:15.380 --> 35:23.380
-e aí ele se perde, então ele não efetiva conta e ele continua travado aqui, mas esse é um gateway de paralelismo,
-
-35:23.380 --> 35:36.380
-vamos aproveitar e vamos pegar esse cara aqui da cartinha, a cartinha a gente pode pensar em tópico, é uma resposta via tópico,
-
-35:36.380 --> 35:50.380
-como que funciona? Aqui eu tenho o efetiva conta que é uma external task, está batendo aqui no efetiva conta, a gente está mandando informação para o time do CC,
-
-35:50.380 --> 36:02.380
-fala assim, CC, aqui está a informação, e aí essa informação bate no CC via tópico e aí o CC vai ter uma resposta, ele vai olhar todas as informações que mandou e vai falar,
-
-36:02.380 --> 36:16.380
-efetivamos a conta ou não, essa resposta vai ser via tópico, então quando o tokenzinho bater nessa cartinha aqui, quando ele passar por essa cartinha é a resposta do CC,
-
-36:16.380 --> 36:26.380
-via tópico que tipo assim, olha, deu certo ou não, não deu certo, nesse caso o que aconteceu? Não deu certo ou por quê? Porque ele desceu,
-
-36:26.380 --> 36:36.380
-ele foi por esse caminho aqui, ele está aguardando um dia e ele foi consultar a conta, aqui, quando ele bate aqui, por quê? Ele já deu uma resposta tipo assim, a conta foi efetivada,
-
-36:36.380 --> 36:50.380
-então é assim que funciona o tópico, a gente tem esse tipo de comunicação em algumas chamadas, não são todas, mas chamada do CC, chamada do backoffice,
-
-36:50.380 --> 37:02.380
-aqui ó, a resposta do backoffice também é por tópico, se eu não me engano, efetiva cartão também é por tópico, aqui ó, efetiva cartão também é por tópico,
-
-37:02.380 --> 37:15.380
-é a mesma coisa, eu mando a informação lá pro via external task, bate lá na efetiva cartão, ó, tá tudo bem, tá tudo bem, se tá tudo bem eu passo pelo tópico,
-
-37:15.380 --> 37:24.380
-ele me responde, tá tudo bem, tá tudo bem, aí todo mundo anda e para aqui no segundo gator e fechando, tem paralelismo.
-
-37:24.380 --> 37:43.380
-Quando a gente fala em service task, service task é o que tem a engrenagenzinha, é como se falasse assim, olha, esse aqui é o todo, todas elas são service task,
-
-37:43.380 --> 37:57.380
-essa é a service task, essa é a service task, isso aqui é uma service task, isso aqui é uma service task, mas tem service task e service task, se você abrir aqui, tem um monte de service task.
-
-37:57.380 --> 38:22.380
-Aqui ó, service task, aí você vem, onde eu clicava, é que aqui eu copia e colo, onde que eu consegui ver se era uma service task, entende, documentation,
-
-38:22.380 --> 38:32.380
-aqui ó, achei, ó, a service task, ela pode ser uma external, uma Java class, uma expression, um delegated expression ou um connector,
-
-38:32.380 --> 38:47.380
-vou pegar uma external, aí aqui eu preciso colocar o tópico, enfim, eu vou mostrar nas caixinhas pra vocês, mas cada uma vai fazer alguma coisa,
-
-38:47.380 --> 39:01.380
-uma service task ela pode fazer um monte de coisa, beleza, vamos voltar lá pro comecinho aqui, que eu tava explicando pra vocês, então, já foi script, já foi os gators,
-
-39:01.380 --> 39:14.380
-como a gente pode pegar a proposta, se ela vai pra um lado, se ela vai pra outro, e agora a gente tá falando, vamos falar agora da service task, esse aqui é uma service task,
-
-39:14.380 --> 39:32.380
-esse task só que vocês podem ver, ela é um HttPostAsync, o que é esse HttPostAsync? Agora eu vou explicar pra vocês o conceito do que é, uma service, um connector e o que é uma external task,
-
-39:32.380 --> 39:44.380
-e qual que é a diferença dos dois e quando a gente usa os dois, só que vocês entenderam o histórico, quando foi construído o papete laranja, lembra que todo mundo se baseou no papete laranja,
-
-39:44.380 --> 39:59.380
-a nossa estrutura inteira é baseada no papete laranja, naquela época de construção o pessoal não tinha o conceito de connector, o pessoal tinha o conceito de external task,
-
-39:59.380 --> 40:11.380
-porque tipo assim, o pessoal não já usa tecnologia e tal, então todo mundo construiu a informação, de pegar informação e levar informação external task, mas aí o pessoal foi descobrindo que passando alguns anos,
-
-40:11.380 --> 40:24.380
-o pessoal foi descobrindo que existe um connector, qual que é a diferença básica dos dois, de uma external task e um connector? O connector ele é o cara que ele bate na portinha da API,
-
-40:24.380 --> 40:40.380
-ele bate diretamente, ele não tem um layer, não tem um cara que é meio termo ali, ele chega, então por exemplo, esse cara, esse cara é um connector, esse cara específico, ou seja, eu pego a informação que é essa aqui,
-
-40:40.380 --> 40:52.380
-então o que eu mando hoje para o direcionador, que é a primeira caixinha lá, que é ele que vai falar para mim, o seguimento, se o cara ele é elegido ou não é, ele vai falar se o cara está fazendo como que está no vacem,
-
-40:52.380 --> 41:05.380
-ele faz várias coisinhas, a gente precisa pegar essa informação e eles tem que me devolver, e o que eu como C8 mando para eles, então aqui não é informação de back, é informação do C8,
-
-41:05.380 --> 41:21.380
-porque esse é o body que eu estou mandando para eles, eu estou mandando para eles a IDPersona, fluxo, subfluxo e a entrada, e aí a entrada tem que ter um objeto, ele tem agência e ele tem agência alugada.
-
-41:21.380 --> 41:37.380
-Subfluxo, tem assim, hoje a gente tem o subfluxo que é aqui, mas você já ouviu falar da laranjinha, você sabe o que é isso ou não?
-
-41:37.380 --> 42:03.380
-O que é a laranjinha? Hoje, imagina assim, uma pessoa vai na agência e a pessoa, sei lá, já teve esse caso, a pessoa está literalmente com uma cama, está acamada e ela foi tipo de maca para a agência, já rolou isso?
-
-42:03.380 --> 42:13.380
-A pessoa não consegue passar pela porta magnética, não tem como, não tem como abrir, a pessoa não consegue entrar fisicamente na agência, beleza?
-
-42:13.380 --> 42:30.380
-Aí a laranjinha foi uma solução que criaram para esse tipo de situação, situações muito específicas, situações do tipo assim, ah, eu quero, um gerente vai pegar um carro e vai lá numa fazenda, lá no meio do mato, e vai abrir conta lá no meio do mato.
-
-42:30.380 --> 42:40.380
-O que o cara precisa para abrir uma conta? Ele precisa de uma maquininha? E aí o que ele utiliza? Ele utiliza a laranjinha. A laranjinha, você vai fazer o que?
-
-42:40.380 --> 42:51.380
-A laranjinha, ele literalmente acha que é mais que uma máquina de cartão de bebê? É uma máquina de cartão de bebê. Então a gente pegou o nosso sistema e incluiu dentro da maquininha.
-
-42:51.380 --> 43:05.380
-Então hoje o gerente, ele tem a possibilidade de pegar a maquininha, então pensa no cara que está aclamado lá fora, não consegue entrar na agência, um cara que está de cadeira de roda, sei lá, ele pega a maquininha e vai lá fora, ele abre a conta fora da agência.
-
-43:05.380 --> 43:17.380
-Então a laranjinha, ela faz isso. E aí como que a gente sabe que, aí a gente abre um monte de propostas, porque a proposta em si, ela está passando no nosso fluxo.
-
-43:17.380 --> 43:39.380
-Ele é fluxo fígida, está abrindo a nossa jornada. Como que eu diferencio esse cara pelo subfluxo? O subfluxo ele vai me dizer, laranjinha, subfluxo corvã, subfluxo central, tem um outro tipo de modalidade, então o subfluxo ele que vai diferenciar a gente disso.
-
-43:39.380 --> 43:56.380
-Qual que é o subfluxo? A jornada em si é fígida, é a gente. Mas quem que é o subfluxo? O subfluxo hominidiano que é a gente, que é o nosso fluxo de abertura de conta na agência, é o subfluxo laranjinha.
-
-43:56.380 --> 44:10.380
-Isso, o fluxo é, o fluxo é sim. Isso, o subfluxo muda. Exatamente isso. E tem algumas outras áreas, o subfluxo atual, mas aí é coisa mais minuciosa.
-
-44:10.380 --> 44:25.380
-Mas enfim, o lance é, esse é o body que a gente está mandando para o pessoal lá, certo? Então aí eu estou falando de um connector. Eu estou literalmente pegando a informação e estou mandando para eles.
-
-44:25.380 --> 44:47.380
-É simples, rápido e fácil. Eu não tenho um cara que é um layer que está no layer, tá? Então esse aqui é, e aí a gente está fazendo um post, né? Tem como fazer um connector de post e eu posso fazer um connector de get, tanto para levar a informação quanto buscar a informação.
-
-44:47.380 --> 45:06.380
-Então esse é um exemplo de HTTP post. Eu tenho um cara aqui, esse cara aqui. Esse cara é o do IH8. Esse aqui eu tenho um HTTP, não sei se é um post também, então está aqui.
-
-45:07.380 --> 45:26.380
-Ele é um get, isso. Ali, pro direcionador, eu estou pegando informação e estou mandando para ele, que é um post. Aqui no caso, eu estou falando que é uma cidade que é o IH8, eu estou pegando informação.
-
-45:26.380 --> 45:40.380
-Nesse caso aqui, o que eu preciso deles? Eu preciso saber se a pessoa que eu estou fazendo a consulta, ela já tem um débito de conta. Ou seja, você foi lá e gastou o seu dinheiro. Você tem um cartão lá, está devendo.
-
-45:40.380 --> 45:53.380
-Está tipo, está devendo lá, tem uma conta e é aberta. Eu vou bater lá na porta do pessoal e falar assim, oh flaninho, esse CPF aqui, ele está devendo alguma coisa? Ele já tem um conto no nosso banco e ele está devendo alguma coisa?
-
-45:53.380 --> 46:02.380
-E aí o direcionador vai falar, não, não tem nada. Ou tem, tem alguma coisa. Por quê? Porque se o cara tiver algum débito, ele tem um aceite aqui.
-
-46:02.380 --> 46:13.380
-Ele vai abrir uma telinha para ele e vai falar assim, oh flaninho, você pode abrir uma conta, tudo bem? Pode abrir? Pode. Só que você tem que estar ciente que você tem débito na outra conta, tá bom?
-
-46:13.380 --> 46:24.380
-Se o dinheiro cair aqui nessa conta nova, a gente vai pagar a conta que está aberta na outra conta, beleza? É basicamente isso que a gente diz, essa é a lógica.
-
-46:24.380 --> 46:38.380
-E isso aqui, ele é um connector get. Eu estou pegando informação lá. Então, esse aqui é tipo assim, o ideal seria que tudo fosse construído em connector, tá?
-
-46:38.380 --> 46:52.380
-Por quê? Mas aqui, como eu digo, isso requer menos informação, ele é mais simples de você fazer, você está basicamente pegando uma informação e transportando em outra.
-
-46:52.380 --> 46:59.380
-Esse é o conceito de connector, beleza? Ele é mais simples.
-
-46:59.380 --> 47:13.380
-Aí agora, eu vou partir agora para external task. A external task, ela é um pouquinho diferente. A external task, como que ela funciona?
-
-47:13.380 --> 47:24.380
-Ela em si, a external task, pensa que ela é assim, dá para fazer no connector, só que ela é para propostas que são mais complexas, tá?
-
-47:24.380 --> 47:32.380
-Então, vamos pensar agora, eu vou te mostrar um exemplo de external task, que é do back-office.
-
-47:32.380 --> 47:42.380
-O back-office, como que funciona? Você sabe o que é o back-office, o que ele faz?
-
-47:42.380 --> 47:47.380
-Beleza. O que o back-office faz aqui com a gente?
-
-47:47.380 --> 48:00.380
-Eu tenho algumas condições que o back-office analisa. E o back-office, ele é literalmente pessoas, são pessoas que fazem uma validação humana.
-
-48:00.380 --> 48:09.380
-Então, algumas situações, eu preciso fazer uma validação humana. Precisa alguém olhar para a porta e falar assim,
-
-48:09.380 --> 48:15.380
-Beleza, tá certinho, pode continuar, ou não, isso aqui tá errado, não vou continuar.
-
-48:15.380 --> 48:19.380
-Quais são as situações que o back-office, ele entra aqui?
-
-48:19.380 --> 48:28.380
-Tá vendo que aqui eu tenho um gate de decisão? Tem aqui, tem esse cara, ele não e sim.
-
-48:33.380 --> 48:37.380
-Beleza. Esse cara, como que funciona?
-
-48:37.380 --> 48:42.380
-Se eu tenho alguma coisa com o back-office, eu vou descer, eu vou cair para o back-office.
-
-48:42.380 --> 48:48.380
-Se eu não tenho, eu vou por aqui. 90% das propostas passam por aqui, pelo não.
-
-48:48.380 --> 48:51.380
-Porque eu não tenho necessidade de passar para o back-office.
-
-48:51.380 --> 48:58.380
-Mas sei lá, 5%, 10% das propostas, ou até menos, elas passam por aqui.
-
-48:58.380 --> 49:04.380
-Por que? Precisa de uma validação humana. Em quais casos eu caio nesse sentido?
-
-49:04.380 --> 49:10.380
-Olha, quando tem way-out, upgrade em situação especial.
-
-49:10.380 --> 49:18.380
-O que é way-out? Dentro da parte de biometria, a gente tem a parte da biometria, que eu faço o escaneamento facial.
-
-49:18.380 --> 49:27.380
-Eu pego o escaneamento facial, e aí lá no celular o cliente pega o escaneamento para fazer o escaneamento da face.
-
-49:27.380 --> 49:35.380
-Só que a foto que o cara passou, o motor do pessoal de imagem que vê a foto,
-
-49:35.380 --> 49:39.380
-o motor olha e fala assim, tem alguma coisa errada.
-
-49:39.380 --> 49:46.380
-Ou o cara está de boné, ou o cara está com a luz baixa, eu não sei como te dizer especificamente o que é.
-
-49:46.380 --> 49:52.380
-Mas assim, o motor, que é um motor de validação deles, olha e fala assim,
-
-49:52.380 --> 49:56.380
-cara, não gostei, estou achando que precisa de uma validação humana.
-
-49:56.380 --> 50:00.380
-Então o que acontece? Cai para cá? Então o cara é classificado.
-
-50:00.380 --> 50:03.380
-A partir daquele momento, a proposta é classificada.
-
-50:03.380 --> 50:07.380
-Olha, você é um cara que vai precisar de uma validação humana. O cara desce.
-
-50:07.380 --> 50:10.380
-Upgrade. Qual é a situação de upgrade?
-
-50:10.380 --> 50:14.380
-Ah, o upgrade é assim, no segmento eu sou varejo.
-
-50:14.380 --> 50:19.380
-Só que eu chego lá para o gerente e falo assim, ah, mas o gerente eu não quero ser varejo.
-
-50:19.380 --> 50:22.380
-Eu quero tentar platear um uniclass.
-
-50:22.380 --> 50:26.380
-Eu tenho uma conta aqui, um investimento aqui, eu tenho dinheiro.
-
-50:26.380 --> 50:31.380
-Então, ah, eu acabei de conseguir um emprego novo, esse emprego novo eu estou ganhando X.
-
-50:31.380 --> 50:34.380
-Será que eu não consigo subir o meu segmento?
-
-50:34.380 --> 50:36.380
-E aí o gerente oferta para você.
-
-50:36.380 --> 50:43.380
-Só que aí é tipo assim, para você seguir esse upgrade, você tem que colocar uma foto de uma carteira de trabalho,
-
-50:43.380 --> 50:47.380
-você tem que provar que você tem um dinheiro a mais em algum lugar.
-
-50:47.380 --> 50:49.380
-Então, n situações.
-
-50:49.380 --> 50:52.380
-E aí você literalmente escaneia aquilo e manda essa informação.
-
-50:52.380 --> 50:54.380
-É um documento mesmo, assim.
-
-50:54.380 --> 50:58.380
-Imagina assim, a carteira, vamos supor que você conseguiu um trabalho recentemente.
-
-50:58.380 --> 51:01.380
-E agora você, tipo, dobrou seu salário.
-
-51:01.380 --> 51:05.380
-Aí você dobrou, você quer aumentar, você quer um seu seguimento melhor.
-
-51:05.380 --> 51:09.380
-E aí você pega, o cara pega a sua carteira de trabalho e escaneia mesmo.
-
-51:09.380 --> 51:13.380
-Coloca lá, escaneia o documento e vai enviar para os backups.
-
-51:13.380 --> 51:15.380
-E as situações especiais.
-
-51:15.380 --> 51:18.380
-Por exemplo, um cara, ele é menor.
-
-51:18.380 --> 51:22.380
-Ele quer ter uma conta, mas ele é menor de idade.
-
-51:22.380 --> 51:27.380
-E aí tem que ter um representante legal, ou seja, um maior responsável, um representante legal,
-
-51:27.380 --> 51:29.380
-que vai abrir a conta para essa pessoa.
-
-51:29.380 --> 51:32.380
-O titular é quem? É o menino de 15 anos.
-
-51:32.380 --> 51:36.380
-Só que ele precisa de um representante, porque ele é menor de idade e precisa abrir a conta.
-
-51:36.380 --> 51:38.380
-E aí também é uma situação especial.
-
-51:38.380 --> 51:44.380
-Ele também precisa de uma documentação, é outra que vai anexar várias informações.
-
-51:44.380 --> 51:48.380
-Todas essas informações que eu tenho, ele cai para o backups.
-
-51:48.380 --> 51:54.380
-O backups desce aqui e ele faz essa validação, certo?
-
-51:54.380 --> 51:59.380
-E aí que entra a external task.
-
-51:59.380 --> 52:01.380
-Por quê? Vamos olhar aqui.
-
-52:01.380 --> 52:03.380
-Eu tenho isso.
-
-52:03.380 --> 52:05.380
-Ele vai para o não ou para o sim?
-
-52:05.380 --> 52:09.380
-Então, eu tenho essas condições? Tenho. Entrei aqui.
-
-52:09.380 --> 52:15.380
-Ele entra aqui nessa caixinha que manda para o backups em si.
-
-52:15.380 --> 52:19.380
-Ele faz um view da proposta, porque é só um delegate.
-
-52:19.380 --> 52:21.380
-Ele está salvando informações.
-
-52:21.380 --> 52:23.380
-Mas é aqui.
-
-52:23.380 --> 52:31.380
-Então, o script, eu vou montar um payload gigante com um monte de informação.
-
-52:31.380 --> 52:34.380
-Olha o tamanho desse aqui.
-
-52:34.380 --> 52:38.380
-Cara, é um monte e um monte de informação que eu estou mandando.
-
-52:38.380 --> 52:40.380
-Eu monto o script.
-
-52:40.380 --> 52:43.380
-Com o script montado, eu vou mandar.
-
-52:43.380 --> 52:48.380
-Esse aqui é uma service task externa.
-
-52:48.380 --> 52:51.380
-Esse, ele comunica via tópico.
-
-52:51.380 --> 52:53.380
-E aí o porquê que é mais complexo? O porquê?
-
-52:53.380 --> 52:58.380
-Imagina que eu estou transitando todas as informações de documento.
-
-52:58.380 --> 53:06.380
-Eu estou transitando informação da pessoa, da pessoa que fez a requisição.
-
-53:06.380 --> 53:10.380
-Eu estou... tem um monte de transformação.
-
-53:10.380 --> 53:14.380
-Então, toda essa lógica, ela é mais complexa com o connector.
-
-53:14.380 --> 53:15.380
-O connector é muito assim.
-
-53:15.380 --> 53:19.380
-Olha, eu tenho essa informação. Me dá a informação de volta?
-
-53:19.380 --> 53:22.380
-Ah, leva essa informação? Busco essa informação?
-
-53:26.380 --> 53:30.380
-O connector, ele tem tanto o síncron quanto o assíncron.
-
-53:30.380 --> 53:33.380
-Tem as duas possibilidades.
-
-53:34.380 --> 53:38.380
-A externa task, ela é já mais robusta.
-
-53:38.380 --> 53:41.380
-Tanto que assim, como que a externa task comunica?
-
-53:41.380 --> 53:48.380
-Daqui, a informação que está aqui na externa task, ela vai bater em outro lugar.
-
-53:48.380 --> 53:50.380
-É um repositório.
-
-53:50.380 --> 53:54.380
-É tipo assim, cara, é um repositório, é como se fosse um BFF mesmo.
-
-53:54.380 --> 53:58.380
-É um programa cheio de informações criadas em Java.
-
-53:58.380 --> 54:02.380
-E essa informação, ela vai comunicar com o tópico.
-
-54:02.380 --> 54:07.380
-O tópico daqui vai bater no tópico do pessoal do outro time.
-
-54:07.380 --> 54:10.380
-E vai pegar a informação e vai transformar aquela informação.
-
-54:10.380 --> 54:13.380
-Vai fazer as validações dele e vai devolver a informação.
-
-54:13.380 --> 54:16.380
-Então, o connector, ele é muito direto.
-
-54:16.380 --> 54:18.380
-Ele é bater o valeu.
-
-54:18.380 --> 54:22.380
-Agora, como tem a externa task, ele tem um passo a mais.
-
-54:22.380 --> 54:25.380
-Além da informação que eu monto o objeto aqui,
-
-54:25.380 --> 54:29.380
-eu envio daqui, do C8, sai para a externa task a informação.
-
-54:29.380 --> 54:31.380
-Sai da externa task.
-
-54:31.380 --> 54:35.380
-Da externa task, passa pelo tópico para ir para outro time.
-
-54:35.380 --> 54:37.380
-Ou seja, eu tenho um cara a mais.
-
-54:37.380 --> 54:40.380
-Aí o pessoal fala, ah, beleza.
-
-54:40.380 --> 54:45.380
-Mas assim, a externa task gera demora, ela é mais robusta.
-
-54:45.380 --> 54:47.380
-Eu tenho um outro cara que está no meio.
-
-54:47.380 --> 54:51.380
-É mais um lugar que a gente tem que mexer, dar manutenção.
-
-54:51.380 --> 54:55.380
-Tipo assim, ele é, entre aspas, um cômodo, sabe?
-
-54:55.380 --> 54:57.380
-Um meio complexo.
-
-54:57.380 --> 55:00.380
-Dá para fazer tudo por connector? Dá.
-
-55:00.380 --> 55:02.380
-Dá para fazer.
-
-55:02.380 --> 55:04.380
-Só que tem coisas aqui que já são muito antigas.
-
-55:04.380 --> 55:08.380
-Por exemplo, esse cara, se a gente quiser fazer um connector desse cara,
-
-55:08.380 --> 55:10.380
-vai dar muita dor de cabeça.
-
-55:10.380 --> 55:12.380
-O backoffice.
-
-55:12.380 --> 55:14.380
-Tipo assim, dá para fazer? Dá.
-
-55:14.380 --> 55:17.380
-Mas se eu quiser fazer um connector de backoffice,
-
-55:17.380 --> 55:19.380
-vai dar muita dor de cabeça.
-
-55:19.380 --> 55:21.380
-Então, a gente fez primeiro uma avaliação.
-
-55:21.380 --> 55:23.380
-Coisas simples.
-
-55:23.380 --> 55:25.380
-A gente fez uma modernização.
-
-55:25.380 --> 55:27.380
-A avaliação, esse cara aqui.
-
-55:33.380 --> 55:35.380
-Tem um cara que estava aqui.
-
-55:37.380 --> 55:39.380
-Consulta débito.
-
-55:39.380 --> 55:41.380
-Esse cara aqui.
-
-55:41.380 --> 55:44.380
-Esse cara, ele era um connector.
-
-55:44.380 --> 55:46.380
-Esse consulta débito.
-
-55:46.380 --> 55:48.380
-Transformamos ele em connector.
-
-55:48.380 --> 55:50.380
-Desculpa, ele era uma externa task.
-
-55:50.380 --> 55:52.380
-Transformamos ele em connector.
-
-55:52.380 --> 55:54.380
-Hoje ele faz via connector.
-
-55:54.380 --> 55:57.380
-Não faz mais via consulta débito.
-
-56:01.380 --> 56:05.380
-Então, esse TW2, na verdade, virou um connector.
-
-56:05.380 --> 56:07.380
-O que teve que ser feito?
-
-56:07.380 --> 56:09.380
-A pessoa que fez,
-
-56:09.380 --> 56:13.380
-entrou dentro da externa task,
-
-56:13.380 --> 56:17.380
-analisou tudo que a externa task está levando de informação,
-
-56:17.380 --> 56:22.380
-o que ela está fazendo, o que ele está consultando, o que ele está...
-
-56:22.380 --> 56:26.380
-E aí, ele percebeu que eram coisas mais simples.
-
-56:26.380 --> 56:28.380
-Era tipo bater o valeu.
-
-56:28.380 --> 56:32.380
-Então, ele conseguiu criar um body, está vendo?
-
-56:32.380 --> 56:34.380
-Ele criou um body mais simples.
-
-56:34.380 --> 56:37.380
-Antes tinha uma externa task só para isso.
-
-56:37.380 --> 56:39.380
-Só para levar dado origem,
-
-56:39.380 --> 56:41.380
-credencial, tipo 2 e valor.
-
-56:42.380 --> 56:45.380
-E aí, ele percebeu que isso aqui é simples.
-
-56:45.380 --> 56:47.380
-Não precisava de uma externa task.
-
-56:47.380 --> 56:49.380
-Eu vou encontrar o caminho para um connector.
-
-56:49.380 --> 56:53.380
-Diferente do backoffice.
-
-56:53.380 --> 56:54.380
+O que acontece é o seguinte
+A
+A
+A plataforma é a gente que cuida aqui
+Tá? Essa plataforma é nossa
+É a nossa SPED
+Nós subimos ela
+Tá? E aí vocês usam
+Com o cliente dela
+Assim
+Então assim, quem sobra a versão
+Quem atualiza
+Tudo é a gente aqui
+Então assim
+É
+A gente está na última versão
+E é a versão 18
+Tem
+Tem uma questão do voltar
+Mas eu acho que
+Isso aí
+É
+É o de menos
+Porque o que eu não
+O que eu não
+O que eu não
+Entendi aí
+É porque
+Você colocou
+Eles como se fosse
+Um
+Um sistema
+Meio que assíncrono
+Ele deveria ser
+Em modo cascata
+E ter
+O que é a tarefa
+Que é o formato
+Que o pessoal
+De plataforma
+Designou
+Para a plataforma
+Funcionar
+Entendeu?
+Porque se você
+Fizer assim
+Eu te entendo
+Mas isso aí
+É uma questão de mercado
+A plataforma do Itaú
+Ela é toda
+Modificada
+Então assim
+Tem que seguir
+Uma estrutura
+Do jeito que o pessoal
+Desenvolveu ela
+Eles pegaram
+Aquele cabunda
+De mercado
+Pegaram a imagem
+O fonte dela
+Mexer numa
+Cacetada de coisa
+Entendeu?
+E personalizou
+Para o mundo
+Do Itaú
+Tá entendendo?
+Isso é
+É
+Isso às vezes
+Isso
+Às vezes
+Isso é uma bosta
+Tá?
+Mas assim
+Infelizmente
+A gente tem que lidar
+Com isso
+Eu te aconselho
+A colocar tudo
+Em modo cascata
+E aí a gente
+Vê a questão
+Do botão voltar
+Para poder usar
+A ferramenta
+Implementada
+Por eles
+Porque aí vai funcionar
+Porque o voltar
+Do jeito que está
+Hoje no Omnichannel
+Ele está implementado
+E eu acredito
+Que ele seja
+De um formato
+Bem antigão
+Tá?
+Isso
+Isso
+Sim
+Você colocou
+Sobre fluxo
+Eu entendi
+Uhum
+E ele não é sequencial
+Onde é que você está
+O que você
+Tá
+Mas
+Mas
+É
+Mas você está usando
+Vai lá
+Vai lá
+Na plataforma
+E pega o
+Deixa eu pegar um exemplo
+Pega o Conta para Filhos
+Lá
+O Conta para Filhos
+Eu acho que está
+Está muito
+Muito nesse sentido
+Apesar de eu estar usando
+Sobre fluxo
+Dentro do próprio fluxo
+Porque a gente
+Aqui a gente
+Tem muitos
+Então
+E é uma espécie
+Só que toma conta
+Então
+Não tem tanto esse problema
+De
+De
+De concorrência
+Que vocês têm
+Mas
+Aquele do Conta para Filhos
+Ele tem uma determinação
+Similar
+Ao que você quer
+Tá?
+E aí
+O que que acontece
+Quando você fez isso
+Você colocou tudo
+Em paralelo
+Né?
+Porque aí você vai fazer
+A mensageirinha
+A mensageirinha
+Chega
+Tá vendo?
+E aí você pega a mensagem
+E faz o que você precisa
+Eu entendi isso
+Só que assim
+A gente tem
+Que lidar com ele
+Como se fosse
+Um processo sequencial
+Entendeu?
+Mas não
+O caminho
+Não está errado não
+Tá?
+É só ajuste
+Tipo assim
+Você colocar
+Em um caminho sequencial
+A mensagem do Voltar
+Que você está usando
+Eu entendi
+Porque você pega o Voltar
+Já dispara a mensagem
+E já volta
+E aí você usa
+O
+O
+Como é que chama
+Essa cartinha
+E eu esqueci o nome dela
+Essa bendita
+Peraí
+Deixa eu pegar aqui
+Eu entendi o seu ponto
+Aí como é que você fez
+Aí você pegou
+Por exemplo
+Você pegou a cartinha
+E foi
+Né?
+Aí de acordo
+Com a cartinha
+Você manda a mensagem
+Ele recebe
+E ele vai para aquele ponto
+Que você precisa
+Não é isso?
+O Global Message
+Né?
+É
+Tem
+Então
+Mas é porque é o seguinte
+A gente tem que conversar mais
+Porque tem muita coisa
+Que eu estou te falando
+Você vem do mercado
+Você vem
+Sua cabeça está pura camunda
+Entendeu?
+Tipo assim
+O camunda funciona assim
+Você sabe que você vem do mercado
+Lá funcionava desse jeito
+Só que aqui no Itaú
+Os caras
+Fizeram um monte de coisa lá
+Vou concordar com
+Eu te juro
+É
+Eu te juro que eu não concordo
+Com tudo que eles fizeram
+Mas eu cheguei
+Já estava pronto
+Então vou fazer o que?
+Não vou
+Não dá para dar uma queda de braço
+Com um negócio
+Que está sendo usado
+Com sei lá
+O Itaú inteiro está usando isso aí
+Né?
+Né?
+Uhum
+Tá
+É porque
+Você setou lá
+Ele vai, né?
+Por exemplo
+Você pegou o Bizu Ski lá
+Setou
+Ele vai para aquele cara
+Que você quer
+Isso aí
+Isso aí está certo
+Você fez certo
+Agora abre lá no
+Você está com o cockpit aí?
+Abre ele aí
+Deixa eu te mostrar um esquema lá
+Que talvez
+Vai te mudar um pouco a visão aí
+Mas não é
+Mas é coisa que nós
+Já já tem para trás
+E que eu também não estou usando, tá?
+A gente está tirando isso aí
+Mas só para você entender
+Como que as coisas chegam lá?
+Eu acho que você está compartilhando
+Só o Camunda aí, né?
+Depois você compartilha o
+Ah, beleza
+Deu
+Aí se você for lá nos
+Nos
+Nos
+Process
+Vai lá nos Process
+Aperta o F5
+Aí ele recarrega
+Aí
+Desce aí
+Vê se você acha uma abertura
+Quanto corrente
+Tá aí, ó
+A última aí dessa lista
+Isso aí
+Muito nessa aí
+Tá vendo que esse cara aí
+O que ele faz?
+Ele recebe a abertura
+Quanto corrente
+Tá vendo?
+E encaminha para o fluxo
+Que você quer usar
+Aí tem corbana
+Tapete laranja
+Lão de peixe
+E tudo mais, tá?
+Depois que você faz isso aí
+Aí que ele vai para aquele início lá
+Tá?
+Agora
+É
+Agora volta aí
+Volta lá nos Process
+Lá e abre o
+Conta Filhos
+Lá para você ver
+Conta para Filhos
+Que é um dos que a gente fez
+Por último
+É
+Abertura Conta Menor
+Ali, ó
+Abertura de Conta para Menor
+Chega lá no início dele
+Esse aí
+A gente já colocou
+Para ele iniciar sempre lá
+Tá vendo?
+Direta a cartinha aí, ó
+E esse cara está funcionando
+Aí o que que acontece?
+Se você for ir para frente
+Vai para frente aí
+Você vai ver que ele tem um monte de
+Cadê?
+Era melhor que a gente baixar para você ver
+Mas ele tem
+Aí está vendo
+Consentimento Bacenha
+Está vendo?
+Tem um monte de subfluxo
+Que aí você consegue colocar
+Desse formato aí
+Você não precisa fazer
+No formato que ele está trabalhando aí, tá?
+Mas é bom seguir essa ideia aí
+Aí
+Eu te falo assim
+Tudo quanto é coisa de recurso novo
+A gente está tentando usar
+Mais nesses fluxos
+E
+E esse aí seria um exemplo
+Você tem um outro
+Deixa eu
+É o não logado
+Chama não logado
+Volta lá
+Volta lá nos próximos
+É uma tremenda parte
+Aí clica ali, ó
+É
+Clica ali embaixo
+Nesse botão azulzinho ali, ó
+Isso
+Aí ele abriu
+Viu?
+É isso aí que você quer
+Entendeu?
+Aí você tem um exemplo
 Por quê?
-
-56:54.380 --> 56:57.380
-Porque esse cara aqui é monstruoso.
-
-56:57.380 --> 57:02.380
-Esse cara é monstruoso de efetiva conta.
-
-57:03.380 --> 57:05.380
-Efetivação de conta.
-
-57:07.380 --> 57:09.380
-Cadê a efetivação de conta?
-
-57:11.380 --> 57:13.380
-Aqui, efetivação de conta.
-
-57:13.380 --> 57:15.380
-Esse também é outro cara monstruoso.
-
-57:15.380 --> 57:17.380
-Eu tenho que levar um monte de informação.
-
-57:17.380 --> 57:19.380
-Eu estou efetivando uma conta.
-
-57:19.380 --> 57:22.380
-Eu tenho que ter todos os dados preenchidos.
-
-57:22.380 --> 57:27.380
-Eu tenho que saber basicamente tudo o que o cara está levando.
-
-57:27.380 --> 57:30.380
-Não é impossível fazer isso? Não, não é.
-
-57:30.380 --> 57:32.380
-Não é impossível.
-
-57:32.380 --> 57:35.380
-Mas a gente tem o capacidade de escolha.
-
-57:35.380 --> 57:37.380
-Hoje estou funcionando.
-
-57:37.380 --> 57:39.380
-E a gente trabalha assim.
-
-57:39.380 --> 57:41.380
-Se um dia chegarem e falarem que tem que mudar,
-
-57:41.380 --> 57:42.380
-porque tem que mudar.
-
-57:42.380 --> 57:43.380
-A gente tem que parar, sentar,
-
-57:43.380 --> 57:45.380
-tentar estudar o melhor possível
-
-57:45.380 --> 57:47.380
-para mandar isso via connector.
-
-57:47.380 --> 57:49.380
-Você conseguiu entender mais ou menos
-
-57:49.380 --> 57:51.380
-a visão do que é um connector,
-
-57:51.380 --> 57:53.380
-do que é uma external test?
-
-57:53.380 --> 57:55.380
+Você pode pegar o consentimento
+De abertura de conta
+Que é esse aí
+Que é o do Bacenha
+Mais esse conta pra filhos
+Usar ele como
+Como
+Como
+Exemplo
+Pra você fazer o seu
+E eu
+É
+Que aí já
+Não, e você entendeu o ponto?
+Porque aí o que acontece?
+Você já sai
+Você já sai
+Você já sai
+Como se entender nisso
+Como é que funciona
+Como é que funciona o fluxo
+Você já sai
+Você já sai
+Desenvolvendo já
+Já já está
+Tudo pronto
+Porque tem um monte de
+De macetinha
+Que a gente foi quebrando aqui
+Que a gente foi apanhando
+E talvez você já pegue
+O negócio mais mastigado
+Entendeu?
+Tipo assim
+Você não precisa apanhar
+O que a gente já apanhou
+Entendeu?
+Aí tá vendo
+Tá vendo essa setinha aí?
+Solicita nova análise
+E tudo
+É os encaminhamentos
+Que a gente faz
+Aí por exemplo
+Aqueles encaminhamentos
+Vem que você vai fazer
+De cartil
+Você pode fazer desse jeito
+Que ele já vai direto
+Tá vendo?
+Solicita nova análise
+E tudo mais
+É isso aí
+Aí aí você pode ver
+Que ele também tem
+Um subfluxo interno
+Tá vendo aí?
+Onde tá a consulta
+Rescissão bacente
+Então não fica um negócio
+Muito gigante
+Clica aí nessa setinha
+Pra baixo
+Pra você ver
+Aí a gente faz
+Um subfluxo interno
+Aí ó
+Ali ó
+Consulta a rescissão bacente
+Aonde que tá
+Isso aí
+Viu?
+Tá vendo?
+Aí você
+É
+E esse aí
+Fica dentro do próprio fluxo
+Então pra não ficar
+Aquele negócio
+Bagunçado
+Omerado demais
+A gente vai
+Vai colapsando eles
+Não
+Esse aí
+Não
+Esse aí
+Já é no mesmo
+Tá?
+Esse aí
+Ele é um colapsado
+Mas é no mesmo
+Então você pode
+Colapsar
+Tanto fora
+Quanto dentro
+Tá?
+E aí você consegue
+Fazer
+Esse aí
+Pra mim
+Cara
+É o que
+É o que
+Tá mais bem
+Desenvolvido
+Que essa abertura
+Conta menor
+Você pode puxar ele
+E fazer um backup
+Um download dele
+Se você clicar lá
+Você consegue fazer
+E aí você segue
+Porque tem geração de pack
+Tem tudo pronto aí
+Clica ali
+Na setinha
+Isso aí
+Vai lá no
+Deployment ID
+E aí você coloca
+Lá na frente
+O download
+É isso
+Cara
+Vai nessa linha aí
+Que você vai
+Você vai
+É
+Você vai ter mais sucesso
+Entendeu?
+Porque assim
+Porque existe um monte
+De
+De
+De
+De armadilhas
+E aí a gente já resolveu
+Quase todas
 Beleza?
+E aí a gente usa
+Muito recurso aí
+Que você pode aproveitar
+E aí
+Você entendendo os recursos
+Aí você pode brincar
+Você pode usar
+Sua criatividade
+Pra ver o que
+Que é melhor
+Em cada
+Condição sua ali
+Beleza?
+Aí
+Aí
+Aí você pode falar
+Quem que você tá conversando
+Lá com o Rafa?
+O Ailton
+O Rafa
+Tá
+Beleza
+Aí depois
+Depois da hora que você tiver um tempinho
+Se você quiser me chamar
+Pra conversar com o Rafa lá
+A gente tenta te ajudar
+Porque o Rafa é um cara
+Que trabalha com nós aqui
+Sabe?
+É
+Ele trabalhou com a gente aqui
+Então assim
+É um cara que eu tenho
+Muita proximidade com ele
+Aliás
+É o que eu mais tenho
+Tá?
+Então talvez a gente consiga
+Consiga
+Puxar ele
+Pra poder
+Pra poder ajudar a gente
+A pensar num
+Um
+A ter mais ideias
+Né?
+Pra fazer aquele brainstorm
+Que a gente vai colocar num monte de ideia
+E depois a gente descarta
+Isso que ele já tem que ter
+Beleza?
+Mas
+É um caminho legal isso aí
+Viu?
+Um
+Uh-huh
+Uh-huh
+Uh-huh
+Uh-huh
+E outra coisa
+Que talvez eu não tenha te falado
+O que que acontece?
+Existe uma questão do Kafka
+Você entendeu como é que funciona
+O Kafka integrado
+Com essa plataforma?
+Que também é
+É
+O pessoal que desenvolveu interno aqui
+Aliás
+Quem desenvolveu nessa plataforma
+Foi eu
+Não
+Volta lá
+Deixa eu te explicar
+Esse ponto também
+Que ele é muito importante
+Pra você desenvolver algumas coisas
+Quando precisa
+Mas
+Volta lá naquilo que eu te passei
+Naquele
+É
+Tem
+Tem tudo
+Quando é
+Eu tenho vários lugares aí
+Que tem o
+Tem vários lugares aí
+Que tem o
+Atualizar a proposta
+A gente chama de
+Atualizar a proposta
+Mas eu queria que você baixasse
+Pra gente ver lá no Camando
+Você baixou ele aí?
+No Modeler
+Joga ele lá no Modeler
+Pra eu te mostrar
+Ali
+A abertura menor ali
+Hoje
+Tá ali
+Tá ali lá
+Isso
+Aí no Modeler
+Tem uns pontos
+Vamos lá
+Deixa eu te mostrar
+A integração do Kafka com ele
+É quase que
+Instantânea e inativa aí
+Tá
+Então
+Cadê o fluxo?
+Tá aí
+Isso
+Vai pra frente aí
+É
+Aí tá
+Onde tem esses
+Enriquece proposta
+Enriquece proposta direcionada
+Clica nele
+Pra você ver
+Isso
+Aí
+Quando você
+Vou ver aí
+Vai lá nos inputs
+Esse tipo de coisa aí
+O que ele vai fazer?
+Ele vai enriquecer uma proposta
+E aí você vai colocar
+Um novo
+Democratiza proposta aí
+Tá
+Aí ele vai
+Ah não
+Esse aí não vai pro Kafka não
+Esse aí
+Ele vai por dentro da plataforma
+E se ele coloca
+Esse novo
+Democratiza proposta
+O que é essa democratização?
+Ele vai pegar os dados
+Os dados que você colocar aí
+Os dados da proposta
+Abre aí
+Isso aí pra todo ponto
+A gente usa
+Toda vez que a gente
+Pega algum dado
+Alguma informação
+A gente joga isso aí
+Porque ele vai lá
+Pro data match
+Que é o data lake
+Que o pessoal usa
+Tá
+Aí tá vendo aí
+Quando é que tem jornada
+Proposta direcionada
+Segmentando
+A gente vai incrementando
+E cada vez que você
+Coloca dados
+Ela é incremental
+Você colocou dados aí
+No outro você colocou mais
+No outro você colocou mais
+Vai sumarizando
+Você não precisa colocar todos
+Toda vez
+Você coloca um pouco aí
+Um pouco mais pra frente
+Um pouco mais pra frente
+Lá dentro da plataforma
+Ele tá sumarizando
+Esses dados
+Aí lá pra frente
+Tem um
+Vamos lá no
+Deixa eu só
+Vai no XML dele aí
+Pesquisa por Kafka
+Dá um CTRL F Kafka
+Isso
+Democratiza Kafka
+Esse cara aí
+Tá vendo que ele colocou um true?
+O que que acontece?
+Quando você colocou true aí
+Ele simplesmente vai mandar
+Um evento pro Kafka
+E aí
+Você coloca esses dados aí
+E se você foi pra cima
+Você tá vendo que você tem
+Um status da proposta ali
+Aí ele colocou uma variável
+Mas você pode colocar
+Um status da proposta
+Aí a gente tem vários status
+Depois eu vou te passar
+Um banco de status
+Que a gente tem
+E aí ele vai mandando
+E ele dispara pro Kafka
+Lá no V2
+Que é o setup
+Tá?
+Eles
+Eles
+A gente tá mudando
+O sistema de envio pra eles
+Por aí
+Então a gente coloca aí
+Coloca os campos
+Que a gente quer
+E ele já coloca
+Na fila do Kafka
+Não precisa de você fazer nada
+Automatizado
+Então colocou aí
+Colocou o status que você quer
+Colocou os campos que você quer
+Aí automaticamente
+O pessoal do setup já recebe
+Bem simples
+Tem que configurar a Kafka
+Né?
+True
+Coloca os campos que você quer
+Aí no dados proposta
+Tá vendo lá embaixo?
+Dados proposta
+Dados proposta
+Coloca os campos que você quer
+Tá vendo?
+Aí no
+Metadata Schemeless
+Aí você tem que colocar
+Esse
+Esse
+Esse
+Cifrãozinho aí
+Tá vendo?
+Mas você coloca
+Data
+Você coloca os dados
+Que você quer aí
+Coloca
+Coloca aí de proposta
+O status da proposta
+Aí ele já dispara um evento
+Lá no Kafka
+Que o pessoal recebe
+Entendeu?
+Então assim
+Em muitos pontos
+A gente faz
+A gente faz
+Inclusão
+Inclusão
+De democratização
+De dados lá
+No Data Lake
+E envia pro Kafka
+É desse jeito
+Você não precisa desenvolver
+Uma ET
+Pra enviar nem nada
+Aí cara
+Você quer fazer um
+Service to REST
+Volta lá
+Que eu vou te mostrar
+Acho que eu te mostrei ontem
+Né?
+Que você não precisa
+Também criar uma ET
+Pra isso
+Você faz
+Aí dentro também
+Vai no direcionar
+Proposta
+Acho que aí dentro tem
+Abre esse
+Esse cara
+E clica
+No
+No
+No azulzinho ali
+Isso
+Clica aí
+No
+No
+No
+No
+Nc2
+Direcionador
+Tá vendo aí
+Olha pra você ver
+O que o pessoal desenvolveu
+Desenvolveu
+Um cara
+Que faz a chamada
+E você coloca o payload
+Aí ele já vai direto
+Você não precisa fazer ET
+Também pra isso
+Aí você consegue fazer
+Desse tipo
+Que esse
+HTTP
+Post
+Template aí
+Tá?
+Então quer fazer
+Essa chamada
+Quero fazer envio
+Pro Kafka
+Você consegue fazer
+Direto com a mundo
+Eu quero fazer
+É
+É
+Serviço post
+Eu consigo fazer
+Direto com a mundo
+Você não precisa
+Criar uma ET
+Pra isso
+Hoje
+Atualmente
+E
+Ah
+Eu quero
+Consumir um dado
+Infelizmente tem que fazer
+Não tem jeito
+Vai ter que fazer um ET
+Mas nesses casos
+Aí você consegue fazer
+Entendeu?
+Então assim
+Pensando em arquitetura
+Tem que pensar nisso
+Você tem que
+Olhar pra aquele
+Aquela gama
+De ferramentas
+De ET
+Que a gente tem
+Que a maioria
+Já tem coisa pronta lá
+E
+Ligando os pecinhas
+Mano
+É bem
+Bem nesse sentido
+Tá?
+É
+Esse é o conector
+É
+Esse é o conector
+É bem
+É bem mais
+Entendeu?
+Só que
+O que que acontece?
+Vamos lá
+Isso é uma informação
+Talvez
+Que você não tem
+Toda vez que você
+Queira um conector
+Você pega o token
+Do Camunda
+E
+Cresce ele
+Então
+Tem que sempre
+Tomar um cuidado
+Pra quando
+For encher
+De conector
+De mais
+Não crescer
+Muito o token
+Porque isso
+Pesa a plataforma
+E pesando a plataforma
+Você vai ter
+Perda de performance
+Tá?
+Ele faz
+Ele faz
+É
+Ele faz
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+É
+Alguns pontos
+Algum
+Serviço
+Você vai
+Chamar
+Que vem
+Muita
+Informação
+Você faz
+Uma ET
+Por quê?
+Porque ali
+Dentro da ET
+Você
+Pega
+Enxuga os dados
+E entrega
+Só o que você
+Precisa
+Ah
+Se eu estiver nessa
+Ideia
+Não briga com eles
+Não
+Deixa eles
+Entendeu?
+Eu tô falando sério
+Deixa eles
+Porque assim
+Cara
+Não compensa não
+Porque assim
+Se os caras
+Resolveram fazer
+Desse jeito
+Deixa eles
+Fazer
+Depois eles vão apanhar
+Mas assim
+Você pode
+Só fazer um alert
+Mas gente
+Pensa um pouquinho
+Se o token
+Não vai crescer muito
+Porque a gente
+Vai começar a receber
+Muito dados
+É
+Do conector
+E
+E aí
+Vai começar a crescer
+Muito
+A variável
+Dependendo da quantidade
+Que você crescer
+Pode estolar
+Entendeu?
+É
+Então assim
+Só tomar cuidado
+Com isso
+Ah
+Se caso
+Já são
+Mas aí
+Você vai enchendo
+Mas vai buscando
+Toda hora
+Que ele vai lá
+Ele vai no serviço
+E traz
+Um mastodonte
+Lá de informação
+Aí você vai jogando
+Isso tudo aí
+Dentro do token
+Uma hora
+Não vai ficar rápido
+Vai ficar lento
+Os primeiros
+Vai ficar rápido
+Depois
+Foi
+Foi mesmo
+Foi mesmo
+Não
+Mas não ia ter não
+Não
+Não é
+Até não
+Não é
+Até não
+Pode ficar tranquilo
+Não é
+Isso é a plataforma
+Que pesou mesmo
+E foi a questão
+Do banco de dados
+Eu tava aqui
+Eu tava
+Na verdade
+Eles não fizeram nada
+Foi a gente
+O que que fez
+Não
+Enfim
+Muito ao contrário
+A ET
+Desse sobrecarrega
+Porque o que acontece
+Quando você tá aí
+Você tá fazendo tudo aí
+Dentro da plataforma
+E aí você tá usando
+Banco de dados aí
+Toda vez que você manda
+A PT
+A ET resolve
+E tá resolvendo fora
+É um processador
+Uma memória apartada
+Pra resolver
+Então
+Você entendeu
+Então assim
+Toda vez que você tá lidando
+Com a plataforma
+Conector
+Você tá lidando
+Tudo dentro da plataforma
+A plataforma vai pesar
+Ela vai ter um monte
+De
+De
+De coisas
+Que ela vai fazer
+E ela vai pesar
+O banco de dados
+Por isso
+Já faz
+Fatlock
+Uma série de coisas
+Agora
+Quando você sai disso
+E vai pra ET
+Você tá tirando
+Carga
+De dentro
+Da plataforma
+E você tá mandando
+Pra um aplicativo externo
+Fazer
+Agora
+Por que que a ET
+É vilana?
+Talvez porque
+Ela tá mal desenvolvida
+Entendeu?
+Pode ser isso
+Mas aí tem que ver
+Ou também
+Ela tá mal
+Mal dimensionada
+Vai ser que
+A carga
+Pra ela
+Tá muito pesada
+E ela tá mal dimensionada
+Tem pouco
+Pode lá
+Mas assim
+O que eu tô te falando
+É o seguinte
+O Fábio
+Não compensa
+Comprar briga
+Tá?
+Não
+Não vamos
+Comprar briga
+É
+Não vamos
+Comprar briga
+Eu vou te contar
+Por que
+Porque a gente
+Tá num
+Processo
+Que eles já
+Reclamaram
+Então
+Deixa
+Vamos poupando
+Os quentes
+Faz o que
+Tem dia que eles
+Querem
+Entrega
+Depois
+Quando tiver lá
+Que tiver um brainstorming
+Que tá fazendo
+Ou que tiver
+Começando a levar
+Algumas coisas
+Pra teste
+Aí você falou
+Cara
+Eu pensei
+Negócio aqui
+O que você acha
+Entendeu?
+Aí vai
+Introduzindo a ideia
+Aos poucos
+Entendeu?
+Mas por enquanto
+Só concorda com isso
+Faz o que você quer
+Tá?
+E depois
+Eu acho que é o seguinte
+A gente vai conversando
+Eu vou te puxando
+Eu vou conversando
+Com o tempo
+Você vai ter mais
+Maturidade
+Pra conversar com eles
+Por quê?
+Porque
+Não
+Não
+Mas
+Tá?
+Então
+Hum?
+Hum?
+Hum?
+Né?
+Hum?
+Não, isso é...
+Eu entendi o ponto. Eu te entendo, tá?
+É...
+Mas o que acontece? Aí a gente vai colocar
+um porém aí, tá?
+É...
+Vamos fazer as coisas o dia que eles querem.
+Tá?
+Hum? Não, mas
+porque você tem dois meses de casa, mano.
+Dois meses de casa não dá pra você entender
+o fluxo aqui dentro, mas funciona. É muita coisa.
+É muita informação.
+Tipo assim, cara, eu com seis meses
+é que eu comecei a querer pegar as manhas.
+Entendeu?
+Tem coisas aí que eu falo assim,
+tem coisas aí que o pessoal aí vem pedir ajuda
+pra gente hoje, porque eles também não sabem.
+né?
+Né?
+Hum-hum.
+Hum-hum.
+É...
+Hum-hum.
+Hum-hum.
+Hum-hum.
+Hum-hum.
+Não, o que a gente tem que fazer agora, o caminho
+que a gente tem que seguir, eu falo, é
+exatamente esse, entendeu?
+É criar esse... Tirar esse
+preconceito criado, entendeu?
+E esse preconceito criado,
+como é que a gente vai tirar?
+É meio que abaixando a cabeça durante
+um pequeno período de tempo
+até você adquirir
+a musculatura necessária pra poder
+discutir e fazendo
+o que eles querem. Então, assim, cara,
+não entra em discussão nenhuma, cara.
+Tipo assim, elas falaram, ah, eu quero desse jeito.
+Garra no Rafa, velho. Rafa, Rafa,
+o que você acha? Vamos fazer aqui. Faz comigo.
+Sabe? Faz do jeito que
+eles querem. Segue a ideia do
+Rafa.
+Do... O Ailton também entende
+bastante, o Nazário.
+Sabe? Vai na linha dos caras.
+Por quê? Porque esses caras
+já apanharam demais. Principalmente o Rafa, viu?
+O Rafa não tem o som nenhum que esse cara apanhou.
+O cara que mais levou porrada
+até hoje foi o Rafa.
+Ele trabalhava com a gente aqui,
+ele entrou com um mês que
+ele tava aqui, ele foi transferido pra aí
+pra cuidar desse filho sozinho.
+Ninguém conhecia ele.
+Tem o cara... O cara que mais levou
+pancada foi ele.
+Então ele sabe aonde ele tá pisando.
+Entendeu?
+Se ele falar pra você,
+vai por esse caminho, cara, segue o caminho que ele fala.
+Porque ele já apanhou demais.
+Ele sabe... Principalmente...
+Né?
+É o...
+É, não, mas...
+Isso.
+Isso.
+Isso.
+Mas o que que eu tô te falando?
+O que que eu tô achando?
+O que que eu tô te falando pra você falar com o Rafa?
+Porque o negócio é comportamental.
+Tá?
+Eles...
+Eles têm...
+Como tu diz?
+Eles aí, eles são muito acelerados com algumas coisas.
+Eles não gostam realmente de documentação.
+Tá?
+Aqui também não.
+Tá?
+Não vou mentir que aqui também eles não gostam muito não.
+Mas o que eu tô querendo te dizer é o seguinte.
+O Rafa já apanhou.
+O Rafa já sabe o que que ele pode falar.
+O que que ele não pode.
+O que que os caras querem ver.
+Então, se você colar com ele e ele fala.
+Os caras querem ver isso, cara.
+Aí você fala do jeito que o Rafa falou e segue lá.
+E chama ele pra te ajudar.
+Falou assim.
+Rafa, você vai lá apresentar comigo?
+Entendeu?
+É.
+Chama ele pra te ajudar a apresentar.
+Porque aí ele já conhece.
+Ele tem o contexto todo.
+O que que acontece?
+Aí você vai passar um período onde você vai adquirir essa musculatura.
+Tá?
+Vou te dar uns dois, três meses aí.
+Aí essa musculatura que você tiver com ela.
+Que você já estiver conhecendo.
+Aí você vai ter poder de argumentação desse pessoal.
+Mas até chegar lá, cara, não é fácil não.
+Às vezes tem que baixar a cabeça um pouquinho, tá?
+Aí depois...
+E aí você vai ter muço.
+E aí, cara.
+A paz.
+Essa é a perda.
+Que ela encara GG, 16m..
+O que é esse pessoal, né?
+Mas com...
+Know?
+Você tem que tomar cuidado
+É exatamente isso aí
+É GFT e Itaú
+Nesse negócio aí
+Eu vou até te falar
+Eu fui da sua América
+Antes e vim pra cá
+Eu aprendi o negócio
+Apanhando
+A relação da GFT com Itaú
+É o seguinte, a GFT sempre vai abrir a mão
+Por quê? Porque o Itaú que tá pagando
+Entendeu?
+É, o Itaú que tá pagando
+Então assim, é do jeito que eles querem
+Você vai me desculpar a expressão
+Até meu filho tá aqui, ele vai até me xingar
+Mas é igual fazer amor com o urso, é do jeito que ele quer
+Entendeu?
+A gente põe na posição do GFT
+É Do jeito que ele quer
+Não, mas não tem
+Não tem problema
+Se eu sair a não
+O negócio é entender
+A vibe deles, entendeu?
+Eles gostam de conversar desse jeito
+Você entendeu que o negócio dele é uma documentação rasa
+Faz uma documentação rasa
+Faz o papel de pão que eles querem
+Aí depois você vai crescendo o negócio
+Porque o que eles querem, eu entendi
+Eles querem que
+Uma reunião, um papel de pão
+E comece a discutir, todo mundo desenhando junto
+Aqui o pessoal faz assim
+E marca
+E puxa os negócios
+Tipo assim, vamos marcar uma reunião amanhã pra gente poder discutir
+Vamos marcar amanhã, entendeu?
+Puxa o pessoal
+Tá puxando
+Tipo assim, eu travei aqui
+Vem cá, me ajuda aqui
+O que você acha de nós fazer assim?
+O que você acha de nós fazer assim?
+Entendeu?
+Sempre puxa eles
+Por quê?
+Porque na hora que você chega na reunião principal
+Eles estão comprados com a sua ideia
+Apresenta
+Entendeu?
+Mostra pra eles
+Pergunta o que que acha
+Se você discordar
+Você muda
+Porque é muito bom você chegar na reunião
+E tá todo mundo
+Comprado contigo
+Entendeu?
+Porque mesmo que alguém
+Pra uma Fernanda
+Fala
+Ah, mas não concordo com isso
+Aí a Giovana entra
+Fala
+Não, mas a gente já discutiu
+E vai dar certo
+Aí ela resolveu
+Entendeu?
+Essa é a manha
+Você tem que
+Você tem que
+Você tem que
+Você tem que
+Andar com forma maré
+Aí depois
+Isso aí com o tempo
+Fábio
+Isso aí daqui a uns
+Algum tempo
+Você vai ter a musculatura
+O suficiente
+Pra chegar lá
+E bater de frente
+Com a Giovana
+E falar
+Não é assim
+Que funciona
+Mas isso aí
+Você não vai conseguir agora
+Porque é muito pouco tempo
+Pra você poder pegar
+Esse contexto todo
+É difícil
+É difícil
+Sim
+Sim
+Sim
+Sim
+Sim
+Sim
+Sim
+Sim
+É, mas fica em paz
+Cara
+Fica em paz
+Porque assim
+Eu acho
+Que é o seguinte
+Tá
+Se tudo
+Der errado
+A Elisandro
+Deve te pegar
+E te colocar
+No Square
+Entendeu?
+Tem
+Isso tem
+Isso é de menos
+Mas assim
+Vamos tentar fazer dar certo
+Tá
+Porque
+Eu
+É
+É
+Por quê?
+Porque
+Se der errado
+A GT perde
+Por quê
+Que ele vai ter
+Perdo
+Porque essa posição
+Vai ser fechada
+Entendeu?
+Aí ela perde
+Perde receita
+Então assim
+Pra gente
+Pra gente
+Não causar um problema
+Pra Elisângela
+Ela vai resolver
+Pra você
+De qualquer lugar
+Mas pra gente
+Não criar um problema
+Pra ela
+Vamos tentar resolver
+Tá
+Vamos tentar
+Te deixar
+Não
+Não
+Mas
+É
+Não
+Mas isso aí
+Isso aí
+Vai aparecer
+Tá
+De vez em quando
+Eu preciso
+É
+De vez em quando
+Eu preciso fazer
+Uma coisa ou outra
+Aí você
+Consegue fazer
+Entendeu?
+Tipo assim
+Vai precisar
+Te fazer uma ET
+Dar uma atenção
+De uma coisa
+Que tá rodando ali
+Então
+A gente tem muito
+Já
+Tranquilo
+Beleza
+Ou eu vou lá
+Eu tenho que ir
+Mas eu
+Eu acho que
+Eu acho que
+Eu já senti uma luz
+Aí
+Tá
+Aí
+É
+Aí agora
+Você consegue
+Brincar
+Mais tranquilo
+Deixa eu ir lá
+Valeu
+Falou
 
-57:57.380 --> 57:59.380
-Beleza.
 
-57:59.380 --> 58:01.380
-Então essa é a diferença de external test, connector.
+------
 
-58:01.380 --> 58:05.380
-Eu já te expliquei das caixinhas.
+0:00.000 --> 00:09.000
+Ah, vamos lá, deixa eu abrir de novo aqui pra você entender. Então aqui ó, o que acontece, né?
 
-58:09.380 --> 58:11.380
-Que mais eu posso explicar?
+00:09.000 --> 00:19.600
+Quando a gente vai falar no PW2 é cadastro de 100, a Q5 aqui já é a Q4 e a Q5 já é motor de fraude, tá?
 
-58:11.380 --> 58:13.380
-Aqui também.
+00:20.200 --> 00:33.600
+Então a gente só faz o motor de fraude aqui, o EK7 é de NVIDIA e-mail. Ah tá, vamos lá, coloca aí que a gente...
 
-58:13.380 --> 58:15.380
-São vários connectors.
+00:33.600 --> 00:38.600
+Vamos lá do início.
 
-58:15.380 --> 58:17.380
-Aqui é o connector.
+00:38.600 --> 00:43.600
+Ah, depois a gente pode pegar e assistir depois também.
 
-58:17.380 --> 58:19.380
-Aí eu pego informação.
+00:43.600 --> 00:53.600
+Tá, deixa eu pegar aqui do início aqui. Então beleza, aqui nós temos CC, CC é cadastro de conta, né?
 
-58:19.380 --> 58:21.380
-Aqui eu peguei o script.
+00:53.600 --> 01:00.600
+Então nós temos várias, várias... toda vez que você vê que essa questão de proposta, tá vendo?
 
-58:21.380 --> 58:23.380
-Aí eu faço um parse dele.
+01:00.600 --> 01:09.600
+É quando ele pega e salva, vai pro data mesh, tá? Então muitas vezes fazem esse esquema de proposta pra poder salvar lá.
 
-58:23.380 --> 58:25.380
-Da informação que veio.
+01:09.600 --> 01:21.600
+EK3 é dados de pessoas, então se, PF é onde que cadastra o cliente, tudo mais os dados de cliente em EK3.
 
-58:25.380 --> 58:27.380
-Pegue a informação que está aqui.
+01:22.600 --> 01:34.600
+Aí, aqui tem vários EK3, atualiza dados de EK3, tá vendo? Então isso aqui, EK3 é cadastro do cliente, tá?
 
-58:27.380 --> 58:29.380
-Jogo com esse cara. Um outro get.
+01:34.600 --> 01:40.600
+É do cliente, é pessoa, pessoa.
 
-58:29.380 --> 58:31.380
-Informação.
+01:40.600 --> 01:49.600
+É, é porque você orquestra, então você manda pra CC é cadastro de contas, tá?
 
-58:31.380 --> 58:33.380
-Então...
+01:49.600 --> 01:54.600
+Então lá você faz a abertura da conta, aí lá.
 
-58:33.380 --> 58:35.380
+01:54.600 --> 01:59.600
+Tá, mas pra abrir...
+
+01:59.600 --> 02:03.600
+Isso, mas tem um negócio chamado pré-conta.
+
+02:03.600 --> 02:12.600
+Quando você abre uma conta, você abre uma pré-conta, tipo assim, você começa a abrir a conta, tá?
+
+02:12.600 --> 02:20.600
+Aí você reserva o número da conta, aí você cadastra os dados e depois você vai lá e efetiva ela.
+
+02:20.600 --> 02:26.600
+Isso, então o EK3 é o cadastro de pessoa.
+
+02:26.600 --> 02:31.600
+Aí pra poder cadastrar lá a conta, você precisa de um AI de pessoa.
+
+02:31.600 --> 02:40.600
+E a gente chama esse AI de pessoa daqui, que aí lá no... quando você for pro CC, você manda o AI de pessoa, ele vai atrelar aquela pessoa que ela conta.
+
+02:40.600 --> 02:44.600
+Pode ter mais de um AI de pessoa, pode ter mais de um titular, tá?
+
+02:44.600 --> 02:47.600
+Então, basicamente é assim que funciona.
+
+02:47.600 --> 02:52.600
+Você tem um CC, que é cadastro de conta, então o EK3 é onde você cadastra a pessoa.
+
+02:52.600 --> 02:55.600
+Um se relaciona com o outro via AI de pessoa, tá?
+
+02:55.600 --> 02:58.600
+Aí o que acontece? No Camonda você conhece esses dados aqui.
+
+02:58.600 --> 03:02.600
+Você vai dar um post pro nome, você dá um post com dados de e-mail e aí vai avançando, né?
+
+03:02.600 --> 03:06.600
+Renda, endereço, é como se fosse avançando telas, né?
+
+03:06.600 --> 03:08.600
+É um monstro de Silver Surrest.
+
+03:08.600 --> 03:10.600
+Aí ele faz o cataramento, né?
+
+03:10.600 --> 03:14.600
+Aí ele faz a reserva da conta, que é o que eu tô te falando aqui, tá vendo?
+
+03:14.600 --> 03:16.600
+Aqui ele reserva.
+
+03:16.600 --> 03:21.600
+E aqui é um subfluxo, se você pegar aqui e clicar aqui, ele vai abrir um subfluxo lá pra fazer essa reserva.
+
+03:21.600 --> 03:25.600
+Aí ele vai pegando dados de biometria, né?
+
+03:25.600 --> 03:31.600
+Coleta a senha, essa senha com certeza vai lá pro PW2, né, em algum ponto aqui.
+
+03:31.600 --> 03:36.600
+E aí, cara, ele dá o assente nos produtos que ele quer contratar.
+
+03:36.600 --> 03:40.600
+Declarações, proposta liberada.
+
+03:40.600 --> 03:43.600
+Que aí ele faz as declarações lá, libera a proposta.
+
+03:43.600 --> 03:47.600
+Aí aqui é onde eu te falei do Bassen. O que que acontece?
+
+03:47.600 --> 03:51.600
+Existe um produto do Bassen que chama...
+
+03:51.600 --> 03:54.600
+Bassen protege, né?
+
+03:54.600 --> 03:58.600
+Que aí você cadastra a sua conta lá, a sua conta lá, você cadastra o seu CPF.
+
+03:58.600 --> 04:05.600
+E aí, quando o seu CPF está cadastrado, ele não vai permitir que nenhum banco abra conta no seu nome.
+
+04:05.600 --> 04:10.600
+Então, a gente consulta lá no Bassen pra ver se você tá no protege.
+
+04:10.600 --> 04:12.600
+Se você estiver no protege, aqui chama protege mais.
+
+04:12.600 --> 04:17.600
+Se você estiver no protege mais, ele cancela o...
+
+04:17.600 --> 04:21.600
+Ele fala que você tá com restrição e não deixa abrir a conta.
+
+04:21.600 --> 04:24.600
+O banco não abre.
+
+04:24.600 --> 04:30.600
+Então, quando você vê Bassen, falar em Bassen, essas coisas aqui do protege mais, é isso aí.
+
+04:30.600 --> 04:32.600
+Consulta...
+
+04:32.600 --> 04:37.600
+Não, é um bloqueio. Você vai lá, você acessa meu banco central,
+
+04:37.600 --> 04:41.600
+entra lá no site do banco central, você vai ter lá, protege mais.
+
+04:41.600 --> 04:45.600
+Aí você cadastra seu CPF lá, entendeu?
+
+04:49.600 --> 04:51.600
 Isso.
 
-58:35.380 --> 58:37.380
-Eu...
+04:52.600 --> 04:57.600
+E isso aí, a gente consulta lá pra poder ver se tá no protege mais.
 
-58:37.380 --> 58:39.380
-Isso.
+04:57.600 --> 05:02.600
+Se estiver no protege mais, a gente não permite que a conta avance, tá?
 
-58:39.380 --> 58:41.380
-Então, cara...
+05:02.600 --> 05:04.600
+Se não tiver, ele continua abrindo.
 
-58:41.380 --> 58:43.380
-Deixa eu ver.
+05:04.600 --> 05:08.600
+Aí vem cá pro AQ5, porque é fraude, tá? Motor PLD aqui, mesa PLD.
 
-58:43.380 --> 58:45.380
-Que mais?
+05:08.600 --> 05:12.600
+Aí o que acontece? Passou pelo motor de fraude aqui e tá ok.
 
-58:45.380 --> 58:47.380
-Vamos falar agora
+05:12.600 --> 05:13.600
+Ele avança.
 
-58:47.380 --> 58:49.380
-de Delegate.
+05:13.600 --> 05:18.600
+Muitas vezes ele vai validar o risco aqui, tá vendo?
 
-58:49.380 --> 58:51.380
-Falar sobre
+05:18.600 --> 05:22.600
+O risco é alto ou o risco é baixo?
 
-58:51.380 --> 58:53.380
-banco de dados.
+05:23.600 --> 05:24.600
+Risco médio.
 
-58:55.380 --> 58:57.380
-Como que isso funciona?
+05:24.600 --> 05:26.600
+Se o risco for médio, ele vai consumir pra mesa.
 
-58:57.380 --> 58:59.380
-Aí pensa, né?
+05:26.600 --> 05:30.600
+A mesa geralmente vai meio que pra uma pessoa avaliar, tá?
 
-58:59.380 --> 59:01.380
-Até agora eu estou falando de informação.
+05:30.600 --> 05:34.600
+Aí evalua um lado, dá um retorno e continua a abertura.
 
-59:01.380 --> 59:03.380
-Informação aqui, informação aí.
+05:34.600 --> 05:41.600
+Aí ele vem cá, ele faz análise de fraude, a gente chama de PLD, ele vai pra mesa de PLD.
 
-59:03.380 --> 59:05.380
-Informação na informação.
+05:41.600 --> 05:44.600
+Aí aqui ele continua fazendo análise de fraude.
 
-59:05.380 --> 59:07.380
-Em algum momento, eu preciso salvar
+05:45.600 --> 05:49.600
+Ele terminando toda essa análise aqui, que é esse ponto,
 
-59:07.380 --> 59:09.380
-essa informação.
+05:49.600 --> 05:53.600
+aí ele faz aquela utilização de pessoa, que foi o que eu te disse, tá?
 
-59:09.380 --> 59:11.380
-Hoje, o que que a gente tem de salvar a informação?
+05:53.600 --> 05:57.600
+Que ele vai lá e lança os dados, vai pro Data Mesh com todos os dados aqui.
 
-59:11.380 --> 59:13.380
-Aonde que essa informação
+05:57.600 --> 06:00.600
+E aí ele continuou pra poder registrar a conta.
 
-59:13.380 --> 59:15.380
-fica salva? Por que?
+06:00.600 --> 06:05.600
+Aí ele vem cá e efetiva aquela conta que a gente fez a reserva dela lá atrás, tá?
 
-59:15.380 --> 59:17.380
-Sei lá.
+06:05.600 --> 06:10.600
+Olha pra você ver, aqui ele espera chegar a um evento do Kafka, tá?
 
-59:17.380 --> 59:19.380
-Daqui a um ano eu preciso consultar essa conta.
+06:11.600 --> 06:12.600
+E aí o que acontece?
 
-59:19.380 --> 59:21.380
-Eu falo assim...
+06:12.600 --> 06:15.600
+Tudo que tem por trás chama de External Tasks.
 
-59:21.380 --> 59:23.380
-O Fulano abriu a conta há um ano.
+06:15.600 --> 06:17.600
+Eles ficam lendo esse tópico aqui.
 
-59:23.380 --> 59:25.380
-Quando ele abriu a conta,
+06:17.600 --> 06:20.600
+O External Tasks, na verdade, não sei se vocês entendam como é que funciona,
 
-59:25.380 --> 59:27.380
-ele colocou que ele tinha benefício
+06:20.600 --> 06:21.600
+mas o que acontece?
 
-59:27.380 --> 59:29.380
-na ECS?
+06:21.600 --> 06:27.600
+É um aplicativo Java atrás que ele fica o tempo todo esperando chegar dados naquela caixinha.
 
-59:29.380 --> 59:31.380
-Não sei. Eu tenho que olhar.
+06:27.600 --> 06:30.600
+Chegou dado naquela caixinha, ele pega o processo e devolve.
 
-59:31.380 --> 59:33.380
-Eu tenho que consultar em algum lugar. Por que?
+06:30.600 --> 06:35.600
+E aí, quando é evento, é geralmente essa cartinha aqui.
 
-59:33.380 --> 59:35.380
-Eu tenho dois lugares que precisam de informação.
+06:35.600 --> 06:37.600
+Aí eu pego...
 
-59:35.380 --> 59:37.380
-No Datadog.
+06:40.600 --> 06:43.600
+Isso, aí o que acontece também nessa coisa aqui?
 
-59:37.380 --> 59:39.380
-E no Mesh.
+06:43.600 --> 06:44.600
+O que acontece?
 
-59:39.380 --> 59:41.380
-O Datadog, ele tem data de realidade.
+06:44.600 --> 06:46.600
+Quando chega aqui ele fala, ou esse ou esse.
 
-59:41.380 --> 59:43.380
-A informação persiste? Persiste.
+06:46.600 --> 06:49.600
+Aliás, está os dois aqui, esse ou esse.
 
-59:43.380 --> 59:45.380
-Durante um mês?
+06:49.600 --> 06:54.600
+Ou aguarda um dia, ou recebe o evento da conta efetivada.
 
-59:45.380 --> 59:47.380
-O Mesh...
+06:54.600 --> 06:57.600
+Aí o que acontece aqui nesse ponto?
 
-59:47.380 --> 59:49.380
-Oi?
+06:57.600 --> 07:01.600
+A gente tem um aplicativo Kafka, que é de abertura de conta.
 
-59:53.380 --> 59:55.380
-É que a gente chama de Datadog, mas ele
+07:01.600 --> 07:06.600
+Chegou o evento do Kafka lá que o pessoal do CC mandou pra gente que está ok.
 
-59:55.380 --> 59:57.380
-pega informação de um banco de dados, que eu não sei.
+07:06.600 --> 07:10.600
+Ele dispara o evento, o evento bate aqui.
 
-59:57.380 --> 59:59.380
-Qual que é o banco de dados?
+07:10.600 --> 07:14.600
+O evento batendo nesse ponto, aí ele avança.
 
-59:59.380 --> 01:00:01.380
-Eita...
+07:14.600 --> 07:17.600
+E aí ele dá como ok da abertura.
 
-01:00:01.380 --> 01:00:03.380
-Segurei.
+07:17.600 --> 07:21.600
+Caso não chegar o evento, aí ele aguarda um dia, depois ele faz a consulta.
 
-01:00:05.380 --> 01:00:07.380
+07:21.600 --> 07:27.600
+Aí tem algumas coisas de resiliência aqui pra poder tentar novamente.
+
+07:27.600 --> 07:29.600
+Mas não mais.
+
+07:29.600 --> 07:32.600
+O que mais acontece é o seguinte, às vezes ele cai em horários,
+
+07:32.600 --> 07:36.600
+e eu acho que é depois das 11h30, 10h30, que o CC para,
+
+07:36.600 --> 07:39.600
+e aí ele fica caindo tudo em reserva de contas.
+
+07:39.600 --> 07:40.600
+Eles chamam, ó, está caindo em reserva.
+
+07:40.600 --> 07:45.600
+Geralmente é porque o CC não está respondendo dentro de três segundos no evento Kafka.
+
+07:45.600 --> 07:49.600
+Aí ele fica esperando aqui e aí fica acumulando contas.
+
+07:49.600 --> 07:52.600
+Aí depois ele reprocessa tudo de uma vez.
+
+07:52.600 --> 07:57.600
+Então você tem que estar bem ciente disso aqui, como é que isso aqui funciona.
+
+07:57.600 --> 08:01.600
+Mas aqui, basicamente, chega o evento do Kafka
+
+08:01.600 --> 08:08.600
+quando dentro de três segundos após essa caixinha aqui ser enviada.
+
+08:08.600 --> 08:14.600
+Ele pega esse cara aqui, um ET pega esse cara, faz um envio pro CC,
+
+08:14.600 --> 08:19.600
+e outro ET pega o evento Kafka de confirmação e coloca aqui.
+
+08:19.600 --> 08:21.600
+Tá claro?
+
+08:21.600 --> 08:25.600
+External task.
+
+08:25.600 --> 08:29.600
+Sempre que eu falar ET, external task.
+
+08:29.600 --> 08:33.600
+Aí, beleza, ele vai aqui para a atualização do contas lá no setup.
+
+08:33.600 --> 08:35.600
+O setup é uma outra área, tá?
+
+08:35.600 --> 08:38.600
+Esse setup aqui é lá de shared, aí eles fazem,
+
+08:38.600 --> 08:42.600
+eles chamam lá shared com conquista e tudo mais.
+
+08:42.600 --> 08:44.600
+Aí é só para enviar dados para eles.
+
+08:44.600 --> 08:47.600
+Você faz um envio de dados lá para o canal do setup,
+
+08:47.600 --> 08:52.600
+e eles se internalizam lá, cadastram o que precisa e tudo mais e continua, tá?
+
+08:55.600 --> 08:58.600
+É uma equipe, é uma equipe que chama setup.
+
+08:58.600 --> 09:00.600
+Setup de contas, tá?
+
+09:00.600 --> 09:04.600
+Aí eles fazem as configurações.
+
+09:04.600 --> 09:09.600
+Eu vou falar mentira para vocês se eu falar que eu conheço tudo o que eles fazem.
+
+09:09.600 --> 09:10.600
 Eu não sei.
 
-01:00:07.380 --> 01:00:09.380
-Nossa, o pior é que
+09:10.600 --> 09:13.600
+Eu sei que a gente viu o evento do setup de contas,
 
-01:00:09.380 --> 01:00:11.380
-o fone que eu estou, Fábio,
+09:13.600 --> 09:18.600
+esse pessoal pega esse evento e faz um processamento internal de configuração das contas.
 
-01:00:11.380 --> 01:00:13.380
-ele é
+09:18.600 --> 09:21.600
+Eu acredito que seja produto algumas coisas que eles fazem lá, tá?
 
-01:00:13.380 --> 01:00:15.380
-onde entra a parte de
+09:21.600 --> 09:23.600
+Esse é o pessoal de shared que faz.
 
-01:00:15.380 --> 01:00:17.380
-cabo de energia, cara.
+09:23.600 --> 09:25.600
+Então eu peguei aqui e fiz o envio.
 
-01:00:17.380 --> 01:00:19.380
-Que saco.
+09:25.600 --> 09:27.600
+Basicamente ele produz uma mensagem para eles,
 
-01:00:19.380 --> 01:00:21.380
-Tá me ouvindo?
+09:27.600 --> 09:30.600
+eles capturam do outro lado lá e faz o que precisa.
 
-01:00:23.380 --> 01:00:25.380
-Pera aí.
+09:30.600 --> 09:32.600
+A gente não tem retorno de lá, tá?
 
-01:00:29.380 --> 01:00:31.380
-Que saco.
+09:32.600 --> 09:34.600
+A gente só manda.
 
-01:00:35.380 --> 01:00:37.380
-Cara, eu vou tentando
+09:34.600 --> 09:39.600
+A abertura de contas a gente só pega e manda lá para o pessoal de setup e eles configuram a conta lá.
 
-01:00:37.380 --> 01:00:39.380
-falar por aqui. Eu estou no
+09:42.600 --> 09:43.600
+Beleza, continuou.
 
-01:00:39.380 --> 01:00:41.380
-speaker, tá? Porque
+09:43.600 --> 09:46.600
+Aí tem um vínculo do BC aqui.
 
-01:00:41.380 --> 01:00:43.380
-eu tenho que esperar carregar um pouquinho.
+09:46.600 --> 09:50.600
+Aqui, cara, o que acontece?
 
-01:00:43.380 --> 01:00:45.380
-O fone que eu estou, ele é
+09:50.600 --> 09:54.600
+Lá atrás eu gerei um token.
 
-01:00:45.380 --> 01:00:47.380
-entrada de cabo de energia.
+09:55.600 --> 09:56.600
+BC.
 
-01:00:49.380 --> 01:00:51.380
+09:56.600 --> 10:01.600
+Aqui na frente eu peguei esse token valido lá se a consulta deu sucesso,
+
+10:01.600 --> 10:03.600
+porque ela é assíncrona.
+
+10:03.600 --> 10:08.600
+Lá eu consultei o BC e peguei um token da consulta.
+
+10:08.600 --> 10:09.600
+Ele não me dá o resultado lá.
+
+10:09.600 --> 10:11.600
+Aqui na frente ele me dá o resultado.
+
+10:24.600 --> 10:26.600
+Aí ele continua.
+
+10:26.600 --> 10:27.600
+Pode falar.
+
+10:27.600 --> 10:28.600
+É isso mesmo.
+
+10:28.600 --> 10:29.600
+Aí o que acontece?
+
+10:29.600 --> 10:32.600
+Ele vai continuar, né?
+
+10:32.600 --> 10:34.600
+Aí ele vai buscar o limite.
+
+10:34.600 --> 10:41.600
+Esse FC6 aqui é uma equipe que trabalha com limite de crédito.
+
+10:41.600 --> 10:48.600
+Ele vai nesse cara aqui para consultar qual que é o limite aprovado para aquele cliente.
+
+10:48.600 --> 10:49.600
+Certo?
+
+10:49.600 --> 10:53.600
+Eles fez um monte de análise interna lá atrás.
+
+10:53.600 --> 10:58.600
+Ele manda para esse FC6 aqui, que a gente já fala que ele abre o PA.
+
+10:58.600 --> 11:02.600
+Aí aqui ele consulta o limite que foi aprovado.
+
+11:02.600 --> 11:04.600
+Lá atrás eu mandei aqui, ele consultou.
+
+11:04.600 --> 11:05.600
 Beleza.
 
-01:00:51.380 --> 01:00:53.380
-Bom, aí...
+11:05.600 --> 11:08.600
+Lá atrás tem um FC6 também.
 
-01:00:53.380 --> 01:00:55.380
-Eu estava falando
+11:08.600 --> 11:09.600
+Pelo menos no nosso tem.
 
-01:00:55.380 --> 01:00:57.380
-do...
+11:09.600 --> 11:11.600
+Eu não lembro aqui, tá?
 
-01:00:57.380 --> 01:00:59.380
-Nossa, eu fugi aqui.
+11:11.600 --> 11:16.600
+Eu devo ter pulado, mas lá atrás tem um FC6.
 
-01:00:59.380 --> 01:01:01.380
-Ah, sim.
+11:17.600 --> 11:20.600
+Algum ponto aqui ele faz um envio lá que eles fazem abertura.
 
-01:01:01.380 --> 01:01:03.380
-Da onde a gente persiste a
+11:20.600 --> 11:22.600
+Ou então esse cara aqui não tem PA.
 
-01:01:03.380 --> 01:01:05.380
-informação, né? Isso.
+11:22.600 --> 11:24.600
+O nosso ele faz isso aqui antes.
 
-01:01:05.380 --> 01:01:07.380
-Beleza.
+11:24.600 --> 11:28.600
+Se ele não fizer antes, aí não é assíncrono que nem o nosso.
 
-01:01:07.380 --> 01:01:09.380
-Aí, como que funciona, né?
+11:28.600 --> 11:32.600
+Eu não achei que ele não deve fazer.
 
-01:01:09.380 --> 01:01:11.380
-O Delegate,
+11:32.600 --> 11:35.600
+Deve estar aqui no início.
 
-01:01:11.380 --> 01:01:13.380
-eu tenho dois lugares que persiste a informação.
+11:35.600 --> 11:36.600
+É.
 
-01:01:13.380 --> 01:01:15.380
-O Datadog, ele de fato, ele é uma
+11:36.600 --> 11:37.600
+Não tem.
 
-01:01:15.380 --> 01:01:17.380
-ferramenta de log, que fica num banco
+11:37.600 --> 11:38.600
+É.
 
-01:01:17.380 --> 01:01:19.380
-de dados. Só que
+11:38.600 --> 11:41.600
+Então ele faz a consulta.
 
-01:01:19.380 --> 01:01:21.380
-esse banco de dados, ele é um cara
-
-01:01:21.380 --> 01:01:23.380
-que ele fica ali durante um mês.
-
-01:01:23.380 --> 01:01:25.380
-Eu não sei dizer pra você especificamente
-
-01:01:25.380 --> 01:01:27.380
-qual banco de dados que é.
-
-01:01:27.380 --> 01:01:29.380
-E eu entendo que é um banco de dados, tá?
-
-01:01:29.380 --> 01:01:31.380
-Que ele busca essa informação.
-
-01:01:31.380 --> 01:01:33.380
-Porque a informação,
-
-01:01:33.380 --> 01:01:35.380
-depois de um mês, se você fizer a pesquisa de novo,
-
-01:01:35.380 --> 01:01:37.380
-ela é deletada. Então,
-
-01:01:37.380 --> 01:01:39.380
-passou um mês...
-
-01:01:43.380 --> 01:01:45.380
-Dentro do Datadog, eu entendo que sim.
-
-01:01:45.380 --> 01:01:47.380
-Porque a informação, ela não persiste mais.
-
-01:01:47.380 --> 01:01:49.380
-E aí, eu tenho...
-
-01:01:49.380 --> 01:01:51.380
-Onde eu consigo
-
-01:01:51.380 --> 01:01:53.380
-consultar essa informação no Datadog?
-
-01:01:53.380 --> 01:01:55.380
-Que eu acredito que é um banco de dados
-
-01:01:55.380 --> 01:01:57.380
-meio que tipo provisório,
-
-01:01:57.380 --> 01:01:59.380
-que ele vai morrendo.
-
-01:01:59.380 --> 01:02:01.380
-Tem um outro banco de dados que aí a informação
-
-01:02:01.380 --> 01:02:03.380
-ela persiste.
-
-01:02:03.380 --> 01:02:05.380
-Que aí é o banco de dados da...
-
-01:02:05.380 --> 01:02:07.380
-Do Athena, lá que a gente tem,
-
-01:02:07.380 --> 01:02:09.380
-da AWS.
-
-01:02:09.380 --> 01:02:11.380
-E aí, o Delegate, se você for ver,
-
-01:02:11.380 --> 01:02:13.380
-ele também é uma Service Task.
-
-01:02:13.380 --> 01:02:15.380
-Você vai ver, ele também é uma engranagenzinha.
-
-01:02:19.380 --> 01:02:21.380
-Aqui, ó. Esse cara aqui, ó.
-
-01:02:21.380 --> 01:02:23.380
-Esse cara,
-
-01:02:23.380 --> 01:02:25.380
-tá vendo que ele é uma Service Task também?
-
-01:02:25.380 --> 01:02:27.380
-Só que ele é do tipo
-
-01:02:27.380 --> 01:02:29.380
-Delegate, tá vendo? Delegate Expression.
-
-01:02:31.380 --> 01:02:33.380
-Então, eu tenho esse
-
-01:02:33.380 --> 01:02:35.380
-Delegate aqui, que é o atualizar proposta Delegate.
-
-01:02:35.380 --> 01:02:37.380
-Esse atualizar proposta
-
-01:02:37.380 --> 01:02:39.380
-Delegate,
-
-01:02:39.380 --> 01:02:41.380
-são as informações que eu quero que persistam
-
-01:02:41.380 --> 01:02:43.380
-dentro do banco de dados.
-
-01:02:43.380 --> 01:02:45.380
-Então, por exemplo,
-
-01:02:45.380 --> 01:02:47.380
-eu...
-
-01:02:47.380 --> 01:02:49.380
-Aqui, eu converso muito com o pessoal do tipo assim,
-
-01:02:49.380 --> 01:02:51.380
-porque tudo o que a gente
-
-01:02:51.380 --> 01:02:53.380
-faz, imagina aqui, tipo assim,
-
-01:02:53.380 --> 01:02:55.380
-você tá fazendo uma nova
-
-01:02:55.380 --> 01:02:57.380
-consulta ali, eu tô colocando uma nova variável.
-
-01:02:57.380 --> 01:02:59.380
-Ou eu preciso pegar uma nova variável
-
-01:02:59.380 --> 01:03:01.380
-que eu vou receber.
-
-01:03:01.380 --> 01:03:03.380
-Ou, sei lá,
-
-01:03:03.380 --> 01:03:05.380
-eu tô fazendo qualquer feature nova.
-
-01:03:05.380 --> 01:03:07.380
-De alguma forma, eu preciso
-
-01:03:07.380 --> 01:03:09.380
-saber se essa feature tá dando certo.
-
-01:03:09.380 --> 01:03:11.380
-Se essa feature tá...
-
-01:03:11.380 --> 01:03:13.380
-Como que eu vou guardar isso?
-
-01:03:13.380 --> 01:03:15.380
-Ou vou ter um, sei lá,
-
-01:03:15.380 --> 01:03:17.380
-um monitoramento disso?
-
-01:03:17.380 --> 01:03:19.380
-Vamos supor que eu coloco agora
-
-01:03:19.380 --> 01:03:21.380
-a nova funcionalidade que
-
-01:03:21.380 --> 01:03:23.380
-tem clientes que têm
-
-01:03:23.380 --> 01:03:25.380
-carro vermelho, sei lá.
-
-01:03:25.380 --> 01:03:27.380
-Aí, a partir de hoje,
-
-01:03:27.380 --> 01:03:29.380
-o banco quer saber todo mundo o que tem
-
-01:03:29.380 --> 01:03:31.380
-carro vermelho.
-
-01:03:31.380 --> 01:03:33.380
-Então, quando você for abrir a proposta lá,
-
-01:03:33.380 --> 01:03:35.380
-o gerente vai perguntar, ô Fábio,
-
-01:03:35.380 --> 01:03:37.380
-você tem um carro vermelho?
-
-01:03:37.380 --> 01:03:39.380
-Aí você vai falar, sim ou não?
-
-01:03:39.380 --> 01:03:41.380
-Se for sim,
-
-01:03:41.380 --> 01:03:43.380
-aí vai vir lá a flag
-
-01:03:43.380 --> 01:03:45.380
-que chama carro underline vermelho.
-
-01:03:45.380 --> 01:03:47.380
-Carro underline vermelho é true ou falso?
-
-01:03:47.380 --> 01:03:49.380
-True? Então,
-
-01:03:49.380 --> 01:03:51.380
-eu preciso salvar essa informação.
-
-01:03:51.380 --> 01:03:53.380
-Por quê? Ah, depois mais pra frente,
-
-01:03:53.380 --> 01:03:55.380
-vai passar um mês e eu quero saber
-
-01:03:55.380 --> 01:03:57.380
-quantas pessoas tinham carro vermelho que abriram contas.
-
-01:03:57.380 --> 01:03:59.380
-Aí eu vou lá no
-
-01:03:59.380 --> 01:04:01.380
-Mesh e vou filtrar.
-
-01:04:01.380 --> 01:04:03.380
-Aí eu coloco lá a flag. Quem tiver carro
-
-01:04:03.380 --> 01:04:05.380
-vermelho como true, traz pra mim.
-
-01:04:05.380 --> 01:04:07.380
-E ele faz esse filtro e fala assim, olha,
-
-01:04:07.380 --> 01:04:09.380
-a proposta X, Y, Z
-
-01:04:09.380 --> 01:04:11.380
-tem carro vermelho true.
-
-01:04:11.380 --> 01:04:13.380
-E aonde que eu vou salvar essa informação?
-
-01:04:13.380 --> 01:04:15.380
-É dentro do Mesh.
-
-01:04:15.380 --> 01:04:17.380
-E aí o Mesh, como que ele funciona?
-
-01:04:17.380 --> 01:04:19.380
-Inclusive,
-
-01:04:19.380 --> 01:04:21.380
-eu estava até falando sobre
-
-01:04:21.380 --> 01:04:23.380
-um setup de contas lá, né?
-
-01:04:23.380 --> 01:04:25.380
-O que a gente
-
-01:04:25.380 --> 01:04:27.380
-salva no Mesh?
-
-01:04:27.380 --> 01:04:29.380
-A gente salva ID proposta,
-
-01:04:29.380 --> 01:04:31.380
-status de proposta,
-
-01:04:31.380 --> 01:04:33.380
-metadata skinless
-
-01:04:33.380 --> 01:04:35.380
-e dados proposta.
-
-01:04:37.380 --> 01:04:39.380
-Como que funciona
-
-01:04:39.380 --> 01:04:41.380
-essa parte?
-
-01:04:41.380 --> 01:04:43.380
-Tá vendo que aqui,
-
-01:04:43.380 --> 01:04:45.380
-no dados de proposta,
-
-01:04:45.380 --> 01:04:47.380
-eu estou salvando todas as informações,
-
-01:04:47.380 --> 01:04:49.380
-dentro do Mesh,
-
-01:04:49.380 --> 01:04:51.380
-benefício NSS, consultar vínculos,
-
-01:04:51.380 --> 01:04:53.380
-CPF, CPF representante
-
-01:04:53.380 --> 01:04:55.380
-e o metadata skinless,
-
-01:04:55.380 --> 01:04:57.380
-aí vem aquela parada que eu te falei lá,
-
-01:04:57.380 --> 01:04:59.380
-você coloca só o dólar,
-
-01:04:59.380 --> 01:05:01.380
-eu não entendi muito bem o porquê,
-
-01:05:01.380 --> 01:05:03.380
-mas precisa fazer dessa maneira pra
-
-01:05:03.380 --> 01:05:05.380
-poder guardar a informação.
-
-01:05:05.380 --> 01:05:07.380
-Então...
-
-01:05:13.380 --> 01:05:15.380
-Isso, isso.
-
-01:05:15.380 --> 01:05:17.380
-Então, imagina assim, ó, se eu mapeei aqui,
-
-01:05:17.380 --> 01:05:19.380
-tem que estar mapeado aqui também.
-
-01:05:19.380 --> 01:05:21.380
-Então, benefício NSS
-
-01:05:21.380 --> 01:05:23.380
-vai estar mapeado aqui só com o cifrão.
-
-01:05:23.380 --> 01:05:25.380
-Aqui no mapeamento
-
-01:05:25.380 --> 01:05:27.380
-de dados, aí sim eu coloco
-
-01:05:27.380 --> 01:05:29.380
-a proposta,
-
-01:05:29.380 --> 01:05:31.380
-a flag, que é benefício,
-
-01:05:31.380 --> 01:05:33.380
-trabalhando em NSS.
-
-01:05:33.380 --> 01:05:35.380
-E a gente coloca um ternário aqui. Se existir
-
-01:05:35.380 --> 01:05:37.380
-a variável benefício NSS,
-
-01:05:37.380 --> 01:05:39.380
-por quê? Porque pode ter pessoas que
-
-01:05:39.380 --> 01:05:41.380
-não tem benefício NSS. Tem gente que
-
-01:05:41.380 --> 01:05:43.380
-tipo, abre a proposta sem benefício.
-
-01:05:43.380 --> 01:05:45.380
-Eu não sou obrigatoriamente,
-
-01:05:45.380 --> 01:05:47.380
-eu não sou obrigado a colocar benefício NSS.
-
-01:05:47.380 --> 01:05:49.380
-Então, essa variável,
-
-01:05:49.380 --> 01:05:51.380
-ela fala, se a variável existir
-
-01:05:51.380 --> 01:05:53.380
-benefício NSS, preenche com benefício
-
-01:05:53.380 --> 01:05:55.380
-NSS, se não, coloca falsa.
-
-01:05:55.380 --> 01:05:57.380
-Aí se você for consultar
-
-01:05:57.380 --> 01:05:59.380
-a pessoa que não tem benefício NSS
-
-01:05:59.380 --> 01:06:01.380
-lá no Mesh, você vai ver que o fulano
-
-01:06:01.380 --> 01:06:03.380
-digital tá com o benefício falsa.
-
-01:06:05.380 --> 01:06:07.380
-Agora, por exemplo, esse cara aqui.
-
-01:06:07.380 --> 01:06:09.380
-CPF.
-
-01:06:09.380 --> 01:06:11.380
-CPF, tá vendo que já não tem
-
-01:06:11.380 --> 01:06:13.380
-a regra
-
-01:06:13.380 --> 01:06:15.380
-que eu coloquei ali?
-
-01:06:15.380 --> 01:06:17.380
-CPF é um cara que assim,
-
-01:06:17.380 --> 01:06:19.380
-todo mundo tem que ter CPF, se não, você não transita com a proposta.
-
-01:06:19.380 --> 01:06:21.380
-Tipo assim, se eu não tenho CPF,
-
-01:06:21.380 --> 01:06:23.380
-é meio que mandatório.
-
-01:06:23.380 --> 01:06:25.380
-Se eu não tenho CPF,
-
-01:06:25.380 --> 01:06:27.380
-é meio que mandatório.
-
-01:06:27.380 --> 01:06:29.380
-Se eu não tenho CPF,
-
-01:06:29.380 --> 01:06:31.380
-é meio que mandatório.
-
-01:06:31.380 --> 01:06:33.380
-Se eu não tenho CPF,
-
-01:06:33.380 --> 01:06:35.380
-é meio que mandatório.
-
-01:06:35.380 --> 01:06:37.380
-Eu não tenho CPF, eu não tenho conta.
-
-01:06:37.380 --> 01:06:39.380
-Então, por isso que a gente mapeou desse jeito.
-
-01:06:39.380 --> 01:06:41.380
-Por quê? Porque a proposta sempre tem que ter CPF.
-
-01:06:41.380 --> 01:06:43.380
-Não tem como não ter uma proposta
-
-01:06:43.380 --> 01:06:45.380
-que não tenha CPF.
-
-01:06:45.380 --> 01:06:47.380
-Ou sei lá, um dia inventam que tem que ter CPF.
-
-01:06:47.380 --> 01:06:49.380
-Tipo, sei lá, vou abrir conta que não existe CPF.
-
-01:06:49.380 --> 01:06:51.380
-Tipo, agora o banco tá abrindo conta
-
-01:06:51.380 --> 01:06:53.380
-que não tem CPF.
-
-01:06:53.380 --> 01:06:55.380
-E aí a gente mudaria aqui, sabe?
-
-01:06:55.380 --> 01:06:57.380
-E isso aqui, se eu transitar
-
-01:06:57.380 --> 01:06:59.380
-uma proposta aqui que não tiver CPF,
-
-01:06:59.380 --> 01:07:01.380
-ele quebra.
-
-01:07:01.380 --> 01:07:03.380
-Ele vai bater aqui, ele vai falar assim
-
-01:07:03.380 --> 01:07:05.380
-aqui ele vai falar assim o C8.
-
-01:07:05.380 --> 01:07:07.380
-Mas a variável tá falando que tem.
-
-01:07:07.380 --> 01:07:09.380
-Tem que ter.
-
-01:07:09.380 --> 01:07:11.380
-Diferente da Beneficiência NSS.
-
-01:07:11.380 --> 01:07:13.380
-A Beneficiência NSS, se não tiver,
-
-01:07:13.380 --> 01:07:15.380
-tá tudo bem, eu preencho com false.
-
-01:07:15.380 --> 01:07:17.380
-Mas aqui tem que ter.
-
-01:07:17.380 --> 01:07:19.380
-Então,
-
-01:07:19.380 --> 01:07:21.380
-o Delegate, ele funciona assim
-
-01:07:21.380 --> 01:07:23.380
-dessa maneira.
-
-01:07:23.380 --> 01:07:25.380
-E quanto mais eu ando,
-
-01:07:25.380 --> 01:07:27.380
-porque assim, você vai ver que tem vários pontos
-
-01:07:27.380 --> 01:07:29.380
-de Delegate. Esse aqui
-
-01:07:29.380 --> 01:07:31.380
-é o primeiro ponto de Delegate que a gente tem
-
-01:07:31.380 --> 01:07:33.380
-na nossa jornada.
-
-01:07:33.380 --> 01:07:35.380
-É o primeiro ponto que eu passo na jornada
-
-01:07:35.380 --> 01:07:37.380
-e eu tenho um ponto de Delegate.
-
-01:07:37.380 --> 01:07:39.380
-Até aqui,
-
-01:07:39.380 --> 01:07:41.380
-por exemplo, eu não tenho o nome,
-
-01:07:41.380 --> 01:07:43.380
-eu tenho o CPF da pessoa.
-
-01:07:43.380 --> 01:07:45.380
-Tenho o CPF, eu tenho o envio documento,
-
-01:07:45.380 --> 01:07:47.380
-eu tenho o escolha segmento.
-
-01:07:47.380 --> 01:07:49.380
-Mas eu não tenho o nome da pessoa, eu não gravei isso no Mesh.
-
-01:07:49.380 --> 01:07:51.380
-Então, imagina assim,
-
-01:07:51.380 --> 01:07:53.380
-eu vou lá no banco de dados agora, eu faço
-
-01:07:53.380 --> 01:07:55.380
-um select no banco de dados.
-
-01:07:55.380 --> 01:07:57.380
-Select asterisco from banco de dados,
-
-01:07:57.380 --> 01:07:59.380
-me mostra o que tem no Delegate.
-
-01:07:59.380 --> 01:08:01.380
-Ele vai mostrar pra mim as variáveis que estão
-
-01:08:01.380 --> 01:08:03.380
-preenchidas aqui.
-
-01:08:03.380 --> 01:08:05.380
-Ele vai mostrar pra mim CPF,
-
-01:08:05.380 --> 01:08:07.380
-vai mostrar pra mim que CPF é apresentante.
-
-01:08:07.380 --> 01:08:09.380
-Essas variáveis.
-
-01:08:09.380 --> 01:08:11.380
-Aí, por exemplo, eu continuei,
-
-01:08:11.380 --> 01:08:13.380
-a proposta andou, ela saiu daqui e veio pra cá.
-
-01:08:13.380 --> 01:08:15.380
-Aí eu coloquei o nome da pessoa,
-
-01:08:15.380 --> 01:08:17.380
-dados email, dados telefone,
-
-01:08:17.380 --> 01:08:19.380
-dados nascimento.
-
-01:08:19.380 --> 01:08:21.380
-Imagina que eu estou aqui,
-
-01:08:21.380 --> 01:08:23.380
-data nascimento.
-
-01:08:23.380 --> 01:08:25.380
-Eu vou lá de novo e vou fazer uma pesquisa.
-
-01:08:25.380 --> 01:08:27.380
-Select asterisco from
-
-01:08:27.380 --> 01:08:29.380
-banco de dados, me mostra o que tem.
-
-01:08:29.380 --> 01:08:31.380
-O que ele vai mostrar pra mim?
-
-01:08:31.380 --> 01:08:33.380
-Ele vai mostrar pra mim o que está preenchido aqui.
-
-01:08:33.380 --> 01:08:35.380
-Até aqui nesse momento,
-
-01:08:35.380 --> 01:08:37.380
-eu não estou salvando mais informação.
-
-01:08:37.380 --> 01:08:39.380
-No banco de dados.
-
-01:08:39.380 --> 01:08:41.380
-Então,
-
-01:08:41.380 --> 01:08:43.380
-até esse momento,
-
-01:08:43.380 --> 01:08:45.380
-eu vou ter só aquelas informações.
-
-01:08:45.380 --> 01:08:47.380
-Aí você vai ver,
-
-01:08:47.380 --> 01:08:49.380
-ele vai passando por aqui,
-
-01:08:49.380 --> 01:08:51.380
-atualiza dados
-
-01:08:51.380 --> 01:08:53.380
-EQ3.
-
-01:08:53.380 --> 01:08:55.380
-Esse é um outro tipo
-
-01:08:55.380 --> 01:08:57.380
-delegate, tá?
-
-01:08:57.380 --> 01:08:59.380
-Porque esse banco de dados aqui,
-
-01:08:59.380 --> 01:09:01.380
-ele
-
-01:09:01.380 --> 01:09:03.380
-é o do banco de dados
-
-01:09:03.380 --> 01:09:05.380
-que é do
-
-01:09:05.380 --> 01:09:07.380
-EQ3. Ele é um outro banco de dados que a gente
-
-01:09:07.380 --> 01:09:09.380
-passa informação.
-
-01:09:09.380 --> 01:09:11.380
-Esse EQ3, eles são tabelas
-
-01:09:11.380 --> 01:09:13.380
-temporárias
-
-01:09:13.380 --> 01:09:15.380
-que a gente tem de informação.
-
-01:09:15.380 --> 01:09:17.380
-Então, todas essas
-
-01:09:17.380 --> 01:09:19.380
-informações, tipo nome,
-
-01:09:19.380 --> 01:09:21.380
-CPF,
-
-01:09:21.380 --> 01:09:23.380
-acho que endereço,
-
-01:09:23.380 --> 01:09:25.380
-data de nascimento, telefone,
-
-01:09:25.380 --> 01:09:27.380
-eles são informações
-
-01:09:27.380 --> 01:09:29.380
-que vão pra tabelas temporárias.
-
-01:09:29.380 --> 01:09:31.380
-Então, às vezes foi lá,
-
-01:09:31.380 --> 01:09:33.380
-eu mudei meu telefone, eu pego isso
-
-01:09:33.380 --> 01:09:35.380
-e coloco uma tabela temporária, porque
-
-01:09:35.380 --> 01:09:37.380
-atualizei o telefone,
-
-01:09:37.380 --> 01:09:39.380
-eu passei por aqui. Essa informação
-
-01:09:39.380 --> 01:09:41.380
-ela é mais
-
-01:09:41.380 --> 01:09:43.380
-volúvel.
-
-01:09:43.380 --> 01:09:45.380
-Aí vamos continuar pro nosso delegate
-
-01:09:45.380 --> 01:09:47.380
-em si, né?
-
-01:09:47.380 --> 01:09:49.380
-Passei por renda, endereço,
-
-01:09:49.380 --> 01:09:51.380
-passei por dados
-
-01:09:51.380 --> 01:09:53.380
-sniff,
-
-01:09:53.380 --> 01:09:55.380
-selecionar agência,
-
-01:09:57.380 --> 01:09:59.380
-consulta seguimento, acho que esse cara é um delegate,
-
-01:09:59.380 --> 01:10:01.380
-não, é um external,
-
-01:10:01.380 --> 01:10:03.380
-encarteiramento,
-
-01:10:05.380 --> 01:10:07.380
-dados, acho que esse aqui é,
-
-01:10:07.380 --> 01:10:09.380
-aqui, esse cara é.
-
-01:10:09.380 --> 01:10:11.380
-Então, o meu segundo ponto
-
-01:10:11.380 --> 01:10:13.380
-que eu tenho com
-
-01:10:13.380 --> 01:10:15.380
-o banco de dados
-
-01:10:15.380 --> 01:10:17.380
-é aqui,
-
-01:10:17.380 --> 01:10:19.380
-no proposta segmentada,
-
-01:10:19.380 --> 01:10:21.380
-que é esse cara aqui, ó. Aqui
-
-01:10:21.380 --> 01:10:23.380
-eu vou ter mais variáveis que eu tô mandando.
-
-01:10:23.380 --> 01:10:25.380
-Então, se eu fizer um select aqui
-
-01:10:25.380 --> 01:10:27.380
-agora, eu vou ter todas aquelas variáveis
-
-01:10:27.380 --> 01:10:29.380
-que estavam naquela caixinha anterior,
-
-01:10:29.380 --> 01:10:31.380
-mais essas variáveis daqui.
-
-01:10:31.380 --> 01:10:33.380
-E assim, é como se fosse
-
-01:10:33.380 --> 01:10:35.380
-uma linguição, eu vou enchendo ele.
-
-01:10:35.380 --> 01:10:37.380
-Aí, mesma coisa, ó, vou passar por mais
-
-01:10:37.380 --> 01:10:39.380
-informação, mais informação, mais informação,
-
-01:10:39.380 --> 01:10:41.380
-mais informação, mais informação,
-
-01:10:41.380 --> 01:10:43.380
-o outro delegate.
-
-01:10:43.380 --> 01:10:45.380
-E aí, o que que eu vou ter nesse terceiro delegate?
-
-01:10:45.380 --> 01:10:47.380
-Tanto que você vê por
-
-01:10:47.380 --> 01:10:49.380
-linha lá, tipo, você literalmente
-
-01:10:49.380 --> 01:10:51.380
-vê linha, tipo assim,
-
-01:10:51.380 --> 01:10:53.380
-o que que vai ter na linha 1? Na linha 1,
-
-01:10:53.380 --> 01:10:55.380
-vai ter as informações
-
-01:10:55.380 --> 01:10:57.380
-desse delegate, do primeiro
-
-01:10:57.380 --> 01:10:59.380
-lá que a gente consultou, desse aqui,
-
-01:10:59.380 --> 01:11:01.380
-por exemplo. Aí, na
-
-01:11:01.380 --> 01:11:03.380
-linha 2, você vai ver a informação
-
-01:11:03.380 --> 01:11:05.380
-do delegate que já estava,
-
-01:11:05.380 --> 01:11:07.380
-mais a informação desse
-
-01:11:07.380 --> 01:11:09.380
-delegate, linha 3.
-
-01:11:09.380 --> 01:11:11.380
-Linha 3 é, por exemplo, esse cara aqui,
-
-01:11:11.380 --> 01:11:13.380
-essa interação aqui. Aí, vai ter
-
-01:11:13.380 --> 01:11:15.380
-a informação da linha 1, da linha 2,
-
-01:11:15.380 --> 01:11:17.380
-mais a linha 3,
-
-01:11:17.380 --> 01:11:19.380
-até o final, cara,
-
-01:11:19.380 --> 01:11:21.380
-até aqui, ó.
-
-01:11:21.380 --> 01:11:23.380
-Isso, ele vai, ele vai, tipo,
-
-01:11:23.380 --> 01:11:25.380
-ele vai enchendo mesmo, literalmente ele vai
-
-01:11:25.380 --> 01:11:27.380
-aumentando. Aí, você pega, ó,
-
-01:11:27.380 --> 01:11:29.380
-tanto que, tipo assim, a última caixinha do
-
-01:11:29.380 --> 01:11:31.380
-nosso fluxo todo, é uma caixinha
-
-01:11:31.380 --> 01:11:33.380
-de delegate. Por quê? Ele pega
-
-01:11:33.380 --> 01:11:35.380
-o fluxo inteiro de informação, informação,
-
-01:11:35.380 --> 01:11:37.380
-informação, informação, informação, aí ele chega
-
-01:11:37.380 --> 01:11:39.380
-aqui, qual que é a última caixinha?
-
-01:11:39.380 --> 01:11:41.380
-A última caixinha coloca mais essas duas,
-
-01:11:41.380 --> 01:11:43.380
-ó. Identificador da I4 e
-
-01:11:43.380 --> 01:11:45.380
-de torno.
-
-01:11:49.380 --> 01:11:51.380
-Como que eu consigo ver?
-
-01:12:05.380 --> 01:12:07.380
+11:41.600 --> 11:43.600
 Isso.
 
-01:12:07.380 --> 01:12:09.380
-Por quê?
+11:43.600 --> 11:47.600
+Aí aqui no caso eu tô vendo aqui ele não faz assim que não era assim.
 
-01:12:09.380 --> 01:12:11.380
-Porque, assim, pra você
+11:47.600 --> 11:48.600
+Tá.
 
-01:12:11.380 --> 01:12:13.380
-entender, o que que é o dados proposta?
+11:48.600 --> 11:53.600
+Então esse FC6 aqui ele consulta o limite do cliente.
 
-01:12:13.380 --> 01:12:15.380
-O dados proposta, você pode entender,
+11:53.600 --> 11:54.600
+Tá.
 
-01:12:15.380 --> 01:12:17.380
-é como o pessoal fala aqui,
+11:54.600 --> 12:00.600
+Aí com esse limite do cliente ele começa a cadastrar os efetivação de cartão.
 
-01:12:17.380 --> 01:12:19.380
-o pessoal do front, que tem o
+12:00.600 --> 12:01.600
+Tudo mais.
 
-01:12:19.380 --> 01:12:21.380
-enão,
+12:01.600 --> 12:03.600
+Provavelmente aqui que você pode mexer.
 
-01:12:21.380 --> 01:12:23.380
-é, o que
+12:03.600 --> 12:08.600
+Porque aqui ele efetiva o cartão aí coloca o limite que veio do FC6 que foi aprovado.
 
-01:12:23.380 --> 01:12:25.380
-eu tô te mostrando é o delegate,
+12:08.600 --> 12:09.600
+E aqui a gente tem o R0.
 
-01:12:25.380 --> 01:12:27.380
-são as informações
+12:09.600 --> 12:11.600
+R0 é como se fosse um backup.
 
-01:12:27.380 --> 01:12:29.380
-que vão pro banco de dados.
+12:11.600 --> 12:12.600
+Deu pau aqui.
 
-01:12:29.380 --> 01:12:31.380
-Agora, o dados proposta,
+12:12.600 --> 12:14.600
+Costuma dar de vez em quando.
 
-01:12:31.380 --> 01:12:33.380
-ele fica, tipo, você pode ver, por exemplo,
+12:14.600 --> 12:16.600
+O que que acontece?
 
-01:12:33.380 --> 01:12:35.380
-no cockpit, ó, por exemplo,
+12:16.600 --> 12:18.600
+Ele vai por outro caminho e tenta.
 
-01:12:35.380 --> 01:12:37.380
-vamos pegar uma proposta de
+12:18.600 --> 12:19.600
+Tá.
 
-01:12:37.380 --> 01:12:39.380
-ó, por exemplo, vamos pegar uma proposta aqui.
+12:19.600 --> 12:24.600
+É como se fosse uma URL padrão ou URL de backup.
 
-01:12:43.380 --> 01:12:45.380
-Acho que agora você vai entender melhor, quer ver?
+12:24.600 --> 12:27.600
+Tá.
 
-01:12:47.380 --> 01:12:49.380
-Você vê aqui, ó, vamos
+12:27.600 --> 12:28.600
+Aí ele faz aqui.
 
-01:12:49.380 --> 01:12:51.380
-pegar qualquer proposta que tá rodando agora.
+12:28.600 --> 12:30.600
+Aí ele vai contratar a tarifa também.
 
-01:12:51.380 --> 01:12:53.380
-Pega essa proposta aqui, ó, que tá com
+12:30.600 --> 12:33.600
+Contrato a tarifa do cartão.
 
-01:12:53.380 --> 01:12:55.380
-ele.
+12:33.600 --> 12:35.600
+Contra efetiva o cartão.
 
-01:12:57.380 --> 01:12:59.380
-Olha as variáveis, tá vendo, ó,
+12:35.600 --> 12:37.600
+Aqui ele faz uma consulta de conta.
 
-01:12:59.380 --> 01:13:01.380
-tudo isso aqui, ó,
+12:37.600 --> 12:39.600
+Deve ser para poder fazer o check list.
 
-01:13:01.380 --> 01:13:03.380
-tudo isso aqui de
+12:39.600 --> 12:42.600
+Aí ele vai encarar contrato check especial do list.
 
-01:13:03.380 --> 01:13:05.380
-variável.
+12:42.600 --> 12:43.600
+Tá.
 
-01:13:05.380 --> 01:13:07.380
-Deixa eu pegar o fone aqui,
+12:43.600 --> 12:46.600
+Faz o envio do e-mail.
 
-01:13:07.380 --> 01:13:09.380
-deixa eu dar uma...
+12:46.600 --> 12:49.600
+Esse e-mail aqui é um envio do e-mail do.
 
-01:13:13.380 --> 01:13:15.380
-Porque não é só um obtindo.
+12:49.600 --> 12:53.600
+Já a gente chamou do AK7 para poder confirmar a abertura de conta.
 
-01:13:15.380 --> 01:13:17.380
-Tá me ouvindo, tá me ouvindo?
+12:53.600 --> 13:00.600
+Aí quando o cara é beneficiário do INSS ele faz o vínculo do benefício do INSS aqui na conta.
 
-01:13:19.380 --> 01:13:21.380
-Pera aí,
+13:00.600 --> 13:01.600
+Tá.
 
-01:13:21.380 --> 01:13:23.380
-deixa eu ativar, deixa eu trocar aqui de novo.
+13:01.600 --> 13:02.600
+Tá vendo aqui.
 
-01:13:29.380 --> 01:13:31.380
-Melhorou, melhorou?
+13:02.600 --> 13:04.600
+Efetiva, proposta e refrigeração do INSS.
 
-01:13:31.380 --> 01:13:33.380
-Beleza.
+13:04.600 --> 13:05.600
+E aí ele gera a PAC.
 
-01:13:35.380 --> 01:13:37.380
-Então, se você
+13:05.600 --> 13:06.600
+O que que é a PAC?
 
-01:13:37.380 --> 01:13:39.380
-ver aqui, é...
+13:06.600 --> 13:07.600
+É o documento final.
 
-01:13:39.380 --> 01:13:41.380
-Olha, olha quanta informação a gente transita.
+13:07.600 --> 13:09.600
+Chegou aqui.
 
-01:13:41.380 --> 01:13:43.380
-Tá vendo isso aqui, ó?
+13:09.600 --> 13:13.600
+Ele vai pegar, vai gerar um documento lá que geralmente ele é feito em Jasper.
 
-01:13:43.380 --> 01:13:45.380
-São, são cinco páginas, ó,
+13:13.600 --> 13:15.600
+Mas ele é de outra equipe que toma conta.
 
-01:13:45.380 --> 01:13:47.380
-de informação.
+13:15.600 --> 13:17.600
+Ele passa para lá de eventos.
 
-01:13:47.380 --> 01:13:49.380
-Olha quanta informação a transita.
+13:17.600 --> 13:20.600
+O pessoal pega esse evento.
 
-01:13:49.380 --> 01:13:51.380
-Quantos é que é de informação?
+13:20.600 --> 13:23.600
+Gera o documento da PAC.
 
-01:13:51.380 --> 01:13:53.380
-Então aqui, são os
+13:23.600 --> 13:25.600
+Que é o contrato da abertura da conta.
 
-01:13:53.380 --> 01:13:55.380
-dados propostas, aqui é onde fica, tipo assim,
+13:25.600 --> 13:27.600
+E envia para o cliente.
 
-01:13:55.380 --> 01:13:57.380
-o que que a gente fica transitando,
+13:27.600 --> 13:29.600
+Tá.
 
-01:13:57.380 --> 01:13:59.380
-o que que a televisão fica...
+13:29.600 --> 13:31.600
+E daqui em diante ele já encerra.
 
-01:14:01.380 --> 01:14:03.380
-Isso.
+13:31.600 --> 13:33.600
+Tá.
 
-01:14:03.380 --> 01:14:05.380
-E aí você pega,
+13:33.600 --> 13:36.600
+Esse efetivo, esse DI4 que eu não lembro exatamente.
 
-01:14:05.380 --> 01:14:07.380
-por exemplo, tem coisas aqui que são
+13:36.600 --> 13:37.600
+Ah, é da efetivação.
 
-01:14:07.380 --> 01:14:09.380
-tipo variáveis únicas, né?
+13:37.600 --> 13:38.600
+Conteúdo do CELF.
 
-01:14:09.380 --> 01:14:11.380
-Mas tem coisa aqui que é um
+13:38.600 --> 13:40.600
+Eu não entendi direito o que é isso aqui não.
 
-01:14:11.380 --> 01:14:13.380
-objeto, por exemplo, esse cara aqui, ó,
+13:40.600 --> 13:41.600
+Nosso não tem.
 
-01:14:13.380 --> 01:14:15.380
-esse cara é um objeto, eu clico dentro dele,
+13:41.600 --> 13:42.600
+Tá.
 
-01:14:15.380 --> 01:14:17.380
-eu tenho mais informação.
+13:42.600 --> 13:46.600
+Mas aqui ele geralmente gera PAC efetiva e finaliza a proposta.
 
-01:14:17.380 --> 01:14:19.380
-Tipo,
+13:46.600 --> 13:48.600
+Aqui ele atualiza ela no final com a finalização.
 
-01:14:19.380 --> 01:14:21.380
-cara, eu tenho muita coisa.
+13:51.600 --> 13:52.600
+É o contrato.
 
-01:14:21.380 --> 01:14:23.380
-Então assim, eu tô transitando
+13:52.600 --> 13:54.600
+A PAC é o contrato.
 
-01:14:23.380 --> 01:14:25.380
-muito, ó, por exemplo, esse cara aqui, ó,
+13:54.600 --> 13:58.600
+A abertura de conta, quando você abre a conta você recebe um documento lá que dá abertura de conta.
 
-01:14:25.380 --> 01:14:27.380
-olha o tamanho dele, é um objeto.
+13:58.600 --> 13:59.600
+Essa aqui é a PAC.
 
-01:14:27.380 --> 01:14:29.380
-Olha o tamanho dele.
+13:59.600 --> 14:00.600
+Tá.
 
-01:14:29.380 --> 01:14:31.380
-Então,
+14:01.600 --> 14:07.600
+Então, basicamente o fluxo, explicando por alto, é esse aqui.
 
-01:14:31.380 --> 01:14:33.380
-o mapeamento que a gente faz lá,
+14:07.600 --> 14:08.600
+Tá.
 
-01:14:33.380 --> 01:14:35.380
-as informações que a gente tá
+14:08.600 --> 14:12.600
+Então, assim, eu acho que você, partindo isso aqui agora, né.
 
-01:14:35.380 --> 01:14:37.380
-transitando lá, eu consigo ver no cockpit.
+14:12.600 --> 14:14.600
+É fazer análise.
 
-01:14:37.380 --> 01:14:39.380
-Por isso que assim,
+14:14.600 --> 14:16.600
+Por exemplo, é identificar o que é.
 
-01:14:39.380 --> 01:14:41.380
-que você tava falando lá da parte
+14:16.600 --> 14:18.600
+Geralmente eu busco quando eu preciso saber.
 
-01:14:41.380 --> 01:14:43.380
-do setup,
+14:18.600 --> 14:20.600
+Eu vi que uma conta está parada aqui e ela costuma ter erro.
 
-01:14:43.380 --> 01:14:45.380
-pode ser que
+14:20.600 --> 14:22.600
+Aí você sabe o que é que você sabe, né.
 
-01:14:45.380 --> 01:14:47.380
-precisa fazer o deparo, não tô excluindo
+14:22.600 --> 14:23.600
+Que a da Camunda fica vermelhinha.
 
-01:14:47.380 --> 01:14:49.380
-isso, tá? Mas a princípio
+14:23.600 --> 14:28.600
+Aí eu pego, vou lá no Camunda Modo, pego o nome da caixinha.
 
-01:14:49.380 --> 01:14:51.380
-não precisa fazer. Por quê? Porque a
+14:28.600 --> 14:30.600
+Ou então pego aqui mesmo, às vezes.
 
-01:14:51.380 --> 01:14:53.380
-informação já tá lá. E tipo assim,
+14:30.600 --> 14:32.600
+Mas pego aqui o nome da caixinha.
 
-01:14:55.380 --> 01:14:57.380
-Sim.
+14:32.600 --> 14:36.600
+Aí vou lá no Datadog e pesquiso pelo nome dessa caixinha.
 
-01:14:59.380 --> 01:15:01.380
-Por quê?
+14:53.600 --> 14:56.600
+Isso, eu acho que isso aí seria um passo.
 
-01:15:01.380 --> 01:15:03.380
-Como a informação
+14:56.600 --> 14:59.600
+Você teria que fazer o quanto antes, viu.
 
-01:15:03.380 --> 01:15:05.380
-ela chega tudo que precisa lá,
+14:59.600 --> 15:00.600
+Tá.
 
-01:15:05.380 --> 01:15:07.380
-se você der uma olhada aqui
+15:00.600 --> 15:03.600
+Já pega com o Rafa aí o que é que você tem que liberar.
 
-01:15:07.380 --> 01:15:09.380
-dentro do cockpit, você vai ver
+15:03.600 --> 15:05.600
+E qual que é a equipe que você tem que pedir.
 
-01:15:09.380 --> 01:15:11.380
-as variáveis que estão transitando.
+15:05.600 --> 15:07.600
+Eu acho que é o mesmo do nosso aqui, que é o seu 8.
 
-01:15:11.380 --> 01:15:13.380
-Então, todas as variáveis que estão aqui,
+15:07.600 --> 15:10.600
+Aí você pede e pede a liberação o quanto antes.
 
-01:15:13.380 --> 01:15:15.380
-imagina que assim, ó,
+15:10.600 --> 15:14.600
+Para você já ter acesso ao Datadog.
 
-01:15:15.380 --> 01:15:17.380
-tudo que tá transitando aqui,
+15:14.600 --> 15:20.600
+E aí, assim, basicamente o processo é esse.
 
-01:15:17.380 --> 01:15:19.380
-eu consigo pegar a informação.
+15:20.600 --> 15:21.600
+Tá.
 
-01:15:19.380 --> 01:15:21.380
-Agora, por exemplo,
+15:21.600 --> 15:24.600
+Tem alguma coisa a mais, bem diferente do nosso tempo.
 
-01:15:21.380 --> 01:15:23.380
-se a proposta vem aqui, ó,
+15:24.600 --> 15:28.600
+Porque o nosso aqui, o resto dos fluxos é quase tudo nosso aqui.
 
-01:15:23.380 --> 01:15:25.380
-ela literalmente,
+15:28.600 --> 15:29.600
+Tá vendo?
 
-01:15:25.380 --> 01:15:27.380
-ela finalizada.
+15:29.600 --> 15:35.600
+Aí a efetivação de um onboard que é nosso, isso aqui é tudo nosso.
 
-01:15:27.380 --> 01:15:29.380
-Imagina assim, ó,
+15:35.600 --> 15:38.600
+Aí tá vendo que o nosso é bem mais simplificado?
 
-01:15:29.380 --> 01:15:31.380
-eu vim aqui, ó,
+15:38.600 --> 15:40.600
+Bem menorzinho.
 
-01:15:31.380 --> 01:15:33.380
-na última caixinha, aqui, ó,
+15:40.600 --> 15:43.600
+Mas é porque a gente dividiu um pouco mais.
 
-01:15:33.380 --> 01:15:35.380
-ela veio pra cá, ela, pum, caiu aqui.
+15:43.600 --> 15:45.600
+Aí tem o Iscas aqui que é nosso também.
 
-01:15:35.380 --> 01:15:37.380
-A proposta, ela já não fica mais aqui.
+15:45.600 --> 15:47.600
+E tem vários aqui que são nossos.
 
-01:15:37.380 --> 01:15:39.380
-Então, assim, um monte,
+15:47.600 --> 15:52.600
+Mas vai ter um, assim, se você sai em um, a gente tem dez.
 
-01:15:39.380 --> 01:15:41.380
-um monte, dessas informações
+15:54.600 --> 15:55.600
+Tá vendo?
 
-01:15:41.380 --> 01:15:43.380
-que tá aqui, elas se perdem?
+16:02.600 --> 16:04.600
+Dividi ele, né?
 
-01:15:43.380 --> 01:15:45.380
-Tipo, não que se perdem,
+16:05.600 --> 16:06.600
+Tá, entendi.
 
-01:15:45.380 --> 01:15:47.380
-mas assim, a gente não utiliza mais elas.
+16:06.600 --> 16:09.600
+É, pode ser uma, pode ser uma saída, tá?
 
-01:15:47.380 --> 01:15:49.380
-Aí,
+16:09.600 --> 16:15.600
+Aí, mas o ponto que eu queria te mostrar era, assim,
 
-01:15:49.380 --> 01:15:51.380
-isso, o que que a gente guarda?
+16:15.600 --> 16:19.600
+uma apresentação superficial do fluxo.
 
-01:15:51.380 --> 01:15:53.380
-A gente guarda aquilo que interessa pra gente.
+16:19.600 --> 16:20.600
+Tá?
 
-01:15:53.380 --> 01:15:55.380
-Tem coisas que são informações
+16:20.600 --> 16:23.600
+Do que a gente vê, do que a gente faz e como que funciona.
 
-01:15:55.380 --> 01:15:57.380
-que a gente precisa guardar,
+16:23.600 --> 16:25.600
+Esses caras aqui.
 
-01:15:57.380 --> 01:15:59.380
-que a gente precisa consultar depois.
+16:25.600 --> 16:27.600
+Tem um monte de exenotesk por trás.
 
-01:16:01.380 --> 01:16:03.380
-Isso, aí quando guarda,
+16:27.600 --> 16:29.600
+Que é aí que acontece.
 
-01:16:03.380 --> 01:16:05.380
-vai pro banco de dados.
+16:29.600 --> 16:31.600
+Tem que acessar lá na AWS pra você ver.
 
-01:16:05.380 --> 01:16:07.380
-Só que, tipo assim, se você for ver o banco de dados,
+16:31.600 --> 16:33.600
+Mas, assim, é...
 
-01:16:07.380 --> 01:16:09.380
-a gente não guarda tudo isso aqui.
+16:39.600 --> 16:40.600
+Basicamente é isso.
 
-01:16:09.380 --> 01:16:11.380
-Cara, são cinco páginas de informação,
+16:40.600 --> 16:44.600
+O funcionamento dele é como se fosse similar a uma fila.
 
-01:16:11.380 --> 01:16:13.380
-um monte de coisa que a gente
+16:44.600 --> 16:47.600
+Ele deixa uma fila como se fosse um tópico, né?
 
-01:16:13.380 --> 01:16:15.380
-não guarda, literalmente,
+16:47.600 --> 16:49.600
+Deixa eu ver se consigo te mostrar aqui.
 
-01:16:15.380 --> 01:16:17.380
-simplesmente não guarda, só isso.
+16:53.600 --> 16:55.600
+E aí, a gente captura...
 
-01:16:17.380 --> 01:16:19.380
-Então, tipo assim, só que,
+16:55.600 --> 16:58.600
+A exenotesk captura ela.
 
-01:16:19.380 --> 01:16:21.380
-eu tô durante a jornada,
+17:01.600 --> 17:03.600
+Funciona o navegador? Deixa eu ver aqui.
 
-01:16:21.380 --> 01:16:23.380
-então, eu tô batendo num setup de contas,
+17:06.600 --> 17:08.600
+Acessa a AWS, você tem.
 
-01:16:23.380 --> 01:16:25.380
-que é o que você vai mexer lá, né?
+17:23.600 --> 17:24.600
+Uhum.
 
-01:16:25.380 --> 01:16:27.380
-Você tá batendo num setup de contas.
+17:29.600 --> 17:30.600
+Tá.
 
-01:16:27.380 --> 01:16:29.380
-A informação persiste,
+17:30.600 --> 17:33.600
+É isso aí que eu acho que você tem que correr atrás o quanto antes.
 
-01:16:29.380 --> 01:16:31.380
-eles conseguem olhar aqui, por quê?
+17:33.600 --> 17:35.600
+Verificar os acessos.
 
-01:16:31.380 --> 01:16:33.380
-Porque a informação ainda tá aqui, entendeu?
+17:35.600 --> 17:37.600
+Você teria que estar acessando aqui, ó.
 
-01:16:33.380 --> 01:16:35.380
-Então, por isso que a gente,
+17:37.600 --> 17:39.600
+O que acontece? Deixa eu ir lá.
 
-01:16:35.380 --> 01:16:37.380
-tipo, acredita que não precisa ter
+17:41.600 --> 17:43.600
+Abertura conta corre.
 
-01:16:37.380 --> 01:16:39.380
-esse script que você fez.
+17:44.600 --> 17:47.600
+Estou entrando lá na nossa conta AWS.
 
-01:16:39.380 --> 01:16:41.380
-Porque esse script que você fez,
+17:53.600 --> 17:54.600
+Vem cá.
 
-01:16:41.380 --> 01:16:43.380
-tipo, pode ser que não precisa
+18:15.600 --> 18:16.600
+Virgina.
 
-01:16:43.380 --> 01:16:45.380
-fazer esse deparo.
-
-01:16:45.380 --> 01:16:47.380
-Por isso que era tipo assim, cara, simplesmente,
-
-01:16:47.380 --> 01:16:49.380
-copia, cola e testa, vê se funciona.
-
-01:16:49.380 --> 01:16:51.380
-Funcionou, beleza.
-
-01:16:53.380 --> 01:16:55.380
-Sim.
-
-01:17:01.380 --> 01:17:03.380
-Sim.
-
-01:17:05.380 --> 01:17:07.380
-É que a gente é parte
-
-01:17:07.380 --> 01:17:09.380
-do que eu suposto que assim,
-
-01:17:09.380 --> 01:17:11.380
-já tem gente que já fez,
-
-01:17:11.380 --> 01:17:13.380
-e o deles não tem script, entendeu?
-
-01:17:13.380 --> 01:17:15.380
-Tipo, você não tem essa transformação de dados.
-
-01:17:15.380 --> 01:17:17.380
-Então, a princípio funciona, entendeu?
-
-01:17:17.380 --> 01:17:19.380
-Tipo, você pega o trafete laranja,
-
-01:17:19.380 --> 01:17:21.380
-o trafete laranja é basicamente
-
-01:17:21.380 --> 01:17:23.380
-o nosso público, quase igual.
-
-01:17:23.380 --> 01:17:25.380
-Isso.
-
-01:17:25.380 --> 01:17:27.380
-Exatamente, porque se o deles funciona,
-
-01:17:27.380 --> 01:17:29.380
-provavelmente nós temos que funcionar.
-
-01:17:29.380 --> 01:17:31.380
-Tipo, provavelmente.
-
-01:17:31.380 --> 01:17:33.380
-Mas aí, depende, às vezes pode ser quebre,
-
-01:17:33.380 --> 01:17:35.380
-aí pode ser que um dado ou outro,
-
-01:17:35.380 --> 01:17:37.380
-que a gente precise de fato fazer um deparo,
-
-01:17:37.380 --> 01:17:39.380
-aí a gente, aí assim, é só testando, entendeu?
-
-01:17:41.380 --> 01:17:43.380
-Mas aí, cara.
-
-01:17:51.380 --> 01:17:53.380
-Sim.
-
-01:17:55.380 --> 01:17:57.380
-Isso, por fato.
-
-01:17:59.380 --> 01:18:01.380
-Sim.
-
-01:18:07.380 --> 01:18:09.380
-Cara, mas eu acho que
-
-01:18:09.380 --> 01:18:11.380
-eu dei um overview
-
-01:18:11.380 --> 01:18:13.380
-macro assim do C8, cara.
-
-01:18:13.380 --> 01:18:15.380
-Depois tem o teste, falou de chave-pareça,
-
-01:18:15.380 --> 01:18:17.380
-falou de cada tipo de caixinha.
-
-01:18:17.380 --> 01:18:19.380
-Tiger.
-
-01:18:19.380 --> 01:18:21.380
-Timer.
-
-01:18:21.380 --> 01:18:23.380
-Também, por exemplo,
-
-01:18:23.380 --> 01:18:25.380
-o timer.
-
-01:18:25.380 --> 01:18:27.380
-O timer aqui,
-
-01:18:27.380 --> 01:18:29.380
-a gente tem esse aqui, por exemplo,
-
-01:18:29.380 --> 01:18:31.380
-PT10, que aqui é 10 minutos.
-
-01:18:31.380 --> 01:18:33.380
-Aí é meio que, tipo assim,
-
-01:18:33.380 --> 01:18:35.380
-a caixinha,
-
-01:18:35.380 --> 01:18:37.380
-o token para aqui,
-
-01:18:37.380 --> 01:18:39.380
-por exemplo.
-
-01:18:39.380 --> 01:18:41.380
-Aí ele tem duas maneiras,
-
-01:18:41.380 --> 01:18:43.380
-ou ele aguarda 10 minutos,
-
-01:18:43.380 --> 01:18:45.380
-ele cai pra cá, ou ele pode vir direto.
-
-01:18:45.380 --> 01:18:47.380
-Mas aqui, geralmente,
-
-01:18:47.380 --> 01:18:49.380
-acontece. Ele para aqui, espera 10 minutos,
-
-01:18:49.380 --> 01:18:51.380
-aí ele puxa o tokenzinho,
-
-01:18:51.380 --> 01:18:53.380
-e encerra a proposta.
-
-01:18:53.380 --> 01:18:55.380
-Ele é mais um, tipo, retry, por exemplo.
-
-01:18:59.380 --> 01:19:01.380
+18:16.600 --> 18:17.600
 Aqui, ó.
 
-01:19:01.380 --> 01:19:03.380
-Se você for ver, toda a user task
+18:17.600 --> 18:19.600
+Geralmente, ele vem cá e coloca um virgine aqui.
 
-01:19:03.380 --> 01:19:05.380
-ela tem um timer.
+18:19.600 --> 18:21.600
+E me mata de raiva toda vez.
 
-01:19:05.380 --> 01:19:07.380
-Imagina que eu chego numa parte de declaração,
+18:21.600 --> 18:23.600
+Eu tenho que vir cá e selecionar São Paulo, tá?
 
-01:19:07.380 --> 01:19:09.380
-ou, sei lá, qual que é a outra etapa?
+18:23.600 --> 18:25.600
+Aí você já presta atenção,
 
-01:19:09.380 --> 01:19:11.380
-De tela.
+18:25.600 --> 18:27.600
+porque às vezes você não acha as coisas é por causa disso.
 
-01:19:11.380 --> 01:19:13.380
-E eu não faço nada. A proposta, tipo,
+18:31.600 --> 18:32.600
+Aí aqui...
 
-01:19:13.380 --> 01:19:15.380
-eu simplesmente largo e viro as fotos.
+18:33.600 --> 18:35.600
+Vou pegar os cluster aqui.
 
-01:19:15.380 --> 01:19:17.380
-Ele tem que ter um tempo. Por quê?
+18:39.600 --> 18:43.600
+Tem os consumers e a gente tem exenotesk aqui,
 
-01:19:17.380 --> 01:19:19.380
-Tem que pegar esse token, tem que fazer alguma coisa.
+18:43.600 --> 18:45.600
+que são várias aplicações Java.
 
-01:19:19.380 --> 01:19:21.380
-Ele tem que fazer uma...
+18:45.600 --> 18:47.600
+Aí, está vendo esse monte aqui?
 
-01:19:21.380 --> 01:19:23.380
-Algo, né?
+18:48.600 --> 18:50.600
+Está vendo, ó.
 
-01:19:23.380 --> 01:19:25.380
-Então, imagina assim, o pessoal
+18:50.600 --> 18:52.600
+Envio de e-mail, envio de SMS,
 
-01:19:25.380 --> 01:19:27.380
-vem aqui na declaração,
+18:52.600 --> 18:54.600
+apt-limit, abertura de conta.
 
-01:19:27.380 --> 01:19:29.380
-na parte de declaração, e fica parado ali pra sentar.
-
-01:19:29.380 --> 01:19:31.380
-Então, a gente coloca um timerzinho,
-
-01:19:31.380 --> 01:19:33.380
-que ele faz. Ele faz os proves parados.
-
-01:19:33.380 --> 01:19:35.380
-Ou seja, eu não tive
-
-01:19:35.380 --> 01:19:37.380
-interação nenhuma.
-
-01:19:37.380 --> 01:19:39.380
-E aí, ele pega os proves, aquela informação.
-
-01:19:41.380 --> 01:19:43.380
-Botão voltar,
-
-01:19:43.380 --> 01:19:45.380
-que é esse cara aqui,
-
-01:19:45.380 --> 01:19:47.380
-que a gente já tava discutindo lá no vídeo,
-
-01:19:47.380 --> 01:19:49.380
-né?
-
-01:19:49.380 --> 01:19:51.380
-A princípio, a gente não tem problema.
-
-01:19:55.380 --> 01:19:57.380
-Que mais?
-
-01:19:57.380 --> 01:19:59.380
-Que mais? Ó, esse cara aqui, por exemplo,
-
-01:19:59.380 --> 01:20:01.380
-do raiozinho. O raio,
-
-01:20:01.380 --> 01:20:03.380
-ele é o quê? Ele é
-
-01:20:03.380 --> 01:20:05.380
-um Error Boundary Event,
-
-01:20:05.380 --> 01:20:07.380
-né? Que é
-
-01:20:07.380 --> 01:20:09.380
-um erro de evento.
-
-01:20:09.380 --> 01:20:11.380
-Se eu faço uma chamada, eu vou
-
-01:20:11.380 --> 01:20:13.380
-fazer uma chamada, e aí eu configuro.
-
-01:20:13.380 --> 01:20:15.380
-Olha, toda vez que der 200,
-
-01:20:15.380 --> 01:20:17.380
-continua.
-
-01:20:17.380 --> 01:20:19.380
-Se eu não der, por exemplo, aqui ó,
-
-01:20:19.380 --> 01:20:21.380
-aqui ó.
-
-01:20:21.380 --> 01:20:23.380
-Se eu tiver o custom title,
-
-01:20:23.380 --> 01:20:25.380
-Error PW2 Search.
-
-01:20:25.380 --> 01:20:27.380
-Se eu tiver o status code
-
-01:20:27.380 --> 01:20:29.380
-404,
-
-01:20:29.380 --> 01:20:31.380
-o que ele faz? Ele pega aqui,
-
-01:20:31.380 --> 01:20:33.380
-fala, opa, deu erro.
-
-01:20:33.380 --> 01:20:35.380
-Ele passa pra outro lugar.
-
-01:20:35.380 --> 01:20:37.380
-Esse é o raiozinho
-
-01:20:37.380 --> 01:20:39.380
-pra que ele serve. Geralmente é
-
-01:20:39.380 --> 01:20:41.380
-em parte de chamada
-
-01:20:41.380 --> 01:20:43.380
-de API.
-
-01:20:43.380 --> 01:20:45.380
-Ó, chamada de
-
-01:20:45.380 --> 01:20:47.380
-API. Cara, se eu der um erro aqui,
-
-01:20:47.380 --> 01:20:49.380
-se eu der diferente de 200,
-
-01:20:49.380 --> 01:20:51.380
-o que eu faço? Eu continuo, eu vou pra cá.
-
-01:20:51.380 --> 01:20:53.380
-Aí cada um
-
-01:20:53.380 --> 01:20:55.380
-tem um tipo de tratativa,
-
-01:20:55.380 --> 01:20:57.380
-sabe?
-
-01:20:57.380 --> 01:20:59.380
-E toda vez que você vê
-
-01:20:59.380 --> 01:21:01.380
-tipo, meio rasturada aqui,
-
-01:21:01.380 --> 01:21:03.380
-ó, por exemplo, esse cara aqui,
-
-01:21:03.380 --> 01:21:05.380
-ó, esse cara, tá vendo? Ele foi,
-
-01:21:05.380 --> 01:21:07.380
-tiver essa, é, mais
-
-01:21:07.380 --> 01:21:09.380
-mais forte aqui, né?
-
-01:21:09.380 --> 01:21:11.380
-Ele é um outro BTMN.
-
-01:21:11.380 --> 01:21:13.380
-É,
-
-01:21:13.380 --> 01:21:15.380
-isso. É, é tipo assim,
-
-01:21:15.380 --> 01:21:17.380
-lembra que tem o BTMN
-
-01:21:17.380 --> 01:21:19.380
-pai, a gente aqui da ficha,
-
-01:21:19.380 --> 01:21:21.380
-então a gente é filho.
-
-01:21:21.380 --> 01:21:23.380
-E esses caras aqui dentro da gente já é neto.
-
-01:21:23.380 --> 01:21:25.380
-Por exemplo, aqui
-
-01:21:25.380 --> 01:21:27.380
-cinco já é neto.
-
-01:21:27.380 --> 01:21:29.380
-O...
-
-01:21:29.380 --> 01:21:31.380
+18:54.600 --> 18:56.600
 Isso.
 
-01:21:31.380 --> 01:21:33.380
-E o mesa PLD já é neto.
+18:56.600 --> 18:57.600
+Elas ficam rodando aqui.
 
-01:21:33.380 --> 01:21:35.380
-Mas, mas
+18:57.600 --> 18:59.600
+Aí, por exemplo, você tem que ir, por exemplo,
 
-01:21:35.380 --> 01:21:37.380
-isso já começa a complicar lá,
+18:59.600 --> 19:00.600
+a várias delas, ó.
 
-01:21:37.380 --> 01:21:39.380
-que a moça tinha conversado, né?
+19:00.600 --> 19:02.600
+Vincular salário, tá?
 
-01:21:39.380 --> 01:21:41.380
-Tipo, é pai, filho, no máximo neto.
+19:02.600 --> 19:06.600
+Reserva de conta, que é aquela que eu te falei que faz a reserva da conta.
 
-01:21:41.380 --> 01:21:43.380
-Se tiver, tipo,
+19:07.600 --> 19:12.600
+E aí, você tem também alguns consumers que estão aqui, ó.
 
-01:21:43.380 --> 01:21:45.380
-bisneto aí já começa a,
+19:12.600 --> 19:15.600
+Fica tranquilo que eu fui fazer esse consumer pack aqui,
 
-01:21:45.380 --> 01:21:47.380
-tipo, aí entra muito lugar, sai muito lugar.
+19:15.600 --> 19:17.600
+que leva um susto violento também,
 
-01:21:49.380 --> 01:21:51.380
-Mas eu acho que é isso, Fábio, o overview
+19:17.600 --> 19:20.600
+que eu fiz ele em Kotlin e o pessoal brigou comigo.
 
-01:21:51.380 --> 01:21:53.380
-mais maco da parada.
+19:20.600 --> 19:24.600
+Então, eu também estou acostumado a tomar na orelha de vez em quando.
 
-01:22:05.380 --> 01:22:07.380
+19:24.600 --> 19:26.600
+Aí, o que acontece?
+
+19:26.600 --> 19:28.600
+A gente tem esses consumers aqui, né?
+
+19:28.600 --> 19:33.600
+E eles comunicam com o Camunda, né?
+
+19:33.600 --> 19:35.600
+Então, a gente pega um pouco do Camunda.
+
+19:35.600 --> 19:37.600
+Deixa eu te mostrar aqui.
+
+19:37.600 --> 19:40.600
+E aí, eles fazem essa comunicação lá, tá?
+
+19:40.600 --> 19:43.600
+Aí, por exemplo, você deixa ficar aqui.
+
+19:43.600 --> 19:45.600
+Você vem aqui, ó.
+
+19:45.600 --> 19:47.600
+Muitos deles têm aqui o coisa.
+
+19:47.600 --> 19:48.600
+Então, deixa eu ver.
+
+19:48.600 --> 19:49.600
+Esse aqui é Delegate.
+
+19:49.600 --> 19:52.600
+Deixa eu ver se eu acho que é Delegate.
+
+19:59.600 --> 20:02.600
+Deixa eu achar aqui mais uma ideia de Delegate.
+
+20:02.600 --> 20:08.600
+Isso aqui é um esquema que eles fizeram aqui que chama não é Delegate,
+
+20:08.600 --> 20:10.600
+mas é um HTTP Post, tá vendo?
+
+20:10.600 --> 20:13.600
+Eles fazem aqui, ele pega a configuração de dev e tudo mais.
+
+20:13.600 --> 20:16.600
+Aí, você faz um processo para o HTTP aqui.
+
+20:16.600 --> 20:18.600
+A grande maioria faz assim.
+
+20:18.600 --> 20:21.600
+Esse fluxo aqui que eu peguei, eu acho que não vou ser tão claro,
+
+20:21.600 --> 20:23.600
+mas eu acho que é um fluxo, né?
+
+20:23.600 --> 20:25.600
+Então, eu acho que é um fluxo, né?
+
+20:25.600 --> 20:27.600
+Então, eu acho que é um fluxo, né?
+
+20:27.600 --> 20:29.600
+Então, eu acho que é um fluxo.
+
+20:29.600 --> 20:30.600
+A maioria faz assim.
+
+20:30.600 --> 20:33.600
+Esse fluxo aqui que eu peguei, eu acho que não vou ser tão feliz com ele não.
+
+20:33.600 --> 20:35.600
+Talvez esse aqui eu consiga te mostrar melhor.
+
+20:35.600 --> 20:38.600
+Porque lá muito, muito...
+
+20:38.600 --> 20:42.600
+Tem muito coisa direta com Delegate lá.
+
+20:42.600 --> 20:45.600
+Aqui, nós vamos...
+
+20:53.600 --> 20:54.600
 Isso.
 
-01:22:07.380 --> 01:22:09.380
+20:54.600 --> 20:58.600
+Os Delegates estão dentro da plataforma.
+
+20:58.600 --> 21:02.600
+São coisas que estão implementadas dentro da plataforma do Camunda.
+
+21:02.600 --> 21:04.600
+A gente tem um Camunda.
+
+21:04.600 --> 21:08.600
+Aí, tem uma equipe que é Lideshare que faz as implementações.
+
+21:08.600 --> 21:11.600
+Aí, tem muita coisa relacionada aqui, é três, que já está pronta.
+
+21:11.600 --> 21:13.600
+Então, eu não preciso implementar de novo.
+
+21:13.600 --> 21:17.600
+Então, eu utilizo o Delegate do que já está pronto dentro da plataforma.
+
+21:17.600 --> 21:18.600
+Tá?
+
+21:25.600 --> 21:29.600
+Estão dentro da plataforma.
+
+21:29.600 --> 21:30.600
+Deixa eu te mostrar.
+
+21:30.600 --> 21:31.600
+Mas a gente não tem acesso.
+
+21:31.600 --> 21:34.600
+A gente não pode fazer a alteração lá, tá?
+
+21:37.600 --> 21:39.600
+Propostas.
+
+21:39.600 --> 21:41.600
+JVCC Proposta Core.
+
+21:41.600 --> 21:44.600
+É o Core aqui.
+
+21:44.600 --> 21:48.600
+Aí, o Core dele aqui é onde estão...
+
+21:48.600 --> 21:49.600
+Proposta não.
+
+21:49.600 --> 21:52.600
+JVCC Jornada.
+
+21:52.600 --> 21:53.600
+Jornada Core.
+
+21:53.600 --> 21:54.600
+É, Jornada.
+
+21:56.600 --> 21:58.600
+Aí, aqui, o que acontece?
+
+21:58.600 --> 22:00.600
+Isso aqui é a imagem.
+
+22:00.600 --> 22:05.600
+A gente busca uma imagem do Docker e implementa.
+
+22:05.600 --> 22:11.600
+Só que essa imagem do Docker é gerada só pela equipe da plataforma lá do Shared.
+
+22:11.600 --> 22:14.600
+A gente não tem acesso a ela, tá?
+
+22:14.600 --> 22:19.600
+Então, não vou conseguir te mostrar o fonte dos Delegates.
+
+22:19.600 --> 22:23.600
+Mas, enfim, não precisa preocupar porque os Delegates a gente não mexe,
+
+22:23.600 --> 22:27.600
+eles não fazem novos, a gente usa só os que tem lá.
+
+22:27.600 --> 22:28.600
+E aí, o que acontece?
+
+22:28.600 --> 22:32.600
+O ponto que eu queria te mostrar é essa questão do tópico aqui, tá vendo?
+
+22:33.600 --> 22:34.600
+Viu aqui?
+
+22:34.600 --> 22:37.600
+Esse tópico, isso aqui já é a external test, tá vendo?
+
+22:37.600 --> 22:38.600
+É ET.
+
+22:38.600 --> 22:41.600
+Coloca a externa, coloca o tópico aqui.
+
+22:41.600 --> 22:44.600
+Muitos deles têm aqui o caminho dela aqui, tá vendo?
+
+22:44.600 --> 22:46.600
+Qualquer externa que usa.
+
+22:46.600 --> 22:53.600
+E se você for olhar aqui, esse tópico funciona identico a uma fila.
+
+22:53.600 --> 22:59.600
+Chegou aqui, tem um cara que fica escutando, um aplicativo já que fica escutando essa caixinha.
+
+22:59.600 --> 23:05.600
+Chegou aqui, ela acessa esse tópico, pega o registro, processa e devolve.
+
+23:06.600 --> 23:11.600
+Então sempre tem a externa no teste, na maioria das vezes é desse jeito que faz.
+
+23:19.600 --> 23:26.600
+Não, ela já funciona assim, porque a resposta já é mais ou menos assim.
+
+23:29.600 --> 23:31.600
+Não, ele continua, ele fica esperando aqui.
+
+23:31.600 --> 23:35.600
+Enquanto não tiver o retorno dele, ele continua aqui esperando.
+
+23:35.600 --> 23:41.600
+Ele pega, processa e dá um feedback aqui, um callback, perdão, feedback, callback.
+
+23:41.600 --> 23:44.600
+Aí dando callback aqui ele continua.
+
+23:46.600 --> 23:48.600
+Então essa aplicação...
+
+23:54.600 --> 23:59.600
+Eu vou te passar aqui, isso, eu vou te passar aqui uma aplicação que é essa da Conta Corrente aqui
+
+23:59.600 --> 24:04.600
+pra você dar uma olhada aqui, pra você dar uma olhada no ponto dela.
+
+24:04.600 --> 24:07.600
+Mas basicamente é isso que ele faz.
+
+24:07.600 --> 24:11.600
+Então se ele faz, aí tem, por exemplo, a efetivação de cartão que é outra, ele tem, tá vendo?
+
+24:11.600 --> 24:13.600
+Eu vou te passar mais.
+
+24:14.600 --> 24:18.600
+Mas vamos lá, Fábio, o que a gente tem que fazer de imediato aí?
+
+24:18.600 --> 24:23.600
+Primeira coisa, dá uma olhada no acesso da AWS.
+
+24:23.600 --> 24:27.600
+Acesso da AWS aqui, caminha aí, tem que estar acessando.
+
+24:27.600 --> 24:32.600
+Acesso do datadog, o caminho é esse, tem que estar acessando.
+
+24:38.600 --> 24:39.600
+Tem que estar acessando.
+
+24:39.600 --> 24:42.600
+Por quê? Porque o acesso é a primeira coisa que você pede.
+
+24:42.600 --> 24:47.600
+Pra isso você vai acompanhar o que está acontecendo com o torque, qual é o caminho, o que que...
+
+24:50.600 --> 24:55.600
+Aí tem que ver essa questão dos seus acessos, já tem que estar acessando, tem que estar vendo tudo lá.
+
+24:55.600 --> 24:59.600
+E aí você tem que acessar as fontes aí, que foi o que eu te passei, tá?
+
+25:05.600 --> 25:07.600
+Aí o que é bom você fazer?
+
+25:07.600 --> 25:14.600
+É entender como é que funciona, reveja essa conversa nossa, vê se você tem dúvida e vai me mandando.
+
+25:15.600 --> 25:17.600
+Pra gente poder avançar aí, tá?
+
+25:25.600 --> 25:30.600
+Eu não posso sentar contigo e fazer contigo, mas eu posso ficar com um backup de dúvida, entendeu?
+
+25:30.600 --> 25:33.600
+Olha, aonde vai isso, o que que eu faço aqui e tal?
+
+25:33.600 --> 25:34.600
+Aí eu vou te apoiando.
+
+25:36.600 --> 25:37.600
+Fechou?
+
+25:42.600 --> 25:43.600
+Uma coisa boa.
+
+25:43.600 --> 25:47.600
+Aí agora vê a AWS, vê se você consegue acessar a AWS.
+
+25:47.600 --> 25:48.600
+Tá?
+
+25:48.600 --> 25:51.600
+Algumas vezes acontece que uma ET está lá e você consegue ver logo.
+
+25:51.600 --> 25:55.600
+Por exemplo, dentro do Datadog aqui, você consegue fazer a busca por elas, tá?
+
+25:55.600 --> 26:00.600
+Você vem com a EPM aqui, você consegue ver elas, ver o que que está acontecendo, se está saúde de data boa, assim, tá?
+
+26:02.600 --> 26:03.600
+Essas coisas, tá?
+
+26:03.600 --> 26:08.600
+E aí eu te aconselho a abrir pelo menos uma dessas ET que eu te passei aqui, que é essas ET aqui.
+
+26:08.600 --> 26:11.600
+E aí você consegue ver o que que está acontecendo lá dentro.
+
+26:12.600 --> 26:14.600
+Essas coisas, tá?
+
+26:14.600 --> 26:20.600
+E aí eu te aconselho a abrir pelo menos uma dessas ET que eu te passei aqui, que é essas external tests, e dar uma olhada como que é a fonte dela.
+
+26:20.600 --> 26:23.600
+Essas são em Java, é tranquilo de ver.
+
+26:27.600 --> 26:28.600
+Então, beleza.
+
+26:28.600 --> 26:31.600
+Qualquer coisa, só chamar.
+
+26:32.600 --> 26:35.600
+Valeu, nada, que isso. Até mais, tchau, tchau.
+
+26:41.600 --> 26:42.600
+Tchau, tchau.
+
+27:11.600 --> 27:12.600
+Tchau, tchau.
+
+27:41.600 --> 27:42.600
+Tchau, tchau.
+
+28:11.600 --> 28:12.600
+Tchau, tchau.
+
+28:41.600 --> 28:42.600
+Tchau, tchau.
+
+29:11.600 --> 29:12.600
+Tchau, tchau.
+
+29:41.600 --> 29:43.600
+Tchau, tchau.
+
+30:11.600 --> 30:12.600
+Tchau, tchau.
+
+30:41.600 --> 30:42.600
+Tchau, tchau.
+
+31:11.600 --> 31:12.600
+Tchau, tchau.
+
+31:41.600 --> 31:43.600
+Tchau, tchau.
+
+32:11.600 --> 32:12.600
+Tchau, tchau.
+
+32:41.600 --> 32:43.600
+Tchau, tchau.
+
+
+porque é muito legal o mestre uma roupa que tem as
+Mas ele curtiu ontem com você na sua cartória. Ele curtiu a foto.
+Beleza? Tranquilo? Gostei da camiseta, cara. Você é vocalista?
+Eu tô zoando, pô. Eu toco batera. Eu quero falar, você é por vocalista, já entra na minha banda, já.
+Opção de vocal.
+Sou... Você dá onde, cara? Você daqui de São Paulo?
+Ah, você. Eu vim de Sul. Legal, mas...
+De lugar de mim, né, CDH?
+Verlândia? Ah, minha mãe é mineira também.
+Sou filho de mineiro.
+Sou, eu moro... Eu tô aqui não sei que hoje, né, onde o pessoal trabalha. Eu vim aqui, mas eu moro em Santandre, na verdade, né?
+Eu sou da região do ABC que o pessoal fala, né? Aí aqui, aí em São Paulo, né?
+É legal, cara, a Mandy veio conversar comigo pra mostrar um pouquinho pra você do CO8, né?
+Tentar te introduzir aqui um pouco sobre CO8, sobre nossa arquitetura, sobre o que a gente faz e...
+Aí eu vou falar, cara, você tem um background do que você já viu, do que você sabe alguma coisa do CO8, você é programador...
+Uh-huh, beleza.
+Legal. Pô, legal, massa.
+Uh-huh.
+MFA.
+MFA, que o pessoal chama, que é o Micro Front Change.
+E a gente tem o MFA e o BFF, que é o Back for Front Change, que é a parte do do back ali, né?
+Mas, cara, se... Uh-huh.
+Mais ou menos, cara, mais ou menos.
+Mas, assim, putz legal que você já tem pelo menos um conhecimento prévio de CO8, já vai ajudar muito, assim, cara, muito mesmo, legal.
+E seja a questão de programação, assim, você já é programador de alguma coisa, ou...
+Tipo assim, ah...
+Ou meio que...
+Java, que legal.
+Eu, só pra te dar um bom histórico aqui, eu conheço um pouco, porque eu já tô um pouco tempo aqui, né?
+Já tô... Fiz um ano agora.
+Então, eu, basicamente, eu era, tipo, N1, trabalhava com o N1.
+Mas, tipo, o suporte, assim, né?
+E... Eu não sou do banco, né? Eu sou terceiro aqui.
+Então, aqui no Itaú, eu tô um ano, né?
+Eu já era de outro projeto da empresa que eu sou, né?
+E, se é do Itaú, mesmo você é terceiro?
+Das UPE?
+GFT? Ah, putz legal, cara.
+Tem um cara muito de tibô da GFT, que eu conheço.
+Ele que me ensinou bastante aqui do CO8.
+E eu sou da IBM.
+Aí... Tem, cara, tem GFT, IBM.
+Tem Zup, NTT.
+Tem bastante gente.
+Tem. Pessoal da NTT também.
+Tem bastante gente, cara.
+E...
+E aí, eu fui aprender no cara, tipo, assim, de pouquinho em pouquinho.
+Meu conhecimento era, basicamente, zero.
+É tudo que eu aprendi, inclusive, tecnicamente, eu aprendi aqui, né?
+Então, aqui, foi bem legal, porque é uma escola.
+Sim, também.
+Eu não sou programadora ainda, né?
+Mas tô começando a me arriscar mais aqui.
+Tô pegando algumas testes de back, mexendo no Java, nos repositorios, né?
+E aí, tô começando a me arriscar mais.
+Mas, assim, minha base, tipo, o que eu tenho em base de tudo é o CO8 aqui, né?
+Tipo, eu não sou mestre dos margos.
+Aqui tem gente que conhece muito mais que eu.
+Assim, como eu fui mexendo dia a dia, eu fui pegando bastante coisinha, né?
+Eu queria tentar te resumir, te passar e te introduzindo.
+Mas que você vai ser meu par aqui no CO8, né?
+Então, assim, vão ver demandas pra você.
+E aí, eu posso te ajudar também, cara, tiver dúvida que eu consegui te ajudar também, né?
+Aqui, a gente meio... como que a gente dividir na estrutura, né?
+A gente tem o pessoal do front, o pessoal do back e o pessoal do CO8, né?
+Aí o pessoal do CO8, eu e você, basicamente, né?
+Mas o pessoal do back acaba dando uma mexida aqui, e como a gente conversa muito,
+aí, às vezes, eu pego coisa do back, eles pegam coisa do CO8 aqui e tal, né?
+Mas, em suma, tipo assim, a gente meio que tenta dividir, né?
+E aí, basicamente, o CO8 oficialmente só tem eu, né?
+E agora você...
+Aí, eu tenta te dar uma...
+Aí, coming.
+Uh-huh.
+Este export, o que você está falando?
+Não sei lá, este export, isso.
+Uh-huh.
+Não tem. Não tem.
+Cara, aqui, especificamente, é uma coisa mais nichada a partir do camunda aqui, CO8, né?
+Tipo assim, todo mundo tem esse conhecimento.
+Então, é um pouco mais nichado, assim, sabe?
+Tem bastante gente aqui, que é back, front, mas, tipo, especificamente, CO8, é mais reduzido.
+Então, é por isso que você talvez não está encontrando tanta informação, tanta literatura, né?
+Mas, cara, deixa eu... deixa eu...
+Você está vendo minha tela aqui? Você está conseguindo ver?
+Cara, eu faço uma coisa bem em parking, aqui, mas que me ajuda, tá?
+Eu vou fazer um pente mesmo.
+De repente, o pessoal abre um...
+Eu falo um pente.
+É só pra você entendendo a nossa estrutura, né?
+Então, assim, em questão de negócios, você já entendeu o que a gente faz,
+de onde que a gente está localizado,
+ou, tipo...
+Beleza, hein? Então, vamos partir do princípio, né?
+Vamos falar sobre o nosso produto.
+O que a gente faz, né? O nosso squad fija.
+A nossa squad, ela trabalha com abertura de conta.
+E aí, o próprio nome meio que já...
+Já, tipo, dizendo o que a gente faz.
+Tipo, é fígital, que é físico e digital.
+Então, o que que significa na prática?
+A gente trabalha com abertura de conta e são contas que são abertas em agências.
+Então, assim, cara, se você for na sua cidade aí, né?
+Tipo, tem uma agência do Itaú e a gente que cuida dessa conta, dessa agência, né?
+O gerente, ele vai abrir a conta com a nossa jornada.
+E isso só para você entender, né?
+Então, a gente está alocado dentro da fígital,
+porque a gente é uma jornada que abre contas,
+PFs, pessoas físicas, em agências.
+E aí, tem várias maneiras de você abrir uma conta, né?
+Você pode abrir uma... Não tem só especificamente em uma agência.
+Você pode abrir conta pelo aplicativo, você pode abrir conta...
+Por exemplo, eu já tenho um aplicativo,
+só que eu não tenho a conta especificamente aberta,
+eu só uso uma conta, tipo, que é aquela conta salário.
+Você não tem acesso a nada, só tem o salário, né?
+Aí você tem um botãozinho lá e fala assim,
+ah, para a nossa conta com a gente, aí você clica lá,
+e esse clique é o ISCAS, que é uma ISCAS para o cara pegar.
+Então, assim, tem várias maneiras de você abrir uma conta, né?
+Então, a gente especificamente, a gente está alocado nesse centro de...
+Estamos abrindo conta para pessoas físicas, em agências.
+E aí, o produto em si...
+Esse aqui, ó, eu vou abrir ele aqui para você ver.
+Isso aqui, é o que o gerente vai...
+É que, assim, ele não entra por esse link, tá?
+Que eu tô entrando aqui.
+Ele tem um cockpit lá específico, que ele clica num botão.
+Ah, aqui, rota nova.
+Ele clica e ele abre essa telinha.
+Mas essa telinha aqui, ele vai abrir uma conta, né?
+É que eu tô abrindo aqui...
+É verdade?
+Aí...
+Então, por exemplo, hoje, um por cem, dois e um por dois e dois e dois e três...
+Ah, a verdade, o que é isso?
+Eu acho que é isso, né?
+Isso aí, a gente...
+E aí, a gente abre um botinho.
+A gente fecha um botinho para ela.
+Assim, isso aí...
+Vamos já ver alguma coisa sobre a procureira de conta?
+Acho que aí, pelo menos, os termos, né, a parte de negócio,
+não vai ser tão diferente para você, ou tão novo para você, né?
+Essa aqui é a nossa jornada.
+Então, a gente começa captando várias informações do cliente, né?
+Então, vai perguntar a CPF.
+Aí, depois, ah, tem vínculo CNCS.
+Aí, escolhe o segmento.
+Então, assim, falando de produto, a gente tem várias e várias etapas, né?
+Mas essa aqui é a carinha do nosso produto, que é a abertura de conta.
+Aí, eu vou passar um pouquinho agora da parte de negócio.
+Vou mostrar um pouco mais da parte de arquitetura.
+E eu vou tentar, tipo, resumir também, tá?
+É igual eu falei.
+Eu estou... A gente está situado na parte de CO8 aqui, né?
+Do Camunda.
+E a gente tem outros layers ali, entre ali.
+Então, cada um vai te falar bem melhor e, tipo, explicar bem melhor a questão de arquitetura.
+Mas, basicamente, como é que a gente...
+Como é que é feita a nossa arquitetura?
+A gente tem a nossa tela, que é essa telinha que você está vendo, né?
+Essa telinha aqui.
+E aí, a questão de design e tudo, né?
+Tipo, os layouts e tudo, mas a gente tem um front aqui, né?
+Que é a informação que capta aqui da frente.
+E aí, que é aquela parte que você falou do MFE.
+Então, aqui, ficam todos os MFEs.
+Cada telinha que você vê, ela tem um MFE com um MFE diferente.
+Eu não entendi, tipo, de cabeça a todos, assim, mas...
+Ah, tem um MFE, tipo, que vê a parte de recepção.
+Que seria a parte de...
+Pra você entrar com o CPF, tem um MFE.
+Cada um tem uma especificidade, né?
+E é essa primeira etapa.
+Daqui, a informação, ela passa pra cá.
+Que seria o back.
+Dentro dessa passagem daqui pra cá, a gente tem outras coisas aqui.
+Mas eu não vou entrar em tanto detalhe pra eu te confundir no começo, tá?
+Depois, com o tempo, você vai começar a entender um pouco melhor.
+A gente tem shell, a gente tem coisas aqui que auxiliam, né?
+Nesse meio.
+Mas, basicamente, o MFE.
+Daqui pra cá, a gente tem os BFFs.
+Que é o back for front end.
+Os BFFs, eles também são...
+A lógica arquitetura daqui é, por exemplo,
+eu tenho recepção.
+Eu tenho um MFE de recepção.
+Eu vou ter um BFF de recepção.
 Isso.
-
-01:22:09.380 --> 01:22:11.380
-É no dados proposta.
-
-01:22:11.380 --> 01:22:13.380
-Onde fica os dados de informação, tipo,
-
-01:22:13.380 --> 01:22:15.380
-tudo que a gente está apresentando aqui,
-
-01:22:15.380 --> 01:22:17.380
-informação, vai, volta,
-
-01:22:17.380 --> 01:22:19.380
-o que a gente está pegando, o que a gente está passando,
-
-01:22:19.380 --> 01:22:21.380
-fica no dados proposta.
-
-01:22:21.380 --> 01:22:23.380
+É o que você vai recepcionar.
+Aí tem outros que é o perfil, tem folhas, imagem.
+E aí, tipo assim, eu não vou encher muito, porque assim, são vários.
+E aí, você vai pegando o tempo também.
+Eu de cabeça também não sei muito bem,
+porque eu não trabalho especificamente com back, né?
+Mas assim, eu não decorei de cabeça, né?
+Eu sei porque a pessoa fala tanto aqui, às vezes eu mexo.
+Então, mas tem um ou outro tipo folhas, imagem.
+Aí você vai meio que relacionando.
+Aí você vai conseguindo relacionar com o CO8.
+E aí, a informação que tá no BFF,
+aqui a gente tem uma...
+Isso, o CO8 é o Camunga.
+Isso, é que aqui a gente chama de CO8, tá?
+E até eu já não sei o porquê.
+Eu já perguntei, pessoal, tipo C, praticamente, Camunga, né?
+Aí CO8, não sei.
+O O e o 8, porque a gente usa o Camunga 7, né?
+E não é o 8.
+Então, pra mim, seria CO8, mas não faz sentido.
+Enfim, aí aqui a gente tem uma particularidade na arquitetura nossa.
+A gente tem um cara que chama Cruzeiro do Sul.
+Se você fosse...
+Não.
+Na verdade, é que assim, quando a gente fala em orquestrador,
+você não tá errado, tá?
+O Cruzeiro, ele é um orquestrador.
+Mas geralmente, o que a gente fala de orquestrador,
+é que o pessoal, o que você vai falar, a pessoa falando,
+é tipo assim, quem é orquestrador é o CO8.
+Em que sentido a gente é orquestrador?
+Porque a gente pega a proposta, a gente vai orquestrar ela, né?
+Tipo, no fluxo que você via lá no banco, lá,
+a gente precisa ter a proposta ou o toquenzinho, né?
+No caso ali, tipo, o processo.
+E ele vai passando de um lado pro outro.
+Isso é uma orquestração, né?
+Por isso que a gente fala que o CO8 é um orquestrador.
+Isso.
+Cara, a gente tem massa legal, cara.
+A gente tem a mesma...
+Legal. A gente tem a mesma lógica aqui, tipo,
+em questão de fraude, mesa de PLD.
+Mas legal.
+A gente tem a mesma lógica aqui.
+Aham.
+Legal.
+Aham.
+Legal.
+Legal.
+Eu...
+Entendi.
+É, aqui a gente tem a mesma lógica que você falou.
+É parecido.
+Mas no final, é um pouco diferente.
+Na hora que eu abri o calmo bem sim pra você ver a nossa jornada,
+acho que você vai entender melhor.
+Vai ficar mais fácil pra entender.
+E aí, aqui...
+Como eu tava falando do cruzeiro, que ele também...
+Você pode pensar que ele também é um orquestrador.
+Mas o cruzeiro...
+É...
+Ele é...
+É como se você não sentia de orquestrador.
+E...
+É como se fosse assim.
+A gente tem os BFFs que eu falei pra vocês.
+São vários, né?
+E aí, eles fazem...
+O cruzeiro, ele faz o quê?
+Ele faz essa passagem do cruzeiro,
+do cruzeiro, do BFF.
+Ele faz meio que uma orquestração
+desses BFFs pro Cé8.
+Então, o cruzeiro, a função dele,
+é como se ele fosse orquestrar
+ou levar essa
+informação dos BFFs.
+Na arquitetura...
+Sim.
+Sim, são...
+Basicamente isso.
+Ele é...
+Pessoal fala que ele é como se fosse uma ponte.
+Ele é uma ponte do BFF
+pro Cé8.
+Aí, assim, já me perguntaram, né?
+Pessoal que entrou novo aqui me perguntou
+mas por que que tem isso?
+Cara, não sei.
+Já...
+Porque eles construíram...
+Alguém arquitetorista, tipo, na época,
+eles resolveram colocar
+essa camada.
+Porque achou que ia ficar melhor...
+Cara, não sei, tipo, o raciocínio da época.
+Mas, assim, resolveram colocar o cruzeiro.
+E aí, porque assim, esse conceito
+de cruzeiro
+é mais pra gente aqui do...
+da Fiddle, tá?
+Você não vai ver muito isso aqui no banco.
+Geralmente, pessoal, eles têm essa mesma arquitetura,
+todo mundo, as outras escuades, eles têm essa
+arquitetura, mas eles não têm esse cara.
+Esse cara é um cara que tá aqui a mais,
+assim, basicamente.
+Mas ele existe.
+O cruzeiro, eu...
+Sim, a gente dá manutenção...
+A gente dá manutenção pra ele,
+a gente tem guite dele, mas assim,
+eu, particularmente, nunca mexi com ele.
+Aí, o pessoal do Back aqui,
+a Paulinha, eu acho que o...
+o Ailton aqui,
+a Marcela,
+eles conseguem te falar um pouco melhor porque
+eles mexem mais com o cruzeiro.
+É...
+Um...
+Um...
+Um...
+Um...
+Um...
+Deixa eu... Deixa eu só ver como é que tá...
+É porque as escuades mexeram,
+cara, não...
+Deixa eu ver aqui
+em qual time que você tá,
+e...
+E quem quer teu par aqui?
+Ah...
+Ah...
+Você tá...
+Eu acho que você tá na nichos.
+É...
+É porque você, ó...
+É vaga 2, você tá...
+Eu acho que você tá aqui, ó...
+É...
+É...
+E isso...
+É...
+Aí que até ele é amante,
+tá certo.
+Então você dá...
+Você vai tá na...
+Tá na fígita onichos.
+Que é essa aqui.
+E aí, quem que... Quem que é o pessoal, né?
+O PM aqui...
+Não sei quem é.
+Não gosto de iniciais.
+Deve... Deve ter vindo um PM...
+Um PM...
+É...
+A sua tech lead é a Mande.
+Acho que você falou com ela, né?
+A japonesa?
+Aí a Mande é a sua tech leader.
+É...
+Kevin Lucas...
+Não sei quem é também, cara.
+Marcundes.
+É...
+Ah, sim.
+Aqui então toda a gente falou que esse aqui,
+ele é da parte de design.
+Tá?
+Ele é design. É o Kevin.
+Ele vem nas nossas delas de ver o mundo.
+Lembrei dele. Então ele é designer.
+Aí os team members, né?
+O Arthur, ele é fronte.
+Ele era daqui da nossa squad.
+E aí agora ele tá indo pra sua.
+A Gabi, é a QA.
+E ela é da minha squad também.
+Ela continua da minha squad.
+A Marcela, ela é...
+Ela é back.
+A Maia, que assim, ela conhece bastante.
+Ela conhece bastante BFF de back.
+Ela mexe no CO8 também.
+Aí tem a Paulinha.
+A Paulinha, ela também é back.
+A Paulinha, tipo, trabalha comigo.
+Só que ela tava aqui no nosso time, ela tá indo pro seu.
+A Paulinha também, ela é back.
+E ela também mexe no CO8.
+Aí eu fui, tipo,
+explicando pra ela o CO8, tal.
+Tipo, a gente foi fazendo essa troca.
+Ela me explica o back e eu explico o CO8 pra ela.
+Então a gente meio que se ajuda.
+Então assim, ela já tá conhecendo bastante o CO8.
+E aí ficou duas vagas.
+Que aí seria a sua e a do Igor, né?
+Aí o Igor, ele é back.
+E aí...
+Essa é a lógica do...
+Isso.
+A Marcelo.
+A Paula e o Igor.
+Aí o Igor é novo, né?
+Aí ele tá conhecendo também.
+Ele tá junto com você agora.
+Mas...
+Ah, foi uma semana antes disso.
+Acho que foi alguns dias.
+Entrou agora.
+Entrou agora, agora.
+Aí a gente é que...
+Eu tô um ano...
+Amado, deve estar uns oito.
+A Gabi tá um ano e meio.
+Não, a Marcelo tá oito meses.
+Oito meses.
+É matar oito meses.
+Eu tô um ano.
+A Gabi tá um ano e dois meses.
+O Arthur deve estar...
+Oito meses também.
+Oh, nove meses.
+Nove, nove, dez meses.
+E a Amande...
+E...
+É...
+Aí a gente tem um pessoal que tá desde o começo, né?
+Que aí é o meu tech leader já.
+Que aí é o Zé Léo.
+Ele já tá bastante tempo aqui.
+É o Léo que ficou aqui um pouco mais tempo.
+Eu tenho cinco anos aqui já.
+Cinco, seis.
+Cinco anos.
+E...
+Aí beleza.
+Esse aqui é o seu time, né?
+Ah, Amande.
+Amande sim.
+Pegou aqui.
+Mandei pra você.
+É...
+E aí, beleza.
+Então, aí eu falei pra você um pouquinho do Cruzeiro, né?
+E aí, por último,
+e não menos importante
+pra onde você vai trabalhar,
+é aqui.
+Então, falando em arquitetura,
+a gente tá aqui, ó.
+A gente é a ponta final, né?
+Tá do processo.
+E aqui eu venho o CO8.
+Que a gente chama de orquestrador,
+que eu comentei pra você, né?
+Então,
+na prática,
+MFE,
+que passa pelo Cruzeiro,
+e que o Cruzeiro
+leva a informação pro CO8.
+O CO8, a gente é orquestrador,
+como eu comentei pra você.
+A gente que leva o Tolkienzinho,
+a proposta,
+e aqui o CO8, aí abre um mundo.
+Por quê?
+O CO8, ele é ligado com um monte de
+outros times aqui.
+A gente faz um monte de chamadas de API.
+Então,
+cada etapa tem um processo
+e nesse processo
+ele depende de uma informação
+externa do nosso time.
+A gente não tem informação.
+A gente busca informação em outros times.
+E é aqui no CO8, a gente faz as chamadas
+pra esses outros times.
+E aí, por exemplo,
+vamos começar com o basicão,
+que é essa tela aqui.
+Lá no seu banco, com certeza,
+tinha uma questão de segmento,
+de você dividir os clientes,
+tipo, de classificar
+o segmento, né?
+Não sei se você chama de segmento, mas...
+Então, é aqui a mesma...
+Aqui é a mesma lógica
+que a gente usa, né?
+A gente faz essa divisão
+tipo, o banco ele quer enxergar
+com o público que ele tá trabalhando.
+Então, como que o banco dividir isso, né?
+Aí, aqui, os nomes
+são,
+que o pessoal chama de varejo,
+o segmento 3.
+Varejo.
+O segmento 3, que você vai ver falar,
+é...
+Varejo.
+Varejo.
+Aí, você tem
+uniclass.
+Uniclass.
+O segmento L.
+Cara, se você fosse
+dividir, tipo, baixa renda,
+média renda e alta renda,
+é basicamente isso.
+Varejo, uniclass e person.
+É, tipo, o que você tava falando,
+dos aplicativos.
+Então, basicamente, o pobre, rico
+e...
+O pobre, casmédia e rica.
+E person. E é segmento 4.
+Então, a gente tem essas
+divisões aqui.
+É, tipo assim, se você pensar,
+né, eu venho aqui
+e coloco seu CPF aqui.
+Por exemplo, eu venho e coloco seu CPF.
+Ele não vai funcionar porque a gente tá em um ambiente de homogiação.
+São outros CPF específicos, né?
+Mas eu suponho que eu coloco
+seu CPF aqui, o CPF do Fábio.
+Quem que vai decidir isso pra mim?
+Se você é
+uniclass, varejo, person.
+Tem um time que
+chama direcionador.
+Esse é o primeiro time que a gente bate lá na porta deles.
+Então, voltando pro desenho.
+Isso.
+É basicamente. Eu aqui no front coloco
+seu CPF.
+Essa informação passa pro FF.
+Que passa pro cruzeiro, que passa pro CO8.
+E aí aqui o CO8 vai bater lá no timezinho
+do direcionador.
+O direcionador.
+Qual que é o segmento do Fábio aqui?
+Aí o direcionador vai ter um outro mundo.
+Cara, aí já é uma outra arquitetura, um outro mundo.
+Eu não sei, especificamente.
+Eu suponho que ele vai
+fazer...
+Ele vai consultar a Serasa.
+Ele vai consultar se você tá recebendo salário.
+Ele vai consultar se você tem aplicação.
+Ele vai pegar várias informações.
+E aí depois, com todas as informações
+que ele vai juntar.
+Ele vai olhar e falar assim, olha.
+O CPF do Fábio.
+Eu acho que ele é o Unipress.
+Ou se você for rico, eu acho que ele é o person.
+Ele que vai dizer pra mim, olha.
+Aí tem...
+Tem regras. Tipo assim, olha.
+Se você ganha, tipo, eu acho que até...
+3.000, 3.200,
+você é varejo. Você é 3.
+Acima disso,
+até, acho que, uns 8.
+6.
+Você é Unipress.
+Acima de 8,
+se você tiver uma renda,
+é você considerado person.
+E aí, cada um tem um produto
+específico.
+Um objetivo específico, né?
+Aí, assim, você faz essa
+segregação pra poder ter produtos específicos.
+E aí,
+então imagina que eu bati lá na porta do
+direcionador.
+O direcionador vai falar pra mim, não.
+Ele é Unipress.
+Aí, eu vou pegar essa informação.
+Vou passar pro cruzeiro.
+O cruzeiro vai passar pro PFF.
+O PFF vai passar pro MFE.
+E aí, a gente vai saber que lá na frente
+a gente vai falar assim, olha, você
+é Unipress, você é person.
+Vamos fazer aqui na prática pra você ver.
+Eu só preciso de um CPF.
+É, eu tenho alguns aqui,
+mas não sei se vai funcionar, tá?
+Se não, eu pego um outro aqui.
+É, não...
+Não tá...
+Não tá pelestranado.
+Peraí que eu pego um aqui,
+que eu testei que a minha amiga
+passou.
+Não...
+Esse aqui vai funcionar.
+Um...
+Esse aqui vai funcionar.
+Cara...
+Tem, a gente tem...
+A gente tem um gerador de massa
+aqui que ele gera, tipo...
+Ele gera massa, tipo, de
+segmento 3, segmento L, segmento 4.
+Só que não tá funcionando.
+Aí tem alguns específicos.
+Esse aqui eu sei que tá funcionando.
+Que eu testei ele agora a tarde, de manhã.
+Aí tá vendo?
+Então assim...
+Essa aqui é a segunda tela.
+Que é de NSS.
+E ainda não refletiu a questão do CPF.
+Você só vê o CPF na próxima tela.
+Aí você deseja vincular benefícios
+do NSS? Não, não quero porque
+não tem o NSS.
+Tem benefícios.
+Aí tem questão de CNPJ.
+É...
+Não vou vincular CNPJ também.
+Eu não tenho que receber nada.
+Aí aqui, ó...
+O segmento recomendado daquele CPF
+foi o Nicholas.
+E aí...
+Eu posso...
+O Agências...
+Aí também tem...
+Você vê, Agências significa
+segmento 3 também, tá?
+Não.
+Isso aqui pensa que você é o gerente.
+Aqui é o...
+Isso, é do gerente.
+Aqui é o Agência.
+Agência.
+Você pode chamar de Agência também, tá?
+Varejo 3 ou Agência.
+É a mesma coisa.
+Imagina que aqui você é o gerente.
+Isso.
+Imagina que eu sou o gerente e eu tô abrindo a conta pra você.
+E...
+E aí o gerente vai usar
+essa tela.
+E ele vai perguntando pra você.
+É.
+Isso.
+Eu chego lá.
+É um pouquinho mais pra frente, né?
+Mas eu chego lá. Por isso que chama fígital?
+Porque é físico e digital.
+Que é físico.
+Significa ir lá na Agência.
+E o digital por quê?
+Porque eu tô...
+Eu como cliente
+eu vou pegar o meu celular
+e vou escanhar o QR Code
+e vou entrar na jornada.
+E aí eu vou mexer na jornada.
+Eu como cliente.
+Mas aí vai chegar lá.
+Então, aqui
+é um clássico do que eu falei pra você.
+Informação, ela foi pra cá.
+Eu peguei a informação
+e eu levei ela pro MFE.
+E aí aqui eu sei que você é um segmento
+uniclass.
+Se você quiser também, você pode ser um agência.
+Às vezes,
+dependendo do seu CPF
+eu sou um segmento
+uniclass
+mas eu quero ser um person.
+Eu posso tentar ser um person.
+Não vai ser garantido.
+Tem várias outras regras, né?
+Mas
+insuma isso, tá?
+Aí agora eu queria te mostrar um pouquinho
+do CO8,
+do que a gente vai mexer.
+Aqui.
+Aí aqui, tipo
+acho que como você já mexeu,
+você já vai estar um pouco mais
+familiarizado com
+um cockpit, né?
+Você tinha um cockpit assim lá ou não?
+Você não mexia por cockpit?
+Aham.
+Aham.
+Só me dá um segundinho,
+eu vou te afoncar
+com a minha amiga aqui.
+Comentei com ela assim.
+Desculpa,
+eu estava respondendo
+o pessoal aqui.
+E aí,
+esse cockpit aqui
+é onde a gente tem
+todas as jornadas, né?
+Cada
+linha
+dessa que você está vendo
+é um BPMN diferente.
+O nosso,
+ele é o
+Omni-Tenio,
+que está aqui.
+Esse cara aqui.
+E aí, como que a gente se comunica?
+Se você vê, eu estou na tela,
+no momento eu estou na tela de
+escolher
+segmento.
+Ou seja, eu estou escolhendo o meu segmento.
+Aqui, qual segmento eu quero?
+Vamos lá no cockpit.
+Olha.
+Aqui é escolher segmento.
+Então, eu estou na tela de escolher
+segmento. Tá vendo o meu Tolkienzinho aqui?
+Ou seja,
+de ver,
+vou para a próxima tela.
+Vamos ver a próxima tela aqui.
+A próxima tela é envio documento.
+Esse cara aqui.
+Envio documento.
+Na verdade, eu não vou cair nessa tela.
+Eu vou cair na próxima.
+Eu não vou enviar documento.
+Então, eu vou pular.
+Peraí, peraí.
+A minha próxima tela vai ser
+nome.
+Então, escolha segmento
+nome.
+Já te explico melhor.
+Você sabe alguma coisa de diagrama aqui?
+O meio que
+você sabe mais ou menos de
+um, não tem problema se você não souber, tá?
+Isso.
+ServiceTask,
+UserTask.
+Beleza.
+Isso.
+Como que funciona
+a prática?
+É que
+no caso de vocês
+era meio que sincrono, né?
+Mas
+possivelmente
+poderia você conectar um cockpit
+porque assim, a estrutura do Camunda
+é essa, sabe?
+Você tem um BPMN igual que você tá vendo aqui
+e pode ser que lá
+o de vocês não poderia ter essa tela,
+esse cockpit, né?
+Ou vocês não utilizavam.
+Mas assim, estruturalmente,
+o BPMN foi criado
+porque assim,
+ele é visualmente mais fácil de se ver.
+Você poder tratar
+e isso aqui dentro é como se fosse
+uma linha de código,
+tipo um repositório.
+Por exemplo aqui, né?
+É um repositório,
+se você for ver.
+Só que o Camunda, a vantagem dele,
+ele foi criado pra
+você poder
+você poder
+de uma forma visual
+poder ver onde tá o processo,
+onde que você tá com...
+Então assim, né?
+E aí, como que... como que ele funciona
+na prática, né?
+A minha tela
+eu tô no escolher segmento.
+Qual que é a próxima aqui, ó? Vou apertar,
+continuar.
+A próxima de escolher segmento
+eu vou pra nome, tá vendo?
+Vou colocar seu nome aqui.
+Aí eu, sei lá, vou pra...
+Olha como é que funciona aqui na prática.
+Eu tô no escolher segmento, né?
+E aqui você tem que ficar dando
+um refresh pra ele atualizar, né?
+Eu dou f5.
+Olha o toquenzinho vai parar.
+E...
+Isso!
+E caramba, só porque eu dei...
+Ele vai...
+Isso vira meio...
+Acho que acontece mais na prática.
+Ele ia pular pro...
+...
+...
+...
+...
+Tem.
+Tem.
+Cara, é que eu não quero muito te confundir,
+cara, e isso já é um outro...
+É um outro patamar, assim,
+cara, pra te explicar.
+Mas assim, tem...
+Tem...
+Mas tem uma lógica, assim,
+cara, do tipo...
+O escolher segmento,
+minha próxima tarefa.
+Nome.
+Tem um por trás ali também.
+A gente pode seguir a ordem certa, né?
+Deixa eu ver.
+Deixa eu mostrar.
+Olha.
+É...
+É que assim...
+Ó, vamos lá.
+Como...
+Como que funciona aqui?
+É que eu não queria meio que tipo...
+Misturar os assuntos por enquanto,
+porque eu vou de passinho.
+Esse questão aí é um...
+Eu nem vi um pouquinho melhor assim, mas vamos lá.
+Como que funciona essa questão da relação
+entre o MFE, o BFF
+e o CO8, né?
+Em questão de tela? Aqui a gente tem um cara
+que tem uma tarefa.
+Como que funciona essa chave-tarefa?
+Imagina aqui, lá pro...
+pro MFE.
+Eu tô na tela de...
+Vamos sorrir.
+Eu tô na tela de...
+CPF.
+A tela de CPF não fica aqui, mas...
+Aquela primeira telinha que você viu, coloca CPF, certo?
+A próxima tela,
+você tem que formar
+benefício nesse S.
+Aqui no MFE
+eu tenho um cara
+que chama...
+Shell.
+É.
+O Shell,
+ele é como se fosse...
+Ele fala pra mim, qual que é a primeira tela?
+Não, a primeira tela, o nome dela é CPF.
+Qual que é a minha próxima chave-tarefa?
+Quem quer a minha próxima chave-tarefa?
+Quem quer a minha próxima tela?
+Beneficio nesse S.
+Beneficio nesse S.
+O que que o Shell fala?
+A próxima tela, eu benefício nesse S.
+Então, é a tela INSS.
+E aí ele faz um complete.
+Um complete e...
+Ele pega a próxima chave-tarefa.
+E aí, a primeira chave-tarefa
+é a tela que chama...
+A tela de CPF.
+O segundo...
+A segunda chave-tarefa é nesse S.
+Eu tô na tela... Imagina que eu tô na tela de CPF.
+Eu aperto o botão do tipo assim,
+continuar.
+Quando aperto continuar,
+o Shell, o front, ele faz um complete.
+Ele olha e fala assim, eu tô na tela de CPF?
+Tô. Fiz o com... A informação tá certo?
+Tá.
+Eu fiz o complete. Qual que é a minha próxima chave-tarefa?
+NSS.
+Eu tô no NSS. Eu coloco a informação.
+Eu aperto o botão, avançar.
+Eu faço um complete.
+E aí, qual que é a minha próxima chave-tarefa?
+Tipo, aí tem toda uma sequência lógica, né?
+Informar CNPJ.
+É...
+Escolha segmento.
+E aí,
+como que a gente vê isso? A gente vê pelo front.
+Então, eu especificamente,
+onde que eu tô agora?
+Eu tô na...
+Eu tô na tela de
+de nome.
+E aí,
+o nome dessa... dessa tela...
+Seguim...
+Aqui, ó, não.
+O nome dessa tela é...
+O que eu vou pegar?
+Tá...
+Dados Nome.
+É o nome da chave-tarefa.
+Chama Dados Nome.
+Eu vou colocar um nome aqui agora, tá vendo?
+Vou fazer uma prova.
+E aí, eu vou apertar continuar.
+Deixa eu limpar isso aqui.
+E aí, você vai ver o complete e a próxima chave-tarefa.
+E aí, aquele vai fazer o complete do tipo assim, olha.
+A informação tá aqui...
+Em qual tarefa que estou? Qual chave-tarefa estou?
+Eu tô no nome... Dados Nome.
+Vamo apertar continuar.
+Aqui, ó, ele tá fazendo as validações.
+Ele enviou
+a informação.
+Valida Dados.
+Aqui, ó.
+Ó, qual é o nome que eu coloquei?
+Qual que é o ID?
+Isso aqui já é coisa de front, tá?
+Não é com a gente.
+Isso aqui é o que tá mapeado lá no front.
+Qual que é o ID desse? É o nome?
+Qual que é o valor que eu coloquei
+em pute naquela tela anterior, né, de nome?
+É... A foi a prova.
+Aí, ele teve o responso dele que foi true.
+Aí, ele tem uma outra chave aqui
+que ele fala, ó, enviar a informação.
+Isso aqui já não pertence ao nosso scopo, tá?
+Isso aqui é o pessoal lá do front.
+Eles que fazem esse mapeamento.
+Mas tem um cara aqui,
+uma tarefa que chama enviar a informação.
+Aí, nela, ó,
+chave-tarefa.
+Qual que é a minha próxima chave-tarefa?
+E-mail.
+Que aqui no caso, quem eu tô, eu tô na tela de e-mail.
+Ó, dados e-mail.
+Vamos ver aqui, ó.
+Dados e-mail.
+Tá vendo?
+Então, assim, é esse mapeamento
+do front, só que
+tem que estar mapeado.
+No front, aqui a gente não consegue ver o back, né?
+Eu teria que entrar lá no repositório do back
+pra te mostrar, mas lá no repositório do back
+você vai ver que vai ter uma chave-tarefa
+que chama dados e-mail.
+Então, imagina.
+O microfonte end mexe,
+o front mexe pra essa tela
+e o CO8 mexe pra essa tela.
+Todo mundo faz isso em conjunto.
+Todo mundo anda junto, assim, sabe?
+Todo mundo anda junto.
+Tem que estar mapeado no front, no back e no CO8.
+Pra gente poder andar junto
+com a proposta.
+E esse é mais ou menos
+o raciocínio.
+E isso,
+nesse quesito, ele é sincrono.
+Até uma etapa, tá?
+Depois dali pra ter uma etapa
+que aí, tipo, já muda totalmente a lógica
+do que eu tô te falando.
+Mas eu chego lá.
+Aí é sincrono.
+Aí é só CO8, que transita a informação.
+Mas, por enquanto, aqui,
+tá todo mundo, tipo, de mãozinha dada andando junto.
+E aí,
+qual que foi o payload
+que ele mandou, né?
+Qual que era o payload
+dessa informação, né?
+Que é...
+O que a gente chama de orquestrador, cara.
+Tipo assim, além...
+O que o Camunda faz na realidade, né?
+Você orquestra porque
+que eu pego a informação.
+Eu vou transitando ela,
+no toquezinho pra lá e pra cá.
+E o que eu faço?
+Eu pego essa informação.
+Eu levo pra outros times.
+Os times trazem essa informação pra mim.
+E eu volto a essa informação
+ou, às vezes, pra tela.
+Depende muito do que eu tô falando,
+de qual parte que a gente tá falando.
+Às vezes, eu trago a informação na tela.
+Às vezes, eu pego essa informação
+e jogo pro back.
+O back transforma essa informação em alguma coisa.
+Às vezes, eu pego a informação
+salvo lá no banco de dados.
+Eu entro aqui, a conta do...
+O Fábio foi aberto.
+Uma das maneiras de a gente olhar
+é a informação que tá salva.
+Tipo assim, eu coloquei
+no seu nome lá, o Fábio.
+Como é que eu sei que essa conta específica
+o nome é Fábio.
+Eu entro lá no mesh,
+que é a gema de mesh aqui, né?
+O que é o nosso banco de dados do CO8.
+Eu entro no mesh, eu dou uma olhada lá e falo,
+olha, essa conta...
+O nome que tá salva aqui da conta número
+do CO8, ele...
+Sim.
+Cara, é um outro...
+É um outro rolê tão bem.
+É...
+Eu...
+Eu acho que...
+Isso...
+Pera que...
+Eu já chego lá.
+Chama.
+Chama, a gente usa a Kafka aqui.
+É que assim, tem duas maneiras de fazer
+uma chamada via PI
+aqui no CO8.
+O que a gente trabalha hoje.
+A gente pode...
+É uma coisa que a gente chama de connector
+e tem uma outra que é via Kafka.
+Mas aí, esse Kafka
+é um outro ponto que já já te explico.
+Mas assim, nesse inquisito
+você entendeu mais ou menos
+o lance aqui do tipo...
+Estou andando com a tela aqui.
+Vamos colocar um e-mail.
+E-mail.
+Eu apertei o avançar aqui, né?
+Ele tá validando a informação.
+Aqui, quem eu tô...
+Ah, eu tô no e-mail.
+Qual que foi o valor que eu coloquei lá?
+Eu coloquei meu e-mail.
+Aqui, ele tá enviando informação.
+Ou seja, ele tá fazendo um complete.
+Aí você vai ver que o payload dele,
+ou seja, a informação que eu peguei,
+que eu tô transitando.
+Eu coloquei o e-mail e qual que eu respondo
+se disso?
+É o dados de telefone, porque é a próxima chave
+tarefa. Eu tava na tarefa de
+e-mail, minha próxima tarefa é
+dados de telefone.
+E aí, se você for ver aqui,
+dados de e-mail, dados de telefone.
+Você viu que ele transitou.
+Tipo, de dados de e-mail, ele foi pra dados de telefone.
+Então, assim, a lógica pra serve
+esse task, quando tem esse bonequinho,
+é a mesma. Então, por exemplo, qual que seria
+minha próxima? Dados de telefone?
+Ah, tem o dado...
+Datanacimento. Dados de datanacimento.
+Eu tô querendo estar aqui, ele vai pra cá.
+Aí ele vai seguindo.
+E aí,
+vamos lá pra chamadas de
+API, né?
+Então, a gente já falou
+sobre MFE, BFE, cruzeiro
+e CO8.
+Beleza?
+Agora, a gente vai falar
+sobre essa parte específica, o porquê
+que o CO8, a gente chama de
+orquestrador, né? Que eu comentei pra você.
+Ele é orquestrador por quê? Tipo assim,
+isso aqui não é 100% assim, tá?
+Tem algumas
+chamadas que a gente faz no back.
+Tipo, nos BFEs.
+Não é 100%, tá?
+Mas acho que a maior parte das chamadas,
+das informações que a gente pega
+é pelo CO8.
+Que é o CO8 que bate lá na porta dos caras
+e pega a informação e traz a informação
+ou às vezes vai buscar uma informação
+ou leva uma informação.
+Depende de qual parte a gente tá
+e isso.
+Mas tem integrações pelo back também, tá?
+Não é 100% o CO8.
+Sim, às vezes faz.
+E aí,
+como eu comentei com você, a gente tem
+dois tipos de
+de maneiras de fazer uma chamada.
+Então, lembra que eu comentei com você
+sobre o direcionador?
+Que é aquele time que vê o segmento?
+Que é o segmento, não.
+O segmento Varejo, o Nikkles, o Person.
+Como é que eu vou levar essa
+informação pra eles? Ou basicamente
+o que eu tô levando pra eles?
+Eu tô levando um CPF pra eles.
+Eles precisam de CPF pra poder fazer uma consulta.
+Certo?
+E aí,
+isso aqui que você tá vendo,
+aí a gente tem, né?
+O azulzinho aqui, quando você vê azul,
+é um script.
+O script, ele serve pra quê?
+O script, ele serve pra
+muita coisa.
+Tanto de transformação de dados,
+você pode guardar um dado aqui,
+você pode criar uma variável, uma nova por aqui.
+Ele é um
+tipo, um mini-repositóriozinho.
+Você coloca uma informação aqui.
+E aí, eu criei um script pra fazer alguma coisa.
+Eu não posso colocar um código
+aqui dentro, assim, tipo,
+olha, salva essa variável aqui
+ou fazer uma transformação.
+Eu não posso fazer isso numa service
+task. Eu faço isso num script.
+Então, toda vez que você vê o azul,
+é porque ele tá fazendo alguma coisa.
+Tô pegando uma informação.
+Então, vamos ver esse script específico.
+Esse cara aqui,
+esse script,
+ele tá fazendo...
+Eu tô pegando uma variável
+que chama tempo de decorso usuário.
+Então, execution
+set variable. Eu tô setando a variável
+tempo de decorso
+usuário. E aí,
+eu tô colocando esse
+PT20M.
+O que isso significa na prática?
+Eu tô falando que a variável, tempo
+de decorso usuário,
+ela vale 20 minutos.
+E isso serve pra quê?
+É
+E se eu não me engano é isso, tá?
+Eu não sei, tipo, eu teria que olhar a tabela lá.
+Mas, cara, eu quase não mexo com isso aqui, tá?
+Mas é só pra te exemplificando.
+Mas esse cara, ele, tipo assim, eu estou definindo
+que a variável, tempo de decorso
+usuário, dentro do Camunda,
+eu tenho uma nomenclatura, tipo,
+PT20, PT, não sei o quê, PT10,
+as coisas assim,
+ele...
+ele...
+ele define que tenho que
+eu vou deixar uma variável.
+Espera, deixa eu passar aqui.
+Você quer produção, tá?
+Mas...
+Tá vendo esse
+relojinho aqui?
+Eu tô, eu tô dentro,
+imagina lá, eu tô na escolha de segmento,
+meu Tolkien tá aqui. Imagina que o cara
+ficou parado.
+O Tolkien, né, tá ali, o cara tá na tela do escolha
+segmento.
+A parte tá mais nada, tipo assim, deixa aí.
+O que que vai acontecer?
+A proposta vai ficar ali pra sempre? Não.
+O que que a gente faz? A gente faz uma tratativa.
+Então, a gente definiu que é aquela
+aquele decoro usuário, lá,
+tempo de decorso usuário.
+A gente definiu que a variável
+tempo de decorso usuário, ela é 20 minutos.
+Ou seja,
+se esse relojinho eu coloco informação aqui,
+se essa variável, lá, tempo de decorso usuário
+tá citada aqui,
+significa que daqui 20 minutos
+o relojinho vai pegar esse Tolkienzinho
+e vai jogar pra algum lugar.
+Vai se purgar a proposta.
+Então,
+é um outro subprocesso.
+Daqui ele vai pra um outro lugar.
+Depois você dá uma, tipo, uma olhadinha
+de como ele funciona pra onde que ele vai,
+e tal, eu passo pra você.
+Mas aí,
+eu vou te passar
+eu vou te passar
+a gente tem
+eu tenho um documento aqui
+você já pediu acesso
+pro cockpit essas coisas que eu tô mostrando
+já baixou o Camunga também
+você sabe como é que baixa
+teria que
+gerar um novo
+PC
+é a central de software
+você sabe pedir acesso também
+tá
+vamos fazer o seguinte
+eu vou terminar de explicar pra você
+e a gente corre atrás de acesso
+baixar as coisas, pode ser?
+Show
+então, o que eu tava te explicando, né
+que eu seja, eu tenho
+os azulinhos, os scripts que eles fazem alguma coisa
+e aí depois eu tenho
+os verdinhos
+que eles são
+eles são services and tasks
+a gente tem
+user tasks
+que são os branquinhos aqui
+tem um bonequinho, são user tasks
+eu tenho os verdinhos, que são services
+tasks
+a services task, essa aqui específica
+ela é um
+ah, desculpa, como?
+então, script
+é script, é script
+é script task
+não
+tem, tem objeto, a gente pode
+trabalhar com objeto também
+aqui, aqui eu vou te mostrar um objeto
+porque a gente recebe um objeto
+e eu vou ter que fazer um treco aqui, aí a gente
+vai ficar mais claro pra você, mas vamos lá
+isso aqui
+é uma chamada GPI
+aqui eu tô batendo no time do direcionador
+ou seja, eu tô fazendo um post lá
+eu tô pegando informa, o que é esse post?
+eu pegar o CPF
+esse CPF mandar pro pessoal do direcionador
+e com esse CPF, eles vão fazer a consulta
+eles vão pegar o seu CPF
+vão consultar, olha
+o fábio, o segmento dele é tal
+então
+esse aqui é um connector
+porque ele é
+ele é direto
+é do tipo assim, o seu 8
+batendo lá na porta do
+do direcionador, ou seja,
+bateu, valeu
+beleza, esse é um tipo
+e isso
+elas são assíncrono
+é assim
+e
+elas são assíncrono, tá vendo?
+tem gente pra hpt post
+é assíncrono e assíncrono
+esse aqui é assíncrono
+e aí o que ele faz?
+eu vou bater essa informação lá
+o time do direcionador, ele vai me devolver uma
+informação, beleza?
+e aí
+essa informação
+que eu tenho aqui, os headers dela
+a URL, o endpoint
+do direcionador
+e o body, o que eu vou receber?
+o que eu espero receber?
+o que eu estou passando pra eles, né?
+e
+eu estou passando a informação pra eles
+e aí eu vou receber alguma coisa deles
+tá vendo esse aqui, o responso de direcionador
+do cliente
+eu vou levar essa informação pra eles
+que é o body que eles esperam
+e eles vão me devolver alguma coisa
+o fábio
+o segmento dele é 3
+segmento 4
+segmento l
+e com essa informação
+eu tenho muito script aqui, ó
+esse script
+só essa partezinha aqui, porque ele é grandão
+eu vou focar nessa partezinha
+ó, por exemplo
+porque eu tenho um script?
+o c8, ele não entende
+linguagem de direcion
+então, o que que eu preciso fazer?
+eu aqui no c8
+eu bati no direcionador
+eles me devolveram um payload
+em jzone
+com várias informações, depois eu te mostro
+o payload deles lá, dá pra gente buscar
+mas
+ele tá em jzone, e o c8
+ele não entende de jzone, eu preciso fazer uma transformação
+pra string
+então, esse cara aqui
+essa lógica aqui
+ele pega
+o responso de direcionador cliente
+de jzone
+que é um nome que eles deram
+e aí ele faz um parse
+que a gente chama de parse
+eu tô fazendo um parse
+ou seja, eu tô pegando o responso do direcionador cliente
+e tô transformando ele pra string
+então, eu sei que é
+bastante coisa no começo
+mas
+isso, massa
+então é isso, cara
+eu só pra te mostrar pra que a gente tem script
+pra que serve script
+e esse é um dos tipos que eu tenho
+de uma chamada de
+de
+uma chamada de api
+aí eu tenho um outro tipo de chamada de api
+por exemplo, essa aqui
+isso aqui já é um pouquinho pra frente do fluxo
+tá?
+ah, não liga que aqui tá bagunçado porque eu tô mexendo
+beleza
+esse aqui
+então, aqui eu tenho a mesma lógica
+tá vendo que eu tenho um scriptzinho aqui
+e aqui
+eu tenho uma outra chamada de api
+mas, essa chamada de api
+era um pouco diferente
+então, o connector é
+pensa assim, o connector
+tô com a informação aqui
+eu já bato a informação no direcionador lá
+direto
+ele faz uma chamada, tipo, direta
+eu não tenho um cara no meio
+esse cara, aí foi o que você falou
+sobre Kafka
+esse cara, assim, ele já tem um Kafka
+a informação, ele é via tópico
+ou seja, aqui a gente
+chama um cara que a gente chama ET
+que eu vou falar muito
+que é external task
+que a gente chama aqui, vou falar ET
+como que funciona a lógica desse cara aqui
+aqui eu tenho
+como se fosse um layer no meio
+então, aqui, ó
+eu tenho o CO8
+com a informação
+aí eu levo essa informação pra external task
+que é em Java
+a external task
+comunica isso via tópico
+Kafka
+pro outro time, que é o time que a gente quer
+e aí
+o time devolve a informação
+e aí do outro lado também é mapeada
+ele também tem um mapeamento lá dele
+do Kafka
+ele devolve a informação via external task
+external task devolve pro CO8
+e assim vai
+esse que é o vai
+da informação
+e a external task
+ela é construída em Java
+e ela é basicamente
+um outro mundo
+eu falo que é como se fosse um BFF
+porque eles são repositórios
+com um monte de informação
+e a gente faz
+um monte de transformações
+geralmente, como que o pessoal
+construiu a estrutura do CO8 aqui antes
+quando tem uma coisa simples, por exemplo
+que nem a que eu tava te mostrando
+do direcionador
+eu tenho um CPF e eu quero saber o segmento dele
+ou seja
+eu pego a informação um CPF
+mando o pessoal do direcionador
+o direcionador vai responder isso pra mim
+segmento 3, segmento 4
+relativamente mais simples
+se fazer
+agora, essa external task
+específica, ela é um pouco mais complexa
+ok
+aqui eu to na parte que a gente chama de BFF
+isso significa
+que a gente passa um pouquinho pra regra de negócio
+que significa BFF
+lembra que eu falei pra você
+que falando em segmento
+mesmo
+eu sou o segmento lá
+você saiu como segmento L
+uniclass
+mas eu quero ser personal t
+eu via as vantagens do person
+que são muito melhores
+tem um cartão tal, que vai me dar mais vantagem
+eu quero ser person
+eu posso tentar ser person
+por mais que o direcionador tenha falado pra você
+olha o fabio
+ele pra mim aqui, ele é person
+ele é uniclass
+mas se você quiser fazer um upgrade
+você pode fazer
+eu posso tentar anexar documentos
+eu posso colocar informações
+lá pra frente
+o pessoal do BFF, você faz uma validação
+então
+aí você fala assim, eu ganho
+como se fosse
+5 mil, só que eu tenho aplicação
+em outro banco
+aí você fala não, anexa aí
+em outro banco, então
+eu tenho dinheiro
+em outro lugar
+eu to trabalhando em outro lugar
+anexa é a sua carteira de trabalho
+eu acabei de mudar pra um lugar
+que eu to ganhando mais
+aí você pega sua carteira de trabalho
+literalmente, o cara vai, pega sua carteira de trabalho
+escaneia, coloca lá
+e envia
+essa informação, ela vai chegar aqui
+e aqui a external test
+ela tem várias coisas dentro dela
+não é só uma informação
+tipo assim, vou pegar a informação
+vou levar lá
+eu tenho um ID, eu tenho uma imagem
+então assim, é mais robusto
+a external test
+por isso que
+foi meio diferenciado, a galera construiu
+external test pra coisas mais robustas
+quando tem mais lógica
+mas assim, não significa
+que não pode ser feito
+por um conector
+todas as ETs não necessariamente
+precisariam ser construídas
+elas poderiam ser feitas em conector
+mas na época quando se construiu
+não tinha esse conceito de conector
+todo mundo fez external test
+fez ETs
+e aí o conector foi depois
+aí tipo assim, coisas mais simples
+foi se fazendo via conector
+massa
+branque
+massa
+falta
+branque
+branque
+massa
+falta
+falta
+falta
+difícil
+se você instalar isso e faz
+é
+aqui a gente usa bastante cara
+de camunha assim. Não, não é isso. Entendi essa. Entendi. Não precisa de graça, né?
+De graça. Totalmente de graça. Eu não falei nada. Eu falei nada. Eu falei nada de graça.
+Meu, até você faz. E é assim, né? Então, essa é mais a lógica de uma external
+test via external test e um connector. Esses são os dois tipos de chamada via pick que a
+gente tem. Aí, assim, tem muito mais detalhes que dá pra explicar e aprofundar. É que assim,
+eu não vou colocar tanta coisa pra você. Eu vou encher muito a sua cabeça também. Mas
+que tem o conhecimento prévio, assim, né? Mas ainda assim, eu acho que é bastante formação,
+ainda mais por regra de negócio, sabe? Você tem que se abituar primeiro com a regra de negócio,
+né? E aí eu só vou...
+A cartinha é o tópico, é a resposta do tópico que eu tô esperando. Eu imagino, ó, eu tô no...
+Aqui é a service test. Eu monto o payload que eu vou... Esse payload aqui grandão. Eu
+monto a informação aqui. Eu monto o payload com o script. Eu transpego esse payload que eu
+montei. Mando um monte de informação pra cá. Daqui vai pra external test. A external test
+comunica via Kafka e aqui eu espero uma resposta dele. Essa cartinha que você tá vendo aqui é a
+resposta que eu tô esperando do... do backoff. Ou seja, eles lá vão fazer o processo deles,
+do tipo assim, a validação deles. Eles vão pegar essa informação e vai responder pra
+mim via Kafka por aqui. E é essa cartinha aqui que você tá vendo.
+Não, eu sou a Kafka. Aqui a gente só trabalha com Kafka. Eu sei que tem... tem outro tipo de
+sistema de mensageria, mas aqui é basicamente Kafka. Até onde eu sei.
+Aí, tipo, mais finalizando a regra de negócio pra você, a gente já vai ver os seus acessos, tá?
+Então, cara, eu não vou tela, tela, que já deve ter... já deve ter saído. Não, não, mas eu vou te
+dar mais ou menos a nossa jornada, né? E aí eu tô imaginando o que é o segmento. Se eu
+tiver... se eu... se aquele caso do upgrade que eu falei pra você, se eu tiver um upgrade, eu venho
+pra cá. Eu adiciono uma informação aqui dentro. Dentro da... devia o documento. Tá? No caso, eu não
+vou ter o upgrade, eu quero seguir do jeito que eu tô. Então, eu vou passar pra cá.
+Nome. Aí vem a tela de nome. É a parte de perfil que a gente chama. E-mail, dados telefones,
+data nascimento. Você vai indo, tá vendo? Renda, envereço. São tudo perfil, eu tô pegando
+informações. Então, cada... cada quadradinho que você vê aqui com o bonequinho é uma tela, tá?
+Isso. A gente chama de user... as user tasks. Isso. A user task, ela tá conectada diretamente
+com o front ali. Isso. Os verdinhos, a gente tem três tipos. A gente tem as chamadas via APIs. Só que uma
+task, ela também é... entre as pessoas chamadas de API, mas eu vou fazer a chamada pro banco. Então,
+imagina, eu tô levando toda essa informação. Coloquei seu e-mail, seu telefone, seu dado
+nascimento. É... eu tenho que, em algum momento, eu tenho que salvar isso. E o CO8, ele tem um outro
+tipo de chamada que a gente chama de delegate. O delegate, como é que ele... ele funciona na
+data. É você... com o delegate. Isso. Que é aqui, mas nesse caso específico, esse delegate, ele serve
+pra salvar no banco de dados. Então, a informação, isso. Então, aqui o delegate, o nosso... é que tem
+de delegate, né? Esse delegate expression, ele é uma chamada direta com o banco de dados. Eu não tô
+chamando de team, tô chamando de API, tô chamando de banco de dados. É informação da nossa oito.
+Passa direta pro banco de dados. Então, aqui eu tô salvando o edit da proposta, o status da proposta.
+É... eu vou salvando informações, basicamente. Então, o Verdinho,
+ele vai ser o Master Yontessa, ele vai ser o Connector, ele vai ser uma... salvando
+uma informação no... banco de dados.
+Nossa, o que é esse problema?
+O RDS, o que é a AWS?
+É, a AWS. A gente é conectado aqui aos serviços, no AWS. E aqui a gente
+vai no RDS. E aí, beleza.
+Aqui, renda os heresos, dados níveis, que é a parte de
+pessoas que pegam a informação pra pessoas de fora.
+Selecionar a agência do tipo assim, qual agência? Eu vou querer...
+Ah, eu quero na agência que é mais próxima da minha casa.
+Eu posso, sei lá, tá na agência São Paulo, mas assim, eu moro no Rio.
+Ah, mas eu quero que seja mais próxima da minha casa. Você seleciona a agência que você quer.
+A próxima tela, encarteiramento manual. O encarteiramento manual, ele é mais
+tipo assim, é só pra pessoas que são segmento L e segmento person.
+Então assim, já é uma vantagem, na abertura da conta, é uma vantagem.
+Porque eu posso escolher qual gerente eu quero que cuidem da minha conta.
+Eu escolho gerente. Agora, se você não é nenhum desses dois segmentos,
+você não escolhe. Tipo, é vai com quem tem.
+Davos oferta. Aqui, são telas específicas pra oferta.
+Tipo assim, ah, qual cartão que você vai querer?
+Você vai querer limite rotativo, ou você vai querer um cartão physical Z.
+Ele vai te ofertar várias propostas ali, né?
+E aqui, essa parte específica, eu como comentei com você, é a parte da dos
+gemetrias, é a parte onde, tipo assim, vem a nome da fista,
+que é o físico e o digital. Aqui, aqui já é a parte do dado de gemetria aqui.
+O cliente, nessa etapa específica, vamos ver se eu vou chegar lá pra ele.
+A gente mostra, é mais...
+Mas enfim, é isso, tá?
+Ele ainda não caiu, caiu.
+Já caiu.
+Vou pintar mais uma volta.
+Deixa eu abrir aqui, que eu acho que é legal, tipo, gostando.
+Fala aí, não.
+É, gente...
+É, pode, né?
+É bom que eu já mostro pra menina, tipo, tá com alguma coisa?
+Você consegue ver onde parou essa proposta?
+Manda aí, eu já mostro pra menina, é bom pra ele ver.
+Ó, a gente vai pegar um caso ao vivo aqui agora, ó.
+Tá com algum problema em produção?
+Vamos ver.
+Aí, como que eu vejo uma proposta, né?
+Eu consigo fazer o filtro da proposta pelo número dela.
+Tá vendo aqui, ó, o business key.
+Cada pessoa tem um business key, uma chave, né?
+Cada proposta tem uma chave específica.
+Aí eu passo uma proposta, a gente vai verificar o que aconteceu com ela.
+Você deve estar com algum problema.
+Vamos lá.
+Então, eu tô dentro, eu separei aqui, né?
+O vermelhinho aqui é produção.
+E aí, se você ver o link, ó, aqui, tá vendo?
+Prod.
+Então, se tivesse o mall aqui, aí seria modação.
+Mas aqui a gente tem produção.
+Aí eu vou fazer um filtro, eu passo pesquisa pelo business key,
+e eu vou olhar aqui nessa etapa.
+Ó, eu procurei essa proposta específica,
+eu não encontrei ela.
+Significa o quê?
+Que essa proposta não tá no nosso fluxo.
+Ou seja, ela já saiu.
+Então, assim, aí eu...
+Ou ela foi expurgada, ou ela finalizou.
+Eu não sei dizer aqui o que aconteceu com ela.
+Eu sei que ela não tá aqui.
+E agora eu tenho que fazer uma outra pesquisa.
+Eu tenho que ir mais a fundo.
+Agora eu vou atrás de logs,
+porque eu preciso ver no log o que aconteceu com ela.
+Vamos abrir o log agora.
+Aqui, a ferramenta que a gente usa pra ver log
+chama datadog,
+que é esse carinho aqui.
+Aqui.
+Ó, eu tô em produção.
+Isso.
+Eu tô em produção.
+E eu vou fazer a pesquisa dessa proposta.
+Vamos ver.
+Aqui, a gente trabalha por siglas.
+Tá vendo? Eu tô na sigla CO8.
+O que isso significa?
+Eu tô pesquisando na sigla CO8.
+Isso significa que eu vou estar vendo todos os logs
+só do CO8.
+Eu vou ter outras camadas de pesquisa aqui também.
+Ó, eu fiz a pesquisa.
+Essa proposta não saiu aqui, ó.
+Então, o que eu faço?
+Eu tô pesquisando um dia atrás.
+Pode ser que a proposta
+foi feita mais de um dia.
+Vou colocar sete dias.
+Você vai trazer informação.
+Tá vendo?
+Então,
+eu já vi que essa proposta
+hoje é quinta, né?
+Quarta-feira.
+Não.
+Quarta não.
+Terça.
+Terça-feira.
+Essa proposta é de terça-feira.
+Tá vendo a data dela, ó?
+Foi a terça-feira,
+às 18 e 17,
+que eles tentaram abrir
+ó,
+aqui eu já descobri o que aconteceu.
+Aí, como que eu descobri?
+E, na real,
+é que eu já mexi bastante tão assim.
+Mas vamos por partes.
+Tá vendo que eu tenho um cara aqui?
+Isso aqui é tudo configurável, tá?
+Eu que configurei desse jeito.
+Não era assim.
+Assim fica mais fácil.
+Mas tá vendo que tem um cara aqui que chama Tarefa?
+Qual que é a tarefa que eu tô aqui, ó?
+A tarefa chama
+Dados Biometria.
+Então,
+vamos lá no BPMN.
+Aonde que eu tô dentro do meu BPMN?
+Eu tô aqui, ó.
+Lembra que eu ia te mostrar isso aqui agora, ó.
+Dados oferta.
+A próxima das ofertas que eu vim.
+Dados Biometria.
+Lembra que eu falei pra você que essa etapa
+que o cliente,
+ele pega o celular deles, caniam que é a code da tela?
+Ou seja, agora,
+até aqui esse momento
+era o gerente que tava colocando informação.
+Ah, isso aqui é o que é de oferta, isso aqui é aquilo.
+Fala seu nome, seu telefone.
+Daqui pra frente, quem faz o cliente?
+Então,
+essa proposta em produção
+na terça-feira,
+alguém chegou nessa etapa de biometria
+e aí deu problema.
+Nessa etapa de biometria.
+Tá vendo? Dados Biometria.
+E aí, o que aconteceu no CO8?
+Dados Biometria.
+Eu encontrei a tarefa.
+Só que daqui pra frente, tá vendo,
+expurgo de proposta abandonada?
+Ó, ó o tempo.
+De 8 horas
+e 8 minutos.
+De 8 horas e 10 minutos.
+Ou seja, passou 10 minutos
+e não teve
+nenhuma interação.
+Ou seja,
+não teve nenhuma interação.
+Aí o que você pode presumir?
+Ah, o cliente
+tentou ali
+e não conseguiu.
+Ou então o cara literalmente
+não mexeu. Eu tinha essa possibilidade, tá?
+Mas, como eu já...
+Então,
+aí é que eu fico a dúvida, né?
+Tipo assim, ah, e agora?
+O que eu sei até o exato momento?
+Eu sei que o cara tava na biometria,
+ele tava na etapa de biometria,
+tava o carcode
+e daqui pra frente, o CO8 não foi
+estimulado mais.
+Pra mim agora, é tipo assim, eu tô na
+camada do CO8.
+O CO8 fala o que? Que ele tá na biometria,
+não tive nenhum estímulo,
+depois de 10 minutos, eu expurguei a proposta.
+É isso que aconteceu.
+Só que...
+Eu tô já tornando.
+É, a gente já tá ouvindo e concluindo.
+E aí o que que acontece?
+Eu não sei dizer o que aconteceu,
+pode de fato o cara ter...
+Não, o cara simplesmente não quis seguir com a proposta.
+Mas eu acho isso meio difícil.
+Geralmente o que acontece?
+Isso aqui é algum problema dentro
+da biometria.
+O cara assim, na prática,
+e isso porque o cara reclamou,
+ou seja, o cara tentou.
+É que o CO8 não mostra isso.
+Então o que eu vou fazer? Eu vou tentar
+subir o nível agora. Eu vou lá em outro lugar
+pra ver se eu consigo mais informação.
+Então vamos lá.
+Agora aqui eu vou pra camada do NC2.
+O NC2, ele já passa pra cá,
+ele é isso aqui.
+É essa parte do BFF
+do Cruzeiro.
+Então eu vou olhar agora essa camada
+pra ver se eu consigo pegar alguma
+informação do que aconteceu.
+Beleza?
+Então pra fazer a pesquisa,
+eu já vou mudar.
+A sigla já não vai ser mais CO8.
+E eu não olho por AD
+proposta dentro do
+da NPC2.
+Eu já procuro um negócio que chama CorrelationID.
+Então eu vou incluir ele aqui.
+Eu só vou pegar o Correlation
+agora dele.
+O único problema do datador é que
+ele demora demais, cara.
+E aí dá problema também as vezes.
+Não.
+O Correlation, ele é um
+reche.
+Ele é um reche, o Correlation.
+A proposta em si,
+ele é de fato um
+número, não, um número sequencial.
+Agora o Correlation
+ele é um reche.
+Peraí, o datador
+que travou.
+Isso.
+Ou às
+vezes eu consigo pegar o Correlation
+se eu tô na proposta.
+Eu quero que ele tá pensando aqui.
+Cara, esse é o único saco do datador.
+O datador é muito bom.
+Dá pra você fazer um monte de gráfico
+e pegar um monte de coisa, informação.
+É um problema que ele é lerdo, cara.
+Ele é muito lerdo.
+E aí beleza, eu tô aqui,
+eu vou clicar nessa
+etapa aqui, ele vai me abrir informação.
+Aqui, eu tenho mais
+informações aqui dentro.
+E aí aqui, vou pegar o Correlation.
+Vou filtrar por ele.
 Aí,
-
-01:22:23.380 --> 01:22:25.380
-a gente falou que poderia subir, tá?
-
-01:22:25.380 --> 01:22:27.380
-O que você faz?
-
-01:22:27.380 --> 01:22:29.380
-Remota aquele script que você criou,
-
-01:22:29.380 --> 01:22:31.380
-tipo, guarda ele,
-
-01:22:31.380 --> 01:22:33.380
-pega aquela parte que você fez o mapeamento,
-
-01:22:33.380 --> 01:22:35.380
-que você colocou no scheme,
-
-01:22:35.380 --> 01:22:37.380
-lá, remota o objeto
-
-01:22:37.380 --> 01:22:39.380
-e só sobe
-
-01:22:39.380 --> 01:22:41.380
-aquela caixinha nova,
-
-01:22:41.380 --> 01:22:43.380
-que, tipo, colocou seu controle daquela caixinha.
-
-01:22:43.380 --> 01:22:45.380
-E testa, vê o que vai dar.
-
-01:23:03.380 --> 01:23:05.380
-Então, mas
-
-01:23:05.380 --> 01:23:07.380
-na teoria,
-
-01:23:07.380 --> 01:23:09.380
-o subfluxo,
-
-01:23:09.380 --> 01:23:11.380
-ele já vai estar dentro do dados proposta.
-
-01:23:11.380 --> 01:23:13.380
-Então, assim,
-
-01:23:13.380 --> 01:23:15.380
-eu entendo que sim.
-
-01:23:15.380 --> 01:23:17.380
-Mas, cara,
-
-01:23:17.380 --> 01:23:19.380
-vou testar agora,
-
-01:23:19.380 --> 01:23:21.380
-tipo, assim, coloca lá no ambiente
-
-01:23:21.380 --> 01:23:23.380
-e testa.
-
-01:23:23.380 --> 01:23:25.380
-E vê se vai quebrar.
-
-01:23:25.380 --> 01:23:27.380
-Esse é o primeiro ponto.
-
-01:23:27.380 --> 01:23:29.380
-Tem que ver se vai quebrar. Se não quebrar,
-
-01:23:29.380 --> 01:23:31.380
-aí, o que a gente faz?
-
-01:23:31.380 --> 01:23:33.380
-Como o pessoal do Setup de Contos
-
-01:23:33.380 --> 01:23:35.380
-falou, pessoalzinho, sabe de conto?
-
-01:23:35.380 --> 01:23:37.380
-Passamos essa conta. Dá uma olhada.
-
-01:23:37.380 --> 01:23:39.380
-Porque aí, quando você fizer,
-
-01:23:39.380 --> 01:23:41.380
-me chama, que a gente vai pegar logo
-
-01:23:41.380 --> 01:23:43.380
-porque aquela inclinação
-
-01:23:43.380 --> 01:23:45.380
-do connector,
-
-01:23:45.380 --> 01:23:47.380
-ele vai gerar um logo de chamada de API.
-
-01:23:47.380 --> 01:23:49.380
-E aí, lá na chamada de API,
-
-01:23:49.380 --> 01:23:51.380
-de copia, eu te mostro quando a gente faz a pesquisa.
-
-01:23:51.380 --> 01:23:53.380
-A gente copia aquilo e manda pro pessoal de lá.
-
-01:23:53.380 --> 01:23:55.380
-Fala assim, Filoninha, tá aqui.
-
-01:23:55.380 --> 01:23:57.380
-Funcionou? Não funcionou?
-
-01:23:57.380 --> 01:23:59.380
-E aí eles vão responder.
-
-01:23:59.380 --> 01:24:01.380
-Fábio, não, tô faltando a variável X.
-
-01:24:01.380 --> 01:24:03.380
-Aí, beleza.
-
-01:24:03.380 --> 01:24:05.380
-A gente pega, faz o mapeamento
-
-01:24:05.380 --> 01:24:07.380
-e testa de novo. Foi? Não, não foi.
-
-01:24:07.380 --> 01:24:09.380
-Cara, vamos fazer a poupa
-
-01:24:09.380 --> 01:24:11.380
-de pesquisa que a gente faz dentro, entendeu?
-
-01:24:11.380 --> 01:24:13.380
-Mas faz primeiro.
-
-01:24:23.380 --> 01:24:25.380
-Isso aí, abre uma conta,
-
-01:24:25.380 --> 01:24:27.380
-tipo, uma ogação,
-
-01:24:27.380 --> 01:24:29.380
-abre uma conta.
-
-01:24:29.380 --> 01:24:31.380
-Você tem que ver que ele passou por aquela caixinha.
-
-01:24:31.380 --> 01:24:33.380
-Quando ele passar por aquela caixinha
-
-01:24:33.380 --> 01:24:35.380
-e não quebrar, já é um ótimo sinal.
-
-01:24:51.380 --> 01:24:53.380
-Tem que saber, sim.
-
-01:24:53.380 --> 01:24:55.380
-Funcionando.
-
-01:24:55.380 --> 01:24:57.380
-Bele?
-
-01:25:01.380 --> 01:25:03.380
+agora já tô filtrando por ele.
+Aí eu vou tirar o ID
+proposta, que eu não preciso.
+E vou trocar a sigla.
+Aqui,
+eu tô vendo uma etapa
+dentro do cruzeiro do BFF.
+Vamos ver se traz mais informação.
+Vamos lá.
+Vamos lá.
+Vou fazer aqui descobrir alguma coisa.
+Requisição encerrada.
+Requisição encerrada.
+Ficou contrada.
+Vou abrir o S.
+Vou botar o S.
 Isso.
-
-01:25:03.380 --> 01:25:05.380
+Tá.
+Aqui, às vezes, tenho alguma informação.
+Às vezes, não.
+Encerrada.
+Ero, erro, erro.
+A gente não teve.
+A gente não archive a EQ.
+E agora,
+bowl europeia se tira.
+Deixou,
+empezou, descobriam,
+Eu quero te contar, então, para retomar, essa retomar não diz muita coisa para mim.
+Eu ainda tipo assim, também perdi onde que eu estou no fluxo, mas vamos tentar começar aqui.
+Aqui está a chave da tarefa que eu comentei com você, dados de biometria.
+Então aqui eu sei que essa tarefa eu estou em dados de biometria, que foi normal.
+Já vem no status da chamada, ou seja, o que eu sei até agora?
+O cara entrou na chamada de biometria, ele pegou o seu ar dele, ele tentou escanear e não conseguiu.
+Porque deu 200, que significa 200, ou seja, ele está lá.
+As informações que eu tenho do...
+A gente vai montando quebra-cabeça, mas qual que é a informação do CO8?
+O CO8 falou para mim que eu cheguei no dado de biometria, eu não tive estímulo, eu peguei a proposta e expliquei ela.
+O que o NC2 disse para mim?
+Eu cheguei no dado de biometria, na mesma chamada ali, eu bati ali e fiquei esperando, dentro de 200.
+Ou seja, eu não tive nenhum estímulo.
+Porque se caso eu tivesse algum problema, aqui eu talvez conseguiria pegar, tipo assim, olha, imagem, problema, alguma informação.
+Mas aqui a...
+Então ele não deu erro, tipo assim, ele chegou na tarefa e ele ficou ali esperando.
+O que isso me diz? É que eu já conheço um tempo, né?
+Então assim, eu já peguei outros tipos de problemas.
+Aí potes que eu tenho são duas.
+Primeira, o cara chegou na etapa de biometria, ele pegou o celular dele, ou meio que abandonou, tipo assim, abandonei, não quero fazer nada.
+E aí ficou, ficou, ficou...
+Explou, eu não tô vendo nenhum dele.
+Esse é o primeiro...
+Então, então...
+Não, não chegou.
+Por que? Aí a minha primeira hipótese é essa, tipo assim, ele não fez nada.
+Mas o cara tá reclamando.
+Se o cara tá reclamando, é porque de fato ele fez alguma coisa.
+E aí que entra a minha segunda hipótese.
+Porque eu não peguei ele, mas eu já vi alguns erros que assim, por exemplo.
+Imagina que eu tenho um QR-Code, certo?
+Eu tenho que pegar o meu celular, scaniar esse QR-Code, e aí eu tenho que entrar na jornada, certo?
+Ou seja, eu tenho que pegar o meu celular.
+Nesse ato de pegar o meu celular, provavelmente o celular dele tá com algum problema.
+Ele abre o meu celular, o navegador é errado.
+É assim, deu algum problema nesse processo.
+De ele fazer essa... por exemplo, tempos atrás entrou eu, o gerente e o cliente.
+E aí o cliente falou, eu não tô conseguindo scaniar.
+E tipo assim, estava exatamente nesse jeito.
+Eu olhava e falei, cara, aqui tá tudo certo.
+Mas aí o que acontece no seu celular?
+Ah, eu clico aqui, não abre nada, dá um bug.
+Aí eu falei, que navegador você tá usando?
+Ah, eu tô usando o navegador lá da... esqueci o nome do iPhone.
+Esqueci o nome, véi.
+Não, ele não entrou.
+Porque dentro do celular dele, cara, assim, era um celular outro top novo, só que é um iPhone.
+E ele tava usando um outro navegador, um navegador específico, acho que é safari.
+Acho que é safari.
+Ele tava usando um navegador específico do iPhone.
+Eu falei pra ele, cara, tem que abrir pelo... pelo Chrome.
+Ele abriu pelo Chrome e não foi.
+Eu falei, não, mas abre em abanônima.
+Aí ele abriu em abanônima e foi.
+Porque tem cache.
+Então aqui...
+Aham.
+Então, ele... assim, o...
+O que eu tenho é que ele, de fato, ele tentou, ele pegou o celular e tentou escanear.
+Só que na hora desse escaneamento, ele não conseguiu realizar escaneamento.
+Ou ele não conseguiu abrir o link.
+Ou na hora de escanear a foto, deu algum problema.
+Só que aqui agora, do tipo assim, pra gente...
+É meio que foi um palhaço mesmo.
+Steph, o besteira ali, tem o pares.
+É mais nesse sentido aqui.
+Não, ele não passou pela permetria.
+Porque assim, se ele tivesse... se ele tivesse passado aqui e até algum log no tipo assim, olha, tentou, não conseguiu.
+O que eu tenho aqui é que...
+O último log que eu tenho é que eu estou parado na tarefa de dados de biometria.
+Mas nada aconteceu.
+Ou seja, foi um típico exporgo.
+Mas por quê?
+Porque deu algum problema no celular do cara.
+Esse é o faro que eu tenho.
+Agora, 100% de certeza.
+Não sei, assim, como que eu consegui assinar isso?
+Eu, o gerente, o cliente.
+O cliente já abri na minha frente.
+Vamos lá, vou acompanhando aqui, deixa eu olhar.
+Então, assim, esse é o faro que eu tenho.
+Não, eu não consigo...
+O que são... é um outro ambiente, sabe?
+Tipo assim, o celular do cara.
+Eu consigo ver quando ele logar na jornada.
+Aí quando assim, ele entrar na jornada lá, que eu...
+que eu ver aquele passar de tarefa de fazer o complete do dado de biometria.
+Aí eu consigo ver.
+Beleza, ele está na nossa jornada.
+Eu vou ver, mas o problema é...
+Eu abrir a jornada, sabe?
+Não.
+Porque senão eu ia ter estímulo aqui.
+Então, esse é o faro que eu tenho, entendeu?
+E eu sei disso por quê?
+Porque eu já peguei alguns casos assim.
+De vez em quando isso acontece.
+Porque é um problema específico.
+Então, aí nesse caso,
+eu vou avisar o Leo e a Lua aqui, né?
+Que é a APM,
+eu tenho que líder o foco.
+Eu acho que é isso, mas assim...
+Entende, se o cara estiver muito, muito a fim,
+fala, cara, fala comigo,
+eu ligo para o cara,
+a gente tenta abrir a conta junto.
+Eu, o gerente e o cara.
+Eu vou olhando e acompanhando.
+Aí...
 Isso.
-
-01:25:05.380 --> 01:25:07.380
-Aí você faz o seguinte, tira lá
-
-01:25:07.380 --> 01:25:09.380
-as promoções
-
-01:25:09.380 --> 01:25:11.380
-e avisa lá no pessoal de alinhamento.
-
-01:25:11.380 --> 01:25:13.380
-Fala, gente, eu vou
-
-01:25:13.380 --> 01:25:15.380
-subir aqui o
-
-01:25:15.380 --> 01:25:17.380
-setup de contas.
-
-01:25:17.380 --> 01:25:19.380
-Aí joga lá na parte de alinhamento.
-
-01:25:21.380 --> 01:25:23.380
-E aí você vai lá e, tipo, se ninguém fala nada,
-
-01:25:23.380 --> 01:25:25.380
-então, dois, três minutos, se ninguém fala nada,
-
-01:25:25.380 --> 01:25:27.380
-você vai lá e sobe.
-
-01:25:27.380 --> 01:25:29.380
-Aí marca todo mundo.
-
-01:25:35.380 --> 01:25:37.380
-Fechou.
-
-01:25:37.380 --> 01:25:39.380
-Beleza? Foi bom.
-
-01:25:39.380 --> 01:25:41.380
-Falou, mano. Abraço.
+Isso.
+Aí o gerente vai me ligar,
+aí eu vou atender o gerente,
+eu vou falar tudo bem, eu vou falar ela.
+Não tenta abrir a conta dele, vamos.
+A gente tenta junto aqui.
+Eu vou fazer isso, tipo, assim, o cara não quer
+abrir a conta de nada.
+Então, noventa e noventa, às vezes, o cara fala,
+eu vou abrir a conta com o ger.
+Sabe, não tem...
+É, depende, mano.
+Depende muito, assim, de cada cliente.
+Ou, às vezes, o cara pode tentar abrir a conta
+em um outro tipo de jornada,
+tipo, o cara vai tentar abrir pelo celular,
+essa pessoa que pelo celular vai.
+A jornada do celular.
+Aham.
+Sim.
+É, não, mas tem, cara, mas tem...
+Tem muita gente que desiste, viu.
+O cara tenta uma vez, fala, não deu.
+O cara vai abrir conta, eu estou bem.
+Tá tudo certo.
+Mas, assim, isso...
+Cara, você não volta muita gente.
+Ou, às vezes, o cara tenta de novo,
+depois o cara consegue.
+Aí, às vezes, eu falo, ah, tenta fazer
+abrir a conta contra o celular.
+É uma possibilidade também.
+Teve uma vez que não ia com o celular do cara,
+o cara não estava conseguindo, eu falei, ó,
+abre sem cash, abre contra o navegador.
+Cara, pega outro celular, o cara pegou
+o celular e abriu.
+Tipo, rola isso, entendeu.
+Deixa eu só avisar o pessoal aqui.
+A gente já vai ver
+os seus acessos.
+Eu vou ter que ver outras coisas aqui, tá?
+Peraí, rapidão.
+Tchau, tchau.
+Tchau, tchau.
+Tchau, tchau.
+Tchau, tchau.
+Pronto.
+Pronto.
+É nóis.
+E...
+Beleza.
+Aí, meio que o que eu expliquei
+para você, eu expliquei para o pessoal aqui.
+Aí, Fabio.
+Pensa que a gente passou
+a dar a parte da biometria, né?
+Tá conseguindo ver a tela aqui?
+Beleza.
+Passei da tela de biometria.
+Isso aqui já é o cliente, né?
+Fazendo.
+Aí, eu tenho a coleta de senha,
+o azeite dos produtos,
+declaração
+e proposta liberada.
+É...
+Então, até aqui, declarações,
+é o próprio cliente
+que ele dá no celular dele e vai, beleza.
+Ah, você aceita os produtos que o gerente
+contratou, aceita?
+Aí, vem a declaração.
+Olha, tem isso, isso, isso, isso, isso.
+Isso você meio que vê o que
+que você
+contratou durante a jornada, né?
+E aí você aceita, aceita.
+E aqui é a última tela.
+Essa tela aqui, até essa tela,
+a gente chama que é a jornada.
+Porque
+aqui é a última tela que o
+gerente e o cliente vêm.
+Então, aí você perguntou para mim, né?
+Ah, depois tem uma parte que é a síncrona.
+Que aí seria essa parte aqui daqui para frente.
+Que seria o pós-jornada.
+O pós-jornada é
+tipo assim, olha, o cliente e o gerente
+não estão vendo mais. Então,
+a galera, se tiver problema
+ou qualquer coisa, eles enxergam até aqui.
+Daqui para frente, eles já não enxergam
+mais, eles já não sabem o que está acontecendo.
+Então, daqui para frente,
+não liberou, na real.
+Cara, até aqui,
+a conta não está aberta.
+O cara recebe, não.
+Para ele, ele fala assim, olha,
+parabéns, você abriu sua conta, mas na realidade
+não abriu.
+Às vezes, cara, imagina que dá problema aqui,
+nesse quadradinho aqui, nessa caixinha aqui.
+O cara não abriu a conta.
+A conta só vai ser efetivada, de fato,
+olha onde ela vai ser.
+Aí, eu vou ter, lembra que você falou do motor
+de PLD lá, que
+você falou que tinha PLD, tinha
+parte de risco, né?
+É, fraude.
+Ele vai passar por PLD,
+ele vai passar por
+PLD5, que é fraude,
+ele vai passar
+é, ele, ele passa por essas
+validações, já que é 5, fraude,
+bacen, para depois, ele, de fato,
+efetivar a conta. Se ele passar por
+tudo isso aqui,
+aí, beleza, ele vai lá e abre a conta.
+Aí, aqui, sim, ele abre a conta.
+Quando ele cai nessa caixinha aqui,
+que inclusive é uma, uma external
+task, é,
+aqui a gente faz comunicação com um time
+que chama CC, que é o comite contas.
+Quando ele faz essa comunicação, comite
+contas, ele, de fato, está abrindo a
+conta. Aqui, sim, a conta dele está
+aberta. E aí, ele, ele é cliente
+nosso. Mas se é, cara, se o
+cara der pau aqui, ó, nesse script,
+tipo, a gente fez cagada aqui e mexeu
+nesse script, tá dando pau aqui nesse script,
+o cara não abre a conta. E daqui
+para frente, aí tem um monte de
+outras coisas.
+Eu só não vou explicar mais chinchinho
+por chinchinho, depois, cara, depois eu vou te
+explicando um por um aqui, tá?
+Mas é que eu tenho que fazer outras coisas.
+Tem.
+Cara, ó, só pra você ter noção, tá vendo
+aqui em cima, né? O todo
+é tipo assim,
+metade é do cliente
+e a outra metade é nossa.
+Então, imagine aqui, o
+front, o back
+e o c8, eles andam junto até
+aqui. Daqui para frente
+é só c8.
+Aí, todos os outros times que a gente vai
+bater aqui nas APIs, vai fazer
+isso aí, é tudo c8.
+Belê?
+É, puxa aí.
+Boa, puxa aí que eu vou te
+te ajudando.
+Ah, é que por enquanto você não tem
+acesso ao cockpit, então vou
+pegar pra você.
+Aí você pode pelo menos estudando nossa
+API.
+Ah, deixa eu pegar aqui.
+Esse aqui é o arquivo bpmn.
+Pera aí, rapidão.
+Só um segundo, eu tô te passando
+um arquivo, deixa
+eu te passar isso aqui.
+Vou passar isso aqui.
+Eu tô te mandando
+o arquivo do Camunda, tá
+da nossa jornada.
+Aí quando você baixar o
+Camunda, você vai conseguir abrir
+ele.
+E aí eu vou te passar também
+um guia
+pra você pedir os acessos.
+Ah, você pediu os acessos?
+Ah, cara, não membro.
+Cara, de cabeça, não membro
+não, vai. Você pedir
+esses dois, que
+é do, eu acho que é do
+cockpit.
+Esse aí
+é
+onde
+que você
+quem, quem que te passou
+o
+esses acessos pra pedir seus acessos?
+Foi a mão de
+uma panilha?
+Ah, então deve ser isso.
+Só, só
+bate com isso aqui, ó
+pra postar
+a parada.
+Eu tenho um outro arquivo
+aqui, onde que tá
+tão cheio.
+Ah,
+para, quando eu entrei no seu oito,
+um ano atrás, eu fiz isso aqui, então
+tá meio, tá meio
+por aqui.
+Mas depois
+é que
+eu fiz, ó, eu te
+mandei, abre esse arquivo aí.
+Ah, você tá no
+software?
+É o Camunga 5.9 ali.
+Pode baixar ele.
+Já pode baixando ele?
+Aí, abre aquele arquivo que eu te
+mandei.
+Isso, aí
+esse
+para, ah,
+quer ver?
+Isso, aí
+esse para, ah,
+quer ver?
+Aí,
+aí é todos os
+acessos que eu,
+que eu pedi, sabe, no começo?
+Ó, tá vendo, aquele, eles são os acessos
+para acessar o cockpit.
+Aí, esse splunk, não precisa mais,
+tá?
+Sobe um pouco.
+Ah, tá vendo a observação que
+eu coloquei ali, ó, acessa o
+cockpit do Camunga.
+Tá vendo, ó?
+Isso.
+Aí, vê se são esses, provavelmente
+são esses que a mãe de gente passou.
+E aí, eu pedi, o, aí o
+splunk ali, ele não tem mais, tá?
+Não precisa pedir.
+Aí, você precisa
+dar acesso ao NC2, igual, tipo, eu fiz
+aquela, aquela consulta que eu te
+mostrei, tenho que pedir essa sua NC2
+ao data dog.
+Então, é basicamente
+seguir aquela,
+aquela trilhazinha ali.
+Cara, vai, vai brincando,
+aí que agora eu tenho que...
+Pessoal, a gente tá me chamando por tô ficando
+aqui, tá?
+Hum, pode falar.
+O BPMN?
+Um, um, um...
+Não, imagina,
+você quer o, o, o desenho lá,
+certos desenhos?
+Ó,
+vai lá onde eu te...
+Ah, não, mas
+isso aí.
+Ah,
+isso aí.
+Ah,
+isso aí.
+Ah, não, mas isso aí.
+Isso aí é...
+Isso aí, o diagrama
+é o fluxo da fígita, ó.
+É tipo, é a regra de negócio.
+Eu, eu acho que você quer ver o, o, o, o que
+eu tava mostrando lá, certo? Tipo, o
+cockpit mesmo, o Camundo, o Modeller.
+É, então,
+aí o do, do Modeller, aí é só, tipo,
+abrir o Modeller, aí,
+aquele arquivo que eu te passei,
+você abre aquele arquivo, que aí você vai ver o nosso fluxo.
+É que isso aí, o que que
+eu tô mostrando é a regra de negócio, tá vendo?
+A gente começa pelo CPF,
+tem SS,
+CNPJ.
+Isso aí, o que a mãe de passa pra você,
+é um resumo de toda a nossa jornada.
+Do tipo assim, ó, segmento,
+nome, email.
+É, é aquele, é o fluxo.
+Aí você vai conseguir inclusive bater
+a, a lógica
+do que ela passou aí, com nosso
+BPMN.
+Não, aí é como se,
+aí é como se fosse
+é, é tipo, ela,
+ela colocou o resumo das telas, aí.
+Do tipo assim, qual que é a próxima tela?
+O que que ele faz? É, é um, é um fluxo,
+tipo, geral.
+Tá vendo, ó, depois de agências,
+aí é do tipo assim,
+aí, qual que é a agência?
+Qual que é a próxima? É encarteiramento.
+Qual que é a próxima? É pacote contra
+tarifa. Tipo,
+ela meio que, isso é um resumo.
+Isso aí não é nem, nem BPMN, sabe?
+Isso aí é um, é um resumo.
+Do tipo assim, olha.
+A nossa jornada começa com quem?
+CPS, qual que é a próxima tela?
+Ah, NSS, qual que é a próxima tela?
+É mais um resuminho.
+Abre mesmo o nosso BPMN lá,
+o arquivo que eu te mandei.
+Baixa o camô, do lá, igual você tá baixando
+e abre o BPMN.
+E aí vai dar uma, dando uma brincada lá,
+vai olhando.
+Aí se tiver dúvida, pode me perguntar.
+Beleza.
+Beleza.
+É nóis mano, precisar de
+alguma ajuda aí,
+é certeza que vai, vai precisar, mas
+tamo junto.
+Pode, pode perguntar,
+cara, não tem algum receio na,
+que eu sou tranquilo.
+Beleza.
+Eu sou às vezes, eu só não tenho muito tempo,
+tá? Que as vezes a galera me pinga aqui,
+me pinga ali, me chama ali,
+mas pode perguntar quando precisar, cara. Tamo junto.
+Beleza.
+Falou, Fabio, um abraço,
+cara, um deus. Tchau, tchau.
+Tchau.
+Tchau
+Até mais
+Tchau
