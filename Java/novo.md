@@ -1,2999 +1,2225 @@
 WEBVTT
 
-00:00.000 --> 00:02.000
-Piar link.
+00:00.000 --> 00:01.360
+fazendo os testes locais,
 
-00:05.000 --> 00:07.000
-Ah, é porque eu não consigo compartilhar.
+00:01.360 --> 00:02.800
+por isso que eu coloquei nesse coluna aí,
 
-00:15.000 --> 00:17.000
-Sim, sim.
+00:02.800 --> 00:04.600
+que é os testes aqui do DEV mesmo,
 
-00:30.000 --> 00:33.000
-Você consegue... Ah, pera aí.
+00:05.960 --> 00:08.020
+só fazendo alguns testes para adiantar.
 
-00:43.000 --> 00:45.000
-Digitar.
+00:08.020 --> 00:10.760
+Enquanto isso, também estou ali nos incidentes,
 
-00:51.000 --> 00:53.000
-Você consegue acessar?
+00:10.760 --> 00:13.520
+ontem ali eu ajudei a Marcella em alguns,
 
-00:53.000 --> 00:56.000
-Aí lá embaixo vai ter Planilha 2, eu estou na Planilha 2 ali.
+00:14.460 --> 00:18.280
+e estou terminando algumas coisas aqui do vídeo,
 
-00:56.000 --> 01:00.000
-Está abrindo aqui.
+00:18.280 --> 00:22.680
+nem a apresentação dos materiais que possuem minha estabilidade.
 
-01:05.000 --> 01:08.000
-Acessei. Dá para ver.
+00:23.400 --> 00:26.640
+E se sobrar tempo, começar um curso
 
-01:08.000 --> 01:18.000
-Você está filtrando aqui os que não tem proxia, é isso?
+00:26.640 --> 00:29.800
+que estão divulgando aqui de squadzívidas também,
 
-01:18.000 --> 01:20.000
-Tá.
+00:29.800 --> 00:31.640
+para ver se traz alguma coisa para a gente.
 
-01:20.000 --> 01:22.000
-Você achou os proxies?
+00:32.200 --> 00:34.520
+Mas é isso, estou me dividindo nessas incidentes.
 
-01:22.000 --> 01:24.000
+00:39.800 --> 00:41.200
+Você é aqui para o Ibra.
+
+00:42.920 --> 00:43.720
+Bom dia, pessoal.
+
+00:45.080 --> 00:49.480
+Ontem eu fiquei dividindo ali nos testes do NPC,
+
+00:49.480 --> 00:53.520
+e também a passagem de conhecimento do Jasper,
+
+00:53.520 --> 00:55.000
+a profissão da PAC.
+
+00:55.960 --> 01:00.680
+E hoje de manhã eu fiquei mais focado ali na verdade
+
+01:00.680 --> 01:03.080
+para a gente resolver aquele problema de homologação
+
+01:03.080 --> 01:04.880
+que a gente está tendo como um AD.
+
+01:04.880 --> 01:07.120
+Então estou falando com o pessoal lá
+
+01:07.120 --> 01:10.040
+para a gente ter um pouco mais de tração nessa parte.
+
+01:10.040 --> 01:13.920
+Estou com medo de isso acabar trazendo ali na entrega do NPC,
+
+01:13.920 --> 01:15.400
+porque pelo que eu estou entendendo os testes,
+
+01:15.400 --> 01:16.680
+eu também não sei,
+
+01:16.680 --> 01:19.120
+e a maioria dos problemas que a gente estava enfrentando ali,
+
+01:19.120 --> 01:21.320
+a gente já conseguiu passar
+
+01:21.920 --> 01:23.600
+faltando essa parte aí do próximo,
+
+01:23.600 --> 01:26.160
+que eu entendo que é alguma coisa ali do escopo
+
+01:26.160 --> 01:28.360
+que falta ser adicionado.
+
+01:30.520 --> 01:32.840
+Então é isso, acho que para hoje eu vou continuar
+
+01:34.200 --> 01:36.000
+conversando ali como a TESA principalmente,
+
+01:36.560 --> 01:37.440
+e com o pessoal do AD,
+
+01:37.440 --> 01:40.200
+para a gente resolver esse problema ali no subflux,
+
+01:40.920 --> 01:45.440
+e também vou continuar acompanhando ali os testes do NPC,
+
+01:46.200 --> 01:48.160
+e disponível ali para análise de lojas
+
+01:48.160 --> 01:50.000
+e tudo mais que você pessoal precisar.
+
+01:54.600 --> 01:56.200
+Vamos ver o que está aqui.
+
+01:58.520 --> 02:00.000
+Uma tela só que é difícil.
+
+02:01.320 --> 02:02.840
+Eu acho que é o Pedrinho, né?
+
+02:04.520 --> 02:05.520
+É, boa.
+
+02:08.000 --> 02:11.600
+Ah, então, alguns recados, galera.
+
+02:11.600 --> 02:14.600
+Falei com a Andressa hoje,
+
+02:14.600 --> 02:18.600
+Gia já resolveu a questão do escopo,
+
+02:18.600 --> 02:21.600
+ela já colocou a questão do...
+
+02:21.600 --> 02:23.600
+do responsável.
+
+02:23.600 --> 02:25.600
+Já está como responsável, na verdade.
+
+02:25.600 --> 02:29.600
+Então é só solicitar que é para dar certo.
+
+02:29.600 --> 02:34.600
+Então, tanto no cenário virtualizado como não virtualizado,
+
+02:34.600 --> 02:38.600
+é para a gente aqui ter sucesso.
+
+02:41.600 --> 02:45.600
+O time do direcionador também ajudou aqui
+
+02:45.600 --> 02:47.600
+a time com as questões de seguro,
+
+02:47.600 --> 02:49.600
+só tem essa questão do AD,
+
+02:49.600 --> 02:52.600
+que eu também estou acompanhando aqui com Igor no chat.
+
+02:57.600 --> 03:00.600
+Ah, por favor, aproveitar que você está aqui.
+
+03:00.600 --> 03:02.600
+O ontem eu estava conversando com a Pat,
+
+03:02.600 --> 03:08.600
+que a gente tinha uma expectativa de a gente subir mais rápido possível,
+
+03:08.600 --> 03:11.600
+e a gente estava evoluindo aqui nos testes internos.
+
+03:13.600 --> 03:18.600
+A gente vai conseguir testar hoje os casos de proxy com IAC,
+
+03:18.600 --> 03:23.600
+mas a gente não vai conseguir testar hoje os casos de proxy com IU,
+
+03:23.600 --> 03:28.600
+porque o time dela não conseguiu gerar ontem,
+
+03:28.600 --> 03:33.600
+porque eles estavam realizando outra atividade
+
+03:33.600 --> 03:36.600
+e não conseguia fazer trade-off,
+
+03:36.600 --> 03:38.600
+que era um problema em produção.
+
+03:38.600 --> 03:41.600
+E hoje vai gerar os proxies do IU,
+
+03:41.600 --> 03:45.600
+só que gera hoje e só pode usar amanhã.
+
+03:45.600 --> 03:49.600
+Então, esse é um primeiro impacto aqui,
+
+03:49.600 --> 03:52.600
+um segundo impacto, Rafa.
+
+03:54.600 --> 03:58.600
+Justamente sobre essas subidas aqui que a gente precisa fazer,
+
+03:58.600 --> 04:02.600
+junto com os demais gimes,
+
+04:02.600 --> 04:10.600
+a Pat está numa situação aqui que ela até consegue subir as peças dela nessa semana,
+
+04:10.600 --> 04:17.600
+só que ela está com uma questão de criptografia de chave em produção
+
+04:17.600 --> 04:20.600
+com o time de cripto,
+
+04:20.600 --> 04:24.600
+e também tem uma etapa com a Pismo de Cadastrar Chave,
+
+04:24.600 --> 04:29.600
+que só, aparentemente, vai acontecer na semana que vem.
+
+04:29.600 --> 04:35.600
+E isso enviabiliza a gente testar ao piloto lá na agência do SEIC,
+
+04:35.600 --> 04:38.600
+essa semana, enquanto essa...
+
+04:38.600 --> 04:43.600
+Desculpa, Rafa deu uma cortada.
+
+04:43.600 --> 04:45.600
+Não, eu falei, pode terminar.
+
+04:45.600 --> 04:47.600
+Achei que você ia ter terminado.
+
+04:47.600 --> 04:49.600
+Não, já finalizando.
+
+04:49.600 --> 04:54.600
+Então, eu estou avaliando com ela se ela consegue adiantar,
+
+04:54.600 --> 04:59.600
+mas não estou conseguindo muito resultado.
+
+04:59.600 --> 05:02.600
+Vamos lá, só para entender.
+
+05:02.600 --> 05:04.600
+Bom dia, primeiro.
+
+05:04.600 --> 05:11.600
+Para entender aqui, os testes do envio do cartão para casa,
+
+05:11.600 --> 05:14.600
+ele depende disso, ou é só a questão do proxy?
+
+05:14.600 --> 05:16.600
 Não.
 
-01:24.000 --> 01:27.000
-Eu acho que está lá no para a gravação.
+05:16.600 --> 05:20.600
+Esse bloco que você falou da senha, da criptografia, desculpa.
 
-01:27.000 --> 01:30.000
-Será? Deixa eu ver.
+05:20.600 --> 05:25.600
+Eu não sei se essa questão aqui da chave é para os dois fluxos,
 
-01:57.000 --> 02:04.000
-Foi no TEC que ele mandou mesmo?
+05:25.600 --> 05:28.600
+ou somente para o proxy, tá?
 
-02:04.000 --> 02:07.000
-Ah, na verdade, foi no TEC.
+05:28.600 --> 05:32.600
+Eu preciso... Desculpa, eu não perguntei isso para a Pat,
 
-02:07.000 --> 02:10.000
-O Fabio te marcou, achei ele.
+05:32.600 --> 05:36.600
+eu preciso voltar aqui com ela para avaliar, tá?
 
-02:10.000 --> 02:13.000
-Você achou?
+05:36.600 --> 05:38.600
+Você volta com ela, com essa pergunta,
 
-02:13.000 --> 02:17.000
-Ah, tá.
+05:38.600 --> 05:43.600
+e também com a pergunta de se é possível a gente adiantar
 
-02:17.000 --> 02:21.000
-TN 7010, 7010 é varígio, né?
+05:43.600 --> 05:48.600
+mediante alguma conversa, algum DEA, alguma despriorização,
 
-02:21.000 --> 02:24.000
-Acho que é.
+05:48.600 --> 05:50.600
+ou é alguma coisa mais...
 
-02:27.000 --> 02:37.000
-Então dá para fazer os cenários de próximo varígio também.
+05:50.600 --> 05:52.600
+Sei lá, chutando, tá?
 
-02:37.000 --> 02:44.000
-Eu vou entrar lá assim, que é pior que depois eu tenho uma sequência de agendas aqui.
+05:52.600 --> 05:53.600
+Eu não conheço essas datas.
 
-02:44.000 --> 02:46.000
-Tá.
+05:53.600 --> 05:55.600
+Ou é alguma data meio calendarizada,
 
-02:46.000 --> 02:49.000
-Mas se você precisar de alguma coisa, você vai avisando, tá?
+05:55.600 --> 05:57.600
+e a gente não conseguiria, de jeito nenhum,
 
-02:49.000 --> 02:53.000
-Tá, eu avisei a fer, que eu não vou entrar lá na sequidão, mas pode gravar a tela.
+05:57.600 --> 05:59.600
+nem se subiu o assunto, a gente ia adiantar.
 
-02:53.000 --> 02:57.000
-Porque quando eu tiver o tempo que eu não sei quando vai ser, eu dou uma olhadinha, mas...
+05:59.600 --> 06:04.600
+É para entender de onde que é essa data da semana que vem.
 
-02:57.000 --> 03:01.000
-Beleza, mas fica tranquila.
+06:04.600 --> 06:06.600
+É por uma impossibilidade deles,
 
-03:01.000 --> 03:04.000
-E foca aqui.
+06:06.600 --> 06:09.600
+ou é alguma calendarização a qual a gente, sei lá,
 
-03:04.000 --> 03:06.000
-Arrasou.
+06:09.600 --> 06:13.600
+precisaria subir num nível X ali para poder trazer para semana.
 
-03:06.000 --> 03:07.000
-Valeu.
+06:13.600 --> 06:15.600
+Só entender esses dois pontos, por favor.
 
-03:07.000 --> 03:09.000
-Qualquer coisa, manda mensagem, tá?
+06:15.600 --> 06:17.600
+Claro, pode deixar.
 
-03:09.000 --> 03:18.000
-Tá bom.
+06:17.600 --> 06:20.600
+Eu falo com ela e te retorno, tá?
 
-03:18.000 --> 03:22.000
-Ah, pessoal, tudo bem?
+06:20.600 --> 06:22.600
+Tá bom. Beleza.
 
-03:22.000 --> 03:27.000
-Ah, eu vi sua mensagem, mas eu não respondi ainda, porque eu tô aqui...
+06:22.600 --> 06:24.600
+E até para entender, né?
 
-03:27.000 --> 03:30.000
-Deixa eu mostrar a minha tela aqui.
+06:24.600 --> 06:26.600
+Se é para pegar algum DEA,
 
-03:30.000 --> 03:32.000
-A focada aí, né?
+06:26.600 --> 06:28.600
+em que nível a gente precisa pegar aqui?
 
-03:32.000 --> 03:37.000
-Eu tô aqui automatizando aqui rapidinho, para me gerar massa bem rápido.
+06:28.600 --> 06:30.600
+Perfeito.
 
-03:37.000 --> 03:40.000
-Porque toda vez eu tenho que ficar chamando uma por uma.
+06:30.600 --> 06:34.600
+Mas deixa eu fazer uma outra pergunta.
 
-03:40.000 --> 03:44.000
-Eu acho que eu vou ter quebrar uma aqui.
+06:34.600 --> 06:38.600
+A gente correr com essas possíveis DEAs,
 
-03:44.000 --> 03:46.000
-Jogar para cá.
+06:38.600 --> 06:41.600
+correr aqui com priorização,
 
-03:46.000 --> 03:48.000
-Jogar.
+06:41.600 --> 06:44.600
+a gente, do nosso lado,
 
-03:48.000 --> 03:53.000
-Depois daqui, ela executa essas...
+06:44.600 --> 06:48.600
+a gente tá no tempo aqui,
 
-03:53.000 --> 03:56.000
-E essa daí?
+06:48.600 --> 06:49.600
+o que eu quero dizer,
 
-03:56.000 --> 03:58.000
-Essa daqui.
+06:49.600 --> 06:52.600
+a gente pode correr com todos os 10 possíveis,
 
-03:58.000 --> 04:00.000
-Não cadear assim.
+06:52.600 --> 06:54.600
+conseguir, sei lá, quinta-feira, quarta-feira.
 
-04:00.000 --> 04:07.000
-Mas eu não lembro se aqui eu tinha que colocar o ID da request ou o nome da request.
+06:54.600 --> 06:56.600
+A gente tá pronto para subir,
 
-04:07.000 --> 04:13.000
-Quando eu chamo...
+06:56.600 --> 06:58.600
+porque ainda não adianta a gente correr por eles,
 
-04:13.000 --> 04:16.000
-Ele não chama as outras.
+06:58.600 --> 07:01.600
+e a gente também não tá pronto, né?
 
-04:44.000 --> 04:48.000
-Não, e é isso?
+07:01.600 --> 07:05.600
+Hoje o que tá impactando
 
-04:48.000 --> 05:01.000
-Não vai, melhor fazer na mão mesmo.
+07:05.600 --> 07:09.600
+foi essa questão de passar o fluxo com o proxy,
 
-05:01.000 --> 05:06.000
-Comilha, a gente tá impactado com algum outro ambiente ainda?
+07:09.600 --> 07:12.600
+que o escopo não tava funcionando,
 
-05:06.000 --> 05:10.000
-Um ambiente, um ambiente, não.
+07:12.600 --> 07:14.600
+a gente teve que virtualizar,
 
-05:11.000 --> 05:14.000
-Você quer abrir a pack de uma agora?
+07:14.600 --> 07:16.600
+só que quando a gente finalizou a virtualização,
 
-05:14.000 --> 05:18.000
-Mas eu tô fazendo um fluxo que dá para ser feito, né?
+07:16.600 --> 07:18.600
+o ambiente caiu.
 
-05:18.000 --> 05:22.000
-Ainda não iniciei algum...
+07:18.600 --> 07:22.600
+Então, a gente precisa testar os casos de proxy.
 
-05:22.000 --> 05:28.000
-Outros fluxos. Eu vou fazer agora o padronizado 1.
+07:22.600 --> 07:25.600
+E tem a massa deles que vai ficar pronto só amanhã, né?
 
-05:28.000 --> 05:31.000
-Sem nada.
+07:25.600 --> 07:28.600
+É, a gente tem do IA, só não tem do IU, tá?
 
-05:31.000 --> 05:37.000
-Depois padronizado 2 sem nada aqui, mas com o AD ativado.
+07:28.600 --> 07:30.600
+Então, a gente,
 
-05:37.000 --> 05:42.000
-O AD normal, porque o AD...
+07:30.600 --> 07:32.600
+eu imagino que a gente consegue testar hoje do IA,
 
-05:52.000 --> 05:57.000
-Agora, aquele problema de limites lá, gente?
+07:32.600 --> 07:34.600
+valida, tudo,
 
-05:57.000 --> 06:06.000
-Eu tinha feito uma solução, subi, testei, reverti para que tava, para o BPMN que tava, então assim.
+07:34.600 --> 07:36.600
+só agora tá pendente
 
-06:06.000 --> 06:10.000
-Qual que é o problema? O problema é mais embaixo.
+07:36.600 --> 07:39.600
+quando for subir fluxo,
 
-06:10.000 --> 06:15.000
-O que você achou?
+07:39.600 --> 07:42.600
+que a gente tá vendendo cartão NPC
 
-06:15.000 --> 06:20.000
-Olha isso aqui que eu mostro aqui.
+07:42.600 --> 07:44.600
+junto com o novo produto AD,
 
-06:20.000 --> 06:33.000
-Ah, pera aí, deixa eu jogar isso aqui para cima, que aí eu vou fazendo o fluxo aqui.
+07:44.600 --> 07:46.600
+que a gente tá tomando erro, tá?
 
-06:33.000 --> 06:39.000
-Enquanto vamos explicando aqui o que acontece.
+07:46.600 --> 07:48.600
+O que tá inviabilizando aqui pra falar,
 
-06:39.000 --> 06:47.000
-Esses dois edipoints, um é onde a gente bate, outro é onde o XD2 bate.
+07:48.600 --> 07:50.600
+Rafa, a gente tá subindo.
 
-06:47.000 --> 06:56.000
-E um consome uma base de contingência, ou seja, virtualizável, um mock,
-
-06:56.000 --> 07:02.000
-de um lugar e a disponibilidade consome de outro. Basicamente é isso, entendeu?
-
-07:02.000 --> 07:12.000
-Então assim, em produção, tecnicamente, esses dois endipoints recebem os mesmos valores.
-
-07:12.000 --> 07:19.000
-Mas em homologação, ele também recebe o mesmo valor, só que vai ser massa zerada, sem nada.
-
-07:19.000 --> 07:24.000
-Tá aqui, por exemplo, cliente não elegível, tá aqui, isso aqui é o retorno original.
-
-07:24.000 --> 07:28.000
-E disponibilidade também, cliente não elegível.
-
-07:28.000 --> 07:32.000
-Só que aqui, o valor limite é provado, que é o que o XD2 usa zero.
-
-07:32.000 --> 07:39.000
-E nós recebemos esses valores aqui, para provar do zero e ler zero, ok.
-
-07:39.000 --> 07:42.000
-A contingência aqui, ela funciona.
-
-07:42.000 --> 07:44.000
-Tá vendo, já funciona, a contingência trua.
-
-07:44.000 --> 07:52.000
-Mas ela só funciona quando a todo fluxo que o capulque faz internamente quebra alguma coisa,
-
-07:52.000 --> 07:59.000
-que dá 400 ou 500. Mas se funciona, se começar a funcionar normal,
-
-07:59.000 --> 08:03.000
-ela passa ali a exibir perfeitamente, ó.
-
-08:03.000 --> 08:05.000
-É que aqui, agora ele vai ficar batendo.
-
-08:05.000 --> 08:08.000
-Contingência, contingência, contingência.
-
-08:08.000 --> 08:13.000
-Deixa eu ver disponibilidades.
-
-08:13.000 --> 08:16.000
-Ah, esqueci.
-
-08:16.000 --> 08:21.000
-Colocar isso, o que é o deles lá?
-
-08:21.000 --> 08:31.000
-O deles tá no real, não é uma contingência, não.
-
-08:31.000 --> 08:37.000
-Já que elegeibilidades no nosso aqui, ele sempre vai...
-
-08:37.000 --> 08:42.000
-Inclusive, eu não testei uma coisa, deixa eu fazer uma coisa aqui.
-
-08:42.000 --> 08:47.000
-Colocar o código deles, porque o código da XD2 também tá no real, cadê?
-
-08:47.000 --> 09:00.000
-Ok.
-
-09:00.000 --> 09:05.000
-Ele já dá até Time Out.
-
-09:05.000 --> 09:08.000
-Uhum.
-
-09:08.000 --> 09:10.000
-É isso, entendeu? Isso é o problema.
-
-09:10.000 --> 09:14.000
-O que bate em João não vai bater em Francisco.
-
-09:14.000 --> 09:18.000
-Eu preciso que João e Francisco sejam gêmeos, entendeu?
-
-09:18.000 --> 09:21.000
-Então, é a dor que a gente tá tendo.
-
-09:21.000 --> 09:23.000
-Ah, o que que eu pensei?
-
-09:23.000 --> 09:27.000
-Eu vou ter que configurar a contingência lá, abrir um chamado pra eles lá,
-
-09:27.000 --> 09:31.000
-configurar a contingência tanto nesse job jornada deles.
-
-09:31.000 --> 09:35.000
-Aliás, o nosso, é, o deles é esse.
-
-09:35.000 --> 09:43.000
-E a mãe nunca ia funcionar mesmo, mandando dois job jornada.
-
-09:43.000 --> 09:45.000
-Ó, que é o real, ó.
-
-09:45.000 --> 09:50.000
-Só que esse job jornada...
-
-09:50.000 --> 09:53.000
-Ah, agora eu tô entendendo a maracotaia.
-
-09:53.000 --> 09:56.000
-Então, o problema não é o endpoint.
-
-09:56.000 --> 10:00.000
-Amos elegibilidades e disponibilidades é a mesma coisa.
-
-10:00.000 --> 10:05.000
-O que vai mudar, o que vai mudar a resposta é o job jornada.
-
-10:05.000 --> 10:09.000
-Nem o pessoal da XD2 sabia disso. Toma essa.
-
-10:09.000 --> 10:11.000
-Ah, você mudou o código.
-
-10:11.000 --> 10:14.000
-Eu vou receber respostas diferentes.
-
-10:14.000 --> 10:20.000
-Puxa, Vito.
-
-10:20.000 --> 10:23.000
-Entendeu?
-
-10:23.000 --> 10:28.000
-E aí, pra fazer os dashes com a elegibilidade pra funcionar,
-
-10:28.000 --> 10:31.000
-eu tenho que preparar o terreno para o XD2.
-
-10:31.000 --> 10:34.000
-Olha só, eles não têm que ir a mais.
-
-10:34.000 --> 10:36.000
-Eita.
-
-10:36.000 --> 10:40.000
-Era pra alquear deles, tá fazendo esses corres, mas eu não vou ficar...
-
-10:40.000 --> 10:43.000
-Eu tinha que... Eu quero fazer acontecer aqui na fígita.
-
-10:43.000 --> 10:45.000
-Eu tô me esforçando, mas assim, tenho...
-
-10:45.000 --> 10:47.000
-Eu descobri toda, quase toda...
-
-10:47.000 --> 10:50.000
-Assim, toda, literalmente toda, não.
-
-10:50.000 --> 10:56.000
-Mas eu descobri todo o fluxo da daqui a pouco que faz aqui.
-
-10:56.000 --> 10:59.000
-Pra poder...
-
-10:59.000 --> 11:02.000
-Pra poder entender... Aff, abriu um negócio que sem querer.
-
-11:03.000 --> 11:08.000
-Padronizado 2.
-
-11:11.000 --> 11:14.000
-Aqui, rapizinho.
-
-11:24.000 --> 11:26.000
-Era sem nada, né?
-
-11:28.000 --> 11:30.000
-Ah, ainda era padronizado 2.
-
-11:30.000 --> 11:34.000
-Era padronizado 1 que tava na fila.
-
-11:34.000 --> 11:38.000
-E tem a de tradicional, tá?
-
-11:46.000 --> 11:50.000
-E aí, qual que é o problema de...
-
-11:53.000 --> 11:55.000
-De isso tudo?
-
-11:55.000 --> 11:58.000
-Porque a contingência, ela não tá funcionando, não tá ativada.
-
-11:58.000 --> 12:01.000
-Ela tá em modo misto, entendeu?
-
-12:01.000 --> 12:04.000
-Se responder os endpoints, ele retorna o real.
-
-12:04.000 --> 12:07.000
-Se não responder os endpoints, ele retorna a contingência.
-
-12:07.000 --> 12:11.000
-E aí, por isso que quando a gente inicia o fluxo,
-
-12:11.000 --> 12:14.000
-a gente tem aqueles problemas de contrato.
-
-12:14.000 --> 12:17.000
-Uma hora tá de um jeito, a outra tá de outro.
-
-12:17.000 --> 12:22.000
-Porque uma hora bate na contingência, outra hora bate no real.
-
-12:22.000 --> 12:24.000
-E são três batidas nesses endpoints.
-
-12:24.000 --> 12:29.000
-A primeira linha agência que bate na virtualização.
-
-12:29.000 --> 12:32.000
-E as sequências não batem na virtualização.
-
-12:32.000 --> 12:34.000
-Bate direto lá neles.
-
-12:34.000 --> 12:38.000
-E aí dá erro, aí o BPMN todo se enrola.
-
-12:38.000 --> 12:40.000
-Entendeu? Porque ele...
-
-12:40.000 --> 12:43.000
-Ele acaba se embanando o ano inteiro.
-
-12:43.000 --> 12:45.000
-Porque é isso.
-
-12:45.000 --> 12:48.000
-Esse é o cenário que a gente tá ali pra questão de limites.
-
-12:48.000 --> 12:51.000
-Mas ele tá batendo três vezes.
-
-12:52.000 --> 12:54.000
-Foi?
-
-12:59.000 --> 13:01.000
-Não.
-
-13:01.000 --> 13:03.000
-Que é um exemplo, a contingência...
-
-13:03.000 --> 13:10.000
-Deixa eu pegar uma contingência com o P.A. que eu fiz.
-
-13:10.000 --> 13:15.000
-Deixa eu ver o que a gente tá no T.O.D. e pegar um 300 bytes.
-
-13:15.000 --> 13:18.000
-Aqui, quando tem P.A. ativado na contingência,
-
-13:18.000 --> 13:22.000
-é só isso aqui que ele traz.
-
-13:22.000 --> 13:26.000
-Mas o contrato real espera uma coisa assim.
-
-13:26.000 --> 13:28.000
-Cadê?
-
-13:30.000 --> 13:32.000
-Assim, tá vendo?
-
-13:32.000 --> 13:34.000
-Esse é o real.
-
-13:34.000 --> 13:36.000
-Totalmente real.
-
-13:48.000 --> 13:50.000
-Acho que...
-
-13:50.000 --> 13:53.000
-Mas resiliência é quando a gente não desiste, né?
-
-13:53.000 --> 13:55.000
-Quando a gente sempre insiste.
-
-13:55.000 --> 13:58.000
-A contingência é um fallback, né?
-
-13:58.000 --> 14:00.000
-Então, assim...
-
-14:07.000 --> 14:11.000
-Mas aqui, cada sigla que bate ali tem um retorno específico, entendeu?
-
-14:11.000 --> 14:13.000
-Eles separam por isso aqui, ó.
-
-14:13.000 --> 14:15.000
-Código job tornado.
-
-14:15.000 --> 14:17.000
-Cadão.
-
-14:18.000 --> 14:25.000
-Não, a gente tem um jeito específico de mapear ali algumas coisas.
-
-14:25.000 --> 14:29.000
-Só que o problema é que a gente tá se falando de múltiplo também, entendeu?
-
-14:29.000 --> 14:31.000
-Então, é...
-
-14:31.000 --> 14:33.000
-Não é só...
-
-14:33.000 --> 14:37.000
-Só consumir e, por mais que tenha contingência ou não.
-
-14:37.000 --> 14:40.000
-Porque nós também temos uma contingência própria.
-
-14:40.000 --> 14:43.000
-Uma vez que não tem os retornos certo daqui,
-
-14:43.000 --> 14:45.000
-ele vai pegar lá no R0.
-
-14:45.000 --> 14:47.000
-Só que o R0 também não funciona.
-
-14:47.000 --> 14:49.000
-E ele também quebra.
-
-14:49.000 --> 14:51.000
-E aí é onde que a gente tá nesse cenário, entendeu?
-
-14:51.000 --> 14:53.000
-Nenhum lugar tá dando.
-
-14:53.000 --> 14:55.000
-E ele quebra.
-
-14:55.000 --> 14:57.000
-Só que assim, limites vai ser...
-
-14:57.000 --> 15:01.000
-Vamos colocar um pouco mais pra frente ali.
-
-15:01.000 --> 15:05.000
-E vamos garantir pelo menos essa parte aqui do...
-
-15:05.000 --> 15:07.000
-De que nada mais tá quebrando.
-
-15:07.000 --> 15:09.000
-Já mapeei as coisas que não estão funcionando.
-
-15:09.000 --> 15:11.000
-Agora preciso achar se tem mais alguma outra coisa.
-
-15:11.000 --> 15:13.000
-Oi.
-
-15:13.000 --> 15:17.000
-Você falou que bate três vezes lá na Puque?
-
-15:17.000 --> 15:19.000
-Sim.
-
-15:19.000 --> 15:21.000
-Eu escutei errado.
-
-15:21.000 --> 15:23.000
-Bate três vezes.
-
-15:23.000 --> 15:25.000
-Qual é a som, sabe dizer?
-
-15:25.000 --> 15:29.000
-Duas elegibilidades e uma efetivação.
-
-15:29.000 --> 15:31.000
-Ah, então.
-
-15:37.000 --> 15:39.000
-É, gente.
-
-15:39.000 --> 15:41.000
-É complicated.
-
-15:41.000 --> 15:43.000
-Já dizer I will love you.
-
-15:43.000 --> 15:45.000
-Aqui, deixa eu ver.
-
-15:45.000 --> 15:47.000
-Gestão conteúdo.
-
-15:47.000 --> 15:51.000
-Agora que eu tenho acesso a várias siglas.
-
-15:51.000 --> 15:53.000
-Que legal, gente.
-
-15:53.000 --> 15:55.000
-Olha só que legal.
-
-15:55.000 --> 15:57.000
-Era isso que eu queria fazer.
-
-15:57.000 --> 15:59.000
-Cadê?
-
-15:59.000 --> 16:01.000
-Ai.
-
-16:01.000 --> 16:03.000
-Efetivação.
-
-16:05.000 --> 16:07.000
-Eu só pego a correleição de...
-
-16:07.000 --> 16:09.000
-Joga aqui.
-
-16:09.000 --> 16:11.000
-Sem definir sigla nenhuma.
-
-16:11.000 --> 16:13.000
-Cadê?
-
-16:19.000 --> 16:21.000
-Ele me dá aqui resposta.
-
-16:21.000 --> 16:23.000
-Ele mostra os logs de I4, do C8,
-
-16:23.000 --> 16:25.000
-Nc2.
-
-16:25.000 --> 16:27.000
-E agora a Q5 também.
-
-16:27.000 --> 16:29.000
-Tá aqui pra baixo.
-
-16:29.000 --> 16:31.000
-Tá vendo o C8?
-
-16:31.000 --> 16:33.000
-A Q5.
-
-16:33.000 --> 16:35.000
-E depois ele me traz também do CC.
-
-16:35.000 --> 16:37.000
-Agora ele me traz...
-
-16:39.000 --> 16:43.000
-Sim, mas é porque eu tenho acesso a essas siglas aqui.
-
-16:47.000 --> 16:49.000
-Todas essas siglas aqui.
-
-16:51.000 --> 16:53.000
-Falta pedir mais.
-
-16:53.000 --> 16:55.000
-Falta pedir do B0, do GQ.
-
-16:57.000 --> 16:59.000
-É mais a mais difícil de conseguir.
-
-16:59.000 --> 17:01.000
-Era essas duas aqui que eu consegui.
-
-17:01.000 --> 17:03.000
-E até a de produção.
-
-17:04.000 --> 17:07.000
-Pede lá no meu acessos.
-
-17:07.000 --> 17:10.000
-E se humilha para os gestores e os gerentes da dona da sigla.
-
-17:10.000 --> 17:13.000
-E dá uma boa desculpa para o auxílio para você ter esse acesso.
-
-17:13.000 --> 17:15.000
-Porque eles não liberam.
-
-17:15.000 --> 17:19.000
-Tanto que só eu e o Leo.
-
-17:19.000 --> 17:21.000
-Que conseguiu esses acessos.
-
-17:21.000 --> 17:23.000
-Eu pedi para todo mundo.
-
-17:23.000 --> 17:25.000
-Mas só aprovou só para mim e para o Leo.
-
-17:27.000 --> 17:29.000
-Cadê?
-
-17:29.000 --> 17:31.000
-Eu acho que eu vou tentar também.
-
-17:31.000 --> 17:33.000
-Você me passa aí que eu consigo.
-
-17:39.000 --> 17:41.000
-Dá uma olhada lá.
-
-17:41.000 --> 17:43.000
-Dá uma olhada nos acessos.
-
-17:43.000 --> 17:47.000
-E vê se está impendente alguma coisa lá nas suas solicitações.
-
-17:47.000 --> 17:49.000
-Aí você olha os nomes dos gestores.
-
-17:49.000 --> 17:51.000
-Vai ali.
-
-17:51.000 --> 17:53.000
-Chamando um por um ali.
-
-17:55.000 --> 17:57.000
-Ah, entendi.
-
-17:57.000 --> 17:59.000
-Não sabia disso não.
-
-17:59.000 --> 18:01.000
-Só para o minhas.
-
-18:01.000 --> 18:03.000
-watts.
-
-18:03.000 --> 18:05.000
-Gerou PAC.
-
-18:05.000 --> 18:07.000
-Ok.
-
-18:13.000 --> 18:15.000
-Precisa ajustar PAC também.
-
-18:15.000 --> 18:17.000
-Mas eu vou esperar o Pedrinho resolver.
-
-18:17.000 --> 18:19.000
-Por que falta lá.
-
-18:19.000 --> 18:21.000
-Qualquer as coisas que vai ajustar.
-
-18:21.000 --> 18:23.000
-Porque vai ter que fazer uma rebound baco a bavadeira.
-
-18:23.000 --> 18:25.000
-Para poder mexer nessa PAC.
-
-18:25.000 --> 18:27.000
-Cadê aqui?
-
-18:27.000 --> 18:32.000
-aqui o id, id, id, id, exposta.
-
-18:44.000 --> 18:46.000
-Com o id,
-
-18:50.000 --> 18:52.000
-padronizado um,
-
-19:27.000 --> 19:32.000
-que saudade que eu estava desse insômeno assim.
-
-19:58.000 --> 20:03.000
-Aí, ó, eu vou jogar uma doc aqui pra vocês, se vocês tiver...
-
-20:03.000 --> 20:08.000
-Ah, eu acho que não, que contingência.
-
-20:23.000 --> 20:28.000
-Pra vocês ficarem na mesma página aí, do como que é feito,
-
-20:28.000 --> 20:32.000
-o que que é feito, o que que é... Essa é a documentação da PUC, tá?
-
-20:32.000 --> 20:35.000
-Não é mais atualizada, essa é a 2.0, mas tem a 3,
-
-20:35.000 --> 20:37.000
-só que eles estão preparando ainda a 3.
-
-20:37.000 --> 20:42.000
-Mas aí tem também, cadê esse...
-
-20:45.000 --> 20:52.000
-Essa é a primeira documentação. Aqui vocês conseguem ter uma noção
-
-20:52.000 --> 20:58.000
-da arquitetura de como é imposta aqui na RIC, tá vendo?
-
-20:58.000 --> 21:05.000
-Eu não sei se vocês gostam de ver essas coisas, sim, eu adoro,
-
-21:05.000 --> 21:10.000
-mas enfim, e como que é tudo feito em gestão aqui de pré-aprovado,
-
-21:10.000 --> 21:18.000
-e não só de pré-aprovado, para cartão,
-
-21:18.000 --> 21:22.000
-mas também para essas outras siglas aqui, por exemplo, R0, que é LIs,
-
-21:22.000 --> 21:30.000
-HW, que é o CERPROB, IRU, o BX, o DKI, enfim,
-
-21:30.000 --> 21:34.000
-tem as outras siglas aqui, além delas também, o FCC,
-
-21:34.000 --> 21:43.000
-para poder mostrar que os NPC...
-
-21:43.000 --> 21:47.000
-Não precisa saber isso de cabeça, gente, mas é só para entender
-
-21:47.000 --> 21:53.000
-e facilitar o ponto que a gente está aqui, quando a gente pensa nesses fluxos.
-
-21:53.000 --> 21:59.000
-Isso me ajudou muito a entender aqui, peguei a massa aqui, peguei.
-
-22:17.000 --> 22:46.000
-Eu acho tão over-engineering essa arquitetura de...
-
-22:47.000 --> 22:55.000
-de bater em configuração, em bater em configuração, isso aqui é aqui.
-
-22:55.000 --> 23:10.000
-A gente já não é ppk.
-
-23:10.000 --> 23:23.000
-Acho que esse erro aqui eu consigo corrigir aqui rapidinho.
-
-23:23.000 --> 23:31.000
-Estou de chaves da onde filtrar, obliquem todas.
-
-23:31.000 --> 23:35.000
-Lembrar um pouco, mas quando isso eu vou fazendo aqui outro fluxo.
-
-24:01.000 --> 24:19.000
-Omi, eu esqueci de entender como é que você vai forçar que a gente bata na contingência
-
-24:19.000 --> 24:23.000
-e vai bater direto a eles.
-
-24:23.000 --> 24:29.000
-Aqui na documentação deles, ó...
-
-24:29.000 --> 24:46.000
-Aqui ele tem um chamado que a gente abre ali, na Rtm.
-
-24:46.000 --> 24:55.000
-Só que para poder abrir esse chamado tem que ter bastante assertividade de como que vai ser o contrato que a gente vai esperar.
-
-24:56.000 --> 25:14.000
-E aí a gente vai ter que pegar o código do job, é esse valor aqui.
-
-25:14.000 --> 25:18.000
-Esse aqui é o nosso, esse aqui é o do xd2.
-
-25:18.000 --> 25:22.000
-Tem que fazer nos dois o retorno da gente e o retorno deles.
-
-25:22.000 --> 25:28.000
-Eu vou ter que olhar a documentação deles e falar com o Grilo lá para saber qual que é o parâmetro de contrato que eles esperam lá.
-
-25:28.000 --> 25:35.000
-Depois, e lá na base de contingência, que é essa daqui, que é onde eu já bato aqui nas minhas...
-
-25:35.000 --> 25:46.000
-que eu já tenho um script já para poder bater em todas as tabelas ali do txt, do crédito, o limite.
-
-25:46.000 --> 25:50.000
-São isso aqui, são vários lugares de vários tipos de créditos do banco.
-
-25:50.000 --> 25:53.000
-Então, eu já fiz um compilado aqui que bate em tudo.
-
-25:53.000 --> 26:02.000
-Eu não tenho acesso a essa tabela, ou essa base muito menos essa tabela, mas eu sei que o gerador de massa aqui, ele tem acesso.
-
-26:02.000 --> 26:08.000
-E através desse ediponte aqui, eu consigo bater em todo, editar todas as tabelas que ele tem acesso.
-
-26:08.000 --> 26:11.000
-Eu sei que é uma vulnerabilidade, mas isso funciona em uma moda.
-
-26:11.000 --> 26:14.000
-Enfim, e aí eu edito a tabela por aqui, entendeu?
-
-26:14.000 --> 26:24.000
-Eu faço um insert aqui dos valores aqui de ir pré-aprovado aqui de um jeito meio controverso.
-
-26:24.000 --> 26:26.000
-Mas enfim, pelo menos funciona.
-
-26:36.000 --> 26:38.000
-Peguei aqui a parte aqui da documentação.
-
-26:39.000 --> 26:40.000
-Não é difícil.
-
-26:47.000 --> 26:50.000
-Será que essa peixe já voltou a funcionar, nem sei.
-
-26:50.000 --> 26:52.000
-Está mocado aqui para mim.
-
-27:08.000 --> 27:18.000
-Voltou, não preciso nem manter mais esse moque.
-
-27:18.000 --> 27:20.000
-Padronizado um, né?
-
-27:20.000 --> 27:22.000
-Deixa eu ver aqui, padronizado um.
-
-27:26.000 --> 27:28.000
-Ai, a noia aqui.
-
-27:28.000 --> 27:30.000
-Susto, achei que tinha passado até.
-
-31:09.000 --> 31:14.200
-Aí o Ji
-
-31:32.000 --> 31:34.000
-Do 0.
-
-31:34.000 --> 31:35.000
-Abrindo o sangue.
-
-33:35.000 --> 33:51.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui,
-
-33:51.000 --> 34:01.000
-o que você deseja, o que você deseja.
-
-34:21.000 --> 34:31.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-34:51.000 --> 35:11.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui, o que você deseja.
-
-35:11.000 --> 35:31.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui, o que você deseja.
-
-35:31.000 --> 35:55.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-35:55.000 --> 36:05.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-36:05.000 --> 36:25.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-36:25.000 --> 36:45.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-36:45.000 --> 37:05.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-37:05.000 --> 37:25.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-37:25.000 --> 37:45.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-37:45.000 --> 38:05.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-38:05.000 --> 38:25.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-38:25.000 --> 38:47.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-38:47.000 --> 39:15.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-39:15.000 --> 39:35.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-39:35.000 --> 39:55.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-39:55.000 --> 40:05.000
-Não entendi porquê que essa chave tá dando isso, tá dando 400 aqui.
-
-40:05.000 --> 40:15.000
-Tchau.
-
-40:35.000 --> 40:45.000
-Tchau.
-
-41:05.000 --> 41:15.000
-Tchau.
-
-41:35.000 --> 41:45.000
-Tchau.
-
-41:45.000 --> 41:57.000
-O Bruno.
-
-41:57.000 --> 42:11.000
-Ah tá, com o Diego Ancho.
-
-42:11.000 --> 42:17.000
-Cara, eu acho que ele que ia puxar a conversa viu.
-
-42:41.000 --> 43:07.000
-Qual log, o que exatamente, tá sem log?
-
-43:07.000 --> 43:17.000
-Não, external test.
-
-43:17.000 --> 43:21.000
-Mas todos, mas tem log de tudo ali na verdade.
-
-43:21.000 --> 43:24.000
-Você só tem que saber do no Datadog?
-
-43:24.000 --> 43:28.000
-Sim, você só tem que saber como pesquisar.
-
-43:28.000 --> 43:35.000
-Mas ali dá pra você colocar, pra extrair tudo que nem eu faço, eu só coloco só o Correlation ID.
-
-43:35.000 --> 43:45.000
-Vou iniciar a abertura de todas as siglas que eu bater, todo lugar, quer dizer, falta mais siglas, né, mas que nem lá, ele vai começar a mostrar ali.
-
-43:45.000 --> 43:54.000
-Se eu não me engano, o início que inicia o primeiro Correlation ID é o inicio 2 com o configurador, eu acredito que é isso.
-
-43:54.000 --> 44:04.000
-Mas eu vou olhar aqui agora só pra ter certeza, vou chamar aqui o completar, deixa eu ver se é o mesmo Correlation.
-
-44:04.000 --> 44:11.000
-É o mesmo Correlation, 30 BR, e aqui já vai começar a aparecer os logs de tudo que bateu ali.
-
-44:11.000 --> 44:22.000
-Olha, já começou, BFFin, FNC2, aí eu vou prosseguindo aqui, será?
-
-44:23.000 --> 44:31.000
-Tudo, olha, FNC2, que ele já bateu, ó, no Core.
-
-44:36.000 --> 44:48.000
-Olha, ele já tá batendo em vários, internamente, tudo que o C8 tá fazendo e os BFF da nossa sigla tá fazendo, ele tá aqui, ó, em tempo real pegando tudo, todos os logs.
-
-44:53.000 --> 45:03.000
-Agora, se você colocar a filtra que arroba, ID, underlying jornada, tá, aí ele vai buscar só logs que falam disso.
-
-45:03.000 --> 45:12.000
-E muitas external tasks ali não fica com essa informação ali.
-
-45:22.000 --> 45:48.000
-Você tá testando com as casas agora?
-
-45:48.000 --> 45:58.000
-Eu tô testando todos, nenhuma, e alternando alguns pacotes, agora eu tô no D4 aqui pra...
-
-45:58.000 --> 46:08.000
-Lissin, combina aqui, pera aí, que eu me perdi, combina aqui não, AD não, mas Lissin.
-
-46:08.000 --> 46:32.000
-Então, ID4, ID4, acho que é padronizado 4, é, padronizado 4, padronizado 4, com Liss.
-
-46:32.000 --> 46:37.000
-Mas eu tô vendo uma coisa estranha aqui, que será que esse direcionador tá fazendo, hein?
-
-46:37.000 --> 46:46.000
-Por que que não tá aparecendo aqui, ou... ou seguro transação?
-
-46:46.000 --> 46:53.000
-ID, acho que eles estão fazendo.
-
-46:53.000 --> 47:10.000
-Pilot NPC, segmento 3.
-
-47:10.000 --> 47:16.000
-Ah, meu Deus, vai falar que é bug. Ah, eu vou ficar muito triste se esse foi um bug.
-
-47:16.000 --> 47:24.000
-ID, pacote tarifa cartão, pacote tarifa conta, combina aqui.
-
-47:24.000 --> 47:31.000
-Ai, que ódio. Não tá, isso não tá acontecendo, pera aí, deixa eu pensar direitinho.
-
-47:31.000 --> 47:34.000
-Eu acho que eu tô fazendo alguma coisa errada, tenho que estar fazendo alguma coisa errada.
-
-47:34.000 --> 47:40.000
-Não é possível que eu não... olha.
-
-47:40.000 --> 47:44.000
-Tente assim, tenta ser um subfluxo, eu acho que ele traz isso.
-
-47:44.000 --> 47:52.000
-Tirar isso daqui, e vou chamar novamente.
-
-47:52.000 --> 48:02.000
-Cartão, limite conta, AD veio, pacote tarifa cartão, combina aqui veio, cartão múltiplo veio.
-
-48:02.000 --> 48:06.000
-Pera aí, vamos fazer... vamos fazer mais... de novo, pera aí.
-
-48:06.000 --> 48:12.000
-Primeiro preciso salvar essa CPF aqui, pegar esses dados aqui.
-
-48:12.000 --> 48:25.000
-Aqui, apareijo, beleza.
-
-48:25.000 --> 48:44.000
-Pirou, renda, escote, direcionador, ok. Eu queria um cadastro temporal.
-
-48:44.000 --> 48:54.000
-Só o meu cadastro vai.
-
-48:54.000 --> 49:04.000
-Oh, que inferno meu.
-
-49:24.000 --> 49:34.000
-Oh, que inferno meu.
-
-49:34.000 --> 50:02.000
-Oh, que inferno meu.
-
-50:02.000 --> 50:11.000
-Vou mandar o sino pra ele, vou botar aqui uma.
-
-50:11.000 --> 50:29.000
-E travo em sono.
-
-50:29.000 --> 50:39.000
-Pera aí, pera aí, pera aí.
-
-50:59.000 --> 51:09.000
-Pera aí, pera aí.
-
-51:09.000 --> 51:38.000
-Pera aí, pera aí.
-
-51:38.000 --> 51:41.000
-Entendi.
-
-51:41.000 --> 51:46.000
-É bug deles, não é nosso não, mas não vai impactar não.
-
-51:46.000 --> 51:52.000
-Mas, falar aqui pra ele.
-
-51:52.000 --> 51:56.000
-É pilota, NPC, AD, beleza.
-
-51:56.000 --> 52:06.000
-Acredito que ele retornou em algum caso aí.
-
-52:26.000 --> 52:54.000
-Pera aí, pera aí.
-
-52:54.000 --> 53:08.000
-Nossa, é tão bugado que até nesse Mac trava, cara.
-
-53:08.000 --> 53:16.000
-É muita coisa pra ser processada nesse retorno aqui de produtos, misericórdia, acho que é muita coisa, não deveria existir.
-
-53:16.000 --> 53:24.000
-Eu não sei, gente, aí não sei se vocês estudaram aí, na faculdade, porque eu não cheguei a fazer faculdades babadeiras de tecnologia.
-
-53:24.000 --> 53:31.000
-Mas eu não sei se isso ensina sobre a arquitetura e de desenho, modelagem de dados, né?
-
-53:31.000 --> 53:45.000
-É que um tem um responso gigantesco desse, não é muito assim, uma boa prática assim não.
-
-53:45.000 --> 53:57.000
-É, pelos jogos ali do datadog, eu vi uma vez que essa chamada do NPC aumenta aí uns quatro segundos ali, mais ou menos, na resposta do direcionador.
-
-53:57.000 --> 54:12.000
-Só do NPC, mas provavelmente eles devem fazer uma chamada por dentro também.
-
-54:13.000 --> 54:24.000
-É pior que, nossa, eu odeio a filosofia do que o óbvio sempre tem que ser dito, mas não, não vou dizer o óbvio não.
-
-54:24.000 --> 54:30.000
-Ele, eu sei que ele vai me responder o que eu deveria ter dito, mas era uma informação óbvia.
-
-54:30.000 --> 54:32.000
-Deixa ali, vamos ver o que ele faz.
-
-54:32.000 --> 54:36.000
-Nossa, mas deixa eu fechar algumas coisas, tá muito lenta aqui, misericórdia.
-
-54:36.000 --> 54:39.000
-Vamos fechar isso.
-
-54:43.000 --> 54:45.000
-Vou iniciar isso.
-
-54:51.000 --> 55:05.000
-O Mi, eu, eu me chamaram numa outra aqui, eu sei rapidinho, é, tem um, tá travado, tá travada em alguma coisa aí, a gente tá, tá com trava aqui, que deu pra ajudar aí, o Mi, agora?
-
-55:05.000 --> 55:10.000
-Ah, mandei mensagem lá pro Vitor lá, do direcionador lá.
-
-55:10.000 --> 55:13.000
-Ah, você mandou direto pra ele, né?
-
-55:13.000 --> 55:14.000
-Oi?
-
-55:14.000 --> 55:17.000
-Você mandou direto, direto pra ele.
-
-55:17.000 --> 55:20.000
-É, se ele não responde, vou marcar ele em algum chat com o gestão.
-
-55:20.000 --> 55:21.000
+07:50.600 --> 07:53.600
 Beleza.
 
-55:21.000 --> 55:24.000
-Ainda deu a chance, é sério.
+07:53.600 --> 07:56.600
+É, porque, de resto,
 
-55:24.000 --> 55:26.000
-Você é boazinha, viu?
+07:56.600 --> 07:59.600
+o time de débito automático não precisa subir nada,
 
-55:26.000 --> 55:35.000
-Você tá sendo boazinha, porque normalmente só resolve quando a gente marca, né?
+07:59.600 --> 08:02.600
+o João já subiu as peças dele,
 
-55:35.000 --> 55:41.000
-Imagina com mais pessoas, daí a outra pessoa fica, se sente na obrigação de responder, se não.
+08:02.600 --> 08:05.600
+quem precisa subir,
 
-55:41.000 --> 55:46.000
-Ah, mas é, tem, eu não sei qual é, das pessoas aqui nesse banco, sabe?
+08:05.600 --> 08:07.600
+somos nós,
 
-55:46.000 --> 55:50.000
-Que se você vai responder, vão te marcar e vão fazer você passar vergonha.
+08:07.600 --> 08:09.600
+a Patti,
 
-55:50.000 --> 55:51.000
-Pois é.
+08:09.600 --> 08:12.600
+o Albert já subiu,
 
-55:51.000 --> 55:53.000
-Se elas gostam de passar vergonha.
+08:12.600 --> 08:14.600
+eu preciso confirmar com o Casão,
 
-55:53.000 --> 55:55.000
-Eu estou falando que você tá sendo boazinha ainda.
+08:14.600 --> 08:16.600
+ele já subiu,
 
-55:55.000 --> 56:01.000
-Eu só me dá uma rouba, já vou ali rapidamente no chat, já respondo, porque eu sei como que, como pega mal.
+08:16.600 --> 08:18.600
+e o time do direcionador,
 
-56:01.000 --> 56:03.000
-Pega muito mal.
+08:18.600 --> 08:20.600
+eu entendo que ele já subiu,
 
-56:03.000 --> 56:08.000
-Pessoas não vão chegar em você e falar sobre isso, mas por trás das pessoas falam assim.
+08:20.600 --> 08:22.600
+mas eu preciso, como se fizeram alguns ajustes
 
-56:08.000 --> 56:10.000
-Falam muito sim.
+08:22.600 --> 08:24.600
+em uma algação aqui pra gente,
 
-56:10.000 --> 56:13.000
-Deixa eu ver isso.
+08:24.600 --> 08:26.600
+eu entendo que eles precisam subir de novo
 
-56:13.000 --> 56:21.000
-Ainda bem que nesse cenário aqui ele nem colocou, a IA nem colocou seguro transação.
+08:26.600 --> 08:28.600
+em produção, tá?
 
-56:21.000 --> 56:26.000
-Porque senão terá lascada, terá atravada, mas vamos fazer isso sem seguro mesmo.
+08:28.600 --> 08:30.600
+Mas eu confirmo aqui pra você.
 
-56:26.000 --> 56:29.000
-D4 vai ser só lisa então.
+08:30.600 --> 08:33.600
+O Michel, o Michel tem ajudado a casar essas datas?
 
-56:29.000 --> 56:30.000
-Beleza.
+08:33.600 --> 08:35.600
+Porque são muitas, muitas coisas, né?
 
-56:31.000 --> 56:33.000
-Desabilita aqui o AD.
+08:35.600 --> 08:37.600
+É o direcionador,
 
-56:34.000 --> 56:36.000
-Ok, prossegue.
+08:37.600 --> 08:39.600
+não é o pessoal lado da Patti, é a gente.
 
-56:42.000 --> 56:44.000
-Ah, pera aí.
+08:39.600 --> 08:41.600
+Ah, tá bom.
 
-56:46.000 --> 56:49.000
-Ainda não implementou aqui, né?
+08:41.600 --> 08:43.600
+Se seguir e quebrar a cabeça aí,
 
-56:49.000 --> 56:51.000
-Coloca ALMES.
+08:43.600 --> 08:45.600
+tá sendo montado de forma correta, né?
 
-56:51.000 --> 56:54.000
-Ai gente, desculpa aqui no off.
+08:45.600 --> 08:47.600
+Hoje eu vou conversar com ele,
 
-56:54.000 --> 56:59.000
-Eu não sei por que com a diferença do barra pro AL aqui.
+08:47.600 --> 08:51.600
+porque como a gente evolui de maneira positiva,
 
-57:00.000 --> 57:02.000
-Ah, onde? Cadê?
+08:51.600 --> 08:54.600
+eu entendo que a gente já pode fazer
 
-57:02.000 --> 57:04.000
-Aqui.
+08:54.600 --> 08:58.600
+o call de testes integrados
 
-57:04.000 --> 57:06.000
-Barra pro AL.
+08:58.600 --> 09:01.600
+aqui com o acompanhamento de todo mundo,
 
-57:08.000 --> 57:09.000
-Tá vendo?
+09:01.600 --> 09:03.600
+amanhã, né?
 
-57:09.000 --> 57:11.000
-Gente do céu.
+09:03.600 --> 09:05.600
+Que a gente vai até o próximo EU,
 
-57:11.000 --> 57:13.000
-Tem uma barrinha aqui.
+09:05.600 --> 09:08.600
+então a gente já manda todos os logs,
 
-57:13.000 --> 57:16.000
-Aí pediu pra tirar essa barra e colocar ALMES.
+09:08.600 --> 09:10.600
+os times já estão olhando, tá?
 
-57:16.000 --> 57:18.000
-Só que...
+09:10.600 --> 09:12.600
+Mas só que eu tô chamando
 
-57:18.000 --> 57:19.000
-Ah, tá, é.
+09:12.600 --> 09:14.600
+um por um,
 
-57:19.000 --> 57:23.000
-Só que aí o que acontece? Aí ninguém entende...
+09:14.600 --> 09:16.600
+a Milena encontra um erro aí,
 
-57:23.000 --> 57:25.000
-Ai.
+09:16.600 --> 09:18.600
+eu vou acionando,
 
-57:26.000 --> 57:29.000
-Será que não é acessibilidade?
+09:18.600 --> 09:20.600
+mas amanhã a gente faz uma geral,
 
-57:29.000 --> 57:32.000
-Será que não é acessibilidade?
+09:20.600 --> 09:22.600
+e a partir disso a gente
 
-57:32.000 --> 57:35.000
-Às vezes algum programa que lê tela.
+09:22.600 --> 09:24.600
+define aqui todas as subidas
 
-57:35.000 --> 57:37.000
-Será que é...
+09:24.600 --> 09:26.600
+dos times, tá? Eu vou pedir essa ajuda do Michel.
 
-57:37.000 --> 57:39.000
-Não faz sentido, né?
+09:28.600 --> 09:30.600
+Vou falar com ele hoje, inclusive.
 
-57:39.000 --> 57:41.000
-Não faz sentido.
+09:34.600 --> 09:36.600
+Pode seguir em mim.
 
-57:41.000 --> 57:43.000
-Não faz sentido.
+09:38.600 --> 09:40.600
+Bom dia.
 
-57:43.000 --> 57:45.000
-Ok, fala aí.
+09:40.600 --> 09:42.600
+Perdão, gente, pela trajetiva nos problemas técnicos,
 
-57:45.000 --> 57:50.000
-Porque nas documentações de acessibilidades mais modernas, tipo do WCA-CAD lá,
+09:42.600 --> 09:44.600
+mas enfim, acredito que já passou
 
-57:50.000 --> 57:53.000
-fala, eles já são preparados pra lidar com esse tipo de informação,
+09:44.600 --> 09:46.600
+aqui a minha vez.
 
-57:53.000 --> 57:55.000
-que é uma configuração que já...
+09:46.600 --> 09:48.600
+Eu vou falar bem rapidinho,
 
-57:55.000 --> 57:57.000
-Já é tipo assim...
+09:48.600 --> 09:50.600
+acho que já foi dito aqui,
 
-57:57.000 --> 57:58.000
-É que padrão, né?
+09:50.600 --> 09:52.600
+o status que já tá, né?
 
-57:58.000 --> 57:59.000
-Já é um padrão de...
+09:52.600 --> 09:54.600
+Mas basicamente a gente conseguiu
 
-57:59.000 --> 58:00.000
-Antes de existir acessibilidade.
+09:54.600 --> 09:56.600
+realmente avançar os testes,
 
-58:00.000 --> 58:01.000
-Barra.
+09:56.600 --> 09:58.600
+o pessoal dos tímedos fizeram ajustes
 
-58:01.000 --> 58:02.000
-Entendi.
+09:58.600 --> 10:00.600
+do lado deles também,
 
-58:02.000 --> 58:03.000
-Entendi.
+10:00.600 --> 10:02.600
+conseguimos avançar,
 
-58:03.000 --> 58:04.000
-É.
+10:02.600 --> 10:04.600
+ver aquela questão do proxy no BPMN,
 
-58:04.000 --> 58:07.000
-Já não é uma coisa inventada agora.
+10:04.600 --> 10:06.600
+vou validar agora.
 
-58:07.000 --> 58:11.000
-Vou ser uma coisa inventada agora e concordaria, mas não, mãe.
+10:06.600 --> 10:08.600
+O Fabio fez algumas correções
 
-58:11.000 --> 58:14.000
-É, tem coisa que...
+10:08.600 --> 10:10.600
+ali no,
 
-58:14.000 --> 58:17.000
-Aí tem que fazer uma alteração, não.
+10:10.600 --> 10:12.600
+até uma sete
 
-58:17.000 --> 58:19.000
-Tem que fazer uma inclusão de uma lógica,
+10:12.600 --> 10:14.600
+e pouquinho, né?
 
-58:19.000 --> 58:22.000
-mas isso é no que a gente tá definindo uma regra.
+10:14.600 --> 10:16.600
+Só que os amigos começaram a desligar,
 
-58:22.000 --> 58:24.000
-Olha, sino...
+10:16.600 --> 10:18.600
+eu não consegui validar o restante, né?
 
-58:24.000 --> 58:26.000
-No BFF produtos.
+10:18.600 --> 10:20.600
+O pessoal do direcionador
 
-58:26.000 --> 58:28.000
-Vim, é isso.
+10:20.600 --> 10:22.600
+eles conseguiram também ajustar,
 
-58:28.000 --> 58:30.000
-Aí você faz isso.
+10:22.600 --> 10:24.600
+que são os do seguro cartão protegido ali,
 
-58:30.000 --> 58:32.000
-Olha só.
+10:24.600 --> 10:26.600
+do lado deles ali, para os fluxos
 
-58:32.000 --> 58:34.000
-E no final não deveria existir isso, tá?
+10:26.600 --> 10:28.600
+do NPC no geral.
 
-58:34.000 --> 58:36.000
-Essa tipo de regra se...
+10:28.600 --> 10:30.600
+A gente conseguiu validar isso ontem também.
 
-58:36.000 --> 58:39.000
-No máximo ali, num BFF.
+10:30.600 --> 10:32.600
+Só o ponto mesmo do piloto AD
 
-58:39.000 --> 58:41.000
-É pra isso que o BFF existe.
+10:32.600 --> 10:34.600
+que não
 
-58:41.000 --> 58:42.000
-Entendeu?
+10:34.600 --> 10:36.600
+conseguiu. Acredito que pode ser
 
-58:42.000 --> 58:43.000
-Mas...
+10:36.600 --> 10:38.600
+alguma coisa entre eles e o produto.
 
-58:43.000 --> 58:45.000
-E vai só com a lógica, só com a lógica.
+10:38.600 --> 10:40.600
+O Mario
 
-58:45.000 --> 58:48.000
-Eita, fronte que gosta de ter lógicas e lógicas.
+10:40.600 --> 10:42.600
+falou que talvez seja a máquina
 
-58:48.000 --> 58:51.000
-Tá tão carregado que aí você abre aqui, ó.
+10:42.600 --> 10:44.600
+lá que tá desligada, vou validar isso com eles
 
-58:51.000 --> 58:52.000
-Dá um...
+10:44.600 --> 10:46.600
+hoje também.
 
-58:52.000 --> 58:53.000
-Dá um...
+10:46.600 --> 10:48.600
+E avançar aqui também
 
-58:53.000 --> 58:55.000
-Deixa eu só passar essa parte da senha aqui, rapidinho.
+10:48.600 --> 10:50.600
+o cenário de proxy. Aí Pedrinho,
 
-58:55.000 --> 58:57.000
-Mostra aqui.
+10:50.600 --> 10:52.600
+eu ia ver contigo depois
 
-58:57.000 --> 59:02.000
-Gente, abre o Google aí, o YouTube aí de vocês aí, no navegador.
+10:52.600 --> 10:54.600
+a possibilidade de a gente testar com o uniclass,
 
-59:02.000 --> 59:04.000
-Aí vocês dão F12.
+10:54.600 --> 10:56.600
+porque o uniclass a gente não tem proxy,
 
-59:04.000 --> 59:06.000
-Aí vocês vêm aqui, ó.
+10:56.600 --> 10:58.600
+no caso agora, né?
 
-59:06.000 --> 59:08.000
-Em fontes.
+10:58.600 --> 11:00.600
+Só temos ali do varejo.
 
-59:08.000 --> 59:10.000
-Fontes no aplicativos.
+11:00.600 --> 11:02.600
+Aí seria interessante também a gente ter
 
-59:10.000 --> 59:11.000
-E vocês, olha isso aqui.
+11:02.600 --> 11:04.600
+tudo bem para poder prosseguir ali com o uniclass,
 
-59:11.000 --> 59:15.000
-Olha o tanto de coisa que fica aqui no da Fidgitão.
+11:04.600 --> 11:06.600
+que eu não fiz nenhum teste de proxy
 
-59:15.000 --> 59:17.000
-E aí, problema...
+11:06.600 --> 11:08.600
+de uniclass ainda.
 
-59:17.000 --> 59:19.000
-Tá pouco, tudo bem, tá pouco, concordo.
+11:08.600 --> 11:10.600
+Só que hoje a gente não vai ter
 
-59:19.000 --> 59:21.000
-Mas é você clica em um, ó.
+11:10.600 --> 11:12.600
+mesmo, porque hoje que eles
 
-59:21.000 --> 59:23.000
-Clica em outro, ó.
+11:12.600 --> 11:14.600
+girarem, só vai ter amanhã, tá?
 
-59:23.000 --> 59:27.000
-E vai, e vai socando, vai socando, vai socando.
+11:14.600 --> 11:16.600
+Não, tudo bem, perfeito.
 
-59:27.000 --> 59:29.000
-E vai, e vai, e vai.
+11:16.600 --> 11:18.600
+Então a gente prossegue então
 
-59:29.000 --> 59:32.000
-E aí, que é isso, né?
+11:18.600 --> 11:20.600
+com todos os cenários ali de proxy,
 
-59:32.000 --> 59:35.000
-E é um hotel tão simples, né?
+11:20.600 --> 11:22.600
+que é os mesmos que o nenhum.
 
-59:35.000 --> 59:36.000
-Pois é.
+11:22.600 --> 11:24.600
+Se
 
-59:36.000 --> 59:38.000
-É quem sonhou que eu jogasse.
+11:24.600 --> 11:26.600
+tudo der certo, tudo avançar, tudo fluir
 
-59:38.000 --> 59:41.000
-Eu só imagino, né?
+11:26.600 --> 11:28.600
+hoje perfeitamente, a gente aproveita
 
-59:41.000 --> 59:44.000
-Por quatro mesmo?
+11:28.600 --> 11:30.600
+e começa a fazer os outros cenários
 
-59:44.000 --> 59:46.000
-Tá certinho.
+11:30.600 --> 11:32.600
+que também tem, que é no caso
 
-59:57.000 --> 01:00:00.000
-Acho que ela travou pra mim aqui.
+11:32.600 --> 11:34.600
+as
 
-01:00:00.000 --> 01:00:02.000
-Travou aí pra vocês também.
+11:34.600 --> 11:36.600
+implementações da tela que o Icaro fez,
 
-01:00:02.000 --> 01:00:15.000
-Tem alguma coisa muito...
+11:36.600 --> 11:38.600
+tá?
 
-01:00:15.000 --> 01:00:21.000
-Type-A que tá naquele desempenho aqui do meu computador, gente.
+11:38.600 --> 11:40.600
+Pro cenário ali de fluxo alternativo,
 
-01:00:21.000 --> 01:00:26.000
-Um olhado aqui, um tome de atividade.
+11:40.600 --> 11:42.600
+ali de situação especial.
 
-01:00:26.000 --> 01:00:28.000
-Voltou a tela?
+11:42.600 --> 11:44.600
+Bom, gente, perdão pelo atraso, tá?
 
-01:00:28.000 --> 01:00:30.000
-Voltou.
+11:44.600 --> 11:46.600
+É isso, se alguém tiver alguma dúvida,
 
-01:00:32.000 --> 01:00:34.000
-Voltou.
+11:46.600 --> 11:48.600
+pode me chamar, precisar de alguma coisa
 
-01:00:34.000 --> 01:00:36.000
-Voltou.
+11:48.600 --> 11:50.600
+também, pode me chamar também, tá bom?
 
-01:00:36.000 --> 01:00:38.000
-Voltou.
+11:50.600 --> 11:52.600
+Bom dia.
 
-01:00:38.000 --> 01:00:40.000
-Voltou.
+11:52.600 --> 11:54.600
+É isso, né, gente?
 
-01:00:40.000 --> 01:00:42.000
-Voltou.
+11:54.600 --> 11:56.600
+Pessoal,
 
-01:00:42.000 --> 01:00:44.000
-Voltou.
+11:56.600 --> 11:58.600
+já passou todo mundo, já?
 
-01:00:44.000 --> 01:00:46.000
-Voltou.
+11:58.600 --> 12:00.600
+Acho que já,
 
-01:00:46.000 --> 01:00:48.000
-Voltou.
+12:00.600 --> 12:02.600
+não,
 
-01:00:48.000 --> 01:00:50.000
-Voltou.
+12:02.600 --> 12:04.600
+que eu queria discutir aqui com
 
-01:00:50.000 --> 01:00:52.000
-Voltou.
+12:04.600 --> 12:06.600
+vocês,
 
-01:00:52.000 --> 01:00:54.000
-Voltou.
+12:06.600 --> 12:08.600
+com relação,
 
-01:00:54.000 --> 01:00:56.000
-Cê recorda.
+12:08.600 --> 12:10.600
+a gente tem alguns cenários aqui
 
-01:00:56.000 --> 01:00:58.000
-Que que é isso, hein?
+12:10.600 --> 12:12.600
+envolvendo o LISD
 
-01:00:58.000 --> 01:01:00.000
-Nossa senhora.
+12:12.600 --> 12:14.600
+e AD,
 
-01:01:01.000 --> 01:01:04.000
-Oh, coisa doida.
+12:14.600 --> 12:16.600
+que a gente tá com uma certa dificuldade
 
-01:01:04.000 --> 01:01:06.000
-Olha, pera aí.
+12:16.600 --> 12:18.600
+aqui,
 
-01:01:06.000 --> 01:01:08.000
-Fecha, fecha.
+12:18.600 --> 12:20.600
+que a gente tem,
 
-01:01:08.000 --> 01:01:10.000
-Fechando.
+12:20.600 --> 12:22.600
+que a gente tá com uma certa dificuldade
 
-01:01:16.000 --> 01:01:18.000
-Fecha.
+12:22.600 --> 12:24.600
+de protestar em um mal, certo?
 
-01:01:18.000 --> 01:01:20.000
-Meu Deus, melhorou?
+12:24.600 --> 12:26.600
+Por casamento de massa
 
-01:01:20.000 --> 01:01:22.000
-Deixa eu ver.
+12:26.600 --> 12:28.600
+e habilitação de piloto,
 
-01:01:30.000 --> 01:01:40.000
-Nossa senhora, os produtos da Microsoft
+12:28.600 --> 12:30.600
+é isso, né?
 
-01:01:40.000 --> 01:01:42.000
-são horríveis até no Mac, cara.
+12:30.600 --> 12:32.600
+O do LISD
 
-01:01:42.000 --> 01:01:44.000
-Como pode?
+12:32.600 --> 12:34.600
+já foi resolvido ali o
 
-01:01:44.000 --> 01:01:46.000
-É.
+12:34.600 --> 12:36.600
+problema, mas a gente não tá colocando
 
-01:01:46.000 --> 01:01:53.000
-11 GB, o navegador da Consumino do meu, da minha rança.
+12:36.600 --> 12:38.600
+pré-aprovado no LISD, tá?
 
-01:01:53.000 --> 01:01:56.000
-Vocês fazem ideia disso, gente?
+12:38.600 --> 12:40.600
+A gente tá conseguindo efetivar, passar pelas etapas
 
-01:01:56.000 --> 01:01:59.000
-Vocês fazem ideia do que eu tô falando?
+12:40.600 --> 12:42.600
+ali do LISD, mas com
 
-01:01:59.000 --> 01:02:01.000
-11 GB.
+12:42.600 --> 12:44.600
+um limite exterado mesmo, tá, Fer?
 
-01:02:01.000 --> 01:02:03.000
-E minha máquina só tem 16 GB.
+12:44.600 --> 12:46.600
+Tá. Então, beleza.
 
-01:02:03.000 --> 01:02:05.000
-E aí que se vira o resto?
+12:46.600 --> 12:48.600
+É porque aí, assim, a minha sugestão
 
-01:02:05.000 --> 01:02:07.000
-É.
+12:48.600 --> 12:50.600
+é esses produtos, porque assim,
 
-01:02:09.000 --> 01:02:11.000
-Meu Deus.
+12:50.600 --> 12:52.600
+teoricamente a gente não fez alteração
 
-01:02:11.000 --> 01:02:13.000
-Ah, esqueci de apertar aqui, pera aí.
+12:52.600 --> 12:54.600
+pra esses produtos, certo?
 
-01:02:13.000 --> 01:02:15.000
-Tchau, absurdo.
+12:54.600 --> 12:56.600
+Que a gente mexeu aqui pensando no
 
-01:02:17.000 --> 01:02:19.000
-Meu pai amado.
+12:56.600 --> 12:58.600
+contexto do múltiplo, não deveria impactar
 
-01:02:19.000 --> 01:02:21.000
-Eu vou reiniciar o Edge.
+12:58.600 --> 13:00.600
+esses produtos, é mais pra gente cobrir os cenários
 
-01:02:21.000 --> 01:02:23.000
-Que isso não vai, como assim?
+13:00.600 --> 13:02.600
+ali, pra ter vim mexida no
 
-01:02:23.000 --> 01:02:33.000
-Mas eu também, mas o Datadog, também,
+13:02.600 --> 13:04.600
+BFF, certo?
 
-01:02:33.000 --> 01:02:35.000
-ele é complicado, viu?
+13:04.600 --> 13:06.600
+É,
 
-01:02:35.000 --> 01:02:41.000
-Que ele também consome bastante RAM do navegador.
+13:06.600 --> 13:08.600
+alguém quer falar?
 
-01:02:41.000 --> 01:02:43.000
-Ele é um dos mais rashos que eu acho.
+13:08.600 --> 13:10.600
+Eu posso prosseguir aqui?
 
-01:02:43.000 --> 01:02:50.940
-Mas eu também, mas o Datadog também, ele é complicado, viu, que ele também consome
+13:10.600 --> 13:12.600
+Eu consegui.
 
-01:02:50.940 --> 01:02:56.220
-bastante RAM do navegador, ele até trava, que inclusive eu acho que eu vou fazer o
+13:12.600 --> 13:14.600
+Tá.
 
-01:02:56.220 --> 01:02:58.020
-seguinte, eu vou usar o Safari.
+13:14.600 --> 13:16.600
+A questão do LISD é que
 
-01:02:58.020 --> 01:03:02.900
-É, o Datadog carrega muita coisa também.
+13:16.600 --> 13:18.600
+onde vem a informação do LISD,
 
-01:03:32.900 --> 01:03:44.320
-Meu Deus, até o Safari desiste da vida também, olha só.
+13:18.600 --> 13:20.600
+onde vem efetivação é o mesmo
 
-01:03:44.320 --> 01:03:45.320
-Pode opusentar.
+13:20.600 --> 13:22.600
+indiponde que vem também do cartão.
 
-01:03:45.320 --> 01:03:53.200
-Ai, o Datadog é, meu Deus, é muito, se precisa de dois computadores.
+13:22.600 --> 13:24.600
+Então, não
 
-01:03:53.200 --> 01:03:59.080
-Ai, não dou conta mais, chega, é muita coisa.
+13:24.600 --> 13:26.600
+é separado, né?
 
-01:03:59.080 --> 01:04:14.640
-Tem como ocultar isso, roche.
+13:26.600 --> 13:28.600
+Como a gente vai consumir sempre dos
 
-01:04:14.640 --> 01:04:15.640
-Pode pagar.
+13:28.600 --> 13:30.600
+XD2 na questão do múltiplo e
 
-01:04:15.640 --> 01:04:28.760
-Ficou mais clean.
+13:30.600 --> 13:32.600
+efetivação vai ser a partir de lá também,
 
-01:04:28.760 --> 01:04:29.760
-Alex.
+13:32.600 --> 13:34.600
+a gente ainda continua
 
-01:04:29.760 --> 01:04:40.320
-Ai, meu Deus, deu alguma coisa no AQ5, o que será que vai acontecer no AQ5?
+13:34.600 --> 13:36.600
+consumindo o mesmo indiponde anterior.
 
-01:04:40.320 --> 01:05:01.480
-Aí ele não responde, meu, ele não responde o porquê que esse menino nunca me responde
+13:36.600 --> 13:38.600
+Então, aí,
 
-01:05:01.480 --> 01:05:02.480
-no chat.
+13:38.600 --> 13:40.600
+é mais na questão de lógica de massa,
 
-01:05:02.480 --> 01:05:05.560
-Sabe uma coisa aqui, eu vou comentar uma coisa aqui com vocês, que assim, não levem
+13:40.600 --> 13:42.600
+mesmo do que
 
-01:05:05.560 --> 01:05:10.680
-pro pessoal, tá, gente, mas é um desabafo que eu ando percebendo, tem um chat ali chamado
+13:42.600 --> 13:44.600
+diretamente com a aplicação em si.
 
-01:05:10.680 --> 01:05:16.520
-Problemas o Mál GQCC e PUC, não sei se vocês já viram, se vocês olharam o histórico
+13:44.600 --> 13:46.600
+Porque o XD2, ele traz
 
-01:05:16.520 --> 01:05:20.200
-desse chat, você vai ver que eu sempre mando, mando, mando, mando e as pessoas não me
+13:46.600 --> 13:48.600
+informação do
 
-01:05:20.200 --> 01:05:24.040
-respondem e quando me respondem é do dia pro outro.
+13:48.600 --> 13:50.600
+cartão,
 
-01:05:24.040 --> 01:05:30.720
-Hoje aconteceu exatamente o que eu vivo falando pras pessoas, um homem cis branco mandou
+13:50.600 --> 13:52.600
+que seria a mesma API
 
-01:05:30.720 --> 01:05:38.880
-a mensagem ali no chat hoje, 10 e 4 da manhã, o pessoal em 10 e 9 respondeu, olha, quando
+13:52.600 --> 13:54.600
+ali no caso do que a gente consome
 
-01:05:38.880 --> 01:05:43.360
-é macho respondendo, mandando, todo mundo responde, mas quando é uma mulher ou é uma
+13:54.600 --> 13:56.600
+pra trazer o LISD também.
 
-01:05:43.360 --> 01:05:49.640
-travesti misericórdia, é um parto pra poder responder, eu não sei o que acontece, é coincidência,
+13:56.600 --> 13:58.600
+Só que um traz uma informação e o outro
 
-01:05:49.640 --> 01:06:01.560
-não sei, mas tá aí, é sempre assim, entendeu, por isso que eu não gosto de ficar mandando
+13:58.600 --> 14:00.600
+traz outra, embora seja a mesma aplicação.
 
-01:06:01.560 --> 01:06:12.080
-nada no chat, eu mando, eu chamo no pv, pessoal, é, puxa, eu não sei te dizer, viu, é, porque
+14:00.600 --> 14:02.600
+Traz uma informação
 
-01:06:12.080 --> 01:06:20.760
-é difícil falar, né, porque às vezes depende do momento também, mas é, mas se é algo
+14:02.600 --> 14:04.600
+X e outra traz outra informação.
 
-01:06:20.760 --> 01:06:30.360
-que você observa, às vezes, puxa, vale a pena, não sei, não sei, não sei, não sei, não sei,
+14:04.600 --> 14:06.600
+E aí, pra poder prosseguir
 
-01:06:35.160 --> 01:06:39.960
-não, isso já acontece desde quando estou a entrei no banco, é sempre, foi assim, gente,
+14:06.600 --> 14:08.600
+confluxo de limite pré-aprovado
 
-01:06:39.960 --> 01:06:44.920
-eu odeio chamar as pessoas no chat porque, e postar em grupo, porque é sempre, foi assim,
+14:08.600 --> 14:10.600
+em LISD e no cartão,
 
-01:06:44.920 --> 01:06:51.160
-não é efetivo, olha só pra me saber as coisas da puque, como que é, abaixaria que é, eu que
+14:10.600 --> 14:12.600
+as duas
 
-01:06:51.160 --> 01:06:55.600
-tenho que me virar pra saber ler documentação, porque se ficar esperando alguém me responder,
+14:12.600 --> 14:14.600
+chamadas precisam estar exatamente idênticas
 
-01:06:55.600 --> 01:07:01.880
-é no outro dia, e aí estouro ali de time, e aí começa o mundo, a gente criar chat com
+14:14.600 --> 14:16.600
+se não quebra o fluxo ali no BPMM.
 
-01:07:01.880 --> 01:07:07.520
-um monte de gente, aí começa a ver onde a gente perguntando se eu tô em cima de mim, como se eu
+14:16.600 --> 14:18.600
+Essa é a nossa dificuldade no momento.
 
-01:07:07.520 --> 01:07:11.600
-tivesse, tipo, atrasando alguma coisa, mas não é, as pessoas não colabora, as pessoas não querem
+14:18.600 --> 14:20.600
+Só que, assim, a gente acabou
 
-01:07:11.600 --> 01:07:17.240
-colaborar, mas assim, eu nem vou falar sobre transfobia, nem vou colocar com transfobia na mesa
+14:20.600 --> 14:22.600
+ignorando esses cenários e prosseguimos
 
-01:07:17.240 --> 01:07:22.840
-pra não virar vitimismo, nem, nem, nem misoginia também, pra também não virar, né, mimimi também,
+14:22.600 --> 14:24.600
+com os restantes ali que não
 
-01:07:22.840 --> 01:07:31.160
-mas uma coisa que eu acho que é, é pelo fato de eu ser júnior, a me, isso é, eu vou falar que é por isso,
+14:24.600 --> 14:26.600
+precisa de pré-aprovado.
 
-01:07:31.160 --> 01:07:37.160
-é, isso eu acho que pode ter mesmo, viu, todo mundo sabe, é só separar o mouse em cima da minha
+14:26.600 --> 14:28.600
+Agora, na questão do AD, é mais ali
 
-01:07:37.160 --> 01:07:46.640
-foto que você vai ver, o júnior jr, só falta sand, só falta, é, separar o mouse vai tá lá,
+14:28.600 --> 14:30.600
+do direcionador mesmo do piloto AD
 
-01:07:46.640 --> 01:07:57.520
-Milena Madsen, aí aparece ali do lado assim, a nl de engenharia de ti, sand júnior, só faltou isso,
+14:30.600 --> 14:32.600
+quando a gente chama ali o piloto AD,
 
-01:07:58.480 --> 01:08:08.280
-é que eu acho que só aparece, né, assim. Ah, as pessoas lá, né? Ah, homi, mas isso aí,
+14:32.600 --> 14:34.600
+ele acaba não retornando, dá um erro lá pra eles,
 
-01:08:08.280 --> 01:08:19.160
-é, eu já passei por áreas do banco, em que até, assim, a galera só responde, coordenador, por
+14:34.600 --> 14:36.600
+mas isso não impede de prosseguir
 
-01:08:19.160 --> 01:08:26.800
-exemplo, coordenador e gerente, tá, e eles respondem, até, dependente do cargo, assim, de júnior,
+14:36.600 --> 14:38.600
+o fluxo, ele simplesmente só não exibe
 
-01:08:26.800 --> 01:08:35.440
-tem gente que não, não dá por ao mesmo, viu. Aí eu posso te, até eu ia comentar isso com você,
+14:38.600 --> 14:40.600
+o piloto AD, né? E a gente consegue
 
-01:08:35.440 --> 01:08:42.560
-assim, isso eu acho realmente, isso eu tenho experiência também nesse caso, né, então posso, posso confirmar,
+14:40.600 --> 14:42.600
+efetivar uma conta perfeitamente.
 
-01:08:43.680 --> 01:08:52.280
-mas puxa-me, às vezes a gente tem que ver algum, né, podemos ver junto, né, o que, que, você às vezes,
+14:42.600 --> 14:44.600
+Agora, quando a gente desativa ali a chave
 
-01:08:53.040 --> 01:09:09.320
-às vezes, aí eu, eu vou cagar pra mim, que também não mando em nada, né, viu, é, mas homi,
+14:44.600 --> 14:46.600
+e não chama com o piloto AD, a gente
 
-01:09:09.320 --> 01:09:14.840
-eu acho que você pode mandar no chat e qualquer coisa, a gente pede ajuda do Rafa, do Rafa ou da
+14:46.600 --> 14:48.600
+consegue efetivar a conta com o AD antigo
 
-01:09:14.840 --> 01:09:25.440
-gente pra, pra fazer pressão. Ah, mas é sempre assim. Mas é sempre assim, gente, sempre assim,
+14:48.600 --> 14:50.600
+que é o que está em produção atual, né?
 
-01:09:25.440 --> 01:09:32.720
-eu ainda dou a oportunidade da pessoa, ainda dou um, um, um, no máximo um dia pro outro, a parte do dia
+14:50.600 --> 14:52.600
+Então, também não impede ali
 
-01:09:32.720 --> 01:09:39.120
-pro outro já começa a escalar, fala, ó, hein? Às vezes a gente tem que ser, tem que ser meio respiro, né,
+14:52.600 --> 14:54.600
+de prosseguir com os cenários.
 
-01:09:39.240 --> 01:09:52.400
-educar, educados e ríspidos, é, é, é, que realmente acusa. Só que aqui pra aparecer os logs do CC,
+14:54.600 --> 14:56.600
+Uhum, uma beleza.
 
-01:09:55.840 --> 01:10:01.480
-aí é uma maracota, eu vi, porque no, do CC não aparece tão facilmente, eu tenho que sempre colocar aqui.
+14:56.600 --> 14:58.600
+Não, porque assim, qualquer meu ponto aqui, tá?
 
-01:10:01.480 --> 01:10:19.360
-Você quiser também questão da, da busca no log, manda o dado aí que eu... Ah, mas você não vai ter
+14:58.600 --> 15:00.600
+Até pra gente ganhar um pouco mais
 
-01:10:19.360 --> 01:10:29.160
-acesso a CC, aí. É, manda aí, manda aí, manda aí, será que eu não pinto? É, pode ter, vou te mandar,
+15:00.600 --> 15:02.600
+de agilidade, assim,
 
-01:10:29.160 --> 01:10:38.440
-aqui, vou te mandar aqui, deixa eu pegar, lembrar qual que é o CPF que eu usei, porque eu não lindo mais.
+15:02.600 --> 15:04.600
+esses cenários que não são tão fortemente
 
-01:10:43.640 --> 01:10:55.400
-Ops, o banner, meu Deus, será que é esse mesmo? Será que não é? 2, 4, 6, 8, 10, não é.
+15:04.600 --> 15:06.600
+impactados ali pela terça no múltiplo
 
-01:11:00.000 --> 01:11:07.040
-Acho que é esse registrador, hein? 2, 4, 6, 8, é.
+15:06.600 --> 15:08.600
+pra ver se a gente consegue
 
-01:11:10.320 --> 01:11:20.280
-Ai, tá no safário, não é, pera aí? Que? E além desse,
+15:08.600 --> 15:10.600
+fazer, como a gente
 
-01:11:21.280 --> 01:11:33.480
-coloca aqui o customer ID, cadê? Ah, eu tinha salvo aqui esse CPF, em algum lugar, era esse mesmo.
+15:10.600 --> 15:12.600
+tá com aquela ideia de passar aqui,
 
-01:11:35.040 --> 01:11:36.440
-Customer ID.
+15:12.600 --> 15:14.600
+a gente tá passando, focando no cenário
 
-01:11:42.280 --> 01:11:43.880
-E por último,
+15:14.600 --> 15:16.600
+sem SPI, né?
 
-01:11:50.280 --> 01:11:51.640
-foi de proposta.
+15:16.600 --> 15:18.600
+Pra gente ver se a gente consegue fazer uma subida
 
-01:12:00.960 --> 01:12:03.720
-E bota em uma hora.
+15:18.600 --> 15:20.600
+mesmo que mantendo a chave desligada.
 
-01:12:06.720 --> 01:12:10.560
-Vê se aparece pra vocês, o que que aparece pra vocês nesse...
+15:20.600 --> 15:22.600
+É, aí a gente poderia testar,
 
-01:12:11.560 --> 01:12:20.760
-É, aqui só vai aparecer a... você é oito e a gente só duja aí, as outras cinco não tem acesso mesmo, não é?
+15:22.600 --> 15:24.600
+tipo, fazer um teste em produção,
 
-01:12:20.760 --> 01:12:26.040
-Eu acho que eu sou a única pessoa da fígita inteira que tem tudo isso de acervo de logs, tá?
+15:24.600 --> 15:26.600
+né? Quando a gente fizer a subida,
 
-01:12:26.040 --> 01:12:35.240
-Você sincera, porque ninguém... tá bem. Mas que que que que isso ajuda, né?
+15:26.600 --> 15:28.600
+a gente tenta passar ali umas aberturas
 
-01:12:41.560 --> 01:12:47.280
-Tem que ter acesso. É, pra mim, tá igual do... também, Nc2 e...
+15:28.600 --> 15:30.600
+de conta com esses cenários,
 
-01:12:47.280 --> 01:12:50.480
-Ah, mas aí você tem que colocar isso aqui, ó, de flags logs.
+15:30.600 --> 15:32.600
+com esses produtos ativados
 
-01:12:52.480 --> 01:13:00.480
-Tirando o Nc2 e o do C8, eu tenho a do MOVA também, já passei pelo MOVA, é, a BG4.
+15:34.600 --> 15:36.600
+em produção mesmo,
 
-01:13:00.480 --> 01:13:06.080
-Eu tenho acesso a AWS do MOVA ainda, eu poderia solicitar também daqui o...
+15:36.600 --> 15:38.600
+pra gente ter dado as
 
-01:13:07.080 --> 01:13:10.080
-Mas vai não faz sentido, porque não...
+15:38.600 --> 15:40.600
+dificuldades que a gente tem aqui,
 
-01:13:14.080 --> 01:13:16.080
-Lá no seu perfil.
+15:40.600 --> 15:42.600
+aqui no LIS, com pré-aprovado
 
-01:13:27.080 --> 01:13:30.080
-Vai não faz sentido aqui, gente.
+15:42.600 --> 15:44.600
+no caso do próprio
 
-01:13:36.080 --> 01:13:39.080
-Eu tenho... deixa eu ver.
+15:44.600 --> 15:46.600
+OAD.
 
-01:13:39.080 --> 01:13:41.080
-Isso.
+15:46.600 --> 15:48.600
+A gente combina ali com o direcionador
 
-01:13:55.080 --> 01:13:57.080
-Eu tenho... deixa eu ver.
+15:48.600 --> 15:50.600
+pra ligar o OAD
 
-01:14:02.080 --> 01:14:05.080
-Tem, ó, a BG4, C8 e Nc2.
+15:50.600 --> 15:52.600
+em produção só a noite, ali, enquanto a gente
 
-01:14:09.080 --> 01:14:15.080
-BG4. BG4 é do MOVA. Mas a gente não faz nenhuma integração com o MOVA, não é, mi?
+15:52.600 --> 15:54.600
+estiver fazendo o teste,
 
-01:14:15.080 --> 01:14:17.080
-Não.
+15:54.600 --> 15:56.600
+pra gente ganhar tempo.
 
-01:14:20.080 --> 01:14:25.080
-O meu apareceu um outro, que também é FBI, CIA, não sei quem.
+15:56.600 --> 15:58.600
+Porque assim, é,
 
-01:14:25.080 --> 01:14:27.080
-Deita.
+15:58.600 --> 16:00.600
+pra gente subir logo essas alterações
 
-01:14:27.080 --> 01:14:33.080
-É, de provavelmente, de siglas que você já tinha antes, em outros lugares.
+16:00.600 --> 16:02.600
+primeiro, porque a gente precisa liberar
 
-01:14:33.080 --> 01:14:43.080
-Esse aqui, mi, são os meus acessos de espião.
+16:02.600 --> 16:04.600
+esse ambiente, tá? A gente tá segurando
 
-01:14:43.080 --> 01:14:49.080
-Tô enchendo o saco dos anos que é o FBI, sabe?
+16:04.600 --> 16:06.600
+a produção inteira, por causa
 
-01:14:49.080 --> 01:14:51.080
-Agência.
+16:06.600 --> 16:08.600
+do múltiplo aqui.
 
-01:14:51.080 --> 01:14:55.080
-É, mas certo...
+16:10.600 --> 16:12.600
+E também pra gente
 
-01:14:56.080 --> 01:15:01.080
-Eu não... eu não entendi aqui o porquê que...
+16:12.600 --> 16:14.600
+ir destravando
 
-01:15:01.080 --> 01:15:04.080
-Eu não tô recebendo mais os logs do...
+16:14.600 --> 16:16.600
+vocês aqui, porque eu tô
 
-01:15:04.080 --> 01:15:07.080
-Não tá aparecendo o CC aqui.
+16:16.600 --> 16:18.600
+bastante preocupada com a continuidade
 
-01:15:07.080 --> 01:15:16.080
-E será que é porque tu não tá usando algum parâmetro, porque ele não usa um VADLA e tá filtrando por ele?
+16:18.600 --> 16:20.600
+do backlog aqui da Squad, porque a gente
 
-01:15:16.080 --> 01:15:21.080
-Então, esses parâmetros aqui é justamente pra ele aparecer.
+16:20.600 --> 16:22.600
+tá bastante tempo aqui no múltiplo
 
-01:15:21.080 --> 01:15:25.080
-Mas eu faço o seguinte, vou copiar tudo isso daqui.
+16:22.600 --> 16:24.600
+e a gente tem outras coisas pra
 
-01:15:25.080 --> 01:15:32.080
-Vou dar uma rouba sigla aqui e vou ver se tá tudo bem.
+16:24.600 --> 16:26.600
+fazer e eu queria que a gente
 
-01:15:32.080 --> 01:15:35.080
-Tá tudo bem.
+16:26.600 --> 16:28.600
+flexibilizasse algumas coisas aqui
 
-01:15:35.080 --> 01:15:40.080
-Porque eu tô vendo aqui.
+16:28.600 --> 16:30.600
+pra gente conseguir destravar
 
-01:15:40.080 --> 01:15:44.080
-Deixa só ver uma coisa aqui.
+16:30.600 --> 16:32.600
+vocês daqui do múltiplo
 
-01:15:44.080 --> 01:15:50.080
-É, qualquer coisa coloca só o CPF e tudo isso.
+16:32.600 --> 16:34.600
+pra gente conseguir andar.
 
-01:16:00.080 --> 01:16:08.080
-É, eu acho que vou fazer o seguinte, vou acrescentar aqui mais um...
+16:34.600 --> 16:36.600
+Então, assim, eu tô dando aqui de sugestão
 
-01:16:15.080 --> 01:16:19.080
-É, não tá batendo. Então pera lá.
+16:36.600 --> 16:38.600
+mas ninguém é melhor do que quem fez
 
-01:16:19.080 --> 01:16:23.080
-Ai, é... Eu esqueci.
+16:38.600 --> 16:40.600
+pra falar onde que tem maior risco
 
-01:16:23.080 --> 01:16:26.080
-Eu esqueci do príncipe para...
+16:40.600 --> 16:42.600
+ou onde que tem menor risco.
 
-01:16:26.080 --> 01:16:31.080
-Nunca vai procurar desse jeito.
+16:42.600 --> 16:44.600
+Então, hoje,
 
-01:16:31.080 --> 01:16:36.080
-Ai, aqui tu põe um...
+16:44.600 --> 16:46.600
+se você puder avaliar aí com o time
 
-01:16:36.080 --> 01:16:38.080
-Ai, começou burra, gente.
+16:46.600 --> 16:48.600
+quais os cenários que a gente pode
 
-01:16:38.080 --> 01:16:40.080
-Eu sou muito Sandy.
+16:48.600 --> 16:50.600
+fazer ali testes em produção
 
-01:16:40.080 --> 01:16:44.080
-Muito Sandy.
+16:50.600 --> 16:52.600
+ligando a chave ali
 
-01:16:47.080 --> 01:16:52.080
-Agora, sim, tem que aparecer o CC.
+16:52.600 --> 16:54.600
+durante a validação da implantação,
 
-01:16:52.080 --> 01:16:54.080
-Aqui, aparecer.
+16:54.600 --> 16:56.600
+eu acho que poderia ser uma boa pra gente
 
-01:16:54.080 --> 01:16:56.080
-Entendeu?
+16:56.600 --> 16:58.600
+dar uma agilizada aqui e ajudar
 
-01:16:56.080 --> 01:16:58.080
-Gente, é muito difícil.
+16:58.600 --> 17:00.600
+destravar
 
-01:16:58.080 --> 01:17:05.080
-Eu acho que eu tô chegando nos limites do armazenamento do meu cérebro.
+17:00.600 --> 17:02.600
+o múltiplo.
 
-01:17:05.080 --> 01:17:09.080
-Eu acho que já tá pedindo um novo plano de dois terabytes, porque já...
+17:02.600 --> 17:04.600
+Pode falar, Pedrinho.
 
-01:17:09.080 --> 01:17:11.080
-Já lotei, já tô lotado.
+17:04.600 --> 17:06.600
+Eu fico preocupado porque aqui
 
-01:17:11.080 --> 01:17:14.080
-Tem que apagar coisas do meu cérebro para poder armazenar outras.
+17:06.600 --> 17:08.600
+a gente só tem uma massa que dá pra
 
-01:17:14.080 --> 01:17:21.080
-Mas eu entendi aqui, porque aqui ele avançou aqui nessas etapas.
+17:08.600 --> 17:10.600
+testar se
 
-01:17:21.080 --> 01:17:26.080
-E aí...
+17:10.600 --> 17:12.600
+sai com retorno de Lisa ou não,
 
-01:17:26.080 --> 01:17:28.080
-Era cert...
+17:12.600 --> 17:14.600
+que é o pai da Giovanna, tá?
 
-01:17:28.080 --> 01:17:38.080
-É serviço sigla, status, torns, hosh.
+17:14.600 --> 17:16.600
+E aí a gente nem vai efetivar a conta.
 
-01:17:38.080 --> 01:17:50.080
-Não, não era hosh.
+17:16.600 --> 17:18.600
+Eu não sei se isso já vai
 
-01:17:50.080 --> 01:18:02.080
-Também não era... Ai...
+17:18.600 --> 17:20.600
+tá
 
-01:18:02.080 --> 01:18:16.080
-Name category...
+17:20.600 --> 17:22.600
+suficiente aqui pra você
 
-01:18:16.080 --> 01:18:19.080
-Tem um nome para a etapa, não tem?
+17:22.600 --> 17:24.600
+mas se for, beleza,
 
-01:18:19.080 --> 01:18:22.080
-Que aparece o nome... Só o nome da etapa, não parece?
+17:24.600 --> 17:26.600
+então a gente sobe em prod e
 
-01:18:22.080 --> 01:18:24.080
-Tem um...
+17:26.600 --> 17:28.600
+testa a noite
 
-01:18:24.080 --> 01:18:26.080
-Activity ID.
+17:28.600 --> 17:30.600
+quando for de manhã a gente avalia
 
-01:18:26.080 --> 01:18:29.080
-Activity ID.
+17:30.600 --> 17:32.600
+com os gerentes,
 
-01:18:29.080 --> 01:18:32.080
-Mas aqui não vai ter.
+17:32.600 --> 17:34.600
+com o gerente lá do SEI
 
-01:18:32.080 --> 01:18:37.080
-É tipo do datadog mesmo.
+17:34.600 --> 17:36.600
+e as demais agências que a gente vai pilotar.
 
-01:18:37.080 --> 01:18:43.080
-Que ele consegue ser... Às vezes aparece... Será que é description?
+17:36.600 --> 17:38.600
+É que aí a gente não vai conseguir pilotar, né?
 
-01:18:44.080 --> 01:18:50.080
-Hmm...
+17:38.600 --> 17:40.600
+Sem ter os cenários de SPI, né?
 
-01:18:50.080 --> 01:18:52.080
-Eu acho que é aqui mesmo, gente.
+17:40.600 --> 17:42.600
+Ou vai?
 
-01:18:52.080 --> 01:18:55.080
-Esse lado aqui mesmo.
+17:44.600 --> 17:46.600
+Não, não.
 
-01:18:55.080 --> 01:19:12.080
-Pode apagar o description.
+17:46.600 --> 17:48.600
+Não vai, porque é um estoque de cartão, né?
 
-01:19:12.080 --> 01:19:16.080
-Porque não tô entendendo o que tá acontecendo aqui, porque assim,
+17:48.600 --> 17:50.600
+Você tem que virar a agência a 100%
 
-01:19:16.080 --> 01:19:22.080
-ele já tá numa etapa de AK-5 aqui.
+17:50.600 --> 17:52.600
+em todos os cenários, né?
 
-01:19:22.080 --> 01:19:26.080
-E bateu no VFF efetivação, ou seja, ele já fez a última etapa,
+17:52.600 --> 17:54.600
+Pra pilotar.
 
-01:19:26.080 --> 01:19:31.080
-mas por que que aqui no Camunda ele tá dando como se tivesse...
+17:54.600 --> 17:56.600
+Não, a princípio que a gente tava querendo
 
-01:19:31.080 --> 01:19:36.080
-Como se tivesse...
+17:56.600 --> 17:58.600
+era pilotar na agência do SEI
 
-01:19:36.080 --> 01:19:41.080
-Travado aqui.
+17:58.600 --> 18:00.600
+que aí na agência do SEI que independente
 
-01:19:41.080 --> 01:19:45.080
-A gente vai esperando o tópico do Kafka.
+18:00.600 --> 18:02.600
+se tem estoque ou não, a gente
 
-01:19:45.080 --> 01:19:50.080
-E aquele erro que deu lá no AK-5 ali?
+18:02.600 --> 18:04.600
+começaria lá mas
 
-01:19:50.080 --> 01:19:55.080
-7.128.
+18:04.600 --> 18:06.600
+nas outras agências
 
-01:19:55.080 --> 01:19:58.080
-É só se... Não, mas também não faz sentido,
+18:06.600 --> 18:08.600
+a gente tava esperando regularizar
 
-01:19:58.080 --> 01:20:01.080
-porque aqui, ó...
+18:08.600 --> 18:10.600
+todos os testes pra
 
-01:20:01.080 --> 01:20:07.080
-É um babado do AK-5, deixa eu ver aqui.
+18:10.600 --> 18:12.600
+tá tudo ok
 
-01:20:07.080 --> 01:20:21.080
-Acho que é algum erro técnico.
+18:12.600 --> 18:14.600
+pra gente
 
-01:20:21.080 --> 01:20:29.080
-Ele tá batendo em algum lugar de algum erro.
+18:14.600 --> 18:16.600
+pedir pro time lá de
 
-01:20:29.080 --> 01:20:33.080
-Alguma coisa tá aí deslando.
+18:16.600 --> 18:18.600
+logística
 
-01:21:00.080 --> 01:21:04.080
-É, tudo tá falso, falso, falso, falso.
+18:18.600 --> 18:20.600
+mandar o estoque da NPC pra as agências
 
-01:21:04.080 --> 01:21:07.080
-É, deu certo aqui no AK-5.
+18:20.600 --> 18:22.600
+que a gente vai pilotar, tá? Seria isso.
 
-01:21:07.080 --> 01:21:11.080
-Eu acho que é no CC mesmo que deu, ó.
+18:22.600 --> 18:24.600
+E aí tanto se for
 
-01:21:11.080 --> 01:21:14.080
-Ahn...
+18:24.600 --> 18:26.600
+não SPI quanto
 
-01:21:14.080 --> 01:21:22.080
-Aqui, ele iniciou reserva de conta.
+18:26.600 --> 18:28.600
+SPI
 
-01:21:22.080 --> 01:21:24.080
-Mas não...
+18:28.600 --> 18:30.600
+seria isso, né?
 
-01:21:24.080 --> 01:21:28.080
-E gente, eu acho que caiu de novo o disparo do tópico lá de novo.
+18:32.600 --> 18:34.600
+Então, então assim
 
-01:21:28.080 --> 01:21:36.080
-Eu acho que é esse problema que tá.
+18:34.600 --> 18:36.600
+resumindo
 
-01:21:36.080 --> 01:21:40.080
-Tudo, né? O ambiente não ajuda também.
+18:36.600 --> 18:38.600
+sem a gente testar os cenários
 
-01:21:59.080 --> 01:22:04.080
-Não tem.
+18:38.600 --> 18:40.600
+com SPI a gente não consegue
 
-01:22:12.080 --> 01:22:14.080
-A página de virtual...
+18:40.600 --> 18:42.600
+ligar numa agência pra piloto, certo?
 
-01:22:14.080 --> 01:22:16.080
-O que que a Sophie tá perguntando?
+18:44.600 --> 18:46.600
+Então, a gente só
 
-01:22:16.080 --> 01:22:22.080
-Minha página de virtualização saiu fora do ar, não.
+18:46.600 --> 18:48.600
+consegue fazer os testes
 
-01:22:22.080 --> 01:22:37.080
-Não tem.
+18:48.600 --> 18:50.600
+ali no pós-implantação e depois
 
-01:22:37.080 --> 01:22:40.080
-Vocês ouvem quando a Alexa...
+18:50.600 --> 18:52.600
+ligar a chave enquanto a gente não testar os cenários
 
-01:22:40.080 --> 01:22:43.080
-Não é?
+18:52.600 --> 18:54.600
+do SPI. Assim, o que eu tô preocupada
 
-01:22:43.080 --> 01:22:46.080
-O áudio vaza aí, quando a Alexa fala aqui?
+18:54.600 --> 18:56.600
+a gente vai tentar ir destravando, entendeu?
 
-01:22:46.080 --> 01:22:49.080
-Não.
+18:56.600 --> 18:58.600
+Porque
 
-01:23:16.080 --> 01:23:21.080
-Não tem.
+18:58.600 --> 19:00.600
+se a gente ficar nessa, a gente tentar testar
 
-01:23:47.080 --> 01:23:50.080
-É, por que que caiu em análise?
+19:00.600 --> 19:02.600
+tudo, a gente vai ficar mais um mês nesse projeto
 
-01:23:50.080 --> 01:23:52.080
-Ai, gente...
+19:02.600 --> 19:04.600
+é isso que tá começando a me dar preocupação
 
-01:23:52.080 --> 01:23:57.080
-Amor de Deus, o que que tá acontecendo com esse ambiente?
+19:06.600 --> 19:08.600
+Então, assim, a gente
 
-01:24:16.080 --> 01:24:40.080
-O que que tá acontecendo com esse...
+19:08.600 --> 19:10.600
+precisa trabalhar um pouquinho
 
-01:24:40.080 --> 01:24:44.080
-Com esse cockpit aqui, gente, porque...
+19:10.600 --> 19:12.600
+começar a fatiar e ver o que a gente consegue
 
-01:24:44.080 --> 01:25:06.080
-Ele salva também o Correlation ID aqui também, né?
+19:12.600 --> 19:14.600
+fazer pra subir, validar a improdução
 
-01:25:07.080 --> 01:25:12.080
-E...
+19:14.600 --> 19:16.600
+ali, o que a gente conseguir
 
-01:25:12.080 --> 01:25:19.080
-Ahn...
+19:16.600 --> 19:18.600
+principalmente esses produtos que não tiveram
 
-01:25:19.080 --> 01:25:28.080
-Salva-me.
+19:18.600 --> 19:20.600
+impacto, por exemplo, o AD
 
-01:25:28.080 --> 01:25:38.080
-Só preciso saber...
+19:20.600 --> 19:22.600
+não sei qual que é a relação do AD com o múltiplo aqui
 
-01:25:38.080 --> 01:25:42.080
-Será que eu tô fazendo merda aqui? Eu tô pesquisando tudo errado.
+19:22.600 --> 19:24.600
+eu entendo a presença
 
-01:25:42.080 --> 01:25:44.080
-O CPF tá certo.
+19:24.600 --> 19:26.600
+do cenário aqui, que a gente tem que
 
-01:25:44.080 --> 01:25:46.080
-E o propósito tá certo.
+19:26.600 --> 19:28.600
+validar todos os produtos, mas assim
 
-01:25:46.080 --> 01:25:48.080
-O Correlation ID aí, se não faz...
+19:28.600 --> 19:30.600
+acho que a gente vai precisar
 
-01:25:48.080 --> 01:25:49.080
-Ahn...
+19:30.600 --> 19:32.600
+assumir alguns riscos de flexibilizar
 
-01:25:49.080 --> 01:25:51.080
-Eu não vou ver nada aqui.
+19:32.600 --> 19:34.600
+algumas coisas aqui, porque senão a gente não vai sair daqui
 
-01:25:51.080 --> 01:25:55.080
-Tá acontecendo alguma coisa aqui.
+19:36.600 --> 19:38.600
+pelas dificuldades que a gente tem de testar
 
-01:25:55.080 --> 01:26:09.080
-Dei quatro, caiu.
+19:38.600 --> 19:40.600
+alguns cenários em homologação, essa é a minha preocupação
 
-01:26:09.080 --> 01:26:13.080
-Como você faz pra pesquisar por todas as siglas?
+19:40.600 --> 19:42.600
+agora se vocês falarem pra mim, não, a gente
 
-01:26:13.080 --> 01:26:20.080
-Só você não especifica a sigla nenhum e colocar alguma variável que pode que transiciona todas elas.
+19:42.600 --> 19:44.600
+consegue testar tudo em homologação, a gente consegue
 
-01:26:20.080 --> 01:26:23.080
-No caso, o Correlation ID.
+19:44.600 --> 19:46.600
+destravar, a gente testa tudo em um mal
 
-01:26:23.080 --> 01:26:26.080
-O CPF.
+19:46.600 --> 19:48.600
+que eu estou tentando aqui, é provocar
 
-01:26:26.080 --> 01:26:37.080
-E DPSO também, Client ID.
+19:48.600 --> 19:50.600
+alguma saída pra gente
 
-01:26:37.080 --> 01:26:41.080
-O AI mais aqui.
+19:50.600 --> 19:52.600
+ir destravando o projeto
 
-01:26:41.080 --> 01:26:46.080
-Estão de conteúdo.
+19:52.600 --> 19:54.600
+conseguir subir, destravar o ambiente
 
-01:26:46.080 --> 01:26:50.080
-Tá dando o que? Aqui, 500.
+19:54.600 --> 19:56.600
+porque assim, a gente tem a listagem
 
-01:26:50.080 --> 01:26:52.080
-É só o fim de falar com ele, gente.
+19:56.600 --> 19:58.600
+pra subir, a corta, em correção pra subir
 
-01:26:52.080 --> 01:26:55.080
-É que é que aquela menina lá. Eu mando mensagem, ela é telegrama.
+19:58.600 --> 20:00.600
+e a gente
 
-01:26:55.080 --> 01:27:11.080
-Manda, ela responde só amanhã.
+20:00.600 --> 20:02.600
+tá segurando tudo porque ainda não subiu
 
-01:27:11.080 --> 01:27:21.080
-Mas eu entendi como ele já tá lá na frente.
+20:02.600 --> 20:04.600
+múltiplo
 
-01:27:21.080 --> 01:27:24.080
-Sendo que aqui ele tá aqui.
+20:04.600 --> 20:06.600
+então, assim, a gente precisa
 
-01:27:24.080 --> 01:27:27.080
-Não tá estranho isso.
+20:06.600 --> 20:08.600
+flexibilizar algumas coisas, eu preciso da ajuda
 
-01:27:27.080 --> 01:27:31.080
-Ou eu tô ficando louca.
+20:08.600 --> 20:10.600
+de vocês pra entender o que a gente consegue
 
-01:27:31.080 --> 01:27:33.080
-Vamos ver aqui.
+20:10.600 --> 20:12.600
+flexibilizar
 
-01:27:33.080 --> 01:27:35.080
-Eu abri aqui também.
+20:12.600 --> 20:14.600
+e aí, acho que é importante
 
-01:27:35.080 --> 01:27:39.080
-Qual que pitch aqui pra dentro.
+20:14.600 --> 20:16.600
+todo participar dessa decisão, não só a Milena
 
-01:28:01.080 --> 01:28:18.080
-Olha que ele tá parado ali no competition.
+20:16.600 --> 20:18.600
+não só a Giovana, não só o Pedrinho
 
-01:28:18.080 --> 01:28:21.080
-Ele tá pra lá no CC.
+20:18.600 --> 20:20.600
+acho que vocês que desenvolveram
 
-01:28:21.080 --> 01:28:26.080
-E no CC tá tudo certo.
+20:20.600 --> 20:22.600
+também sabem o que vocês mexeram
 
-01:28:26.080 --> 01:28:30.080
-Ele passou pelo... Então ele tá com dois aqui, né?
+20:26.600 --> 20:28.600
+sim, até a gente
 
-01:28:30.080 --> 01:28:34.080
-Ele passou pelo efeito. Tem um aqui que ele tá ao mesmo.
+20:28.600 --> 20:30.600
+tinha feito a princípio uma separação
 
-01:28:34.080 --> 01:28:37.080
-Entre a efetiva e o cartão, né?
+20:30.600 --> 20:32.600
+aqui de alguns cenários, né, então a
 
-01:28:37.080 --> 01:28:41.080
-Então aí é quando ele espera a resposta do tópico da efetivação de cartão.
+20:32.600 --> 20:34.600
+Mita trabalhando com
 
-01:28:41.080 --> 01:28:45.080
-Ele vai ficar aí até o CC criar a resposta lá no tópico.
+20:34.600 --> 20:36.600
+um cenário, com cenários mais
 
-01:28:45.080 --> 01:28:47.080
-Aí ele consome e pega.
+20:36.600 --> 20:38.600
+enxugados aqui de teste
 
-01:28:47.080 --> 01:28:50.080
-Só que beleza, tá? Faz sentido.
+20:38.600 --> 20:40.600
+acho que aqui a minha
 
-01:28:50.080 --> 01:28:53.080
-Mas porque aqui eu tô aqui em etapas do D4.
+20:40.600 --> 20:42.600
+a minha maior preocupação é a gente passar
 
-01:28:53.080 --> 01:28:56.080
-Pra pesquisar o que no D4.
+20:42.600 --> 20:44.600
+um pouco vocês pra conseguir
 
-01:28:56.080 --> 01:29:01.080
-E tá dando esse loop aqui de...
+20:44.600 --> 20:46.600
+liberar pra testar, mas pra
 
-01:29:01.080 --> 01:29:03.080
-Tá, tudo bem.
+20:46.600 --> 20:48.600
+fazer piloto realmente a gente precisa
 
-01:29:03.080 --> 01:29:05.080
-Tenho que levar em consideração o que.
+20:48.600 --> 20:50.600
+finalizar os outros
 
-01:29:05.080 --> 01:29:09.080
-Eu coloquei alguma coisa ali.
+20:50.600 --> 20:52.600
+testes aqui
 
-01:29:09.080 --> 01:29:13.080
-Que tá trazendo essas informações pro D4.
+20:52.600 --> 20:54.600
+e mesmo dentro dos outros cenários
 
-01:29:13.080 --> 01:29:18.080
-Por que tá trazendo esses dados aqui do D4?
+20:54.600 --> 20:56.600
+o que também a gente consegue
 
-01:29:19.080 --> 01:29:22.080
-Esse correlatóide nem faz sentido.
+20:56.600 --> 20:58.600
+executar os testes
 
-01:29:22.080 --> 01:29:26.080
-Ou é muita... É muita coincidência isso, cara.
+20:58.600 --> 21:00.600
+ali no pós-implantação
 
-01:29:26.080 --> 01:29:28.080
-Muita coincidência mesmo.
+21:00.600 --> 21:02.600
+aquilo que é mais complexo de
 
-01:29:28.080 --> 01:29:31.080
-Mas por que ele trouxe três... Não, não é.
+21:02.600 --> 21:04.600
+testar em omol, sabe?
 
-01:29:31.080 --> 01:29:33.080
-Não é onde ele tá pegando esse valor.
+21:04.600 --> 21:06.600
+a minha preocupação é a gente ficar ali mais
 
-01:29:33.080 --> 01:29:40.080
-A, B, 5, 3...
+21:06.600 --> 21:08.600
+semanas travados porque, ah, a gente não
 
-01:29:40.080 --> 01:29:43.080
-É isso, CPF.
+21:08.600 --> 21:10.600
+tem massa do liso, a gente não tem massa
 
-01:29:43.080 --> 01:29:48.080
-5, 3, 7, 1.
+21:10.600 --> 21:12.600
+e então tá bom, o que é
 
-01:29:52.080 --> 01:29:55.080
-Ai, mas por que... Por que hita?
+21:12.600 --> 21:14.600
+o que é difícil de
 
-01:29:55.080 --> 01:29:58.080
-Ai, não. Cuidado com a boa. Cuidado, acabou.
+21:14.600 --> 21:16.600
+testar em omol, que a gente
 
-01:29:58.080 --> 01:30:00.080
-Cuidado, acabou, acabou, acabou.
+21:16.600 --> 21:18.600
+consegue testar em prog
 
-01:30:00.080 --> 01:30:02.080
-Já entendi o que aconteceu. Já...
+21:18.600 --> 21:20.600
+mas nesse sentido a minha
 
-01:30:04.080 --> 01:30:08.080
-Eu não pesquisei aqui no Buscaí.
+21:20.600 --> 21:22.600
+provocação tá, pra gente flexibilizar
 
-01:30:08.080 --> 01:30:13.080
-E o Buscaí, ele bate no D4.
+21:22.600 --> 21:24.600
+algumas coisas e ganhar tempo
 
-01:30:13.080 --> 01:30:16.080
-Ah, por isso que ele tá dando.
+21:24.600 --> 21:26.600
+beleza, é o do ADO que me preocupa
 
-01:30:19.080 --> 01:30:21.080
-Eita.
+21:26.600 --> 21:28.600
+é porque a gente combinou
 
-01:30:21.080 --> 01:30:26.080
-Eu mesmo... Eu mesmo me engano.
+21:28.600 --> 21:30.600
+ali com os meninos do direcionador
 
-01:30:26.080 --> 01:30:28.080
-Ai, que ódio.
+21:30.600 --> 21:32.600
+é uma mudança ali no
 
-01:30:28.080 --> 01:30:30.080
-Patifaria aí, Milena.
+21:32.600 --> 21:34.600
+parâmetro que a gente passa pra eles
 
-01:30:30.080 --> 01:30:32.080
-Nossa, meu...
+21:34.600 --> 21:36.600
+de piloto, porque a gente passa
 
-01:30:32.080 --> 01:30:34.080
-Tá, então eu parei aqui, então.
+21:36.600 --> 21:38.600
+convive os dois pilotos
 
-01:30:34.080 --> 01:30:36.080
-É, tal tá certo, gente.
+21:38.600 --> 21:40.600
+e aí parece que tá tendo algum problema
 
-01:30:36.080 --> 01:30:38.080
-Vou mandar outra proposta.
+21:40.600 --> 21:42.600
+ali na chamada, então talvez
 
-01:30:38.080 --> 01:30:40.080
-Vou repassar o do...
+21:42.600 --> 21:44.600
+eles tenham feito alguma coisa errada
 
-01:30:40.080 --> 01:30:42.080
-Vou fazer o do... Depois dessa, né?
+21:44.600 --> 21:46.600
+e que quando subir também não funcione
 
-01:30:42.080 --> 01:30:45.080
-Ah, mas ele parou a lega efetiva conta, não foi?
+21:46.600 --> 21:48.600
+mas a gente tá vendo aqui esse cenário
 
-01:30:45.080 --> 01:30:47.080
-Parou a lega efetiva conta.
+21:48.600 --> 21:50.600
+pra ter certeza se
 
-01:30:47.080 --> 01:30:49.080
-Eu acho que a gente caiu no mesmo problema aqui, ó.
+21:50.600 --> 21:52.600
+é isso
 
-01:30:49.080 --> 01:30:51.080
-Ai, pera aí.
+22:00.600 --> 22:02.600
+Então, eu ia
 
-01:30:51.080 --> 01:30:55.080
-Deixa eu ver qual que era a sigla que deu o problema ontem.
+22:02.600 --> 22:04.600
+pensando aqui, a gente já usa um
 
-01:30:59.080 --> 01:31:02.080
-A sigla era o X0.
+22:04.600 --> 22:06.600
+chave pra
 
-01:31:02.080 --> 01:31:05.080
-Ai, quase nunca dá erro lá.
+22:06.600 --> 22:08.600
+ter certeza que vão estar no piloto
 
-01:31:07.080 --> 01:31:09.080
-Hmm.
+22:08.600 --> 22:10.600
+a gente poderia usar uma outra
 
-01:31:22.080 --> 01:31:25.080
-Diz que tá dando o X0, não sei.
+22:10.600 --> 22:12.600
+chave pra selecionar, por exemplo,
 
-01:31:37.080 --> 01:31:40.080
-Ai, que bonitinho, o que eu coloquei...
+22:12.600 --> 22:14.600
+qual fluxo vai estar no piloto
 
-01:31:40.080 --> 01:31:42.080
-O que eu coloquei...
+22:14.600 --> 22:16.600
+pra que se a gente subir pra prog
 
-01:31:42.080 --> 01:31:45.080
-Eu que cadastrei isso aqui no real check.
+22:16.600 --> 22:18.600
+não impacta todos os fluxos de uma vez
 
-01:31:49.080 --> 01:31:52.080
-Ah, agora falta cadastrar mais aqui.
+22:18.600 --> 22:20.600
+então a gente pode fechar um fluxo
 
-01:31:52.080 --> 01:31:54.080
-Você também pode adicionar, entendeu?
+22:20.600 --> 22:22.600
+coloca ele na chave de prog
 
-01:31:54.080 --> 01:31:57.080
-Só que passa pra uma aprovação, eles aprovaram.
+22:22.600 --> 22:24.600
+e ele funciona
 
-01:31:58.080 --> 01:32:00.080
-Nc2.
+22:24.600 --> 22:26.600
+no múltiplo NPC
 
-01:32:03.080 --> 01:32:05.080
-É...
+22:26.600 --> 22:28.600
+os demais funcionam no legado
 
-01:32:07.080 --> 01:32:09.080
-F6.
+22:28.600 --> 22:30.600
+deve fazer algo assim
 
-01:32:09.080 --> 01:32:10.080
-6.
+22:30.600 --> 22:32.600
+os produtos eles já tem chave
 
-01:32:10.080 --> 01:32:13.080
-E consegui nada de 1 milhão de disponibilidade.
+22:32.600 --> 22:34.600
+o ponto é, por exemplo, o AD
 
-01:32:25.080 --> 01:32:27.080
-É esse 7.
+22:34.600 --> 22:36.600
+ainda não tá rolautado, então a gente pode fechar
 
-01:32:28.080 --> 01:32:31.080
-E esse 7 é a sigla de...
+22:36.600 --> 22:38.600
+mas a gente não pode fechar um produto
 
-01:32:32.080 --> 01:32:35.080
-De crédito também, se não me engano.
+22:38.600 --> 22:40.600
+que já tá rolautado
 
-01:32:35.080 --> 01:32:38.080
-Mas, ó, hoje o ambiente tá bem bonitinho pra testar.
+22:40.600 --> 22:42.600
+a gente não pode entregar uma feature e tirar outra
 
-01:32:38.080 --> 01:32:41.080
-Não sei por que que tá com essa patifaria.
+22:42.600 --> 22:44.600
+por causa da feature nova, entendeu?
 
-01:32:41.080 --> 01:32:43.080
-Vou passar outro...
+22:46.600 --> 22:48.600
+Então assim, eu não posso subir o
 
-01:32:43.080 --> 01:32:47.080
-Às vezes é só uma loucura da cabeça do babado.
+22:48.600 --> 22:50.600
+múltiplo NPC e fechar o list
 
-01:32:47.080 --> 01:32:50.080
-Vou passar outro propósito, pera aí, deixa eu gerar outro.
+22:50.600 --> 22:52.600
+por causa disso, entendeu?
 
-01:34:01.080 --> 01:34:03.080
-F6.
+23:00.600 --> 23:02.600
+É, eu acho que assim, esse problema do AD
 
-01:34:03.080 --> 01:34:05.080
-7.
+23:02.600 --> 23:04.600
+eu acho que é importante a gente
 
-01:34:05.080 --> 01:34:07.080
-8.
+23:04.600 --> 23:06.600
+verificar
 
-01:34:07.080 --> 01:34:09.080
-9.
+23:06.600 --> 23:08.600
+antes da gente levantar o que a gente tá subindo agora
 
-01:34:09.080 --> 01:34:11.080
-9.
+23:08.600 --> 23:10.600
+pra produção
 
-01:34:11.080 --> 01:34:13.080
-9.
+23:10.600 --> 23:12.600
+que pode ser assim, que afete
 
-01:34:13.080 --> 01:34:15.080
-9.
+23:12.600 --> 23:14.600
+a entrega da oferta do AD
 
-01:34:15.080 --> 01:34:17.080
-9.
+23:14.600 --> 23:16.600
+eu chamei o pessoal do
 
-01:34:17.080 --> 01:34:19.080
-9.
+23:16.600 --> 23:18.600
+direcionador
 
-01:34:19.080 --> 01:34:21.080
-9.
+23:18.600 --> 23:20.600
+não somente aqui, a gente começou a
 
-01:34:21.080 --> 01:34:23.080
-9.
+23:20.600 --> 23:22.600
+passar alguns campos a mais
 
-01:34:23.080 --> 01:34:25.080
-9.
+23:22.600 --> 23:24.600
+mas eles também que veem que você deve estar
 
-01:34:25.080 --> 01:34:27.080
-9.
+23:24.600 --> 23:26.600
+lá também pra passar, por exemplo
 
-01:34:27.080 --> 01:34:29.080
-9.
+23:26.600 --> 23:28.600
+o fluxo do AD
 
-01:34:29.080 --> 01:34:31.080
-9.
+23:28.600 --> 23:30.600
+e o fluxo do NPC juntos
 
-01:34:31.080 --> 01:34:33.080
-9.
+23:30.600 --> 23:32.600
+eu acho que esse ponto aí é importante a gente
 
-01:34:33.080 --> 01:34:35.080
-9.
+23:32.600 --> 23:34.600
+correr atrás
 
-01:34:35.080 --> 01:34:37.080
-9.
+23:34.600 --> 23:36.600
+de resolver um, sabe?
 
-01:34:37.080 --> 01:34:39.080
-9.
+23:36.600 --> 23:38.600
+Porque assim, eu acredito também que
 
-01:34:39.080 --> 01:34:41.080
-10.
+23:38.600 --> 23:40.600
+não tem muitas coisas a se fazer do nosso
 
-01:34:41.080 --> 01:34:43.080
-9.
+23:40.600 --> 23:42.600
+lado assim, sabe? Acredito que a gente
 
-01:34:43.080 --> 01:34:45.080
-10.
+23:42.600 --> 23:44.600
+tá passando tudo como deveria
 
-01:34:45.080 --> 01:34:47.080
-10.
+23:44.600 --> 23:46.600
+passar do prod. direcionador até porque
 
-01:34:51.080 --> 01:34:53.080
-10.
+23:46.600 --> 23:48.600
+ele tá funcionando antes, né? A oferta do AD
 
-01:34:53.080 --> 01:34:55.080
-10.
+23:48.600 --> 23:50.600
+Mas
 
-01:34:55.080 --> 01:34:58.800
-Só falta esse cenário, só e mais um do...
+23:50.600 --> 23:52.600
+é isso, eu acho que
 
-01:35:15.480 --> 01:35:17.720
-Aí, eu vou fazer o seguinte, eu não vou passar o Niklas,
+23:52.600 --> 23:54.600
+tem que pelo menos bater
 
-01:35:17.720 --> 01:35:20.440
-eu já vou tentar um Aproxy para ver o que vira.
+23:54.600 --> 23:56.600
+esse ponto assim, sabe? Porque eu chamei
 
-01:35:25.080 --> 01:35:27.540
-Então vem vim.
+23:56.600 --> 23:58.600
+a gente levantar o NPC
 
-01:35:55.080 --> 01:36:15.080
-Beleza, enquanto ele abre a conta, vamos fazer o seguinte, fazer a prova real.
+23:58.600 --> 24:00.600
+e
 
-01:36:26.080 --> 01:36:31.080
-Beleza, eu abri.
+24:00.600 --> 24:02.600
+caiu o AD, por exemplo
 
-01:36:35.080 --> 01:36:37.080
-Ah, não é possível isso, cara.
+24:02.600 --> 24:04.600
+Então, eu não tô considerando
 
-01:36:45.080 --> 01:36:47.080
-Não é possível isso.
+24:04.600 --> 24:06.600
+o piloto AD nos testes, tá?
 
-01:36:48.080 --> 01:36:50.080
-3, 4, 6, 2, 15.
+24:06.600 --> 24:08.600
+Piloto AD nos testes eu não tô considerando
 
-01:37:01.080 --> 01:37:03.080
-Ah, é aqui. Cuidado, acabou.
+24:08.600 --> 24:10.600
+todos os testes, todo o fluxo nenhum ali
 
-01:37:03.080 --> 01:37:05.080
-Pera aí.
+24:10.600 --> 24:12.600
+eu tô lidando, tô entendendo
 
-01:37:13.080 --> 01:37:15.080
-Deixa eu abrir uma persão hoje.
+24:12.600 --> 24:14.600
+o que a gente vai
 
-01:37:16.080 --> 01:37:18.080
-3, 4, 2, 15.
+24:14.600 --> 24:16.600
+efetivar contas com ou sem
 
-01:37:19.080 --> 01:37:24.080
-Ela está na agência e conta 15.
+24:16.600 --> 24:18.600
+piloto
 
-01:37:24.080 --> 01:37:27.080
-Beleza, agora vamos aqui não.
+24:18.600 --> 24:20.600
+legado, é o que já
 
-01:37:27.080 --> 01:37:29.080
-Fecha aqui.
+24:20.600 --> 24:22.600
+tá em produção, piloto AD não, acho que
 
-01:37:30.080 --> 01:37:33.080
-Fecha aqui. Vamos aqui não ir com a 4.
+24:22.600 --> 24:24.600
+senão ainda não, não tá sendo pilotado
 
-01:37:34.080 --> 01:37:36.080
-Vamos bater aqui.
+24:24.600 --> 24:26.600
+embora ele já esteja em produção
 
-01:37:36.080 --> 01:37:45.080
-A gente fez 4 menos 2, 15.
+24:26.600 --> 24:28.600
+ainda configurada com ele, então
 
-01:37:46.080 --> 01:37:51.080
-Vamos pegar essa conta aqui.
+24:28.600 --> 24:30.600
+não tô considerando ele mesmo sabendo
 
-01:37:56.080 --> 01:37:59.080
-Está aqui. Zero.
+24:30.600 --> 24:32.600
+que o direcionador não está retornando
 
-01:38:00.080 --> 01:38:07.080
-Zero e cliente aí de dela.
+24:32.600 --> 24:34.600
+a chamada
 
-01:38:14.080 --> 01:38:16.080
-3, 3, 8.
+24:34.600 --> 24:36.600
+do piloto AD
 
-01:38:22.080 --> 01:38:26.080
-Consultar aqui para não quebrar minha automação lá.
+24:36.600 --> 24:38.600
+Então, todos os fluxos
 
-01:38:26.080 --> 01:38:28.080
-3, 3, 8.
+24:38.600 --> 24:40.600
+com piloto AD e sem piloto AD
 
-01:38:39.080 --> 01:38:41.080
-3, 2, 1.
+24:40.600 --> 24:42.600
+a gente tá efetivando sem ele
 
-01:38:57.080 --> 01:39:01.080
-Nunca dou sorte que essa API só funciona para ela quer.
+24:42.600 --> 24:44.600
+É
 
-01:39:04.080 --> 01:39:08.080
-É, não está efetivando conta.
+24:44.600 --> 24:46.600
+o nosso BFF tá ali
 
-01:39:09.080 --> 01:39:12.080
-Aliás, não está efetivando.
+24:46.600 --> 24:48.600
+sabendo lidar com
 
-01:39:14.080 --> 01:39:16.080
-Não está efetivando.
+24:48.600 --> 24:50.600
+com faubé que é algum problema
 
-01:39:26.080 --> 01:39:28.080
-Que baralho é isso?
+24:50.600 --> 24:52.600
+que acontece, por exemplo, no seguro transação
 
-01:39:56.080 --> 01:39:58.080
-2, 3, 8.
+24:52.600 --> 24:54.600
+e também no piloto AD
 
-01:39:58.080 --> 01:40:00.080
-2, 3, 8.
+24:54.600 --> 24:56.600
+o direcionador não exibe esses produtos
 
-01:40:00.080 --> 01:40:02.080
-2, 3, 8.
+24:56.600 --> 24:58.600
+e a gente consegue prosseguir
 
-01:40:24.080 --> 01:40:26.080
-O pedrinho.
+24:58.600 --> 25:00.600
+para efetivação da conta mesmo não aparecendo
 
-01:40:30.080 --> 01:40:32.080
-2, 3, 8.
+25:00.600 --> 25:02.600
+ali, e a conta é aberta
 
-01:40:44.080 --> 01:40:46.080
-Oi.
+25:02.600 --> 25:04.600
+tem nos cenários que eu tô fazendo
 
-01:40:46.080 --> 01:40:48.080
-Oi.
+25:04.600 --> 25:06.600
+que eu fiz ontem e hoje
 
-01:40:48.080 --> 01:40:50.080
-Chamei aqui porque...
+25:06.600 --> 25:08.600
+tem o piloto AD
 
-01:40:50.080 --> 01:40:53.080
-Eu abri as contas, geropá, que tudo bonitinho,
+25:08.600 --> 25:10.600
+e com ou sem
 
-01:40:53.080 --> 01:40:56.080
-mas agora a gente voltou naquele problema lá do Xd2
+25:10.600 --> 25:12.600
+seguro cartão protegido que no final ali do dia eles
 
-01:40:56.080 --> 01:40:58.080
-não está efetivando, hein.
+25:12.600 --> 25:14.600
+conseguiram ativar
 
-01:40:58.080 --> 01:41:02.080
-E o pior é que não tem nem como consultar os logs dele
+25:14.600 --> 25:16.600
+o STI, aí eu consegui efetivar também
 
-01:41:02.080 --> 01:41:04.080
-para ver se deu algum erro, alguma coisa.
+25:16.600 --> 25:18.600
+conta ali com o STI
 
-01:41:04.080 --> 01:41:07.080
-Eu acho que eu vou pedir acesso ao...
+25:18.600 --> 25:20.600
+Então, um cenário sem prox
 
-01:41:07.080 --> 01:41:09.080
-ao...
+25:20.600 --> 25:22.600
+ali
 
-01:41:09.080 --> 01:41:12.080
-Não está retornando o cartão criado?
+25:22.600 --> 25:24.600
+já tá validado
 
-01:41:12.080 --> 01:41:14.080
-Não.
+25:24.600 --> 25:26.600
+a gente conseguiu chamar ali na customers
 
-01:41:14.080 --> 01:41:16.080
-Ah, para qual?
+25:26.600 --> 25:28.600
+e já tá vendo o cartão
 
-01:41:16.080 --> 01:41:18.080
-Vou tentar a outra aqui, pera aí.
+25:28.600 --> 25:30.600
+depois agora a gente começou a testar com o proxy
 
-01:41:25.080 --> 01:41:27.080
-C5.
+25:30.600 --> 25:32.600
+e aí a gente pegou aqueles pontos
 
-01:41:27.080 --> 01:41:30.080
-Você quer me mandar dos casos que dão deu certo para o casão Joia?
+25:32.600 --> 25:34.600
+lá tanto do nosso lado aqui na questão do BPMN
 
-01:41:34.080 --> 01:41:36.080
-Então, eu abri...
+25:34.600 --> 25:36.600
+mas rapidamente a gente foi corrigindo
 
-01:41:36.080 --> 01:41:38.080
-Eu fiz todos esses cenários aqui, tá?
+25:36.600 --> 25:38.600
+e também ali do time
 
-01:41:38.080 --> 01:41:41.080
-Aí a gente parou nesse daqui porque o CC parou de novo.
+25:38.600 --> 25:40.600
+do que traz ali a validação de prox
 
-01:41:41.080 --> 01:41:43.080
-Aí eu vou prosseguir, vou refazer um...
+25:40.600 --> 25:42.600
+basicamente as nossas credenciais
 
-01:41:43.080 --> 01:41:46.080
-um dash para ver se você se voltou.
+25:42.600 --> 25:44.600
+ali no portal de credenciais não tão
 
-01:41:46.080 --> 01:41:50.080
-Aí, nisso que parou, eu comecei a olhar aqui as...
+25:44.600 --> 25:46.600
+batendo ali com o que eles esperam
 
-01:41:50.080 --> 01:41:54.080
-as propostas, se... se ele está retornando o cartão agora.
+25:46.600 --> 25:48.600
+e tá dando 403
 
-01:41:57.080 --> 01:41:59.080
-Conta...
+25:48.600 --> 25:50.600
+mas rapidamente também eu fiz
 
-01:42:00.080 --> 01:42:02.080
-C5.
+25:50.600 --> 25:52.600
+uma virtualização ali no fim do dia pra
 
-01:42:08.080 --> 01:42:10.080
-Quero crédito.
+25:52.600 --> 25:54.600
+a gente poder prosseguir ali pra efetivação
 
-01:42:13.080 --> 01:42:15.080
-A titularidade aqui...
+25:54.600 --> 25:56.600
+e validar aquilo que o pessoal
 
-01:42:15.080 --> 01:42:17.080
-É 18 mesmo?
+25:56.600 --> 25:58.600
+do XZ2 já tinha dito pra gente
 
-01:42:17.080 --> 01:42:19.080
-É.
+25:58.600 --> 26:00.600
+que a gente tá enviando
 
-01:42:19.080 --> 01:42:21.080
-Mas dá erro se coloca 18.
+26:00.600 --> 26:02.600
+ali na com o que deveria ser enviado
 
-01:42:22.080 --> 01:42:24.080
-Se eu não enviar...
+26:02.600 --> 26:04.600
+era o código ali do proxy
 
-01:42:24.080 --> 01:42:26.080
-Se eu não enviar nada...
+26:04.600 --> 26:06.600
+mas assim, vou prosseguir aqui
 
-01:42:26.080 --> 01:42:28.080
-Aí ele não retorna nada.
+26:06.600 --> 26:08.600
+depois dele vou entrar na TEC
 
-01:42:30.080 --> 01:42:32.080
-Ah, pera aí.
+26:08.600 --> 26:10.600
+o nosso ritual
 
-01:42:35.080 --> 01:42:37.080
-Ai, ai...
+26:10.600 --> 26:12.600
+do múltiplo ali
 
-01:42:37.080 --> 01:42:39.080
-Amo, amo.
+26:12.600 --> 26:14.600
+pra poder prosseguir com os testes
 
-01:42:39.080 --> 01:42:41.080
-Tem que ser...
+26:14.600 --> 26:16.600
+acho que o que falta mesmo é
 
-01:42:41.080 --> 01:42:45.080
-4 zeros, 4 zeros e 18.
+26:16.600 --> 26:18.600
+efetivar uma conta com o proxy
 
-01:42:48.080 --> 01:42:50.080
-Não vai.
+26:18.600 --> 26:20.600
+e validar ali na customer
 
-01:42:50.080 --> 01:42:53.080
-Manda sem... sem crédito, me, por favor.
+26:20.600 --> 26:22.600
+junto com a Andressa também
 
-01:42:53.080 --> 01:42:55.080
-Só deputadormente.
+26:22.600 --> 26:24.600
+e no mainframe
 
-01:42:57.080 --> 01:42:59.080
-Só se eu tirar aqui o 18.
+26:24.600 --> 26:26.600
+ele tá batendo ali também
 
-01:43:00.080 --> 01:43:02.080
-Aí ele não vem.
+26:26.600 --> 26:28.600
+as informações como ela espera
 
-01:43:02.080 --> 01:43:05.080
-Mas pera aí, deixa eu pegar uma... uma que funcionou...
+26:28.600 --> 26:30.600
+basicamente é essa a situação que tá
 
-01:43:07.080 --> 01:43:09.080
-Aquele dia...
+26:30.600 --> 26:32.600
+agora sobre o piloto ADE
 
-01:43:09.080 --> 01:43:11.080
-Essa.
+26:32.600 --> 26:34.600
+sobre o LIS
 
-01:43:12.080 --> 01:43:15.080
-Então, a gente foi mandando titularidade.
+26:34.600 --> 26:36.600
+eu não tô mais considerando isso
 
-01:43:19.080 --> 01:43:21.080
-Então, estava funcionando.
+26:36.600 --> 26:38.600
+desde a feira tá gente
 
-01:43:22.080 --> 01:43:25.080
-Mas pera aí, deixa eu só confirmar aqui uma coisa.
+26:38.600 --> 26:40.600
+não tô esperando isso nos testes
 
-01:43:25.080 --> 01:43:27.080
-Porque essas informações são quase ser...
+26:40.600 --> 26:42.600
+eu acredito que sim
 
-01:43:27.080 --> 01:43:29.080
-Não, pera aí, deixa eu ver.
+26:42.600 --> 26:44.600
+mas a gente não tá pilotando isso em produção
 
-01:43:29.080 --> 01:43:31.080
-Tem uma coisa errada.
+26:44.600 --> 26:46.600
+então acho que se o múltiplo entrar
 
-01:43:33.080 --> 01:43:36.080
-Essa aqui está vindo, está retornando.
+26:46.600 --> 26:48.600
+você vai testando pelo outro ADM
 
-01:43:37.080 --> 01:43:39.080
-Mas por que é que...
+26:48.600 --> 26:50.600
+é, beleza
 
-01:43:39.080 --> 01:43:42.080
-Por que é que essas aqui não estão retornando?
+26:50.600 --> 26:52.600
+mas acho que assim
 
-01:43:50.080 --> 01:43:53.080
-Comece as suas especiales na unidade.
+26:52.600 --> 26:54.600
+acho que vale a gente dar uma
 
-01:44:00.080 --> 01:44:02.080
-4.
+26:54.600 --> 26:56.600
+repassada ali no plano de teste
 
-01:44:06.080 --> 01:44:08.080
-4.
+26:56.600 --> 26:58.600
+como um todo
 
-01:44:08.080 --> 01:44:10.080
-3.
+26:58.600 --> 27:00.600
+ver, tentar enxergar esses cenários
 
-01:44:10.080 --> 01:44:12.080
-4.
+27:00.600 --> 27:02.600
+que a gente consegue
 
-01:44:12.080 --> 01:44:14.080
-5.
+27:02.600 --> 27:04.600
+o que a gente precisa mesmo
 
-01:44:14.080 --> 01:44:16.080
-6.
+27:04.600 --> 27:06.600
+testar em homologação
 
-01:44:16.080 --> 01:44:18.080
-7.
+27:06.600 --> 27:08.600
+pra gente ser mais assertivo nos testes
 
-01:44:18.080 --> 01:44:20.080
-8.
+27:08.600 --> 27:10.600
+e assim, acho que não tem que ser uma análise
 
-01:44:20.080 --> 01:44:22.080
-9.
+27:10.600 --> 27:12.600
+só da Giovanna, só do Pedro, só da Milena
 
-01:44:22.080 --> 01:44:24.080
-9.
+27:12.600 --> 27:14.600
+tem que ser uma análise do time todo
 
-01:44:24.080 --> 01:44:26.080
-9.
+27:14.600 --> 27:16.600
+também tem que opinar
 
-01:44:26.080 --> 01:44:28.080
-9.
+27:16.600 --> 27:18.600
+e assim
 
-01:44:28.080 --> 01:44:30.080
-9.
+27:18.600 --> 27:20.600
+o objetivo aqui é a gente ganhar agilidade
 
-01:44:30.080 --> 01:44:32.080
-9.
+27:20.600 --> 27:22.600
+pessoal assim
 
-01:44:32.080 --> 01:44:34.080
-9.
+27:22.600 --> 27:24.600
+a gente entende
 
-01:44:34.080 --> 01:44:36.080
-9.
+27:24.600 --> 27:26.600
+a gente tem acompanhado aqui e entende
 
-01:44:36.080 --> 01:44:38.080
-9.
+27:26.600 --> 27:28.600
+todos os problemas que passaram
 
-01:44:38.080 --> 01:44:40.080
-9.
+27:28.600 --> 27:30.600
+que aconteceram nessa homologação
 
-01:44:40.080 --> 01:44:42.080
-10.
+27:30.600 --> 27:32.600
+mas assim, não dá pra achar normal
 
-01:44:42.080 --> 01:44:44.080
-11.
+27:32.600 --> 27:34.600
+e se conformar com uma homologação que tá durando
 
-01:44:44.080 --> 01:44:46.080
-12.
+27:34.600 --> 27:36.600
+quase um mês, né?
 
-01:44:46.080 --> 01:44:48.080
-13.
+27:36.600 --> 27:38.600
+então se a gente tá bem atrasado
 
-01:44:48.080 --> 01:44:50.080
-14.
+27:38.600 --> 27:40.600
+a gente precisa que todo mundo
 
-01:44:50.080 --> 01:44:52.080
-15.
+27:40.600 --> 27:42.600
+atui junto aqui
 
-01:44:52.080 --> 01:44:54.080
-16.
+27:42.600 --> 27:44.600
+o máximo que der
 
-01:44:54.080 --> 01:44:56.080
-16.
+27:44.600 --> 27:46.600
+pra gente conseguir desenrolar esse negócio
 
-01:44:56.080 --> 01:44:58.080
-18.
+27:46.600 --> 27:48.600
+a gente tem outras demandas pra fazer também
 
-01:44:58.080 --> 01:45:00.080
-20.
+27:48.600 --> 27:50.600
+não só a entrega que tá atrasada
 
-01:45:00.080 --> 01:45:07.720
-приenzado
+27:50.600 --> 27:52.600
+mas tá atrasando as outras entregas que a squad tem
 
-01:45:08.320 --> 01:45:23.240
-câmeras
+27:52.600 --> 27:54.600
+então, acho que
 
-01:45:30.080 --> 01:45:35.080
-Aqui, retornando.
+27:54.600 --> 27:56.600
+todo mundo aqui em conjunto
 
-01:46:00.080 --> 01:46:15.080
-Aqui, retornando.
+27:56.600 --> 27:58.600
+tentar pensar numa forma de a gente ganhar tempo
 
-01:46:15.080 --> 01:46:35.080
-Aqui, retornando.
+27:58.600 --> 28:00.600
+e agilizar
 
-01:46:35.080 --> 01:46:45.080
-Aqui, retornando.
+28:00.600 --> 28:02.600
+pra encerrar essa homologação
 
-01:46:45.080 --> 01:46:55.080
-Aqui, retornando.
+28:02.600 --> 28:04.600
+porque eu acho que vocês também já devem estar cansados
 
-01:46:55.080 --> 01:47:05.080
-Aqui, retornando.
+28:04.600 --> 28:06.600
+então
 
-01:47:05.080 --> 01:47:15.080
-Aqui, retornando.
+28:06.600 --> 28:08.600
+vejam aí, se entender
 
-01:47:15.080 --> 01:47:25.080
-Aqui, no cenário de nenhuma, sem piloto AD, com a chave desligada do AD.
+28:08.600 --> 28:10.600
+que não dá pra enxungar nada, paciência
 
-01:47:25.080 --> 01:47:45.080
-Aqui, no cenário de nenhuma, sem piloto AD, com a chave desligada do AD.
+28:10.600 --> 28:12.600
+aí vamos tentar
+
+28:12.600 --> 28:14.600
+resolver os enroscos o mais rápido possível
+
+28:16.600 --> 28:18.600
+Pedrinho, você tava com a mão levantada
+
+28:18.600 --> 28:20.600
+não sei se você vai falar alguma coisa
+
+28:24.600 --> 28:26.600
+eu falo lá na salinha de tech
+
+28:26.600 --> 28:28.600
+tá tranquilo
+
+28:28.600 --> 28:30.600
+e que faz
+
+28:40.600 --> 28:42.600
+a gente então
+
+28:42.600 --> 28:44.600
+acho que é isso
+
+28:44.600 --> 28:46.600
+a gente vai fazer esse exercício aqui
+
+28:46.600 --> 28:48.600
+a gente passa pro Rafa pra Fê
+
+28:48.600 --> 28:50.600
+e bora pra cima
+
+28:50.600 --> 28:52.600
+valeu gente, obrigado
+
+28:52.600 --> 28:54.600
+ótima terça pra todo mundo
+
+28:54.600 --> 28:56.600
+prazer gente, tchau
+
+28:56.600 --> 28:58.600
+valeu gente, bom dia
 
